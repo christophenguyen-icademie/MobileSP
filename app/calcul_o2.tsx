@@ -2,10 +2,11 @@ import Slider from "@react-native-community/slider";
 import { Picker } from "@react-native-picker/picker";
 import React, { useMemo, useState } from "react";
 import {
-    SafeAreaView,
-    StyleSheet,
-    Text,
-    View,
+  SafeAreaView,
+  ScrollView,
+  StyleSheet,
+  Text,
+  View,
 } from "react-native";
 
 type Contenance = 4 | 5 | 6 | 15;
@@ -31,164 +32,300 @@ export default function Calcul_O2(): JSX.Element {
     return `${h} h ${m} min`;
   };
 
-  // -----------------------------
-  // Logique suggestion matériel
-  // -----------------------------
   const materiel = useMemo(() => {
     if (!debitValid) return null;
 
-    if (debit <= 6)
+    if (debit <= 6) {
       return {
         label: "Lunettes O₂",
-        color: "#4CAF50",
+        color: "#22C55E",
+        bg: "#ECFDF5",
         info: "Débit compatible lunettes (1–6 L/min)",
+        icon: "😷",
       };
+    }
 
     return {
       label: "Masque Haute Concentration",
-      color: "#FB8C00",
+      color: "#F97316",
+      bg: "#FFF7ED",
       info: "Débit > 6 L/min → privilégier MHC",
+      icon: "🫁",
     };
   }, [debit, debitValid]);
 
+  const percentage = Math.min(100, Math.max(0, (pression / 300) * 100));
+
   return (
-    <SafeAreaView style={styles.container}>
-      {/* Contenance */}
-      <Text style={styles.label}>Contenance</Text>
-      <View style={styles.box}>
-        <Picker
-          selectedValue={contenance}
-          onValueChange={(v) => setContenance(v as Contenance)}
+      <SafeAreaView style={styles.container}>
+        <ScrollView
+            contentContainerStyle={styles.scrollContent}
+            showsVerticalScrollIndicator={false}
         >
-          {CONTENANCES.map((c) => (
-            <Picker.Item key={c} label={`${c} L`} value={c} />
-          ))}
-        </Picker>
-      </View>
+          <View style={styles.header}>
+            <Text style={styles.title}>Calcul O₂</Text>
+            <Text style={styles.subtitle}>
+              Estime rapidement l’autonomie de ta bouteille et le matériel conseillé.
+            </Text>
+          </View>
 
-      {/* Pression */}
-      <Text style={styles.label}>
-        Pression : {pression} bar
-      </Text>
-      <Slider
-        minimumTrackTintColor="#FB8C00"
-        maximumTrackTintColor="#FB8C00"
-        thumbTintColor="#FB8C00"
-        minimumValue={0}
-        maximumValue={300}
-        step={1}
-        value={pression}
-        onValueChange={setPression}
+          <View style={styles.card}>
+            <Text style={styles.cardTitle}>Contenance</Text>
+            <View style={styles.pickerBox}>
+              <Picker
+                  selectedValue={contenance}
+                  onValueChange={(v) => setContenance(v as Contenance)}
+                  dropdownIconColor="#0F172A"
+                  style={styles.picker}
+              >
+                {CONTENANCES.map((c) => (
+                    <Picker.Item key={c} label={`${c} L`} value={c} />
+                ))}
+              </Picker>
+            </View>
+          </View>
 
-      />
+          <View style={styles.card}>
+            <View style={styles.rowBetween}>
+              <Text style={styles.cardTitle}>Pression</Text>
+              <Text style={styles.valuePill}>{pression} bar</Text>
+            </View>
 
-      {/* Débit */}
-      <Text style={styles.label}>
-        Débit : {debit} L/min
-      </Text>
-      <Slider
-        minimumTrackTintColor="#FB8C00"
-        maximumTrackTintColor="#FB8C00"
-        thumbTintColor="#FB8C00"
-        minimumValue={1}
-        maximumValue={15}
-        step={1}
-        value={debit}
-        onValueChange={setDebit}
-      />
+            <View style={styles.sliderInfoRow}>
+              <Text style={styles.sliderHint}>0</Text>
+              <Text style={styles.sliderHint}>300</Text>
+            </View>
 
-      {/* Résultat autonomie */}
-      <View style={styles.result}>
-        <Text style={styles.resultValue}>
-          {tempsRestant.toFixed(1)} min
-        </Text>
-        <Text>{formatTemps(tempsRestant)}</Text>
-      </View>
+            <Slider
+                minimumTrackTintColor="#38BDF8"
+                maximumTrackTintColor="#D6E4F0"
+                thumbTintColor="#0EA5E9"
+                minimumValue={0}
+                maximumValue={300}
+                step={1}
+                value={pression}
+                onValueChange={setPression}
+            />
 
-      {/* Suggestion matériel */}
-      {materiel && (
-        <View
-          style={[
-            styles.materialBox,
-            { borderColor: materiel.color, backgroundColor: "#ffffff" },
-          ]}
-        >
-          <Text
-            style={[
-              styles.materialTitle,
-              { color: materiel.color },
-            ]}
-          >
-            Matériel conseillé
-          </Text>
+            <View style={styles.progressTrack}>
+              <View style={[styles.progressFill, { width: `${percentage}%` }]} />
+            </View>
+          </View>
 
-          <Text style={styles.materialLabel}>
-            {materiel.label}
-          </Text>
+          <View style={styles.card}>
+            <View style={styles.rowBetween}>
+              <Text style={styles.cardTitle}>Débit</Text>
+              <Text style={styles.valuePill}>{debit} L/min</Text>
+            </View>
 
-          <Text style={styles.materialInfo}>
-            {materiel.info}
-          </Text>
-        </View>
-      )}
-    </SafeAreaView>
+            <View style={styles.sliderInfoRow}>
+              <Text style={styles.sliderHint}>1</Text>
+              <Text style={styles.sliderHint}>15</Text>
+            </View>
+
+            <Slider
+                minimumTrackTintColor="#F97316"
+                maximumTrackTintColor="#D6E4F0"
+                thumbTintColor="#F97316"
+                minimumValue={1}
+                maximumValue={15}
+                step={1}
+                value={debit}
+                onValueChange={setDebit}
+            />
+          </View>
+
+          <View style={styles.resultCard}>
+            <Text style={styles.resultLabel}>Autonomie estimée</Text>
+            <Text style={styles.resultValue}>{tempsRestant.toFixed(1)} min</Text>
+            <Text style={styles.resultHuman}>{formatTemps(tempsRestant)}</Text>
+          </View>
+
+          {materiel && (
+              <View
+                  style={[
+                    styles.materialBox,
+                    {
+                      borderColor: materiel.color,
+                      backgroundColor: materiel.bg,
+                    },
+                  ]}
+              >
+                <View style={styles.materialHeader}>
+                  <Text style={styles.materialIcon}>{materiel.icon}</Text>
+                  <Text
+                      style={[
+                        styles.materialTitle,
+                        { color: materiel.color },
+                      ]}
+                  >
+                    Matériel conseillé
+                  </Text>
+                </View>
+
+                <Text style={styles.materialLabel}>{materiel.label}</Text>
+                <Text style={styles.materialInfo}>{materiel.info}</Text>
+              </View>
+          )}
+        </ScrollView>
+      </SafeAreaView>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    padding: 20,
-   
-    backgroundColor: "#1f176a"
+    backgroundColor: "#F5F7FB",
+  },
+  scrollContent: {
+    padding: 18,
+    paddingBottom: 28,
+  },
+  header: {
+    marginBottom: 16,
   },
   title: {
-    fontSize: 26,
-    fontWeight: "600",
-    textAlign: "center",
-    marginBottom: 20,
+    fontSize: 30,
+    fontWeight: "900",
+    color: "#0F172A",
+    letterSpacing: -0.5,
   },
-  label: {
-    marginTop: 12,
-    fontSize: 16,
-    color: "#ffffff"
+  subtitle: {
+    marginTop: 6,
+    fontSize: 14,
+    lineHeight: 20,
+    color: "#64748B",
   },
-  box: {
-    borderWidth: 2,
-    borderRadius: 8,
-    padding: 2,
-    borderColor: "#4CAF50",
-    backgroundColor: "#ffffff",
-    marginBottom:20
+  card: {
+    backgroundColor: "#FFFFFF",
+    borderRadius: 22,
+    padding: 16,
+    marginBottom: 14,
+    shadowColor: "#0F172A",
+    shadowOpacity: 0.06,
+    shadowRadius: 12,
+    shadowOffset: { width: 0, height: 6 },
+    elevation: 3,
+    borderWidth: 1,
+    borderColor: "#EEF2F7",
   },
-  result: {
-    marginTop: 100,
-    padding: 14,
-    backgroundColor: "#ffffff",
-    borderRadius: 10,
+  cardTitle: {
+    fontSize: 15,
+    fontWeight: "800",
+    color: "#0F172A",
+    marginBottom: 10,
+  },
+  pickerBox: {
+    borderWidth: 1,
+    borderColor: "#D7DEE8",
+    borderRadius: 16,
+    backgroundColor: "#FAFBFD",
+    overflow: "hidden",
+  },
+  picker: {
+    color: "#0F172A",
+  },
+  rowBetween: {
+    flexDirection: "row",
     alignItems: "center",
+    justifyContent: "space-between",
+  },
+  valuePill: {
+    backgroundColor: "#EAF4FF",
+    color: "#007AFF",
+    fontWeight: "800",
+    borderRadius: 999,
+    paddingHorizontal: 12,
+    paddingVertical: 6,
+    overflow: "hidden",
+    fontSize: 13,
+  },
+  sliderInfoRow: {
+    flexDirection: "row",
+    justifyContent: "space-between",
+    marginBottom: 4,
+    marginTop: 2,
+  },
+  sliderHint: {
+    fontSize: 12,
+    color: "#94A3B8",
+    fontWeight: "600",
+  },
+  progressTrack: {
+    height: 8,
+    borderRadius: 999,
+    backgroundColor: "#E2E8F0",
+    marginTop: 10,
+    overflow: "hidden",
+  },
+  progressFill: {
+    height: "100%",
+    borderRadius: 999,
+    backgroundColor: "#38BDF8",
+  },
+  resultCard: {
+    backgroundColor: "#0F172A",
+    borderRadius: 24,
+    paddingVertical: 22,
+    paddingHorizontal: 18,
+    alignItems: "center",
+    marginTop: 4,
+    marginBottom: 14,
+    shadowColor: "#0F172A",
+    shadowOpacity: 0.18,
+    shadowRadius: 14,
+    shadowOffset: { width: 0, height: 8 },
+    elevation: 5,
+  },
+  resultLabel: {
+    color: "#94A3B8",
+    fontSize: 13,
+    fontWeight: "700",
+    textTransform: "uppercase",
+    letterSpacing: 0.8,
   },
   resultValue: {
-    fontSize: 24,
-    fontWeight: "700",
+    marginTop: 10,
+    fontSize: 34,
+    fontWeight: "900",
+    color: "#FFFFFF",
+    letterSpacing: -0.8,
   },
-  materialBox: {
-    marginTop: 20,
-    borderWidth: 2,
-    borderRadius: 10,
-    padding: 14,
-    backgroundColor: "#1f176a"
-  },
-  materialTitle: {
-    fontWeight: "700",
-    marginBottom: 6,
-  },
-  materialLabel: {
-    fontSize: 18,
+  resultHuman: {
+    marginTop: 4,
+    fontSize: 14,
+    color: "#CBD5E1",
     fontWeight: "600",
   },
+  materialBox: {
+    borderWidth: 1.5,
+    borderRadius: 22,
+    padding: 16,
+  },
+  materialHeader: {
+    flexDirection: "row",
+    alignItems: "center",
+    gap: 10,
+    marginBottom: 8,
+  },
+  materialIcon: {
+    fontSize: 22,
+  },
+  materialTitle: {
+    fontWeight: "900",
+    fontSize: 14,
+    textTransform: "uppercase",
+    letterSpacing: 0.4,
+  },
+  materialLabel: {
+    fontSize: 20,
+    fontWeight: "800",
+    color: "#0F172A",
+  },
   materialInfo: {
-    marginTop: 4,
-    opacity: 0.8,
-  }
+    marginTop: 6,
+    color: "#334155",
+    fontSize: 14,
+    lineHeight: 20,
+  },
 });
