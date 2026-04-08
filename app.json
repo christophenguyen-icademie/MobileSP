@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "MobileSP",
+    "slug": "mobilesp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/ecusson_troyes.jpg",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/images/sdis10.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTabletMode": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/ecusson_troyes.jpg",
+        "backgroundColor": "#1f176a"
+      },
+      "package": "com.nguyenvanchristophe.mobilesp"
+    },
+    "web": {
+      "favicon": "./assets/images/ecusson_troyes.jpg"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "5c9e833d-e8fd-4d71-9cb4-9f963d1d5e27"
+      }
+    },
+    "plugins": [
+      "expo-asset"
+    ]
+  },
+  "name": "MobileSP"
+}

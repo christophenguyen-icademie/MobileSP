@@ -1,0 +1,2729 @@
+{"metadata": {"quality": "high", "count": 1000}, "questions": [
+
+{
+"id":1,
+"level":"PSE1",
+"difficulty":"facile",
+"module":"bilan",
+"type":"single",
+"question":"<p>Quel est l’objectif principal du bilan circonstanciel ?</p>",
+"choices":[
+{"id":"A","text":"Comprendre la situation et les risques"},
+{"id":"B","text":"Traiter immédiatement la victime"},
+{"id":"C","text":"Transporter la victime"},
+{"id":"D","text":"Mesurer les constantes"}
+],
+"answers":["A"],
+"explanation":"Le bilan circonstanciel permet d’analyser l’environnement et les risques.",
+"reference":"PSE 2024"
+},
+{
+"id":2,
+"level":"PSE1",
+"difficulty":"moyen",
+"module":"bilan",
+"type":"multiple",
+"question":"<p>Quels éléments sont recherchés lors du bilan circonstanciel ?</p>",
+"choices":[
+{"id":"A","text":"Nombre de victimes"},
+{"id":"B","text":"Nature de l’événement"},
+{"id":"C","text":"Risques persistants"},
+{"id":"D","text":"Tension artérielle"}
+],
+"answers":["A","B","C"],
+"explanation":"Le bilan circonstanciel concerne la situation globale, pas les constantes.",
+"reference":"PSE 2024"
+},
+{
+"id":3,
+"level":"PSE1",
+"difficulty":"facile",
+"module":"bilan",
+"type":"single",
+"question":"<p>Quel bilan est réalisé en priorité après le bilan circonstanciel ?</p>",
+"choices":[
+{"id":"A","text":"Bilan d’urgence vitale"},
+{"id":"B","text":"Bilan complémentaire"},
+{"id":"C","text":"Bilan secondaire"},
+{"id":"D","text":"Bilan matériel"}
+],
+"answers":["A"],
+"explanation":"Le bilan d’urgence vitale permet d’identifier une détresse immédiate.",
+"reference":"PSE 2024"
+},
+{
+"id":4,
+"level":"PSE1",
+"difficulty":"moyen",
+"module":"bilan",
+"type":"multiple",
+"question":"<p>Quels paramètres font partie du bilan d’urgence vitale ?</p>",
+"choices":[
+{"id":"A","text":"Conscience"},
+{"id":"B","text":"Respiration"},
+{"id":"C","text":"Circulation"},
+{"id":"D","text":"Poids"}
+],
+"answers":["A","B","C"],
+"explanation":"Le bilan vital repose sur ces trois fonctions.",
+"reference":"PSE 2024"
+},
+{
+"id":5,
+"level":"PSE1",
+"difficulty":"moyen",
+"module":"bilan",
+"type":"single",
+"question":"<p>Pourquoi le bilan d’urgence vitale doit-il être rapide ?</p>",
+"choices":[
+{"id":"A","text":"Identifier une détresse vitale"},
+{"id":"B","text":"Rassurer la victime"},
+{"id":"C","text":"Gagner du temps administratif"},
+{"id":"D","text":"Préparer le transport"}
+],
+"answers":["A"],
+"explanation":"Il permet de détecter rapidement une urgence.",
+"reference":"PSE 2024"
+},
+{
+"id":6,
+"level":"PSE1",
+"difficulty":"moyen",
+"module":"bilan",
+"type":"single",
+"question":"<p>Quel élément est évalué en premier lors du bilan d’urgence vitale ?</p>",
+"choices":[
+{"id":"A","text":"La conscience"},
+{"id":"B","text":"La douleur"},
+{"id":"C","text":"La température"},
+{"id":"D","text":"La glycémie"}
+],
+"answers":["A"],
+"explanation":"La conscience est le premier critère.",
+"reference":"PSE 2024"
+},
+{
+"id":7,
+"level":"PSE2",
+"difficulty":"moyen",
+"module":"bilan",
+"type":"single",
+"question":"<p>Que permet d’évaluer la fréquence respiratoire ?</p>",
+"choices":[
+{"id":"A","text":"L’efficacité ventilatoire"},
+{"id":"B","text":"La douleur"},
+{"id":"C","text":"La circulation"},
+{"id":"D","text":"La température"}
+],
+"answers":["A"],
+"explanation":"Elle renseigne sur la ventilation.",
+"reference":"PSE 2024"
+},
+{
+"id":8,
+"level":"PSE1",
+"difficulty":"moyen",
+"module":"bilan",
+"type":"single",
+"question":"<p>Quel est le but du bilan complémentaire ?</p>",
+"choices":[
+{"id":"A","text":"Rechercher des lésions"},
+{"id":"B","text":"Sauver immédiatement"},
+{"id":"C","text":"Transporter"},
+{"id":"D","text":"Arrêter l’intervention"}
+],
+"answers":["A"],
+"explanation":"Il complète le bilan vital.",
+"reference":"PSE 2024"
+},
+{
+"id":9,
+"level":"PSE1",
+"difficulty":"facile",
+"module":"bilan",
+"type":"single",
+"question":"<p>Quand réalise-t-on le bilan complémentaire ?</p>",
+"choices":[
+{"id":"A","text":"Après le bilan vital"},
+{"id":"B","text":"Avant l’arrivée"},
+{"id":"C","text":"Après transport"},
+{"id":"D","text":"Jamais"}
+],
+"answers":["A"],
+"explanation":"Il suit le bilan vital.",
+"reference":"PSE 2024"
+},
+{
+"id":10,
+"level":"PSE2",
+"difficulty":"moyen",
+"module":"bilan",
+"type":"multiple",
+"question":"<p>Quels signes peuvent indiquer une détresse circulatoire ?</p>",
+"choices":[
+{"id":"A","text":"Pâleur"},
+{"id":"B","text":"Sueurs"},
+{"id":"C","text":"Pouls rapide"},
+{"id":"D","text":"Toux"}
+],
+"answers":["A","B","C"],
+"explanation":"Ce sont des signes de choc.",
+"reference":"PSE 2024"
+},
+{
+"id":11,
+"level":"PSE1",
+"difficulty":"moyen",
+"module":"bilan",
+"type":"single",
+"question":"<p>Quel est l’intérêt du bilan circonstanciel pour le chef d’agrès ?</p>",
+"choices":[
+{"id":"A","text":"Adapter les moyens engagés"},
+{"id":"B","text":"Mesurer la tension"},
+{"id":"C","text":"Transporter rapidement"},
+{"id":"D","text":"Faire un diagnostic médical"}
+],
+"answers":["A"],
+"explanation":"Il permet d’adapter les moyens et renforts.",
+"reference":"PSE 2024"
+},
+{
+"id":12,
+"level":"PSE1",
+"difficulty":"moyen",
+"module":"bilan",
+"type":"single",
+"question":"<p>Que signifie une victime qui ne répond pas mais respire ?</p>",
+"choices":[
+{"id":"A","text":"Inconscience"},
+{"id":"B","text":"Arrêt cardiaque"},
+{"id":"C","text":"Détresse circulatoire"},
+{"id":"D","text":"Hypothermie"}
+],
+"answers":["A"],
+"explanation":"Absence de réponse avec respiration = inconscience.",
+"reference":"PSE 2024"
+},
+{
+"id":13,
+"level":"PSE1",
+"difficulty":"moyen",
+"module":"bilan",
+"type":"single",
+"question":"<p>Quel élément oriente vers une détresse respiratoire lors du bilan ?</p>",
+"choices":[
+{"id":"A","text":"Respiration rapide"},
+{"id":"B","text":"Température basse"},
+{"id":"C","text":"Douleur locale"},
+{"id":"D","text":"Fracture visible"}
+],
+"answers":["A"],
+"explanation":"Une respiration anormale est un signe majeur.",
+"reference":"PSE 2024"
+},
+{
+"id":14,
+"level":"PSE2",
+"difficulty":"moyen",
+"module":"bilan",
+"type":"multiple",
+"question":"<p>Quels éléments permettent d’évaluer la circulation ?</p>",
+"choices":[
+{"id":"A","text":"Pouls"},
+{"id":"B","text":"Coloration de la peau"},
+{"id":"C","text":"Temps de recoloration"},
+{"id":"D","text":"Fréquence respiratoire"}
+],
+"answers":["A","B","C"],
+"explanation":"Ces éléments reflètent la perfusion.",
+"reference":"PSE 2024"
+},
+{
+"id":15,
+"level":"PSE1",
+"difficulty":"facile",
+"module":"bilan",
+"type":"single",
+"question":"<p>Pourquoi rechercher des témoins lors du bilan ?</p>",
+"choices":[
+{"id":"A","text":"Obtenir des informations"},
+{"id":"B","text":"Les rassurer"},
+{"id":"C","text":"Les éloigner"},
+{"id":"D","text":"Gagner du temps"}
+],
+"answers":["A"],
+"explanation":"Les témoins apportent des éléments clés.",
+"reference":"PSE 2024"
+},
+{
+"id":16,
+"level":"PSE2",
+"difficulty":"difficile",
+"module":"bilan",
+"type":"single",
+"question":"<p>Une victime présente une respiration lente et irrégulière. Que suspectez-vous ?</p>",
+"choices":[
+{"id":"A","text":"Détresse respiratoire grave"},
+{"id":"B","text":"Stress"},
+{"id":"C","text":"Douleur simple"},
+{"id":"D","text":"Fatigue"}
+],
+"answers":["A"],
+"explanation":"Respiration irrégulière = signe de gravité.",
+"reference":"PSE 2024"
+},
+{
+"id":17,
+"level":"PSE1",
+"difficulty":"moyen",
+"module":"bilan",
+"type":"single",
+"question":"<p>Quel est le but de la surveillance continue ?</p>",
+"choices":[
+{"id":"A","text":"Détecter une aggravation"},
+{"id":"B","text":"Remplacer le bilan"},
+{"id":"C","text":"Transporter"},
+{"id":"D","text":"Soigner directement"}
+],
+"answers":["A"],
+"explanation":"La surveillance permet d’anticiper une dégradation.",
+"reference":"PSE 2024"
+},
+{
+"id":18,
+"level":"PSE1",
+"difficulty":"facile",
+"module":"bilan",
+"type":"single",
+"question":"<p>Quand débute la surveillance d’une victime ?</p>",
+"choices":[
+{"id":"A","text":"Dès le premier contact"},
+{"id":"B","text":"Après transport"},
+{"id":"C","text":"Après bilan complet"},
+{"id":"D","text":"Jamais"}
+],
+"answers":["A"],
+"explanation":"Elle commence immédiatement.",
+"reference":"PSE 2024"
+},
+{
+"id":19,
+"level":"PSE2",
+"difficulty":"moyen",
+"module":"bilan",
+"type":"multiple",
+"question":"<p>Quels signes orientent vers une détresse neurologique ?</p>",
+"choices":[
+{"id":"A","text":"Perte de connaissance"},
+{"id":"B","text":"Troubles de la parole"},
+{"id":"C","text":"Convulsions"},
+{"id":"D","text":"Toux"}
+],
+"answers":["A","B","C"],
+"explanation":"Ce sont des signes neurologiques.",
+"reference":"PSE 2024"
+},
+{
+"id":20,
+"level":"PSE1",
+"difficulty":"moyen",
+"module":"bilan",
+"type":"single",
+"question":"<p>Quelle est la priorité après identification d’une détresse vitale ?</p>",
+"choices":[
+{"id":"A","text":"Mettre en œuvre les gestes adaptés"},
+{"id":"B","text":"Faire un bilan complet"},
+{"id":"C","text":"Attendre"},
+{"id":"D","text":"Transporter immédiatement"}
+],
+"answers":["A"],
+"explanation":"La prise en charge est immédiate.",
+"reference":"PSE 2024"
+},
+{
+"id":21,
+"level":"PSE1",
+"difficulty":"moyen",
+"module":"bilan",
+"type":"single",
+"question":"<p>Quel élément peut indiquer une aggravation rapide de l’état de la victime ?</p>",
+"choices":[
+{"id":"A","text":"Modification de la conscience"},
+{"id":"B","text":"Faim"},
+{"id":"C","text":"Fatigue légère"},
+{"id":"D","text":"Soif"}
+],
+"answers":["A"],
+"explanation":"Une altération de la conscience est un signe grave.",
+"reference":"PSE 2024"
+},
+{
+"id":22,
+"level":"PSE2",
+"difficulty":"moyen",
+"module":"bilan",
+"type":"multiple",
+"question":"<p>Quels paramètres doivent être surveillés régulièrement ?</p>",
+"choices":[
+{"id":"A","text":"Conscience"},
+{"id":"B","text":"Respiration"},
+{"id":"C","text":"Pouls"},
+{"id":"D","text":"Couleur des yeux"}
+],
+"answers":["A","B","C"],
+"explanation":"Ces paramètres permettent de suivre l’évolution.",
+"reference":"PSE 2024"
+},
+{
+"id":23,
+"level":"PSE1",
+"difficulty":"facile",
+"module":"bilan",
+"type":"single",
+"question":"<p>Pourquoi noter les informations recueillies ?</p>",
+"choices":[
+{"id":"A","text":"Assurer la transmission"},
+{"id":"B","text":"Gagner du temps"},
+{"id":"C","text":"Rassurer"},
+{"id":"D","text":"Remplacer le bilan"}
+],
+"answers":["A"],
+"explanation":"Les informations doivent être transmises aux secours.",
+"reference":"PSE 2024"
+},
+{
+"id":24,
+"level":"PSE1",
+"difficulty":"moyen",
+"module":"bilan",
+"type":"single",
+"question":"<p>Quel signe peut indiquer une détresse circulatoire ?</p>",
+"choices":[
+{"id":"A","text":"Pâleur"},
+{"id":"B","text":"Rougeur"},
+{"id":"C","text":"Transpiration locale"},
+{"id":"D","text":"Frissons isolés"}
+],
+"answers":["A"],
+"explanation":"La pâleur est un signe de mauvaise perfusion.",
+"reference":"PSE 2024"
+},
+{
+"id":25,
+"level":"PSE2",
+"difficulty":"moyen",
+"module":"bilan",
+"type":"single",
+"question":"<p>Une peau froide et moite évoque :</p>",
+"choices":[
+{"id":"A","text":"Un état de choc"},
+{"id":"B","text":"Une fièvre"},
+{"id":"C","text":"Une allergie simple"},
+{"id":"D","text":"Une brûlure"}
+],
+"answers":["A"],
+"explanation":"C’est un signe classique de choc.",
+"reference":"PSE 2024"
+},
+{
+"id":41,
+"level":"PSE1",
+"difficulty":"moyen",
+"module":"bilan",
+"type":"single",
+"question":"<p>Quelle information est essentielle à transmettre lors du bilan ?</p>",
+"choices":[
+{"id":"A","text":"L’état de la victime"},
+{"id":"B","text":"La météo"},
+{"id":"C","text":"Le nom du secouriste"},
+{"id":"D","text":"La marque du matériel"}
+],
+"answers":["A"],
+"explanation":"L’état de la victime est primordial pour adapter la réponse.",
+"reference":"PSE 2024"
+},
+{
+"id":42,
+"level":"PSE2",
+"difficulty":"moyen",
+"module":"bilan",
+"type":"multiple",
+"question":"<p>Quels éléments permettent d’évaluer la gravité d’une situation ?</p>",
+"choices":[
+{"id":"A","text":"Nombre de victimes"},
+{"id":"B","text":"Mécanisme de l’accident"},
+{"id":"C","text":"État de conscience"},
+{"id":"D","text":"Couleur du véhicule"}
+],
+"answers":["A","B","C"],
+"explanation":"Ces éléments permettent d’évaluer la gravité globale.",
+"reference":"PSE 2024"
+},
+{
+"id":43,
+"level":"PSE1",
+"difficulty":"facile",
+"module":"bilan",
+"type":"single",
+"question":"<p>Quand faut-il débuter le bilan d’urgence vitale ?</p>",
+"choices":[
+{"id":"A","text":"Immédiatement après protection"},
+{"id":"B","text":"Après transport"},
+{"id":"C","text":"Après appel"},
+{"id":"D","text":"Jamais"}
+],
+"answers":["A"],
+"explanation":"Le bilan vital est réalisé sans délai.",
+"reference":"PSE 2024"
+},
+{
+"id":44,
+"level":"PSE1",
+"difficulty":"moyen",
+"module":"bilan",
+"type":"single",
+"question":"<p>Une victime confuse présente quel type de détresse ?</p>",
+"choices":[
+{"id":"A","text":"Neurologique"},
+{"id":"B","text":"Respiratoire"},
+{"id":"C","text":"Circulatoire"},
+{"id":"D","text":"Digestive"}
+],
+"answers":["A"],
+"explanation":"La confusion est un signe neurologique.",
+"reference":"PSE 2024"
+},
+{
+"id":45,
+"level":"PSE2",
+"difficulty":"moyen",
+"module":"bilan",
+"type":"single",
+"question":"<p>Quel signe est associé à une détresse respiratoire ?</p>",
+"choices":[
+{"id":"A","text":"Tirage"},
+{"id":"B","text":"Frisson"},
+{"id":"C","text":"Faim"},
+{"id":"D","text":"Rougeur locale"}
+],
+"answers":["A"],
+"explanation":"Le tirage traduit un effort respiratoire.",
+"reference":"PSE 2024"
+},
+{
+"id":46,
+"level":"PSE1",
+"difficulty":"moyen",
+"module":"bilan",
+"type":"single",
+"question":"<p>Pourquoi interroger la victime consciente ?</p>",
+"choices":[
+{"id":"A","text":"Recueillir des informations"},
+{"id":"B","text":"La distraire"},
+{"id":"C","text":"La calmer uniquement"},
+{"id":"D","text":"Gagner du temps"}
+],
+"answers":["A"],
+"explanation":"Elle peut donner des informations essentielles.",
+"reference":"PSE 2024"
+},
+{
+"id":47,
+"level":"PSE1",
+"difficulty":"facile",
+"module":"bilan",
+"type":"single",
+"question":"<p>Quel élément est observé lors du bilan visuel ?</p>",
+"choices":[
+{"id":"A","text":"Aspect général"},
+{"id":"B","text":"Glycémie"},
+{"id":"C","text":"Tension artérielle"},
+{"id":"D","text":"Analyse sanguine"}
+],
+"answers":["A"],
+"explanation":"L’observation donne de nombreux indices.",
+"reference":"PSE 2024"
+},
+{
+"id":48,
+"level":"PSE2",
+"difficulty":"difficile",
+"module":"bilan",
+"type":"single",
+"question":"<p>Une respiration superficielle est un signe de :</p>",
+"choices":[
+{"id":"A","text":"Détresse respiratoire"},
+{"id":"B","text":"Bonne ventilation"},
+{"id":"C","text":"Calme"},
+{"id":"D","text":"Fatigue simple"}
+],
+"answers":["A"],
+"explanation":"Respiration inefficace = danger.",
+"reference":"PSE 2024"
+},
+{
+"id":49,
+"level":"PSE1",
+"difficulty":"moyen",
+"module":"bilan",
+"type":"multiple",
+"question":"<p>Quels signes indiquent une détresse circulatoire ?</p>",
+"choices":[
+{"id":"A","text":"Pâleur"},
+{"id":"B","text":"Sueurs"},
+{"id":"C","text":"Pouls rapide"},
+{"id":"D","text":"Toux"}
+],
+"answers":["A","B","C"],
+"explanation":"Ce sont des signes de choc.",
+"reference":"PSE 2024"
+},
+{
+"id":50,
+"level":"PSE1",
+"difficulty":"facile",
+"module":"bilan",
+"type":"single",
+"question":"<p>Pourquoi rassurer la victime ?</p>",
+"choices":[
+{"id":"A","text":"Limiter le stress"},
+{"id":"B","text":"Gagner du temps"},
+{"id":"C","text":"Éviter le bilan"},
+{"id":"D","text":"Remplacer les soins"}
+],
+"answers":["A"],
+"explanation":"Le stress aggrave l’état.",
+"reference":"PSE 2024"
+},
+{
+"id":51,
+"level":"PSE2",
+"difficulty":"moyen",
+"module":"bilan",
+"type":"single",
+"question":"<p>Un pouls rapide peut indiquer :</p>",
+"choices":[
+{"id":"A","text":"Un état de choc"},
+{"id":"B","text":"Repos"},
+{"id":"C","text":"Sommeil"},
+{"id":"D","text":"Calme"}
+],
+"answers":["A"],
+"explanation":"Tachycardie = compensation circulatoire.",
+"reference":"PSE 2024"
+},
+{
+"id":52,
+"level":"PSE1",
+"difficulty":"moyen",
+"module":"bilan",
+"type":"single",
+"question":"<p>Quel est le but de l’examen de la tête aux pieds ?</p>",
+"choices":[
+{"id":"A","text":"Rechercher des lésions"},
+{"id":"B","text":"Transporter"},
+{"id":"C","text":"Rassurer"},
+{"id":"D","text":"Immobiliser uniquement"}
+],
+"answers":["A"],
+"explanation":"Permet de détecter des blessures.",
+"reference":"PSE 2024"
+},
+{
+"id":53,
+"level":"PSE1",
+"difficulty":"facile",
+"module":"bilan",
+"type":"single",
+"question":"<p>Quel signe est inquiétant ?</p>",
+"choices":[
+{"id":"A","text":"Perte de connaissance"},
+{"id":"B","text":"Fatigue"},
+{"id":"C","text":"Soif"},
+{"id":"D","text":"Faim"}
+],
+"answers":["A"],
+"explanation":"C’est une urgence vitale.",
+"reference":"PSE 2024"
+},
+{
+"id":54,
+"level":"PSE2",
+"difficulty":"moyen",
+"module":"bilan",
+"type":"multiple",
+"question":"<p>Quels éléments orientent vers une détresse neurologique ?</p>",
+"choices":[
+{"id":"A","text":"Convulsions"},
+{"id":"B","text":"Confusion"},
+{"id":"C","text":"Perte de connaissance"},
+{"id":"D","text":"Toux"}
+],
+"answers":["A","B","C"],
+"explanation":"Signes neurologiques typiques.",
+"reference":"PSE 2024"
+},
+{
+"id":55,
+"level":"PSE1",
+"difficulty":"moyen",
+"module":"bilan",
+"type":"single",
+"question":"<p>Quel est l’intérêt de surveiller la peau ?</p>",
+"choices":[
+{"id":"A","text":"Évaluer la circulation"},
+{"id":"B","text":"Mesurer la douleur"},
+{"id":"C","text":"Analyser le sang"},
+{"id":"D","text":"Transporter"}
+],
+"answers":["A"],
+"explanation":"La peau reflète la perfusion.",
+"reference":"PSE 2024"
+},
+{
+"id":56,
+"level":"PSE1",
+"difficulty":"facile",
+"module":"bilan",
+"type":"single",
+"question":"<p>Une victime pâle doit faire suspecter :</p>",
+"choices":[
+{"id":"A","text":"Un problème circulatoire"},
+{"id":"B","text":"Une allergie"},
+{"id":"C","text":"Une brûlure"},
+{"id":"D","text":"Une infection"}
+],
+"answers":["A"],
+"explanation":"Pâleur = hypoperfusion.",
+"reference":"PSE 2024"
+},
+{
+"id":57,
+"level":"PSE2",
+"difficulty":"moyen",
+"module":"bilan",
+"type":"single",
+"question":"<p>Quel est le rôle du bilan transmis au SAMU ?</p>",
+"choices":[
+{"id":"A","text":"Adapter la réponse médicale"},
+{"id":"B","text":"Remplacer le médecin"},
+{"id":"C","text":"Faire un diagnostic final"},
+{"id":"D","text":"Clôturer l’intervention"}
+],
+"answers":["A"],
+"explanation":"Le SAMU adapte les moyens.",
+"reference":"PSE 2024"
+},
+{
+"id":58,
+"level":"PSE1",
+"difficulty":"moyen",
+"module":"bilan",
+"type":"single",
+"question":"<p>Quel signe est grave ?</p>",
+"choices":[
+{"id":"A","text":"Respiration irrégulière"},
+{"id":"B","text":"Fatigue"},
+{"id":"C","text":"Soif"},
+{"id":"D","text":"Faim"}
+],
+"answers":["A"],
+"explanation":"Respiration anormale = urgence.",
+"reference":"PSE 2024"
+},
+{
+"id":59,
+"level":"PSE1",
+"difficulty":"facile",
+"module":"bilan",
+"type":"single",
+"question":"<p>Pourquoi couvrir une victime ?</p>",
+"choices":[
+{"id":"A","text":"Éviter l’hypothermie"},
+{"id":"B","text":"La cacher"},
+{"id":"C","text":"Transporter"},
+{"id":"D","text":"Immobiliser"}
+],
+"answers":["A"],
+"explanation":"Le froid aggrave l’état.",
+"reference":"PSE 2024"
+},
+{
+"id":60,
+"level":"PSE2",
+"difficulty":"moyen",
+"module":"bilan",
+"type":"single",
+"question":"<p>Un temps de recoloration allongé indique :</p>",
+"choices":[
+{"id":"A","text":"Mauvaise perfusion"},
+{"id":"B","text":"Bonne circulation"},
+{"id":"C","text":"Fièvre"},
+{"id":"D","text":"Calme"}
+],
+"answers":["A"],
+"explanation":"TRC allongé = problème circulatoire.",
+"reference":"PSE 2024"
+},
+{
+"id":61,
+"level":"PSE1",
+"difficulty":"moyen",
+"module":"bilan",
+"type":"single",
+"question":"<p>Quel est le premier objectif du bilan d’urgence vitale ?</p>",
+"choices":[
+{"id":"A","text":"Identifier une détresse vitale"},
+{"id":"B","text":"Faire un diagnostic précis"},
+{"id":"C","text":"Préparer le transport"},
+{"id":"D","text":"Compléter la fiche bilan"}
+],
+"answers":["A"],
+"explanation":"Le bilan vital vise à détecter une urgence immédiate.",
+"reference":"PSE 2024"
+},
+{
+"id":62,
+"level":"PSE1",
+"difficulty":"facile",
+"module":"bilan",
+"type":"single",
+"question":"<p>Une victime qui répond correctement est considérée comme :</p>",
+"choices":[
+{"id":"A","text":"Consciente"},
+{"id":"B","text":"Inconsciente"},
+{"id":"C","text":"En arrêt cardiaque"},
+{"id":"D","text":"En détresse respiratoire"}
+],
+"answers":["A"],
+"explanation":"Une réponse adaptée signifie conscience.",
+"reference":"PSE 2024"
+},
+{
+"id":63,
+"level":"PSE2",
+"difficulty":"moyen",
+"module":"bilan",
+"type":"multiple",
+"question":"<p>Quels éléments doivent être surveillés en continu ?</p>",
+"choices":[
+{"id":"A","text":"Conscience"},
+{"id":"B","text":"Respiration"},
+{"id":"C","text":"Pouls"},
+{"id":"D","text":"Couleur des vêtements"}
+],
+"answers":["A","B","C"],
+"explanation":"Surveillance des fonctions vitales.",
+"reference":"PSE 2024"
+},
+{
+"id":64,
+"level":"PSE1",
+"difficulty":"moyen",
+"module":"bilan",
+"type":"single",
+"question":"<p>Une absence de réponse aux questions simples indique :</p>",
+"choices":[
+{"id":"A","text":"Altération de la conscience"},
+{"id":"B","text":"Fatigue"},
+{"id":"C","text":"Stress"},
+{"id":"D","text":"Douleur légère"}
+],
+"answers":["A"],
+"explanation":"C’est un signe neurologique.",
+"reference":"PSE 2024"
+},
+{
+"id":65,
+"level":"PSE1",
+"difficulty":"facile",
+"module":"bilan",
+"type":"single",
+"question":"<p>Quel est le rôle du bilan complémentaire ?</p>",
+"choices":[
+{"id":"A","text":"Rechercher des lésions"},
+{"id":"B","text":"Sauver immédiatement"},
+{"id":"C","text":"Transporter"},
+{"id":"D","text":"Arrêter l’intervention"}
+],
+"answers":["A"],
+"explanation":"Il complète le bilan vital.",
+"reference":"PSE 2024"
+},
+{
+"id":66,
+"level":"PSE2",
+"difficulty":"moyen",
+"module":"bilan",
+"type":"single",
+"question":"<p>Une respiration rapide peut traduire :</p>",
+"choices":[
+{"id":"A","text":"Une détresse respiratoire"},
+{"id":"B","text":"Un repos"},
+{"id":"C","text":"Un sommeil"},
+{"id":"D","text":"Une bonne ventilation"}
+],
+"answers":["A"],
+"explanation":"La tachypnée est un signe d’alerte.",
+"reference":"PSE 2024"
+},
+{
+"id":67,
+"level":"PSE1",
+"difficulty":"moyen",
+"module":"bilan",
+"type":"single",
+"question":"<p>Quel est le but de poser des questions simples à la victime ?</p>",
+"choices":[
+{"id":"A","text":"Évaluer la conscience"},
+{"id":"B","text":"La distraire"},
+{"id":"C","text":"Gagner du temps"},
+{"id":"D","text":"Remplir la fiche"}
+],
+"answers":["A"],
+"explanation":"Permet d’évaluer l’état neurologique.",
+"reference":"PSE 2024"
+},
+{
+"id":68,
+"level":"PSE1",
+"difficulty":"facile",
+"module":"bilan",
+"type":"single",
+"question":"<p>Une victime qui ouvre les yeux à l’appel est :</p>",
+"choices":[
+{"id":"A","text":"Consciente"},
+{"id":"B","text":"Inconsciente"},
+{"id":"C","text":"En ACR"},
+{"id":"D","text":"En détresse circulatoire"}
+],
+"answers":["A"],
+"explanation":"Réaction à l’appel = conscience.",
+"reference":"PSE 2024"
+},
+{
+"id":69,
+"level":"PSE2",
+"difficulty":"moyen",
+"module":"bilan",
+"type":"multiple",
+"question":"<p>Quels signes peuvent évoquer une détresse respiratoire ?</p>",
+"choices":[
+{"id":"A","text":"Tirage"},
+{"id":"B","text":"Respiration rapide"},
+{"id":"C","text":"Cyanose"},
+{"id":"D","text":"Faim"}
+],
+"answers":["A","B","C"],
+"explanation":"Ce sont des signes respiratoires.",
+"reference":"PSE 2024"
+},
+{
+"id":70,
+"level":"PSE1",
+"difficulty":"moyen",
+"module":"bilan",
+"type":"single",
+"question":"<p>Quel signe indique une détresse neurologique ?</p>",
+"choices":[
+{"id":"A","text":"Convulsions"},
+{"id":"B","text":"Toux"},
+{"id":"C","text":"Douleur locale"},
+{"id":"D","text":"Rougeur"}
+],
+"answers":["A"],
+"explanation":"Les convulsions sont un signe grave.",
+"reference":"PSE 2024"
+},
+{
+"id":71,
+"level":"PSE1",
+"difficulty":"facile",
+"module":"bilan",
+"type":"single",
+"question":"<p>Quand doit-on transmettre un bilan ?</p>",
+"choices":[
+{"id":"A","text":"Dès que possible"},
+{"id":"B","text":"Après transport"},
+{"id":"C","text":"Jamais"},
+{"id":"D","text":"Uniquement à la fin"}
+],
+"answers":["A"],
+"explanation":"Transmission rapide indispensable.",
+"reference":"PSE 2024"
+},
+{
+"id":72,
+"level":"PSE2",
+"difficulty":"moyen",
+"module":"bilan",
+"type":"single",
+"question":"<p>Une cyanose des lèvres indique :</p>",
+"choices":[
+{"id":"A","text":"Un manque d’oxygène"},
+{"id":"B","text":"Une brûlure"},
+{"id":"C","text":"Une infection"},
+{"id":"D","text":"Un stress"}
+],
+"answers":["A"],
+"explanation":"C’est un signe d’hypoxie.",
+"reference":"PSE 2024"
+},
+{
+"id":73,
+"level":"PSE1",
+"difficulty":"moyen",
+"module":"bilan",
+"type":"single",
+"question":"<p>Pourquoi réévaluer régulièrement la victime ?</p>",
+"choices":[
+{"id":"A","text":"Détecter une aggravation"},
+{"id":"B","text":"Gagner du temps"},
+{"id":"C","text":"Remplacer les soins"},
+{"id":"D","text":"Transporter"}
+],
+"answers":["A"],
+"explanation":"L’état peut évoluer rapidement.",
+"reference":"PSE 2024"
+},
+{
+"id":74,
+"level":"PSE1",
+"difficulty":"facile",
+"module":"bilan",
+"type":"single",
+"question":"<p>Quel signe indique une mauvaise circulation ?</p>",
+"choices":[
+{"id":"A","text":"Peau froide"},
+{"id":"B","text":"Rougeur"},
+{"id":"C","text":"Chaleur"},
+{"id":"D","text":"Sueurs normales"}
+],
+"answers":["A"],
+"explanation":"Peau froide = hypoperfusion.",
+"reference":"PSE 2024"
+},
+{
+"id":75,
+"level":"PSE2",
+"difficulty":"moyen",
+"module":"bilan",
+"type":"multiple",
+"question":"<p>Quels signes évoquent un état de choc ?</p>",
+"choices":[
+{"id":"A","text":"Pâleur"},
+{"id":"B","text":"Sueurs"},
+{"id":"C","text":"Pouls rapide"},
+{"id":"D","text":"Toux"}
+],
+"answers":["A","B","C"],
+"explanation":"Signes typiques du choc.",
+"reference":"PSE 2024"
+},
+{
+"id":76,
+"level":"PSE1",
+"difficulty":"moyen",
+"module":"bilan",
+"type":"single",
+"question":"<p>Quel est l’intérêt de vérifier la respiration ?</p>",
+"choices":[
+{"id":"A","text":"Identifier une détresse"},
+{"id":"B","text":"Mesurer la douleur"},
+{"id":"C","text":"Transporter"},
+{"id":"D","text":"Réchauffer"}
+],
+"answers":["A"],
+"explanation":"La respiration est une fonction vitale.",
+"reference":"PSE 2024"
+},
+{
+"id":77,
+"level":"PSE1",
+"difficulty":"facile",
+"module":"bilan",
+"type":"single",
+"question":"<p>Une victime calme mais pâle doit faire suspecter :</p>",
+"choices":[
+{"id":"A","text":"Un problème circulatoire"},
+{"id":"B","text":"Un repos"},
+{"id":"C","text":"Une brûlure"},
+{"id":"D","text":"Une infection"}
+],
+"answers":["A"],
+"explanation":"Pâleur = hypoperfusion.",
+"reference":"PSE 2024"
+},
+{
+"id":78,
+"level":"PSE2",
+"difficulty":"difficile",
+"module":"bilan",
+"type":"single",
+"question":"<p>Une respiration lente et irrégulière indique :</p>",
+"choices":[
+{"id":"A","text":"Une détresse grave"},
+{"id":"B","text":"Un repos"},
+{"id":"C","text":"Un sommeil"},
+{"id":"D","text":"Une amélioration"}
+],
+"answers":["A"],
+"explanation":"C’est un signe de gravité.",
+"reference":"PSE 2024"
+},
+{
+"id":79,
+"level":"PSE1",
+"difficulty":"moyen",
+"module":"bilan",
+"type":"single",
+"question":"<p>Pourquoi observer le comportement de la victime ?</p>",
+"choices":[
+{"id":"A","text":"Évaluer l’état neurologique"},
+{"id":"B","text":"La distraire"},
+{"id":"C","text":"Gagner du temps"},
+{"id":"D","text":"Transporter"}
+],
+"answers":["A"],
+"explanation":"Le comportement reflète la conscience.",
+"reference":"PSE 2024"
+},
+{
+"id":80,
+"level":"PSE1",
+"difficulty":"facile",
+"module":"bilan",
+"type":"single",
+"question":"<p>Quel est le but du bilan global ?</p>",
+"choices":[
+{"id":"A","text":"Avoir une vision complète"},
+{"id":"B","text":"Transporter rapidement"},
+{"id":"C","text":"Remplir la fiche"},
+{"id":"D","text":"Rassurer uniquement"}
+],
+"answers":["A"],
+"explanation":"Il permet une prise en charge adaptée.",
+"reference":"PSE 2024"
+},
+{
+"id":81,
+"level":"PSE1",
+"difficulty":"moyen",
+"module":"bilan",
+"type":"single",
+"question":"<p>Quel est l’objectif principal du bilan transmis au centre de régulation ?</p>",
+"choices":[
+{"id":"A","text":"Permettre une décision médicale adaptée"},
+{"id":"B","text":"Clôturer l’intervention"},
+{"id":"C","text":"Remplacer le médecin"},
+{"id":"D","text":"Faire un diagnostic final"}
+],
+"answers":["A"],
+"explanation":"Le bilan permet d’adapter la réponse médicale.",
+"reference":"PSE 2024"
+},
+{
+"id":82,
+"level":"PSE2",
+"difficulty":"moyen",
+"module":"bilan",
+"type":"multiple",
+"question":"<p>Quels éléments sont importants dans la transmission du bilan ?</p>",
+"choices":[
+{"id":"A","text":"État de conscience"},
+{"id":"B","text":"Respiration"},
+{"id":"C","text":"Circulation"},
+{"id":"D","text":"Couleur des vêtements"}
+],
+"answers":["A","B","C"],
+"explanation":"Les fonctions vitales sont essentielles.",
+"reference":"PSE 2024"
+},
+{
+"id":83,
+"level":"PSE1",
+"difficulty":"facile",
+"module":"bilan",
+"type":"single",
+"question":"<p>Pourquoi rechercher des antécédents médicaux ?</p>",
+"choices":[
+{"id":"A","text":"Comprendre l’état de la victime"},
+{"id":"B","text":"Remplir un document"},
+{"id":"C","text":"Gagner du temps"},
+{"id":"D","text":"Transporter"}
+],
+"answers":["A"],
+"explanation":"Les antécédents orientent la prise en charge.",
+"reference":"PSE 2024"
+},
+{
+"id":84,
+"level":"PSE1",
+"difficulty":"moyen",
+"module":"bilan",
+"type":"single",
+"question":"<p>Une victime agitée peut présenter :</p>",
+"choices":[
+{"id":"A","text":"Une détresse neurologique ou respiratoire"},
+{"id":"B","text":"Un état normal"},
+{"id":"C","text":"Une fatigue"},
+{"id":"D","text":"Une blessure bénigne"}
+],
+"answers":["A"],
+"explanation":"L’agitation est un signe de détresse.",
+"reference":"PSE 2024"
+},
+{
+"id":85,
+"level":"PSE2",
+"difficulty":"moyen",
+"module":"bilan",
+"type":"single",
+"question":"<p>Quel signe est typique d’un manque d’oxygène ?</p>",
+"choices":[
+{"id":"A","text":"Cyanose"},
+{"id":"B","text":"Rougeur"},
+{"id":"C","text":"Fièvre"},
+{"id":"D","text":"Faim"}
+],
+"answers":["A"],
+"explanation":"La cyanose traduit une hypoxie.",
+"reference":"PSE 2024"
+},
+{
+"id":86,
+"level":"PSE1",
+"difficulty":"moyen",
+"module":"bilan",
+"type":"single",
+"question":"<p>Pourquoi comparer les paramètres dans le temps ?</p>",
+"choices":[
+{"id":"A","text":"Suivre l’évolution"},
+{"id":"B","text":"Remplacer le bilan"},
+{"id":"C","text":"Gagner du temps"},
+{"id":"D","text":"Transporter"}
+],
+"answers":["A"],
+"explanation":"Permet de détecter une aggravation.",
+"reference":"PSE 2024"
+},
+{
+"id":87,
+"level":"PSE1",
+"difficulty":"facile",
+"module":"bilan",
+"type":"single",
+"question":"<p>Une victime qui ne parle pas mais réagit à la douleur est :</p>",
+"choices":[
+{"id":"A","text":"Altérée sur le plan neurologique"},
+{"id":"B","text":"Consciente normale"},
+{"id":"C","text":"En arrêt cardiaque"},
+{"id":"D","text":"Stable"}
+],
+"answers":["A"],
+"explanation":"Réponse à la douleur = altération.",
+"reference":"PSE 2024"
+},
+{
+"id":88,
+"level":"PSE2",
+"difficulty":"moyen",
+"module":"bilan",
+"type":"multiple",
+"question":"<p>Quels signes indiquent une détresse respiratoire grave ?</p>",
+"choices":[
+{"id":"A","text":"Cyanose"},
+{"id":"B","text":"Tirage"},
+{"id":"C","text":"Respiration irrégulière"},
+{"id":"D","text":"Faim"}
+],
+"answers":["A","B","C"],
+"explanation":"Signes de gravité respiratoire.",
+"reference":"PSE 2024"
+},
+{
+"id":89,
+"level":"PSE1",
+"difficulty":"moyen",
+"module":"bilan",
+"type":"single",
+"question":"<p>Quel signe peut traduire un choc ?</p>",
+"choices":[
+{"id":"A","text":"Peau froide et moite"},
+{"id":"B","text":"Rougeur"},
+{"id":"C","text":"Chaleur"},
+{"id":"D","text":"Somnolence simple"}
+],
+"answers":["A"],
+"explanation":"Signe classique d’hypoperfusion.",
+"reference":"PSE 2024"
+},
+{
+"id":90,
+"level":"PSE1",
+"difficulty":"facile",
+"module":"bilan",
+"type":"single",
+"question":"<p>Quel est le rôle du secouriste pendant le bilan ?</p>",
+"choices":[
+{"id":"A","text":"Observer et analyser"},
+{"id":"B","text":"Diagnostiquer médicalement"},
+{"id":"C","text":"Prescrire"},
+{"id":"D","text":"Ignorer"}
+],
+"answers":["A"],
+"explanation":"Le secouriste observe et transmet.",
+"reference":"PSE 2024"
+},
+{
+"id":91,
+"level":"PSE2",
+"difficulty":"moyen",
+"module":"bilan",
+"type":"single",
+"question":"<p>Une agitation associée à une cyanose évoque :</p>",
+"choices":[
+{"id":"A","text":"Une détresse respiratoire grave"},
+{"id":"B","text":"Une fatigue"},
+{"id":"C","text":"Un stress"},
+{"id":"D","text":"Une douleur"}
+],
+"answers":["A"],
+"explanation":"Association très inquiétante.",
+"reference":"PSE 2024"
+},
+{
+"id":92,
+"level":"PSE1",
+"difficulty":"moyen",
+"module":"bilan",
+"type":"single",
+"question":"<p>Quel est l’intérêt de rechercher une douleur ?</p>",
+"choices":[
+{"id":"A","text":"Identifier une lésion"},
+{"id":"B","text":"Rassurer uniquement"},
+{"id":"C","text":"Transporter"},
+{"id":"D","text":"Ignorer"}
+],
+"answers":["A"],
+"explanation":"La douleur oriente le bilan.",
+"reference":"PSE 2024"
+},
+{
+"id":93,
+"level":"PSE1",
+"difficulty":"facile",
+"module":"bilan",
+"type":"single",
+"question":"<p>Une victime qui répond lentement est :</p>",
+"choices":[
+{"id":"A","text":"Altérée"},
+{"id":"B","text":"Normale"},
+{"id":"C","text":"En ACR"},
+{"id":"D","text":"Stable"}
+],
+"answers":["A"],
+"explanation":"Temps de réponse anormal.",
+"reference":"PSE 2024"
+},
+{
+"id":94,
+"level":"PSE2",
+"difficulty":"moyen",
+"module":"bilan",
+"type":"multiple",
+"question":"<p>Quels paramètres traduisent une mauvaise perfusion ?</p>",
+"choices":[
+{"id":"A","text":"TRC allongé"},
+{"id":"B","text":"Pâleur"},
+{"id":"C","text":"Pouls rapide"},
+{"id":"D","text":"Rire"}
+],
+"answers":["A","B","C"],
+"explanation":"Signes circulatoires.",
+"reference":"PSE 2024"
+},
+{
+"id":95,
+"level":"PSE1",
+"difficulty":"moyen",
+"module":"bilan",
+"type":"single",
+"question":"<p>Quel est le rôle de la surveillance pendant le transport ?</p>",
+"choices":[
+{"id":"A","text":"Détecter toute aggravation"},
+{"id":"B","text":"Se reposer"},
+{"id":"C","text":"Remplir uniquement les papiers"},
+{"id":"D","text":"Attendre l’arrivée"}
+],
+"answers":["A"],
+"explanation":"L’état peut évoluer.",
+"reference":"PSE 2024"
+},
+{
+"id":96,
+"level":"PSE1",
+"difficulty":"facile",
+"module":"bilan",
+"type":"single",
+"question":"<p>Une absence de réponse à la douleur indique :</p>",
+"choices":[
+{"id":"A","text":"Inconscience profonde"},
+{"id":"B","text":"Conscience"},
+{"id":"C","text":"Fatigue"},
+{"id":"D","text":"Stress"}
+],
+"answers":["A"],
+"explanation":"Signe de gravité neurologique.",
+"reference":"PSE 2024"
+},
+{
+"id":97,
+"level":"PSE2",
+"difficulty":"difficile",
+"module":"bilan",
+"type":"single",
+"question":"<p>Une respiration agonique correspond à :</p>",
+"choices":[
+{"id":"A","text":"Un arrêt cardiaque probable"},
+{"id":"B","text":"Une respiration normale"},
+{"id":"C","text":"Une amélioration"},
+{"id":"D","text":"Un stress"}
+],
+"answers":["A"],
+"explanation":"Le gasping est un signe d’ACR.",
+"reference":"PSE 2024"
+},
+{
+"id":98,
+"level":"PSE1",
+"difficulty":"moyen",
+"module":"bilan",
+"type":"single",
+"question":"<p>Quel est le but d’un bilan structuré ?</p>",
+"choices":[
+{"id":"A","text":"Ne rien oublier"},
+{"id":"B","text":"Gagner du temps"},
+{"id":"C","text":"Transporter"},
+{"id":"D","text":"Rassurer uniquement"}
+],
+"answers":["A"],
+"explanation":"Structure = efficacité.",
+"reference":"PSE 2024"
+},
+{
+"id":99,
+"level":"PSE1",
+"difficulty":"facile",
+"module":"bilan",
+"type":"single",
+"question":"<p>Pourquoi travailler en équipe lors du bilan ?</p>",
+"choices":[
+{"id":"A","text":"Partager les tâches"},
+{"id":"B","text":"Gagner du temps uniquement"},
+{"id":"C","text":"Observer moins"},
+{"id":"D","text":"Remplacer le chef"}
+],
+"answers":["A"],
+"explanation":"Travail coordonné.",
+"reference":"PSE 2024"
+},
+{
+"id":100,
+"level":"PSE2",
+"difficulty":"moyen",
+"module":"bilan",
+"type":"single",
+"question":"<p>Quel est le risque principal d’un bilan incomplet ?</p>",
+"choices":[
+{"id":"A","text":"Manquer une détresse grave"},
+{"id":"B","text":"Perdre du temps"},
+{"id":"C","text":"Fatiguer l’équipe"},
+{"id":"D","text":"Rassurer la victime"}
+],
+"answers":["A"],
+"explanation":"Risque majeur = erreur de prise en charge.",
+"reference":"PSE 2024"
+},
+
+  {
+    "id":201,
+    "level":"PSE1",
+    "difficulty":"facile",
+    "module":"protection",
+    "type":"single",
+    "question":"<p>Quel est le premier réflexe de protection pour le secouriste ?</p>",
+    "choices":[
+      {"id":"A","text":"Porter des gants"},
+      {"id":"B","text":"Transporter la victime immédiatement"},
+      {"id":"C","text":"Faire un bilan détaillé"},
+      {"id":"D","text":"Appeler la famille"}
+    ],
+    "answers":["A"],
+    "explanation":"Les gants protègent contre les risques biologiques.",
+    "reference":"PSE 2024"
+  },
+  {
+    "id":202,
+    "level":"PSE1",
+    "difficulty":"facile",
+    "module":"protection",
+    "type":"single",
+    "question":"<p>Pourquoi le port des gants est-il essentiel ?</p>",
+    "choices":[
+      {"id":"A","text":"Protéger le secouriste contre le sang et fluides"},
+      {"id":"B","text":"Pour impressionner la victime"},
+      {"id":"C","text":"Pour se réchauffer"},
+      {"id":"D","text":"Pour mieux saisir les objets"}
+    ],
+    "answers":["A"],
+    "explanation":"Les gants sont une barrière contre la contamination.",
+    "reference":"PSE 2024"
+  },
+  {
+    "id":203,
+    "level":"PSE1",
+    "difficulty":"moyen",
+    "module":"protection",
+    "type":"single",
+    "question":"<p>Quelle protection porter en cas de projection de sang ou vomissements ?</p>",
+    "choices":[
+      {"id":"A","text":"Gants et masque"},
+      {"id":"B","text":"Gants seulement"},
+      {"id":"C","text":"Masque seulement"},
+      {"id":"D","text":"Aucune"}
+    ],
+    "answers":["A"],
+    "explanation":"La combinaison gants + masque limite le risque d’infection.",
+    "reference":"PSE 2024"
+  },
+  {
+    "id":204,
+    "level":"PSE2",
+    "difficulty":"difficile",
+    "module":"protection",
+    "type":"multiple",
+    "question":"<p>Quels éléments font partie des EPI (Équipements de Protection Individuelle) du secouriste ?</p>",
+    "choices":[
+      {"id":"A","text":"Gants"},
+      {"id":"B","text":"Masque"},
+      {"id":"C","text":"Casque anti-chocs"},
+      {"id":"D","text":"Chaussures de sécurité"}
+    ],
+    "answers":["A","B","C","D"],
+    "explanation":"Tous ces éléments protègent le secouriste selon le type de danger.",
+    "reference":"PSE 2024"
+  },
+  {
+    "id":205,
+    "level":"PSE1",
+    "difficulty":"facile",
+    "module":"protection",
+    "type":"single",
+    "question":"<p>Pourquoi éviter tout contact direct avec les fluides corporels ?</p>",
+    "choices":[
+      {"id":"A","text":"Pour réduire le risque de contamination"},
+      {"id":"B","text":"Pour ne pas salir ses vêtements"},
+      {"id":"C","text":"Pour gagner du temps"},
+      {"id":"D","text":"Pour impressionner la victime"}
+    ],
+    "answers":["A"],
+    "explanation":"Tout contact direct peut transmettre des infections.",
+    "reference":"PSE 2024"
+  }
+,
+  {
+    "id":206,
+    "level":"PSE1",
+    "difficulty":"moyen",
+    "module":"protection",
+    "type":"single",
+    "question":"<p>Quand doit-on changer ses gants lors d’une intervention ?</p>",
+    "choices":[
+      {"id":"A","text":"Après tout contact avec du sang ou fluides"},
+      {"id":"B","text":"Jamais"},
+      {"id":"C","text":"Toutes les 10 minutes"},
+      {"id":"D","text":"À la fin de la journée"}
+    ],
+    "answers":["A"],
+    "explanation":"Changer de gants évite la contamination croisée.",
+    "reference":"PSE 2024"
+  },
+  {
+    "id":207,
+    "level":"PSE1",
+    "difficulty":"facile",
+    "module":"protection",
+    "type":"single",
+    "question":"<p>Quel geste de protection est indispensable avant le bilan ?</p>",
+    "choices":[
+      {"id":"A","text":"Porter les EPI adaptés"},
+      {"id":"B","text":"Mesurer la température"},
+      {"id":"C","text":"Transporter la victime"},
+      {"id":"D","text":"Laver les mains"}
+    ],
+    "answers":["A"],
+    "explanation":"Les EPI protègent le secouriste avant toute approche de la victime.",
+    "reference":"PSE 2024"
+  },
+  {
+    "id":208,
+    "level":"PSE2",
+    "difficulty":"moyen",
+    "module":"protection",
+    "type":"single",
+    "question":"<p>Quel risque existe si le secouriste ne porte pas de masque face à une victime qui tousse ?</p>",
+    "choices":[
+      {"id":"A","text":"Inhalation de gouttelettes contaminées"},
+      {"id":"B","text":"Perte de matériel"},
+      {"id":"C","text":"Erreur dans le bilan"},
+      {"id":"D","text":"Blessure mécanique"}
+    ],
+    "answers":["A"],
+    "explanation":"Le masque limite le risque de transmission de maladies respiratoires.",
+    "reference":"PSE 2024"
+  },
+  {
+    "id":209,
+    "level":"PSE2",
+    "difficulty":"difficile",
+    "module":"protection",
+    "type":"multiple",
+    "question":"<p>Quels sont les comportements à adopter pour protéger la victime et le secouriste ?</p>",
+    "choices":[
+      {"id":"A","text":"Porter des gants et masque"},
+      {"id":"B","text":"Éloigner les curieux"},
+      {"id":"C","text":"Ignorer le protocole de désinfection"},
+      {"id":"D","text":"Utiliser du matériel propre"}
+    ],
+    "answers":["A","B","D"],
+    "explanation":"Respecter les EPI, protéger la scène et le matériel évite la contamination.",
+    "reference":"PSE 2024"
+  },
+  {
+    "id":210,
+    "level":"PSE1",
+    "difficulty":"facile",
+    "module":"protection",
+    "type":"single",
+    "question":"<p>Pourquoi porter des lunettes ou une visière ?</p>",
+    "choices":[
+      {"id":"A","text":"Pour protéger les yeux des projections"},
+      {"id":"B","text":"Pour mieux voir la victime"},
+      {"id":"C","text":"Pour se protéger du soleil"},
+      {"id":"D","text":"Pour impressionner l’équipe"}
+    ],
+    "answers":["A"],
+    "explanation":"Les yeux peuvent être contaminés par des projections de sang ou liquides.",
+    "reference":"PSE 2024"
+  },
+  {
+    "id":211,
+    "level":"PSE2",
+    "difficulty":"moyen",
+    "module":"protection",
+    "type":"single",
+    "question":"<p>Quel est le rôle de la désinfection du matériel après usage ?</p>",
+    "choices":[
+      {"id":"A","text":"Éliminer les agents infectieux"},
+      {"id":"B","text":"Gagner du temps"},
+      {"id":"C","text":"Éviter de se laver les mains"},
+      {"id":"D","text":"Protéger la victime uniquement"}
+    ],
+    "answers":["A"],
+    "explanation":"La désinfection empêche la contamination croisée entre victimes.",
+    "reference":"PSE 2024"
+  },
+  {
+    "id":212,
+    "level":"PSE1",
+    "difficulty":"moyen",
+    "module":"protection",
+    "type":"single",
+    "question":"<p>Que faire si le secouriste constate une fuite de produits chimiques ?</p>",
+    "choices":[
+      {"id":"A","text":"Éloigner la victime et soi-même"},
+      {"id":"B","text":"Continuer le bilan"},
+      {"id":"C","text":"Ignorer le danger"},
+      {"id":"D","text":"Transporter la victime immédiatement sans protection"}
+    ],
+    "answers":["A"],
+    "explanation":"La sécurité prime avant toute intervention.",
+    "reference":"PSE 2024"
+  },
+  {
+    "id":213,
+    "level":"PSE2",
+    "difficulty":"difficile",
+    "module":"protection",
+    "type":"multiple",
+    "question":"<p>Quels équipements sont indispensables lors d’un accident de la route avec projections de carburant ?</p>",
+    "choices":[
+      {"id":"A","text":"Gants résistants aux produits chimiques"},
+      {"id":"B","text":"Masque respiratoire"},
+      {"id":"C","text":"Vêtements imperméables"},
+      {"id":"D","text":"Chaussures ouvertes"}
+    ],
+    "answers":["A","B","C"],
+    "explanation":"Les EPI doivent protéger contre les projections et inhalation de produits dangereux.",
+    "reference":"PSE 2024"
+  },
+  {
+    "id":214,
+    "level":"PSE1",
+    "difficulty":"facile",
+    "module":"protection",
+    "type":"single",
+    "question":"<p>Pourquoi se laver les mains après avoir retiré les gants ?</p>",
+    "choices":[
+      {"id":"A","text":"Pour éliminer les micro-organismes éventuels"},
+      {"id":"B","text":"Pour se réchauffer"},
+      {"id":"C","text":"Pour sécher le matériel"},
+      {"id":"D","text":"Pour gagner du temps"}
+    ],
+    "answers":["A"],
+    "explanation":"Même après gants, des micro-organismes peuvent rester sur les mains.",
+    "reference":"PSE 2024"
+  },
+  {
+    "id":215,
+    "level":"PSE1",
+    "difficulty":"moyen",
+    "module":"protection",
+    "type":"single",
+    "question":"<p>Que faire en cas de blessure du secouriste durant l’intervention ?</p>",
+    "choices":[
+      {"id":"A","text":"Appliquer les gestes de protection et prévenir le chef d’équipe"},
+      {"id":"B","text":"Continuer normalement"},
+      {"id":"C","text":"Ignorer la blessure"},
+      {"id":"D","text":"Se laver les mains uniquement"}
+    ],
+    "answers":["A"],
+    "explanation":"Il faut se protéger et signaler toute blessure pour éviter contamination et aggravation.",
+    "reference":"PSE 2024"
+  },
+  {
+    "id":216,
+    "level":"PSE2",
+    "difficulty":"difficile",
+    "module":"protection",
+    "type":"multiple",
+    "question":"<p>Quelles situations nécessitent le port d’un casque et de lunettes de protection ?</p>",
+    "choices":[
+      {"id":"A","text":"Accident de la route avec véhicule instable"},
+      {"id":"B","text":"Incendie"},
+      {"id":"C","text":"Malaise sans danger apparent"},
+      {"id":"D","text":"Intervention chimique"}
+    ],
+    "answers":["A","B","D"],
+    "explanation":"Les EPI varient selon le risque : mécanique, thermique ou chimique.",
+    "reference":"PSE 2024"
+  },
+  {
+    "id":217,
+    "level":"PSE1",
+    "difficulty":"facile",
+    "module":"protection",
+    "type":"single",
+    "question":"<p>Pourquoi maintenir la zone sécurisée autour de la victime ?</p>",
+    "choices":[
+      {"id":"A","text":"Pour éviter des blessures supplémentaires"},
+      {"id":"B","text":"Pour se reposer"},
+      {"id":"C","text":"Pour discuter avec les passants"},
+      {"id":"D","text":"Pour impressionner les témoins"}
+    ],
+    "answers":["A"],
+    "explanation":"La sécurité de la zone protège victimes et secouristes.",
+    "reference":"PSE 2024"
+  },
+  {
+    "id":218,
+    "level":"PSE2",
+    "difficulty":"moyen",
+    "module":"protection",
+    "type":"single",
+    "question":"<p>Quel geste de protection est prioritaire face à un saignement important ?</p>",
+    "choices":[
+      {"id":"A","text":"Porter des gants et protéger la victime"},
+      {"id":"B","text":"Transporter immédiatement"},
+      {"id":"C","text":"Appeler la famille"},
+      {"id":"D","text":"Faire un bilan détaillé avant toute protection"}
+    ],
+    "answers":["A"],
+    "explanation":"Se protéger est prioritaire avant toute intervention directe.",
+    "reference":"PSE 2024"
+  },
+  {
+    "id":219,
+    "level":"PSE1",
+    "difficulty":"moyen",
+    "module":"protection",
+    "type":"single",
+    "question":"<p>Pourquoi éviter de toucher des objets souillés avant d’avoir mis les gants ?</p>",
+    "choices":[
+      {"id":"A","text":"Pour éviter la contamination croisée"},
+      {"id":"B","text":"Pour ne pas les casser"},
+      {"id":"C","text":"Pour ne pas les déplacer"},
+      {"id":"D","text":"Pour impressionner la victime"}
+    ],
+    "answers":["A"],
+    "explanation":"Tout contact direct avec des objets souillés peut transmettre des agents infectieux.",
+    "reference":"PSE 2024"
+  },
+  {
+    "id":220,
+    "level":"PSE2",
+    "difficulty":"difficile",
+    "module":"protection",
+    "type":"multiple",
+    "question":"<p>Quels comportements favorisent la protection collective sur la scène d’intervention ?</p>",
+    "choices":[
+      {"id":"A","text":"Mettre en place un périmètre de sécurité"},
+      {"id":"B","text":"Coordonner l’équipe"},
+      {"id":"C","text":"Informer les victimes et témoins"},
+      {"id":"D","text":"Ignorer les règles de sécurité"}
+    ],
+    "answers":["A","B","C"],
+    "explanation":"Protéger la scène implique périmètre, coordination et information.",
+    "reference":"PSE 2024"
+  },
+  {
+    "id":221,
+    "level":"PSE1",
+    "difficulty":"facile",
+    "module":"protection",
+    "type":"single",
+    "question":"<p>Que faire si un objet tranchant est présent près de la victime ?</p>",
+    "choices":[
+      {"id":"A","text":"Éloigner l’objet et sécuriser la zone"},
+      {"id":"B","text":"Continuer l’intervention"},
+      {"id":"C","text":"Ignorer l’objet"},
+      {"id":"D","text":"Transporter la victime avec l’objet"}
+    ],
+    "answers":["A"],
+    "explanation":"Sécuriser la zone limite le risque de blessure.",
+    "reference":"PSE 2024"
+  },
+  {
+    "id":222,
+    "level":"PSE2",
+    "difficulty":"moyen",
+    "module":"protection",
+    "type":"single",
+    "question":"<p>Quel équipement est prioritaire pour protéger le secouriste d’un agent infectieux aérien ?</p>",
+    "choices":[
+      {"id":"A","text":"Masque respiratoire"},
+      {"id":"B","text":"Gants"},
+      {"id":"C","text":"Casque"},
+      {"id":"D","text":"Chaussures de sécurité"}
+    ],
+    "answers":["A"],
+    "explanation":"Le masque protège contre les agents transmis par voie respiratoire.",
+    "reference":"PSE 2024"
+  },
+  {
+    "id":223,
+    "level":"PSE1",
+    "difficulty":"moyen",
+    "module":"protection",
+    "type":"single",
+    "question":"<p>Pourquoi vérifier l’intégrité des EPI avant l’intervention ?</p>",
+    "choices":[
+      {"id":"A","text":"Pour garantir leur efficacité"},
+      {"id":"B","text":"Pour gagner du temps"},
+      {"id":"C","text":"Pour impressionner l’équipe"},
+      {"id":"D","text":"Pour observer la victime"}
+    ],
+    "answers":["A"],
+    "explanation":"EPI endommagés ne protègent plus correctement.",
+    "reference":"PSE 2024"
+  },
+  {
+    "id":224,
+    "level":"PSE2",
+    "difficulty":"difficile",
+    "module":"protection",
+    "type":"multiple",
+    "question":"<p>Quels sont les signes que le secouriste est exposé à un danger biologique ?</p>",
+    "choices":[
+      {"id":"A","text":"Blessure ou coupure"},
+      {"id":"B","text":"Projection de sang"},
+      {"id":"C","text":"Contact avec des liquides corporels"},
+      {"id":"D","text":"Port des gants et masque"}
+    ],
+    "answers":["A","B","C"],
+    "explanation":"Tout contact ou blessure augmente le risque d’infection.",
+    "reference":"PSE 2024"
+  },
+  {
+    "id":225,
+    "level":"PSE1",
+    "difficulty":"facile",
+    "module":"protection",
+    "type":"single",
+    "question":"<p>Que faire après avoir quitté une scène à risque biologique ?</p>",
+    "choices":[
+      {"id":"A","text":"Se laver les mains et décontaminer le matériel"},
+      {"id":"B","text":"Rentrer chez soi directement"},
+      {"id":"C","text":"Toucher la victime à nouveau sans gants"},
+      {"id":"D","text":"Jeter le matériel sur place"}
+    ],
+    "answers":["A"],
+    "explanation":"Se laver les mains et désinfecter le matériel évite la contamination post-intervention.",
+    "reference":"PSE 2024"
+  }
+,
+  {
+    "id":226,
+    "level":"PSE1",
+    "difficulty":"moyen",
+    "module":"protection",
+    "type":"single",
+    "question":"<p>Quel geste de protection est prioritaire face à une victime saignant abondamment ?</p>",
+    "choices":[
+      {"id":"A","text":"Porter des gants et protéger la victime"},
+      {"id":"B","text":"Transporter immédiatement"},
+      {"id":"C","text":"Appeler la famille"},
+      {"id":"D","text":"Faire un bilan complet avant protection"}
+    ],
+    "answers":["A"],
+    "explanation":"Se protéger avant d’intervenir directement est prioritaire.",
+    "reference":"PSE 2024"
+  },
+  {
+    "id":227,
+    "level":"PSE2",
+    "difficulty":"difficile",
+    "module":"protection",
+    "type":"multiple",
+    "question":"<p>Quels éléments font partie des règles de protection collective sur une scène ?</p>",
+    "choices":[
+      {"id":"A","text":"Établir un périmètre sécurisé"},
+      {"id":"B","text":"Coordonner l’équipe"},
+      {"id":"C","text":"Informer les témoins"},
+      {"id":"D","text":"Ignorer les protocoles de sécurité"}
+    ],
+    "answers":["A","B","C"],
+    "explanation":"Protéger la scène implique périmètre, coordination et information.",
+    "reference":"PSE 2024"
+  },
+  {
+    "id":228,
+    "level":"PSE1",
+    "difficulty":"facile",
+    "module":"protection",
+    "type":"single",
+    "question":"<p>Pourquoi porter une tenue adaptée lors d’un incendie ?</p>",
+    "choices":[
+      {"id":"A","text":"Pour se protéger de la chaleur et des projections"},
+      {"id":"B","text":"Pour impressionner la victime"},
+      {"id":"C","text":"Pour rester propre"},
+      {"id":"D","text":"Pour faciliter le transport"}
+    ],
+    "answers":["A"],
+    "explanation":"La tenue adaptée protège contre chaleur, flammes et débris.",
+    "reference":"PSE 2024"
+  },
+  {
+    "id":229,
+    "level":"PSE1",
+    "difficulty":"moyen",
+    "module":"protection",
+    "type":"single",
+    "question":"<p>Que faire si un produit chimique touche la peau du secouriste ?</p>",
+    "choices":[
+      {"id":"A","text":"Rincer immédiatement à l’eau abondante"},
+      {"id":"B","text":"Continuer l’intervention"},
+      {"id":"C","text":"Mettre une compresse sèche"},
+      {"id":"D","text":"Frotter avec un tissu"}
+    ],
+    "answers":["A"],
+    "explanation":"Le rinçage immédiat réduit les risques de brûlure ou contamination.",
+    "reference":"PSE 2024"
+  },
+  {
+    "id":230,
+    "level":"PSE2",
+    "difficulty":"difficile",
+    "module":"protection",
+    "type":"multiple",
+    "question":"<p>Quels comportements réduisent le risque d’accident pour le secouriste sur la voie publique ?</p>",
+    "choices":[
+      {"id":"A","text":"Porter des gilets haute visibilité"},
+      {"id":"B","text":"Sécuriser la zone avec cônes ou barrières"},
+      {"id":"C","text":"Coordonner avec les forces de l’ordre"},
+      {"id":"D","text":"Ignorer la circulation"}
+    ],
+    "answers":["A","B","C"],
+    "explanation":"Sécurité active et visibilité réduisent le risque d’accident.",
+    "reference":"PSE 2024"
+  },
+  {
+    "id":231,
+    "level":"PSE1",
+    "difficulty":"facile",
+    "module":"protection",
+    "type":"single",
+    "question":"<p>Pourquoi éviter de toucher la victime avec des mains non protégées ?</p>",
+    "choices":[
+      {"id":"A","text":"Pour prévenir la transmission de maladies"},
+      {"id":"B","text":"Pour impressionner les témoins"},
+      {"id":"C","text":"Pour rester propre"},
+      {"id":"D","text":"Pour gagner du temps"}
+    ],
+    "answers":["A"],
+    "explanation":"Le contact direct peut transmettre des infections.",
+    "reference":"PSE 2024"
+  },
+  {
+    "id":232,
+    "level":"PSE2",
+    "difficulty":"moyen",
+    "module":"protection",
+    "type":"single",
+    "question":"<p>Quel masque utiliser face à une victime présentant une infection respiratoire contagieuse ?</p>",
+    "choices":[
+      {"id":"A","text":"Masque FFP2 ou équivalent"},
+      {"id":"B","text":"Masque chirurgical standard"},
+      {"id":"C","text":"Pas de masque"},
+      {"id":"D","text":"Masque en tissu"}
+    ],
+    "answers":["A"],
+    "explanation":"Le masque FFP2 protège efficacement contre les aérosols infectieux.",
+    "reference":"PSE 2024"
+  },
+  {
+    "id":233,
+    "level":"PSE1",
+    "difficulty":"moyen",
+    "module":"protection",
+    "type":"single",
+    "question":"<p>Que faire si un objet tranchant est sur la scène ?</p>",
+    "choices":[
+      {"id":"A","text":"Éloigner l’objet et sécuriser la zone"},
+      {"id":"B","text":"Continuer l’intervention normalement"},
+      {"id":"C","text":"Toucher l’objet avec les mains"},
+      {"id":"D","text":"Transporter la victime avec l’objet"}
+    ],
+    "answers":["A"],
+    "explanation":"Éloigner les objets dangereux limite le risque de blessure.",
+    "reference":"PSE 2024"
+  },
+  {
+    "id":234,
+    "level":"PSE2",
+    "difficulty":"difficile",
+    "module":"protection",
+    "type":"multiple",
+    "question":"<p>Quels gestes assurent la protection individuelle en intervention chimique ?</p>",
+    "choices":[
+      {"id":"A","text":"Gants résistants aux produits chimiques"},
+      {"id":"B","text":"Vêtements imperméables"},
+      {"id":"C","text":"Masque respiratoire adapté"},
+      {"id":"D","text":"Porter des chaussures ouvertes"}
+    ],
+    "answers":["A","B","C"],
+    "explanation":"L’EPI chimique protège peau et voies respiratoires.",
+    "reference":"PSE 2024"
+  },
+  {
+    "id":235,
+    "level":"PSE1",
+    "difficulty":"facile",
+    "module":"protection",
+    "type":"single",
+    "question":"<p>Pourquoi vérifier l’état des EPI avant usage ?</p>",
+    "choices":[
+      {"id":"A","text":"Pour s’assurer qu’ils protègent correctement"},
+      {"id":"B","text":"Pour gagner du temps"},
+      {"id":"C","text":"Pour impressionner la victime"},
+      {"id":"D","text":"Pour observer la scène"}
+    ],
+    "answers":["A"],
+    "explanation":"EPI endommagés ne protègent pas correctement.",
+    "reference":"PSE 2024"
+  },
+  {
+    "id":236,
+    "level":"PSE2",
+    "difficulty":"moyen",
+    "module":"protection",
+    "type":"single",
+    "question":"<p>Quel est le risque si le secouriste touche un liquide corporel sans gants ?</p>",
+    "choices":[
+      {"id":"A","text":"Risque de contamination et infection"},
+      {"id":"B","text":"Perte de matériel"},
+      {"id":"C","text":"Blessure mécanique"},
+      {"id":"D","text":"Erreur de bilan"}
+    ],
+    "answers":["A"],
+    "explanation":"Tout contact direct expose le secouriste aux agents infectieux.",
+    "reference":"PSE 2024"
+  },
+  {
+    "id":237,
+    "level":"PSE1",
+    "difficulty":"moyen",
+    "module":"protection",
+    "type":"single",
+    "question":"<p>Pourquoi maintenir la scène dégagée autour de la victime ?</p>",
+    "choices":[
+      {"id":"A","text":"Pour éviter tout accident supplémentaire"},
+      {"id":"B","text":"Pour se reposer"},
+      {"id":"C","text":"Pour discuter avec les témoins"},
+      {"id":"D","text":"Pour impressionner la victime"}
+    ],
+    "answers":["A"],
+    "explanation":"Une scène dégagée protège victimes et secouristes.",
+    "reference":"PSE 2024"
+  },
+  {
+    "id":238,
+    "level":"PSE2",
+    "difficulty":"difficile",
+    "module":"protection",
+    "type":"multiple",
+    "question":"<p>Quels comportements réduisent le risque de contamination sur scène ?</p>",
+    "choices":[
+      {"id":"A","text":"Porter des gants et masque"},
+      {"id":"B","text":"Éloigner les curieux"},
+      {"id":"C","text":"Désinfecter le matériel"},
+      {"id":"D","text":"Ignorer les règles"}
+    ],
+    "answers":["A","B","C"],
+    "explanation":"Protéger soi-même et la scène limite le risque d’infection.",
+    "reference":"PSE 2024"
+  },
+  {
+    "id":239,
+    "level":"PSE1",
+    "difficulty":"facile",
+    "module":"protection",
+    "type":"single",
+    "question":"<p>Pourquoi se laver les mains après avoir retiré les gants ?</p>",
+    "choices":[
+      {"id":"A","text":"Pour éliminer les micro-organismes éventuels"},
+      {"id":"B","text":"Pour se réchauffer"},
+      {"id":"C","text":"Pour sécher le matériel"},
+      {"id":"D","text":"Pour gagner du temps"}
+    ],
+    "answers":["A"],
+    "explanation":"Même après gants, des micro-organismes peuvent rester sur les mains.",
+    "reference":"PSE 2024"
+  },
+  {
+    "id":240,
+    "level":"PSE2",
+    "difficulty":"moyen",
+    "module":"protection",
+    "type":"single",
+    "question":"<p>Quel équipement est prioritaire face à un risque biologique aérien ?</p>",
+    "choices":[
+      {"id":"A","text":"Masque respiratoire"},
+      {"id":"B","text":"Gants"},
+      {"id":"C","text":"Chaussures de sécurité"},
+      {"id":"D","text":"Casque"}
+    ],
+    "answers":["A"],
+    "explanation":"Le masque protège contre les agents transmis par voie respiratoire.",
+    "reference":"PSE 2024"
+  },
+  {
+    "id":241,
+    "level":"PSE1",
+    "difficulty":"moyen",
+    "module":"protection",
+    "type":"single",
+    "question":"<p>Que faire si l’EPI est endommagé ?</p>",
+    "choices":[
+      {"id":"A","text":"Ne pas l’utiliser et le remplacer"},
+      {"id":"B","text":"Continuer l’intervention"},
+      {"id":"C","text":"Reparer sur place"},
+      {"id":"D","text":"Ignorer"}
+    ],
+    "answers":["A"],
+    "explanation":"EPI endommagé ne protège plus correctement.",
+    "reference":"PSE 2024"
+  },
+  {
+    "id":242,
+    "level":"PSE2",
+    "difficulty":"difficile",
+    "module":"protection",
+    "type":"multiple",
+    "question":"<p>Quels gestes assurent la sécurité sur scène pour le secouriste ?</p>",
+    "choices":[
+      {"id":"A","text":"Mettre en place un périmètre de sécurité"},
+      {"id":"B","text":"Coordonner l’équipe"},
+      {"id":"C","text":"Informer les témoins"},
+      {"id":"D","text":"Ignorer les règles"}
+    ],
+    "answers":["A","B","C"],
+    "explanation":"Protéger la scène implique périmètre, coordination et information.",
+    "reference":"PSE 2024"
+  },
+  {
+    "id":243,
+    "level":"PSE1",
+    "difficulty":"facile",
+    "module":"protection",
+    "type":"single",
+    "question":"<p>Que faire après avoir quitté une scène à risque biologique ?</p>",
+    "choices":[
+      {"id":"A","text":"Se laver les mains et désinfecter le matériel"},
+      {"id":"B","text":"Rentrer chez soi directement"},
+      {"id":"C","text":"Toucher la victime à nouveau sans gants"},
+      {"id":"D","text":"Jeter le matériel sur place"}
+    ],
+    "answers":["A"],
+    "explanation":"Se laver les mains et désinfecter le matériel évite la contamination post-intervention.",
+    "reference":"PSE 2024"
+  },
+  {
+    "id":244,
+    "level":"PSE1",
+    "difficulty":"moyen",
+    "module":"protection",
+    "type":"single",
+    "question":"<p>Pourquoi sécuriser la zone avant d’approcher la victime ?</p>",
+    "choices":[
+      {"id":"A","text":"Pour éviter tout risque supplémentaire"},
+      {"id":"B","text":"Pour impressionner la victime"},
+      {"id":"C","text":"Pour gagner du temps"},
+      {"id":"D","text":"Pour observer la scène"}
+    ],
+    "answers":["A"],
+    "explanation":"La sécurité prime avant toute intervention.",
+    "reference":"PSE 2024"
+  },
+  {
+    "id":245,
+    "level":"PSE2",
+    "difficulty":"difficile",
+    "module":"protection",
+    "type":"multiple",
+    "question":"<p>Quels EPI protégeront le secouriste lors d’une intervention en milieu chimique ?</p>",
+    "choices":[
+      {"id":"A","text":"Gants chimiques"},
+      {"id":"B","text":"Masque respiratoire"},
+      {"id":"C","text":"Vêtements imperméables"},
+      {"id":"D","text":"Chaussures ouvertes"}
+    ],
+    "answers":["A","B","C"],
+    "explanation":"L’EPI chimique protège la peau et les voies respiratoires.",
+    "reference":"PSE 2024"
+  },
+  {
+    "id":246,
+    "level":"PSE1",
+    "difficulty":"facile",
+    "module":"protection",
+    "type":"single",
+    "question":"<p>Pourquoi porter des gants avant de manipuler une victime ?</p>",
+    "choices":[
+      {"id":"A","text":"Pour se protéger et protéger la victime"},
+      {"id":"B","text":"Pour impressionner les témoins"},
+      {"id":"C","text":"Pour gagner du temps"},
+      {"id":"D","text":"Pour rester propre"}
+    ],
+    "answers":["A"],
+    "explanation":"Les gants limitent le risque de contamination pour tous.",
+    "reference":"PSE 2024"
+  },
+  {
+    "id":247,
+    "level":"PSE2",
+    "difficulty":"moyen",
+    "module":"protection",
+    "type":"single",
+    "question":"<p>Quel geste est prioritaire face à une victime avec projections biologiques sur le visage ?</p>",
+    "choices":[
+      {"id":"A","text":"Protéger les yeux et le visage"},
+      {"id":"B","text":"Continuer le bilan"},
+      {"id":"C","text":"Transporter immédiatement"},
+      {"id":"D","text":"Appeler la famille"}
+    ],
+    "answers":["A"],
+    "explanation":"Protéger le visage réduit le risque d’infection par projections.",
+    "reference":"PSE 2024"
+  },
+  {
+    "id":248,
+    "level":"PSE1",
+    "difficulty":"moyen",
+    "module":"protection",
+    "type":"single",
+    "question":"<p>Pourquoi vérifier les EPI avant l’intervention ?</p>",
+    "choices":[
+      {"id":"A","text":"Pour s’assurer de leur efficacité"},
+      {"id":"B","text":"Pour impressionner l’équipe"},
+      {"id":"C","text":"Pour gagner du temps"},
+      {"id":"D","text":"Pour observer la victime"}
+    ],
+    "answers":["A"],
+    "explanation":"Les EPI endommagés ou absents ne protègent pas.",
+    "reference":"PSE 2024"
+  },
+  {
+    "id":249,
+    "level":"PSE2",
+    "difficulty":"difficile",
+    "module":"protection",
+    "type":"multiple",
+    "question":"<p>Quels gestes limitent le risque de contamination après l’intervention ?</p>",
+    "choices":[
+      {"id":"A","text":"Désinfection du matériel"},
+      {"id":"B","text":"Lavage des mains"},
+      {"id":"C","text":"Élimination des déchets contaminés"},
+      {"id":"D","text":"Ignorer le protocole"}
+    ],
+    "answers":["A","B","C"],
+    "explanation":"Désinfection et hygiène post-intervention limitent le risque d’infection.",
+    "reference":"PSE 2024"
+  },
+  {
+    "id":250,
+    "level":"PSE1",
+    "difficulty":"facile",
+    "module":"protection",
+    "type":"single",
+    "question":"<p>Pourquoi respecter les consignes de sécurité en intervention ?</p>",
+    "choices":[
+      {"id":"A","text":"Pour protéger la victime et le secouriste"},
+      {"id":"B","text":"Pour gagner du temps"},
+      {"id":"C","text":"Pour impressionner l’équipe"},
+      {"id":"D","text":"Pour observer la scène"}
+    ],
+    "answers":["A"],
+    "explanation":"La sécurité est primordiale pour tous les intervenants et la victime.",
+    "reference":"PSE 2024"
+  }
+,
+  {
+    "id":251,
+    "level":"PSE2",
+    "difficulty":"moyen",
+    "module":"protection",
+    "type":"single",
+    "question":"<p>Quel risque existe si le secouriste ne retire pas ses gants correctement après l’intervention ?</p>",
+    "choices":[
+      {"id":"A","text":"Contamination de ses mains"},
+      {"id":"B","text":"Fatigue accrue"},
+      {"id":"C","text":"Perte de matériel"},
+      {"id":"D","text":"Erreur dans le bilan"}
+    ],
+    "answers":["A"],
+    "explanation":"Un retrait incorrect peut contaminer les mains avec des agents infectieux.",
+    "reference":"PSE 2024"
+  },
+  {
+    "id":252,
+    "level":"PSE1",
+    "difficulty":"facile",
+    "module":"protection",
+    "type":"single",
+    "question":"<p>Pourquoi porter un gilet haute visibilité sur la voie publique ?</p>",
+    "choices":[
+      {"id":"A","text":"Pour être visible et éviter les accidents"},
+      {"id":"B","text":"Pour impressionner la victime"},
+      {"id":"C","text":"Pour rester propre"},
+      {"id":"D","text":"Pour se réchauffer"}
+    ],
+    "answers":["A"],
+    "explanation":"Le gilet augmente la visibilité et réduit le risque d’accident.",
+    "reference":"PSE 2024"
+  },
+  {
+    "id":253,
+    "level":"PSE2",
+    "difficulty":"difficile",
+    "module":"protection",
+    "type":"multiple",
+    "question":"<p>Quels gestes protègent le secouriste lors d’une exposition à du sang ?</p>",
+    "choices":[
+      {"id":"A","text":"Porter des gants"},
+      {"id":"B","text":"Masque et lunettes"},
+      {"id":"C","text":"Se laver les mains après l’intervention"},
+      {"id":"D","text":"Toucher la victime avec les mains nues"}
+    ],
+    "answers":["A","B","C"],
+    "explanation":"Les gants, le masque et la désinfection des mains limitent le risque de contamination.",
+    "reference":"PSE 2024"
+  },
+  {
+    "id":254,
+    "level":"PSE1",
+    "difficulty":"moyen",
+    "module":"protection",
+    "type":"single",
+    "question":"<p>Pourquoi isoler la victime d’un danger électrique ?</p>",
+    "choices":[
+      {"id":"A","text":"Pour éviter l’électrocution"},
+      {"id":"B","text":"Pour observer la scène"},
+      {"id":"C","text":"Pour gagner du temps"},
+      {"id":"D","text":"Pour impressionner les témoins"}
+    ],
+    "answers":["A"],
+    "explanation":"Le danger électrique doit être éliminé avant toute intervention.",
+    "reference":"PSE 2024"
+  },
+  {
+    "id":255,
+    "level":"PSE2",
+    "difficulty":"moyen",
+    "module":"protection",
+    "type":"single",
+    "question":"<p>Quel équipement est indispensable lors d’une intervention incendie ?</p>",
+    "choices":[
+      {"id":"A","text":"Casque, gants, lunettes et tenue ignifugée"},
+      {"id":"B","text":"Tenue légère et lunettes de soleil"},
+      {"id":"C","text":"Gilet haute visibilité uniquement"},
+      {"id":"D","text":"Chaussures ouvertes"}
+    ],
+    "answers":["A"],
+    "explanation":"Tous les EPI protègent contre la chaleur, flammes et débris.",
+    "reference":"PSE 2024"
+  },
+  {
+    "id":256,
+    "level":"PSE1",
+    "difficulty":"facile",
+    "module":"protection",
+    "type":"single",
+    "question":"<p>Pourquoi maintenir un périmètre de sécurité autour de la victime ?</p>",
+    "choices":[
+      {"id":"A","text":"Pour protéger les intervenants et la victime"},
+      {"id":"B","text":"Pour se reposer"},
+      {"id":"C","text":"Pour impressionner les témoins"},
+      {"id":"D","text":"Pour observer la scène tranquillement"}
+    ],
+    "answers":["A"],
+    "explanation":"La sécurité de la scène réduit les risques supplémentaires.",
+    "reference":"PSE 2024"
+  },
+  {
+    "id":257,
+    "level":"PSE2",
+    "difficulty":"difficile",
+    "module":"protection",
+    "type":"multiple",
+    "question":"<p>Quels sont les gestes de protection en intervention chimique ?</p>",
+    "choices":[
+      {"id":"A","text":"Gants résistants aux produits chimiques"},
+      {"id":"B","text":"Masque respiratoire adapté"},
+      {"id":"C","text":"Vêtements imperméables"},
+      {"id":"D","text":"Chaussures ouvertes"}
+    ],
+    "answers":["A","B","C"],
+    "explanation":"Ces EPI protègent contre les risques chimiques.",
+    "reference":"PSE 2024"
+  },
+  {
+    "id":258,
+    "level":"PSE1",
+    "difficulty":"moyen",
+    "module":"protection",
+    "type":"single",
+    "question":"<p>Pourquoi informer les témoins de la zone sécurisée ?</p>",
+    "choices":[
+      {"id":"A","text":"Pour éviter qu’ils se mettent en danger"},
+      {"id":"B","text":"Pour impressionner"},
+      {"id":"C","text":"Pour gagner du temps"},
+      {"id":"D","text":"Pour observer la scène"}
+    ],
+    "answers":["A"],
+    "explanation":"Les témoins peuvent se mettre en danger sans information.",
+    "reference":"PSE 2024"
+  },
+  {
+    "id":259,
+    "level":"PSE2",
+    "difficulty":"moyen",
+    "module":"protection",
+    "type":"single",
+    "question":"<p>Quel équipement est prioritaire pour se protéger d’une infection respiratoire ?</p>",
+    "choices":[
+      {"id":"A","text":"Masque respiratoire ou FFP2"},
+      {"id":"B","text":"Gants"},
+      {"id":"C","text":"Casque"},
+      {"id":"D","text":"Chaussures de sécurité"}
+    ],
+    "answers":["A"],
+    "explanation":"Le masque FFP2 protège des aérosols infectieux.",
+    "reference":"PSE 2024"
+  },
+  {
+    "id":260,
+    "level":"PSE1",
+    "difficulty":"facile",
+    "module":"protection",
+    "type":"single",
+    "question":"<p>Pourquoi porter des lunettes de protection ?</p>",
+    "choices":[
+      {"id":"A","text":"Pour protéger les yeux des projections"},
+      {"id":"B","text":"Pour impressionner la victime"},
+      {"id":"C","text":"Pour voir mieux"},
+      {"id":"D","text":"Pour rester propre"}
+    ],
+    "answers":["A"],
+    "explanation":"Les yeux peuvent être contaminés par projections de sang ou liquides.",
+    "reference":"PSE 2024"
+  },
+  {
+    "id":261,
+    "level":"PSE2",
+    "difficulty":"difficile",
+    "module":"protection",
+    "type":"multiple",
+    "question":"<p>Quels gestes garantissent la protection du secouriste face à des liquides corporels ?</p>",
+    "choices":[
+      {"id":"A","text":"Porter des gants"},
+      {"id":"B","text":"Masque et lunettes"},
+      {"id":"C","text":"Désinfection du matériel après usage"},
+      {"id":"D","text":"Toucher la victime avec les mains nues"}
+    ],
+    "answers":["A","B","C"],
+    "explanation":"Ces gestes limitent le risque de contamination.",
+    "reference":"PSE 2024"
+  },
+  {
+    "id":262,
+    "level":"PSE1",
+    "difficulty":"moyen",
+    "module":"protection",
+    "type":"single",
+    "question":"<p>Pourquoi sécuriser un objet tranchant avant d’intervenir ?</p>",
+    "choices":[
+      {"id":"A","text":"Pour éviter toute blessure"},
+      {"id":"B","text":"Pour gagner du temps"},
+      {"id":"C","text":"Pour impressionner"},
+      {"id":"D","text":"Pour observer la scène"}
+    ],
+    "answers":["A"],
+    "explanation":"Éloigner les objets dangereux limite le risque de blessure.",
+    "reference":"PSE 2024"
+  },
+  {
+    "id":263,
+    "level":"PSE2",
+    "difficulty":"moyen",
+    "module":"protection",
+    "type":"single",
+    "question":"<p>Quel geste de protection est prioritaire face à une victime avec projections sur le visage ?</p>",
+    "choices":[
+      {"id":"A","text":"Protéger le visage avec lunettes ou visière"},
+      {"id":"B","text":"Continuer le bilan"},
+      {"id":"C","text":"Transporter immédiatement"},
+      {"id":"D","text":"Appeler la famille"}
+    ],
+    "answers":["A"],
+    "explanation":"Protéger le visage réduit le risque d’infection par projections.",
+    "reference":"PSE 2024"
+  },
+  {
+    "id":264,
+    "level":"PSE1",
+    "difficulty":"facile",
+    "module":"protection",
+    "type":"single",
+    "question":"<p>Pourquoi se laver les mains après intervention ?</p>",
+    "choices":[
+      {"id":"A","text":"Pour éliminer les micro-organismes éventuels"},
+      {"id":"B","text":"Pour se réchauffer"},
+      {"id":"C","text":"Pour sécher le matériel"},
+      {"id":"D","text":"Pour impressionner"}
+    ],
+    "answers":["A"],
+    "explanation":"Lavage des mains après toute intervention limite le risque de contamination.",
+    "reference":"PSE 2024"
+  },
+  {
+    "id":265,
+    "level":"PSE2",
+    "difficulty":"difficile",
+    "module":"protection",
+    "type":"multiple",
+    "question":"<p>Quels comportements assurent la sécurité collective ?</p>",
+    "choices":[
+      {"id":"A","text":"Établir un périmètre sécurisé"},
+      {"id":"B","text":"Coordonner l’équipe"},
+      {"id":"C","text":"Informer les témoins"},
+      {"id":"D","text":"Ignorer les protocoles de sécurité"}
+    ],
+    "answers":["A","B","C"],
+    "explanation":"Coordination, périmètre et information assurent la sécurité collective.",
+    "reference":"PSE 2024"
+  },
+  {
+    "id":266,
+    "level":"PSE1",
+    "difficulty":"moyen",
+    "module":"protection",
+    "type":"single",
+    "question":"<p>Pourquoi vérifier l’intégrité des EPI avant usage ?</p>",
+    "choices":[
+      {"id":"A","text":"Pour garantir leur efficacité"},
+      {"id":"B","text":"Pour impressionner l’équipe"},
+      {"id":"C","text":"Pour gagner du temps"},
+      {"id":"D","text":"Pour observer la victime"}
+    ],
+    "answers":["A"],
+    "explanation":"EPI endommagés ne protègent pas correctement.",
+    "reference":"PSE 2024"
+  },
+  {
+    "id":267,
+    "level":"PSE2",
+    "difficulty":"moyen",
+    "module":"protection",
+    "type":"single",
+    "question":"<p>Que faire en cas de blessure du secouriste sur scène ?</p>",
+    "choices":[
+      {"id":"A","text":"Appliquer les gestes de protection et prévenir le chef d’équipe"},
+      {"id":"B","text":"Continuer l’intervention normalement"},
+      {"id":"C","text":"Ignorer la blessure"},
+      {"id":"D","text":"Se laver les mains uniquement"}
+    ],
+    "answers":["A"],
+    "explanation":"Il faut se protéger et signaler toute blessure pour éviter contamination et aggravation.",
+    "reference":"PSE 2024"
+  },
+  {
+    "id":268,
+    "level":"PSE1",
+    "difficulty":"facile",
+    "module":"protection",
+    "type":"single",
+    "question":"<p>Pourquoi porter des gants et un masque ?</p>",
+    "choices":[
+      {"id":"A","text":"Pour se protéger et protéger la victime"},
+      {"id":"B","text":"Pour impressionner"},
+      {"id":"C","text":"Pour rester propre"},
+      {"id":"D","text":"Pour gagner du temps"}
+    ],
+    "answers":["A"],
+    "explanation":"Les gants et masque limitent le risque de contamination.",
+    "reference":"PSE 2024"
+  },
+  {
+    "id":269,
+    "level":"PSE2",
+    "difficulty":"difficile",
+    "module":"protection",
+    "type":"multiple",
+    "question":"<p>Quels EPI protégeront le secouriste lors d’une intervention chimique ?</p>",
+    "choices":[
+      {"id":"A","text":"Gants chimiques"},
+      {"id":"B","text":"Vêtements imperméables"},
+      {"id":"C","text":"Masque respiratoire adapté"},
+      {"id":"D","text":"Chaussures ouvertes"}
+    ],
+    "answers":["A","B","C"],
+    "explanation":"L’EPI chimique protège la peau et les voies respiratoires.",
+    "reference":"PSE 2024"
+  },
+  {
+    "id":270,
+    "level":"PSE1",
+    "difficulty":"moyen",
+    "module":"protection",
+    "type":"single",
+    "question":"<p>Pourquoi respecter les consignes de sécurité en intervention ?</p>",
+    "choices":[
+      {"id":"A","text":"Pour protéger la victime et le secouriste"},
+      {"id":"B","text":"Pour gagner du temps"},
+      {"id":"C","text":"Pour impressionner l’équipe"},
+      {"id":"D","text":"Pour observer la scène"}
+    ],
+    "answers":["A"],
+    "explanation":"La sécurité est primordiale pour tous les intervenants et la victime.",
+    "reference":"PSE 2024"
+  },
+  {
+    "id":271,
+    "level":"PSE2",
+    "difficulty":"moyen",
+    "module":"protection",
+    "type":"single",
+    "question":"<p>Que faire si un produit chimique touche la peau du secouriste ?</p>",
+    "choices":[
+      {"id":"A","text":"Rincer immédiatement à l’eau abondante"},
+      {"id":"B","text":"Continuer l’intervention"},
+      {"id":"C","text":"Mettre une compresse sèche"},
+      {"id":"D","text":"Frotter avec un tissu"}
+    ],
+    "answers":["A"],
+    "explanation":"Le rinçage immédiat réduit les risques de brûlure ou contamination.",
+    "reference":"PSE 2024"
+  },
+  {
+    "id":272,
+    "level":"PSE1",
+    "difficulty":"facile",
+    "module":"protection",
+    "type":"single",
+    "question":"<p>Pourquoi porter un casque lors d’un accident de la route ?</p>",
+    "choices":[
+      {"id":"A","text":"Pour protéger la tête des chocs"},
+      {"id":"B","text":"Pour se faire remarquer"},
+      {"id":"C","text":"Pour observer la scène"},
+      {"id":"D","text":"Pour impressionner la victime"}
+    ],
+    "answers":["A"],
+    "explanation":"Le casque protège contre les traumatismes crâniens.",
+    "reference":"PSE 2024"
+  },
+  {
+    "id":273,
+    "level":"PSE2",
+    "difficulty":"difficile",
+    "module":"protection",
+    "type":"multiple",
+    "question":"<p>Quels comportements favorisent la protection individuelle ?</p>",
+    "choices":[
+      {"id":"A","text":"Porter les EPI adaptés"},
+      {"id":"B","text":"Respecter les protocoles"},
+      {"id":"C","text":"Désinfecter le matériel"},
+      {"id":"D","text":"Ignorer les règles"}
+    ],
+    "answers":["A","B","C"],
+    "explanation":"Respecter les EPI, protocoles et hygiène assure la protection individuelle.",
+    "reference":"PSE 2024"
+  },
+  {
+    "id":274,
+    "level":"PSE1",
+    "difficulty":"moyen",
+    "module":"protection",
+    "type":"single",
+    "question":"<p>Pourquoi éviter de toucher des objets souillés sans gants ?</p>",
+    "choices":[
+      {"id":"A","text":"Pour éviter la contamination croisée"},
+      {"id":"B","text":"Pour rester propre"},
+      {"id":"C","text":"Pour impressionner la victime"},
+      {"id":"D","text":"Pour observer la scène"}
+    ],
+    "answers":["A"],
+    "explanation":"Le contact direct avec des objets souillés peut transmettre des agents infectieux.",
+    "reference":"PSE 2024"
+  },
+  {
+    "id":275,
+    "level":"PSE2",
+    "difficulty":"moyen",
+    "module":"protection",
+    "type":"single",
+    "question":"<p>Que faire après avoir quitté une scène à risque biologique ?</p>",
+    "choices":[
+      {"id":"A","text":"Se laver les mains et désinfecter le matériel"},
+      {"id":"B","text":"Rentrer chez soi"},
+      {"id":"C","text":"Toucher la victime à nouveau sans gants"},
+      {"id":"D","text":"Jeter le matériel sur place"}
+    ],
+    "answers":["A"],
+    "explanation":"Hygiène et désinfection post-intervention limitent le risque de contamination.",
+    "reference":"PSE 2024"
+  }
+    
+]
+}
