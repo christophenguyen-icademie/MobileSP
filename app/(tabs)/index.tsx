@@ -51,13 +51,6 @@ export default function Index() {
           />
           <Text style={styles.buttonText}>Calcul Hydraulique</Text>
         </TouchableOpacity>
-        <TouchableOpacity style={styles.button} onPress={handleQuiz}>
-          <Image
-            source={require("../../assets/images/quiz.png")}
-            style={styles.icon}
-          />
-        <Text style={styles.buttonText}>Quiz formations</Text>
-        </TouchableOpacity>
       </SafeAreaView>
     </SafeAreaProvider>
   );
