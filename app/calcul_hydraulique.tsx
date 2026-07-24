@@ -6,6 +6,7 @@ import {
   Text,
   TextInput,
   TouchableOpacity,
+  useWindowDimensions,
   View,
 } from "react-native";
 
@@ -25,6 +26,9 @@ const LANCES = {
 const ELEVATION_LOSS = 0.1; // bar par mètre de dénivelé
 
 export default function FireHydraulicsCalculator() {
+  const { width } = useWindowDimensions();
+  const isLargeScreen = width >= 800; // Seuil pour le mode 2 colonnes
+
   const [sections, setSections] = useState([]);
   const [diameter, setDiameter] = useState("70");
   const [typeLance, setTypeLance] = useState("LDV");
@@ -104,210 +108,217 @@ export default function FireHydraulicsCalculator() {
   const totalLength = sections.reduce((acc, s) => acc + s.length, 0);
 
   return (
-    <SafeAreaView style={styles.container}>
-      <ScrollView contentContainerStyle={styles.scrollContent} showsVerticalScrollIndicator={false}>
-        <View style={styles.content}>
-          <View style={styles.header}>
-            <Text style={styles.title}>Calcul hydraulique</Text>
-            <Text style={styles.subtitle}>
-              Estime la pression de refoulement à la pompe à partir de tes tuyaux, du dénivelé et de
-              la lance.
-            </Text>
-          </View>
-
-          {/* ---- Ajouter une section ---- */}
-          <View style={styles.card}>
-            <Text style={styles.cardTitle}>Ajouter une section</Text>
-
-            <Text style={styles.label}>Diamètre</Text>
-            <View style={styles.chipRow}>
-              {["22", "45", "70", "110"].map((d) => {
-                const active = diameter === d;
-                return (
-                  <TouchableOpacity
-                    key={d}
-                    style={[styles.chip, active && styles.chipActive]}
-                    onPress={() => setDiameter(d)}
-                    activeOpacity={0.8}
-                  >
-                    <Text style={[styles.chipText, active && styles.chipTextActive]}>DN {d}</Text>
-                  </TouchableOpacity>
-                );
-              })}
-            </View>
-
-            <Text style={styles.label}>Type de tuyau</Text>
-            <View style={styles.segment}>
-              {[
-                { key: "souple", label: "Souple" },
-                { key: "semi", label: "Semi-rigide" },
-              ].map((opt) => {
-                const active = type === opt.key;
-                return (
-                  <TouchableOpacity
-                    key={opt.key}
-                    style={[styles.segmentItem, active && styles.segmentItemActive]}
-                    onPress={() => setType(opt.key)}
-                    activeOpacity={0.8}
-                  >
-                    <Text style={[styles.segmentText, active && styles.segmentTextActive]}>
-                      {opt.label}
-                    </Text>
-                  </TouchableOpacity>
-                );
-              })}
-            </View>
-
-            <Text style={styles.label}>Longueur (m)</Text>
-            <TextInput
-              keyboardType="numeric"
-              value={length}
-              onChangeText={setLength}
-              placeholder="0"
-              placeholderTextColor="#94A3B8"
-              style={styles.input}
-            />
-
-            <View style={styles.previewBox}>
-              <View style={styles.rowBetween}>
-                <Text style={styles.previewTitle}>Aperçu de la section</Text>
-                <View style={styles.pillPrimary}>
-                  <Text style={styles.pillPrimaryText}>
-                    {previewSection.friction.toFixed(2)} bar
-                  </Text>
-                </View>
-              </View>
-              <Text style={styles.formula}>
-                Friction = Jref × (Q / Qref)² × (L / 100) × coef{"\n"}={" "}
-                {previewSection.Jref.toFixed(2)} × ({parseFloat(flow) || 0} /{" "}
-                {previewSection.Qref.toFixed(0)})² × ({parseFloat(length) || 0} / 100) ×{" "}
-                {currentCoefficient}
+      <SafeAreaView style={styles.container}>
+        <ScrollView contentContainerStyle={styles.scrollContent} showsVerticalScrollIndicator={false}>
+          <View style={styles.content}>
+            <View style={styles.header}>
+              <Text style={styles.title}>Calcul hydraulique</Text>
+              <Text style={styles.subtitle}>
+                Estime la pression de refoulement à la pompe à partir de tes tuyaux, du dénivelé et de la lance.
               </Text>
             </View>
 
-            <TouchableOpacity
-              style={[styles.button, !length && styles.buttonDisabled]}
-              onPress={addSection}
-              disabled={!length}
-              activeOpacity={0.85}
-            >
-              <Text style={styles.buttonText}>+ Ajouter la section</Text>
-            </TouchableOpacity>
-          </View>
+            <View style={[styles.mainLayout, isLargeScreen && styles.mainLayoutRow]}>
+              {/* ---- COLONNE GAUCHE : Saisie + Sections ajoutées ---- */}
+              <View style={[styles.column, isLargeScreen && styles.columnLeft]}>
+                {/* Formulaire d'ajout */}
+                <View style={styles.card}>
+                  <Text style={styles.cardTitle}>Ajouter une section</Text>
 
-          {/* ---- Sections ajoutées ---- */}
-          {sections.length > 0 && (
-            <View style={styles.card}>
-              <View style={styles.rowBetween}>
-                <Text style={styles.cardTitle}>Sections ajoutées</Text>
-                <Text style={styles.badge}>{totalLength} m au total</Text>
-              </View>
+                  <Text style={styles.label}>Diamètre</Text>
+                  <View style={styles.chipRow}>
+                    {["22", "45", "70", "110"].map((d) => {
+                      const active = diameter === d;
+                      return (
+                          <TouchableOpacity
+                              key={d}
+                              style={[styles.chip, active && styles.chipActive]}
+                              onPress={() => setDiameter(d)}
+                              activeOpacity={0.8}
+                          >
+                            <Text style={[styles.chipText, active && styles.chipTextActive]}>DN {d}</Text>
+                          </TouchableOpacity>
+                      );
+                    })}
+                  </View>
 
-              {sections.map((s, i) => (
-                <View style={styles.sectionRow} key={i}>
-                  <View style={styles.sectionIndex}>
-                    <Text style={styles.sectionIndexText}>S{i + 1}</Text>
+                  <Text style={styles.label}>Type de tuyau</Text>
+                  <View style={styles.segment}>
+                    {[
+                      { key: "souple", label: "Souple" },
+                      { key: "semi", label: "Semi-rigide" },
+                    ].map((opt) => {
+                      const active = type === opt.key;
+                      return (
+                          <TouchableOpacity
+                              key={opt.key}
+                              style={[styles.segmentItem, active && styles.segmentItemActive]}
+                              onPress={() => setType(opt.key)}
+                              activeOpacity={0.8}
+                          >
+                            <Text style={[styles.segmentText, active && styles.segmentTextActive]}>
+                              {opt.label}
+                            </Text>
+                          </TouchableOpacity>
+                      );
+                    })}
                   </View>
-                  <View style={{ flex: 1 }}>
-                    <Text style={styles.sectionMain}>
-                      DN {s.diameter} · {s.length} m ·{" "}
-                      {s.type === "souple" ? "souple" : "semi-rigide"}
-                    </Text>
-                    <Text style={styles.sectionSub}>
-                      Q {s.Q} L/min · <Text style={styles.frictionSub}> perte {s.friction.toFixed(2)} bar</Text>
+
+                  <Text style={styles.label}>Longueur (m)</Text>
+                  <TextInput
+                      keyboardType="numeric"
+                      value={length}
+                      onChangeText={setLength}
+                      placeholder="0"
+                      placeholderTextColor="#94A3B8"
+                      style={styles.input}
+                  />
+
+                  <View style={styles.previewBox}>
+                    <View style={styles.rowBetween}>
+                      <Text style={styles.previewTitle}>Aperçu de la section</Text>
+                      <View style={styles.pillPrimary}>
+                        <Text style={styles.pillPrimaryText}>
+                          {previewSection.friction.toFixed(2)} bar
+                        </Text>
+                      </View>
+                    </View>
+                    <Text style={styles.formula}>
+                      Friction = Jref × (Q / Qref)² × (L / 100) × coef{"\n"}={" "}
+                      {previewSection.Jref.toFixed(2)} × ({parseFloat(flow) || 0} /{" "}
+                      {previewSection.Qref.toFixed(0)})² × ({parseFloat(length) || 0} / 100) ×{" "}
+                      {currentCoefficient}
                     </Text>
                   </View>
+
                   <TouchableOpacity
-                    onPress={() => removeSection(i)}
-                    style={styles.removeBtn}
-                    hitSlop={{ top: 8, bottom: 8, left: 8, right: 8 }}
+                      style={[styles.button, !length && styles.buttonDisabled]}
+                      onPress={addSection}
+                      disabled={!length}
+                      activeOpacity={0.85}
                   >
-                    <Text style={styles.removeBtnText}>✕</Text>
+                    <Text style={styles.buttonText}>+ Ajouter la section</Text>
                   </TouchableOpacity>
                 </View>
-              ))}
-            </View>
-          )}
 
-          {/* ---- Paramètres généraux ---- */}
-          <View style={styles.card}>
-            <Text style={styles.cardTitle}>Paramètres généraux</Text>
+                {/* Sections ajoutées (désormais placées sous la saisie) */}
+                {sections.length > 0 && (
+                    <View style={styles.card}>
+                      <View style={styles.rowBetween}>
+                        <Text style={styles.cardTitle}>Sections ajoutées</Text>
+                        <Text style={styles.badge}>{totalLength} m au total</Text>
+                      </View>
 
-            <Text style={styles.label}>Type de lance</Text>
-            <View style={styles.optionList}>
-              {Object.keys(LANCES).map((k) => {
-                const active = typeLance === k;
-                return (
-                  <TouchableOpacity
-                    key={k}
-                    style={[styles.optionBtn, active && styles.optionBtnActive]}
-                    onPress={() => typeLanceChanged(k)}
-                    activeOpacity={0.85}
-                  >
-                    <View style={{ flex: 1 }}>
-                      <Text style={[styles.optionText, active && styles.optionTextActive]}>
-                        {LANCES[k].name}
-                      </Text>
-                      <Text style={[styles.optionSub, active && styles.optionSubActive]}>
-                        Pression {LANCES[k].pression} bar
-                      </Text>
+                      {sections.map((s, i) => (
+                          <View style={styles.sectionRow} key={i}>
+                            <View style={styles.sectionIndex}>
+                              <Text style={styles.sectionIndexText}>S{i + 1}</Text>
+                            </View>
+                            <View style={{ flex: 1 }}>
+                              <Text style={styles.sectionMain}>
+                                DN {s.diameter} · {s.length} m ·{" "}
+                                {s.type === "souple" ? "souple" : "semi-rigide"}
+                              </Text>
+                              <Text style={styles.sectionSub}>
+                                Q {s.Q} L/min ·<Text style={styles.frictionSub}> perte {s.friction.toFixed(2)} bar</Text>
+                              </Text>
+                            </View>
+                            <TouchableOpacity
+                                onPress={() => removeSection(i)}
+                                style={styles.removeBtn}
+                                hitSlop={{ top: 8, bottom: 8, left: 8, right: 8 }}
+                            >
+                              <Text style={styles.removeBtnText}>✕</Text>
+                            </TouchableOpacity>
+                          </View>
+                      ))}
                     </View>
-                    <View style={[styles.radio, active && styles.radioActive]}>
-                      {active && <View style={styles.radioDot} />}
+                )}
+              </View>
+
+              {/* ---- COLONNE DROITE : Paramètres généraux & Résultats ---- */}
+              <View style={[styles.column, isLargeScreen && styles.columnRight]}>
+                {/* Paramètres généraux */}
+                <View style={styles.card}>
+                  <Text style={styles.cardTitle}>Paramètres généraux</Text>
+
+                  <Text style={styles.label}>Type de lance</Text>
+                  <View style={styles.optionList}>
+                    {Object.keys(LANCES).map((k) => {
+                      const active = typeLance === k;
+                      return (
+                          <TouchableOpacity
+                              key={k}
+                              style={[styles.optionBtn, active && styles.optionBtnActive]}
+                              onPress={() => typeLanceChanged(k)}
+                              activeOpacity={0.85}
+                          >
+                            <View style={{ flex: 1 }}>
+                              <Text style={[styles.optionText, active && styles.optionTextActive]}>
+                                {LANCES[k].name}
+                              </Text>
+                              <Text style={[styles.optionSub, active && styles.optionSubActive]}>
+                                Pression {LANCES[k].pression} bar
+                              </Text>
+                            </View>
+                            <View style={[styles.radio, active && styles.radioActive]}>
+                              {active && <View style={styles.radioDot} />}
+                            </View>
+                          </TouchableOpacity>
+                      );
+                    })}
+                  </View>
+
+                  <View style={styles.row}>
+                    <View style={styles.rowItem}>
+                      <Text style={styles.label}>Débit (L/min)</Text>
+                      <TextInput
+                          keyboardType="numeric"
+                          value={flow}
+                          onChangeText={setFlow}
+                          style={styles.input}
+                      />
                     </View>
-                  </TouchableOpacity>
-                );
-              })}
-            </View>
+                    <View style={styles.rowItem}>
+                      <Text style={styles.label}>Pression lance (bar)</Text>
+                      <TextInput
+                          keyboardType="numeric"
+                          value={nozzlePressure}
+                          onChangeText={setNozzlePressure}
+                          style={styles.input}
+                      />
+                    </View>
+                  </View>
 
-            <View style={styles.row}>
-              <View style={styles.rowItem}>
-                <Text style={styles.label}>Débit (L/min)</Text>
-                <TextInput
-                  keyboardType="numeric"
-                  value={flow}
-                  onChangeText={setFlow}
-                  style={styles.input}
-                />
-              </View>
-              <View style={styles.rowItem}>
-                <Text style={styles.label}>Pression lance (bar)</Text>
-                <TextInput
-                  keyboardType="numeric"
-                  value={nozzlePressure}
-                  onChangeText={setNozzlePressure}
-                  style={styles.input}
-                />
+                  <Text style={styles.label}>Dénivelé positif (m)</Text>
+                  <TextInput
+                      keyboardType="numeric"
+                      value={elevation}
+                      onChangeText={setElevation}
+                      style={styles.input}
+                  />
+                </View>
+
+                {/* Résultat */}
+                {results && (
+                    <View style={styles.resultCard}>
+                      <Text style={styles.resultLabel}>Pression de refoulement</Text>
+                      <Text style={styles.resultValue}>{results.pumpPressure.toFixed(2)} bar</Text>
+                      <View style={styles.resultBreakdown}>
+                        <Text style={styles.resultBreakdownText}>
+                          Total perte de charge : {results.totalFriction.toFixed(2)} bar
+                        </Text>
+                        <Text style={styles.resultBreakdownText}>
+                          Pression lance : {(parseFloat(nozzlePressure) || 0).toFixed(2)} bar
+                        </Text>
+                      </View>
+                    </View>
+                )}
               </View>
             </View>
-
-            <Text style={styles.label}>Dénivelé positif (m)</Text>
-            <TextInput
-              keyboardType="numeric"
-              value={elevation}
-              onChangeText={setElevation}
-              style={styles.input}
-            />
           </View>
-
-          {/* ---- Résultat ---- */}
-          {results && (
-            <View style={styles.resultCard}>
-              <Text style={styles.resultLabel}>Pression de refoulement</Text>
-              <Text style={styles.resultValue}>{results.pumpPressure.toFixed(2)} bar</Text>
-              <View style={styles.resultBreakdown}>
-                <Text style={styles.resultBreakdownText}>
-                  Total perte de charge : {results.totalFriction.toFixed(2)} bar
-                </Text>
-                <Text style={styles.resultBreakdownText}>
-                  Pression lance : {(parseFloat(nozzlePressure) || 0).toFixed(2)} bar
-                </Text>
-              </View>
-            </View>
-          )}
-        </View>
-      </ScrollView>
-    </SafeAreaView>
+        </ScrollView>
+      </SafeAreaView>
   );
 }
 
@@ -323,7 +334,24 @@ const styles = StyleSheet.create({
   },
   content: {
     width: "100%",
-    maxWidth: 640, // centre et limite la largeur sur le web
+    maxWidth: 1100,
+  },
+  mainLayout: {
+    flexDirection: "column",
+    gap: 16,
+  },
+  mainLayoutRow: {
+    flexDirection: "row",
+    alignItems: "flex-start",
+  },
+  column: {
+    width: "100%",
+  },
+  columnLeft: {
+    flex: 1,
+  },
+  columnRight: {
+    flex: 1,
   },
   header: {
     marginBottom: 16,
@@ -583,14 +611,14 @@ const styles = StyleSheet.create({
   },
   sectionSub: {
     marginTop: 2,
-    fontSize: 16,
+    fontSize: 14,
     color: "#64748B",
   },
-    frictionSub: {
-    marginTop: 2,
-    fontSize: 24,
-    color: "#8A2100",
-},
+  frictionSub: {
+    fontSize: 14,
+    fontWeight: "700",
+    color: "#B91C1C",
+  },
   removeBtn: {
     width: 32,
     height: 32,
