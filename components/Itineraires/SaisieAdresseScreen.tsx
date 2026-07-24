@@ -20,6 +20,7 @@ export default function SaisieAdresseScreen({
                                               webviewRef,
                                               setSummary,
                                               setFinalAddress,
+                                              myLocation
                                             }) {
   const [address, setAddress] = useState('');
   const [suggestions, setSuggestions] = useState([]);
@@ -301,6 +302,7 @@ export default function SaisieAdresseScreen({
     CIS: ['INTERVENTION', 'HOPITAL', 'PK'],
     HOPITAL: ['CIS', 'INTERVENTION'],
     INTERVENTION: ['CIS', 'HOPITAL'],
+    MAPOSITION: ['INTERVENTION', 'HOPITAL', 'PK', 'CIS']
   };
 
   const getDestinationOptions = () => {
@@ -309,12 +311,20 @@ export default function SaisieAdresseScreen({
   };
 
   const startOptions = useMemo(
-      () => [
-        { key: 'CIS', label: 'CIS', icon: '👨‍🚒' },
-        { key: 'HOPITAL', label: 'Hôpital', icon: '🏥' },
-        { key: 'INTERVENTION', label: 'Intervention', icon: '📍' },
-      ],
-      []
+      () => {
+        let result = [
+          { key: 'CIS', label: 'CIS', icon: '👨‍🚒' },
+          { key: 'HOPITAL', label: 'Hôpital', icon: '🏥' },
+          { key: 'INTERVENTION', label: 'Intervention', icon: '📍' }
+        ];
+
+        if(myLocation){
+          result.push( { key: 'MAPOSITION', label: 'Ma position', icon: '🚒' });
+        }
+
+        return result;
+      },
+      [myLocation]
   );
 
   const destinationOptions = useMemo(() => {
@@ -749,6 +759,12 @@ export default function SaisieAdresseScreen({
         } else if (startPoint === 'HOPITAL') {
           fetchRoute(ItineraireConstants.CH_COORDINATES, destination);
         }
+        else if (startPoint === 'HOPITAL') {
+          fetchRoute(ItineraireConstants.CH_COORDINATES, destination);
+        }
+        else if (startPoint === 'MAPOSITION') {
+          fetchRoute(myLocation, destination);
+        }
       } else if (startPoint === 'INTERVENTION') {
         setAddress(startPoint);
         setFinalAddress(startPoint);
@@ -852,6 +868,20 @@ export default function SaisieAdresseScreen({
         setSuggestions([]);
         setDestination(ItineraireConstants.CIS_COORDINATES);
         fetchRoute(ItineraireConstants.CH_COORDINATES, ItineraireConstants.CIS_COORDINATES);
+      }
+      else if (startPoint === 'MAPOSITION' && endPoint === 'CIS') {
+        setAddress('CIS');
+        setFinalAddress('CIS');
+        setSuggestions([]);
+        setDestination(ItineraireConstants.CIS_COORDINATES);
+        fetchRoute(myLocation, ItineraireConstants.CIS_COORDINATES);
+      }
+      else if (startPoint === 'MAPOSITION' && endPoint === 'HOPITAL') {
+        setAddress('HOPITAL');
+        setFinalAddress('HOPITAL');
+        setSuggestions([]);
+        setDestination(ItineraireConstants.CH_COORDINATES);
+        fetchRoute(myLocation, ItineraireConstants.CH_COORDINATES);
       }
     }
   }, [startPoint, endPoint]);

@@ -5,7 +5,7 @@ import {Platform, StyleSheet, Text, View } from 'react-native';
 import { WebView } from "../WebViewWrapper";
 import LeafletMap from './LeafletMap';
 
-export default function CarteScreen({ destination, summary, route, finalAddress, webviewRef }) {
+export default function CarteScreen({ destination, summary, route, finalAddress, webviewRef, setMyLocation }) {
   const [currentLocation, setCurrentLocation] = useState(null);
   const [currentAddress, setCurrentAddress] = useState(null);
   const locationSubscription = useRef(null);
@@ -107,6 +107,7 @@ export default function CarteScreen({ destination, summary, route, finalAddress,
   useEffect(() => {
     async function fetchAddress() {
       if (currentLocation) {
+        setMyLocation(currentLocation);
         const now = Date.now();
         const shouldCall =
             !lastGeo.current ||
@@ -149,7 +150,6 @@ export default function CarteScreen({ destination, summary, route, finalAddress,
             (location) => {
               const { latitude, longitude } = location.coords;
               setCurrentLocation({ latitude, longitude });
-
               if (webviewRef.current) {
                 webviewRef.current.postMessage(JSON.stringify({
                   type: "setCurrentLocation",

@@ -8,6 +8,7 @@ import {Stack} from "expo-router";
 const Tab = createBottomTabNavigator();
 
 export default function ItineraireScreen() {
+    const [myLocation, setMyLocation] = useState(null);
   const [destination, setDestination] = useState(null);
   const [summary, setSummary] = useState(null);
   const [route, setRoute] = useState(null);
@@ -33,6 +34,7 @@ export default function ItineraireScreen() {
                         setRoute={setRoute}
                         webviewRef={webviewRef}
                         setSummary={setSummary}
+                        myLocation={myLocation}
                     />
                 </View>
 
@@ -43,6 +45,7 @@ export default function ItineraireScreen() {
                         route={route}
                         summary={summary}
                         webviewRef={webviewRef}
+                        setMyLocation={setMyLocation}
                     />
                 </View>
             </View>
@@ -67,10 +70,10 @@ export default function ItineraireScreen() {
       })}
     >
       <Tab.Screen name="Carte">
-        {() => <CarteScreen finalAddress={finalAddress} destination={destination} route={route} summary={summary} webviewRef={webviewRef} />}
+        {() => <CarteScreen finalAddress={finalAddress} destination={destination} route={route} summary={summary} webviewRef={webviewRef} setMyLocation={setMyLocation} />}
       </Tab.Screen> 
        <Tab.Screen name="Saisie d'adresse">
-        {() => <SaisieAdresseScreen setDestination={setDestination} setFinalAddress={setFinalAddress} setRoute={setRoute} webviewRef={webviewRef} setSummary={setSummary} />}
+        {() => <SaisieAdresseScreen setDestination={setDestination} setFinalAddress={setFinalAddress} setRoute={setRoute} webviewRef={webviewRef} setSummary={setSummary} myLocation={myLocation} />}
       </Tab.Screen>  
     </Tab.Navigator>
   );

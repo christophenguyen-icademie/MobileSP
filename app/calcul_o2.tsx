@@ -15,7 +15,7 @@ const CONTENANCES: Contenance[] = [4, 5, 6, 15];
 
 export default function Calcul_O2(): JSX.Element {
   const [contenance, setContenance] = useState<Contenance>(5);
-  const [pression, setPression] = useState<number>(300);
+  const [pression, setPression] = useState<number>(200);
   const [debit, setDebit] = useState<number>(15);
 
   const pressionValid = pression >= 0 && pression <= 300;
@@ -44,12 +44,21 @@ export default function Calcul_O2(): JSX.Element {
         icon: "😷",
       };
     }
+    if (debit >=7 && debit < 9) {
+      return {
+        label: "Masque Moyenne Concentration",
+        color: "#22C55E",
+        bg: "#ECFDF5",
+        info: "Débit 7/8 L/min → privilégier MMC",
+        icon: "😷",
+      };
+    }
 
     return {
       label: "Masque Haute Concentration",
       color: "#F97316",
       bg: "#FFF7ED",
-      info: "Débit > 6 L/min → privilégier MHC",
+      info: "Débit >= 9 L/min → privilégier MHC",
       icon: "🫁",
     };
   }, [debit, debitValid]);
