@@ -14,6 +14,14 @@ import {
 import listePk from '../../assets/pk.json';
 import ItineraireConstants from './ItinerairesConstants';
 
+const orsHeaders = () => ({
+  Accept: 'application/json',
+  'Content-Type': 'application/json',
+  ...(ItineraireConstants.ORS_API_KEY
+      ? { Authorization: ItineraireConstants.ORS_API_KEY }
+      : {}),
+});
+
 export default function SaisieAdresseScreen({
                                               setDestination,
                                               setRoute,
@@ -380,12 +388,14 @@ export default function SaisieAdresseScreen({
     if (text.length >= 5) {
       try {
         const maxResults = 10;
-        const departement = 10;
-        const url = `${ItineraireConstants.GEOPLATEFORME_GEOCODAGE_URL}/completion/?text=${encodeURIComponent(
-            text
-        )}&terr=${departement}&poiType=administratif&type=StreetAddress&maximumResponses=${maxResults}`;
+        const url = `${ItineraireConstants.GEOCODING_URL}/completion` +
+            `?text=${encodeURIComponent(text)}` +
+            `&type=StreetAddress&maximumResponses=${maxResults}`;
 
         const response = await fetch(url);
+        if (!response.ok) {
+          throw new Error(`Le service de géocodage a répondu ${response.status}`);
+        }
         const data = await response.json();
         setSuggestions(data.results || []);
       } catch (error) {
@@ -422,11 +432,7 @@ export default function SaisieAdresseScreen({
     try {
       const response = await fetch(`${ItineraireConstants.OPENROUTESERVICE_DIRECTIONS_URL}`, {
         method: 'POST',
-        headers: {
-          Authorization: ItineraireConstants.ORS_API_KEY,
-          Accept: 'application/json',
-          'Content-Type': 'application/json',
-        },
+        headers: orsHeaders(),
         body: JSON.stringify({
           coordinates: [
             [depart.longitude, depart.latitude],
@@ -609,10 +615,7 @@ export default function SaisieAdresseScreen({
     async function snapPoint(lon, lat) {
       const r = await fetch(SNAP_URL, {
         method: 'POST',
-        headers: {
-          Authorization: ItineraireConstants.ORS_API_KEY,
-          'Content-Type': 'application/json',
-        },
+        headers: orsHeaders(),
         body: JSON.stringify({ locations: [[lon, lat]] }),
       });
 
@@ -629,10 +632,7 @@ export default function SaisieAdresseScreen({
       const tryRoute = async (target) => {
         const r = await fetch(ROUTE_URL, {
           method: 'POST',
-          headers: {
-            Authorization: ItineraireConstants.ORS_API_KEY,
-            'Content-Type': 'application/json',
-          },
+          headers: orsHeaders(),
           body: JSON.stringify({
             coordinates: [[lon, lat], target],
             instructions: false,
@@ -757,9 +757,6 @@ export default function SaisieAdresseScreen({
         if (startPoint === 'CIS') {
           fetchRoute(ItineraireConstants.CIS_COORDINATES, destination);
         } else if (startPoint === 'HOPITAL') {
-          fetchRoute(ItineraireConstants.CH_COORDINATES, destination);
-        }
-        else if (startPoint === 'HOPITAL') {
           fetchRoute(ItineraireConstants.CH_COORDINATES, destination);
         }
         else if (startPoint === 'MAPOSITION') {
@@ -1059,7 +1056,7 @@ export default function SaisieAdresseScreen({
         {loading && (
             <View style={styles.loadingOverlay}>
               <ActivityIndicator size="large" color="#007AFF" />
-              <Text style={styles.loadingText}>Calcul de l'itinéraire…</Text>
+              <Text style={styles.loadingText}>Calcul de l&apos;itinéraire…</Text>
             </View>
         )}
       </View>

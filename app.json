@@ -35,6 +35,5 @@
     "plugins": [
       "expo-asset"
     ]
-  },
-  "name": "MobileSP"
+  }
 }

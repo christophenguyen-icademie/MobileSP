@@ -1,6 +1,13 @@
 import listeHydrants from "../../assets/hydrants.json";
 import listePK from "../../assets/pk.json";
 import ItineraireConstants from "./ItinerairesConstants";
+import leafletCss from "./vendor/leafletCss";
+import leafletJs from "./vendor/leafletJs";
+import leafletMarkerImages from "./vendor/leafletMarkerImages";
+import markerClusterCss from "./vendor/markerClusterCss";
+import markerClusterDefaultCss from "./vendor/markerClusterDefaultCss";
+import markerClusterJs from "./vendor/markerClusterJs";
+import proj4Js from "./vendor/proj4Js";
 
 export default function LeafletMap() {
 
@@ -50,14 +57,18 @@ export default function LeafletMap() {
   literalScriptMarkersPKN77+="]";
 
 
+  let literalHydrants="[";
   let literalScriptMarkersHydrants="[";
 
   listeHydrants.forEach((hydrant) => {
+    literalHydrants+="{longitude: " + hydrant.longitude + ", latitude: " + hydrant.latitude + ", type: \"" + hydrant.type_hydrant + "\", nom: '" + hydrant.nom_sdis + "'},";
     const popup = hydrant.nom_sdis + " " + hydrant.type_hydrant;
     if(hydrant.type_hydrant === "Poteau incendie"){
       literalScriptMarkersHydrants += "L.marker([" + hydrant.latitude + "," + hydrant.longitude + "],{icon: createFireHydrantIcon()}).bindPopup(\"" + popup + "\"),";
     } else if(hydrant.type_hydrant === "Bouche incendie"){
       literalScriptMarkersHydrants += "L.marker([" + hydrant.latitude + "," + hydrant.longitude + "],{icon: createFireHydrantBoucheIcon()}).bindPopup(\"" + popup + "\"),";
+    } else if(hydrant.type_hydrant === "Réserve incendie"){
+      literalScriptMarkersHydrants += "L.marker([" + hydrant.latitude + "," + hydrant.longitude + "],{icon: createFireReserveIcon()}).bindPopup(\"" + popup + "\"),";
     } else {
       literalScriptMarkersHydrants += "L.marker([" + hydrant.latitude + "," + hydrant.longitude + "],{icon: createMarkerPEI()}).bindPopup(\"" + popup + "\"),";
     }
@@ -65,17 +76,19 @@ export default function LeafletMap() {
 
   if(listeHydrants.length>0){
    literalScriptMarkersHydrants = literalScriptMarkersHydrants.substring(0,literalScriptMarkersHydrants.length-1);
+   literalHydrants = literalHydrants.substring(0,literalHydrants.length-1);
   }
 
   literalScriptMarkersHydrants+="]";
+  literalHydrants+="];";
 
   return `<!doctype html>
 <html>
 <head>
 <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0">
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
-<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.css">
-<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.Default.css">
+<style>${leafletCss}</style>
+<style>${markerClusterCss}</style>
+<style>${markerClusterDefaultCss}</style>
 <style>
     html,body,#map{height:100%;margin:0;padding:0}
     body{background:#fff}  
@@ -217,9 +230,16 @@ export default function LeafletMap() {
 </head>
 <body>
 <div id="map"></div>
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-<script src="https://unpkg.com/leaflet.markercluster/dist/leaflet.markercluster.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.9.0/proj4.js"></script>
+<script>${leafletJs}</script>
+<script>${markerClusterJs}</script>
+<script>${proj4Js}</script>
+<script>
+  // Marqueur Leaflet par défaut : images embarquées plutôt que chargées depuis le CDN
+  L.Icon.Default.imagePath = '';
+  L.Icon.Default.prototype.options.iconUrl = "${leafletMarkerImages.iconUrl}";
+  L.Icon.Default.prototype.options.iconRetinaUrl = "${leafletMarkerImages.iconRetinaUrl}";
+  L.Icon.Default.prototype.options.shadowUrl = "${leafletMarkerImages.shadowUrl}";
+</script>
 <script>
   // Créer l'objet ReactNativeWebView pour la communication avec React Native
   window.ReactNativeWebView = {
@@ -375,9 +395,18 @@ export default function LeafletMap() {
       html: '<div style="font-size:32px">🧯</div>',
       className: '',
       iconSize: [36,36],
-      iconAnchor: [18,18]
+      iconAnchor: [0,0]
     });
   }
+  
+  function createFireReserveIcon() {  
+    return L.divIcon({
+      html: '<div style="font-size:16px">💦</div>',
+      className: '',
+      iconSize: [16,16],
+      iconAnchor: [0,0]
+    });
+  }  
   
   function createFireHydrantBoucheIcon() {
   return L.divIcon({
@@ -410,7 +439,7 @@ export default function LeafletMap() {
   });
 }
   
-  function createFireHydrantIcon() {
+function createFireHydrantIcon() {
   return L.divIcon({
     className: 'fire-hydrant-icon',
     html: \`
@@ -438,23 +467,47 @@ export default function LeafletMap() {
 <script>
   var map = L.map('map').setView([${ItineraireConstants.CIS_COORDINATES.latitude}, ${ItineraireConstants.CIS_COORDINATES.longitude}], 13);
 
+  L.control.scale({position:'topleft', metric: true}).addTo(map);
+  // Fond par défaut : serveur de tuiles local (voir serveur-tuiles/). Pas de
+  // {s}, il n'y a qu'un seul serveur à interroger.
+  var osmLocal = L.tileLayer('${ItineraireConstants.TUILES_URL}', {
+    maxZoom: 19,
+    // Au-delà du zoom moissonné, Leaflet agrandit la dernière tuile disponible
+    // plutôt que d'en demander une inexistante (carrés gris).
+    maxNativeZoom: ${ItineraireConstants.TUILES_ZOOM_MAX_NATIF},
+    attribution: '© OpenStreetMap contributors'
+  })
+  osmLocal.addTo(map);
+
+  // Repli manuel si le serveur local est arrêté.
   var osm = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 19,
     attribution: '© OpenStreetMap contributors'
-  })
-  osm.addTo(map);
-
-  var googleSat = L.tileLayer('https://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}',{
-        maxZoom: 20,
-        subdomains:['mt0','mt1','mt2','mt3'],
-        attribution: '© Google contributors'
   });
 
-  var baseMaps = {
-    "OpenStreetMap": osm,
-    "Google Satellite": googleSat
-  };
+  // Orthophotographie IGN (Géoplateforme, WMTS, licence ouverte — pas de clé API).
+  // Le TileMatrixSet "PM" est la pyramide Web Mercator standard, donc {z}/{x}/{y}
+  // se mappent directement sur TILEMATRIX/TILECOL/TILEROW. Zoom max : 19.
+  var ignOrtho = L.tileLayer(
+    'https://data.geopf.fr/wmts' +
+    '?SERVICE=WMTS&VERSION=1.0.0&REQUEST=GetTile' +
+    '&LAYER=ORTHOIMAGERY.ORTHOPHOTOS&STYLE=normal&TILEMATRIXSET=PM' +
+    '&FORMAT=image/jpeg&TILEMATRIX={z}&TILECOL={x}&TILEROW={y}',
+    {
+      maxZoom: 19,
+      attribution: '© IGN — Géoplateforme'
+    }
+  );
 
+  var baseMaps = {
+    "${ItineraireConstants.TUILES_LAYER_NAME}": osmLocal,
+    "Orthophoto IGN": ignOrtho
+  };
+  if ('${ItineraireConstants.SERVICES_MODE}' === 'local') {
+    baseMaps["OpenStreetMap (en ligne)"] = osm;
+  }
+
+  var toushydrants = ${literalHydrants};
   var pei = L.layerGroup(${literalScriptMarkersHydrants});
   var pkA5 = L.layerGroup(${literalScriptMarkersPKA5});
   var pkA26 = L.layerGroup(${literalScriptMarkersPKA26});
@@ -504,7 +557,9 @@ export default function LeafletMap() {
   var routeLayer = null;
   var stepLayers = [];
   var highlightedStepIndex = null;
-
+  var mailleMarker = null;
+  var hydrantsMarkers = [];  
+  
   function setCenter(lat, lon) {
     map.setView([lat, lon], 13);
   }
@@ -577,7 +632,12 @@ export default function LeafletMap() {
     if (destinationMarker) {
       map.removeLayer(destinationMarker);
     }
-    
+    if (mailleMarker) {
+      map.removeLayer(mailleMarker);
+      mailleMarker = null;
+    }
+    hydrantsMarkers.forEach(layer => map.removeLayer(layer));
+    hydrantsMarkers = [];
     if(pk) {        
       destinationMarker = L.marker([lat, lon],{icon: createNumberedMarker(pk)}).addTo(map);      
     } else {
@@ -593,11 +653,72 @@ export default function LeafletMap() {
     let cell = getCellInfo(lat, lon);
     let content;
     if (cell.inside) {
-        let code = cell.row + "-" + indexToCol(cell.colIndex);
+        let code = cell.row + "-" + indexToCol(cell.colIndex);        
         setMaille(code);
+        drawMaille(cell);
     } else {
         setMaille('');
     }   
+    
+    drawHydrants({longitude:lon, latitude:lat}, 400);
+  }
+  
+  function drawMaille(cell){
+    let dx = (cell.colIndex - refColIndex) * PAS;    
+    let dy = (cell.row - refRow) * PAS;
+
+    let xWest = originX + dx;
+    let xEast = xWest + PAS;
+
+    let yNorth = originY - dy;
+    let ySouth = yNorth - PAS;
+    
+    // Conversion vers WGS
+    let nw = toWGS(xWest, yNorth);
+    let ne = toWGS(xEast, yNorth);
+    let se = toWGS(xEast, ySouth);
+    let sw = toWGS(xWest, ySouth);
+
+    mailleMarker = L.polygon([
+        [nw[1], nw[0]],
+        [ne[1], ne[0]],
+        [se[1], se[0]],
+        [sw[1], sw[0]]
+    ], {
+        color: "red",
+        weight: 1,
+        fill: false
+    }).addTo(map);
+    return mailleMarker;
+  }
+  
+  
+  function drawHydrants(centre, rayon){     
+    toushydrants.forEach((hydrant) => { 
+      
+        const distance = distanceEnMetres(centre, hydrant);
+        if(distance < rayon){   
+            const popup = hydrant.nom + " " + hydrant.type + " (" + Math.round(distance,0) + "m à vol d'oiseau)";          
+            if(hydrant.type === "Poteau incendie"){
+              hydrantsMarkers.push(L.marker([hydrant.latitude,hydrant.longitude],{icon: createFireHydrantIcon()}).bindPopup(popup).addTo(map));
+            } else if(hydrant.type === "Bouche incendie"){
+              hydrantsMarkers.push(L.marker([hydrant.latitude,hydrant.longitude],{icon: createFireHydrantBoucheIcon()}).bindPopup(popup).addTo(map));
+            } else if(hydrant.type === "Réserve incendie"){
+              hydrantsMarkers.push(L.marker([hydrant.latitude,hydrant.longitude],{icon: createFireReserveIcon()}).bindPopup(popup).addTo(map));
+            } else {
+              hydrantsMarkers.push(L.marker([hydrant.latitude,hydrant.longitude],{icon: createMarkerPEI()}).bindPopup(popup).addTo(map));
+            }
+        }
+    });  
+  }
+    
+  function distanceEnMetres(a,b, log = false){
+     if(log) console.log(b.latitude*100000 - a.latitude*100000);
+     if(log) console.log(b.longitude*100000 - a.longitude*100000);
+  
+    const dLat = Math.pow((b.latitude*100000 - a.latitude*100000),2);
+    const dLon = Math.pow((b.longitude*100000 - a.longitude*100000),2);
+    return Math.sqrt(dLat + dLon);
   }
 
   function setMaille(code){  
@@ -643,6 +764,10 @@ export default function LeafletMap() {
       map.removeLayer(destinationMarker);
       destinationMarker = null;
     }
+    if (mailleMarker) {
+      map.removeLayer(mailleMarker);
+      mailleMarker = null;
+    }
     if (routeLayer) {
       map.removeLayer(routeLayer);
       routeLayer = null;
@@ -659,6 +784,8 @@ export default function LeafletMap() {
       map.removeControl(mailleControl);
       mailleControl = null;
     }
+    hydrantsMarkers.forEach(layer => map.removeLayer(layer));
+    hydrantsMarkers = [];
   }
 
   function handleMessage(msg) {   

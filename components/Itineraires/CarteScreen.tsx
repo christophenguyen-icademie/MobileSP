@@ -4,6 +4,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import {Platform, StyleSheet, Text, View } from 'react-native';
 import { WebView } from "../WebViewWrapper";
 import LeafletMap from './LeafletMap';
+import ItineraireConstants from "@/components/Itineraires/ItinerairesConstants";
 
 export default function CarteScreen({ destination, summary, route, finalAddress, webviewRef, setMyLocation }) {
   const [currentLocation, setCurrentLocation] = useState(null);
@@ -11,7 +12,6 @@ export default function CarteScreen({ destination, summary, route, finalAddress,
   const locationSubscription = useRef(null);
   const [maille, setMaille] = useState(null);
 
-  const GEO_URL = "https://data.geopf.fr/geocodage/reverse";
   const lastGeo = useRef(null);
   const lastTime = useRef(0);
 
@@ -119,11 +119,9 @@ export default function CarteScreen({ destination, summary, route, finalAddress,
         lastGeo.current = currentLocation;
         lastTime.current = now;
 
-        const url = `${GEO_URL}?lon=${currentLocation.longitude}&lat=${currentLocation.latitude}`;
-
+        const url = `${ItineraireConstants.GEOCODING_URL}/reverse?lon=${currentLocation.longitude}&lat=${currentLocation.latitude}&format=json`;
         const res = await fetch(url);
         const json = await res.json();
-
         setCurrentAddress(
             json.features?.[0]?.properties?.label ?? "—"
         );
@@ -217,11 +215,13 @@ export default function CarteScreen({ destination, summary, route, finalAddress,
 
   return (
       <View style={styles.map}>
-        {Platform.OS !== "web" && (
-        <Text style={styles.localisation}>
-          {currentAddress ? `📍 ${currentAddress}` : '📍 Localisation en cours...'}
-        </Text>
+
+        {Platform.OS !== "web" &&  (
+            <Text style={styles.localisation}>
+              {currentAddress ? `📍 ${currentAddress}` : '📍 Localisation en cours...'}
+            </Text>
         )}
+
 
         {Platform.OS !== "web" && finalAddress && (
             <Text style={styles.final}>
