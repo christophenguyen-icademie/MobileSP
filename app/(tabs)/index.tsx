@@ -17,6 +17,9 @@ export default function Index() {
   const handleCalculHydrauliqueButton = () => {
     router.push('/calcul_hydraulique');
   };
+  const handleSecourisme = () => {
+    router.push('/secourisme');
+  };
   const handleQuiz = () => {
     router.push('/quiz');
   };
@@ -36,6 +39,13 @@ export default function Index() {
             style={styles.icon}
           />
           <Text style={styles.buttonText}>Itinéraires</Text>
+        </TouchableOpacity>
+        <TouchableOpacity style={styles.button} onPress={handleSecourisme}>
+          <Image
+              source={require("../../assets/images/secourisme.png")}
+              style={styles.icon}
+          />
+          <Text style={styles.buttonText}>Recommandations PSE</Text>
         </TouchableOpacity>
         <TouchableOpacity style={styles.button} onPress={handleCalculO2Button}>
           <Image
