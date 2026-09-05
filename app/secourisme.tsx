@@ -90,6 +90,7 @@ export default function Secourisme() {
 
       <FlatList
         data={chapitres}
+        style={styles.resultats}
         keyExtractor={(chapitre) => chapitre.nom}
         contentContainerStyle={styles.liste}
         ListEmptyComponent={<Text style={styles.vide}>Aucune fiche ne correspond à la recherche.</Text>}
@@ -142,8 +143,8 @@ const styles = StyleSheet.create({
   sousTitre: { color: "#6e6b80", fontSize: 14, marginTop: 3, marginBottom: 14 },
   recherche: { alignItems: "center", backgroundColor: "#f1f0f5", borderRadius: 12, flexDirection: "row", paddingHorizontal: 12 },
   champ: { color: "#242132", flex: 1, fontSize: 16, paddingHorizontal: 9, paddingVertical: 11 },
-  filtres: { flexDirection: "row", gap: 8, marginTop: 12 },
-  filtre: { borderColor: "#d4d1e2", borderRadius: 20, borderWidth: 1, paddingHorizontal: 16, paddingVertical: 7 },
+  filtres: { flexDirection: "row", flexWrap: "wrap", gap: 8, marginTop: 12 },
+  filtre: { borderColor: "#d4d1e2", borderRadius: 20, borderWidth: 1, flexGrow: 1, maxWidth: 150, minWidth: 72, paddingHorizontal: 12, paddingVertical: 7 },
   filtreActif: { backgroundColor: "#1f176a", borderColor: "#1f176a" },
   texteFiltre: { color: "#504d64", fontSize: 14, fontWeight: "600" },
   texteFiltreActif: { color: "#fff" },
@@ -152,6 +153,7 @@ const styles = StyleSheet.create({
   optionTitre: { color: "#353243", fontSize: 14, fontWeight: "600" },
   optionAide: { color: "#7a7788", fontSize: 12, marginTop: 2 },
   liste: { padding: 14, paddingBottom: 30 },
+  resultats: { alignSelf: "center", maxWidth: 900, width: "100%" },
   chapitre: { backgroundColor: "#fff", borderColor: "#e2e0e9", borderRadius: 14, borderWidth: 1, marginBottom: 10, overflow: "hidden" },
   ligneChapitre: { alignItems: "center", flexDirection: "row", minHeight: 72, padding: 12 },
   numeroChapitre: { alignItems: "center", backgroundColor: "#eceaf7", borderRadius: 10, height: 42, justifyContent: "center", width: 42 },
@@ -159,10 +161,10 @@ const styles = StyleSheet.create({
   libelleChapitre: { flex: 1, paddingHorizontal: 12 },
   nomChapitre: { color: "#262238", fontSize: 16, fontWeight: "700" },
   compteur: { color: "#777487", fontSize: 13, marginTop: 3 },
-  ligneFiche: { alignItems: "center", borderTopColor: "#eceaf0", borderTopWidth: 1, flexDirection: "row", marginLeft: 22, minHeight: 78, paddingHorizontal: 14, paddingVertical: 10 },
+  ligneFiche: { alignItems: "center", borderTopColor: "#eceaf0", borderTopWidth: 1, flexDirection: "row", minHeight: 78, paddingHorizontal: 12, paddingVertical: 10 },
   ficheBloc: { borderTopColor: "#eceaf0", borderTopWidth: 1 },
   fichePressee: { backgroundColor: "#f3f2fa" },
-  branche: { backgroundColor: "#c7c3dc", height: 1, marginRight: 10, width: 13 },
+  branche: { backgroundColor: "#c7c3dc", height: 1, marginRight: 8, width: 10 },
   contenuFiche: { flex: 1, paddingRight: 8 },
   metaFiche: { alignItems: "center", flexDirection: "row", flexWrap: "wrap", gap: 6 },
   code: { color: "#1f176a", fontSize: 13, fontWeight: "800" },
@@ -171,6 +173,6 @@ const styles = StyleSheet.create({
   optionnelle: { color: "#817d8e", fontSize: 11, fontStyle: "italic" },
   titreFiche: { color: "#302d3d", fontSize: 15, lineHeight: 20, marginTop: 4 },
   vide: { color: "#716e80", paddingTop: 50, textAlign: "center" },
-  animation: { alignItems: "center", alignSelf: "flex-start", backgroundColor: "#1f176a", borderRadius: 9, flexDirection: "row", gap: 7, marginBottom: 12, marginLeft: 59, paddingHorizontal: 13, paddingVertical: 9 },
+  animation: { alignItems: "center", alignSelf: "flex-start", backgroundColor: "#1f176a", borderRadius: 9, flexDirection: "row", flexShrink: 1, gap: 7, marginBottom: 12, marginHorizontal: 30, paddingHorizontal: 13, paddingVertical: 9 },
   animationTexte: { color: "#fff", fontSize: 13, fontWeight: "700" },
 });

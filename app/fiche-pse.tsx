@@ -56,7 +56,8 @@ export default function FichePse() {
     <SafeAreaView style={styles.container}>
       <Stack.Screen options={{ title: fiche.nom }} />
       <ScrollView contentContainerStyle={styles.contenu}>
-        <View style={styles.entete}>
+        <View style={styles.page}>
+          <View style={styles.entete}>
           <Text style={styles.chapitrePrincipal}>{fiche.chapitre_principal}</Text>
           <Text style={styles.reference}>{fiche.nom}</Text>
           <Text style={styles.titre}>{fiche.titre}</Text>
@@ -64,34 +65,35 @@ export default function FichePse() {
             {fiche.niveaux.map((niveau) => <View key={niveau} style={styles.badge}><Text style={styles.badgeTexte}>{niveau}</Text></View>)}
             {fiche.niveaux.length === 0 && <View style={styles.badgeOptionnel}><Text style={styles.badgeOptionnelTexte}>Complémentaire</Text></View>}
           </View>
-        </View>
-
-        {fiche.chapitres.map((chapitre, index) => (
-          <View key={`${index}-${chapitre.titre}`} style={styles.section}>
-            <Text style={styles.sectionTitre}>{chapitre.titre}</Text>
-            {chapitre.contenu.map((bloc, blocIndex) => <Bloc key={blocIndex} bloc={bloc} />)}
           </View>
-        ))}
 
-        {fiche.notes.length > 0 && (
-          <View style={styles.notes}>
-            <Text style={styles.notesTitre}>Notes</Text>
-            {fiche.notes.map((note, index) => <Text key={`${index}-${note}`} style={styles.note}>{note}</Text>)}
-          </View>
-        )}
+          {fiche.chapitres.map((chapitre, index) => (
+            <View key={`${index}-${chapitre.titre}`} style={styles.section}>
+              <Text style={styles.sectionTitre}>{chapitre.titre}</Text>
+              {chapitre.contenu.map((bloc, blocIndex) => <Bloc key={blocIndex} bloc={bloc} />)}
+            </View>
+          ))}
 
-        {fiche.nom === "05FT10" && (
-          <Pressable style={styles.animation} onPress={() => router.push("/animation-pse")}>
-            <Ionicons name="cube-outline" size={20} color="#fff" />
-            <Text style={styles.animationTexte}>Voir l’animation 3D</Text>
+          {fiche.notes.length > 0 && (
+            <View style={styles.notes}>
+              <Text style={styles.notesTitre}>Notes</Text>
+              {fiche.notes.map((note, index) => <Text key={`${index}-${note}`} style={styles.note}>{note}</Text>)}
+            </View>
+          )}
+
+          {fiche.nom === "05FT10" && (
+            <Pressable style={styles.animation} onPress={() => router.push("/animation-pse")}>
+              <Ionicons name="cube-outline" size={20} color="#fff" />
+              <Text style={styles.animationTexte}>Voir l’animation 3D</Text>
+            </Pressable>
+          )}
+
+          <Pressable style={styles.pdf} onPress={ouvrirPdf} disabled={chargementPdf}>
+            {chargementPdf ? <ActivityIndicator color="#1f176a" /> : <Ionicons name="document-text-outline" size={21} color="#1f176a" />}
+            <Text style={styles.pdfTexte}>Ouvrir le PDF original</Text>
+            <Ionicons name="open-outline" size={18} color="#1f176a" />
           </Pressable>
-        )}
-
-        <Pressable style={styles.pdf} onPress={ouvrirPdf} disabled={chargementPdf}>
-          {chargementPdf ? <ActivityIndicator color="#1f176a" /> : <Ionicons name="document-text-outline" size={21} color="#1f176a" />}
-          <Text style={styles.pdfTexte}>Ouvrir le PDF original</Text>
-          <Ionicons name="open-outline" size={18} color="#1f176a" />
-        </Pressable>
+        </View>
       </ScrollView>
     </SafeAreaView>
   );
@@ -100,11 +102,12 @@ export default function FichePse() {
 const styles = StyleSheet.create({
   container: { backgroundColor: "#f5f5f8", flex: 1 },
   contenu: { paddingBottom: 38 },
+  page: { alignSelf: "center", maxWidth: 900, width: "100%" },
   entete: { backgroundColor: "#1f176a", paddingHorizontal: 20, paddingVertical: 24 },
   chapitrePrincipal: { color: "#c9c5ee", fontSize: 13, fontWeight: "600", textTransform: "uppercase" },
   reference: { color: "#fff", fontSize: 14, fontWeight: "800", marginTop: 12 },
-  titre: { color: "#fff", fontSize: 27, fontWeight: "800", lineHeight: 33, marginTop: 4 },
-  badges: { flexDirection: "row", gap: 7, marginTop: 15 },
+  titre: { color: "#fff", flexShrink: 1, fontSize: 27, fontWeight: "800", lineHeight: 33, marginTop: 4 },
+  badges: { flexDirection: "row", flexWrap: "wrap", gap: 7, marginTop: 15 },
   badge: { backgroundColor: "#d9f2e6", borderRadius: 6, paddingHorizontal: 9, paddingVertical: 4 },
   badgeTexte: { color: "#176b49", fontSize: 12, fontWeight: "800" },
   badgeOptionnel: { backgroundColor: "#e6e4ed", borderRadius: 6, paddingHorizontal: 9, paddingVertical: 4 },
@@ -122,8 +125,8 @@ const styles = StyleSheet.create({
   note: { color: "#6e6a78", fontSize: 13, lineHeight: 19, marginBottom: 5 },
   animation: { alignItems: "center", backgroundColor: "#1f176a", borderRadius: 12, flexDirection: "row", gap: 9, justifyContent: "center", marginHorizontal: 18, marginTop: 20, paddingVertical: 14 },
   animationTexte: { color: "#fff", fontSize: 15, fontWeight: "700" },
-  pdf: { alignItems: "center", backgroundColor: "#fff", borderColor: "#1f176a", borderRadius: 12, borderWidth: 1, flexDirection: "row", gap: 9, justifyContent: "center", marginHorizontal: 18, marginTop: 12, paddingVertical: 14 },
-  pdfTexte: { color: "#1f176a", fontSize: 15, fontWeight: "700" },
+  pdf: { alignItems: "center", backgroundColor: "#fff", borderColor: "#1f176a", borderRadius: 12, borderWidth: 1, flexDirection: "row", flexWrap: "wrap", gap: 9, justifyContent: "center", marginHorizontal: 18, marginTop: 12, paddingHorizontal: 12, paddingVertical: 14 },
+  pdfTexte: { color: "#1f176a", flexShrink: 1, fontSize: 15, fontWeight: "700", textAlign: "center" },
   erreur: { alignItems: "center", flex: 1, justifyContent: "center", padding: 24 },
   erreurTitre: { color: "#352f3e", fontSize: 21, fontWeight: "800", marginTop: 10 },
   retour: { color: "#1f176a", fontSize: 16, fontWeight: "700", marginTop: 18 },
