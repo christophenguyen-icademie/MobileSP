@@ -3,6 +3,7 @@ import { useFrame } from "@react-three/fiber";
 import { useMemo, useRef } from "react";
 import * as THREE from "three";
 import FirefighterModel from "./FirefighterModel";
+import VictimModel from "./VictimModel";
 
 type Point = [number, number, number];
 type Props = { progression: number; angle: number };
@@ -162,7 +163,7 @@ export function CompressionScene({ progression, angle }: Props) {
         <boxGeometry args={[8.5, 0.12, 6.5]} />
         <meshStandardMaterial color="#d8e1e7" roughness={0.96} />
       </mesh>
-      <Victime enfoncement={enfoncement} />
+      <VictimModel depression={enfoncement} fallback={<Victime enfoncement={enfoncement} />} />
       <FirefighterModel
         progression={progression}
         enfoncement={enfoncement}

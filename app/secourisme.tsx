@@ -122,13 +122,13 @@ export default function Secourisme() {
                     </View>
                     <Ionicons name="chevron-forward" size={22} color="#1f176a" />
                   </Pressable>
-                  <Pressable
-                    style={styles.animation}
-                    onPress={() => router.push({ pathname: "/animation-pse", params: { reference: fiche.nom } })}
-                  >
+                  {fiche.nom === "01AC01" && <Pressable
+                      style={styles.animation}
+                      onPress={() => router.push({ pathname: "/animation-pse", params: { reference: fiche.nom } })}
+                    >
                       <Ionicons name="cube-outline" size={18} color="#fff" />
                       <Text style={styles.animationTexte}>Démo animation 3D</Text>
-                  </Pressable>
+                    </Pressable>}
                 </View>
               ))}
             </View>

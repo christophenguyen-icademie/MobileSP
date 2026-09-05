@@ -20,12 +20,14 @@ const rotations: Record<string, [number, number, number]> = {
   "mixamorig:Spine_02": [-0.48, 0, 0],
   "mixamorig:Spine1_03": [-0.38, 0, 0],
   "mixamorig:Spine2_04": [-0.3, 0, 0],
-  "mixamorig:LeftArm_011": [0.18, 0.15, -1.24],
-  "mixamorig:LeftForeArm_012": [0, 0.04, -0.12],
-  "mixamorig:RightArm_035": [0.18, -0.15, 1.24],
-  "mixamorig:RightForeArm_036": [0, -0.04, 0.12],
-  "mixamorig:LeftHand_013": [0.08, 0.22, 0],
-  "mixamorig:RightHand_037": [-0.08, -0.22, 0],
+  "mixamorig:LeftShoulder_010": [0.08, 0.12, -0.08],
+  "mixamorig:LeftArm_011": [0.2, 0.1, -1.28],
+  "mixamorig:LeftForeArm_012": [0, 0, 0],
+  "mixamorig:RightShoulder_034": [0.08, -0.12, 0.08],
+  "mixamorig:RightArm_035": [0.2, -0.1, 1.28],
+  "mixamorig:RightForeArm_036": [0, 0, 0],
+  "mixamorig:LeftHand_013": [0.04, 0.12, -0.08],
+  "mixamorig:RightHand_037": [-0.04, -0.12, 0.08],
   "mixamorig:LeftUpLeg_062": [-1.2, 0.08, -0.1],
   "mixamorig:LeftLeg_063": [1.95, 0, 0],
   "mixamorig:LeftFoot_064": [-0.65, 0, 0],
@@ -93,7 +95,7 @@ function PersonnageCharge({ uri, progression, enfoncement }: Omit<Props, "fallba
   }, [approche, bases, enfoncement, hancheY, scene]);
 
   return (
-    <group ref={groupe} position={[1.95, 0.1, 0.18]} rotation={[0, -Math.PI / 2, 0]} scale={0.023}>
+    <group ref={groupe} position={[1.95, 0.1, -0.52]} rotation={[0, -Math.PI / 2, 0]} scale={0.023}>
       <primitive object={scene} />
     </group>
   );
