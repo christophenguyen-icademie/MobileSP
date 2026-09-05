@@ -1,7 +1,7 @@
 import { Ionicons } from "@expo/vector-icons";
 import { Stack, useRouter } from "expo-router";
 import { useMemo, useState } from "react";
-import { FlatList, Pressable, SafeAreaView, StyleSheet, Switch, Text, TextInput, View } from "react-native";
+import { FlatList, Platform, Pressable, SafeAreaView, StyleSheet, Switch, Text, TextInput, useWindowDimensions, View } from "react-native";
 
 import fichesJson from "@/assets/pse/fiches/Références techniques nationales - PSE - Fiches/fiches.json";
 import { PSE_DATA } from "@/constants/pseData";
@@ -21,6 +21,8 @@ const contenusRecherchables = Object.fromEntries(
 );
 
 export default function Secourisme() {
+  const { width } = useWindowDimensions();
+  const mobileWeb = Platform.OS === "web" && width <= 600;
   const router = useRouter();
   const [recherche, setRecherche] = useState("");
   const [filtre, setFiltre] = useState<Filtre>("Tous");
@@ -60,8 +62,8 @@ export default function Secourisme() {
     <SafeAreaView style={styles.container}>
       <Stack.Screen options={{ title: "Recommandations PSE" }} />
       <View style={styles.entete}>
-        <Text style={styles.titre}>Annuaire des fiches PSE</Text>
-        <Text style={styles.sousTitre}>198 fiches classées par chapitre</Text>
+        <Text style={[styles.titre, mobileWeb && styles.titreMobile]}>Annuaire des fiches PSE</Text>
+        <Text style={[styles.sousTitre, mobileWeb && styles.sousTitreMobile]}>198 fiches classées par chapitre</Text>
         <View style={styles.recherche}>
           <Ionicons name="search" size={20} color="#615f76" />
           <TextInput value={recherche} onChangeText={setRecherche} placeholder="Rechercher une fiche, un code…" placeholderTextColor="#858398" style={styles.champ} returnKeyType="search" />
@@ -101,8 +103,8 @@ export default function Secourisme() {
               <Pressable style={styles.ligneChapitre} onPress={() => basculerChapitre(chapitre.nom)}>
                 <View style={styles.numeroChapitre}><Text style={styles.numeroTexte}>{chapitre.numero}</Text></View>
                 <View style={styles.libelleChapitre}>
-                  <Text style={styles.nomChapitre}>{chapitre.nom}</Text>
-                  <Text style={styles.compteur}>{chapitre.fiches.length} fiche(s)</Text>
+                  <Text style={[styles.nomChapitre, mobileWeb && styles.nomChapitreMobile]}>{chapitre.nom}</Text>
+                  <Text style={[styles.compteur, mobileWeb && styles.compteurMobile]}>{chapitre.fiches.length} fiche(s)</Text>
                 </View>
                 <Ionicons name={estOuvert ? "chevron-up" : "chevron-down"} size={22} color="#1f176a" />
               </Pressable>
@@ -116,7 +118,7 @@ export default function Secourisme() {
                         {fiche.niveaux.map((niveau) => <View key={niveau} style={styles.badge}><Text style={styles.badgeTexte}>{niveau}</Text></View>)}
                         {fiche.niveaux.length === 0 && <Text style={styles.optionnelle}>Complémentaire</Text>}
                       </View>
-                      <Text style={styles.titreFiche}>{fiche.titre}</Text>
+                      <Text style={[styles.titreFiche, mobileWeb && styles.titreFicheMobile]}>{fiche.titre}</Text>
                     </View>
                     <Ionicons name="chevron-forward" size={22} color="#1f176a" />
                   </Pressable>
@@ -140,7 +142,9 @@ const styles = StyleSheet.create({
   container: { flex: 1, backgroundColor: "#f5f5f8" },
   entete: { backgroundColor: "#fff", paddingHorizontal: 18, paddingTop: 14, paddingBottom: 12 },
   titre: { color: "#1f176a", fontSize: 24, fontWeight: "800" },
+  titreMobile: { fontSize: 28, lineHeight: 34 },
   sousTitre: { color: "#6e6b80", fontSize: 14, marginTop: 3, marginBottom: 14 },
+  sousTitreMobile: { fontSize: 17, lineHeight: 23 },
   recherche: { alignItems: "center", backgroundColor: "#f1f0f5", borderRadius: 12, flexDirection: "row", paddingHorizontal: 12 },
   champ: { color: "#242132", flex: 1, fontSize: 16, paddingHorizontal: 9, paddingVertical: 11 },
   filtres: { flexDirection: "row", flexWrap: "wrap", gap: 8, marginTop: 12 },
@@ -160,7 +164,9 @@ const styles = StyleSheet.create({
   numeroTexte: { color: "#1f176a", fontSize: 15, fontWeight: "800" },
   libelleChapitre: { flex: 1, paddingHorizontal: 12 },
   nomChapitre: { color: "#262238", fontSize: 16, fontWeight: "700" },
+  nomChapitreMobile: { fontSize: 19, lineHeight: 25 },
   compteur: { color: "#777487", fontSize: 13, marginTop: 3 },
+  compteurMobile: { fontSize: 15 },
   ligneFiche: { alignItems: "center", borderTopColor: "#eceaf0", borderTopWidth: 1, flexDirection: "row", minHeight: 78, paddingHorizontal: 12, paddingVertical: 10 },
   ficheBloc: { borderTopColor: "#eceaf0", borderTopWidth: 1 },
   fichePressee: { backgroundColor: "#f3f2fa" },
@@ -172,6 +178,7 @@ const styles = StyleSheet.create({
   badgeTexte: { color: "#176b49", fontSize: 11, fontWeight: "700" },
   optionnelle: { color: "#817d8e", fontSize: 11, fontStyle: "italic" },
   titreFiche: { color: "#302d3d", fontSize: 15, lineHeight: 20, marginTop: 4 },
+  titreFicheMobile: { fontSize: 18, lineHeight: 25, marginTop: 6 },
   vide: { color: "#716e80", paddingTop: 50, textAlign: "center" },
   animation: { alignItems: "center", alignSelf: "flex-start", backgroundColor: "#1f176a", borderRadius: 9, flexDirection: "row", flexShrink: 1, gap: 7, marginBottom: 12, marginHorizontal: 30, paddingHorizontal: 13, paddingVertical: 9 },
   animationTexte: { color: "#fff", fontSize: 13, fontWeight: "700" },
