@@ -1,0 +1,97 @@
+{
+  "nom": "03PR02",
+  "titre": "Précautions standards contre le risque infectieux",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Hygiène et asepsie",
+  "chapitres": [
+    {
+      "titre": "De façon générale, il convient de",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "se laver quotidiennement le corps ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "avoir les ongles coupés courts ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "se laver et se désinfecter régulièrement les mains dans la vie courante."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Au cours de l’intervention",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "porter une tenue adaptée 1 , confortable et lavable ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "se nettoyer régulièrement les mains et les désinfecter ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "porter des gants à usage unique et les changer régulièrement ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "porter un masque à usage unique :"
+            },
+            {
+              "niveau": 2,
+              "texte": "lors de certains gestes de secours (brûlés),"
+            },
+            {
+              "niveau": 2,
+              "texte": "associé à des lunettes ou à une visière de protection, s’il existe un risque de projections (aspirations, risques de vomissements, toux)."
+            },
+            {
+              "niveau": 1,
+              "texte": "respecter les procédures :"
+            },
+            {
+              "niveau": 2,
+              "texte": "de gestion des déchets d’activités de soins à risques infectieux et du matériel souillé par des liquides biologiques,"
+            },
+            {
+              "niveau": 2,
+              "texte": "en cas d’accident d’exposition à un risque viral."
+            },
+            {
+              "niveau": 1,
+              "texte": "recouvrir toute plaie par un pansement ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "utiliser, sur le brancard, des draps à usage unique ou lavés après chaque transport ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "utiliser, si possible, une couverture bactériostatique pour couvrir la victime ; Cette couverture doit être nettoyée ou changée si elle a été souillée."
+            },
+            {
+              "niveau": 1,
+              "texte": "assurer l’entretien des surfaces et du matériel après chaque intervention."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "1 Cette tenue doit être changée dès qu’elle est souillée."
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "nom": "07PR09",
+  "titre": "Traumatisme du crâne",
+  "niveaux": [
+    "PSE 2"
+  ],
+  "chapitre_principal": "Traumatismes",
+  "chapitres": [
+    {
+      "titre": "Face à une urgence ou une détresse vitale, ou en cas d’aggravation",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "appliquer la conduite à tenir adaptée et réaliser en priorité les gestes d’urgence qui s’imposent ;"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "La victime ne présente pas de détresse vitale apparente",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "maintenir la tête en position neutre ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "retirer le casque de protection si la victime en est équipée ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "administrer de l’oxygène en inhalation, si nécessaire ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "si besoin, stabiliser ou restreindre les mouvements du rachis cervical ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "protéger la victime contre le froid, la chaleur ou les intempéries ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "transmettre un bilan et appliquer les consignes reçues ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "surveiller attentivement la victime, en raison du risque d’aggravation brutale."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Si l’immobilisation du rachis est nécessaire",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "relever la victime en utilisant la méthode de relevage adaptée ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "immobiliser le rachis de la victime avec le matériel le plus adapté."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

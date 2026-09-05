@@ -1,0 +1,148 @@
+{
+  "nom": "07AC05",
+  "titre": "Traumatisme du thorax",
+  "niveaux": [
+    "PSE 2"
+  ],
+  "chapitre_principal": "Traumatismes",
+  "chapitres": [
+    {
+      "titre": "Définition",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Un traumatisme du thorax est l’ensemble des signes dus à une atteinte traumatique du thorax, avec ou sans plaie. Ces signes permettent de suspecter des lésions pouvant mettre rapidement en jeu la vie de la victime. Ce sont des fractures des côtes ou du sternum avec atteinte ou non des organes intrathoraciques."
+        }
+      ]
+    },
+    {
+      "titre": "Causes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Une atteinte du thorax survient lors :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "d’un choc direct au niveau des côtes ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "de la pénétration d’un corps étranger 1 dans le thorax ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "d’une décélération brusque 2 ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "d’une explosion (blast)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Risques & Conséquences",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Une atteinte traumatique du thorax peut entraîner :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "une détresse respiratoire due à l’existence :"
+            },
+            {
+              "niveau": 2,
+              "texte": "de côtes cassées ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "d’un pneumothorax ou d’un hémothorax qui comprime le ou les poumons ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "d’une rupture ou plaie de la trachée ou des bronches."
+            },
+            {
+              "niveau": 1,
+              "texte": "une détresse circulatoire, voire un arrêt cardiaque, par atteinte des gros vaisseaux ou du cœur."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Signes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’expression du mécanisme : un traumatisme parfois violent, direct au niveau du thorax (coup, choc) ou indirect (décélération brutale)."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "La victime peut se plaindre : À l’examen, le secouriste peut trouver :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "d’une douleur spontanée • une douleur à la palpation prudente des côtes ; siégeant au niveau d’une ou • une plaie avec ou sans bulles sanglantes à l’expiration 3 ; plusieurs côtes ou provoquée par • une contusion ; les mouvements respiratoires ou • une anomalie du soulèvement de la poitrine la toux ; • une déformation nette du thorax ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "d’une émission de crachats de"
+            },
+            {
+              "niveau": 1,
+              "texte": "une toux incessante ou des crachats de sang rouge ; sang rouge."
+            },
+            {
+              "niveau": 1,
+              "texte": "des lésions associées (polytraumatisme)."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Toute plaie thoracique est considérée comme grave, même en l’absence de détresse respiratoire."
+        }
+      ]
+    },
+    {
+      "titre": "Principe de l’action de secours",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "prévenir toute détresse respiratoire ou circulatoire par une surveillance attentive ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "installer ou de transporter la victime dans une position d’attente adaptée à son état ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "demander un avis médical."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "1 Projectiles d’arme à feu, arme blanche ou tout objet perforant.",
+    "2 Qui peut entraîner des lésions des organes intrathoraciques qui viennent s’écraser sur les côtes.",
+    "3 Si tel est le cas, vérifier le dos."
+  ]
+}

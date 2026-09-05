@@ -1,0 +1,106 @@
+{
+  "nom": "05PR07",
+  "titre": "Perte de connaissance en sauveteur isolé",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Urgences vitales",
+  "chapitres": [
+    {
+      "titre": "Introduction",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Lorsque la victime a perdu connaissance et respire, et que le secouriste se retrouve seul et sans matériel, il convient pour ce dernier d’appliquer la conduite à tenir suivante :"
+        }
+      ]
+    },
+    {
+      "titre": "A la suite d’un évènement non traumatique",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "la placer en position stable sur le côté, en position latérale de sécurité (PLS 1 ) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "faire alerter ou alerter les secours, respecter leurs consignes ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "surveiller en permanence la respiration de la victime, jusqu’à l’arrivée des secours. Pour cela :"
+            },
+            {
+              "niveau": 2,
+              "texte": "regarder si le ventre et la poitrine se soulèvent ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "écouter d’éventuels sons provoqués par la respiration ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "sentir, avec la main, les mouvements du ventre et de la poitrine."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "A la suite d’un traumatisme ou d’un événement d’origine inconnue",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "laisser la victime sur le dos ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "faire alerter ou alerter les secours, respecter leurs consignes 2 ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "surveiller en permanence la respiration de la victime jusqu’à l’arrivée des secours comme effectué lors de la recherche de la respiration 3 ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "si la victime vomit ou régurgite, la mettre sur le côté en maintenant si possible l’axe tête-cou-tronc, en demandant de l’aide le cas échéant."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Dans tous les cas",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "compléter le bilan ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "protéger contre la chaleur, le froid ou les intempéries ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "si la respiration de la victime s’arrête ou devient anormale, il convient d’adopter la conduite à tenir face à un arrêt cardiaque et de prévenir les secours de l’évolution."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "1 Le retournement sur le côté gauche de la femme enceinte, ou d’une victime obèse, permet d’éviter l’apparition d’une détresse par compression de certains vaisseaux sanguins de l’abdomen.",
+    "2 Il est possible que les services de secours demandent de mettre la victime en position latérale de sécurité.",
+    "3 Le maintien de la libération des voies aériennes permet de stabiliser le rachis cervical."
+  ]
+}

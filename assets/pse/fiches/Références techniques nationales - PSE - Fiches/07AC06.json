@@ -1,0 +1,130 @@
+{
+  "nom": "07AC06",
+  "titre": "Traumatisme de la face et de la face antérieure du cou",
+  "niveaux": [
+    "PSE 2"
+  ],
+  "chapitre_principal": "Traumatismes",
+  "chapitres": [
+    {
+      "titre": "Définition",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Ensemble des signes dus à une ou plusieurs lésions secondaires à une atteinte traumatique de la face et de la face antérieure du cou."
+        }
+      ]
+    },
+    {
+      "titre": "Causes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Les traumatismes de la face et de la face antérieure du cou sont la conséquence le plus souvent d’un choc direct (éléments contondants) ou d’une blessure pénétrante (arme blanche, arme à feu) au niveau de la face ou du cou."
+        }
+      ]
+    },
+    {
+      "titre": "Risques & Conséquences",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Les traumatismes de la face et de la face antérieure du cou sont fréquents et peuvent être :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "isolés ou associés à d’autres lésions traumatiques ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "responsables d’une détresse vitale par une obstruction des voies aériennes 1 ou une hémorragie ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "responsables d’une atteinte fonctionnelle, atteinte oculaire par exemple, et de séquelles esthétiques."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Un traumatisme de la face et de la face antérieure du cou peut être associé à un traumatisme du rachis cervical et/ou un traumatisme crânien."
+        }
+      ]
+    },
+    {
+      "titre": "Signes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’expression du mécanisme : un traumatisme parfois violent, direct au niveau de la face ou du cou."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "La victime peut se plaindre : À l’examen, le secouriste peut trouver :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "d’une douleur de la face, d’un • un œdème de la face ou localisé (œdème des paupières) ; trouble de la vision ou d’une • un hématome de la face, un hématome en lunette ; difficulté à avaler. • une ou plusieurs plaies de la face, de la langue ou du cou ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "une déformation de la face traduisant une fracture des os de"
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "À l’issue du 2ème regard, la victime la face, du nez ou de la mandibule ; peut présenter : • un saignement du nez ou de la bouche ;"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "une détresse respiratoire par"
+            },
+            {
+              "niveau": 1,
+              "texte": "une atteinte de l’œil objectivée par une anomalie des obstruction des voies aériennes ; mouvements de l’œil, la présence de sang sous la cornée, une"
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "• une détresse circulatoire déformation de la pupille, une plaie de l’œil avec ou sans corps secondaire à une hémorragie étranger intraoculaire visible ; externe ou extériorisée. • une désinsertion ou une fracture de dents."
+        }
+      ]
+    },
+    {
+      "titre": "Principe de l’action de secours",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "lutter contre une détresse vitale ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "protéger une éventuelle lésion de la peau ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "demander un avis médical."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "1 Provoquée par une inhalation d’un corps étranger ou de sang, une fracture de la mandibule avec désinsertion et bascule de la langue en arrière dans les voies aériennes ou un gonflement post-traumatique de la muqueuse des voies aériennes (traumatisme du larynx) ;"
+  ]
+}

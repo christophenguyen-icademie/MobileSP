@@ -1,0 +1,143 @@
+{
+  "nom": "08PR06",
+  "titre": "Affections liées à la chaleur",
+  "niveaux": [
+    "PSE 2"
+  ],
+  "chapitre_principal": "Atteintes circonstancielles et environnementales",
+  "chapitres": [
+    {
+      "titre": "Dans tous les cas",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "réaliser un refroidissement passif de la victime"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "La victime présente une détresse vitale",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "appliquer la conduite à tenir adaptée."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "La victime ne présente pas de détresse vitale",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "installer la victime dans une position d’attente ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "réhydrater la victime avec de l’eau ou mieux un liquide contenant des glucides et des sels minéraux tels que jus de fruits (sauf si la victime présente des vomissements)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Crampe",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "refroidir éventuellement avec l’application de glace ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "compléter l’action de secours par :"
+            },
+            {
+              "niveau": 2,
+              "texte": "des étirements doux,"
+            },
+            {
+              "niveau": 2,
+              "texte": "des massages musculaires."
+            },
+            {
+              "niveau": 1,
+              "texte": "indiquer à la victime de ne pas reprendre l’activité avant l’arrêt complet des signes."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Insolation",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "réaliser un refroidissement actif simple de la victime en fonction des moyens disponibles ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "poursuivre le bilan et surveiller attentivement."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Coup de chaleur et hyperthermie maligne d’effort",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "réaliser un refroidissement actif avancé 1 de la victime ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "poursuivre le bilan et surveiller attentivement :"
+            },
+            {
+              "niveau": 2,
+              "texte": "l’évolution des signes de détresse vitale,"
+            },
+            {
+              "niveau": 2,
+              "texte": "la température corporelle."
+            },
+            {
+              "niveau": 1,
+              "texte": "transmettre le bilan pour avis 2 sans délai ;"
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Le refroidissement actif doit se poursuivre jusqu’à la disparition des signes neurologiques et jusqu’à ce que la température corporelle de la victime devienne inférieure à 39°C ou pendant 15 minutes si la température ne peut être mesurée. Un bilan complet est nécessaire avant 3 toute verticalisation ou mobilisation de la victime après l’immersion."
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "1 Mettre tout en œuvre pour obtenir les moyens de réaliser un refroidissement actif.",
+    "2 Présenter tous les signes de gravité et appliquer les consignes reçues. Une prise en charge médicale d’urgence est nécessaire.",
+    "3 Les victimes peuvent présenter une hypotension (notamment à cause de la déshydratation) qui sera aggravée à l'orthostatisme pouvant aller jusqu'à entrainer un désamorçage cardiaque."
+  ]
+}

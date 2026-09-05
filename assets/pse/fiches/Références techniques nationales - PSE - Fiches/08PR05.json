@@ -1,0 +1,200 @@
+{
+  "nom": "08PR05",
+  "titre": "Prise en charge du nouveau-né à la naissance",
+  "niveaux": [
+    "PSE 2"
+  ],
+  "chapitre_principal": "Atteintes circonstancielles et environnementales",
+  "chapitres": [
+    {
+      "titre": "Introduction",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "poser le nouveau-né sur le ventre de sa mère et sur le côté, peau contre peau, la tête bien dégagée ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "mettre une paire de gants à usage unique propre ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "examiner le nouveau-né en appréciant :"
+            },
+            {
+              "niveau": 2,
+              "texte": "son cri ou sa respiration,"
+            },
+            {
+              "niveau": 2,
+              "texte": "son tonus (mouvements spontanés des membres)."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "NB : L’existence d’une pâleur doit alerter les secouristes et être indiquée lors de la transmission du bilan."
+        }
+      ]
+    },
+    {
+      "titre": "Le nouveau-né est en bonne santé",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le nouveau-né en bonne santé présente une respiration et un cri vigoureux ; un tonus vif."
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "clamper le cordon au minimum après 1 minute de vie ; Une fois clampé, il est possible ensuite de couper le cordon."
+            },
+            {
+              "niveau": 1,
+              "texte": "protéger le nouveau-né contre le froid. Pour cela :"
+            },
+            {
+              "niveau": 2,
+              "texte": "sécher par tamponnement la peau et la tête du bébé, à l’aide d’une serviette propre, sèche et tiède,"
+            },
+            {
+              "niveau": 2,
+              "texte": "protéger le nouveau-né des courants d’air et du froid en l’enveloppant. Envelopper la tête et le corps du nouveau-né, à l’exception de la face, dans des serviettes ou des vêtements secs et chauds ou le glisser dans un sac en polyéthylène. Si possible, couvrir sa tête à l’aide d’un bonnet."
+            },
+            {
+              "niveau": 1,
+              "texte": "couvrir la mère ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "surveiller le nouveau-né."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Lors de son transport, le nouveau-né doit être placé dans un système fermé et fixé (incubateur, lit-auto)."
+        }
+      ]
+    },
+    {
+      "titre": "Le nouveau-né n’est pas en bonne santé",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le nouveau-né n’est pas en bonne santé lorsqu’il :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "ne respire pas ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "ou ne présente pas de cri ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "ou ne présente pas une respiration normale ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "ou est hypotonique."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Dans ce cas, il convient de demander en urgence un avis médical tout en débutant les manœuvres de réanimation 1 pour permettre au nouveau-né de respirer :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "clamper le cordon dès que possible ; Une fois clampé, il est possible ensuite de couper le cordon."
+            },
+            {
+              "niveau": 1,
+              "texte": "placer le nouveau-né sur une surface plane recouverte d’un linge propre (pour l’isoler du froid), après avoir clampé le cordon ombilical ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "libérer ses voies aériennes en plaçant sa tête en position neutre et si nécessaire en aspirant prudemment sa bouche puis ses narines ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "si son état est inchangé, réaliser 40 insufflations à l’air en 1 minute ; Si le thorax ne se soulève pas après les 5 premières insufflations, vérifier la liberté des voies aériennes et l’étanchéité du masque."
+            },
+            {
+              "niveau": 1,
+              "texte": "si vous êtes doté d’un appareil de mesure de la fréquence cardiaque pour le nouveau-né, le mettre en fonction (SpO , monitoring)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "L’état du nouveau-né reste inchangé",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "réaliser une réanimation cardio-pulmonaire avec apport complémentaire d’oxygène et sans pose de défibrillateur ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "pendant la réanimation, réchauffer le nouveau-né (isolation, bonnet, couverture, etc) ; Le rythme de la RCP est de 3 compressions à une fréquence instantanée de 120 par minute pour 1 insufflation."
+            },
+            {
+              "niveau": 1,
+              "texte": "réévaluer l’état du nouveau-né toutes les minutes et adapter la conduite à tenir."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "L’état du nouveau-né s’améliore",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "si l’état du nouveau-né s’améliore (l’enfant crie, respire et s’agite), assurer une surveillance étroite de sa respiration. En cas de doute, reprendre la réanimation cardio-pulmonaire."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Conduite à tenir en fonction de la fréquence cardiaque",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "si vous pouvez mesurer sa fréquence cardiaque, suivre la procédure suivante : Fréquence Cardiaque Procédure"
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "< 60 battements par minute Réaliser une RCP avec un apport complémentaire d'oxygène et sans pose du DAE. Le rythme de la RCP est de 3 compressions à une fréquence instantanée de 120 par minute pour 1 insufflation. entre 60 et 100 battements par Réaliser des insufflations à l’air, sans compressions thoraciques, minute Réévaluer la fréquence cardiaque toutes les minutes pour adapter la conduite à tenir. > 100 battements par minute Surveiller étroitement le nouveau-né"
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

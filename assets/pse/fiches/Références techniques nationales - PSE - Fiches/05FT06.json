@@ -1,0 +1,243 @@
+{
+  "nom": "05FT06",
+  "titre": "Techniques de réchauffement d’une victime",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Urgences vitales",
+  "chapitres": [
+    {
+      "titre": "Indication",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Les techniques de réchauffement d’une victime sont mises en œuvre devant une victime :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "qui se plaint d’avoir froid et qui peut présenter des signes de lutte contre le froid comme des frissons ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "exposée à une température basse (neige, hivers, chambre froide …),"
+            },
+            {
+              "niveau": 1,
+              "texte": "qui présente un ou plusieurs signes de détresse circulatoire,"
+            },
+            {
+              "niveau": 1,
+              "texte": "qui présente une hémorragie,"
+            },
+            {
+              "niveau": 1,
+              "texte": "qui présente une hypothermie."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Justification",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le froid peut :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "provoquer des lésions directes comme les gelures ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "entraîner une baisse de la température corporelle de la victime (hypothermie) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "aggraver l’état d’une victime notamment en cas de détresse circulatoire."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "La déperdition de la chaleur peut se faire par :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Rayonnement thermique : perte de chaleur liée à la différence de température de l'air avec celle du corps. La surface du corps exposée au froid joue un rôle important dans la perte de chaleur par rayonnement."
+            },
+            {
+              "niveau": 1,
+              "texte": "Conduction : perte de chaleur par contact direct avec un objet plus froid comme de l’eau froide ou le sol. Quand les vêtements sont mouillés, la perte de chaleur est 5 fois plus grande."
+            },
+            {
+              "niveau": 1,
+              "texte": "Convection : perte de chaleur au profit de l'air ambiant lorsque l'air entre en contact avec la surface du corps. La vitesse de déperdition de chaleur dépend de la vitesse de l'air (vent) et de la différence de température entre la peau et l'air ambiant."
+            },
+            {
+              "niveau": 1,
+              "texte": "Évaporation : perte de chaleur qui résulte de la conversion de l'eau de l'état liquide à l'état gazeux (transpiration, respiration)."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Il existe un lien étroit entre l'hydratation, la perte liquidienne et la perte de chaleur. À mesure que le corps perd sa chaleur par ces différents mécanismes, le volume circulatoire total est réduit, ce qui peut entraîner une déshydratation. La baisse de l'hydratation rend le corps plus sensible à l'hypothermie, à la détresse circulatoire et aux autres troubles dus au froid."
+        }
+      ]
+    },
+    {
+      "titre": "Matériel",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Draps, Couvertures (laine, polyester, isotherme) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "Plastron ou MID chauffant ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "Tapis isolants ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "Serviettes pour sécher ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "Appareils ou dispositifs de chauffage (couverture chauffante, bouillotte, brique chaude, chaufferette chimique) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "Paravents."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Réalisation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Il existe plusieurs moyens qui peuvent être utilisés seuls ou en association pour diminuer la déperdition de chaleur ou apporter de la chaleur à la victime."
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Envelopper la victime dans un drap et une couverture . Bien envelopper les mains, les pieds et la tête de la victime. Cela permet de diminuer la surface cutanée de la victime exposée à l’air et ainsi de limiter la déperdition de chaleur par rayonnement thermique. En l’absence de moyens spécifiques, une feuille de papier bulle, des journaux ou du carton peuvent être utilisés."
+            },
+            {
+              "niveau": 1,
+              "texte": "Isoler la victime de tout contact avec une surface ou des objets froids ou humides . Cela permet de diminuer la déperdition de chaleur par conduction."
+            },
+            {
+              "niveau": 2,
+              "texte": "Isoler la victime du sol en l’installant sur un brancard, un lit."
+            },
+            {
+              "niveau": 2,
+              "texte": "Glisser un tapis, une couverture, une feuille de papier bulle sous la victime."
+            },
+            {
+              "niveau": 1,
+              "texte": "Protéger la victime du vent et de l’humidité. Cela permet de diminuer la déperdition de chaleur par évaporation."
+            },
+            {
+              "niveau": 2,
+              "texte": "Installer la victime à l’abri du vent (à l’intérieur, paravent)."
+            },
+            {
+              "niveau": 2,
+              "texte": "Retirer les vêtements mouillés ou humides,"
+            },
+            {
+              "niveau": 2,
+              "texte": "Sécher la victime,"
+            },
+            {
+              "niveau": 2,
+              "texte": "Envelopper la victime dans une couverture isotherme, une feuille de papier bulle ou un sac de transport (nouveau-né)."
+            },
+            {
+              "niveau": 2,
+              "texte": "Si nécessaire habiller la victime avec des vêtements chauds et secs."
+            },
+            {
+              "niveau": 1,
+              "texte": "Réchauffer la victime . Cela permet d’augmenter sa température corporelle."
+            },
+            {
+              "niveau": 2,
+              "texte": "Installer la victime dans un endroit chaud (véhicule, ambulance, point chaud, habitation, refuge, etc.)."
+            },
+            {
+              "niveau": 2,
+              "texte": "Recouvrir la victime avec une couverture chauffante (40 à 42 °C)."
+            },
+            {
+              "niveau": 2,
+              "texte": "Placer des poches d’eau tiède (bouillottes), des compresses chimiques d’application de chaud (chaufferette chimique) ou des briques chauffées au niveau du passage des gros vaisseaux (cou, sous les aisselles, au niveau des plis de l’aine)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Risques & Contraintes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Si la mise en place de mesure de protection contre le froid nécessite une mobilisation de la victime, cette mobilisation doit être délicate pour ne pas aggraver l’état de la victime. L’utilisation de dispositif de chauffage comme les bouillottes, les briques ou les chaufferettes doit limiter le risque de survenue de brûlures."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Il ne faut pas appliquer directement le dispositif de chaud au contact de la peau de la victime. Interposer une épaisseur de tissu suffisante et contrôler régulièrement l’état de la peau de la victime en contact avec ces dispositifs."
+        }
+      ]
+    },
+    {
+      "titre": "Évaluation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’efficacité des mesures de protection de la victime contre le froid ainsi que son réchauffement est évaluée sur :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "La disparition des signes de refroidissement,"
+            },
+            {
+              "niveau": 1,
+              "texte": "L’amélioration de l’état de la victime,"
+            },
+            {
+              "niveau": 1,
+              "texte": "L’augmentation de sa température corporelle."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

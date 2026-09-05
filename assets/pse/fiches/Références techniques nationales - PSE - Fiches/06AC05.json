@@ -1,0 +1,92 @@
+{
+  "nom": "06AC05",
+  "titre": "Crise d’asthme",
+  "niveaux": [],
+  "chapitre_principal": "Malaises et affections spécifiques",
+  "chapitres": [
+    {
+      "titre": "Définition",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La crise d’asthme est une détresse respiratoire provoquée par une inflammation et une contraction des fibres musculaires lisses des bronchioles (petites bronches) qui entraîne un rétrécissement brutal de leur calibre. L’asthme est une maladie respiratoire chronique qui touche un très grand nombre de personnes de tout âge. Sa fréquence est en augmentation, particulièrement dans les zones urbaines et industrialisées. Les asthmatiques ont souvent avec eux des médicaments sous forme d’aérosol doseur (spray) qu’ils utilisent en cas de crise pour la faire cesser. Ces médicaments entraînent une dilatation des petites bronches et facilitent la respiration."
+        }
+      ]
+    },
+    {
+      "titre": "Causes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Chez les personnes asthmatiques, une crise peut être déclenchée par trois grands types de facteurs :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Les facteurs environnementaux : allergènes (poils d'animaux, pollen), fumée, pollution, gaz irritants et variations climatiques."
+            },
+            {
+              "niveau": 1,
+              "texte": "Les facteurs physiques et médicaux : effort physique, infections respiratoires et prise de certains médicaments comme l'aspirine."
+            },
+            {
+              "niveau": 1,
+              "texte": "Les facteurs émotionnels : stress, anxiété ou angoisse."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Les personnes qui souffrent d’asthme peuvent diminuer la survenue de crises en contrôlant leur environnement et en limitant le risque d’exposition aux facteurs déclenchant la crise d’asthme."
+        }
+      ]
+    },
+    {
+      "titre": "Risques & Conséquences",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La crise d’asthme rend la respiration difficile et entraîne une détresse respiratoire. Quand la crise survient, la victime peut utiliser des médicaments. Les médicaments de l’asthme relaxent les fibres musculaires lisses des bronchioles et permettent à l’air de circuler jusqu’aux alvéoles. Ceci rend la respiration de la victime plus facile."
+        }
+      ]
+    },
+    {
+      "titre": "Signes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La crise survient généralement chez une personne connue pour être asthmatique."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Forme légère : gêne respiratoire modérée, sans modification notable de la fréquence respiratoire. Forme grave : on constate dès le 2 ème regard que la victime est consciente mais très angoissée et agitée. Elle se plaint de respirer difficilement, refuse de s'allonger et ne peut pas parler. Un sifflement à l'expiration est audible. Ces signes traduisent une détresse respiratoire. Sans prise en charge rapide, la victime peut perdre connaissance et présenter un arrêt cardiaque."
+        }
+      ]
+    },
+    {
+      "titre": "Principe de l’action de secours",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "faciliter la respiration de la victime ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "aider la victime à prendre son traitement ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "demander un avis médical, dans tous les cas."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

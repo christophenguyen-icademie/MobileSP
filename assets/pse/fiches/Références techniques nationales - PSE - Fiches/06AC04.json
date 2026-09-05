@@ -1,0 +1,151 @@
+{
+  "nom": "06AC04",
+  "titre": "Crise convulsive généralisée",
+  "niveaux": [],
+  "chapitre_principal": "Malaises et affections spécifiques",
+  "chapitres": [
+    {
+      "titre": "Définition",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La crise convulsive généralisée est une perturbation de l’activité électrique cérébrale qui se traduit extérieurement par une perte de connaissance et/ou un regard fixe accompagné de mouvements musculaires incontrôlés de tout le corps (convulsion généralisée). Ces manifestations sont appelées des convulsions."
+        }
+      ]
+    },
+    {
+      "titre": "Causes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Les crises convulsives peuvent avoir de nombreuses causes dont :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "le traumatisme crânien ou ses séquelles ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "certaines maladies entraînant des lésions cérébrales (infections, tumeurs, AVC) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "l’absorption de certains poisons ou toxiques ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "l’hypoglycémie ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "le manque d’oxygène au niveau du cerveau particulièrement dans les premières secondes d’un arrêt cardiaque ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "une maladie appelée « épilepsie » caractérisée par des crises convulsives récidivantes qui est habituellement contrôlée par des médicaments."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Les enfants, plus particulièrement les nourrissons, peuvent présenter des convulsions provoquées par une variation soudaine de la température (fièvre)."
+        }
+      ]
+    },
+    {
+      "titre": "Risques & Conséquences",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La survenue d’une crise convulsive peut être à l’origine :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "de traumatismes au moment de la chute ou des mouvements incontrôlés ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "d’une obstruction des voies aériennes chez une victime sans connaissance si elle est laissée sur le dos ou si elle vomit (détresse respiratoire)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Signes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La crise convulsive peut être précédée de signes annonciateurs. La victime peut éprouver une sensation ou une impression inhabituelle (telle qu’une hallucination visuelle ou olfactive). Lorsqu’elle survient, la crise convulsive généralisée est facilement identifiable au cours du 2ème regard. Elle se caractérise :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "dans un premier temps, par la survenue d’une perte brutale de connaissance avec chute de la victime ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "ensuite, par une raideur de la victime et des secousses musculaires involontaires, rythmées, touchant un ou plusieurs membres, accompagnées d’une révulsion des globes oculaires, d’une respiration irrégulière ou absente, d’une hypersalivation et d’une contracture des muscles de la mâchoire ; Cette phase dure en règle générale moins de cinq minutes, période pendant laquelle la victime peut se mordre la langue."
+            },
+            {
+              "niveau": 1,
+              "texte": "enfin, après les secousses, la victime reste sans connaissance plusieurs minutes. Sa respiration peut être bruyante. Elle peut aussi perdre ses urines, plus rarement ses selles."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Lors de la reprise progressive de sa conscience, la victime peut être hébétée, le regard fixe ou se comporter de manière étrange et ne se souvient de rien (amnésie des circonstances). Dans certains cas, elle peut enchaîner plusieurs crises convulsives avec ou sans reprise de conscience entre les crises. C’est l’état de mal convulsif qui nécessite une prise en charge médicale urgente. Chez le nourrisson, la crise convulsive est habituellement provoquée par la fièvre lors d’une maladie infectieuse ou d’une exposition exagérée à la chaleur. Elle s’accompagne :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "d’une révulsion oculaire ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "d’une hypotonie ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "d’un tremblement des paupières ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "d’une pâleur ou d’une cyanose, en cas d’arrêt de la respiration."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Principe de l’action de secours",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "éviter que la victime ne se blesse ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "éviter l’apparition d’une détresse respiratoire."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

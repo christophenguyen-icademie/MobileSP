@@ -1,0 +1,538 @@
+{
+  "nom": "05FT16",
+  "titre": "Utilisation d’un défibrillateur automatisé externe",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Urgences vitales",
+  "chapitres": [
+    {
+      "titre": "Indication",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’utilisation du défibrillateur automatisé externe (DAE) est indiquée chez toute victime en arrêt cardiaque."
+        }
+      ]
+    },
+    {
+      "titre": "Justification",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’utilisation du DAE peut permettre une défibrillation précoce et améliorer de façon significative les chances de survie de la victime."
+        }
+      ]
+    },
+    {
+      "titre": "Matériel",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Les DAE se distinguent en deux catégories :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "les défibrillateurs entièrement automatiques ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "les défibrillateurs semi-automatiques."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Le DAE est un appareil qui permet :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "d’analyser l’activité électrique du cœur de la victime ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "de reconnaître une anomalie grave du fonctionnement du cœur à l’origine de l’arrêt cardiaque ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "de délivrer ou d’inviter à délivrer au travers du thorax de la victime, un choc électrique afin de synchroniser l’activité électrique cardiaque."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Le défibrillateur automatisé externe",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le DAE est un appareil qui reconnaît les rythmes devant être choqués et qui, alors, délivre ou demande de délivrer un choc. Il est composé :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "d’un écran ou d’indicateurs d’état de fonctionnement ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "d’un haut-parleur qui donne des messages sonores et guide le secouriste dans son action ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "d’un accumulateur d’énergie qui permet de délivrer un ou plusieurs chocs électriques ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "éventuellement d’un bouton qui permet de réaliser, à la demande de l’appareil, un choc électrique ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "d’un module mémoire pour mémoriser les évènements essentiels (ECG de la victime, manipulations faites, heure, date et défibrillations réalisées) et éditer un rapport d’intervention ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "d’électrodes de défibrillation à usage unique permettant de :"
+            },
+            {
+              "niveau": 2,
+              "texte": "capter et transmettre l’activité électrique cardiaque à l’analyseur du défibrillateur,"
+            },
+            {
+              "niveau": 2,
+              "texte": "délivrer le choc électrique s’il est indiqué."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Les électrodes sont autocollantes et recouvertes sur une face d’un gel qui facilite le passage du courant tout en diminuant le risque de brûlure. Deux paires d’électrodes doivent être à disposition avec le défibrillateur. Elles ne doivent jamais être pliées."
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "de câbles de connexion pour relier les électrodes au DAE. Suivant le modèle, le câble peut être pré-connecté aux électrodes et à usage unique."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Certains défibrillateurs disposent d’électrodes différentes chez l’adulte et l’enfant ou le nourrisson."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Certains défibrillateurs sont munis de dispositifs d’aide et d’évaluation au massage cardiaque (métronome, profondimètre)."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Les accessoires :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "une paire de ciseaux pour couper éventuellement les vêtements ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "de quoi sécher la peau de la victime ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "un rasoir jetable pour raser les poils du thorax si nécessaire."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Mise en œuvre",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La mise en œuvre du DAE s’effectue en cinq étapes :"
+        }
+      ]
+    },
+    {
+      "titre": "Mise en marche de l’appareil",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "La mise en fonction de l’appareil est réalisée par l’ouverture du capot protecteur ou par pression sur le bouton marche/arrêt du défibrillateur."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Quelques secondes après sa mise en fonction, une voix guide l’opérateur dans les différentes étapes."
+        }
+      ]
+    },
+    {
+      "titre": "Connexion des électrodes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le DAE demande de mettre en place les électrodes sur la poitrine de la victime. Pour cela :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "continuer la réanimation cardio-pulmonaire pendant la pose des électrodes ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "enlever ou couper si nécessaire les vêtements recouvrant la poitrine ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "se munir des électrodes, enlever la pellicule de protection ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "coller les électrodes à même la peau de la victime, conformément au schéma visible sur les électrodes ou sur leur emballage :"
+            },
+            {
+              "niveau": 2,
+              "texte": "chez l’adulte et l’enfant : § une juste au-dessous de la clavicule droite, contre le bord droit du sternum, § l’autre sur le côté gauche du thorax, 5 à 10 cm au-dessous de l’aisselle gauche."
+            },
+            {
+              "niveau": 2,
+              "texte": "chez le nourrisson : § une dans le dos, entre les deux omoplates, § l’autre devant, au milieu du thorax."
+            },
+            {
+              "niveau": 1,
+              "texte": "connecter le câble au défibrillateur, s’il n’est pas déjà préconnecté."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Les électrodes doivent adhérer correctement à la peau. Si la poitrine de la victime est humide, il faut sécher la poitrine avant de coller les électrodes. Si la poitrine de la victime est particulièrement velue, il est préférable de la raser à l’endroit où l’on pose les électrodes."
+        }
+      ]
+    },
+    {
+      "titre": "Position des électrodes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La position des électrodes doit être conforme au schéma visible sur celles-ci."
+        }
+      ]
+    },
+    {
+      "titre": "Position standard des électrodes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Chez l’adulte et l’enfant de plus de 25 kg 1 :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "l’une est placée juste au-dessous de la clavicule droite de la victime, contre le bord droit du sternum,"
+            },
+            {
+              "niveau": 1,
+              "texte": "l’autre est placée sur le côté gauche de la victime, 5 à 10 cm au-dessous de l’aisselle."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Chez le nourrisson et l’enfant de moins de 25 kg 1 :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "l’une est placée devant, au milieu du thorax ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "l’autre est placée dans le dos, entre les omoplates."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Cas particuliers",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "A défaut d’indication, ou sur demande du médecin, il est utile de connaître la position suivante chez l’adulte et l’enfant de plus de 25 kg :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "en cas d’impossibilité de placer les électrodes en position antéro-latérales ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "sur indication médicale, notamment si plusieurs défibrillations successives sont inefficaces (troubles du rythme persistant ou récidivant) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "lors d’une double défibrillation (réalisée par l’équipe médicale en utilisant deux défibrillateurs manuels qui combinera l’antéro-latérale pour l’un avec la position antéro-postérieure pour l’autre)."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Position antéro-postérieure :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "l’électrode antérieure est placée sur le côté gauche de la poitrine, entre la ligne médiane et le mamelon 2 ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "l’électrode postérieure est placée sur le côté gauche de la colonne vertébrale, juste au-dessous de l’omoplate."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Analyse du rythme cardiaque",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le DAE lance l’analyse du rythme cardiaque. Pendant cette phase, certains appareils demandent de ne pas toucher ou bouger la victime. Dans ce cas :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "arrêter les manœuvres de réanimation ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "cesser de toucher la victime."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "L’analyse réalisée par le défibrillateur permet de reconnaître les rythmes cardiaques qui nécessitent un choc électrique. Si tel est le cas, le défibrillateur se prépare immédiatement à la délivrance d’un choc."
+        }
+      ]
+    },
+    {
+      "titre": "Délivrance du choc",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Si le DAE annonce qu’un choc est indiqué, il faut alors :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "écouter et respecter les indications sonores ou visuelles de l’appareil ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "s’écarter de la victime quand l’appareil le demande ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "appuyer sur le bouton pour choquer, si l’appareil le demande ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "reprendre les manœuvres de réanimation immédiatement après la délivrance du choc."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Arrêt de l’appareil",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’arrêt de l’appareil ne peut être réalisé qu’à la demande du médecin des services de secours."
+        }
+      ]
+    },
+    {
+      "titre": "Risques & Contraintes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Correctement utilisé, le DAE ne présente aucun risque pour le secouriste et augmente les chances de survie de la victime en AC."
+        }
+      ]
+    },
+    {
+      "titre": "Précautions particulières",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "certains appareils utilisent des électrodes spécifiques pour l’enfant et le nourrisson ou demandent de préciser s’il s’agit d’un enfant et d’un nourrisson (interrupteur, clé, etc.). Cela permet à l’appareil de diminuer l’énergie délivrée au moment du choc. Si l’on ne dispose pas d’électrodes « enfant » spécifiques, utiliser les électrodes « adulte » ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "si la victime est une femme portant un soutien-gorge, ce dernier peut-être juste déplacé pour placer les électrodes ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "la victime peut être porteuse d’un stimulateur cardiaque ou d’un défibrillateur implantable dont le boîtier est situé sous la peau, le plus souvent sous la clavicule droite. Ce boîtier est reconnaissable par le secouriste, car il existe une cicatrice cutanée, une « bosse » sous la clavicule droite et une masse dure est perçue, à travers la peau. Afin de ne pas altérer le fonctionnement du défibrillateur et de ne pas diminuer l’efficacité du choc, coller l’électrode qui est normalement sous la clavicule droite à un travers de main du dispositif médical implantable ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "délivrer un choc à une victime allongée sur une surface mouillée diminue son efficacité, car l’eau est conductrice de l’électricité. Il est préférable de dégager la victime et de l’installer sur une surface sèche ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "le défibrillateur ne doit pas être utilisé en présence de matériel ou de gaz hautement inflammable (butane, vapeurs d’essence) ou explosif (panneau étiquette danger). Dans ce cas, il existe un risque élevé de survenue d’incendie ou d’explosion lors de la défibrillation. Il faut alors :"
+            },
+            {
+              "niveau": 2,
+              "texte": "dégager la victime du milieu toxique ou inflammable en urgence,"
+            },
+            {
+              "niveau": 2,
+              "texte": "poursuivre la procédure quand la victime se trouve en lieu sûr."
+            },
+            {
+              "niveau": 1,
+              "texte": "si la victime est allongée sur une surface en métal ou qui conduit l’électricité (pont d’un bateau, terrasse en tôles métalliques, plaque d’égout), afin que le trajet du courant de défibrillation ne soit pas dévié vers le sol, il faut :"
+            },
+            {
+              "niveau": 2,
+              "texte": "dégager la victime de la surface métallique ou conductrice ou glisser sous elle un isolant,"
+            },
+            {
+              "niveau": 2,
+              "texte": "reprendre la procédure lorsque le contact est supprimé."
+            },
+            {
+              "niveau": 1,
+              "texte": "la victime peut être porteuse d’un timbre médicamenteux autocollant (patch) qui permet la diffusion de médicament à travers la peau. Le choc peut être inefficace ou provoquer une brûlure de la victime si l’électrode de défibrillation est collée sur le timbre. Il faut donc retirer le timbre et essuyer la zone avant de coller l’électrode."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Anomalies de fonctionnement",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Il est possible qu’en cours d’utilisation, le défibrillateur présente des dysfonctionnements. Les problèmes envisagés ici sont les plus courants, mais ne sont pas limitatifs, car ils dépendent souvent du type d’appareil utilisé. Il est fortement recommandé de se référer au chapitre « dysfonctionnements de l’appareil » du guide d’utilisateur de l’appareil. Dans tous les cas, la RCP ne doit pas être interrompue."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Anomalie Causes possibles Action à réaliser Le défibrillateur • connexion au défibrillateur est • poursuivre la RCP ; vous demande inadéquate ; • vérifier les connexions ; de connecter les • électrodes n’adhérant pas • appuyer fermement sur les électrodes électrodes correctement à la peau de la pour améliorer le contact ; victime ; • nettoyer, raser et sécher la peau de la"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "électrodes sèches, endommagées victime avant de remplacer les ou la date d’expiration est passée. électrodes, si les opérations précédentes n’étaient pas suffisantes."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Le défibrillateur • mouvements de la victime ; • arrêter toute RCP pendant l’analyse et détecte un • inspirations agoniques ; de s’assurer que personne ne touche la mouvement • interférences électriques ; victime ; pendant • • arrêter la mobilisation de la victime ; mouvements du véhicule. l’analyse • s’assurer que la victime est immobile ; La charge du • une électrode se déconnecte de la • vérifier les électrodes, les connexions du défibrillateur, victime ; câble et l’état de la victime. avant la • le câble des électrodes se délivrance du déconnecte du défibrillateur ; choc électrique, • la pression sur le bouton de s’interrompt délivrance du choc n’a pas été suffisamment précoce après que l’appareil l’ait demandé ;"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "l’état de la victime change et le rythme cardiaque ne nécessite plus un choc électrique."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Consignes d’entretien",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le DAE doit toujours être en bon état de marche, vérifié et immédiatement disponible. Il doit être installé dans un endroit accessible avec l’ensemble de ses accessoires. Des vérifications périodiques du DAE permettent de s’assurer de son bon état de fonctionnement. Un signal lumineux ou une alerte sonore indique tout dysfonctionnement. Avant chaque utilisation, il convient de vérifier que :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "la batterie est insérée dans l’appareil (ne pas la retirer sauf si l’appareil le demande) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "le défibrillateur n’indique pas la présence d’un dysfonctionnement (absence de témoin d’alerte) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "l’appareil ne présente aucun dommage externe ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "les électrodes ne sont pas arrivées à péremption ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "tous les accessoires nécessaires à la réalisation de la défibrillation accompagnent l’appareil."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Après chaque utilisation, le DAE doit être remis en état, nettoyé et vérifié en respectant les indications du fabricant. Si une procédure de récupération des données internes enregistrées par l’appareil est en vigueur, la mettre en œuvre. Les batteries du défibrillateur sont remplacées lorsque l’appareil l’indique ou s’il s’éteint ou ne s’allume pas. En aucun cas il ne faut modifier la configuration et les réglages internes de l’appareil. Si l’utilisation de l’appareil devient impossible ou en cas d’anomalie constatée, il est indispensable de mettre le défibrillateur hors service et de prévenir le responsable de l’appareil."
+        }
+      ]
+    },
+    {
+      "titre": "Évaluation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Correctement utilisé, le DAE permet de délivrer un choc électrique externe à toute personne en arrêt cardiaque par fonctionnement anarchique du cœur."
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "1 Cette position est appelée antéro-latérale.",
+    "1 En l’absence d’électrodes pédiatriques, les électrodes adultes sont utilisées, l’électrode postérieure ira dans le dos, tandis que la latérale ira sur le thorax.",
+    "2 Pour les patientes de sexe féminin, essayez d’éviter autant que possible le tissu mammaire."
+  ]
+}

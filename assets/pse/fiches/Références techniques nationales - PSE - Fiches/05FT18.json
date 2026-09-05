@@ -1,0 +1,186 @@
+{
+  "nom": "05FT18",
+  "titre": "Position latérale de sécurité à un secouriste",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Urgences vitales",
+  "chapitres": [
+    {
+      "titre": "Indication",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Cette technique est indiquée chez toute victime qui ne répond pas, ne réagit pas, mais respire (perte de connaissance) à la suite d’un évènement non traumatique ou à la demande du service de secours alerté."
+        }
+      ]
+    },
+    {
+      "titre": "Justification",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La position latérale de sécurité (PLS) maintient libres les voies aériennes supérieures de la victime en permettant l’écoulement des liquides vers l’extérieur et évite que la langue ne chute dans le fond de la gorge."
+        }
+      ]
+    },
+    {
+      "titre": "Matériel",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Aucun matériel"
+        }
+      ]
+    },
+    {
+      "titre": "1er temps : Préparer le retournement de la victime. Pour cela :",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "retirer les lunettes de la victime si elle en porte ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "rapprocher délicatement les membres inférieurs de l'axe du corps 1 ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "placer le bras de la victime, situé du côté sauveteur, à angle droit de son corps ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "plier le coude de ce même bras en gardant la paume de la main de la victime tournée vers le haut ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "se placer à genoux ou en trépied à côté de la victime, au niveau de son thorax ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "saisir le bras opposé de la victime et amener le dos de la main de la victime sur son oreille, côté sauveteur ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "maintenir le dos de la main de la victime pressée contre son oreille, paume contre paume 2 ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "attraper la jambe opposée de la victime, avec l'autre main, juste derrière le genou 3 ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "relever la jambe de la victime, tout en gardant le pied au sol ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "s'éloigner du thorax de la victime afin de pouvoir la retourner sans avoir à reculer."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "2ème temps : Retourner la victime. Pour cela :",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "tirer sur la jambe relevée de la victime afin de la faire pivoter vers le sauveteur, jusqu'à ce que le genou touche le sol, sans brusquerie et en un seul temps ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "dégager doucement la main du sauveteur située sous la tête de la victime, tout en préservant la bascule de la tête en arrière, en maintenant le coude de la victime à l'aide de la main du sauveteur précédemment située au genou 4 ."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "3ème temps : Stabiliser la victime. Pour cela :",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "ajuster la jambe de la victime située au-dessus :"
+            },
+            {
+              "niveau": 2,
+              "texte": "en maintenant d’une main le bassin ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "et de telle sorte que la hanche et le genou soient à angle droit 1 ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "ouvrir la bouche de la victime sans mobiliser la tête et sans rabattre le menton sur le sternum 2 ."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Chez le nourrisson",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Placer le nourrisson sur le côté, le plus souvent dans les bras du sauveteur, dos du nourrisson contre lui."
+        }
+      ]
+    },
+    {
+      "titre": "Risques & Contraintes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La mise en PLS rend difficile la surveillance de la ventilation d’une victime."
+        }
+      ]
+    },
+    {
+      "titre": "Évaluation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La mise en position latérale de sécurité doit :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "limiter au maximum les mouvements de la colonne vertébrale ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "aboutir à une position stable, la plus latérale possible ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "permettre un contrôle permanent de la respiration de la victime ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "permettre l’écoulement des liquides vers l’extérieur (bouche ouverte)."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "2 Lors du retournement, le maintien de la main de la victime contre son oreille permet d’accompagner le mouvement de la tête et de diminuer la flexion de la colonne cervicale qui pourrait aggraver un traumatisme éventuel.",
+    "3 La saisie de la jambe de la victime au niveau du genou permet de l’utiliser comme « bras de levier » pour le retournement.",
+    "4 Le maintien de la main sous la tête de la victime limite les mouvements de la colonne cervicale.",
+    "1 La position de la jambe permet de stabiliser la PLS.",
+    "2 L’ouverture de la bouche de la victime facilite l’écoulement des liquides vers l’extérieur"
+  ]
+}

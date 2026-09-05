@@ -1,0 +1,210 @@
+{
+  "nom": "04FT03",
+  "titre": "Retrait d’un casque de protection",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Bilans",
+  "chapitres": [
+    {
+      "titre": "Indication",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le retrait du casque de protection d’une victime est indiqué :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "dans tous les cas, si au moins deux intervenants sont présents ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "si la victime a perdu connaissance, lorsqu’un seul intervenant est présent."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "La réalisation du retrait du casque de protection doit alors permettre de rechercher les signes de respiration, après avoir libéré les voies aériennes."
+        }
+      ]
+    },
+    {
+      "titre": "Justification",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La présence d’un casque de protection chez la victime peut occasionner une gêne dans la réalisation de l’examen et des gestes de secours."
+        }
+      ]
+    },
+    {
+      "titre": "Matériel",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Aucun matériel."
+        }
+      ]
+    },
+    {
+      "titre": "Réalisation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le retrait du casque de protection se fait sur une victime allongée sur le dos."
+        }
+      ]
+    },
+    {
+      "titre": "À deux secouristes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le secouriste 1, chargé du retrait du casque, doit :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "se placer à genoux dans l’axe de la tête de la victime ; Il doit être suffisamment éloigné pour pouvoir retirer le casque sans avoir à se reculer."
+            },
+            {
+              "niveau": 1,
+              "texte": "maintenir le casque en plaquant ses mains de chaque côté, la tête en position neutre et dans l’alignement de l’axe du tronc. Le secouriste 2 doit :"
+            },
+            {
+              "niveau": 1,
+              "texte": "s’installer, à côté de la tête, en trépied genou relevé du côté des pieds de la victime ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "détacher ou couper la sangle de la mentonnière (casque avec jugulaire) ou déverrouiller le dispositif de fixation du casque au niveau du menton de la victime ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "relever la visière du casque et retirer les lunettes de la victime, si nécessaire ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "glisser la main du côté de la tête de la victime sous la nuque, avant-bras en appui sur sa cuisse ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "placer les doigts de l’autre main en crochet sous le menton, coude appuyé sur le genou relevé et maintenir ainsi fermement la tête et le cou dans l’axe du corps. Le secouriste 1 doit :"
+            },
+            {
+              "niveau": 1,
+              "texte": "saisir le casque par les parties latérales du bord inférieur ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "tirer doucement le casque vers lui dans l’axe en le faisant glisser sur le sol ; Il est parfois nécessaire de basculer légèrement le casque d’arrière en avant sans le décoller du sol, en limitant les mouvements de la tête, pour ne pas accrocher le nez ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "arrêter la manœuvre lorsque le bord inférieur du casque se trouve au-dessus de la racine du nez de la victime. Le maintien de la tête n’est jamais relâché durant ce retrait. Le secouriste 2, dès l’arrêt du retrait, doit :"
+            },
+            {
+              "niveau": 1,
+              "texte": "repositionner ses prises, en glissant la main qui maintient la nuque vers le bas du crâne. Ce repositionnement a pour objet d’éviter une chute brutale de la tête de la victime lors du retrait complet du casque. Le secouriste 1 doit :"
+            },
+            {
+              "niveau": 1,
+              "texte": "retirer complètement le casque ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "maintenir la tête en position neutre (prise latéro-latérale) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "accompagner délicatement la tête de la victime jusqu’au sol."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "En secouriste isolé",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le retrait du casque à un secouriste est un geste extrêmement délicat :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "relever la visière du casque ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "retirer les lunettes de la victime, éventuellement ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "maintenir le casque de la victime d’une main ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "détacher ou couper la sangle de la mentonnière (casque avec jugulaire), ou déverrouiller le dispositif de fixation du casque au niveau du menton de la victime, avec l’autre main ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "se placer dans l’axe de la tête de la victime ; Il convient d’être suffisamment éloigné de la victime pour pouvoir retirer le casque sans avoir à se reculer."
+            },
+            {
+              "niveau": 1,
+              "texte": "saisir le casque par les parties latérales du bord inférieur ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "tirer doucement le casque, dans l’axe, en le faisant glisser sur le sol jusqu'à ce que le bord inférieur de la mentonnière soit à la racine du nez ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "déplacer une main pour saisir le bord inférieur de la partie supérieure du casque ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "glisser doucement l’autre main sous la base du crâne de la victime pour la maintenir ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "tirer doucement le casque en arrière en le faisant basculer légèrement pour ne pas accrocher le nez de la victime et simultanément déposer délicatement la tête sur le sol en la gardant le plus possible dans l’axe."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Risques & Contraintes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Une mobilisation du rachis cervical ou de la tête de la victime au cours de la manœuvre de retrait du casque peut entraîner une aggravation de son état et des séquelles graves."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Le retrait du casque de protection par un seul secouriste doit rester un geste exceptionnel, qui doit être réalisé seulement s’il ne peut pas obtenir un renfort immédiat."
+        }
+      ]
+    },
+    {
+      "titre": "Évaluation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La nuque et la tête de la victime doivent rester immobiles durant toute la manœuvre."
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

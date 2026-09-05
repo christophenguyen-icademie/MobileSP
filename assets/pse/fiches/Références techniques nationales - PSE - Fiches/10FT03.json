@@ -1,0 +1,180 @@
+{
+  "nom": "10FT03",
+  "titre": "Déplacement d’une victime non valide",
+  "niveaux": [
+    "PSE 2"
+  ],
+  "chapitre_principal": "Relevage et brancardage",
+  "chapitres": [
+    {
+      "titre": "Indication",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Ces techniques sont indiquées pour déplacer une victime, non valide, qui n’est pas suspecte d’un traumatisme de la colonne vertébrale ou des membres, sur quelques mètres."
+        }
+      ]
+    },
+    {
+      "titre": "Justification",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Ces techniques permettent de déplacer une victime sur une courte distance vers une zone calme, un abri pour la protéger des intempéries ou un endroit où elle pourra être allongée."
+        }
+      ]
+    },
+    {
+      "titre": "Matériel",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "une chaise, éventuellement."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Déplacement par saisie des extrémités",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Cette technique est pratique pour déplacer une victime qui se trouve dans un espace étroit. Le déplacement est réalisé au minimum par deux secouristes. Pour cela, après avoir aidé la victime à s’asseoir : Le secouriste 1 doit :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "s’accroupir derrière le dos de la victime ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "passer ses avant-bras sous ses aisselles et saisir les poignets opposés. Le secouriste 2 doit :"
+            },
+            {
+              "niveau": 1,
+              "texte": "s’accroupir entre les jambes de la victime, face à la marche ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "passer ses bras de l’extérieur vers l’intérieur sous les genoux de la victime. Secouriste 1 : « Êtes-vous prêt ? » Secouriste 2 : « Prêt ! » Secouriste 1 : « Avancez ! » Les secouristes se redressent et se dirigent vers l’avant. Arrivés à destination : Secouriste 1 : « Halte ! Attention pour poser… Posez ! » Les deux secouristes déposent délicatement la victime au sol ou sur une chaise."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Déplacement par une chaise à mains",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le déplacement est réalisé au minimum par deux secouristes. Pour cela :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "se placer de chaque côté de la victime, au niveau de ses hanches ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "passer un avant-bras derrière le dos de la victime puis saisir l’épaule du secouriste placé en face ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "passer l’autre avant-bras sous les genoux de la victime et agripper l’autre secouriste par les poignets ; Un anneau de toile solide peut être utilisé ; chaque secouriste agrippe alors l’anneau de toile."
+            },
+            {
+              "niveau": 1,
+              "texte": "demander à la victime de s’asseoir et de placer ses bras autour du cou de chacun des secouristes."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "La victime est déplacée au commandement de l’un des secouristes."
+        }
+      ]
+    },
+    {
+      "titre": "Déplacement à l’aide d’une chaise",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le déplacement est réalisé au minimum par deux secouristes. Pour cela :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "choisir une chaise d’ameublement suffisamment solide pour supporter le poids de la victime ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "faire asseoir la victime."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Ensuite : Le secouriste 1 doit :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "s’accroupir derrière le dossier de la chaise et saisir le bas du dossier ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "basculer tout doucement la chaise en arrière après avoir prévenu la victime et en la maintenant d’une main. Le secouriste 2 doit :"
+            },
+            {
+              "niveau": 1,
+              "texte": "s’accroupir entre les pieds avant de la chaise, face à la victime ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "saisir l’extrémité des pieds de la chaise. Les jambes de la victime doivent rester entre les pieds de la chaise. Au commandement du secouriste 1, les deux secouristes doivent :"
+            },
+            {
+              "niveau": 1,
+              "texte": "se relever simultanément ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "déplacer la victime sur sa chaise."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Risques & Contraintes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le secouriste ne doit jamais utiliser une technique de déplacement de la victime si la victime est suspecte d’un traumatisme de la colonne vertébrale ou des membres. Si le secouriste respecte l’indication de ces techniques, il ne doit pas aggraver l’état de la victime."
+        }
+      ]
+    },
+    {
+      "titre": "Évaluation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le déplacement de la victime n’entraîne pas de désagrément pour celle-ci."
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

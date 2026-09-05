@@ -1,0 +1,348 @@
+{
+  "nom": "01AC04",
+  "titre": "Préservation du potentiel mental du secouriste",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Attitude et comportement",
+  "chapitres": [
+    {
+      "titre": "Introduction",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Dans son activité, le secouriste est soumis à une charge mentale élevée et n’est donc pas préservé de la souffrance psychique. Le contact soutenu et répété à différentes contraintes émotionnelles confronte le secouriste à certains risques psychologiques, notamment des troubles relevant du stress, du traumatisme ou encore de l’usure et de l’épuisement."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Il est important qu’il ait connaissance de ces risques afin de pouvoir les repérer et s’y préparer. Il pourra ainsi gérer au mieux ces situations particulières et ses propres réactions, afin de limiter l’impact et les conséquences dommageables pour sa santé."
+        }
+      ]
+    },
+    {
+      "titre": "Les réactions immédiates de stress",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "D’intensité modérée, la réaction de stress permet au secouriste de mobiliser ses ressources pour accomplir sa mission. Elle est focalisatrice d’attention, mobilisatrice d’énergie et incitatrice à l’action."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Le stress est dit de forte intensité lorsque le secouriste voit ses capacités d’adaptation se dégrader, entraînant des réactions inhabituelles et inadaptées :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "L’agitation désordonnée (présente un état d’excitation rendant ses gestes fébriles, parfois inutiles et inefficaces, ses actions sont incohérentes et non coordonnées avec celles de l’équipe …);"
+            },
+            {
+              "niveau": 1,
+              "texte": "La fuite (se met à distance, se réfugie dans des actions lui permettant de se soustraire à la situation) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "L’action automatique (agit en mode réflexe par des gestes mécaniques et/ou ralentis et est en incapacité de s’adapter en cas de changement de la situation) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "La sidération (se retrouve en incapacité d’agir, de penser, est comme « anesthésié » au niveau émotionnel)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Les troubles psychotraumatiques",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Dans les premières heures suivant un stress de forte intensité, ou plus rarement de manière décalée dans le temps, certains secouristes sont susceptibles de développer des symptômes comme :"
+            },
+            {
+              "niveau": 2,
+              "texte": "La répétition de l’événement initial au travers de souvenirs envahissants (flashbacks), ou de cauchemars ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "L’évitement de toutes les situations, personnes, endroits … susceptibles de rappeler des souvenirs, pensées ou sentiments étroitement associés à l’événement critique ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "Des conduites d’hypervigilance comme si l’événement allait se reproduire de façon imminente, et ce malgré l’absence de danger ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "Une façon de penser plus négative, difficulté à éprouver des sentiments positifs."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "On parlera de Trouble de Stress Aigu si ces symptômes durent jusqu’à un mois après l’exposition."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Si ce trouble persiste au-delà, il sera considéré comme pathologique et qualifié de Trouble de Stress Post-Traumatique ."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Lorsqu’un tel trouble s’installe, il peut entraîner des modifications importantes et durables de la personnalité. De plus, il peut s’associer à d’autres pathologies dont les plus fréquentes sont la dépression"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "et les conduites addictives à l’alcool ou autres substances. Des soins médicaux et psychologiques sont préconisés afin de faire face à l’installation de tels troubles dans la durée."
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Il existe une forme de psychotraumatisme moins connue, nommée traumatisme vicariant . En effet, le secouriste, exposé de manière répétée et chronique aux horreurs vécues par les victimes d’événements traumatisants (tels que : le viol, la maltraitance, la violence, les accidents graves, la torture, la mort, les mutilations) risque de développer la conviction d’un monde dangereux. Il peut alors vivre avec la peur d’être mis en danger (comme la victime) et voir apparaître des symptômes de stress aigu ou post- traumatique."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Les phénomènes d’usure et d’épuisement",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Lorsqu’il est répété à de trop brefs intervalles, et particulièrement lorsqu’il est à l’origine de fortes réactions émotionnelles, le stress peut conduire à l’épuisement du secouriste."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Ces troubles peuvent prendre la forme :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "d’un épuisement professionnel (burn-out), qui va se traduire par :"
+            },
+            {
+              "niveau": 2,
+              "texte": "un épuisement émotionnel avec un sentiment d’être vidé de ses ressources émotionnelles ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "une déshumanisation conduisant à des attitudes négatives vis-à-vis des victimes : insensibilité au monde environnant avec une tendance exagérée à faire preuve de cynisme systématique pour se préserver de tout impact émotionnel, vision négative des autres et du travail ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "une diminution du sentiment d’accomplissement personnel dans son activité : sentiment de ne pas parvenir à répondre correctement aux attentes, autodépréciation, perte de l’estime de soi et sensation qu’il n’y a plus d’avenir dans son activité. Il engendre la perte de l’idéal du métier, du sens de l’accomplissement ou des valeurs."
+            },
+            {
+              "niveau": 1,
+              "texte": "d’une fatigue ou usure de compassion :"
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Le secouriste qui a été exposé de manière répétée à la souffrance intense devient hypersensible à l’état émotionnel des victimes. Il se sent impuissant, souvent triste, cynique ou en colère, il peut remettre en question son engagement."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Des symptômes dépressifs peuvent se développer ainsi que des symptômes somatiques : fatigue généralisée, migraines, douleurs gastriques, Troubles Musculo-Squelettiques, tensions musculaires, troubles du sommeil, hypertension artérielle …"
+        }
+      ]
+    },
+    {
+      "titre": "Préservation et optimisation de l’opérationnalité mentale",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Pour être efficient sur le plan opérationnel, le secouriste doit disposer de 3 compétences indissociables les unes des autres. Il doit avoir la condition physique pour réaliser la mission, la technique pour répondre aux besoins de la situation et le mental pour se réguler, s’adapter et ainsi être efficace techniquement et physiquement en toute circonstance."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "L’opérationnalité mentale correspond ainsi à la capacité à mobiliser les ressources mentales (sang-froid, lucidité, capacités d’analyse et d’adaptation) nécessaires à la réalisation optimale d’une mission. C’est elle qui permet d’analyser sans biais les situations de secours, qui favorise les prises de décisions rationnelles et permet l’engagement dans l’action."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Or certains facteurs peuvent troubler, voire compromettre cette opérationnalité mentale. Ainsi, le stress, certaines émotions, ressentis, sensations, peuvent générer des troubles cognitifs plus ou moins importants et invalidants selon l’individu, mais également selon le contexte et le moment. Il est donc indispensable de prendre en compte ces facteurs, de savoir les reconnaître et d’apprendre à les gérer pour ne pas ou moins les subir."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Afin d’entretenir son opérationnalité mentale et augmenter sa capacité à amortir les impacts psychologiques, le secouriste doit travailler et entraîner ses capacités comportementales, cognitives et émotionnelles."
+        }
+      ]
+    },
+    {
+      "titre": "Augmenter le potentiel mental pour amortir les impacts psychologiques",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "se préparer avant l’action :"
+            },
+            {
+              "niveau": 2,
+              "texte": "acquérir et entretenir des compétences par la formation et l'entraînement ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "se préparer à la réalité du terrain et des missions dévolues en se construisant une représentation"
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "juste et réaliste de l’activité et des missions et en prenant connaissance des risques psychologiques liés à la mission."
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "se réguler pendant l’action :"
+            },
+            {
+              "niveau": 2,
+              "texte": "appliquer les mesures permettant de protéger les intervenants tant physiquement que"
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "psychologiquement ;"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 2,
+              "texte": "mettre en application les techniques de gestion du stress (exemple : « respiration contrôlée ») ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "récupérer / se reconditionner après :"
+            },
+            {
+              "niveau": 2,
+              "texte": "soigner son hygiène de vie (repos, alimentation équilibrée, activité physique, exclusion des"
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "comportements addictifs, équilibre vie de famille/professionnelle et sociale, connaître et reconnaître ses limites)."
+        }
+      ]
+    },
+    {
+      "titre": "Détecter et réagir en fonction du niveau d’impact psychologique",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Détecter : Il faut identifier la présence potentielle d’un ou plusieurs facteurs critiques de stress et évaluer en temps réel l'impact psychologique de l'intervention sur les membres de l’équipe. Certaines situations sont connues pour être plus à risque de mettre en difficulté le secouriste du fait du caractère particulièrement éprouvant et de la charge émotionnelle importante qu’elles peuvent générer. Ces situations que l’on qualifie de « critiques » sont généralement les :"
+            },
+            {
+              "niveau": 2,
+              "texte": "situations impliquant des proches : famille, collègues, amis…"
+            },
+            {
+              "niveau": 2,
+              "texte": "interventions auprès d’enfants en détresse ou décédés ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "contextes comportant un caractère violent : morts violentes, cadavres mutilés, morts engendrées par la main de l’homme (homicide, féminicide, infanticide, fratricide …) ou de responsabilité humaine (AVP, accident du travail …) ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "événements exceptionnels (nombreuses victimes, attentats, accidents, catastrophes industrielles ou naturelles) ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "situations où le secouriste a pu se sentir impuissant, voire en échec ou responsable (d’un accident, etc.) ainsi que les situations où il a pu percevoir un danger pour son intégrité physique et/ou psychique (notamment dans les situations de violences physiques et/ou verbales à son encontre)."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Il faut identifier au sein de l’équipe la présence potentielle de :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 2,
+              "texte": "manifestations émotionnelles intenses pendant ou dans les suites immédiates ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "perte de capacité ou de réflexe ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "réactions inhabituelles d’un ou plusieurs secouristes, non adaptées à la situation pendant l’intervention ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "réactions physiques inattendues comme un malaise ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "tension inhabituelle au sein de l’équipe, voire une gêne ou un malaise (isolement de certains, silence, regards fuyants ou au contraire agitation avec flot de paroles, trop plein d’excitation ou de colère, désarroi, voire abattement)."
+            },
+            {
+              "niveau": 1,
+              "texte": "Réagir : Il est recommandé d’informer le chef d’équipe lorsqu’un ou plusieurs membres de l’équipe perçoivent ou présentent des manifestations inhabituelles. Cela permet d’ajuster la mission. Après l'intervention, et notamment si elle est éprouvante ou avec une charge émotionnelle importante, il peut être nécessaire de :"
+            },
+            {
+              "niveau": 2,
+              "texte": "Organiser un temps de répit dans un climat favorable permettant d’engager une communication entre tous les équipiers présents lors de l’intervention, après avoir assuré un confort de base (propreté, hydratation …)"
+            },
+            {
+              "niveau": 2,
+              "texte": "Maintenir une vigilance sur les personnels « submergés » par leurs émotions ou présentant un trop plein d’excitation ou encore ayant tendance à s’isoler."
+            },
+            {
+              "niveau": 2,
+              "texte": "Participer à un débriefing technique de l'opération."
+            },
+            {
+              "niveau": 2,
+              "texte": "Suivre les recommandations spécifiques de l’autorité d’emploi"
+            },
+            {
+              "niveau": 2,
+              "texte": "Recourir à des équipes spécialisées (psychologues, médecins, infirmiers formés spécifiquement...). Elles évalueront la situation, y compris dans l’urgence et définiront elles- mêmes les modalités de leurs interventions en fonction de protocoles établis."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Le soutien psychologique : être évalué et soutenu",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Chaque secouriste peut faire appel à une aide psychologique. Celle-ci relève à la fois de la prévention et du traitement immédiat ou différé, en fonction des signes de souffrance, apparaissant dans le cadre de l’activité (suite à une intervention ou généré par un effet cumulatif)."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Un appui psychologique précoce et approprié permet une récupération sur les plans personnels et professionnels."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Une orientation vers une aide professionnelle spécialisée peut être nécessaire afin de bénéficier d’une prise en charge psychothérapeutique."
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

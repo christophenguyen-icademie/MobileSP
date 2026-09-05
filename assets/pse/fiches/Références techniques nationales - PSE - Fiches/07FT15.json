@@ -1,0 +1,196 @@
+{
+  "nom": "07FT15",
+  "titre": "Immobilisation générale sur un matelas à dépression",
+  "niveaux": [
+    "PSE 2"
+  ],
+  "chapitre_principal": "Traumatismes",
+  "chapitres": [
+    {
+      "titre": "Indication",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le matelas immobilisateur à dépression (MID) est utilisé pour immobiliser la colonne vertébrale d’une victime, suspecte d’un traumatisme de la colonne vertébrale, du bassin ou de la cuisse. Ce moyen est particulièrement indiqué si la victime présente de multiples lésions. Le MID permet aussi d’immobiliser les victimes dans la position adaptée à leur détresse (demi-assise pour une détresse respiratoire). Le MID doit rester en place pour le transfert sur le brancard à l'hôpital."
+        }
+      ]
+    },
+    {
+      "titre": "Justification",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "En immobilisant le corps entier d’une victime, le MID permet de respecter son axe tête-cou-tronc et limite toute apparition ou aggravation d’une éventuelle lésion de la colonne vertébrale au cours de la mobilisation ou du transport d’une victime. Il permet en outre d’immobiliser les membres inférieurs."
+        }
+      ]
+    },
+    {
+      "titre": "Matériel",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le matelas immobilisateur à dépression est constitué :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "d’une enveloppe souple, résistante et étanche contenant des billes de polystyrène expansé ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "d’un robinet permettant de régler la sortie ou l’entrée de l’air ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "d’un dispositif de saisie (poignées) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "de sangles de maintien."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Il ne peut être utilisé qu’avec une pompe d’aspiration manuelle ou électrique. Son principe de fonctionnement consiste, une fois la victime installée sur le matelas, à aspirer l’air contenu dans l’enveloppe étanche. Cette aspiration provoque une solidarisation des petites billes qui rigidifie le matelas en moulant la victime, ce qui provoque son immobilisation."
+        }
+      ]
+    },
+    {
+      "titre": "Réalisation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’installation d’une victime sur le MID est effectuée en utilisant :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "un brancard cuillère ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "une technique de relevage dite du pont à quatre équipiers porteurs ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "exceptionnellement un plan dur."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Préalablement à l’installation de la victime, il faut :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "placer le MID à proximité de la victime, dans une position adaptée à la technique de relevage utilisée ; Dans la mesure du possible, la surface doit être plane et dure. Si nécessaire, une bâche de protection doit être mise sous le matelas afin de limiter les risques de déchirure ou de coupure."
+            },
+            {
+              "niveau": 1,
+              "texte": "ouvrir le robinet pour permettre l’entrée de l’air et répartir les billes qui se désolidarisent ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "rigidifier modérément le MID en relevant les côtés pour faciliter la manœuvre de relevage ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "mettre en place un drap ou une couverture de survie 1 ."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Une fois la victime déposée sur le MID à l’aide d’une technique adaptée :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "retirer systématiquement un dispositif de portage éventuel ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "mettre en forme le matelas autour du corps de la victime. Pour cela :"
+            },
+            {
+              "niveau": 2,
+              "texte": "rapprocher les bords du matelas de part et d’autre de la tête de la victime, Cela permet au secouriste de dégager ses mains puis de les replacer à l’extérieur du matelas et poursuivre le maintien de la tête jusqu’à la rigidification de ce dernier. Les blocs de tête peuvent être utilisés pour restreindre les mouvements du rachis cervical à l’intérieur du matelas. Le matelas ne doit en aucun cas appuyer sur le sommet du crâne, car l’aspiration de l’air entraînerait par rétraction une flexion de la tête."
+            },
+            {
+              "niveau": 2,
+              "texte": "maintenir les bords latéraux du matelas le long de la victime sans la mobiliser, en s’aidant des sangles de maintien."
+            },
+            {
+              "niveau": 1,
+              "texte": "faire le vide à l’intérieur du matelas en aspirant l’air avec un dispositif d’aspiration jusqu'à ce que le matelas devienne dur ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "fermer le robinet et déconnecter le dispositif d’aspiration ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "ajuster les sangles de maintien."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Une fois la victime immobilisée, si elle porte un collier cervical rigide, il est possible de le relâcher."
+        }
+      ]
+    },
+    {
+      "titre": "Risques & Contraintes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La rigidité du matelas doit être surveillée en permanence. Toute diminution de celle-ci (piqûre, déchirure…) nuit à la qualité de l’immobilisation générale de la victime. Le transport de la victime doit se faire en déposant l’ensemble « victime-matelas » sur un brancard ou un plan dur et après l’avoir arrimé. Lorsque cela n’est pas immédiatement possible, pour quelques mètres, le MID seul, une fois rigidifié, peut être utilisé en le soutenant sur les côtés pour qu’il ne se plie pas en son milieu. Un épanchement de sang de la victime (hémorragie extériorisée, reprise du saignement d’une hémorragie externe…) peut facilement être masqué par ce type d’immobilisation."
+        }
+      ]
+    },
+    {
+      "titre": "Évaluation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’immobilisation sur un matelas immobilisateur à dépression est correcte si :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "aucun mouvement de la victime n’est possible ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "la victime ne peut ni glisser vers le haut, ni vers le bas ou sur le côté ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "les sangles ne gênent pas la respiration de la victime ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "le matelas n’est pas au contact avec le haut du crâne."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "1 La face ou la couleur de la couverture n’ont que peu d’incidence sur la déperdition de chaleur."
+  ]
+}

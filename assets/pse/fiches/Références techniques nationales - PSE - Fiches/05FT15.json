@@ -1,0 +1,218 @@
+{
+  "nom": "05FT15",
+  "titre": "Aspiration de mucosité",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Urgences vitales",
+  "chapitres": [
+    {
+      "titre": "Indication",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’aspiration est réalisée chaque fois qu’une victime qui a perdu connaissance présente un encombrement des voies aériennes par des liquides ou des particules solides qu’elle ne peut expulser. Les vomissures, l’eau chez le noyé, le sang et les sécrétions des poumons sont les principales sources d’un encombrement des voies aériennes. La présence de sécrétions dans les voies aériennes est identifiée par :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "un bruit de gargouillements au cours des mouvements respiratoires ou lors d’une ventilation artificielle ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "la présence de contenu gastrique (vomissures), mucosités (salive) ou de sang qui sortent par la bouche ou par le nez de la victime ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "chez le nouveau-né en détresse, par la présence au niveau des voies aériennes supérieures de méconium, de caillots de sang ou d’un mucus épais (vernix)."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "L’aspiration des sécrétions est réalisée :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "après avoir fait une LVA, et si nécessaire après la mise en PLS (en cas de perte de connaissance non traumatique) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "pendant les compressions thoraciques afin de ne pas les interrompre, lors d’une RCP ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "pendant la prise en charge du nouveau-né à la naissance s’il n’est pas en bonne santé."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Justification",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le retrait des sécrétions qui encombrent les voies aériennes d’une victime permet d’améliorer sa respiration spontanée ou une ventilation artificielle, donc son oxygénation. L’aspiration est une technique importante pour le dégagement des voies aériennes."
+        }
+      ]
+    },
+    {
+      "titre": "Matériel",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’aspiration nécessite :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "une pompe à dépression (manuelle ou électrique, portable ou installée dans le véhicule de secours) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "une sonde d’aspiration 1 buccale adaptée à l’âge de la victime (cf. tableau suivant) qui peut être :"
+            },
+            {
+              "niveau": 2,
+              "texte": "souple et à extrémité en mousse,"
+            },
+            {
+              "niveau": 2,
+              "texte": "rigide (Yankauer)."
+            },
+            {
+              "niveau": 1,
+              "texte": "un réceptacle 2 constitué d’un flacon en plastique ou en verre ou parfois d’un sac à usage unique ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "du matériel de protection individuelle (gants, masques, lunettes)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Réalisation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le matériel d’aspiration monté et prêt à fonctionner est systématiquement positionné à côté de la tête de toute victime qui a perdu connaissance."
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "se protéger (gants de protection à usage unique, masque de protection respiratoire, lunettes) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "raccorder la sonde stérile au tuyau d’aspiration après l’avoir sortie de son emballage ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "mettre en marche l’appareil et régler l’aspiration (cf. tableau suivant), si le modèle le permet ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "ouvrir la bouche de la victime ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "introduire la sonde d’aspiration dans la bouche doucement et prudemment en restant perpendiculaire au visage jusqu’à ce qu’elle bute ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "mettre en œuvre l’aspiration, en obturant l’orifice de la prise d’air si nécessaire ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "aspirer les sécrétions en retirant progressivement la sonde et en lui imprimant des mouvements de rotation entre les doigts ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "Si la victime présente des sécrétions ou des débris alimentaires qui ne peuvent être aspirés, essayer de les retirer avec les doigts."
+            },
+            {
+              "niveau": 1,
+              "texte": "renouveler la manœuvre, si nécessaire ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "remettre la sonde d’aspiration dans son emballage d’origine une fois l’aspiration terminée ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "éteindre l’appareil."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "L’aspiration peut être renouvelée dans le temps si nécessaire. Tableau 15: diamètre des sondes d’aspiration et dépression d’aspiration D IAMETRE ( UNITE DE CHARRIERE ) 1 UNITE CH = 1/3 MM D EPRESSION ( MM H G ) A DULTE 18 à 26 350 à 500 E NFANT 8 à 12 200 à 350 N OURRISSON 6 à 8 200 à 250 N OUVEAU - NE 4 (prématuré) à 6 120 à 150"
+        }
+      ]
+    },
+    {
+      "titre": "Risques & Contraintes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Pour limiter tout manque d’oxygène (hypoxie), chaque manœuvre d’aspiration ne doit pas excéder dix secondes chez l’adulte et cinq dans les autres cas. Réalisée chez une personne consciente, l’introduction d’une sonde d’aspiration au fond de la gorge provoque le plus souvent un vomissement et doit donc être proscrite. La présence d’une canule oropharyngée n’empêche pas l’aspiration. Toutefois, elle peut être retirée temporairement pour faciliter la manœuvre. Pour ne créer aucune lésion dans la cavité buccale et au niveau du pharynx de la victime, il faut éviter les phénomènes de ventouse au niveau des muqueuses en ouvrant ponctuellement la prise d’air."
+        }
+      ]
+    },
+    {
+      "titre": "Cas particulier : aspiration du nouveau-né à la naissance",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Si une aspiration du nouveau-né est nécessaire :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "utiliser une sonde de petit calibre et une dépression adaptée (cf. tableau précédent) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "débuter toujours par une aspiration de la bouche sans enfoncer la sonde de plus de 5 cm ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "puis aspirer chaque narine, l’une après l’autre, perpendiculairement au visage, sans enfoncer la sonde de plus de 1cm de profondeur."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Le nouveau-né a une respiration qui est nasale. L’aspiration des narines avant la bouche pourrait entraîner une inhalation des sécrétions contenues dans la bouche."
+        }
+      ]
+    },
+    {
+      "titre": "Évaluation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’aspiration a été efficace si la respiration spontanée de la victime ou les insufflations manuelles sont devenues silencieuses."
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "1 La sonde d’aspiration est reliée à l’appareil par un tuyau. L’ensemble, à usage unique, doit être remplacé après chaque utilisation.",
+    "2 Prévu pour récupérer les produits d’aspiration, il est inséré entre la pompe et le tuyau d’aspiration. Son remplissage doit être surveillé. Il est vidé ou remplacé systématiquement en fin d’intervention ;"
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "nom": "08PR15",
+  "titre": "Compression de membre",
+  "niveaux": [],
+  "chapitre_principal": "Atteintes circonstancielles et environnementales",
+  "chapitres": [
+    {
+      "titre": "Introduction",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "évaluer la durée de la compression par rapport à l’horaire de l’événement ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "réaliser chaque regard ainsi que les gestes de secours adaptés ; Le plus souvent, les gestes de secours sont limités du fait de la situation de la victime (en général, peu accessible) et du risque lié aux circonstances de l’accident."
+            },
+            {
+              "niveau": 1,
+              "texte": "transmettre un bilan afin d’obtenir un avis médical ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "protéger la victime contre le froid, la chaleur, les intempéries ainsi que les risques liés au dégagement (projections) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "rassurer la victime en lui parlant, en particulier, si celle-ci est inaccessible ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "assurer la surveillance de la victime."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Lors de certaines circonstances tout à fait exceptionnelles, les secours peuvent être :",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "dans l’impossibilité de transmettre le bilan afin d’obtenir un avis médical quant à la suite à donner à la prise en charge de la victime ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "dans l’impossibilité de disposer d’une équipe médicale dans un délai approprié à l’état de la victime ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "dans une situation d’urgence absolue."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Il convient alors de :",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "évaluer la durée de la compression par rapport à l’horaire de l’événement ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "mettre en place un garrot, si la durée de compression est supérieure à quatre heures ou s’il est nécessaire pour arrêter une hémorragie externe non accessible ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "dégager la victime dans tous les cas ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "réaliser chaque regard ainsi que les gestes de secours adaptés (immobilisation des fractures, etc.) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "assurer la surveillance de la victime."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

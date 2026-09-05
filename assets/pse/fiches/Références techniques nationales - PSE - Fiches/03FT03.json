@@ -1,0 +1,108 @@
+{
+  "nom": "03FT03",
+  "titre": "Friction des mains",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Hygiène et asepsie",
+  "chapitres": [
+    {
+      "titre": "Indication",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Cette technique doit être réalisée lorsque la technique de lavage des mains à l’eau et au savon ne peut pas être réalisée (absence d’accès à l’eau). Elle peut aussi être réalisée en complément, lorsqu’un degré d’asepsie plus élevé est requis. Cette technique est aussi efficace que le lavage des mains, si la friction est faite sur des mains visuellement propres et non talquées. La friction sur des gants est inutile."
+        }
+      ]
+    },
+    {
+      "titre": "Justification",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Les frictions avec un gel hydroalcoolique ont pour but :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "de compléter l’élimination des germes de surface, après un lavage simple des mains à l’eau et au savon ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "de conserver un niveau d’asepsie acceptable des mains. En effet, le contact avec les victimes ou leur environnement pendant les soins donnés introduit progressivement des souillures, même si les mains paraissent propres."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Matériel",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Gel hydroalcoolique, contenu soit :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "dans un flacon individuel, fermé par un bouchon antiretour ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "dans un récipient mural fixe, muni d’une pompe de dispensation dont la commande est accessible sans utiliser les mains."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Réalisation",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "enlever montre, bagues et autres bijoux ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "déposer dans le creux de la paume d’une main une quantité suffisante (ce que le creux de la main peut contenir) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "frictionner sans arrêter, pendant au moins 30 secondes et jusqu’à évaporation complète, toutes les surfaces des mains en insistant sur la pulpe des doigts et les paumes. Ne pas oublier les espaces interdigitaux, les pouces, le dos de la main et les poignets ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "ne pas rincer ni essuyer."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Risques & Contraintes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le gel hydroalcoolique est inflammable, il ne faut pas réaliser cette technique à proximité d’une source de chaleur (flamme d’un briquet, d’une cigarette)."
+        }
+      ]
+    },
+    {
+      "titre": "Évaluation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Les mains doivent être sèches à l’issue de la procédure."
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

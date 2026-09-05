@@ -1,0 +1,173 @@
+{
+  "nom": "08FT03",
+  "titre": "Techniques de refroidissement d’une victime",
+  "niveaux": [
+    "PSE 2"
+  ],
+  "chapitre_principal": "Atteintes circonstancielles et environnementales",
+  "chapitres": [
+    {
+      "titre": "Indication",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Refroidir une victime est nécessaire chez une victime qui présente une hyperthermie, par exemple lors d’affections liés à la chaleur."
+        }
+      ]
+    },
+    {
+      "titre": "Justification",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’hyperthermie et le dérèglement du système de thermorégulation de l’organisme peuvent provoquer une déshydratation mais aussi des atteintes du foie, des reins, du système nerveux et cardio-vasculaire pouvant entrainer des séquelles graves ou le décès de la victime. Le refroidissement de la victime est un geste de premier secours essentiel pour prévenir l’apparition de ces troubles et éviter le décès de la victime ou des séquelles."
+        }
+      ]
+    },
+    {
+      "titre": "Matériel",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "eau et glace ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "baignoire ou bac improvisé."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Réalisation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Plusieurs moyens peuvent être utilisés, seuls ou en association, pour augmenter la déperdition de chaleur ou refroidir la victime."
+        }
+      ]
+    },
+    {
+      "titre": "Refroidissement passif",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "soustraire la victime à la cause ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "éloigner la victime d'un environnement chaud, l’installer dans un endroit frais, climatisé si possible ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "retirer les vêtements superflus en laissant au minimum les sous-vêtements ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "limiter tout effort."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Refroidissement actif avancé",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "immerger 1 le corps de la victime entièrement dans un bain d’eau fraîche, froide, ou glacée ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "maintenir la tête de la victime hors de l’eau ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "la température de l’eau doit être la plus froide possible ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "remuer 2 activement l’eau autour de la victime."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Refroidissement actif simple",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "pulvériser de l’eau à température ambiante sur la victime pour la mouiller 1 ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "ventiler la victime pour augmenter la déperdition de chaleur par convection (courant d’air, ventilateur) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "appliquer des linges ou draps imbibés avec de l’eau froide sur le corps de la victime ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "placer, sans contact direct avec la peau pour ne pas brûler, de la glace au niveau des gros troncs vasculaires (plis de l’aine, aisselles), de la tête, de la nuque."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Risques & Contraintes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Les victimes qui ont perdu connaissance et qui respirent normalement doivent pouvoir bénéficier d’un refroidissement actif de façon urgente . Leur refroidissement leurs permet souvent de redevenir consciente rapidement. Dans ce cas, la surveillance des voies aériennes et de la ventilation de la victime seront permanentes pendant toute la durée de la procédure."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Seules les victimes en arrêt cardiaque ou qui présentent des convulsions ne peuvent pas être immergées dans l’eau."
+        }
+      ]
+    },
+    {
+      "titre": "Évaluation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le refroidissement est efficace si la température corporelle diminue. Le refroidissement actif avancé doit permettre :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "une baisse de la température en dessous de 39°C ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "ainsi que la disparition des troubles neurologiques."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "de premiers secours, une improvisation doit être nécessaire pour assurer coûte que coûte un refroidissement actif : baignoire de la personne, bâche plastique, obtenir de la glace chez le voisin ou au bar du coin, demande de renforts, installer la victime dans une petite piscine pour enfants remplie d’eau, l’envelopper dans une bâche contenant de l’eau et de la glace en la faisant doucement osciller, etc",
+    "2 Cela favorise les échanges thermiques entre l’eau et la peau, et permet d’éviter une éventuelle brûlure par de la glace qui resterait en contact.",
+    "1 Cela augmente la déperdition de chaleur par évaporation."
+  ]
+}

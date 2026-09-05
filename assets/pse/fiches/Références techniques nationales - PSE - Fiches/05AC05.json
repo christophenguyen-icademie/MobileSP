@@ -1,0 +1,221 @@
+{
+  "nom": "05AC05",
+  "titre": "Arrêt cardiaque",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Urgences vitales",
+  "chapitres": [
+    {
+      "titre": "Définition",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Une personne est en arrêt cardiaque lorsque son cœur ne fonctionne plus ou fonctionne d’une façon anarchique, ne permettant plus d’assurer l’oxygénation du cerveau."
+        }
+      ]
+    },
+    {
+      "titre": "Causes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Chez l’adulte, l’arrêt cardiaque :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "est le plus souvent d’origine cardiaque ; Il est lié à une interruption de toute activité mécanique efficace du cœur. Il survient le plus souvent à cause d’un fonctionnement anarchique du cœur, l’empêchant de faire circuler le sang efficacement. Cette anomalie peut être secondaire à un infarctus du myocarde, à certaines intoxications ou d’autres maladies cardiaques. Parfois, l’arrêt cardiaque survient sans aucune anomalie préexistante connue : c’est la mort subite."
+            },
+            {
+              "niveau": 1,
+              "texte": "peut avoir une origine respiratoire, due en particulier à :"
+            },
+            {
+              "niveau": 2,
+              "texte": "une obstruction complète des voies aériennes dont les manœuvres de désobstruction ont échoué,"
+            },
+            {
+              "niveau": 2,
+              "texte": "un traumatisme du crâne, du rachis ou du thorax,"
+            },
+            {
+              "niveau": 2,
+              "texte": "un accident dû à l’eau (noyade), à l’électricité ou une pendaison."
+            },
+            {
+              "niveau": 1,
+              "texte": "peut survenir à la suite d’une perte de sang importante (hémorragie)."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Chez l’enfant et le nourrisson, l’arrêt cardiaque est le plus souvent d’origine respiratoire. Il est la conséquence d’un manque d’oxygène. On le rencontre particulièrement en cas :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "d’étouffement (sac plastique) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "de strangulation (jeux) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "d’une obstruction complète des voies aériennes ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "de noyade (accident dû à l’eau)."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "L’arrêt d’origine cardiaque chez l’enfant et le nourrisson est beaucoup plus rare que chez l’adulte. Il survient le plus souvent à cause d’une maladie ou d’une anomalie cardiaque, souvent non connue. Dans ce cas, il se manifeste, comme chez l’adulte, de façon brutale, et entraîne une chute de l’enfant alors qu’il en train de jouer ou de pratiquer une autre activité. Il peut aussi survenir à la suite d’une hémorragie importante, d’une électrisation ou d’une atteinte traumatique grave (traumatisme du crâne, du rachis ou du thorax)."
+        }
+      ]
+    },
+    {
+      "titre": "Risques & Conséquences",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La vie d’une victime en arrêt cardiaque est, en quelques minutes, menacée. Quand la respiration d’une victime s’arrête et quand son cœur cesse d’être efficace, l’air n’arrive plus au niveau des poumons, le sang cesse de circuler et l'alimentation en oxygène du corps entier n’est plus assurée. Le cerveau est l'organe le plus sensible de l'organisme au manque d'oxygène. Si aucun geste de secours n’est réalisé, des lésions cérébrales apparaissent en quelques secondes, chez l’enfant ou le nourrisson, ou en quelques minutes chez l’adulte. Progressivement, ces lésions deviennent irréversibles, rendant les chances de survie quasiment nulle en quelques minutes (environ huit minutes chez l’adulte)."
+        }
+      ]
+    },
+    {
+      "titre": "Signes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’identification des signes de l’arrêt cardiaque est réalisée en quelques secondes au tout début du bilan (2 ème regard) ou lors de la surveillance de la victime si l’arrêt cardiaque survient secondairement. Elle doit aussi pouvoir être réalisée par le secouriste si celui-ci est chargé de la réception de l’alerte. Une victime est considérée en arrêt cardiaque si :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "elle ne répond pas et ne réagit pas quand on l’appelle ou la stimule (perte de connaissance) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "elle présente :"
+            },
+            {
+              "niveau": 2,
+              "texte": "une absence de mouvements ventilatoires : aucun souffle n’est perçu, aucun bruit n’est entendu et"
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "ni le ventre ni la poitrine de la victime ne se soulèvent durant la recherche de la ventilation ;"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 2,
+              "texte": "ou une ventilation agonique : les mouvements ventilatoires sont inefficaces, bruyants, anarchiques"
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "et lents, c’est-à-dire moins de 1 mouvement en 10 secondes (≤ 6 mvts/min). Parfois, ces signes peuvent être accompagnés d’une courte période de mouvements saccadés de la victime, ressemblant à des convulsions. La recherche d’un pouls n’est pas systématique pour caractériser l’arrêt cardiaque 1 . Toutefois, si elle est effectuée, son évaluation simultanée à la recherche de la respiration ne doit jamais dépasser 10 secondes et elle ne doit pas retarder la mise en œuvre des gestes de secours déclinés dans le tableau suivant. Cette recherche se fait au niveau :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "carotidien chez l’adulte et l’enfant ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "fémoral chez le nourrisson."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "En cas d’absence ou de doute sur la présence du pouls chez une victime qui a perdu connaissance, même avec des mouvements ventilatoires, il faut débuter ou poursuivre une RCP. En effet, la réalisation d’une RCP précoce par des témoins peut permettre une reprise de mouvements ventilatoires grâce au massage cardiaque sans une reprise de circulation."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Tableau 14: Rechercher la présence des fonctions vitales et conduites à tenir"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "C IRCULATION C ONSCIENCE V ENTILATION C ONDUITE A TENIR ( POULS CAROTIDIEN )"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Sans Non Oui PLS si affection non traumatique prise de pouls Non Non ou anormale RCP"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Non Oui Oui (perçu) PLS si affection non traumatique"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Avec Non Non ou anormale Non ou doute (non perçu) RCP prise de pouls Non Oui Non (non perçu) RCP 2"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Non Non Oui (perçu) Insufflations 3"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "L’arrêt cardiaque peut survenir brutalement. Il peut aussi chez l’adulte, être précédé de signes annonciateurs, en particulier une douleur serrant la poitrine, permanente, angoissante, pouvant irradier dans le cou et les bras et parfois associée à une difficulté à respirer et des sueurs. L’arrêt cardiaque peut aussi être l’évolution ultime d’une détresse vitale."
+        }
+      ]
+    },
+    {
+      "titre": "Principe de l’action de secours",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’action de secours doit permettre, sauf en cas de décès certain (tête séparée du tronc, victime déchiquetée, démembrée ou en état de raideur cadavérique), la réalisation d’une série d’actions augmentant les chances de survie de la victime :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "reconnaître les signes annonciateurs ou l’arrêt cardiaque ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "alerter de façon précoce les secours médicalisés ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "réaliser ou guider une réanimation cardio-pulmonaire (RCP) précoce ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "assurer la mise en œuvre d’une défibrillation précoce."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Ces différentes étapes, complétées par une prise en charge médicale précoce, constituent une chaîne de survie susceptible d’augmenter de 4 à 40 % le taux de survie des victimes. Chaque minute gagnée dans la mise en place d’un défibrillateur automatisé externe (DAE) peut augmenter de 10 % les chances de survie de la victime. Installer sur son téléphone une application de sollicitation citoyenne (exemples : Staying Alive, SAUV Life, permis de sauver, etc.) permet d’être alerté et mobilisé par les services de secours en cas d’arrêt cardiaque à proximité et contribue à une prise en charge précoce en attendant leur arrivée."
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "d’une RCP après la survenue de l’arrêt cardiaque",
+    "3 Cette situation se rencontre chez les victimes qui présentent un arrêt ventilatoire initial, le plus souvent d’origine toxique (overdose). Si le secouriste intervient immédiatement après l’arrêt de la respiration, le pouls peut encore être perceptible. La réalisation d’insufflations évitera la survenue de l’arrêt-cardiaque."
+  ]
+}

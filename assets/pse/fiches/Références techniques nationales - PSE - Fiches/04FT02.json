@@ -1,0 +1,117 @@
+{
+  "nom": "04FT02",
+  "titre": "Retournement à un secouriste",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Bilans",
+  "chapitres": [
+    {
+      "titre": "Indication",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Cette technique est indiquée après avoir trouvé une victime sur le ventre sans suspicion de traumatisme ou lorsque le secouriste est isolé."
+        }
+      ]
+    },
+    {
+      "titre": "Justification",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le retournement d’une victime et sa mise en position allongée, le dos sur le sol, est nécessaire pour :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "libérer les voies aériennes et rechercher les signes de respiration ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "réaliser les gestes d’urgence comme la ventilation artificielle et les compressions thoraciques ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "examiner une victime."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Matériel",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Aucun matériel."
+        }
+      ]
+    },
+    {
+      "titre": "Réalisation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le retournement s’effectue du côté opposé au visage de la victime :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "placer le bras de la victime du côté du retournement au- dessus de sa tête 1 ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "se placer dans une position stable (à genoux ou en trépied) du côté du retournement, à une distance suffisante pour ne pas gêner le retournement complet de la victime ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "saisir la victime par l’épaule et par la hanche du côté opposé au retournement ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "faire rouler doucement et d’un seul bloc la victime au sol jusqu’à ce qu’elle se retrouve sur le côté ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "glisser la main qui était à l’épaule au niveau de la nuque de la victime, pour la maintenir ; l’avant-bras reposant contre le dos de la victime ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "tirer sur la hanche de la victime afin de terminer le retournement. La main qui maintient la nuque accompagne le mouvement. Elle est ensuite retirée avec précaution."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Une fois la victime sur le dos, les signes de respiration peuvent être recherchés et les manœuvres de réanimation débutées, au besoin."
+        }
+      ]
+    },
+    {
+      "titre": "Risques & Contraintes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Afin de limiter tout risque d’aggravation d’un traumatisme de la colonne cervicale, il est préférable que le retournement soit réalisé à deux sauveteurs, au moins."
+        }
+      ]
+    },
+    {
+      "titre": "Évaluation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’axe tête-cou-tronc de la victime doit être maintenu le plus rectiligne possible tout au long du retournement."
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "1 Le fait de placer le bras de la victime au-dessus de sa tête permet de faciliter le retournement et de maintenir la tête dans l’axe lors du retournement"
+  ]
+}

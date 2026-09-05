@@ -1,0 +1,152 @@
+{
+  "nom": "07FT05",
+  "titre": "Application de froid",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Traumatismes",
+  "chapitres": [
+    {
+      "titre": "Indication",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Cette technique est indiquée chez une victime consciente qui présente :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "un traumatisme de membre, y compris des articulations, en l’absence de plaie ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "une piqûre d’insecte."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Justification",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’application de froid permet d’atténuer la douleur et de limiter le gonflement."
+        }
+      ]
+    },
+    {
+      "titre": "Matériel",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’application de froid 1 peut être réalisée avec :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "de l’eau mélangée à de la glace (en cubes ou pilée) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "avec des compresses chimiques froides de différentes tailles."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Réalisation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’application de froid doit être la plus précoce possible et s’étendre au-delà de la zone douloureuse. La durée d’application ne doit pas excéder 20 minutes et peut être réduite de moitié en cas d’inconfort pour la victime."
+        }
+      ]
+    },
+    {
+      "titre": "En utilisant de l’eau et de la glace",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "remplir d’eau et de glace 2 un sachet plastique ou une vessie de glace ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "chasser l’air en excédent 3 et fermer hermétiquement la poche ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "envelopper la poche dans un linge (serviette, torchon) et l’appliquer sur la zone concernée."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "En utilisant une compresse chimique",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "générer le froid, conformément aux indications du constructeur ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "envelopper la poche dans un linge (serviette, torchon) et l’appliquer sur la zone concernée."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Risques & Contraintes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’application de froid est proscrite sur une plaie ou chez une victime qui a perdu connaissance. Prolongée, elle peut provoquer :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "des réactions cutanées, comme une rougeur ou une pâleur intense, l’apparition de petites cloques ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "des gelures caractérisées par une peau « cartonnée » quand on la touche."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Si tel est le cas, interrompre immédiatement l’application de froid."
+        }
+      ]
+    },
+    {
+      "titre": "Évaluation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’application de froid entraîne une diminution de la douleur et du gonflement sans provoquer de désagréments pour la victime."
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "1 Les bombes cryogènes sont réservées à l’usage médical.",
+    "2 Glaçons, glace pilée ou neige.",
+    "3 L’air est un excellent isolant. C’est pourquoi il convient de le chasser de la vessie ou du sac contenant la source de froid afin d’en améliorer l’efficacité."
+  ]
+}

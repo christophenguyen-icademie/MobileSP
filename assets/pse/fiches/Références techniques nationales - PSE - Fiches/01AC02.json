@@ -1,0 +1,164 @@
+{
+  "nom": "01AC02",
+  "titre": "Enjeux et principes",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Attitude et comportement",
+  "chapitres": [
+    {
+      "titre": "Introduction",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le secouriste est le premier acteur opérationnel, formé et entraîné à la prise en charge de personnes victime d’un accident, d’un malaise, d’une aggravation brutale d’une maladie ou de toute autre situation venant interrompre leur quotidien, de manière soudaine et inattendue, et susceptible de déborder les capacités individuelles ou collectives à faire face."
+        }
+      ]
+    },
+    {
+      "titre": "Rôles et missions",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Seul En équipe"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "À la prise de Le secouriste vérifie le matériel et prend connaissance des poste notes internes. Il fait du lien avec l’équipe."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Se rendre sur La connaissance du lieu d’intervention et de la zone les lieux géographique permet tout naturellement au secouriste de se rendre plus rapidement auprès de la victime."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Un message indiquant l’arrivée sur les lieux est transmis."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Protéger Seul ou en équipe, la recherche d’un danger pour soi, la victime ou les tiers est primordiale. Une action immédiate doit être entreprise pour mettre tout le monde en sécurité ou compléter un dispositif existant."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Accéder à la Dans certaines circonstances, l’accès à la victime ne peut se victime faire qu’après une manœuvre de sauvetage spécialisée, exemples : aquatique, secours routier …"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Le secouriste accédera à la victime dans la limite de ses qualifications et de son entraînement."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Examiner Le secouriste réalise un bilan avec les moyens dont il dispose. Le secouriste réalise un bilan avec matériel ."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Le but est de déceler une détresse vitale et/ou psychique en vue de déterminer une prise en charge adaptée."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Alerter / Seul ou via un témoin, l’alerte des secours publics doit être Les terminaux de transmission et le téléphone sont les plus Faire alerter réalisée le plus précocement possible. souvent utilisés pour transmettre les informations de la victime à son responsable ou aux secours publics. L’utilisation du téléphone portable donne de nombreux avantages : haut-parleur, échange entre la victime et le Quoiqu’il en soit, en équipe, l’alerte se fait dans le respect des médecin … procédures internes."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Secourir Le secouriste met en œuvre les conduites à tenir et techniques Le secouriste met en œuvre les conduites à tenir et techniques adaptées à un intervenant seul. adaptées."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Il agit avec les moyens du bord et utilise les témoins pour Il agit avec le matériel à sa disposition, ou à défaut, avec les mener son intervention. moyens du bord. Il utilise en cas de nécessité les témoins."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Surveiller Le secouriste assure une surveillance constante de la victime, tant sur le plan physique que psychologique. Il cherche une éventuelle évolution et veille à l’efficacité des moyens mis en œuvre."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Aider les À l’arrivée des renforts, le secouriste transmet les éléments de l’intervention à ces derniers et propose son aide pour la poursuite renforts de l’intervention, dans la limite de ses compétences."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Après une Le secouriste isolé pourra prendre contact avec son autorité Le secouriste veille au reconditionnement matériel. intervention d’emploi en cas de besoin. Il contribue au débriefing post-intervention prenant en compte l’aspect technique, mais également psychologique."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Il transmet les documents pour archivage."
+        }
+      ]
+    },
+    {
+      "titre": "Maintenir ses acquis",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le secouriste a pour devoir de maintenir ses connaissances et ses compétences à jour, en participant régulièrement aux séances de formation continue. La formation continue lui permet ainsi de réaliser un retour d’expérience et d’améliorer ses futures missions, de mieux coordonner son action avec un ou plusieurs équipiers, d’apprendre à utiliser les nouveaux matériels et de prendre connaissance des nouvelles techniques et procédures."
+        }
+      ]
+    },
+    {
+      "titre": "Principes de base",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Respecter les règles d’hygiène et de sécurité Le premier principe du secouriste est de respecter les règles d’hygiène et de sécurité, individuelles et collectives. Afin d’assurer ses missions de secours à victime, le secouriste doit 1 :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Porter des équipements de protection individuelle 2 ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "Accorder de l’importance à sa condition physique 3 ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "Adopter les règles liées à l’utilisation des véhicules 4 ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "Adopter les règles de gestes et postures ou de manutention :"
+            },
+            {
+              "niveau": 2,
+              "texte": "sollicitation au maximum de la victime pour réaliser une action, en l’accompagnant, lorsque cela est possible, et dans le but d’économiser les efforts des intervenants,"
+            },
+            {
+              "niveau": 2,
+              "texte": "appliquer les principes de sécurité physique et d’économie d’effort 5 ."
+            },
+            {
+              "niveau": 1,
+              "texte": "Assurer une protection de l’environnement de l’intervention 6 ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "Travailler en étroite collaboration avec ses équipiers et responsables 7 ."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Ne pas nuire aux victimes Le deuxième principe d’action du secouriste est de ne pas aggraver l’état de la victime ou de ne pas nuire à son environnement. Par exemple , il est souvent judicieux, en l’absence de risque vital, de laisser une victime dans la position où elle se trouve plutôt que d’essayer de la déplacer sans avoir le personnel et le matériel nécessaires."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Mettre en œuvre les techniques et utiliser le matériel Le troisième principe d’action du secouriste est de savoir réaliser parfaitement les techniques de premiers secours. Il doit savoir utiliser le matériel mis à sa disposition et en connaître les mesures de sécurité et d’entretien."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "S’adapter à la situation Certaines situations ne permettent pas au secouriste de mettre en œuvre les techniques apprises et celui-ci doit faire preuve de faculté d’adaptation. Par exemple, en l’absence de matériel spécifique : utiliser des morceaux de vêtements pour réaliser un tampon compressif ou une chaise d’ameublement pour déplacer une victime."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Aider les autres équipes de secours Cette formation permet aussi au secouriste d’apporter une aide efficace aux équipes de secours quand elles arrivent sur les lieux. Sur opération, lors de la réalisation de certaines techniques, notamment celles de relevage ou de brancardage, la participation de plus de trois équipiers est requise. Dans ce cas, du fait de sa formation, le secouriste est mis à disposition du responsable de l’intervention, pour apporter son aide."
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "5 Travail préférentiel avec les cuisses et non le dos, proximité de la charge à manipuler, respect de la courbure naturelle du dos, stabilité des appuis, solidité des prises, etc.",
+    "6 Balisage, périmètre de sécurité, récupération pour élimination des déchets de l’intervention, etc.",
+    "7 Rendre compte, respecter les consignes, etc."
+  ]
+}

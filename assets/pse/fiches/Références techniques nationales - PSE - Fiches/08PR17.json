@@ -1,0 +1,121 @@
+{
+  "nom": "08PR17",
+  "titre": "Accidents liés à la foudre",
+  "niveaux": [],
+  "chapitre_principal": "Atteintes circonstancielles et environnementales",
+  "chapitres": [
+    {
+      "titre": "Prise en charge de la victime",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Mettre en sécurité de la victime ; En cas de risque de sur accident par foudroiement ou lié au milieu hostile (chute de pierres, etc.), il conviendra de réaliser une extraction d’urgence."
+            },
+            {
+              "niveau": 1,
+              "texte": "Appliquer la conduite à tenir en cas d’arrêt cardiorespiratoire"
+            },
+            {
+              "niveau": 1,
+              "texte": "Appliquer la conduite à tenir en cas d’hypothermie avérée et /ou de prévention de l’hypothermie."
+            },
+            {
+              "niveau": 1,
+              "texte": "Si la victime présente des troubles neurologiques (sensibilité et/ou motricité) :"
+            },
+            {
+              "niveau": 2,
+              "texte": "Il est peut-être difficile de rattacher le déficit à l’effet de foudre ou à un éventuel traumatisme post-chute"
+            },
+            {
+              "niveau": 2,
+              "texte": "Appliquer la conduite à tenir en cas de traumatisme du dos et du cou."
+            },
+            {
+              "niveau": 1,
+              "texte": "Si la victime présente des brûlures :"
+            },
+            {
+              "niveau": 2,
+              "texte": "Appliquer la procédure face à des brûlures thermiques"
+            },
+            {
+              "niveau": 1,
+              "texte": "Si la victime présente un trouble de conscience :"
+            },
+            {
+              "niveau": 2,
+              "texte": "Appliquer la conduite à tenir face à un trouble de conscience."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Rappels de sécurité",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "En cas de risque persistant de foudre, il convient de respecter les règles suivantes afin d’intervenir avec un minimum de risque :"
+            },
+            {
+              "niveau": 2,
+              "texte": "porter un casque de protection ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "respecter une distance entre individus > 3 m"
+            },
+            {
+              "niveau": 2,
+              "texte": "progresser en faisant des petits pas"
+            },
+            {
+              "niveau": 2,
+              "texte": "protéger les moyens de communication (radios et téléphone) au fond du sac ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "s’éloigner des arêtes, des sommets, des arbres isolés ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "éviter les clairières."
+            },
+            {
+              "niveau": 1,
+              "texte": "En montagne, s’installer dans un cône de protection dont le rayon est égal à la hauteur du pic qui domine la zone et s’éloigner de la paroi de plus d’un mètre ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "dans une grotte :"
+            },
+            {
+              "niveau": 2,
+              "texte": "ne pas se mettre à l’entrée, mais au fond et à distance des parois ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "quand le risque de foudre est élevé :"
+            },
+            {
+              "niveau": 2,
+              "texte": "se tenir en position assise en boule sur un sac ou sur une corde,"
+            },
+            {
+              "niveau": 2,
+              "texte": "se délester du matériel métallique conducteur."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

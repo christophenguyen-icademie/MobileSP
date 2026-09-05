@@ -1,0 +1,257 @@
+{
+  "nom": "07PR01",
+  "titre": "Brûlures",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Traumatismes",
+  "chapitres": [
+    {
+      "titre": "Face à une urgence ou une détresse vitale, ou en cas d’aggravation",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "appliquer la conduite à tenir adaptée et réaliser en priorité les gestes d’urgence qui s’imposent ;"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Dans tous les cas",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "soustraire la victime à la cause et assurer une protection adaptée au contexte ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "initier le bilan et lutter contre la brûlure ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "recueillir les caractéristiques 1 de la brûlure ;"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "En présence d’une brûlure thermique",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "refroidir 2 immédiatement la surface brûlée tout en retirant les vêtements 3 , et les bijoux 4 :"
+            },
+            {
+              "niveau": 2,
+              "texte": "si la brûlure s’est produite il y a moins de 30 minutes ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "et si la victime est consciente ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "et n’a pas de détresse circulatoire ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "et si la surface brûlée est inférieure à : 20% chez un adulte, 10% chez un enfant ou un nourrisson."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "En l’absence de point d’eau tempérée, il est possible d’utiliser des compresses stériles enduites de gel d’eau. Les conditions d’utilisation sont les mêmes que celles de l’arrosage et précisées par le fabricant ou l’autorité d’emploi. Les jeunes enfants présentant des brûlures thermiques et bénéficiant d’un refroidissement actif à l’eau courante doivent être surveillés pour détecter tout signe et/ou symptôme de refroidissement excessif du corps."
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "adapter la conduite à tenir selon la gravité de la brûlure :"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Si la brûlure est grave",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "dès le début de l’arrosage , demander un avis médical et appliquer les consignes ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "poursuivre le refroidissement, selon les consignes données ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "après refroidissement ,"
+            },
+            {
+              "niveau": 2,
+              "texte": "installer la victime en position d'attente, confortablement 5 et sans délai : § allongée confortablement ; § assise en cas de gêne respiratoire."
+            },
+            {
+              "niveau": 2,
+              "texte": "ne pas percer les cloques et protéger la brûlure : § par un pansement, un champ stérile ou un film 6 plastique non adhésif ; § si la victime est brûlée sur une surface très étendue, l’envelopper dans un drap stérile."
+            },
+            {
+              "niveau": 2,
+              "texte": "envelopper la victime dans une couverture isotherme 7 ;"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Si la brûlure est simple",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "poursuivre le refroidissement jusqu'à disparition de la douleur ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "ne jamais percer les cloques ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "protéger la brûlure par un pansement stérile ou un film plastique non adhésif 1 ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "conseiller à la victime de consulter un médecin :"
+            },
+            {
+              "niveau": 2,
+              "texte": "si elle n’est pas à jour de sa vaccination antitétanique ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "s'il s'agit d'un enfant ou d'un nourrisson ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "si des signes d’une infection 2 apparaissent dans les jours qui suivent."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "En présence d’une brûlure électrique",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "appliquer la conduite à tenir face à une brûlure thermique grave , en adaptant comme suit :"
+            },
+            {
+              "niveau": 2,
+              "texte": "ne jamais toucher la victime avant la suppression du risque électrique ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "arroser les zones visiblement brûlées à l’eau courante tempérée ;"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "En présence d’une brûlure par produit chimique ou interne par inhalation",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "se protéger pour éviter tout contact avec l’origine de la brûlure ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "demander à la victime de se rincer immédiatement et abondamment à l’eau courante tempérée :"
+            },
+            {
+              "niveau": 2,
+              "texte": "en cas de projection sur les vêtements ou la peau : rincer 3 l’ensemble du corps de la victime et ôter sous l’eau ses vêtements imbibés de produit ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "en cas de projection dans l’œil : rincer 5 l’œil atteint et faire retirer les lentilles de contact pendant le rinçage ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "en cas d’ingestion : ne jamais faire vomir ou boire, et conserver les informations 4 du produit ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "en cas d’inhalation 5 : en présence de difficultés respiratoires, placer la victime en position assise ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "se laver les mains après avoir réalisé les gestes de secours."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Dans tous les cas",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "demander un avis médical en transmettant le bilan."
+            },
+            {
+              "niveau": 1,
+              "texte": "adapter la conduite à tenir selon les consignes du médecin ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "installer la victime en position d'attente, confortablement 6 et sans délai ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "poursuivre le bilan et surveiller attentivement la circulation et la respiration 7 ."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "4 Sur ou près de la peau brûlée.",
+    "5 Par exemple sur un lit, une chaise, ou un canapé, ou à défaut sur le sol.",
+    "6 Type film alimentaire. Il maintient l’humidité et épouse facilement la zone brûlée.",
+    "7 La couverture isotherme permet de lutter contre une hypothermie qui, chez un brûlé grave, peut survenir rapidement.",
+    "4 Conditionnement, emballage, fiche de donnée sécurité, etc.",
+    "5 Ce type de brûlure doit être suspecté chez une personne qui a respiré des fumées d’incendie ou inhalé des produits chimiques.",
+    "6 Par exemple sur un brancard, un lit, une chaise, un canapé ou à défaut sur le sol.",
+    "7 Les difficultés respiratoires peuvent survenir à distance de l’accident en cas de brûlure par inhalation."
+  ]
+}

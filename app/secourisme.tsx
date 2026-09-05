@@ -1,34 +1,39 @@
 import { Ionicons } from "@expo/vector-icons";
-import { Asset } from "expo-asset";
-import * as FileSystem from "expo-file-system/legacy";
-import { Stack } from "expo-router";
+import { Stack, useRouter } from "expo-router";
 import { useMemo, useState } from "react";
-import { ActivityIndicator, Alert, FlatList, Linking, Platform, Pressable, SafeAreaView, StyleSheet, Text, TextInput, View } from "react-native";
+import { FlatList, Pressable, SafeAreaView, StyleSheet, Switch, Text, TextInput, View } from "react-native";
 
 import fichesJson from "@/assets/pse/fiches/Références techniques nationales - PSE - Fiches/fiches.json";
-import { PSE_ASSETS } from "@/constants/pseAssets";
+import { PSE_DATA } from "@/constants/pseData";
+import type { FichePse, NiveauPse } from "@/types/pse";
 
-type Niveau = "PSE 1" | "PSE 2";
-type Filtre = "Tous" | Niveau;
-type Fiche = { nom: string; titre: string; niveaux: Niveau[]; chapitre: string; fichier: string };
-type Chapitre = { nom: string; numero: string; fiches: Fiche[] };
+type Filtre = "Tous" | NiveauPse;
+type Chapitre = { nom: string; numero: string; fiches: FichePse[] };
 
-const fiches = fichesJson as Fiche[];
+const fiches = fichesJson as FichePse[];
 const filtres: Filtre[] = ["Tous", "PSE 1", "PSE 2"];
 const normaliser = (texte: string) => texte.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+const contenusRecherchables = Object.fromEntries(
+  Object.entries(PSE_DATA).map(([reference, fiche]) => [
+    reference,
+    normaliser(JSON.stringify({ chapitres: fiche.chapitres, notes: fiche.notes })),
+  ]),
+);
 
 export default function Secourisme() {
+  const router = useRouter();
   const [recherche, setRecherche] = useState("");
   const [filtre, setFiltre] = useState<Filtre>("Tous");
+  const [rechercheContenu, setRechercheContenu] = useState(false);
   const [ouverts, setOuverts] = useState<Set<string>>(new Set());
-  const [chargement, setChargement] = useState<string | null>(null);
 
   const chapitres = useMemo<Chapitre[]>(() => {
     const terme = normaliser(recherche.trim());
-    const groupes = new Map<string, Fiche[]>();
+    const groupes = new Map<string, FichePse[]>();
     fiches.forEach((fiche) => {
       const niveauOk = filtre === "Tous" || fiche.niveaux.includes(filtre);
-      const texteOk = !terme || normaliser(`${fiche.nom} ${fiche.titre} ${fiche.chapitre}`).includes(terme);
+      const metadonnees = normaliser(`${fiche.nom} ${fiche.titre} ${fiche.chapitre}`);
+      const texteOk = !terme || metadonnees.includes(terme) || (rechercheContenu && contenusRecherchables[fiche.nom]?.includes(terme));
       if (!niveauOk || !texteOk) return;
       const groupe = groupes.get(fiche.chapitre) ?? [];
       groupe.push(fiche);
@@ -39,7 +44,7 @@ export default function Secourisme() {
       numero: fichesDuChapitre[0].nom.slice(0, 2),
       fiches: fichesDuChapitre,
     }));
-  }, [filtre, recherche]);
+  }, [filtre, recherche, rechercheContenu]);
 
   const basculerChapitre = (chapitre: string) => {
     setOuverts((actuels) => {
@@ -48,23 +53,6 @@ export default function Secourisme() {
       else suivants.add(chapitre);
       return suivants;
     });
-  };
-
-  const ouvrirPdf = async (fiche: Fiche) => {
-    const modulePdf = PSE_ASSETS[fiche.nom];
-    if (!modulePdf) return Alert.alert("Fichier introuvable", `Le PDF ${fiche.fichier} n’est pas indexé.`);
-    setChargement(fiche.nom);
-    try {
-      const asset = Asset.fromModule(modulePdf);
-      await asset.downloadAsync();
-      let uri = asset.localUri ?? asset.uri;
-      if (Platform.OS === "android" && uri.startsWith("file://")) uri = await FileSystem.getContentUriAsync(uri);
-      await Linking.openURL(uri);
-    } catch {
-      Alert.alert("Ouverture impossible", "Aucun lecteur PDF compatible n’a pu ouvrir cette fiche.");
-    } finally {
-      setChargement(null);
-    }
   };
 
   const rechercheActive = recherche.trim().length > 0;
@@ -86,6 +74,18 @@ export default function Secourisme() {
             </Pressable>
           ))}
         </View>
+        <View style={styles.optionRecherche}>
+          <View style={styles.optionLibelle}>
+            <Text style={styles.optionTitre}>Rechercher dans le contenu</Text>
+            <Text style={styles.optionAide}>Paragraphes, puces et notes des fiches</Text>
+          </View>
+          <Switch
+            value={rechercheContenu}
+            onValueChange={setRechercheContenu}
+            trackColor={{ false: "#cbc9d4", true: "#8882bb" }}
+            thumbColor={rechercheContenu ? "#1f176a" : "#f4f3f4"}
+          />
+        </View>
       </View>
 
       <FlatList
@@ -106,18 +106,26 @@ export default function Secourisme() {
                 <Ionicons name={estOuvert ? "chevron-up" : "chevron-down"} size={22} color="#1f176a" />
               </Pressable>
               {estOuvert && chapitre.fiches.map((fiche) => (
-                <Pressable key={fiche.nom} onPress={() => ouvrirPdf(fiche)} style={({ pressed }) => [styles.ligneFiche, pressed && styles.fichePressee]}>
-                  <View style={styles.branche} />
-                  <View style={styles.contenuFiche}>
-                    <View style={styles.metaFiche}>
-                      <Text style={styles.code}>{fiche.nom}</Text>
-                      {fiche.niveaux.map((niveau) => <View key={niveau} style={styles.badge}><Text style={styles.badgeTexte}>{niveau}</Text></View>)}
-                      {fiche.niveaux.length === 0 && <Text style={styles.optionnelle}>Complémentaire</Text>}
+                <View key={fiche.nom} style={styles.ficheBloc}>
+                  <Pressable onPress={() => router.push({ pathname: "/fiche-pse", params: { reference: fiche.nom } })} style={({ pressed }) => [styles.ligneFiche, pressed && styles.fichePressee]}>
+                    <View style={styles.branche} />
+                    <View style={styles.contenuFiche}>
+                      <View style={styles.metaFiche}>
+                        <Text style={styles.code}>{fiche.nom}</Text>
+                        {fiche.niveaux.map((niveau) => <View key={niveau} style={styles.badge}><Text style={styles.badgeTexte}>{niveau}</Text></View>)}
+                        {fiche.niveaux.length === 0 && <Text style={styles.optionnelle}>Complémentaire</Text>}
+                      </View>
+                      <Text style={styles.titreFiche}>{fiche.titre}</Text>
                     </View>
-                    <Text style={styles.titreFiche}>{fiche.titre}</Text>
-                  </View>
-                  {chargement === fiche.nom ? <ActivityIndicator color="#1f176a" /> : <Ionicons name="document-text-outline" size={23} color="#1f176a" />}
-                </Pressable>
+                    <Ionicons name="chevron-forward" size={22} color="#1f176a" />
+                  </Pressable>
+                  {fiche.nom === "05FT10" && (
+                    <Pressable style={styles.animation} onPress={() => router.push("/animation-pse")}>
+                      <Ionicons name="cube-outline" size={18} color="#fff" />
+                      <Text style={styles.animationTexte}>Voir l’animation 3D</Text>
+                    </Pressable>
+                  )}
+                </View>
               ))}
             </View>
           );
@@ -139,6 +147,10 @@ const styles = StyleSheet.create({
   filtreActif: { backgroundColor: "#1f176a", borderColor: "#1f176a" },
   texteFiltre: { color: "#504d64", fontSize: 14, fontWeight: "600" },
   texteFiltreActif: { color: "#fff" },
+  optionRecherche: { alignItems: "center", borderTopColor: "#eceaf0", borderTopWidth: 1, flexDirection: "row", marginTop: 12, paddingTop: 11 },
+  optionLibelle: { flex: 1 },
+  optionTitre: { color: "#353243", fontSize: 14, fontWeight: "600" },
+  optionAide: { color: "#7a7788", fontSize: 12, marginTop: 2 },
   liste: { padding: 14, paddingBottom: 30 },
   chapitre: { backgroundColor: "#fff", borderColor: "#e2e0e9", borderRadius: 14, borderWidth: 1, marginBottom: 10, overflow: "hidden" },
   ligneChapitre: { alignItems: "center", flexDirection: "row", minHeight: 72, padding: 12 },
@@ -148,6 +160,7 @@ const styles = StyleSheet.create({
   nomChapitre: { color: "#262238", fontSize: 16, fontWeight: "700" },
   compteur: { color: "#777487", fontSize: 13, marginTop: 3 },
   ligneFiche: { alignItems: "center", borderTopColor: "#eceaf0", borderTopWidth: 1, flexDirection: "row", marginLeft: 22, minHeight: 78, paddingHorizontal: 14, paddingVertical: 10 },
+  ficheBloc: { borderTopColor: "#eceaf0", borderTopWidth: 1 },
   fichePressee: { backgroundColor: "#f3f2fa" },
   branche: { backgroundColor: "#c7c3dc", height: 1, marginRight: 10, width: 13 },
   contenuFiche: { flex: 1, paddingRight: 8 },
@@ -158,4 +171,6 @@ const styles = StyleSheet.create({
   optionnelle: { color: "#817d8e", fontSize: 11, fontStyle: "italic" },
   titreFiche: { color: "#302d3d", fontSize: 15, lineHeight: 20, marginTop: 4 },
   vide: { color: "#716e80", paddingTop: 50, textAlign: "center" },
+  animation: { alignItems: "center", alignSelf: "flex-start", backgroundColor: "#1f176a", borderRadius: 9, flexDirection: "row", gap: 7, marginBottom: 12, marginLeft: 59, paddingHorizontal: 13, paddingVertical: 9 },
+  animationTexte: { color: "#fff", fontSize: 13, fontWeight: "700" },
 });

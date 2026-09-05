@@ -1,0 +1,82 @@
+{
+  "nom": "08PR12",
+  "titre": "Syndrome de suspension",
+  "niveaux": [],
+  "chapitre_principal": "Atteintes circonstancielles et environnementales",
+  "chapitres": [
+    {
+      "titre": "Dégager la victime qui est suspendue",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Dans toutes les situations, le dégagement de la victime doit être le plus rapide possible et se faire en toutes conditions de sécurité. Il nécessite le plus souvent l’intervention d’équipes spécialisées. En attendant le dégagement de la victime, essayer de maintenir ses membres inférieurs en position horizontale. Si la victime est coopérante et si elle le peut, lui demander de le faire elle-même."
+        }
+      ]
+    },
+    {
+      "titre": "La victime a perdu connaissance",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "allonger la victime au sol ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "appliquer immédiatement, en fonction de la présence ou pas d’une respiration efficace, la conduite à tenir devant une victime qui a perdu connaissance :"
+            },
+            {
+              "niveau": 2,
+              "texte": "et qui respire,"
+            },
+            {
+              "niveau": 2,
+              "texte": "et qui ne respire pas ou qui présente une respiration agonique (gasps)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "La victime est consciente",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "installer la victime en position allongée horizontale ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "desserrer le harnais ; Il pourra ensuite être retiré si nécessaire avant l’évacuation de la victime."
+            },
+            {
+              "niveau": 1,
+              "texte": "prendre en charge les lésions associées, particulièrement si la victime a présenté une chute ou une électrisation ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "administrer de l’oxygène en complément si nécessaire ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "lutter contre une hypothermie ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "demander un avis médical et suivre les consignes du médecin ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "surveiller les fonctions vitales de la victime à intervalles réguliers."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

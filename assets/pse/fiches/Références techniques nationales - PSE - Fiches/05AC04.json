@@ -1,0 +1,77 @@
+{
+  "nom": "05AC04",
+  "titre": "Obstruction des voies aériennes",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Urgences vitales",
+  "chapitres": [
+    {
+      "titre": "Définition",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’obstruction des voies aériennes (OVA) est la gêne ou l'empêchement brutal des mouvements de l’air entre l’extérieur et les poumons, par un corps étranger."
+        }
+      ]
+    },
+    {
+      "titre": "Causes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Les corps étrangers qui sont le plus souvent à l’origine d’une obstruction des voies aériennes sont les aliments (noix, cacahuètes, carottes) ou des objets (aimants de magnets, jouets). L’OVA peut survenir à tout âge, mais elle est plus fréquente chez l’enfant et chez la personne âgée."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "L’obstruction se produit le plus souvent lorsque la personne est en train de manger, de boire ou de porter un objet à la bouche."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Des facteurs de risques exposent au risque de survenue d’une OVA par corps étranger comme la prise de médicaments, d’alcool, les maladies neurologiques qui diminuent ou altèrent la déglutition ou la toux, la démence, mais aussi une mauvaise dentition."
+        }
+      ]
+    },
+    {
+      "titre": "Risques & Conséquences",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Si après inhalation d’un corps étranger, le passage de l’air dans les voies aériennes est menacé ou interrompu, l’arrivée de l’oxygène jusqu’aux poumons peut être réduite ou stoppée, pouvant compromettre rapidement la vie de la victime. Sans une intervention rapide, elle entraîne : une hypoxie, une perte de connaissance, puis un arrêt cardiaque en quelques minutes."
+        }
+      ]
+    },
+    {
+      "titre": "Signes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Si la victime peut parler, crier (notamment enfant ou nourrisson), tousser et respirer, parfois avec un bruit surajouté, l’obstruction n’est pas totale. Elle peut durer plusieurs minutes après l’accident, car la respiration n’est pas complètement interrompue."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Si la victime ne peut plus parler, crier, tousser ou émettre un son, garde la bouche ouverte, s'agite, devient rapidement bleue, alors l’obstruction est totale."
+        }
+      ]
+    },
+    {
+      "titre": "Principe de l’action de secours",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "désobstruer les voies aériennes en cas d’obstruction totale ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "empêcher toute aggravation."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

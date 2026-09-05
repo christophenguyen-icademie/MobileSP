@@ -1,0 +1,105 @@
+{
+  "nom": "01FT02",
+  "titre": "Stabiliser l’état psycho-physiologique d’une victime",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Attitude et comportement",
+  "chapitres": [
+    {
+      "titre": "Indications et justifications",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Lors de l’action de secours, le niveau de stress et de détresse de la victime peut rester élevé et ainsi aggraver la blessure psychologique. Il s’agit de limiter les effets nocifs (physiologiques et psychologiques) de cette situation stressante, en procédant à une « stabilisation » de la victime."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Cette stabilisation consiste à focaliser positivement l’attention de la victime sur le secouriste afin de réduire sa réaction de stress et d’augmenter son sentiment de contrôle, au fur et à mesure des différentes étapes de sa prise en charge."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Ce protocole s’applique auprès de victimes conscientes et n’étant pas sous emprise d’alcool ou de produits stupéfiants."
+        }
+      ]
+    },
+    {
+      "titre": "Réalisation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le secouriste qui sera auprès de la victime et qui l’accompagnera tout au long de l’action de secours s’appliquera dans les actions suivantes :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Il demande à la victime de focaliser son attention sur lui, du début à la fin de l’intervention, en utilisant les différents canaux de communication :"
+            },
+            {
+              "niveau": 2,
+              "texte": "Le canal auditif, la voix :"
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "« Vous êtes prête ? Je vous propose de vous concentrer sur ma voix et les questions que je vais vous poser ». « Je continuerai à vous parler tout au long de l’intervention et à vous expliquer ce qui se passe »."
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 2,
+              "texte": "Le canal kinesthésique, le toucher :"
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "« Est-ce que vous sentez mes mains lorsque je vous palpe... ? » « Est-ce qu’il y a un endroit où vous ressentez plus de pression qu’un autre ? » « Quel est le doigt qui appuie le plus ? « Bien, restez concentré sur ces sensations » « Sentez-vous le soutien que vous procure cette attelle ? »"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 2,
+              "texte": "Le canal visuel, le regard :"
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "« Je vous propose de fixer un point devant vous ». « Vous pouvez garder les yeux ouverts ou fermés, c'est comme vous voulez ». « Si vous gardez les yeux ouverts, fixez un point de votre choix ». Si des éléments visuels négatifs (blessure importante, sang …) focalisent l’attention de la victime, les masquer à sa vue ou proposer de fermer les yeux en restant concentrée sur la voix du secouriste."
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Il détermine avec elle un code de communication : convenir d'un signe de la main, du pouce, clignement d'œil … pour dire oui ou non (dans le cas de bruits importants, ou si la victime ne peut pas parler (traumatisme de la face ou autre, port du masque O², difficultés respiratoires...). « Si vous avez besoin de dire quelque chose, dites-le-moi ». « Pour communiquer, nous pouvons aussi établir un code entre nous, votre main peut me faire signe, un signe de la main ou du pouce peut me dire oui ou non, par exemple. »"
+            },
+            {
+              "niveau": 1,
+              "texte": "Il suggère un travail sur la respiration : le secouriste guide la respiration de la victime et favorise une focalisation sur ce processus tout au long de l’intervention. Se concentrer sur la respiration permet de modifier certaines réponses physiologiques (cf. « respiration contrôlée » )."
+            },
+            {
+              "niveau": 1,
+              "texte": "Il encourage la victime à défocaliser son attention de la situation actuelle : il s’agit d’augmenter la détente de la victime obtenue par les phases précédentes, en orientant son attention sur un sujet agréable pour elle (passion, loisirs, lieux, personnes). Explorer les détails et les sensations, proposer à la victime de se déplacer mentalement dans cette activité/ce lieu (par exemple durant la désincarcération, le transport au centre hospitalier …) tout en surveillant sa conscience par le code de communication (cf. « défocalisation/visualisation » )."
+            },
+            {
+              "niveau": 1,
+              "texte": "Il apporte des explications et normalise les réactions du corps : le secouriste explique la normalité des mécanismes de stress et des réactions de la victime."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Il est important de maintenir la stabilisation à chaque phase de l'intervention, notamment lors du passage dans l’ambulance ou vers l'hôpital en préparant la fin de l'intervention des secours. Suggérer à la victime le maintien d’un certain contrôle, avec la capacité à réactiver ces sensations de calme et ainsi de mobiliser ses ressources dans les suites de sa prise en charge."
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

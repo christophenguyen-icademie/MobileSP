@@ -1,0 +1,172 @@
+{
+  "nom": "08AC06",
+  "titre": "Hypothermie",
+  "niveaux": [
+    "PSE 2"
+  ],
+  "chapitre_principal": "Atteintes circonstancielles et environnementales",
+  "chapitres": [
+    {
+      "titre": "Définition",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’homme est homéotherme, c’est-à-dire que sa température à l’état normal est constante et se situe aux alentours de 37 °C. L’hypothermie accidentelle se définit comme une chute involontaire de la température corporelle au- dessous de 35 °C."
+        }
+      ]
+    },
+    {
+      "titre": "Causes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’hypothermie est due à une hémorragie ou à une exposition prolongée à un environnement froid, en particulier humide, surtout lorsque la victime présente un ou des facteurs favorisants suivants :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "enfant, personne âgée, sujets originaires de pays chauds ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "maladie, fatigue, alimentation insuffisante, prise d’alcool, tabac, drogues, intoxication médicamenteuse ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "activités physiques ayant entraîné de la transpiration, qui va réduire le pouvoir isolant des vêtements ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "immobilité ou immersion."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "L’hypothermie menace également toute victime d’un traumatisme ou d’une brûlure grave, même si elle n’est pas exposée à un froid important."
+        }
+      ]
+    },
+    {
+      "titre": "Risques & Conséquences",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’hypothermie provoque un ralentissement des fonctions vitales pouvant aller, éventuellement, jusqu’à leur interruption (perte de connaissance, arrêt cardiaque). On classe généralement les hypothermies en fonction de leur température et des signes qui y sont associés : La victime est consciente, sa ventilation et la fréquence cardiaque sont 35 à 32 °C rapides. Légère Elle présente des frissons permanents et sa peau est froide ;"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "La victime délire, présente des hallucinations et des troubles de la conscience d’aggravation progressive. Modérée 32 à 28 °C Sa ventilation et la fréquence cardiaque se ralentissent. Il n’y a plus de frissons, mais une rigidité musculaire modérée ;"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "La victime a perdu connaissance, le pouls est difficile à percevoir et la fréquence cardiaque ainsi que la ventilation sont lentes. Sévère 28 à 24 °C Il existe une rigidité musculaire importante et la victime est très sensible à toutes mobilisations qui peuvent déclencher des troubles du rythme voire un arrêt cardiaque ;"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Grave < 24 °C La victime est en arrêt cardiaque apparent."
+        }
+      ]
+    },
+    {
+      "titre": "Signes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le 1er regard permet de constater une exposition prolongée au froid ou à une immersion (noyade)."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Lors du 2ème ou 3ème regard, la victime peut présenter :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "une perte de connaissance ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "un arrêt cardiaque ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "une détresse neurologique avec désorientation ou confusion ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "une détresse respiratoire avec un ralentissement de la respiration ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "une détresse circulatoire avec un ralentissement du pouls qui devient très difficile à percevoir."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "L’examen met en évidence :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "une température inférieure à 35 °C ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "des frissons, ils surviennent habituellement avant l’apparition de l’hypothermie sévère entre 36 °C et 32 °C ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "l’absence de frisson (hypothermie modérée, sévère et grave), car la disparition du frisson signe l’épuisement de l’organisme qui n’arrive plus à lutter contre le froid ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "une peau pâle, froide et sèche."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Il est souvent très difficile de mesurer sur les lieux la température d’une victime qui présente une hypothermie. La corrélation des signes présentés par la victime avec sa température centrale aide le secouriste et le médecin régulateur à évaluer le degré de gravité de l’hypothermie."
+        }
+      ]
+    },
+    {
+      "titre": "Principe de l’action de secours",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "soustraire la victime à la cause ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "éviter toute déperdition supplémentaire de chaleur ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "demander un avis médical ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "réchauffer la victime ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "surveiller attentivement la victime (risque d’arrêt cardiaque)."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

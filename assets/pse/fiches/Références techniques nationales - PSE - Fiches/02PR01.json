@@ -1,0 +1,59 @@
+{
+  "nom": "02PR01",
+  "titre": "Sécurité sur intervention",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Protection et sécurité",
+  "chapitres": [
+    {
+      "titre": "Lors du 1er regard, il convient de reconnaître les dangers :",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "effectuer une approche prudente de la zone de l’accident afin d’évaluer les dangers potentiels pour les intervenants et les témoins ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "repérer les personnes qui pourraient être exposées aux dangers identifiés et le nombre de victimes. Éventuellement, se renseigner auprès des témoins ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "regarder autour de la victime, en restant à distance d’elle pour évaluer la présence de dangers persistants qui peuvent la menacer."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "En fonction de cette première analyse de la situation :",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "délimiter clairement, largement et visiblement la zone d’intervention ou de danger et empêcher toute intrusion dans cette zone ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "mettre en place les moyens de protection collective en dotation ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "supprimer immédiatement et si possible de façon permanente les dangers environnants pour assurer la protection des intervenants, de la victime et des autres personnes, notamment du suraccident. En cas d’impossibilité ou de danger réel et imminent pour la victime, réaliser un dégagement d’urgence. Toutes ces actions peuvent, en fonction des moyens humains à disposition, se faire simultanément."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Pour réaliser la protection, les intervenants doivent utiliser tous les moyens matériels dont ils peuvent disposer et s’assurent si besoin du concours de toute autre personne qui pourrait apporter une aide dans la mise en œuvre de cette protection."
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

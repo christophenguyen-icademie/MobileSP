@@ -1,0 +1,213 @@
+{
+  "nom": "07PR02",
+  "titre": "Plaie",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Traumatismes",
+  "chapitres": [
+    {
+      "titre": "Face à une urgence ou une détresse vitale, ou en cas d’aggravation",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "appliquer la conduite à tenir adaptée et réaliser en priorité les gestes d’urgence qui s’imposent ;"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "En présence d’une plaie grave",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "ne jamais retirer le corps étranger pénétrant (couteau, morceau de verre, etc.) 1 ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "installer la victime en position d'attente, confortablement 2 et sans délai :"
+            },
+            {
+              "niveau": 2,
+              "texte": "assise 3 en laissant la plaie à l’air libre en présence d'une plaie au thorax ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "allongée 4 , jambes fléchies 5 en présence d'une plaie de l'abdomen ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "allongée, yeux fermés 6 en demandant de ne pas bouger la tête en présence d'une plaie à l'œil ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "allongée 7 dans tous les autres cas."
+            },
+            {
+              "niveau": 1,
+              "texte": "à l’exception des plaies du thorax , protéger la plaie par un pansement ou un champ stérile humidifié 8 ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "protéger la victime contre le froid, la chaleur ou les intempéries ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "poursuivre le bilan et surveiller attentivement son état du fait d’un risque d’aggravation brutale."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "En présence d’une plaie simple",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "se laver les mains avec de l’eau et du savon ou utiliser une solution hydroalcoolique ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "se protéger par le port de gants ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "nettoyer la plaie :"
+            },
+            {
+              "niveau": 2,
+              "texte": "avec de l’eau courante (propre) ou en bouteille, à défaut avec du sérum physiologique ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "utiliser du savon si la plaie est souillée ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "s’aider si besoin d’une compresse pour enlever les souillures."
+            },
+            {
+              "niveau": 1,
+              "texte": "sécher la zone autour de la plaie et la protéger par un pansement ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "conseiller à la victime de consulter un médecin si :"
+            },
+            {
+              "niveau": 2,
+              "texte": "elle n’est pas à jour de sa vaccination antitétanique ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "la plaie devient chaude, rouge, si elle suinte, si elle gonfle ou si elle continue de faire mal dans les"
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "vingt-quatre heures."
+        }
+      ]
+    },
+    {
+      "titre": "En présence d’une plaie par injection de liquide sous pression",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "recueillir la nature du produit injecté et la valeur de la pression d’injection, si possible ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "demander un avis médical en transmettant le bilan."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "En présence d’un traumatisme dentaire 1",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "se laver les mains avec de l’eau et du savon ou utiliser une solution hydroalcoolique ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "se protéger par le port de gants ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "aider la personne à arrêter le saignement dans la bouche :"
+            },
+            {
+              "niveau": 2,
+              "texte": "demander à la victime de se rincer la bouche avec de l’eau, si possible froide ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "appliquer une compresse humide sur la zone qui saigne dans la bouche 2 ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "demander à la victime de mordre la compresse humide."
+            },
+            {
+              "niveau": 1,
+              "texte": "conditionner la dent tombée :"
+            },
+            {
+              "niveau": 2,
+              "texte": "la récupérer en la saisissant par la couronne et pas par la racine ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "la rincer 3 si elle est souillée pendant 10 secondes maximum ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "l’envelopper dans un film étirable alimentaire ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "à défaut, la conserver dans un petit récipient contenant 4 du lait de vache ou de la salive de la victime"
+            },
+            {
+              "niveau": 1,
+              "texte": "faire transporter la dent conditionnée avec la victime ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "indiquer à la victime de consulter immédiatement un chirurgien-dentiste."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "5 La flexion des jambes d’une victime préalablement allongée permet, par le relâchement des muscles de l’abdomen, de diminuer la douleur.",
+    "6 La fermeture des yeux et l’immobilité de la tête permettent de limiter les risques d’aggravation de la lésion de l’œil.",
+    "7 La position allongée permet de prévenir les détresses et d’éviter les complications.",
+    "8 Eau stérile ou sérum physiologique.",
+    "2 Ne pas le faire si la victime risque d’avaler la compresse (par exemple, un petit enfant, une personne agitée ou qui présente des troubles de la conscience).",
+    "3 Avec du sérum physiologique ou sous l’eau courante.",
+    "4 Il ne faut pas la conserver dans de l’eau du robinet ni dans du sérum physiologique."
+  ]
+}

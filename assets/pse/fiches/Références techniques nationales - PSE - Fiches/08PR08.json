@@ -1,0 +1,83 @@
+{
+  "nom": "08PR08",
+  "titre": "Gelures",
+  "niveaux": [],
+  "chapitre_principal": "Atteintes circonstancielles et environnementales",
+  "chapitres": [
+    {
+      "titre": "Introduction",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "soustraire la victime à la cause : isoler la victime dans un endroit chaud, à l’abri du vent (point chaud, refuge, habitation, véhicule, ambulance) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "prendre toutes les mesures pour éviter la survenue d’une hypothermie (prévention de l’hypothermie) ou appliquer la conduite à tenir devant une victime hypotherme et prendre en charge un traumatisme associé si nécessaire ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "enlever doucement les gants, bagues, chaussures, desserrer les élastiques ou les bandes auto- agrippantes des manches 1 … ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "ôter les vêtements de la victime, surtout s’ils sont mouillés ou humides ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "sécher la victime, mais ne pas frictionner les zones gelées 2 ; Si les gelures sont mineures, réchauffer les extrémités en les plaçant contre la peau du sauveteur (main, creux de l’aisselle) pendant 10 minutes."
+            },
+            {
+              "niveau": 1,
+              "texte": "transmettre le bilan pour avis et appliquer les consignes reçues ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "rhabiller la victime, si possible en utilisant des vêtements amples, secs et chauds (moufles, chaussons) ou en enveloppant la victime dans une couverture ; Si la sensibilité est récupérée et en situation d’isolement complet, on peut envisager, après avoir rhabillé la victime, de lui permettre de marcher. Dans le cas contraire, il est indispensable de rejoindre l’abri le plus proche et d’attendre un avis ou une intervention médicale ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "à de très hautes altitudes (> 4000 m), administrer à la victime de l’oxygène en inhalation en complément."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Il ne faut en aucune manière essayer de réchauffer une gelure s’il existe le moindre risque d’une nouvelle exposition au froid de la partie atteinte ou si l’on est à proximité d’un centre médical ou d’une prise en charge médicale. En l’absence de risque de réexposition au froid et si la prise en charge médicalisée ne peut être rapidement effectuée, il est possible, si le matériel est disponible, d’effectuer un réchauffement des gelures sévères et graves de moins de 24 heures en immergeant les parties atteintes dans l’eau tempérée entre 37 °C et 39 °C durant vingt à trente minutes, ou jusqu’à ce que la zone atteinte prenne une couleur rouge ou pourpre et souple au toucher. En l’absence de récipient d’eau, des systèmes de chauffage liquide (sachets) peuvent être utilisés, à condition de ne pas les poser directement sur la gelure, mais d’interposer une épaisseur de tissu afin que la température ne soit pas supérieure à 39 °C. Toutes températures supérieures à 39 °C ou l’utilisation d’une chaleur sèche sont à proscrire, car elles aggravent les lésions et peuvent créer des brûlures. Lors du réchauffement, les extrémités peuvent se recolorer, devenir rouges ou pourpres, douloureuses et souples au toucher. Cela signe la disparition de la vasoconstriction. Des cloques peuvent apparaître. Dans ce cas :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "recouvrir les lésions d'un pansement de gaze stérile et de gaze placée entre les doigts ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "ne pas toucher aux cloques ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "éviter tout nouveau refroidissement ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "permettre à la victime de recevoir des soins médicaux."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "L’administration préventive ou curative de médicaments pour lutter contre la gelure n’est pas nécessaire."
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "1 Bagues, bracelets, montres… doivent être retirés, car ils sont susceptibles d’interrompre la circulation sanguine par « effet garrot ».",
+    "2 Le fait de sécher la victime permet de prévenir l'hypothermie."
+  ]
+}

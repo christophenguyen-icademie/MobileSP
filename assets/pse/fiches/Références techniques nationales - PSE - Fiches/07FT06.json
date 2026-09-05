@@ -1,0 +1,171 @@
+{
+  "nom": "07FT06",
+  "titre": "Immobilisation d’un membre supérieur au moyen d’écharpes",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Traumatismes",
+  "chapitres": [
+    {
+      "titre": "Indication",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Une immobilisation du membre supérieur au moyen d’écharpes est nécessaire chaque fois qu’une victime doit être mobilisée et que des moyens plus appropriés (attelle modulable ou attelle à dépression) ne sont pas disponibles."
+        }
+      ]
+    },
+    {
+      "titre": "Justification",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Une immobilisation qui bloque les articulations au-dessus et au-dessous du traumatisme limite les mouvements, diminue la douleur et prévient la survenue de complications."
+        }
+      ]
+    },
+    {
+      "titre": "Matériel",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Une écharpe triangulaire peut être constituée avec un triangle de tissu non extensible (coton, toile, papier non-tissé) dont la longueur au niveau de la base est de 1,2 m au minimum. Par convention, la pointe située à l’opposé de la base est appelée « sommet » ; les deux autres pointes peuvent être dénommées chefs ."
+        }
+      ]
+    },
+    {
+      "titre": "Traumatisme de la main, du poignet et de l’avant-bras",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’immobilisation est réalisée par une écharpe simple . Pour cela :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "engager une des pointes du triangle entre le coude et le thorax et la faire passer sur l’épaule du côté blessé ; Il faut que le sommet du triangle se trouve du côté du coude et que la base soit perpendiculaire à l’avant- bras à immobiliser."
+            },
+            {
+              "niveau": 1,
+              "texte": "ajuster et déplisser le triangle jusqu’à la base des doigts ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "rabattre la seconde pointe sur l’avant-bras et la faire passer sur l’épaule opposée au membre blessé ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "fixer l’écharpe en nouant les deux pointes sur le côté du cou ; La main doit être placée légèrement au-dessus du niveau du coude."
+            },
+            {
+              "niveau": 1,
+              "texte": "fixer au niveau du coude en tortillant la partie libre de la pointe ou la fixer avec un ruban adhésif."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Traumatisme du bras",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’immobilisation est réalisée par une écharpe simple et une contre-écharpe . Pour cela :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "soutenir l’avant-bras avec une écharpe simple ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "placer la base du deuxième triangle ( contre-écharpe ) au niveau de l’épaule du membre blessé, sommet vers le coude ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "amener les deux pointes sous l’aisselle opposée en enveloppant le thorax de la victime ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "fixer la contre-écharpe au moyen d’un nœud situé en avant de l’aisselle opposée ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "torsader le sommet pour maintenir le bras blessé plaqué contre le thorax."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Traumatisme de l’épaule (clavicule, omoplate)",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’immobilisation est réalisée par une écharpe oblique . Pour cela :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "glisser la base du triangle sous l’avant-bras, sommet vers le coude ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "nouer les chefs sur l’épaule opposée en englobant le thorax ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "Les doigts doivent rester visibles."
+            },
+            {
+              "niveau": 1,
+              "texte": "rabattre le sommet sur le coude en avant et le fixer avec un ruban adhésif."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Si le traumatisme de l’épaule provoque une déformation importante (bras écarté du corps), placer un rembourrage (tissu roulé) entre le bras et le tronc pour respecter la déformation et éviter toute mobilisation de l’articulation. Ne jamais tenter de rapprocher le coude du corps."
+        }
+      ]
+    },
+    {
+      "titre": "Risques & Contraintes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La réalisation d’une immobilisation, même provisoire, d’un membre traumatisé, peut provoquer une mobilisation de celui-ci et entraîner douleur et complications."
+        }
+      ]
+    },
+    {
+      "titre": "Évaluation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’immobilisation est correcte si :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "le membre est maintenu ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "la douleur diminue."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

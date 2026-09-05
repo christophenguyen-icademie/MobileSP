@@ -1,0 +1,71 @@
+{
+  "nom": "08PR14",
+  "titre": "Victimes d’explosion",
+  "niveaux": [],
+  "chapitre_principal": "Atteintes circonstancielles et environnementales",
+  "chapitres": [
+    {
+      "titre": "Introduction",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "garantir la sécurité des lieux et des intervenants."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "En présence de nombreuses victimes",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "regrouper les victimes en un point ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "appliquer la conduite à tenir adaptée."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "En présence d’un nombre restreint de victimes",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "demander des moyens de secours spécialisés, si nécessaire ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "réaliser chaque regard ainsi que les gestes de secours adaptés ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "transmettre le bilan, systématique pour toute personne exposée à l’effet de souffle, et appliquer les consignes reçues ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "surveiller attentivement la (les) victime(s)."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "NB : Les protections respiratoires dont peuvent être dotés les services de secours publics ne protègent pas du risque respiratoire lié à l'explosion."
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

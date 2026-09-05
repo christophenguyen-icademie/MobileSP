@@ -1,0 +1,236 @@
+{
+  "nom": "05FT01",
+  "titre": "Administration d’oxygène par inhalation",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Urgences vitales",
+  "chapitres": [
+    {
+      "titre": "Indication",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’inhalation d’oxygène est un enrichissement en oxygène de l’air inspiré par une victime qui respire (fréquence respiratoire > 6 mouvements par minute). L’inhalation d’oxygène est nécessaire chez toute victime qui présente :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "une détresse respiratoire ou circulatoire ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "une intoxication aux fumées d’incendie ou au monoxyde de carbone ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "un accident lié à la plongée ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "une mesure de la SpO qui indique une valeur < 94 % ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "une mesure de la SpO qui indique une valeur < 89 % chez l’insuffisant respiratoire chronique avec ou sans oxygène à domicile ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "une crise douloureuse chez une victime qui présente des antécédents de drépanocytose."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Si les circonstances ne permettent pas de prendre la mesure de la SpO (extrémités froides, panne de l’appareil, etc.), l’inhalation d’oxygène est systématique si la victime présente une détresse vitale, dans l’attente d’un avis médical."
+        }
+      ]
+    },
+    {
+      "titre": "Justification",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’inhalation d’oxygène a pour objet d’augmenter la quantité d’oxygène, notamment au niveau du cerveau."
+        }
+      ]
+    },
+    {
+      "titre": "Matériel",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Un appareil de mesure de la SpO2 doit toujours être à disposition du secouriste chaque fois qu’il a les moyens d’administrer de l’oxygène."
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "bouteille d’oxygène ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "appareil de mesure de la SpO2 ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "dispositif d’administration d’oxygène par inhalation. Il existe plusieurs dispositifs qui permettent d’administrer de l’oxygène en inhalation :"
+            },
+            {
+              "niveau": 2,
+              "texte": "masque à inhalation à « haute concentration » (MHC) 1 ;"
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "La concentration en oxygène de l’air qui est délivré est variable en fonction de la forme du masque et de la qualité de la ventilation de la victime. Le MHC est muni d’un réservoir d’oxygène situé au-dessous d’une valve antiretour qui empêche la victime de rejeter l’air expiré dans ce réservoir. Il existe des modèles « adultes » et des modèles « enfants ». Le MHC doit être utilisé pour toute administration d’O qui nécessite de fortes concentrations, c’est- à-dire pour maintenir une SpO entre 94 et 98 %. Il ne doit pas être utilisé en dessous de 6 l/min."
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 2,
+              "texte": "masque simple 2 ;"
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Il est encore appelé masque à moyenne concentration. La concentration d’oxygène administré aux victimes est variable et dépend plus particulièrement du débit en O et de la ventilation de la victime."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Un débit < 5 l/min peut entraîner une augmentation de la résistance à l’inspiration et il peut y avoir une mauvaise évacuation du CO contenu dans le masque. Cette mauvaise évacuation est à l’origine d’un phénomène de réinhalation de l’air expiré (re-breathing)."
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 2,
+              "texte": "lunettes à oxygène ;"
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Les lunettes à O sont en PVC, souple, non stérile et à usage unique. Elles possèdent : § une tubulure étoilée anti-écrasement, § un système de fixation qui passe derrière les oreilles de la victime et qui est en avant, de forme légèrement courbée, adapté à l’anatomie du visage, § un embout nasal fin et souple, § une languette flexible qui permet de stabiliser la lunette sur la lèvre supérieure de la victime. L’utilisation des lunettes à O par le secouriste est adaptée pour des victimes qui nécessitent une administration d’O à des concentrations basses ou modérées. Elle est plus particulièrement indiquée pour l’aggravation d’une insuffisance respiratoire chronique afin de maintenir une SpO entre 89 et 94 %. Son utilisation doit faire l’objet si possible d’un avis médical."
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 2,
+              "texte": "masque pour laryngectomisé."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Le masque pour laryngectomisé permet l’administration d’O par un tube de trachéotomie ou pour les victimes qui ont eu une laryngectomie (la victime respire habituellement par un orifice situé à la base du cou). Le débit d’oxygène doit être adapté à la saturation que l’on désire obtenir. L’administration d’O par cette voie doit être limitée dans le temps, car une humidification de l’air est nécessaire. Lors de l’administration d’O chez une victime laryngectomisée, il est souvent nécessaire de réaliser une aspiration des sécrétions présentes pour améliorer la liberté des voies aériennes. Le masque à valves Venturi est un autre moyen d’administration d’oxygène, mais il n’est pas adapté à la prise en charge des victimes par le secouriste. Les dispositifs d’inhalation mis à disposition du secouriste relèvent de son autorité médicale d’emploi. Les insufflateurs manuels équipés ou non de ballon-réserve ne doivent pas être utilisés comme moyen d’inhalation , car ils augmentent la résistance à l’inspiration et peuvent aggraver une détresse respiratoire, particulièrement chez l’enfant."
+        }
+      ]
+    },
+    {
+      "titre": "Réalisation",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "ouvrir la bouteille d’oxygène ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "relier le tuyau d’oxygène du masque au dispositif de sortie d’oxygène de la bouteille ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "chez une victime en détresse vitale, toujours utiliser d’emblée le MHC ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "régler le débit initial ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "En cas d’utilisation d’un MHC, remplir le ballon réserve en obturant la valve du masque avec les doigts."
+            },
+            {
+              "niveau": 1,
+              "texte": "mettre le dispositif d’administration d’O en place ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "ajuster le débit d’oxygène en fonction des objectifs de saturation visés ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "assurer la surveillance de la victime."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Cas particuliers",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "intoxication aux fumées d’incendie, intoxication au monoxyde de carbone, accident de décompression :"
+            },
+            {
+              "niveau": 2,
+              "texte": "inhalation d’O avec un MHC et à un débit de 15 l/min, quel que soit le niveau de SpO ."
+            },
+            {
+              "niveau": 1,
+              "texte": "victime en détresse, lorsque la mesure de la SpO est impossible (absence de pouls périphérique lors d’une détresse circulatoire ou en cas d’hypothermie) :"
+            },
+            {
+              "niveau": 2,
+              "texte": "inhalation d’O avec un MHC et à un débit de 15 l/min quels que soient les antécédents de la victime dans l’attente d’un avis médical. Tableau 11: Débits d’oxygène en fonction du dispositif d’inhalation d’O² MHC M ASQUE SIMPLE L UNETTES A O ( ) ( ) 2"
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "P LAGES DE DEBIT D ’ UTILISATION 15 à 9 l/min 9 à 6 l/min 6 à 1 l/min 2 l/min ou D EBIT INITIAL 15 l/min 9 l/min 1 ou 2 l/min de plus que son débit habituel Tableau 12: Objectifs de saturation SpO de 94 à 98 % chez l’adulte, l’enfant et le nourrisson SpO de 89 à 94 % chez l’insuffisant respiratoire chronique"
+        }
+      ]
+    },
+    {
+      "titre": "Risques & Contraintes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’administration d’oxygène peut être dangereuse chez la victime qui présente une insuffisance respiratoire chronique avancée. De même, l’hyperoxie peut être néfaste chez la victime qui présente un AVC ou une maladie cardiaque alors que le taux d’oxygène dans le sang est normal. Au total, il faut lutter contre l’hypoxie, sans entraîner une hyperoxie . Pour cela, chaque fois que possible, il faut adapter l’administration d’oxygène à la mesure de la SpO tout en respectant les indications et contre-indications de cette administration."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "L’administration d’oxygène à l’aide de lunettes sans humidification peut entraîner une irritation nasale pour des débits > 4 l/min."
+        }
+      ]
+    },
+    {
+      "titre": "Évaluation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Un enrichissement en oxygène de l’air inspiré par la victime vise à obtenir une amélioration de l’état de la victime et à atteindre les objectifs de saturation attendus."
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "1 Le MHC délivre un air dont la concentration en O est comprise entre 60 et 90 % lorsque le débit d’admission est de 8 à 15 l/min.",
+    "2 Le MS délivre un air dont la concentration en O est comprise entre 40 et 60 % lorsque le débit d’admission est de 5 à 10 l/min."
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "nom": "04FT06",
+  "titre": "Libération des voies aériennes chez une victime assise",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Bilans",
+  "chapitres": [
+    {
+      "titre": "Indication",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Victime qui a perdu connaissance, en position assise, tête penchée en avant."
+        }
+      ]
+    },
+    {
+      "titre": "Justification",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Une victime ayant perdu connaissance en position assise (en particulier dans un véhicule) peut présenter des signes d’obstruction des voies aériennes. Si la tête est penchée en avant, la paroi postérieure du pharynx vient s’appliquer contre la base de la langue et empêche le libre passage de l’air. Cette technique est souvent suffisante pour rétablir la liberté des voies aériennes et contrôler sa respiration."
+        }
+      ]
+    },
+    {
+      "titre": "Matériel",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Aucun matériel."
+        }
+      ]
+    },
+    {
+      "titre": "Réalisation",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "se placer à côté de la tête de la victime en restant à l’extérieur du véhicule pour des raisons de sécurité (airbag ou autre) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "ouvrir la porte du véhicule ou passer les avant-bras par la fenêtre du véhicule ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "saisir la tête de la victime à deux mains :"
+            },
+            {
+              "niveau": 2,
+              "texte": "placer une main en arrière de la tête, juste au-dessus de la nuque,"
+            },
+            {
+              "niveau": 2,
+              "texte": "glisser l’autre main sous le menton de la victime."
+            },
+            {
+              "niveau": 1,
+              "texte": "ramener la tête en position neutre, dans l’axe du tronc, en exerçant une légère traction vers le haut ; Cette traction douce permet de délester le rachis cervical du poids de la tête de la victime."
+            },
+            {
+              "niveau": 1,
+              "texte": "apprécier la respiration de la victime ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "maintenir cette position jusqu’à la réalisation d’une stabilisation de la tête, si la victime respire."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Risques & Contraintes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La LVA doit être réalisée avec précaution pour éviter toute aggravation d’un traumatisme du rachis cervical."
+        }
+      ]
+    },
+    {
+      "titre": "Évaluation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La libération des voies aériennes est efficace si la respiration de la victime peut s’effectuer normalement"
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

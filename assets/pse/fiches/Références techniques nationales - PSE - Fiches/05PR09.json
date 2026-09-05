@@ -1,0 +1,82 @@
+{
+  "nom": "05PR09",
+  "titre": "Détresse circulatoire",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Urgences vitales",
+  "chapitres": [
+    {
+      "titre": "Face à une urgence vitale, ou en cas d’aggravation",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "appliquer la conduite à tenir adaptée et réaliser en priorité les gestes d’urgence qui s’imposent ;"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "La victime est consciente 1",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "allonger la victime en position horizontale 2 ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "administrer de l’oxygène en inhalation :"
+            },
+            {
+              "niveau": 2,
+              "texte": "puis adapter cette administration à la valeur de la SpO ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "en l’absence de valeur de SpO , poursuivre l’administration jusqu’à obtenir un avis médical ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "la réchauffer , car l’hypothermie aggrave l’état de la victime ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "protéger la victime contre le froid, la chaleur ou les intempéries."
+            },
+            {
+              "niveau": 1,
+              "texte": "poursuivre le bilan et surveiller attentivement :"
+            },
+            {
+              "niveau": 2,
+              "texte": "son niveau de conscience,"
+            },
+            {
+              "niveau": 2,
+              "texte": "la fréquence cardiaque,"
+            },
+            {
+              "niveau": 2,
+              "texte": "la pression artérielle."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Le risque d’aggravation brutale avec arrêt cardiaque est majeur, notamment lors de toute mobilisation de la victime (relevage, brancardage)."
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "1 Après avoir traité une urgence vitale s’il y en avait une.",
+    "2 Le fait de placer en position horizontale une personne victime d’une hémorragie facilite la circulation sanguine, notamment au niveau du cerveau. La réalisation des gestes de secours est aussi facilitée et les conséquences de l’hémorragie sur les fonctions vitales sont retardées."
+  ]
+}

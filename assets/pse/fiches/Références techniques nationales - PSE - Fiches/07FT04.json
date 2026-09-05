@@ -1,0 +1,107 @@
+{
+  "nom": "07FT04",
+  "titre": "Conditionner une partie du corps amputée ou arrachée",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Traumatismes",
+  "chapitres": [
+    {
+      "titre": "Indication",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le lot spécialement conçu à cet effet est utilisé pour envelopper une partie du corps amputée ou arrachée et permettre son acheminement avec la victime vers l’hôpital."
+        }
+      ]
+    },
+    {
+      "titre": "Justification",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le froid permet de préserver une partie du corps amputée ou arrachée pendant la prise en charge et le transport du blessé, dans l’attente de sa réimplantation éventuelle."
+        }
+      ]
+    },
+    {
+      "titre": "Matériel",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Sacs ou récipients en plastique propres et étanches ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "Eau et glace."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Il existe des dispositifs commerciaux qui permettent de réaliser cette conservation et qui sont basés sur le même principe que la procédure décrite ci-dessous."
+        }
+      ]
+    },
+    {
+      "titre": "Réalisation",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Récupérez la partie du corps aussi rapidement que possible et conservez-la au frais sans la congeler."
+            },
+            {
+              "niveau": 1,
+              "texte": "Enveloppez la partie dans un pansement stérile ou un tissu propre humidifié avec une solution saline ou de l'eau."
+            },
+            {
+              "niveau": 2,
+              "texte": "Placez la partie enveloppée dans un sac ou un récipient en plastique propre et étanche."
+            },
+            {
+              "niveau": 2,
+              "texte": "Placez le sac ou le récipient contenant la partie du corps dans un autre sac contenant de la glace ou de l'eau glacée. Si vous ne disposez pas de glace, vous pouvez utiliser une glacière avec des accumulateurs de froid instantanés."
+            },
+            {
+              "niveau": 1,
+              "texte": "Maintenez la partie du corps au frais en permanence. Évitez tout contact direct avec la glace ou l’accumulateur de froid."
+            },
+            {
+              "niveau": 1,
+              "texte": "Indiquez sur le récipient le nom de la personne et l'heure à laquelle la partie du corps a été conservée."
+            },
+            {
+              "niveau": 1,
+              "texte": "Transportez la partie du corps avec la personne blessée vers le même hôpital le plus rapidement possible."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Risques & Contraintes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le contact direct entre la partie du corps amputée ou arrachée et la source de froid serait responsable de gelures qui peuvent compromettre la réussite de sa réimplantation."
+        }
+      ]
+    },
+    {
+      "titre": "Évaluation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La partie du corps amputée ou arrachée est correctement conditionné pour le transport et n’est pas en contact direct avec la source de froid."
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

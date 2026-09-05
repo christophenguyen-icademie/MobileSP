@@ -1,0 +1,77 @@
+{
+  "nom": "03PR03",
+  "titre": "Précautions particulières contre le risque infectieux",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Hygiène et asepsie",
+  "chapitres": [
+    {
+      "titre": "Introduction",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Les précautions particulières sont complémentaires aux précautions standards . Elles sont mises en œuvre en fonction du niveau de risque ou sur consignes des autorités d’emploi."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Ces précautions particulières peuvent imposer de :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "porter des gants à usage unique non stériles dès l’entrée dans la pièce ou le véhicule dans lequel se situe la victime ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "se laver les mains avant de sortir de la pièce ou du véhicule dans lequel se situe la victime ; Il convient alors de ne plus toucher l’environnement de la victime après avoir ôté les gants et s’être lavé les mains."
+            },
+            {
+              "niveau": 1,
+              "texte": "porter :"
+            },
+            {
+              "niveau": 2,
+              "texte": "pour les intervenants : § un masque de protection classé FFP2, avant d’entrer dans la pièce où se situe la victime, § une surblouse et une protection des cheveux (charlotte), en cas de contact avec la victime ou avec des surfaces ou matériels pouvant être contaminés."
+            },
+            {
+              "niveau": 2,
+              "texte": "pour la victime : § un masque de type chirurgical ou un masque de protection respiratoire (sans soupape d’expiration) 1 ."
+            },
+            {
+              "niveau": 1,
+              "texte": "utiliser au maximum du matériel à usage unique ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "limiter les déplacements de la victime ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "isoler la victime dans une pièce particulière lors de sa prise en charge ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "envelopper la victime dans un drap à usage unique ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "nettoyer et désinfecter le véhicule et le matériel dès la fin du transport ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "transporter individuellement chaque victime."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "1 Le port d’un masque par la victime évite ou limite la dissémination des particules infectieuses."
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

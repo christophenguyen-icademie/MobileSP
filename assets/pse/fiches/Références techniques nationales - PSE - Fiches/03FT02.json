@@ -1,0 +1,131 @@
+{
+  "nom": "03FT02",
+  "titre": "Lavage des mains",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Hygiène et asepsie",
+  "chapitres": [
+    {
+      "titre": "Indication",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Cette technique doit être réalisée :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "en début et fin de journée, à la prise et à la sortie du service ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "systématiquement avant un soin et entre deux victimes ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "avant ou après un geste de la vie courante (après s’être mouché, avant de manger, après avoir été aux toilettes) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "au retrait des gants ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "en présence de poudre sur les mains ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "chaque fois que les mains sont visiblement souillées."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Justification",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le lavage simple des mains élimine les souillures, réduit la flore transitoire (bactéries, virus, champignons) et diminue le risque de transmission de maladies."
+        }
+      ]
+    },
+    {
+      "titre": "Matériel",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "eau du robinet, à défaut : eau en bouteille ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "savon neutre liquide ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "poubelle à pédale ou sans couvercle équipée d’un sac jetable ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "distributeur d’essuie-mains à usage unique (en papier ou en non-tissé)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Réalisation",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "mouiller les mains ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "prendre une dose de savon liquide ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "savonner pendant 30 secondes en insistant sur la pulpe des doigts, les espaces interdigitaux, le pourtour des ongles, les bords externes des mains, mais aussi le dos des mains, les paumes et les poignets ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "rincer abondamment sous l’eau, ne pas toucher au robinet ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "sécher par tamponnement avec des essuie-mains à usage unique ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "utiliser le dernier essuie-mains pour fermer le robinet ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "jeter l’essuie-mains dans une poubelle sans la toucher avec les mains."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Évaluation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Les mains sont visuellement propres et les ongles n’ont pas de dépôts sombres. Il n’existe plus de traces du savon de lavage. Les mains et les avant-bras sont secs."
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

@@ -1,0 +1,179 @@
+{
+  "nom": "07AC08",
+  "titre": "Traumatisme du dos et du cou",
+  "niveaux": [
+    "PSE 2"
+  ],
+  "chapitre_principal": "Traumatismes",
+  "chapitres": [
+    {
+      "titre": "Définition",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Il s’agit de lésions à type d’entorse, de fracture, de luxation ou de tassement qui peuvent siéger à n’importe quel niveau de la colonne vertébrale."
+        }
+      ]
+    },
+    {
+      "titre": "Causes & Mécanisme",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Une atteinte de la colonne vertébrale survient lors d’un choc direct sur la colonne vertébrale ou d’un traumatisme indirect survenant à distance de celle-ci comme :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "un choc direct au niveau du cou ou du dos ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "un choc indirect :"
+            },
+            {
+              "niveau": 2,
+              "texte": "une chute sur la tête (plongeon en eau profonde),"
+            },
+            {
+              "niveau": 2,
+              "texte": "une chute de grande hauteur avec réception sur les talons ou sur les fesses,"
+            },
+            {
+              "niveau": 2,
+              "texte": "un mouvement brusque de flexion extension du rachis cervical 1 ("
+            },
+            {
+              "niveau": 2,
+              "texte": "une chute de sa hauteur chez la personne âgée ou la personne qui présente des antécédents de traumatisme du rachis ou de maladie vertébrale."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Risques & Conséquences",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La gravité d’un traumatisme de la colonne vertébrale est due à la possible atteinte de la moelle épinière qui peut être :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "comprimée par la (les) vertèbre(s) fracturée(s) ou luxée(s), par un œdème ou un hématome ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "sectionnée en entraînant des lésions irréversibles."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Environ 15 % des personnes qui présentent un traumatisme vertébral, qu’il s’agisse d’une fracture ou d’une luxation ont une lésion médullaire. La majorité des victimes qui présentent un traumatisme médullaire ont aussi un traumatisme vertébral."
+        }
+      ]
+    },
+    {
+      "titre": "Signes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’expression du mécanisme : un traumatisme parfois violent, direct au niveau du dos ou du cou (coup, choc) ou indirect (flexion extension brusque). Lors des différents bilans , est considéré comme ayant une lésion du rachis, toute victime :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "dont les réponses sont qualifiées de non fiables 2 ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "présentant des signes d’atteinte du rachis 3 ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "présentant des signes d’atteinte de la moelle épinière 4 ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "suite à un traumatisme évocateur d’accident à haut risque de lésion du rachis 5 ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "âgée de 65 ans et plus, ou ayant des antécédents à risque 6 ."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Définitions",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "la stabilisation du rachis se définit comme un procédé physique de maintien de la colonne vertébrale en position neutre avant la mise en place d’un dispositif de restriction ou d’immobilisation du rachis (maintien à deux mains de la tête de la victime dans la position en lui demandant de ne pas bouger) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "la restriction des mouvements du rachis cervical se définit comme la limitation ou la réduction des mouvements du rachis cervical en utilisant un dispositif cervical comme les colliers cervicaux, ou des blocs de tête ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "l’immobilisation de la colonne vertébrale (corps entier) se définit comme le procédé qui permet de limiter tout mouvement de la colonne vertébrale en utilisant une combinaison de moyens (ex. : blocs de tête, collier cervical, plan dur, matelas immobilisateur à dépression)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Principe de l’action de secours",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "ne pas mobiliser la victime, en dehors :"
+            },
+            {
+              "niveau": 2,
+              "texte": "d’un dégagement d’urgence, si nécessaire,"
+            },
+            {
+              "niveau": 2,
+              "texte": "de sa mise en position latérale de sécurité, si elle a perdu connaissance,"
+            },
+            {
+              "niveau": 2,
+              "texte": "de son immobilisation."
+            },
+            {
+              "niveau": 1,
+              "texte": "stabiliser, restreindre les mouvements puis immobiliser la tête, le cou et le tronc de la victime qui est suspecte d’une lésion du rachis afin de limiter les risques d’aggravation lors de son relevage et de son transport."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Buts : ne pas aggraver une lésion instable de la colonne vertébrale qui menace la moelle épinière et éviter toute immobilisation excessive qui pourrait entraîner des effets secondaires et des complications graves."
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "3 Confère les signes de l’encadré B dans la conduite à tenir.",
+    "4 Confère les signes de l’encadré C dans la conduite à tenir.",
+    "5 Confère les signes de l’encadré D dans la conduite à tenir.",
+    "6 Confère les signes de l’encadré E dans la conduite à tenir."
+  ]
+}

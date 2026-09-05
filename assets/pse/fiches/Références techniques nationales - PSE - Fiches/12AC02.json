@@ -1,0 +1,165 @@
+{
+  "nom": "12AC02",
+  "titre": "Alerte",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Divers",
+  "chapitres": [
+    {
+      "titre": "Présentation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’alerte est l’action qui consiste à informer un service d’urgence de la présence d’une ou plusieurs victimes affectées par une ou plusieurs détresses ainsi que de la nature de l’assistance qui leur est apportée."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "L’absence d’information d’un service d’urgence peut compromettre la vie ou la santé d’une victime malgré les gestes de premiers secours assurés par un sauveteur. Le rôle du sauveteur dans l’alerte est donc essentiel."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "L’alerte doit être transmise, par le sauveteur ou un témoin, par les moyens disponibles les plus appropriés. Elle doit être rapide et précise afin de diminuer au maximum les délais de mise en œuvre de la chaîne de secours et de soins."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "L’alerte doit être réalisée, après une évaluation rapide de la situation, des risques et une éventuelle mise en sécurité des personnes, auprès d’un numéro d’urgence gratuit :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "le 18, numéro d’appel des sapeurs-pompiers, en charge notamment des secours d’urgence aux personnes, lors d’accidents divers, incendies ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "le 15, numéro d’appel des SAMU, en charge de la réponse médicale, des problèmes urgents de santé et du conseil médical ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "le 112, numéro de téléphone réservé aux appels d’urgence et valide dans l’ensemble de l’Union Européenne ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "le 114, numéro d’urgence unique, national et gratuit, accessible en visio, tchat, images et SMS, en lien direct avec le service d’urgence de proximité. Ce service est réservé aux personne sourdes, sourdaveugles, malentendantes et aphasiques. Il peut aussi être utilisé pour les personnes qui souhaitent alerter les secours dans le cadre de violences intrafamiliales et qui ne peuvent pas parler à voix haute."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Les secours peuvent conserver l’appelant au téléphone pour le conseiller ou le guider dans l’exécution de gestes, jusqu’à leur arrivée."
+        }
+      ]
+    },
+    {
+      "titre": "Conduite à tenir",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Contacter un service d’urgence à l’aide d’un téléphone portable ou à défaut d’un téléphone fixe ou d’une borne d’appel 1 :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "transmettre les informations ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "répondre aux questions posées par les services de secours ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "appliquer les consignes données ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "raccrocher, sur les instructions de l’opérateur."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Les informations minimales à transmettre sont :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "le numéro de téléphone ou de la borne à partir duquel l’appel est passé ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "la nature du problème : maladie, accident, attaque terroriste, etc. ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "en cas de situation à multiples victimes, préciser le nombre de victimes ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "la localisation la plus précise possible de l’évènement."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "lorsque le sauveteur demande à une autre personne de donner l’alerte, il convient :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "avant l’alerte, de s’assurer qu’elle possède tous les éléments ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "après l’alerte, de vérifier qu’elle a correctement exécuté l’action."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Si possible, envoyer une personne pour accueillir les secours et organiser leur accès sur le lieu de l’accident, au plus près de la victime."
+        }
+      ]
+    },
+    {
+      "titre": "Cas particulier",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La victime présente des manifestations qui peuvent faire évoquer une maladie infectieuse respiratoire (grippe, covid-19, etc.) :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "si la victime présente des signes comme de la toux et de la fièvre ou tout autre symptôme grippal sans signe de détresse vitale, demander à la victime ou à son entourage :"
+            },
+            {
+              "niveau": 2,
+              "texte": "d’appeler son médecin traitant. Ce dernier pourra éventuellement réaliser une téléconsultation ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "de respecter les mesures barrières et de distanciation physique."
+            },
+            {
+              "niveau": 1,
+              "texte": "si la victime a du mal à respirer au repos ou à l’effort ou présente les signes d’une urgence vitale, appeler un numéro d’urgence."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "1 Borne orange sur le bord des routes et autoroutes"
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "nom": "08PR10",
+  "titre": "Intoxication en environnement toxique",
+  "niveaux": [
+    "PSE 2"
+  ],
+  "chapitre_principal": "Atteintes circonstancielles et environnementales",
+  "chapitres": [
+    {
+      "titre": "Introduction",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "se protéger du toxique :"
+            },
+            {
+              "niveau": 2,
+              "texte": "en restant à distance ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "si nécessaire en supprimant la cause ou en aérant le local ."
+            },
+            {
+              "niveau": 1,
+              "texte": "soustraire la victime, le plus rapidement possible, de l’environnement toxique."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "En présence de nombreuses victimes",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "appliquer la conduite à tenir adaptée."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "En présence d’un nombre restreint de victimes",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "placer les victimes à distance de l’atmosphère toxique ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "demander des moyens de secours spécialisés, si nécessaire ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "réaliser chaque regard ainsi que les gestes de secours adaptés ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "l’ensemble de ces actions est réalisé à distance de l’atmosphère toxique."
+            },
+            {
+              "niveau": 1,
+              "texte": "transmettre le bilan et appliquer les consignes reçues."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

@@ -1,0 +1,210 @@
+{
+  "nom": "06AC03",
+  "titre": "Accident vasculaire cérébral",
+  "niveaux": [
+    "PSE 2"
+  ],
+  "chapitre_principal": "Malaises et affections spécifiques",
+  "chapitres": [
+    {
+      "titre": "Définition",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’accident vasculaire cérébral (AVC), parfois appelé attaque cérébrale, est un déficit neurologique soudain d’origine vasculaire (la circulation sanguine d’une partie du cerveau est interrompue). Le terme « accident » est utilisé pour souligner l’aspect soudain, voire brutal, d’apparition des signes ou des manifestations, bien qu’en fait ce soit effectivement une maladie dont les causes sont de nature interne."
+        }
+      ]
+    },
+    {
+      "titre": "Causes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’AVC peut être causé par :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "une obstruction d’une artère cérébrale (infarctus cérébral) par un spasme d’une artère, une plaque d’athérome (thrombose cérébrale) ou un caillot de sang venu obstruer l’artère (embolie cérébrale) ; Cette cause est la plus fréquente (85 %) et peut bénéficier de nouveaux traitements très efficaces s’ils sont administrés précocement (2 à 3 heures après le début des signes)."
+            },
+            {
+              "niveau": 1,
+              "texte": "une hémorragie cérébrale due le plus souvent à la rupture d’un vaisseau sanguin (victime hypertendue) ou d’une malformation vasculaire (anévrisme par exemple). Les tumeurs et divers troubles de la coagulation peuvent eux aussi entraîner une hémorragie cérébrale."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "On parle d’accident ischémique transitoire (AIT) lorsque l’obstruction de l’artère cérébrale se résorbe d’elle- même spontanément avec une disparition plus ou moins rapide des signes en fonction de la durée de l’obstruction. Les signes sont les mêmes que l’AVC, mais ils durent de quelques secondes à quelques minutes, jamais plus d’une heure, avant le retour à la normale."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "L’AIT peut passer inaperçu et être confondu avec un simple malaise. L’AIT est un signe d’alarme, peut annoncer la survenue d’un AVC constitué et présente les mêmes risques."
+        }
+      ]
+    },
+    {
+      "titre": "Risques & Conséquences",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L'AVC entraîne une diminution voire un arrêt brutal d’une partie de la circulation sanguine cérébrale. Le trouble neurologique induit par l’AVC est fonction de la taille et de la localisation du vaisseau sanguin touché. L’interruption de la circulation entraîne une ischémie des cellules nerveuses et les privent soudainement d'oxygène et de sucre, ce qui provoque en quelques minutes leur détérioration puis leur mort. Dans le cas d’hémorragie, en plus de l’atteinte vasculaire, l’écoulement du sang (hématome) dans l’espace situé entre et autour des méninges et du cerveau comprime les cellules nerveuses et est responsable de signes neurologiques plus ou moins graves en fonction de l’importance de l’hémorragie. L'AVC est une maladie grave, aux conséquences toujours dramatiques avec un risque de décès ou de survenue de lourdes séquelles. L’AVC est la 1 ère cause de handicap chez l’adulte et la 3 ème cause de mortalité."
+        }
+      ]
+    },
+    {
+      "titre": "Signes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’AVC peut être évoqué au cours du 2ème regard, par la survenue le plus souvent brutalement :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "d’une perte de connaissance ou d’un trouble de la conscience ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "d’un déficit moteur touchant toute une moitié du corps (droit ou gauche)."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Au cours du 3ème ou 4ème regard, la victime consciente peut présenter un ou plusieurs des signes spécifiques suivants :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "une déformation de la bouche : la victime présente une asymétrie de la face qui est encore plus évidente si on lui demande de faire la grimace ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "une faiblesse ou un engourdissement d’un ou des deux côtés du corps : lorsqu’on demande à la victime de lever et d'étendre les deux bras et les mains devant elle, l’un des bras et/ou la main (ou les deux) ne peuvent être levés ou ne peuvent rester en position et retombent plus ou moins vite ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "une difficulté du langage ou de la compréhension : lorsqu’on demande à la victime de répéter une phrase, elle a des difficultés à parler ou à comprendre."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Ces trois signes doivent être systématiquement recherchés. Ils sont communément appelés FAST. Ils peuvent aussi être accompagnés :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "d’une diminution ou une perte de la vision d’un œil ou des deux ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "d’un mal de tête important, soudain et inhabituel, sans cause apparente ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "d’une perte de l’équilibre, d’une instabilité à la marche ou de la survenue de chutes inexpliquées."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Même si tous les signes sont passagers et résolutifs, ils doivent être scrupuleusement recherchés, car la gravité de l’affection et la conduite à tenir restent les mêmes. Devant ces signes, le secouriste recherchera ou fera préciser à l’interrogatoire de la victime ou de la famille :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "l’heure où les signes sont apparus et l’heure où la victime a été vue pour la dernière fois sans signes ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "l’existence de signes neurologiques identiques dans les 24 heures précédentes ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "des antécédents de crise convulsive ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "la présence de fièvre ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "l’état de validité de la victime : est-ce que la victime est habituellement autonome ou grabataire ? (fauteuil roulant ou alité) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "la présence de facteurs de risques :"
+            },
+            {
+              "niveau": 2,
+              "texte": "hypertension artérielle et maladie cardio-vasculaire,"
+            },
+            {
+              "niveau": 2,
+              "texte": "diabète ou hypercholestérolémie,"
+            },
+            {
+              "niveau": 2,
+              "texte": "obésité, tabagisme,"
+            },
+            {
+              "niveau": 2,
+              "texte": "un traitement anticoagulant."
+            },
+            {
+              "niveau": 1,
+              "texte": "des antécédents particuliers dont la connaissance est nécessaire à la prise en charge de la victime en secteur spécialisé :"
+            },
+            {
+              "niveau": 2,
+              "texte": "une chirurgie récente,"
+            },
+            {
+              "niveau": 2,
+              "texte": "si le malade est porteur d’un stimulateur cardiaque ou présente une contre-indication à la réalisation d'une IRM."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Au cours du 4ème regard, il est indispensable de réaliser une mesure de la glycémie capillaire. En effet, une hypoglycémie peut simuler un AVC et donner un ou plusieurs signes indiqués ci-dessus. Il est donc indispensable de rechercher et de corriger une hypoglycémie avant d’affirmer être en présence de signes d’AVC."
+        }
+      ]
+    },
+    {
+      "titre": "Principe de l’action de secours",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "demander un avis médical immédiat et respecter les consignes ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "installer la victime en position d’attente ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "surveiller la victime et réaliser les gestes de secours qui s’imposent."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

@@ -1,0 +1,69 @@
+{
+  "nom": "06PR05",
+  "titre": "Crise d’asthme",
+  "niveaux": [],
+  "chapitre_principal": "Malaises et affections spécifiques",
+  "chapitres": [
+    {
+      "titre": "Face à une urgence ou une détresse vitale, ou en cas d’aggravation",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "appliquer la conduite à tenir adaptée et réaliser en priorité les gestes d’urgence qui s’imposent ;"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "La victime est consciente et présente des signes d’une crise d’asthme",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "appliquer la conduite à tenir devant une victime qui présente un malaise ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "adapter le conduite à tenir avec :"
+            },
+            {
+              "niveau": 2,
+              "texte": "soustraire la victime aux facteurs qui pourraient avoir déclenché la crise 1 ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "administrer de l’oxygène en inhalation si nécessaire ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "poursuivre le bilan et surveiller attentivement sa respiration."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Transport",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "maintenir la victime dans la position initiale pendant son transport."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "1 Atmosphère enfumée, polluée, poussière."
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "nom": "03FT04",
+  "titre": "Retrait des gants à usage unique",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Hygiène et asepsie",
+  "chapitres": [
+    {
+      "titre": "Indication",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Cette technique doit être réalisée par le secouriste lors de chaque retrait des gants à usage unique :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "à la fin de chaque action de secours ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "chaque fois que les gants apparaissent souillés."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Justification",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Destinés à protéger le secouriste de germes dangereux, les gants à usage unique peuvent contaminer les mains du secouriste au moment de leur retrait ou contaminer une autre personne. La technique de retrait des gants à usage unique a donc pour but d’éviter cette contamination. Les gants retirés font partie des déchets d’activités de soins à risques infectieux (DASRI)."
+        }
+      ]
+    },
+    {
+      "titre": "Matériel",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "emballage à élimination de déchets d’activités de soins à risques infectieux (DASRI)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Réalisation",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "saisir un gant au niveau du poignet en évitant de toucher la peau ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "retirer le premier gant en le retournant ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "rouler le gant retiré dans la paume de l’autre main ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "insérer un ou deux doigts en crochet à l’intérieur de l’autre gant sans toucher la face externe du gant, et le pincer entre le pouce et l’index sur sa face interne ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "retirer le second gant en le retournant ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "jeter les gants dans un conteneur de déchets d’activités de soins prévu à cet effet."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Risques & Contraintes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Lors de leur retrait, le secouriste peut entrer en contact avec la face externe souillée des gants. Les gants, une fois ôtés, sont placés directement dans l’emballage à élimination de déchets."
+        }
+      ]
+    },
+    {
+      "titre": "Évaluation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Les mains nues n’ont pas touché les faces externes des gants. Les gants, une fois ôtés, sont placés directement dans l’emballage à élimination de déchets."
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

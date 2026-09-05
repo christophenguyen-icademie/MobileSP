@@ -1,0 +1,169 @@
+{
+  "nom": "06AC02",
+  "titre": "Douleur thoracique (non traumatique)",
+  "niveaux": [
+    "PSE 2"
+  ],
+  "chapitre_principal": "Malaises et affections spécifiques",
+  "chapitres": [
+    {
+      "titre": "Définition",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La douleur thoracique est un signe perçu par une victime qui apparaît de manière aiguë, au repos, ou au cours d’un effort, et siégeant au niveau du thorax."
+        }
+      ]
+    },
+    {
+      "titre": "Causes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Plusieurs causes dont certaines sont plus graves que d'autres peuvent engendrer des douleurs :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "au niveau du cœur, lors d’une occlusion d’une artère coronaire, ou lors d’une inflammation de l’enveloppe du cœur (péricarde) ou lors d’une fissuration de l’aorte ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "au niveau d’un poumon lors d’une infection, lors d’un décollement (pneumothorax) ou inflammation de l’enveloppe du poumon (plèvre) ou lors d’une occlusion d’une artère pulmonaire (embolie pulmonaire) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "au niveau du tube digestif lors du reflux de liquide gastrique dans l'œsophage ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "au niveau de la paroi thoracique (névralgie)."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Une crise d’angoisse peut aussi s’accompagner d’une douleur thoracique. Certaines de ces causes imposent une prise en charge spécifique et urgente dont notamment son orientation vers une filière de soins adaptés à la maladie."
+        }
+      ]
+    },
+    {
+      "titre": "Risques & Conséquences",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Certaines causes de douleurs thoraciques peuvent conduire à l’atteinte d’une fonction vitale :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "l’occlusion d’une artère coronaire conduit à un infarctus qui peut se compliquer d'un trouble du rythme cardiaque (fibrillation ventriculaire) et d'un arrêt cardiaque ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "la fissuration de l'aorte peut entraîner une hémorragie interne ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "l'occlusion d’une artère pulmonaire peut entraîner un arrêt cardiaque si elle est massive et touche un gros vaisseau ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "les atteintes d’un poumon peuvent évoluer vers une détresse respiratoire."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Signes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La douleur est au premier plan. Elle peut débuter spontanément au repos ou pendant ou après un effort. Elle peut aussi survenir dans des circonstances spécifiques et orienter vers une cause : descente d'avion, alitement prolongé, immobilisation avec plâtre, après un accouchement. Elle peut être accompagnée de signes de détresse détectés lors du 2ème regard qui traduisent la gravité de la situation. Au 4ème regard, l'analyse de la douleur peut elle aussi orienter vers une maladie. La douleur peut être « en étau » ou « en coup de poignard », comme une déchirure, un poids sur le thorax ou une brûlure ou augmenter avec les mouvements ventilatoires. Il appartient de préciser le siège de la douleur et son irradiation : douleur au centre de la poitrine ou latéralement ou dans le dos. Cette douleur peut s’étendre au cou, à la mâchoire, aux épaules, voire aux bras ou au creux de l'estomac. Sa sévérité est précisée grâce à l'échelle de douleur."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "L’évolution dans le temps est un élément précieux : installation brutale ou progressive, douleur continue ou intermittente. La durée de la douleur doit être précisée. D’autres signes peuvent accompagner la douleur, et être identifiés lors du 3ème regard, du 4ème regard ou lors de la surveillance de la victime. Ils témoignent de la gravité de la maladie comme :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "malaise avec pâleur et sueurs ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "nausées voire vomissements ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "signes de détresse vitale."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Lors de l’interrogatoire de la victime et de son entourage, il est possible d’apprendre que celle-ci :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "a déjà présenté un épisode similaire, a été hospitalisée ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "a déjà des antécédents cardio-vasculaires (angine de poitrine, infarctus) ou pulmonaires (embolie pulmonaire, phlébites) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "présente des facteurs de risques spécifiques comme : tabagisme, tabagisme avec contraceptifs oraux, obésité, diabète, hypertension, hypercholestérolémie ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "a des antécédents similaires chez les membres de sa famille."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Principe de l’action de secours",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "préserver les fonctions vitales ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "installer la victime dans la position la mieux tolérée ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "s’assurer qu’un défibrillateur est à proximité ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "demander un avis médical ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "aider la victime à prendre un traitement médicamenteux si nécessaire."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

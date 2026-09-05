@@ -1,0 +1,91 @@
+{
+  "nom": "10FT01",
+  "titre": "Aide à la marche",
+  "niveaux": [
+    "PSE 2"
+  ],
+  "chapitre_principal": "Relevage et brancardage",
+  "chapitres": [
+    {
+      "titre": "Indication",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Cette technique est indiquée pour aider un blessé léger, qui peut maintenir la station debout, à marcher sur quelques mètres."
+        }
+      ]
+    },
+    {
+      "titre": "Justification",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Cette technique permet de déplacer une victime qui peut temporairement garder la station debout vers une zone calme (bord du terrain) ou un abri pour la protéger de la pluie ou de toute autre intempérie."
+        }
+      ]
+    },
+    {
+      "titre": "Matériel",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Aucun matériel."
+        }
+      ]
+    },
+    {
+      "titre": "À un secouriste",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Cette technique est utilisée si la victime est capable de porter son propre poids et de se tenir debout sur ses deux jambes. Il convient :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "d’aider la victime à se mettre debout ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "passer le bras de la victime autour de son cou et le maintenir au niveau du poignet avec une main ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "passer son avant-bras derrière le dos de la victime et la maintenir en passant la main sous l’aisselle ou au niveau de la ceinture."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "À deux secouristes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Cette technique est utilisée si la victime a des difficultés pour se tenir debout seule. La technique est la même que celle à un secouriste, mais, dans ce cas, un secouriste se place de chaque côté de la victime."
+        }
+      ]
+    },
+    {
+      "titre": "Risques & Contraintes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le secouriste ne doit jamais utiliser une technique d’aide à la marche si la victime est suspecte d’un traumatisme de la colonne vertébrale ou des membres inférieurs."
+        }
+      ]
+    },
+    {
+      "titre": "Évaluation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le déplacement de la victime n’entraîne pas de désagrément pour celle-ci."
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

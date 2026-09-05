@@ -1,0 +1,128 @@
+{
+  "nom": "01PR01",
+  "titre": "L’abord relationnel en pratique",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Attitude et comportement",
+  "chapitres": [
+    {
+      "titre": "Introduction",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’abord relationnel vise à assurer une écoute et à établir le contact et le dialogue. Cette approche favorise souvent l’apaisement émotionnel et permet d’autre part de rechercher les éléments essentiels du bilan, avant d’engager les actions nécessaires."
+        }
+      ]
+    },
+    {
+      "titre": "Aborder la victime",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Il est recommandé de privilégier au sein de l’équipe un interlocuteur principal pour dialoguer avec la victime (de préférence, celui vers lequel elle se tournera le plus naturellement). N’en changer que si la communication n’est plus efficace."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Établir le contact : il est important, en dehors d’une situation d’urgence vitale, de prendre le temps de se présenter. Si on peut obtenir l’identité de la personne, il est possible de s’entretenir avec elle en la nommant et lui permettre ainsi de se sentir reconnue. Si l’emploi du prénom peut faciliter la relation, il ne sera employé qu’après avoir obtenu la permission de la personne concernée."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "« Mr X, je m’appelle Y, je suis secouriste » « Me permettez-vous de vous appeler par votre prénom ? » Expliquer les raisons de la présence et le but de l’intervention , si le contexte le permet."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "« Je suis là pour vous aider » « Rassurez-vous, je reste avec vous », « je vais vous accompagner tout au long de l’intervention » Instaurer le dialogue et une relation de confiance, en commençant par poser une question ouverte afin de permettre à la victime d’entamer la discussion et ainsi expliquer ce qu’elle vit :"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "« Pouvez-vous me dire ce qu’il se passe ? » « Comment allez-vous ? », « Comment puis-je vous aider ? »"
+        }
+      ]
+    },
+    {
+      "titre": "Prendre en charge de la victime",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Poser le cadre :"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "« L’intervention va se dérouler de la manière suivante : nous allons faire un bilan, ensuite nous ferons un point avec le médecin. À ce moment-là, nous verrons si nous vous transportons à l’hôpital pour une prise en charge plus approfondie »."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Informer et expliquer ce qui va être réalisé :"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "« Je vais poser ma main sur votre ventre pour évaluer votre respiration », « Je vais vous appliquer un masque avec de l’oxygène sur la bouche et le nez, il va vous aider à mieux respirer »."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Reconnaître la situation, le caractère déstabilisant de l’événement vécu :"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "« Vous vivez un événement stressant, bouleversant » « Je vous sens en colère » « Vous me semblez triste quand vous dites cela » (ou inquiet, etc.)."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Questionner la problématique repérée lorsque celle-ci n’est pas spontanément explicitée (suspicion de violence subie, intention suicidaire …)"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "« Avez-vous subi des violences ? », « Souffrez-vous au point de vouloir vous faire du mal ou mourir ? » …"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Reformuler, c’est-à-dire s’assurer que l’on a bien compris ce qu’elle a exprimé de manière verbale et non verbale (cf. « l’écoute active ») « Vous me dites que vous êtes seul, cela veut dire que vous ne voyez personne ? » « D’après ce que vous me dites (ce que je vois …, je comprends que…, il me semble que… est-ce que je vois juste ? »"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Favoriser l’alliance en impliquant la victime dans sa propre prise en charge :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "En sollicitant son accord et en lui adressant des paroles encourageantes et positives : « Voilà ce que je vous propose… qu’en pensez-vous ? » « Vous nous aidez beaucoup par votre calme »"
+            },
+            {
+              "niveau": 1,
+              "texte": "En lui demandant ce qui peut la soulager ou ce qui a marché la dernière fois qu’elle était dans cet état, si elle l’a déjà vécu, ce dont elle aurait besoin pour faire diminuer son inconfort : « De quoi auriez-vous besoin maintenant ? » « Vous est-il déjà arrivé de vivre une telle situation ? », « Comment avez-vous fait pour surmonter une telle situation ? »"
+            },
+            {
+              "niveau": 1,
+              "texte": "En lui demandant si elle souhaite appeler une personne qui représente pour elle un soutien : « Y a-t-il une personne que vous souhaiteriez contacter pour venir vous rejoindre ? »"
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "En étant honnête avec elle, c’est-à-dire en abordant la réalité de la situation, avec tact. Il est primordial de ne pas mentir et ne pas faire de promesses à moins d’être certain de pouvoir les tenir."
+        }
+      ]
+    },
+    {
+      "titre": "Passer le relais",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Préparer le passage de relais : (prise en charge, orientation, hospitalisation …) « Nous allons vous accompagner à l’hôpital afin que vous puissiez voir un médecin et réaliser les examens utiles pour comprendre ce qui se passe… »"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Prendre le temps de présenter la victime à l’équipe prenant le relais de la prise en charge « Je vous confie à mes collègues qui vont continuer à vous accompagner… »"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Saluer la victime et lui adresser des paroles encourageantes et positives : « Je vous souhaite une bonne continuation. Prenez bien soin de vous »."
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

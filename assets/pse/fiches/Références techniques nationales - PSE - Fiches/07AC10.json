@@ -1,0 +1,135 @@
+{
+  "nom": "07AC10",
+  "titre": "Traumatisme du bassin",
+  "niveaux": [
+    "PSE 2"
+  ],
+  "chapitre_principal": "Traumatismes",
+  "chapitres": [
+    {
+      "titre": "Définition",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "C’est l’ensemble des signes dus à une atteinte traumatique du bassin, avec ou sans plaie. Il est responsable de fractures ainsi que de lésions des organes internes, notamment hémorragiques, pouvant mettre rapidement en jeu la vie de la victime. Il est grave et touche surtout l’adulte jeune."
+        }
+      ]
+    },
+    {
+      "titre": "Causes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Il survient dans un contexte de traumatisme à haute cinétique (accident de la voie publique, chutes de grande hauteur) avec dans deux cas sur trois des lésions associées (thorax, crâne, membres). Le choc peut-être :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "direct avec ou sans plaie au niveau de la partie basse de l’abdomen, des hanches ou des fesses ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "à distance du bassin et transmis 1 par l’intermédiaire des os des membres inférieurs."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Plus rarement, il peut survenir à la suite de traumatismes à faible énergie chez la personne âgée."
+        }
+      ]
+    },
+    {
+      "titre": "Risques & Conséquences",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La mortalité des traumatismes du bassin est de l’ordre de 8 à 15 %. La gravité est due :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "à la perte de sang 2 due aux fractures elles-mêmes ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "à une perforation ou une rupture de vessie ou des canaux d’évacuation de l’urine."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Signes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’expression du mécanisme : un traumatisme parfois violent, direct au niveau du bassin (écrasement, coup, choc) ou moins violent chez une personne âgée."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "La victime peut se plaindre : À l’examen, le secouriste peut trouver :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "d’une douleur spontanée siégeant • une douleur localisée au niveau du bassin ; au niveau du bassin ou dans la partie • une impossibilité de bouger les membres inférieurs en basse de l’abdomen. raison de la douleur ; Elle est un signe évocateur d’un • la présence de sang dans les urines ou sur les sous- traumatisme du bassin. vêtements (liée à l’atteinte de la vessie ou de l’urètre) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "un hématome important au niveau du pubis ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "une lésion des organes urogénitaux externes, particulièrement chez l’homme ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "des lésions associées peuvent masquer le traumatisme du bassin."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Toute victime traumatisée qui a perdu connaissance et qui présente des signes de détresse circulatoire doit être considérée systématiquement comme suspecte d’un traumatisme du bassin."
+        }
+      ]
+    },
+    {
+      "titre": "Principe de l’action de secours",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "prévenir toute détresse circulatoire par une surveillance attentive ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "limiter toute mobilisation de la victime, sauf en cas de nécessité absolue ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "immobiliser la victime et assurer une contention du bassin si nécessaire ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "demander un avis médical."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "1 Chute ou choc sur la hanche, chute de grande hauteur sur les talons.",
+    "2 Une fracture multiple du bassin est fréquemment responsable d’une hémorragie interne importante."
+  ]
+}

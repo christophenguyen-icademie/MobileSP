@@ -1,0 +1,115 @@
+{
+  "nom": "05FT08",
+  "titre": "Désobstruction par des compressions abdominales",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Urgences vitales",
+  "chapitres": [
+    {
+      "titre": "Indication",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Cette technique est indiquée en cas d’obstruction complète des voies aériennes par un corps étranger chez un adulte ou un enfant après une série de 5 claques dans le dos inefficaces, et si le sauveteur peut se tenir debout ou à genou derrière elle."
+        }
+      ]
+    },
+    {
+      "titre": "Justification",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le but de cette technique est de comprimer l’air contenu dans les poumons de la victime afin d’expulser le corps étranger par un effet de « piston ». Suivant l’importance et la position du corps étranger, plusieurs pressions successives peuvent être nécessaires pour l’expulser."
+        }
+      ]
+    },
+    {
+      "titre": "Matériel",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Aucun matériel."
+        }
+      ]
+    },
+    {
+      "titre": "Chez l’adulte ou l’enfant",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "pencher la victime vers l'avant ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "se placer debout ou à genoux (enfant) derrière la victime, contre son dos ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "passer ses bras, sous ceux de la victime, de part et d'autre de la partie supérieure de son abdomen ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "placer le poing fermé (dos de la main vers le ciel) juste au-dessus du nombril ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "placer la seconde main sur la première ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "tirer franchement en exerçant une pression vers l'arrière et vers le haut, sans appuyer les avants bras sur les côtes ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "effectuer de 1 à 5 compressions, en relâchant entre chacune."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Risques & Contraintes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La réalisation des compressions abdominales peut occasionner des lésions des organes internes, des côtes et du sternum. Ce risque ne doit pas diminuer la vigueur des compressions abdominales qui est absolument nécessaire au rejet du corps étranger."
+        }
+      ]
+    },
+    {
+      "titre": "Évaluation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’efficacité de la technique est jugée sur :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "le rejet du corps étranger chez l’adulte ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "l’apparition de toux chez l’adulte ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "l’apparition de pleurs ou de cris chez l’enfant ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "la reprise d’une respiration normale."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

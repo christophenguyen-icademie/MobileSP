@@ -1,0 +1,153 @@
+{
+  "nom": "05PR02",
+  "titre": "Hémorragies extériorisées",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Urgences vitales",
+  "chapitres": [
+    {
+      "titre": "Introduction",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Adapter la procédure en fonction de la localisation de l’hémorragie extériorisée (cf. tableau suivant)"
+            },
+            {
+              "niveau": 1,
+              "texte": "Poursuivre le bilan et surveiller attentivement la circulation. Tableau 13: Conduite à tenir spécifique devant une hémorragie extériorisée H EMORRAGIE EXTERIORISEE C ONDUITE A TENIR SPECIFIQUE"
+            },
+            {
+              "niveau": 1,
+              "texte": "allonger la victime sur le côté :"
+            },
+            {
+              "niveau": 1,
+              "texte": "de préférence en position strictement horizontale,"
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "P AR LA BOUCHE"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "en position demi-assise si elle ne supporte pas d’être allongée ou présente des signes de détresse respiratoire."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "P ’ • appliquer la conduite à tenir devant un traumatisme du crâne. AR LE CONDUIT DE L OREILLE"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "l’asseoir, tête penchée en avant (ne jamais l’allonger) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "lui demander de se moucher vigoureusement ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "lui demander de comprimer les deux narines avec les doigts, durant 10 minutes sans relâcher ;"
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "P AR LE NEZ : C • demander un avis médical si : ONSECUTIF A UN CHOC MINIME ( TRAUMATISME LOCAL )"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 2,
+              "texte": "le saignement ne s’arrête pas ou se reproduit ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "le saignement survient après une chute ou un coup ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "la victime prend des médicaments, en particulier ceux qui augmentent les saignements."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "C ONSECUTIF A UN CHOC VIOLENT"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "appliquer la conduite à tenir devant un traumatisme de la face."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "( TRAUMATISME DE LA TETE ET DE LA FACE )"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "allonger la victime, si elle présente une grossesse visible, il convient alors de l’allonger préférentiellement sur le côté gauche 1 ."
+            },
+            {
+              "niveau": 1,
+              "texte": "compléter le bilan :"
+            },
+            {
+              "niveau": 1,
+              "texte": "en identifiant la couleur de l’écoulement (rouge, marron,"
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "V liquide clair ou trouble), AGINALE"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "en recherchant une éventuelle grossesse et des antécédents de grossesse pathologique (diabète, hypertension artérielle, etc.)"
+            },
+            {
+              "niveau": 1,
+              "texte": "proposer à la victime de mettre des serviettes ou des pansements absorbants entre les cuisses."
+            },
+            {
+              "niveau": 1,
+              "texte": "allonger la victime."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "A • proposer à la victime de mettre des serviettes ou des pansements UTRES absorbants entre les fesses dans le cas d’un saignement anal."
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "1 Le retournement sur le côté gauche de la femme enceinte permet d’éviter l’apparition d’une détresse par compression de certains vaisseaux sanguins de l’abdomen."
+  ]
+}

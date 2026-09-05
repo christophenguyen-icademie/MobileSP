@@ -1,0 +1,282 @@
+{
+  "nom": "02PR02",
+  "titre": "Sécurité sur intervention particulière",
+  "niveaux": [
+    "PSE 2"
+  ],
+  "chapitre_principal": "Protection et sécurité",
+  "chapitres": [
+    {
+      "titre": "Protection d’un accident électrique",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Pour faire face à ce risque, il convient de :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "s’assurer que la victime n’est pas en contact direct ou indirect (eau, surface métallique…) avec un appareil ou un câble électrique (fil électrique, appareils ménagers sous tension, câble haute tension…) ; Si c’est le cas, faire écarter immédiatement les personnes présentes et leur interdire de toucher la victime."
+            },
+            {
+              "niveau": 1,
+              "texte": "si la victime est en contact avec un appareil électrique, couper le courant (disjoncteur) ou débrancher l’appareil en cause ; Ne pas s’approcher ou toucher la victime avant d’être certain que l’alimentation est coupée 1 ."
+            },
+            {
+              "niveau": 1,
+              "texte": "en présence d’un câble électrique basse ou haute tension sur le sol, ne pas s’approcher et attendre l’intervention d’équipes spécialisées."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Protection d’un accident de la route",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Si les intervenants sont en véhicules, il convient de :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "mettre en œuvre les moyens de protection collective s’ils en possèdent (gyrophares, etc) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "allumer les feux de détresse du véhicule dès qu’il approche du lieu de l’accident et ralentir ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "garer 2 son véhicule équipé de signalisation en amont, en protection de la zone d’accident ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "si le véhicule n’est pas équipé de signalisation, ou si la sécurité est déjà assurée, se garer après le lieu de l’accident ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "mettre un gilet de sécurité haute visibilité, avant même de quitter le véhicule."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Dans tous les cas, pour éviter un suraccident, il convient de :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "baliser 3 ou faire baliser de part et d’autre de l’accident, à une distance de 150 à 200 m ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "interdire toute approche si un danger persiste (ex. : fuite de matières dangereuses, danger électrique…) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "ne pas fumer et ne pas laisser fumer ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "en présence d’un feu naissant dans un compartiment moteur, utiliser un extincteur ou de la terre ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "couper le contact de chaque véhicule accidenté ; Si le véhicule possède une clé ou carte de démarrage à distance, éloigner la carte à plus de 5 mètres du véhicule."
+            },
+            {
+              "niveau": 1,
+              "texte": "serrer le frein à main ou caler le véhicule."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Protection contre le monoxyde de carbone",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Pour faire face à ce risque 4 , il convient de :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "faire évacuer les personnes présentes dans le local et les rassembler ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "alerter immédiatement les sapeurs-pompiers qui ont des détecteurs de ce gaz ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "attendre les secours en sécurité."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Protection contre l’incendie",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Pour faire face à ce risque 1 , il convient d’assurer la protection des personnes et de limiter l’extension du sinistre, pour cela :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "alerter immédiatement les sapeurs-pompiers,"
+            },
+            {
+              "niveau": 1,
+              "texte": "appliquer les consignes sapeurs-pompiers, notamment concernant l’évacuation des occupants ou leur confinement ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "fermer ou faire fermer chaque porte derrière soi au cours de son déplacement ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "ne jamais utiliser les ascenseurs ou monte-charges ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "se baisser le plus près possible du sol ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "ne pas s’engager dans un local ou escalier enfumé ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "ne pas pénétrer dans un local en feu."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "En présence d’une victime dans un local enfumé et non ventilé"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "procéder à son dégagement en urgence :"
+            },
+            {
+              "niveau": 2,
+              "texte": "si elle est visible depuis l’entrée du local enfumé ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "si le sauveteur juge que ses capacités sont suffisantes pour réaliser ce sauvetage ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "si la configuration des lieux lui est favorable ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "en retenant sa respiration, uniquement."
+            },
+            {
+              "niveau": 1,
+              "texte": "dans le cas contraire, en informer immédiatement les sapeurs-pompiers."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "En cas de fuite de gaz, avérée ou suspectée, dans un local"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "ne pas pénétrer dans le local ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "rester à distance et empêcher l’accès ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "ne pas provoquer d’étincelles (interrupteurs, sonnerie, lampe de poche, téléphone portable…)."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "En présence d’une victime dont les vêtements sont en feu"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "allonger la victime sur le sol le plus rapidement possible ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "éteindre les flammes ou à défaut les étouffer 2 ."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Protection contre les substances dangereuses",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Pour faire face à ce risque 3 , il convient de :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "rester à distance de la fuite ou de la matière dangereuse ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "écarter les témoins de la scène ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "interdire de fumer ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "rester en amont de l’accident par rapport au vent pour se protéger des émanations qui peuvent agir à distance de l’accident ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "alerter immédiatement les sapeurs-pompiers et leur indiquer éventuellement si le véhicule en cause est porteur d’un panneau de danger signalant des toxiques."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "3 A l’aide d’un triangle de signalisation (sauf sur les voies rapides ou autoroutes) ou d’une lampe électrique, d’un linge blanc, de feux de détresse du véhicule ;",
+    "4 Dans un endroit fermé, où plusieurs personnes présentent des signes communs de malaises avec des maux de tête et des vomissements, une intoxication par libération de monoxyde de carbone doit être suspectée.",
+    "2 Avec une couverture ou un manteau que l’on retire dès que les flammes sont éteintes.",
+    "3 La libération de substances dangereuses ou la fuite de produit toxique est le plus souvent rencontrée à la suite d’un accident de la circulation touchant un véhicule qui transporte des matières dangereuses ou à la suite d’un accident industriel. La présence d’une odeur particulière ou de fumées est signe de cette émanation."
+  ]
+}

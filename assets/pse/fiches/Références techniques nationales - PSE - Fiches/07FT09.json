@@ -1,0 +1,252 @@
+{
+  "nom": "07FT09",
+  "titre": "Immobilisation d’un membre au moyen d’une attelle modulable",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Traumatismes",
+  "chapitres": [
+    {
+      "titre": "Indication",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Les attelles modulables sont utilisées pour assurer l’immobilisation du coude, de l’avant-bras et du poignet pour le membre supérieur et du genou, de la jambe et de la cheville pour le membre inférieur."
+        }
+      ]
+    },
+    {
+      "titre": "Justification",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’immobilisation à l’aide d’une attelle modulable limite les mouvements d’un membre traumatisé, diminue la douleur et prévient la survenue de complications."
+        }
+      ]
+    },
+    {
+      "titre": "Matériel",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Il existe différents types d’attelles, dont :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "les attelles de Kramer ; Elles sont constituées de tiges de métal soudées et plastifiées en forme « d’échelle », malléables et adaptables au membre fracturé. Il en existe de plusieurs longueurs et largeurs. Ces attelles nécessitent un habillage préalable, de façon à les rendre moins traumatisantes et d’éviter un contact direct du membre avec le métal."
+            },
+            {
+              "niveau": 1,
+              "texte": "les attelles modulables en alliage, doublées de mousse (type Aluform R) ; Elles se composent :"
+            },
+            {
+              "niveau": 2,
+              "texte": "d’une armature en aluminium ou autre alliage,"
+            },
+            {
+              "niveau": 2,
+              "texte": "d’un rembourrage assuré par une mousse épaisse,"
+            },
+            {
+              "niveau": 2,
+              "texte": "d’une enveloppe en polystyrène dont la face au contact du membre est lavable,"
+            },
+            {
+              "niveau": 2,
+              "texte": "de bords rabattables permettant de former une gouttière,"
+            },
+            {
+              "niveau": 2,
+              "texte": "d’un système de fixation par sangles autoagrippant."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Il existe différents types d’attelles suivant la zone traumatisée et l’âge. En tout état de cause, il convient de se référer à la notice d’utilisation du fabricant."
+        }
+      ]
+    },
+    {
+      "titre": "Immobilisation à l’aide d’une attelle de Kramer",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Les attelles de Kramer sont utilisées préférentiellement pour les immobilisations de l’avant-bras, du poignet ou de la main. Elles ne sont utilisées qu’en l’absence de matériel plus adapté pour les traumatismes du membre inférieur situés en dessous du genou. Dans ce cas, elles sont utilisées par deux, placées de part et d’autre du membre blessé et solidarisées entre elles pour prévenir la mobilisation du membre."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "La mise en place est réalisée au minimum par deux secouristes : le secouriste 1 doit :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "maintenir le membre blessé au niveau des articulations sus et sous-jacentes au traumatisme, éventuellement après réalignement, jusqu’à la mise en place de l’attelle. le secouriste 2 doit :"
+            },
+            {
+              "niveau": 1,
+              "texte": "choisir une attelle de longueur convenable et la préparer ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "placer la ou les attelles de part et d’autre du segment traumatisé en prenant soin d’englober les articulations sus et sous-jacentes ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "rembourrer les espaces libres entre l’attelle et le membre blessé pour qu’il existe un contact permanent, si nécessaire. le secouriste 1 doit :"
+            },
+            {
+              "niveau": 1,
+              "texte": "déplacer ses mains pour venir maintenir la ou les attelles en place. le secouriste 2 doit :"
+            },
+            {
+              "niveau": 1,
+              "texte": "fixer la ou les attelles au membre blessé à l’aide de liens larges ou éventuellement d’une bande, puis à l’aide d’une écharpe simple pour le membre supérieur ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "vérifier la qualité de l’immobilisation et l’état de l’extrémité du membre."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Immobilisation du membre supérieur à l’aide d’une attelle modulable",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’attelle modulable est utilisée pour les immobilisations du membre supérieur en dessous du coude. La mise en place est réalisée au minimum par deux secouristes : le secouriste 1 doit :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "maintenir le membre blessé au niveau des articulations sus et sous-jacentes au traumatisme, éventuellement après réalignement, jusqu’à la mise en place de l’attelle. le secouriste 2 doit :"
+            },
+            {
+              "niveau": 1,
+              "texte": "choisir l’attelle adaptée (longueur convenable) et lui donner la forme attendue ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "placer l’attelle contre le segment traumatisé en prenant soin d’englober les articulations sus et sous- jacentes ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "rabattre les côtés de l’attelle pour lui donner la forme d’une gouttière. le secouriste 1 doit :"
+            },
+            {
+              "niveau": 1,
+              "texte": "soutenir le membre blessé et déplacer ses mains pour maintenir l’attelle contre le membre. le secouriste 2 doit :"
+            },
+            {
+              "niveau": 1,
+              "texte": "maintenir l’attelle en position à l’aide des sangles autoagrippantes ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "maintenir, si nécessaire, l’ensemble à l’aide d’une écharpe simple nouée autour du cou ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "vérifier la qualité de l’immobilisation et l’état de l’extrémité du membre."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Immobilisation du membre inférieur à l’aide d’une attelle modulable",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’attelle modulable est utilisée pour les immobilisations du membre inférieur en dessous du genou. La mise en place est réalisée au minimum par trois secouristes : les secouristes 1 et 2 doivent :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "maintenir le membre blessé au niveau des articulations sus et sous-jacentes au traumatisme, éventuellement après réalignement, jusqu’à la mise en place de l’attelle. le secouriste 3 doit :"
+            },
+            {
+              "niveau": 1,
+              "texte": "choisir l’attelle adaptée (longueur convenable) et lui donner la forme attendue. les secouristes 1 et 2 doivent :"
+            },
+            {
+              "niveau": 1,
+              "texte": "soulever de quelques centimètres, tout en exerçant une traction progressive, mais douce au niveau de la cheville, le membre inférieur pour permettre le passage de l’attelle. le secouriste 3 doit :"
+            },
+            {
+              "niveau": 1,
+              "texte": "glisser l’attelle sous le membre traumatisé en prenant soin d’englober les articulations sus et sous- jacentes. les secouristes 1 et 2 doivent :"
+            },
+            {
+              "niveau": 1,
+              "texte": "déposer le membre sur l’attelle et le maintenir sans relâcher la traction. le secouriste 3 doit :"
+            },
+            {
+              "niveau": 1,
+              "texte": "rabattre les côtés de l’attelle et le volet d’extrémité du pied pour lui donner la forme d’une gouttière ; Les secouristes 1 et 2 qui soutiennent le membre blessé peuvent alors déplacer leurs mains à l’extérieur de l’attelle pour la maintenir."
+            },
+            {
+              "niveau": 1,
+              "texte": "fixer l’attelle à l’aide des sangles autoagrippantes ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "vérifier la qualité de l’immobilisation et l’état de l’extrémité du membre."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Risques & Contraintes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La réalisation d’une immobilisation d’un membre traumatisé à l’aide d’une attelle peut provoquer une mobilisation de celui-ci si la procédure de mise en place n’est pas respectée et entraîner douleur et complications, cutanées en particulier."
+        }
+      ]
+    },
+    {
+      "titre": "Évaluation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’immobilisation est correcte si :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "le segment blessé et les articulations sus et sous-jacentes sont immobilisés par l’attelle ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "l’attelle est correctement fixée et ne risque pas de se desserrer progressivement ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "la douleur ressentie par la victime diminue ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "aucun signe de compression n’apparaît après sa mise en place (circulation en aval correcte)."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

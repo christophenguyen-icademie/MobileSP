@@ -1,0 +1,110 @@
+{
+  "nom": "06PR06",
+  "titre": "Malaise hypoglycémique chez le diabétique",
+  "niveaux": [],
+  "chapitre_principal": "Malaises et affections spécifiques",
+  "chapitres": [
+    {
+      "titre": "Face à une urgence ou une détresse vitale, ou en cas d’aggravation",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "appliquer la conduite à tenir adaptée et réaliser en priorité les gestes d’urgence qui s’imposent ;"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Après avoir pris en charge la victime qui a perdu connaissance et respire",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "réaliser une mesure de glycémie capillaire lors du 4ème regard si le matériel est disponible."
+            },
+            {
+              "niveau": 1,
+              "texte": "demander un avis médical en indiquant le résultat de la mesure de glycémie."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Si la victime est consciente",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "appliquer la conduite à tenir devant une victime qui présente un malaise ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "adapter la conduite à tenir avec :"
+            },
+            {
+              "niveau": 2,
+              "texte": "réaliser une mesure de glycémie capillaire lors du 4ème regard si le matériel est disponible ;"
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Si la victime est réveillée, réactive, et capable d’avaler, et que :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 2,
+              "texte": "la mesure de la glycémie est < 3,3 mmol/l (ou < 60 mg/dl ou < 0,6 g/l) ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "ou l’origine du malaise est inconnue :"
+            },
+            {
+              "niveau": 2,
+              "texte": "aider la victime à prendre : § de préférence du sucre en morceaux ou en poudre"
+            },
+            {
+              "niveau": 1,
+              "texte": "adulte : 4 morceaux ou cuillères à café de sucre ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "enfants : 2 à 3 morceaux ou cuillères à café de sucre ; § sinon :"
+            },
+            {
+              "niveau": 1,
+              "texte": "une boisson sucrée comme un jus d’orange ou du miel,"
+            },
+            {
+              "niveau": 1,
+              "texte": "des bonbons contenant du sucrose."
+            },
+            {
+              "niveau": 2,
+              "texte": "demander un avis médical en indiquant le résultat de la mesure de glycémie : § si son état ne s’améliore pas rapidement, § en cas de doute."
+            },
+            {
+              "niveau": 2,
+              "texte": "surveiller 1 la victime : § si aucune amélioration ne survient au bout de 15 minutes suite à une ingestion de sucre, une seconde dose de sucre peut être prise."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "1 Il faut compter environ 10 à 15 minutes entre l’ingestion du sucre, une élévation de la glycémie et une amélioration des signes."
+  ]
+}

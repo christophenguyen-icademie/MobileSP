@@ -1,0 +1,188 @@
+{
+  "nom": "05AC09",
+  "titre": "Détresse neurologique",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Urgences vitales",
+  "chapitres": [
+    {
+      "titre": "Définition",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "On appelle détresse neurologique une atteinte de la fonction neurologique dont l‘évolution peut affecter, à court terme, les autres fonctions vitales de l’organisme (fonction circulatoire, fonction respiratoire) et conduire au décès de la victime. Si la perte de connaissance est une détresse neurologique majeure qui relève de gestes de secours immédiats, il existe un certain nombre de situations où une victime peut présenter des signes visibles de détresse neurologique sans, pour autant, qu’elle ait perdu connaissance. Les trois fonctions vitales sont étroitement liées et une altération de la fonction neurologique entraîne plus ou moins rapidement une perturbation des autres."
+        }
+      ]
+    },
+    {
+      "titre": "Causes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "De nombreuses causes peuvent entraîner une altération de la fonction neurologique et un trouble de la conscience, par exemple :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "un traumatisme, comme un choc sur la tête ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "une maladie atteignant directement le cerveau (accident vasculaire cérébral), la moelle épinière ou les nerfs ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "certaines intoxications ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "un manque de sucre (hypoglycémie)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Risques & Conséquences",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’atteinte de la fonction neurologique retentit rapidement sur les deux autres et menace, immédiatement ou à très court terme, la vie de la victime, car ses organes vitaux (cœur, poumons) peuvent, très vite, être privés d’oxygène."
+        }
+      ]
+    },
+    {
+      "titre": "Signes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La détresse neurologique est identifiée : 1. Dès le début du bilan (2 ème regard) si la victime ne répond pas quand on lui parle, n’exécute pas un ordre simple (ex. « serrez-moi la main », « ouvrez les yeux ») et ne réagit pas quand on la secoue délicatement au niveau des épaules. Une victime qui ne répond pas et ne réagit pas et dont la ventilation est arrêtée ou anormale (ventilation agonique) doit être considéré en arrêt cardiaque. Une victime qui ne répond pas et ne réagit pas, mais qui respire, doit être considérée à haut risque de détresse respiratoire, car ses voies aériennes sont menacées. 5. Lors de l’ appréciation de la fonction neurologique au cours du bilan (3ème regard) si la détresse neurologique est présente. La victime ;"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 2,
+              "texte": "est somnolente, ou présente un retard de réponse aux questions ou aux ordres ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "est désorientée. Elle ne se rappelle plus son nom, du lieu où elle se trouve, en quelle année nous"
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "sommes ;"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 2,
+              "texte": "ne s’exprime pas, elle ne parle plus ;"
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Si elle peut s’exprimer, la victime peut se plaindre :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 2,
+              "texte": "de ne plus pouvoir bouger un ou plusieurs de ses membres (paralysie)."
+            },
+            {
+              "niveau": 2,
+              "texte": "d’une perte de la vue d’un ou des deux yeux."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Le secouriste peut aussi constater :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 2,
+              "texte": "des convulsions généralisées ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "une asymétrie évidente du visage de la victime ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "une asymétrie des pupilles (à l’ouverture des yeux, les pupilles sont de diamètres différents) et une"
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "absence de réaction des pupilles à la lumière. 6. Lors de la mesure des paramètres neurologiques : L’évaluation du niveau de conscience (score EVDA ou Glasgow) (4 ème regard) peut venir confirmer cette détresse. Une victime qui a perdu connaissance et qui n’est plus réactive à la voix est considérée en détresse neurologique. La mesure de la glycémie peut venir confirmer une hypoglycémie. L’hypoglycémie est une des causes de la détresse neurologique. Elle doit être corrigée rapidement. 7. Enfin la détresse neurologique peut ne pas être évidente si elle est en cours de constitution. Les signes suivants doivent faire évoquer l’installation d’une détresse neurologique :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 2,
+              "texte": "aggravation progressive du niveau de conscience,"
+            },
+            {
+              "niveau": 2,
+              "texte": "perte de connaissance passagère indiquée par l’entourage ou suspectée devant une amnésie de"
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "l’accident ou du malaise,"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 2,
+              "texte": "trouble de la parole isolé (la victime a du mal à trouver ses mots ou déforme spontanément les mots)."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Si l’on suspecte un accident vasculaire cérébral (paralysie, trouble de la parole, de la vue, etc.) et si ces manifestations sont aléatoires (les signes apparaissent et disparaissent), la réalisation d’un score de l’AVC peut dévoiler cette détresse."
+        }
+      ]
+    },
+    {
+      "titre": "Principe de l’action de secours",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "installer la victime dans une position d’attente adaptée afin de préserver la circulation cérébrale ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "obtenir rapidement une aide médicale ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "surveiller attentivement la victime et adapter les gestes de secours à l’évolution de la situation."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

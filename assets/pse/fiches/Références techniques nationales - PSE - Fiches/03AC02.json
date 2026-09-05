@@ -1,0 +1,92 @@
+{
+  "nom": "03AC02",
+  "titre": "Risque infectieux",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Hygiène et asepsie",
+  "chapitres": [
+    {
+      "titre": "Principes de transmission des maladies infectieuses",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Une infection est la conséquence de la pénétration dans l’organisme d’un nombre suffisant d’agents (bactérie, virus, champignon, parasite) pour pouvoir y proliférer par multiplication. L’infection peut s’accompagner, après un temps d’incubation variable, de signes cliniques. Elle peut rester muette. On parle alors de porteur sain. Des agents infectieux sont présents, naturellement ou exceptionnellement, dans l’environnement. On peut les mettre en évidence dans l’air, sur des objets, dont les instruments utilisés pour les soins, dans les aliments ou à leur surface (souillure), dans le derme de la peau des mains ou à leur surface. Une personne (victime, secouriste), peut représenter un réservoir d’agents infectieux. Les germes se transmettent de différentes façons :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "par contact ; C’est la voie la plus importante de transmission des microorganismes. Le réservoir principal est l’être humain. Donc, tout contact avec une victime potentiellement infectée ou contaminée (peau, sang, liquides biologiques), ou avec des matériels, des surfaces souillées ou des déchets d’activités de soins, présente un danger. Dans la plupart des cas, les mains sont le vecteur."
+            },
+            {
+              "niveau": 1,
+              "texte": "par les gouttelettes de « pflugge » ; Ce sont de fines gouttes d’eau ou de salive (postillons) émises en expirant, en parlant ou en toussant. Elles contiennent des microorganismes présents dans les voies aériennes et digestives supérieures. Elles ne restent pas longtemps en suspension dans l’air et ne sont contaminantes que sur une courte distance. Elles sont le vecteur de transmission de nombreuses infections virales (comme la grippe) et bactériennes."
+            },
+            {
+              "niveau": 1,
+              "texte": "par l’air ; Les supports de cette contamination sont de très fines particules provenant de gouttelettes déshydratées ou de poussières d’origine cutanée, textile ou végétale. Même en l’absence de source directe, l’air reste contaminant et les particules demeurent longtemps en suspension dans l’air. L’air est le vecteur de transmission de maladies telles que la tuberculose ou la varicelle."
+            },
+            {
+              "niveau": 1,
+              "texte": "par d’autres voies. L’eau peut être contaminée par des déjections humaines ou animales. La nourriture peut transmettre des germes transmis par l’eau elle-même contaminée (toxi-infection alimentaire). Certains médicaments issus de porteurs sains (sang et dérivés) peuvent être contaminants. Le matériel de secours insuffisamment désinfecté (aspirateur de mucosités, insufflateurs manuels) peut être également en cause."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Précautions à prendre",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’intervenant ignore souvent si la victime ou les secouristes eux-mêmes présentent une infection en cours d’évolution. Pour limiter le risque de transmission d’infections entre la victime et l’intervenant, il faut prendre systématiquement des précautions dites standards . Dans certaines situations, il convient de prendre des précautions particulières . Les précautions standards doivent être appliquées par tous les intervenants. Elles ont un objectif double : la protection du personnel et la protection de la victime. Elles concernent l’hygiène corporelle quotidienne de l’intervenant ainsi que des précautions à observer pendant et après l’intervention. Les précautions particulières sont complémentaires aux précautions standards . Elles sont mises en œuvre en fonction du niveau de risque ou sur consignes des autorités d’emploi."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Appliquées par les intervenants, elles réduisent la transmission de microorganismes dangereux ou résistants, ou de maladies transmissibles (tuberculose, méningite)."
+        }
+      ]
+    },
+    {
+      "titre": "Prévention des accidents d’exposition à un risque viral",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’accident d’exposition à un risque viral (AEV) est défini comme toute exposition percutanée (par piqûre ou coupure) ou tout contact direct sur une peau lésée ou des muqueuses (bouche, yeux) avec du sang ou un liquide biologique souillé par du sang. Sa prévention commence largement en amont de l’accident par :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "la vaccination contre l’hépatite B ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "le port d’équipements de protection ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "le respect des précautions standards et particulières pour limiter le risque de transmission des maladies infectieuses ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "l’utilisation de matériel de sécurité ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "une formation spécifique relative à la prévention des AEV."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Lors de l’intervention, les précautions standards doivent être appliquées pour tous, dès la prise en charge d’une victime. L’intervenant doit impérativement porter tous les équipements de sécurité adaptés au type d’intervention (lors d’une désincarcération, ne pas oublier de baisser la visière ; en intervention, travailler avec les manches longues ; mettre les gants à usage unique, voire un double « gantage », en cas d’hémorragie externe). Il convient d’être particulièrement vigilant en présence d’objets coupants ou piquants sur les lieux d’intervention et respecter impérativement les règles d’utilisation des emballages à DASRI. Après toute intervention, la peau, la tenue, le matériel ainsi que le véhicule peuvent avoir été contaminés par du sang ou un liquide biologique susceptible d’en contenir. Le retrait de gants à usage unique se fait alors selon la procédure adaptée ainsi que le nettoyage et la désinfection des matériels."
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

@@ -1,0 +1,1361 @@
+{
+  "nom": "09PR01",
+  "titre": "Prise en charge d’une personne en situation de crise",
+  "niveaux": [
+    "PSE 2"
+  ],
+  "chapitre_principal": "Souffrance psychique et comportements inhabituels",
+  "chapitres": [
+    {
+      "titre": "Abord relationnel de la victime",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’action de secours doit permettre :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "de protéger les intervenants, la victime et son entourage ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "d’identifier les réactions inhabituelles, de recueillir et de transmettre un maximum d’informations au médecin régulateur ou à l’équipe médicale sur place."
+            },
+            {
+              "niveau": 1,
+              "texte": "de stabiliser l’état de crise de la victime dans la mesure du possible"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Observer, rechercher",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "En présence d’une personne en situation de crise, le 1er regard est essentiel. L’observation et la recherche d’éléments auprès de la victime, de son entourage et de son environnement, doivent permettre de repérer et d’identifier :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "La présence dans l’environnement, de risques potentiels (présence d'armes, emballages de médicaments, lettre, bouteilles d'alcool, etc.) ou de particularités (environnement inadéquat, état inhabituel/particulier)"
+            },
+            {
+              "niveau": 1,
+              "texte": "Les potentiels facteurs de stress pour la victime : L’entourage semble-t-il constituer un soutien ou plutôt être source de pression pour la victime ? Y a-t-il des éléments extérieurs perturbants la victime ?"
+            },
+            {
+              "niveau": 1,
+              "texte": "L’élément potentiellement déclencheur (interne ou externe ?) : Suite à quoi ?"
+            },
+            {
+              "niveau": 1,
+              "texte": "Les caractéristiques de la réaction inhabituelle : Qu’est-ce qui est différent/inhabituel chez la victime ? Depuis quand ? Quels sont les éléments qui paraissent inhabituels par rapport aux normes de notre société/de sa culture ? :"
+            },
+            {
+              "niveau": 1,
+              "texte": "Les antécédents/hospitalisations/traitements potentiels : Souffre-t-elle d’une maladie particulière ? A-t-elle déjà été hospitalisée ? » Si oui, « dans quel contexte ? Prend-elle un traitement ? » Si oui, « l’a-t-elle pris ? Le prend-elle régulièrement ou est-elle en rupture de traitement ?"
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "C’est à partir de cette première étape que les stratégies de protection et de prise en charge vont pouvoir être déterminées."
+        }
+      ]
+    },
+    {
+      "titre": "Sécuriser, protéger",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Si le contact est possible :"
+            },
+            {
+              "niveau": 2,
+              "texte": "Choisir un lieu propice à l’échange où la personne se sentira en confiance et en sécurité, à l’écart de"
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "la source de stress et des pressions extérieures éventuelles (séparer l’entourage de la victime s’il est identifié que ce dernier, même sans le vouloir, exacerbe l’état de crise de la victime)."
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 2,
+              "texte": "Réduire la réaction de stress en évitant de surexposer la victime (à la vision des blessures, à la"
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "confrontation à des facteurs environnementaux stressants …)"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 2,
+              "texte": "Assurer une surveillance constante."
+            },
+            {
+              "niveau": 1,
+              "texte": "En cas de contact et dialogue impossibles :"
+            },
+            {
+              "niveau": 2,
+              "texte": "Demander une médicalisation en vue d’une éventuelle sédation afin de minimiser le risque"
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "d’agression et de blessures. Faire intervenir les forces de l’ordre en protection si la sécurité et la sûreté des personnes sont compromises."
+        }
+      ]
+    },
+    {
+      "titre": "Apaiser la détresse, répondre aux besoins",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Dans l’abord relationnel de la victime, le secouriste cherche à favoriser l’apaisement émotionnel , voir à prévenir une potentielle escalade d’agressivité pouvant conduire à la violence et se traduire par un passage à l’acte auto ou hétéro-agressif. Cette action s’exerce dans le calme, sans précipitation ni hésitation. Aussi, elle permet de compléter le bilan, puis d’engager les soins nécessaires."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Néanmoins, lors d’états d’agitation incontrôlables et dangereux, l’abordage relationnel a ses limites et la sédation par un traitement médicamenteux sera indispensable."
+        }
+      ]
+    },
+    {
+      "titre": "Conduite à tenir spécifique",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le secouriste devra s’adapter à la spécificité de chaque situation et de chaque personne. Il appliquera les principes de l’abord relationnel de la victime, et sera de plus particulièrement attentif aux points suivants :"
+        }
+      ]
+    },
+    {
+      "titre": "Lorsque la personne présente une réaction de type hypoactive (silencieuse)",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La tâche essentielle consiste à orienter l’attention de la victime sur des éléments sécurisants et sur des tâches simples, positives et non stressantes."
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Rechercher le contact visuel : « Madame, regardez-moi bien dans les yeux »"
+            },
+            {
+              "niveau": 1,
+              "texte": "Rassurer la victime :"
+            },
+            {
+              "niveau": 2,
+              "texte": "Par une présence calme, bienveillante et protectrice : « Nous sommes là pour vous »"
+            },
+            {
+              "niveau": 2,
+              "texte": "En soignant son langage non verbal, ses postures, ses gestes : manifestations de soutien au travers"
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "d’une main sur l’épaule ou le bras (à adapter avec précaution), regard bienveillant, voix apaisante, …"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Ramener doucement la victime dans « l’ici et maintenant » :"
+            },
+            {
+              "niveau": 2,
+              "texte": "En l’aidant à prendre conscience que l’événement qu’elle vient de subir est maintenant terminé"
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "et/ou qu’elle se trouve en sécurité : « Maintenant, nous sommes à vos côtés, vous êtes en sécurité »"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 2,
+              "texte": "En reprenant contact avec elle-même et la réalité qui l’entoure (poser des questions concrètes sur"
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "elle, lui faire relever des éléments positifs de son environnement : « Pouvez-vous me décrire ce que vous voyez ? », « Concentrez-vous et dites-moi ce que vous entendez », « Je vous demande de toucher l’objet que vous avez devant vous et de me dire ce que vous percevez »)."
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "L’interroger sur ses besoins : « De quoi auriez-vous besoin dans l’immédiat ? », « Qu’est-ce qui pourrait vous aider ? »"
+            },
+            {
+              "niveau": 1,
+              "texte": "L’inviter à s’exprimer, mais pas à tout prix : orienter vers une communication cognitive plutôt qu’émotionnelle, en lui posant des questions simples et concrètes, en cherchant à lui redonner une position active. Questionner la victime sur"
+            },
+            {
+              "niveau": 1,
+              "texte": "Utiliser des techniques de focalisation de l’attention sur le présent, l’événement qu’elle vient de vivre, par exemple : en lui demandant d’en faire le récit"
+            },
+            {
+              "niveau": 2,
+              "texte": "La respiration contrôlée et/ou de parler de ses émotions,"
+            },
+            {
+              "niveau": 2,
+              "texte": "Les techniques de focalisation attentionnelle aura pour effet de maintenir/réactiver l’état de"
+            },
+            {
+              "niveau": 1,
+              "texte": "Informer sur l’événement et sur ses réactions dissociation."
+            },
+            {
+              "niveau": 1,
+              "texte": "Ne jamais laisser seule."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Lorsque la personne présente une réaction de type hyperactive (bruyante)",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Établir un contact verbal et tenter d’apaiser :"
+            },
+            {
+              "niveau": 2,
+              "texte": "Garder une voix calme, un débit lent et une gestuelle bien réglée (pas de gestes brusques)"
+            },
+            {
+              "niveau": 2,
+              "texte": "Montrer à la personne que l’on a perçu la tension émotionnelle, l’agitation et l’inviter à s’exprimer."
+            },
+            {
+              "niveau": 2,
+              "texte": "Identifier le ou les besoins immédiats et proposer son aide : « Y a-t-il quelque chose que je puisse faire pour vous aider ? ». Cette proposition d’aide peut conduire la victime à activer sa réflexion, ce qui peut stopper le processus de montée en tension."
+            },
+            {
+              "niveau": 2,
+              "texte": "Utiliser la reformulation (cf. « l’écoute active »)."
+            },
+            {
+              "niveau": 2,
+              "texte": "Dans le cas d’hallucinations ou de propos incohérents, ne pas contredire la victime."
+            },
+            {
+              "niveau": 2,
+              "texte": "Être attentif aux mouvements du corps (ex. secousses, mouvement d’impatience des jambes qui sont l’expression d’un besoin d’action). Si la victime exprime le besoin de bouger, lui proposer de réaliser des contractions alternées (cf. « techniques de focalisation/défocalisation attentionnelles ») permettant de remplir une fonction exutoire."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Contextes particuliers",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Plusieurs contextes particuliers nécessitent d’adapter la conduite à tenir, il s’agit de :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "La victime au comportement agressif / violent"
+            },
+            {
+              "niveau": 1,
+              "texte": "Les morts inattendues"
+            },
+            {
+              "niveau": 1,
+              "texte": "Les victimes de violences"
+            },
+            {
+              "niveau": 1,
+              "texte": "La crise suicidaire"
+            },
+            {
+              "niveau": 1,
+              "texte": "Les événements exceptionnels"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "La victime au comportement agressif / violent",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le secouriste peut se trouver confronté à des victimes présentant des comportements agressifs, voire violents, de nature différente. En effet, ces violences peuvent être non intentionnelles (le fait de personnes en état d’irresponsabilité : patients psychiatriques, toxicomanes, personnes en état d’ivresse …), parfois dirigées contre la victime elle-même (automutilation, etc.) ou encore intentionnelles, en direction du secouriste."
+        }
+      ]
+    },
+    {
+      "titre": "Contexte",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Après une accumulation émotionnelle, la personne manifeste une tension nerveuse avec apparition d’anxiété et d’agitation psychomotrice. La personne n’étant plus à ce moment en état de raisonner, il peut s’ensuivre alors un état de panique avec impossibilité à prendre du recul par rapport à la situation et à la critiquer."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Si, à ce moment, la situation n’est pas maîtrisée et le processus interrompu, alors la tension accumulée se libère : c’est le passage à l’acte. Immédiatement après, survient une phase de soulagement pour la personne ainsi vidée de son énergie."
+        }
+      ]
+    },
+    {
+      "titre": "L’agressivité",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Peut-être tournée vers la victime elle-même, en direction de tiers ou des secouristes. Cet état est sous-tendu par une émotion de colère dont les origines peuvent être multiples. La victime agressive est une personne qui souffre, qui se défend face à un problème qu’elle perçoit et qu’elle ne sait pas gérer."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Les comportements agressifs prennent différentes formes :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "incivilités : impolitesse, grossièretés …"
+            },
+            {
+              "niveau": 1,
+              "texte": "comportement menaçant : gestes du poing, destruction matérielle, objets lancés, etc."
+            },
+            {
+              "niveau": 1,
+              "texte": "violence verbale : menaces, intimidations, insultes, chantage, propos infériorisants ou dégradants, portant atteinte à l’intégrité psychologique d’autrui, etc."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Les signes d’alerte d’un passage à l’acte violent",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "un regard fixe, menaçant ou fuyant"
+            },
+            {
+              "niveau": 1,
+              "texte": "une dilatation des pupilles"
+            },
+            {
+              "niveau": 1,
+              "texte": "une pâleur ou augmentation de la coloration (rougissement) du visage"
+            },
+            {
+              "niveau": 1,
+              "texte": "un raidissement des membres, serrement des mâchoires"
+            },
+            {
+              "niveau": 1,
+              "texte": "des soupirs, modification de la respiration (rapide et peu profonde)"
+            },
+            {
+              "niveau": 1,
+              "texte": "des sueurs, transpiration"
+            },
+            {
+              "niveau": 1,
+              "texte": "des tremblements"
+            },
+            {
+              "niveau": 1,
+              "texte": "un ton de voix saccadé"
+            },
+            {
+              "niveau": 1,
+              "texte": "une agitation, des mouvements saccadés, l’apparition de tics"
+            },
+            {
+              "niveau": 1,
+              "texte": "des postures menaçantes (pointe du doigt, montre les poings)"
+            },
+            {
+              "niveau": 1,
+              "texte": "une tendance à s’approcher, empiétement sur l’espace personnel"
+            },
+            {
+              "niveau": 1,
+              "texte": "des objets lancés ou jetés par terre"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Conduite à tenir spécifique face au geste violent (coups et blessures, bousculades, crachats, etc.)",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Évaluer la dangerosité de la personne et du lieu :"
+            },
+            {
+              "niveau": 2,
+              "texte": "Rechercher et mettre en sécurité les objets potentiellement"
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "dangereux."
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 2,
+              "texte": "Enlever les objets pouvant servir d’armes et faire en sorte de pouvoir En présence de plusieurs"
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "mettre un obstacle entre la personne et soi. intervenants, un secouriste"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 2,
+              "texte": "Veiller à ce que la personne ne soit pas près d’une porte ou d’une prendra le rôle d’interlocuteur"
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "fenêtre ouverte s’il y a risque de fuite ou de défenestration principal. (prévention du suicide notamment)."
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 2,
+              "texte": "Ne pas laisser la personne seule, ne pas rester seul avec la victime. C’est lui, exclusivement, qui s’adressera à la victime, et"
+            },
+            {
+              "niveau": 1,
+              "texte": "Utiliser l’espace avec stratégie : introduira les gestes secouristes"
+            },
+            {
+              "niveau": 2,
+              "texte": "Veiller à avoir une échappatoire, un accès à la sortie réalisés par ses équipiers : « mon"
+            },
+            {
+              "niveau": 2,
+              "texte": "Positionner l'équipe en triangle. Un seul secouriste parle, les 2 collègue va évaluer votre"
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "autres situés en arrière, sont en soutien et en communication avec respiration en … » … ce dernier."
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 2,
+              "texte": "Garder une distance de sécurité. S’approcher d’elle, en s’annonçant et en se faisant voir, afin de ne"
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "pas la surprendre."
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 2,
+              "texte": "Éviter toute attitude oppressante."
+            },
+            {
+              "niveau": 2,
+              "texte": "Ne pas lui tourner le dos."
+            },
+            {
+              "niveau": 1,
+              "texte": "Aborder la victime en assurant sa protection personnelle :"
+            },
+            {
+              "niveau": 2,
+              "texte": "L’interlocuteur choisi sera celui qui a le meilleur contact et si un équipier suscite de l’agressivité,"
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "celui-ci se met à distance."
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 2,
+              "texte": "Éviter toute attitude agressive (éviter les bras croisés, mains sur les hanches, pointer du doigt..., ne"
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "pas regarder fixement la personne dans les yeux, mais rester vigilant en maintenant un contact oculaire), ne pas toucher, contraindre physiquement, tirer, tenir."
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 2,
+              "texte": "Ne pas monter le ton, se montrer calme, posé et maintenir les marques de respect (Mme, Mr,"
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "vouvoiement, même si la personne a tendance à employer le tutoiement ou des marques de familiarité). Utiliser la fermeté, mais toujours avec diplomatie, en veillant à ne jamais « attaquer » la personne agressive et violente. Éviter dans un premier temps toute contradiction pour prévenir une augmentation de l’agressivité, mais sans chercher non plus à approuver systématiquement (rappeler les limites et le cadre)."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Abord relationnel possible Abord relationnel impossible"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Maintenir un contact verbal : Mesures de sauvegarde :"
+            },
+            {
+              "niveau": 2,
+              "texte": "Laisser la victime s’exprimer."
+            },
+            {
+              "niveau": 2,
+              "texte": "Adopter une attitude d’écoute sans Dans les situations de crise avec danger, les"
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "jugement, savoir se taire, écouter la secouristes doivent se retirer et alerter. personne jusqu’au bout et ne pas lui couper la parole. L’usage de la force pour maîtriser la victime n’est"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 2,
+              "texte": "Montrer à la personne que l’on a perçu pas du ressort du secouriste, sauf 2 exceptions :"
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "l’agressivité - pour préserver sa propre intégrité"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 2,
+              "texte": "En aucun cas accepter qu’elle s’exprime - ou dans la mesure du possible pour limiter"
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "avec agressivité ou manque de respect un danger manifestement grave et"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 2,
+              "texte": "Utiliser la reformulation imminent."
+            },
+            {
+              "niveau": 2,
+              "texte": "Clarifier tous les points de désaccord"
+            },
+            {
+              "niveau": 2,
+              "texte": "Chercher à positiver le dialogue"
+            },
+            {
+              "niveau": 2,
+              "texte": "Encourager la personne à suggérer une"
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "solution au problème"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Analyser en permanence la situation et appeler du renfort même si la personne est devenue calme, car cette dernière pourrait à nouveau devenir agressive."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Les morts inattendues",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "On qualifie le décès d’inattendu lorsque la mort survient de façon brutale chez un sujet à priori en bonne santé. Le décès peut être naturel, violent, accidentel ou par homicide."
+        }
+      ]
+    },
+    {
+      "titre": "Contexte",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Dans ces contextes, les secouristes sont généralement confrontés :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "à la personne décédée, dont la mort peut être constatée dès l’arrivée sur les lieux ou secondairement, à l’issue de l’intervention de secours. Dans ce dernier cas, et selon le besoin exprimé par l’entourage, l’équipe de secouristes peut accepter la présence des proches lors des manœuvres de réanimation, et plus particulièrement lorsque la victime est un enfant"
+            },
+            {
+              "niveau": 1,
+              "texte": "à un témoin (connaissant la victime ou non) ayant fait la découverte de la personne en détresse vitale ou déjà décédée"
+            },
+            {
+              "niveau": 1,
+              "texte": "à l’entourage du décédé."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "La souffrance des témoins et/ou de l’entourage sera influencée par les facteurs suivants :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "la typologie des personnes décédées (nourrisson, enfant, adolescent, adulte, personne âgée), leur nombre (parfois plusieurs personnes d’une même famille) et les liens qui les unissent aux proches décédés (parent, enfant, conjoint …)"
+            },
+            {
+              "niveau": 1,
+              "texte": "les circonstances de décès : suicide, homicide, infanticide, fratricide, féminicide …"
+            },
+            {
+              "niveau": 1,
+              "texte": "les conditions de la découverte du corps et de son état d’altération"
+            },
+            {
+              "niveau": 1,
+              "texte": "des éventuelles investigations scientifiques, judiciaires et médico-légales menées par les autorités et les experts compétents."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Ces derniers, témoins et entourage, nécessitent une prise en charge à part entière. Selon la nature de la relation avec le décédé, les sentiments éprouvés peuvent varier et parfois donner lieu à une décharge brutale de souffrance psychique et à la mise en place de mécanismes de défense psychologique : sidération, malaise, effondrement, incompréhension déni, culpabilité, recherche de responsabilité, agressivité, colère, etc. Ils sont naturels et leur abord ne relève pas nécessairement d’un professionnel de la santé mentale. Une présence empreinte d’humanité et de bienveillance constitue la première réponse au besoin des endeuillés."
+        }
+      ]
+    },
+    {
+      "titre": "Conduite à tenir spécifique",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Dans le cas particulier où le décès survient sur la voie publique, il convient dès que possible de soustraire au mieux le corps à la vue du public. En l’absence de danger, le corps ne sera déplacé que sur décision du médecin (ou de l’autorité judiciaire en cas d’obstacle médico-légal)."
+            },
+            {
+              "niveau": 1,
+              "texte": "En l’absence d’obstacle médico-légal, il est important :"
+            },
+            {
+              "niveau": 2,
+              "texte": "de préserver la dignité du corps, le manipuler avec précaution et délicatesse ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "d’installer le corps du défunt selon le souhait de la famille, tenir compte des rituels culturels et"
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "religieux qui peuvent être utiles pour pacifier et réguler les émotions ;"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 2,
+              "texte": "de rendre le corps présentable (enlever le matériel, nettoyer …) en prenant en compte la rapide"
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "dégradation de l’état du corps et les risques de relâchement de ce dernier. Penser à prendre les précautions nécessaires si le corps est abîmé (cacher une partie …) d'accompagner les proches auprès du défunt si cela est souhaité. La présentation du corps, peut être proposée à la famille sans constituer une obligation."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Le travail de deuil, c’est-à-dire, l’adaptation à la perte d’un proche, est un processus qui s’inscrit progressivement dans le temps et dont le point de départ, l’annonce du décès, va grandement influer sur son déroulé. Il s’agit donc d’un moment très important pour lequel un maximum de précautions est nécessaire."
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "L’annonce est du ressort du médecin , de la police ou d’un Officier de Police Judiciaire (tel que le maire par exemple)."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "À titre très exceptionnel, le secouriste peut être amené à réaliser l’annonce du décès."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Le décès doit être annoncé de façon claire et adaptée. Il s’agit de fournir des informations honnêtes et claires, avec empathie et respect, de manière à engager les proches dans un processus de deuil sans brutalité supplémentaire :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 2,
+              "texte": "Dans un lieu calme, en dehors de la zone d’intervention, avec un minimum de confort, permettant"
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "l’intimité et la disponibilité."
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 2,
+              "texte": "Intervenir à deux, avec un médecin si possible qui se chargera de l’annonce."
+            },
+            {
+              "niveau": 2,
+              "texte": "En reprenant le contexte/la cause, la chronologie et les actions entreprises, par exemple :"
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "« Nous avons été appelés par un témoin qui a retrouvé votre mari inconscient dans son véhicule. À notre arrivée, son cœur était arrêté. Nous avons tout de suite réalisé un massage cardiaque et mis en œuvre toutes les actions dans le but de relancer son cœur. Malheureusement, après plus d’une heure de travail, nous n’avons observé aucun signe de reprise d’une activité cardiaque. Nous avons fait notre maximum, mais malheureusement votre mari est mort »."
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Il est du rôle des secouristes de veiller sur la famille et les proches et de répondre au maximum aux besoins des endeuillés :"
+            },
+            {
+              "niveau": 2,
+              "texte": "Adopter une attitude respectueuse vis-à-vis de la personne décédée. C’est un facteur de réconfort"
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "notable pour la famille ou son entourage"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 2,
+              "texte": "Leur laisser du temps pour comprendre et intégrer la situation"
+            },
+            {
+              "niveau": 2,
+              "texte": "Être présent et à l’écoute"
+            },
+            {
+              "niveau": 2,
+              "texte": "Apporter des réponses : conseils, explications pour les premières démarches, ce qui va se passer, etc."
+            },
+            {
+              "niveau": 2,
+              "texte": "Les accompagner dans l’annonce aux enfants et adolescents sans tarder, en associant ces derniers"
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "aux autres personnes de leur entourage, avec des mots simples et directs (utiliser le mot « mort »)."
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Faire en sorte de passer le relais à une personne qui pourra rester présente (famille, voisins, amis, etc.) au départ des secours, ne pas laisser seul un proche endeuillé."
+            },
+            {
+              "niveau": 1,
+              "texte": "Dans le cas d’un décès d’enfant, le corps sera transporté par les services de secours sur réquisition judiciaire, accompagné des parents, s’ils le souhaitent, vers un centre de référence où des investigations médicales seront menées afin de rechercher la cause du décès."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Contexte",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Qu’elles aient lieu dans l’intimité du milieu familial (violences conjugales, maltraitances) ou commises à l’extérieur par des personnes inconnues ou des connaissances, la violence peut être verbale, physique, psychologique, sexuelle et/ou liée à la négligence et aux privations. Il peut s’agir d’un geste isolé de violence ou d’un certain nombre de gestes qui s’inscrivent dans un cycle de maltraitance."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Dans ces contextes, il peut exister une certaine complexité pour établir une relation avec la victime et pour évaluer la situation, notamment :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "en cas de danger persistant pour la victime et/ou pour l’équipage"
+            },
+            {
+              "niveau": 1,
+              "texte": "lorsqu’il existe un lien affectif qui soude les personnes concernées ou une situation de dépendance, de vulnérabilité physique, psychique, affective et/ou sociale avec souvent une relation de domination, d’emprise (partenaire, parent)."
+            },
+            {
+              "niveau": 1,
+              "texte": "quand l’auteur est présent, niant fréquemment les violences commises ou sa responsabilité"
+            },
+            {
+              "niveau": 1,
+              "texte": "du fait d’une visibilité faible et de la loi du silence : les violences sont souvent masquées et la victime peut avoir peur de parler, craindre les représailles, peut masquer ou nier, minimiser, banaliser, sous- estimer la gravité ou ne pas identifier forcément la situation de violence."
+            },
+            {
+              "niveau": 1,
+              "texte": "dans les suites d’une agression sexuelle, la victime est impactée au niveau le plus intime et peut manifester une importante souffrance et souvent une méfiance à l’égard des secouristes (d’autant plus s’ils sont du même sexe que l’agresseur), rendant parfois le contact physique et donc les gestes secouristes difficiles, voire impossibles."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Le secouriste occupe une place prépondérante, car il est souvent celui qui constitue le premier soutien. Son regard bienveillant permet à la victime de retrouver une part de sentiment de sécurité. Ses qualités d’écoute et d’empathie sont déterminantes pour engager la victime vers la reconnaissance du préjudice subi. La personne doit se sentir rassurée, en confiance afin de ne pas vivre sa prise en charge comme une nouvelle agression."
+        }
+      ]
+    },
+    {
+      "titre": "Conduite à tenir spécifique",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Isoler la victime et limiter le nombre d’intervenants"
+            },
+            {
+              "niveau": 1,
+              "texte": "Instaurer un climat d’écoute, de confiance et de sécurité,"
+            },
+            {
+              "niveau": 1,
+              "texte": "Employer un ton calme et rassurant, associé à des gestes délicats, préalablement annoncés."
+            },
+            {
+              "niveau": 1,
+              "texte": "Parler honnêtement des éléments évocateurs repérés et lui signifier par des mots simples notre perception de la situation et l’encourager (sans forcer) à en parler."
+            },
+            {
+              "niveau": 1,
+              "texte": "Aborder clairement la question des violences, en précisant que rien ne les justifie, qu’elles sont interdites et punies par la loi. La victime n’est donc pas responsable et peut déposer plainte. Si elle ne veut pas parler, lui dire qu’elle pourra le faire plus tard. Il ne s’agit pas de l’interroger, mais de l’écouter."
+            },
+            {
+              "niveau": 1,
+              "texte": "Tenter de convaincre de la nécessité d’un transport à l’hôpital"
+            },
+            {
+              "niveau": 1,
+              "texte": "Transporter la victime dans la position dans laquelle elle se sent le mieux (surtout si cette dernière a subi une agression sexuelle)"
+            },
+            {
+              "niveau": 1,
+              "texte": "Informer sur la possibilité d’être aidée en veillant à ne pas émettre des promesses non tenables ou des solutions hors de sa portée"
+            },
+            {
+              "niveau": 1,
+              "texte": "En cas d’absence de transport, transmettre les coordonnées des services compétents et inciter la victime à identifier une personne-ressource."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Précisions",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Il ne s’agit pas de réaliser une enquête, mais d’évaluer les risques encourus afin de déterminer la réponse opérationnelle la plus adaptée dans l’immédiat. Ainsi doit être appréciée la nécessité du recours aux forces de l’ordre, qui ne se fera que dans trois conditions : un danger persistant pour la/les victime(s), pour l’équipage ou lorsque la victime en fait la demande."
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Il est important que le secouriste soit particulièrement vigilant et attentif à repérer et préserver tout élément informatif ou de preuve (sous-vêtements à conserver dans plusieurs sacs neufs séparés, dans le cadre d’une agression sexuelle par exemple …) qui pourrait être utile à la victime dans le cadre d’une future procédure judiciaire. Dans certains cas, notamment celui de l’agression sexuelle, il est important qu’elle puisse être dirigée le plus rapidement possible vers des services spécialisés, urgences médico- judiciaires notamment, certains examens, prélèvements et mise en route de traitement devant être réalisés au plus vite."
+            },
+            {
+              "niveau": 1,
+              "texte": "En cas de transport à l’hôpital, des transmissions complètes sont à faire à l’équipe prenant le relais pour permettre une prise en charge adaptée, la mise en sécurité de la ou des victimes et des soignants. Le contexte des violences selon les dires de la victime, ou les suspicions selon les éléments observés, doivent figurer dans les écrits professionnels."
+            },
+            {
+              "niveau": 1,
+              "texte": "Sauf danger imminent, il faut accepter le choix et le rythme de la victime (si majeure et apte à consentir). Même si l’issue de l’intervention n’est pas celle espérée, toute intervention a un intérêt, même si les effets ne sont souvent pas mesurables dans l’immédiat. Une parole possible, un regard nouveau sur sa situation, des informations apprises peuvent amorcer un changement."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Contexte",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Etat de « crise psychique », temporaire et réversible, dont le risque majeur est le suicide (« acte de se donner délibérément la mort », OMS 2014). Il s’agit d’un moment de la vie d’une personne où celle-ci se sent dans une souffrance majeure, dans une impasse avec l’impossibilité de s’en sortir. La personne est submergée par les émotions, elle présente une fatigue physique et morale qui altère son jugement et l’empêche de raisonner. L’idée suicidaire devient de plus en plus présente et finit par s’imposer comme la seule issue possible à cette souffrance."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Le processus suicidaire se met en place suite à une accumulation de facteurs (familiaux, professionnels, sociaux, etc.) et ne résulte jamais d'une seule origine."
+        }
+      ]
+    },
+    {
+      "titre": "Signes et manifestations :",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Idées et intentions suicidaires Manifestations de crise psychique Existence d’un contexte de vulnérabilité"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "La personne en crise va • Fatigue • Dépression verbaliser certains messages : • Anxiété • Affections psychiatriques"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Tristesse déjà existantes"
+            },
+            {
+              "niveau": 1,
+              "texte": "Directs : « je veux mourir », • Irritabilité, agressivité • Antécédents de passage à"
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "« je veux en finir », « j’ai • l’acte suicidaire Troubles du sommeil perdu le goût de vivre » … • • Alcoolisme, toxicomanies, Troubles des conduites alimentaires"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Perte d’intérêt et de plaisir pathologies graves (cancer,"
+            },
+            {
+              "niveau": 1,
+              "texte": "Indirects : « je n’en peux etc.)"
+            },
+            {
+              "niveau": 1,
+              "texte": "Sentiment d’échec et d’inutilité"
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "plus, je voudrais partir, • Histoire familiale ou"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Mauvaise image de soi et sentiment de"
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "disparaître », « ils seraient événement douloureux dévalorisation mieux sans moi » … • Contexte de rupture"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Impuissance à trouver des solutions à familiale ou conjugale ses problèmes"
+            },
+            {
+              "niveau": 1,
+              "texte": "Licenciement"
+            },
+            {
+              "niveau": 1,
+              "texte": "Troubles de la mémoire"
+            },
+            {
+              "niveau": 1,
+              "texte": "• … Ruminations"
+            },
+            {
+              "niveau": 1,
+              "texte": "Consommation tabagique et alcoolique augmentée"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Conduite à tenir spécifique",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Face à une personne en crise suicidaire, la tâche des secouristes consistera à repousser l’échéance du passage à l’acte en reconnaissant la souffrance de la personne en crise et en discernant les éléments qui augmentent le risque de passage à l’acte."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Pour déterminer les priorités de l’intervention, il convient de procéder assez rapidement à l’évaluation du potentiel suicidaire, en prenant en compte :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "les facteurs d’ urgence , témoins de l’imminence d’un geste (intensité, temporalité, lieu et modalités de l’acte suicidaire envisagés)"
+            },
+            {
+              "niveau": 1,
+              "texte": "les facteurs de dangerosité comme l’accessibilité et la létalité (risque d’entraîner la mort) du moyen envisagé."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Critères d’une urgence élevée",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Planification claire, passage à l’acte prévu pour les jours à venir (élaboration d’un scénario : Comment, Où, Quand ?)"
+            },
+            {
+              "niveau": 1,
+              "texte": "Sentiment d’avoir tout fait et tout essayé et ne plus vouloir d’aide"
+            },
+            {
+              "niveau": 1,
+              "texte": "La douleur et l’expression de la souffrance sont omniprésentes ou complètement tues"
+            },
+            {
+              "niveau": 1,
+              "texte": "Accès direct et immédiat à un moyen de se suicider (médicaments, armes, corde …)"
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "La victime doit percevoir qu’elle est prise en compte et respectée. Le dialogue se réalise avec tact, sans émettre de jugement de valeur (propos moralisateurs ou de « bon sens »). Il faut bannir toute provocation, tout ordre catégorique, se retenir de minimiser les problèmes et de dévaloriser le geste (« une bêtise »). Il s’agit de reconnaître et d’aborder clairement la situation de crise."
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Évaluer le risque (Comment, Où, Quand ?) : « Souffrez-vous au point de vouloir mourir (vous faire du mal) ? » « Pensez-vous à une façon de vous suicider ? » « Avez-vous prévu un moment? Quand ? » « Pensez-vous à un endroit en particulier? »"
+            },
+            {
+              "niveau": 1,
+              "texte": "Évaluer la facilité d’accès aux moyens létaux évoqués par la personne et les éloigner autant que faire se peut : « Pensez-vous à un moyen de vous suicider ? » « Disposez-vous de ce matériel? » « Avez-vous envisagé un moyen de vous le procurer? »"
+            },
+            {
+              "niveau": 1,
+              "texte": "Proposer systématiquement le transport vers l’hôpital afin de procéder à une évaluation spécialisée et éventuellement une hospitalisation."
+            },
+            {
+              "niveau": 1,
+              "texte": "Transmettre l’ensemble des éléments observés et repérés lors de la prise en charge de la personne (victime, entourage, lieux) et rapporter les éléments informatifs (emballages de médicaments, lettre, photo dispositif …) à l’hôpital."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Précisions",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Toute idée suicidaire est à considérer comme un suicide en cours de réalisation. Ainsi, même face à un geste « bénin », un transport pour une évaluation par un spécialiste se révèle indispensable."
+            },
+            {
+              "niveau": 1,
+              "texte": "Les victimes en crise suicidaire doivent être surveillées durant toute l’intervention, y compris durant le transport, car l’impulsion d’un passage à l’acte peut être accentuée par la crainte de l’hospitalisation."
+            },
+            {
+              "niveau": 1,
+              "texte": "Les questions directes posées à une personne qui formule des propos suicidaires peuvent sembler embarrassantes, mais elles permettent pourtant de mieux préciser le mode d’action envisagé. Une personne ayant des idées suicidaires peut en effet interpréter ces questions directes de son interlocuteur comme une compréhension de sa souffrance et à l’inverse, l’absence de questionnement comme un désintérêt."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Contexte",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le secouriste peut être amené à intervenir lors de catastrophes ou de situations exceptionnelles."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Il s’agit d’événements inhabituels survenant de manière brutale , la plupart du temps, entraînant des dégâts tant humains que matériels et pouvant être à l’origine d’un afflux de victimes : catastrophes majeures (telles qu’inondations, feux de forêt, ouragans …) ou Accidents Catastrophiques à Effet Limité (accidents de transport par voie routière impliquant plusieurs véhicules (carambolages) ou des véhicules de transport (autocar, train …), incendies en milieu urbain, les accidents liés au gaz, accidents technologiques, accidents au cours des rassemblements de foule, attentats terroristes), ou encore les pandémies."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Ces événements comportent une extrême violence et s’accompagnent :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "de dégâts matériels, écologiques"
+            },
+            {
+              "niveau": 1,
+              "texte": "d’impacts psychologiques, plus importants si des proches, des amis, des connaissances disparaissent ou si les médias font largement état de la nouvelle en raison de son caractère spectaculaire"
+            },
+            {
+              "niveau": 1,
+              "texte": "d’une insécurité psychique ressentie par des communautés et des populations entières : victimes, témoins, parents, public, sauveteurs dans une certaine mesure, et enfin aussi décideurs et gouvernants eux-mêmes. En effet, ils ont vécu et vivent quelque chose de commun à tous :"
+            },
+            {
+              "niveau": 2,
+              "texte": "la vision horrifiante des cadavres, des blessés et des destructions,"
+            },
+            {
+              "niveau": 2,
+              "texte": "l’immersion dans un monde cauchemardesque opposé au monde paisible de l’existence habituelle,"
+            },
+            {
+              "niveau": 2,
+              "texte": "le contact avec sa propre souffrance psychique ou celle d’autrui,"
+            },
+            {
+              "niveau": 2,
+              "texte": "la prise de conscience de la gravité exceptionnelle de la situation, le décontenancement et le"
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "désarroi, même brefs, face à ce désordre qu’il faut résoudre."
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 2,
+              "texte": "chacun se sent atteint dans son appartenance communautaire."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "L’action de secours peut se révéler particulièrement complexe du fait :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "d’un débordement temporaire des moyens avec parfois la destruction ou l’indisponibilité de certains moyens de secours, un fonctionnement en mode dégradé"
+            },
+            {
+              "niveau": 1,
+              "texte": "d’un afflux de victimes avec la nécessité de procéder à un triage"
+            },
+            {
+              "niveau": 1,
+              "texte": "d’un risque de débordement émotionnel sur un plan collectif (risque de mouvement de foule, panique collective). Concernant ce dernier point, l’anonymat et la tendance à l’imitation favorisent une certaine impulsivité et permettent à l’émotion de l’emporter sur la raison. Des comportements primaires peuvent apparaître. Une panique collective ou une grande violence peuvent alors en résulter. Elle peut se traduire par des comportements collectifs inadaptés (fuite éperdue, bousculades, piétinement …). La panique accroît le danger et le nombre des victimes."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Conduite à tenir spécifique",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Il s’agit là de tenter de gérer un attroupement ou une foule afin de diminuer l’anxiété d’une ou des victimes et des impliqués."
+        }
+      ]
+    },
+    {
+      "titre": "Face à un attroupement ou une foule",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Donner des consignes de dispersion : demander à toute personne présente de s’écarter afin de ne pas gêner l’organisation des secours ou incommoder les victimes."
+            },
+            {
+              "niveau": 1,
+              "texte": "Donner des taches à réaliser aux victimes en état de le faire, aux personnes impliquées ou aux témoins les plus agités (attendre les renforts pour les guider, aller chercher des documents, évacuer...). Ceci a pour effet, en général, de diminuer leur angoisse."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "En cas de mouvement de panique",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Être facilement identifiable en tant que secouriste"
+            },
+            {
+              "niveau": 1,
+              "texte": "Agir de façon coordonnée avec calme"
+            },
+            {
+              "niveau": 1,
+              "texte": "Faire preuve d’autorité en donnant des informations et des directives brèves et claires (anticipation)."
+            },
+            {
+              "niveau": 1,
+              "texte": "Isoler les personnes susceptibles de réenclencher un mouvement de panique, une fois celui-ci enrayé."
+            },
+            {
+              "niveau": 1,
+              "texte": "Créer un périmètre de sécurité."
+            },
+            {
+              "niveau": 1,
+              "texte": "Extraire rapidement la ou les victimes vers un périmètre sécurisé (véhicule, PMA ou bâtiment)."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Les réactions de détresse doivent alerter, elles sont l’indice d’une blessure psychologique grave. Une prise en charge médicale et/ou psychologique est indiquée afin de faire face à l’installation dans la durée de troubles psychotraumatiques."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Il sera donc nécessaire d’orienter ces personnes vers une prise en charge psychologique spécialisée (aux urgences hospitalières ou à proximité de la catastrophe par les Cellules d’Urgences Médico-Psychologiques)."
+        }
+      ]
+    },
+    {
+      "titre": "Rappel sur les Cellules d’Urgence Médico-Psychologique",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Les cellules d'urgence médico-psychologique (CUMP) :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "constituent, en France, un dispositif de prise en charge psychologique précoce des blessés psychiques dans les situations d'urgence collective (événements majeurs, sinistres, ou encore attentats) intervenant dans le cadre du SAMU ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "sont composées de spécialistes (psychiatres, psychologues, infirmiers) spécialement formés à ce type d'urgence ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "sont déclenchées à l'initiative du SAMU"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

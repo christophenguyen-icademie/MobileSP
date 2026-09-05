@@ -1,0 +1,335 @@
+{
+  "nom": "03FT06",
+  "titre": "Nettoyage et désinfection du matériel",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Hygiène et asepsie",
+  "chapitres": [
+    {
+      "titre": "Indication",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Cette procédure est applicable pour les matériels de secours réutilisables."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Cette opération doit être réalisée systématiquement après la prise en charge d’une victime si le matériel a été mis en œuvre, ou de manière périodique (en général hebdomadaire), lors du protocole de désinfection approfondi du véhicule sanitaire."
+        }
+      ]
+    },
+    {
+      "titre": "Justification",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Des infections peuvent être transmises à la victime ou à l’intervenant secouriste par le biais de matériel non désinfecté à l’issue de son utilisation. Le nettoyage suivi de la désinfection permet d’assurer la propreté microbiologique du dispositif médico- secouriste."
+        }
+      ]
+    },
+    {
+      "titre": "Matériel",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Afin de réaliser le nettoyage et la désinfection du matériel, il convient d’avoir :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "un point d’eau propre ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "des gants non stériles à usage unique à manchette longue ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "du savon liquide et/ou un système de distribution de gel pour l’antisepsie des mains ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "un bac permettant l’immersion du matériel ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "deux plans de travail :"
+            },
+            {
+              "niveau": 2,
+              "texte": "l’un destiné au matériel sale,"
+            },
+            {
+              "niveau": 2,
+              "texte": "l’autre destiné au matériel propre."
+            },
+            {
+              "niveau": 1,
+              "texte": "le nécessaire pour procéder au débarras et au lavage. À savoir :"
+            },
+            {
+              "niveau": 2,
+              "texte": "deux seaux de couleurs différentes (par exemple rouge et bleu) et d’une contenance d’environ dix litres,"
+            },
+            {
+              "niveau": 2,
+              "texte": "un sac jaune pour déchets d’activités de soins à risques infectieux,"
+            },
+            {
+              "niveau": 2,
+              "texte": "un sac d’une autre couleur pour les déchets assimilés aux ordures ménagères,"
+            },
+            {
+              "niveau": 2,
+              "texte": "des essuie-tout."
+            },
+            {
+              "niveau": 1,
+              "texte": "l’équipement avec le nécessaire pour utiliser le détergent-désinfectant. À savoir :"
+            },
+            {
+              "niveau": 2,
+              "texte": "des lavettes à usage unique ou lingettes préimprégnées de détergent-désinfectant satisfaisant aux normes antimicrobiennes, Les supports en non-tissé à usage unique sont préférés par commodité."
+            },
+            {
+              "niveau": 2,
+              "texte": "une solution détergente désinfectante pour sols, surfaces, mobilier, dispositifs médicaux, En règle générale, ces solutions sont présentées : § soit en bidon (en général cinq litres), § soit en flacon (en général un litre), § soit en dose individuelle (en général autour de vingt millilitres)."
+            },
+            {
+              "niveau": 2,
+              "texte": "un pulvérisateur ou spray de détergent-désinfectant pour surfaces, matériels et dispositifs médicaux, en flacon avec un pistolet (produit prêt à l’emploi),"
+            },
+            {
+              "niveau": 2,
+              "texte": "une brosse de nettoyage qui a été elle-même désinfectée."
+            },
+            {
+              "niveau": 1,
+              "texte": "les documents de traçabilité des opérations réalisées."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Les serpillères et les éponges sont interdites, car elles constituent des réservoirs de micro-organismes potentiellement pathogènes. Si les textiles de nettoyage sont réutilisés, les laver en machine à haute température (> 60 °C) avec javellisation au dernier rinçage."
+        }
+      ]
+    },
+    {
+      "titre": "Règles générales",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La désinfection du matériel est toujours précédée d’une étape de nettoyage, même si le produit utilisé est un produit détergent-désinfectant. Les personnes chargées de cette opération doivent respecter un circuit précis en distinguant une zone propre d’une zone sale. Elles devront nettoyer et désinfecter les plans de travail à l’issue des opérations."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Le nettoyage et la désinfection du matériel sont réalisés après l’élimination des souillures biologiques (sang, salive, etc.), dès leur production, avec un essuie-tout imprégné d’un détergent-désinfectant. Avant tout nettoyage-désinfection des matériels, il faut :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "s’être lavé les mains ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "avoir mis des gants à usage unique non stériles ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "avoir jeté le matériel à usage unique dans les emballages prévus en respectant les règles du tri ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "avoir sorti de la cellule sanitaire l’ensemble des matériels stockés à l’intérieur ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "avoir déposé l’ensemble du matériel sur un plan de travail réservé pour accueillir le matériel non désinfecté ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "avoir préparé un bas de trempage contenant une solution de détergent-désinfectant en respectant la dilution prescrite."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "À l’issue du nettoyage-désinfection :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "retirer les gants et les jeter dans le sac jaune à déchets mous ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "se laver les mains ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "réintégrer l’ensemble du matériel nettoyé et désinfecté à l’intérieur de la cellule sanitaire et procéder à son inventaire."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Protocole relatif aux matériels immergeables",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "démonter le matériel démontable et faire tremper dans le bac les parties immergeables ainsi que la brosse de nettoyage ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "laisser le matériel en contact dans la solution détergente désinfectante pendant le temps imposé par la notice technique du produit utilisé. Au minimum, respecter un temps de contact de quinze minutes ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "nettoyer et brosser méthodiquement les différentes pièces ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "rincer abondamment les pièces une par une sous l’eau courante ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "sécher avec un support absorbant à usage unique chaque pièce ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "remonter et vérifier l’état de fonctionnement du matériel."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Protocole relatif aux matériels non immergeables",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "démonter les parties amovibles ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "pulvériser une solution détergente désinfectante sur ce matériel à l’aide d’un pulvérisateur ou d’un spray en veillant à ne pas projeter directement la solution sur les parties électriques sensibles ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "étaler la solution pulvérisée sur ce matériel à l’aide d’une lavette en non-tissé à usage unique, propre et sèche ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "laisser sécher et ne pas rincer ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "remonter et vérifier l’état de fonctionnement du matériel."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Risques & Contraintes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Les désinfectants peuvent être irritants pour la peau et les muqueuses (yeux). Il est donc nécessaire de porter des gants appropriés (gants à usage unique pour un usage court, à manchettes longues, sans immersion dans la solution, sinon porter des gants de ménage), des lunettes de protection, une blouse de protection, un masque de protection respiratoire éventuellement. En cas de contact avec les yeux, laver abondamment sous l’eau et consulter un médecin."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "En cas d’ingestion, il est impératif de consulter immédiatement un médecin et de lui montrer l’emballage ou l’étiquette du produit. Ne pas mélanger les différents produits entre eux. Pour les solutions en pulvérisateur, ne pas respirer l’aérosol issu de la pulvérisation. Ne jamais pulvériser sur du matériel électrique (DAE, aspirateur de mucosités). La vérification du fonctionnement du matériel est indispensable avant sa remise en service."
+        }
+      ]
+    },
+    {
+      "titre": "Évaluation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Les procédures de nettoyage-désinfection sont :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "écrites dans un document à la disposition de toutes les personnes susceptibles de réaliser ce type d’action ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "mises à jour régulièrement."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Ces procédures doivent donc être respectées et des fiches de suivi ou d’enregistrement de l’entretien du matériel doivent être créées et renseignées convenablement chaque fois qu’une action de nettoyage- désinfection est menée. Sur ces fiches figurent :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "le type de matériel et son numéro d’identification ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "le type de nettoyage-désinfection réalisé ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "la date de réalisation de celui-ci ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "le nom et la signature de la personne qui a réalisé l’opération."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Régulièrement, l’autorité d’emploi met à jour les procédures d’utilisation du matériel de nettoyage et du suivi, et vise les fiches de suivi d’entretien."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Lors de la réalisation des opérations de désinfection-entretien, la personne :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "porte les équipements de protection adaptés ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "respecte les procédures de nettoyage et de désinfection adaptées à la situation ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "utilise correctement les détergents et les désinfectants employés."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

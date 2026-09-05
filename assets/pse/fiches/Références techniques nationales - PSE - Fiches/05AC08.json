@@ -1,0 +1,183 @@
+{
+  "nom": "05AC08",
+  "titre": "Détresse circulatoire",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Urgences vitales",
+  "chapitres": [
+    {
+      "titre": "Définition",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "On appelle détresse circulatoire une atteinte de la fonction circulatoire dont l‘évolution peut affecter, à court terme, les autres fonctions vitales de l’organisme (fonction respiratoire, fonction neurologique) et conduire au décès de la victime. Si l’arrêt cardiaque est une détresse circulatoire majeure qui relève de gestes de secours immédiats, il existe un certain nombre de situations où une victime peut présenter des signes visibles de détresse circulatoire sans pour autant être en arrêt cardiaque. Les trois fonctions vitales sont étroitement liées et une altération de la fonction circulatoire entraîne, plus ou moins rapidement, une perturbation des autres."
+        }
+      ]
+    },
+    {
+      "titre": "Causes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Plusieurs causes peuvent entraîner une détresse circulatoire. Par exemple :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "une atteinte du cœur, qui devient incapable de faire circuler le sang, comme lors d’un infarctus du myocarde ou d’une insuffisance cardiaque ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "une diminution de la quantité de sang en circulation, par exemple :"
+            },
+            {
+              "niveau": 2,
+              "texte": "lors d’une hémorragie,"
+            },
+            {
+              "niveau": 2,
+              "texte": "lors d’une déshydratation (diarrhée, brûlure étendue …)."
+            },
+            {
+              "niveau": 1,
+              "texte": "une dilatation des vaisseaux sanguins (atteinte du contenant), par exemple lors d’une réaction allergique grave ou d’une intoxication grave."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Certaines causes sont facilement identifiables, comme les hémorragies externes ou extériorisées. D’autres causes sont évoquées devant des signes circulatoires ou grâce au 1 er regard ou au 4 ème regard."
+        }
+      ]
+    },
+    {
+      "titre": "Risques & Conséquences",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’atteinte de la fonction circulatoire risque d’empêcher la délivrance d’oxygène aux organes et de retentir rapidement sur les deux autres fonctions vitales."
+        }
+      ]
+    },
+    {
+      "titre": "Signes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Une détresse circulatoire peut être identifiée : 1. Au début du bilan (2ème regard) si la victime présente un arrêt cardiaque (voir arrêt cardiaque). 2. Lors de l’ appréciation de la fonction circulatoire au cours du bilan (3 ème regard). La victime est le plus souvent agitée ou angoissée et parfois somnolente si elle n’a pas perdu connaissance. Elle présente :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 2,
+              "texte": "une décoloration de la peau ou pâleur qui siège surtout au niveau des extrémités, de la face interne"
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "de la paupière inférieure et des lèvres ;"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 2,
+              "texte": "des marbrures cutanées (alternance de zones pâles et de zones violacées donnant à la peau l’aspect"
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "marbré) prédominantes à la face antérieure des genoux ; Elle est moite (transpiration) et froide au toucher (sueurs froides) Le pouls radial est imperceptible et le pouls carotidien lorsqu’il est perçu est rapide."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "3. La mesure des paramètres physiologiques peut confirmer cette détresse :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 2,
+              "texte": "le temps de recoloration cutanée (TRC) est supérieur à 2 secondes ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "la fréquence cardiaque est supérieure à 120 battements par minute (chez une personne au repos)"
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "ou inférieure à 40 battements par minute ;"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 2,
+              "texte": "la pression artérielle systolique est inférieure à 90 mmHg ou diminuée de plus de 30% de la valeur"
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "de la PA habituelle si la victime est hypertendue. 4. La détresse circulatoire peut ne pas être évidente si elle est en cours de constitution. Elle doit être suspectée devant :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 2,
+              "texte": "l’apparition progressive d’un ou plusieurs signes détaillés ci-dessus,"
+            },
+            {
+              "niveau": 2,
+              "texte": "l’impossibilité pour la victime de rester assis ou debout (vertiges),"
+            },
+            {
+              "niveau": 2,
+              "texte": "une sensation de soif."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Enfin, lors des mesures répétées des paramètres physiologiques (surveillance) ; une accélération du pouls, un allongement du TRC et un pincement puis une chute progressive de la PA doivent faire évoquer l’installation d’une détresse circulatoire (même si ces mesures restent dans les limites de la normale)."
+        }
+      ]
+    },
+    {
+      "titre": "Principe de l’action de secours",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "arrêter immédiatement toute cause évidente de détresse circulatoire comme une hémorragie externe ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "améliorer l’oxygénation et la circulation sanguine de l’organisme et de ses organes vitaux par une position d’attente adaptée et l’administration d’oxygène ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "obtenir rapidement une aide médicale ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "surveiller attentivement la victime et adapter les gestes de secours à l’évolution de la situation."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

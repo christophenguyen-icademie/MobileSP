@@ -1,0 +1,148 @@
+{
+  "nom": "04PR06",
+  "titre": "Transmission du bilan",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Bilans",
+  "chapitres": [
+    {
+      "titre": "Introduction",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La transmission du bilan est un compte-rendu de l’intervention, de l’état de la victime et des actions menées. Il est adressé directement ou indirectement à une autorité médicale ou paramédicale. Après l’examen de la situation et de la ou des victimes, l’équipe secouriste doit transmettre un bilan pour :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "demander un avis médical ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "demander du renfort ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "définir l’orientation de la victime ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "réaliser un relai."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "La transmission du bilan s’effectue à l’aide des moyens et selon les procédures en vigueur entre l’autorité employant les intervenants et l’autorité médicale à laquelle le bilan est transmis."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Cette transmission doit être concise, complète, structurée, logique et présentée de façon chronologique."
+        }
+      ]
+    },
+    {
+      "titre": "La situation nécessite immédiatement des moyens en renfort",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Transmettre tout ou partie du bilan. Cette transmission précise la nature de l’intervention. Elle doit être particulièrement descriptive de la situation lorsque des moyens de secours particuliers sont demandés."
+            },
+            {
+              "niveau": 1,
+              "texte": "Indiquer les moyens déjà présents sur place."
+            },
+            {
+              "niveau": 1,
+              "texte": "Demander les moyens supplémentaires nécessaires."
+            },
+            {
+              "niveau": 1,
+              "texte": "Corriger éventuellement les informations de départ erronées."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "La victime présente une détresse vitale",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "transmettre sans délai une demande de moyen médical en renfort, motivée par la constatation d’une ou plusieurs détresses vitales."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "En particulier, préciser :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "la nature de l’intervention ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "le motif de la demande du renfort médical ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "le sexe et l’âge de la victime."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Ultérieurement, dans les meilleurs délais, compléter par la transmission d’un bilan complet."
+        }
+      ]
+    },
+    {
+      "titre": "La victime ne présente pas de détresse vitale",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Après avoir terminé l’interrogatoire, l’examen de la victime et la mesure des paramètres physiologiques, transmettre la totalité du bilan de façon concise et ordonnée 1 . Pour cela, il convient d’indiquer :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "le motif réel de l’intervention ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "le sexe et l’âge de la victime ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "la plainte principale ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "le résultat du bilan et les gestes de secours entrepris."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "1 En fonction des organismes autorisés et des lésions que présente la victime, une procédure de transmission simplifiée du bilan peut être utilisée."
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

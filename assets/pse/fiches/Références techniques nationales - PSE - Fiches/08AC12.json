@@ -1,0 +1,130 @@
+{
+  "nom": "08AC12",
+  "titre": "Victimes d’explosion",
+  "niveaux": [],
+  "chapitre_principal": "Atteintes circonstancielles et environnementales",
+  "chapitres": [
+    {
+      "titre": "Définition",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Une explosion est un phénomène physique au cours duquel des gaz sous pression et à haute température sont libérés en un temps extrêmement court. Cette libération brutale et soudaine d’énergie génère une augmentation de la pression atmosphérique environnante, suivie d’une dépression immédiate. Cette très haute pression se transmet au milieu ambiant dans toutes les directions sous la forme d’une onde de choc. Les lésions de « blast » désignent l’ensemble des lésions anatomiques générées à la suite d’une forte explosion."
+        }
+      ]
+    },
+    {
+      "titre": "Mécanismes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’explosion initiale, l’onde de choc générée ainsi que son déplacement dans le milieu ambiant sont responsables de mécanismes lésionnels différents. Une même victime peut être soumise à tout ou partie de ces mécanismes en fonction de son éloignement de l’origine de l’explosion :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "le blast primaire : Ce sont des lésions provoquées par l’onde de choc. Elles peuvent se produire à l’air libre, dans l’eau ou au contact de surfaces solides ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "le blast secondaire : Ce sont des lésions induites par la projection de matériaux sur la victime, en raison du déplacement d’air généré par l’explosion (souffle) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "le blast tertiaire : Ce sont des lésions provoquées par la projection de la victime elle-même si le souffle est très puissant ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "le blast quaternaire : Ce sont des lésions induites par l’explosion elle-même, par brûlure externe ou des voies aériennes, par intoxication due aux fumées ou aux produits chimiques."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Lésions de blast primaire",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La propagation de l’onde de choc en milieu aérien entraîne des lésions dues à des phénomènes de cisaillement/surpression, touchant plutôt les organes creux :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "contusion ou rupture des tympans ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "lésions du larynx ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "contusions pulmonaires ou rupture des alvéoles pulmonaires ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "lésions des organes creux abdominaux."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Si l’onde de choc se propage en milieu liquide, les lésions toucheront plutôt les organes pleins (foie, rate, cerveau, yeux). Les lésions de blast peuvent être immédiates et évidentes ; elles peuvent aussi être inapparentes et se manifester de façon retardée, parfois plus de 24 heures après. Ainsi une personne, apparemment indemne, qui s’est trouvée à proximité d’une victime blessée, doit être considérée comme suspecte de blast, même si elle ne se plaint de rien et fera l’objet d’un bilan."
+        }
+      ]
+    },
+    {
+      "titre": "Autres types de lésions",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Les lésions de blast secondaire sont classiquement des lésions réalisant un véritable criblage (visage, avant- bras, zones découvertes)."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Les lésions de blast tertiaire se rapprochent des traumatisés sévères par projection de la victime elle-même. Les lésions de blast quaternaire comprennent les brûlures, les intoxications (fumées, produits chimiques etc.) et les traumatismes psychologiques. Initialement, une victime exposée à une explosion sera abordée comme une victime à multiples lésions : blastée (primaire), blessée, brûlée, bouleversée et intoxiquée."
+        }
+      ]
+    },
+    {
+      "titre": "Signes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le 1er regard est essentiel. Il permet de retrouver la survenue d’une explosion en particulier en milieu clos. Cette notion est suffisante pour considérer que toutes les personnes exposées sont susceptibles de présenter un effet de souffle. Les victimes peuvent être multiples."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "La survenue d’une détresse vitale, respiratoire ou circulatoire traduit la gravité de l’atteinte. Le 4ème regard retrouve souvent de multiples lésions : plaies, brûlures, fractures et lésions internes. Ces dernières peuvent, au début, passer inaperçues et se révéler secondairement. Les signes auditifs comme un bourdonnement d’oreille, le saignement du conduit auditif ou la survenue d’une surdité sont des signes révélateurs. Toute personne exposée à une explosion, même si elle ne présente pas de signe évident, est suspecte d’un traumatisme par effet de souffle et peut secondairement présenter une détresse respiratoire : faire examiner systématiquement par un médecin."
+        }
+      ]
+    },
+    {
+      "titre": "Principe de l’action de secours",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "assurer la sécurité de tous ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "considérer toute personne, même apparemment indemne, comme susceptible d’être victime d’un blast ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "surveiller attentivement la victime."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

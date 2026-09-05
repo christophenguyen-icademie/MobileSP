@@ -1,0 +1,169 @@
+{
+  "nom": "05FT14",
+  "titre": "Mise en place d’une canule oropharyngée",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Urgences vitales",
+  "chapitres": [
+    {
+      "titre": "Indication",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La mise en place d’une canule oropharyngée est indiquée si la victime présente un arrêt cardiaque et que le secouriste a des difficultés à maintenir les voies aériennes de la victime libres pour réaliser une ventilation artificielle à l’aide d’un masque et d’un insufflateur manuel. Ceci se rencontre plus particulièrement avec certaines victimes (victime obèse, cou court) ou lors de RCP prolongée."
+        }
+      ]
+    },
+    {
+      "titre": "Justification",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La mise en place d’une canule oropharyngée permet :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "d’éloigner la base de la langue de la paroi postérieure du pharynx lorsque la bascule de la tête en arrière et l’avancée de la mandibule ne suffisent pas à assurer la liberté des voies aériennes supérieures ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "de faciliter le passage des gaz vers la trachée lors de l’insufflation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Matériel",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La canule est en plastique et comprend :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "une collerette qui se place au contact des lèvres de la victime et qui facilite son maintien en place ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "une partie droite, courte et renforcée, qui vient entre les dents pour éviter un écrasement ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "une partie courbe et longue qui épouse la forme de la base de la langue et vient se placer au-dessus et en arrière de celle-ci pour l’empêcher de s’affaisser sur la paroi postérieure du pharynx."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Il existe plusieurs tailles, essentiellement enfant, petit et grand adulte. La canule oropharyngée est à usage unique."
+        }
+      ]
+    },
+    {
+      "titre": "Réalisation",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "maintenir la tête de la victime en arrière et élever le menton ;"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Chez l’adulte",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "choisir une canule adaptée à la victime ; La canule doit avoir une taille égale à la distance entre les incisives de la victime et l’angle de la mandibule."
+            },
+            {
+              "niveau": 1,
+              "texte": "ouvrir la bouche de la victime avec une main et maintenir la mandibule vers l’avant ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "introduire la canule dans la bouche de la victime, concavité vers le nez, jusqu'à ce que l’extrémité bute contre le palais ; Il faut prendre soin de ne pas entraîner la langue en arrière."
+            },
+            {
+              "niveau": 1,
+              "texte": "effectuer une rotation de la canule de 180 ° tout en continuant de l’enfoncer doucement dans la bouche, jusqu'à ce que la collerette se trouve au contact des lèvres."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "La canule maintenant la bouche ouverte, il est parfois nécessaire d’utiliser un masque d’insufflation d’une taille supérieure à celle utilisée avant la mise en place de celle-ci."
+        }
+      ]
+    },
+    {
+      "titre": "Chez l’enfant, le nourrisson ou le nouveau-né",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "ouvrir la bouche de la victime avec une main et maintenir la mandibule vers l’avant ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "introduire la canule dans la bouche de la victime, concavité vers le menton, en prenant soin de ne pas entraîner la langue en arrière ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "enfoncer doucement la canule dans la bouche, jusqu'à ce que la collerette se trouve au contact des lèvres."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Risques & Contraintes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Une mise en force de la canule peut entraîner des lésions (plaies) de la bouche de la victime, dont le saignement provoque l’encombrement des voies aériennes. Mise en place chez une victime qui n’est pas en arrêt cardiaque, elle peut être à l’origine de vomissements et d’inhalation de vomissures qui compromettent la survie de la victime. N. B. La canule nasopharyngée est réservée uniquement à un usage médical ou paramédical."
+        }
+      ]
+    },
+    {
+      "titre": "Évaluation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La mise en place d’une canule oropharyngée est correcte si :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "la collerette arrive au contact des lèvres et y reste sans forcer ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "la ventilation artificielle est facilitée après la pose."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

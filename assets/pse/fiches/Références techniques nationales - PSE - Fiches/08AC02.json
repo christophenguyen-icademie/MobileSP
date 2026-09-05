@@ -1,0 +1,157 @@
+{
+  "nom": "08AC02",
+  "titre": "Noyade",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Atteintes circonstancielles et environnementales",
+  "chapitres": [
+    {
+      "titre": "Définition",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La noyade est une détresse respiratoire due à l’immersion ou à la submersion de la victime. On parle de submersion lorsque le visage de la victime est recouvert d’eau ou d’un liquide, ce qui entraîne l’asphyxie de la victime et un arrêt cardiaque en quelques minutes. On parle d’immersion lorsque le corps de la victime est dans l’eau alors que sa tête est au-dessus du niveau de l’eau, dans la plupart des cas grâce au port d’un gilet de sauvetage. Dans ce cas, la victime a les voies aériennes au-dessus de l’eau, même si elle a le visage éclaboussé par de l’eau, mais devient rapidement hypotherme. Une personne victime d’une noyade peut mourir ou survivre avec ou sans séquelles, mais quel que soit son devenir, on dira qu’elle a été victime d’une noyade. On parle de noyé lorsque la victime décède à la suite d’une noyade et qu’aucun geste de réanimation n’a été réalisé."
+        }
+      ]
+    },
+    {
+      "titre": "Causes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La noyade peut provenir :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "d’une incapacité de la personne à maintenir ses voies aériennes hors de l’eau, car elle ne sait pas nager (chute dans l’eau) ou est incapable de maintenir ses voies aériennes à l’air libre bien que sachant nager (crampes ou épuisement musculaire, incarcération dans un véhicule tombé à l’eau, un bateau qui a coulé) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "d’une affection médicale qui survient dans l’eau, particulièrement celle qui entraîne un trouble de la conscience, une crise convulsive, un accident vasculaire cérébral ou un trouble du rythme cardiaque ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "d’un traumatisme comme un traumatisme du rachis, la plupart du temps consécutif à un plongeon en eau peu profonde ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "de problèmes spécifiques survenant lors d’une plongée sous-marine (apnée ou en scaphandre autonome)."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "L’hypothermie, l’hypoglycémie, la prise d’alcool ou de toxiques sont autant de facteurs qui peuvent faciliter une noyade."
+        }
+      ]
+    },
+    {
+      "titre": "Risques & Conséquences",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Les conséquences d’une noyade sont multiples et expliquent l’adaptation de la conduite à tenir. Ainsi :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "l’hypoxie (manque d’oxygène) est la conséquence majeure et la plus néfaste de la noyade. Elle est secondaire à l’arrêt volontaire de la respiration et au spasme laryngé réactionnel à l’arrivée d’eau dans les voies aériennes ; Elle est aggravée parfois par la pénétration d’eau dans les poumons, le plus souvent en très petite quantité. La durée de cette hypoxie est le facteur essentiel qui conditionne le devenir de ces victimes."
+            },
+            {
+              "niveau": 1,
+              "texte": "la perte de connaissance est due à l’hypoxie ou parfois à un traumatisme, notamment de la nuque ou du crâne ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "les régurgitations sont fréquentes chez la victime de noyade et le risque d’inhalation de liquide gastrique est très élevé. Ce risque augmente si des tentatives d’extraire l’eau contenue dans l’estomac sont réalisées comme les compressions abdominales ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "l’hypothermie chez la victime de noyade est fréquente et se constitue toujours rapidement. Ce phénomène est amplifié chez le nourrisson et l’enfant ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "l’arrêt cardiaque est le plus souvent d’origine respiratoire, secondaire à la noyade, plus rarement d’origine cardiaque, précédant la noyade."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "La noyade constitue un problème majeur de santé publique. En France, les noyades accidentelles sont responsables de plus de 500 décès chaque année et parfois de graves séquelles. Chez les enfants d’un à quatorze ans, elles représentent la deuxième cause de décès accidentel. Les hommes représentent plus de deux tiers des victimes et les noyades surviennent préférentiellement à la mer ou dans des cours ou plans d’eau."
+        }
+      ]
+    },
+    {
+      "titre": "Signes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "C’est le 1er regard qui permet d’évoquer la noyade. Lors des autres regards, la victime peut être :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "consciente qui est fatiguée, à froid et est souvent angoissée 1 ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "consciente qui présente des signes de détresse respiratoire 2 souvent associés à des vomissements et des frissons ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "qui a perdu connaissance 3 et qui présente des signes de détresse respiratoire sans arrêt de la respiration ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "en arrêt cardiaque 4 ."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Le temps passé dans l’eau, l’âge et les antécédents, sont des facteurs de gravité à prendre en compte lors du bilan."
+        }
+      ]
+    },
+    {
+      "titre": "Principe de l’action de secours",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "assurer le dégagement immédiat et permanent de la victime du milieu aquatique, en toute sécurité ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "identifier son état de gravité ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "réaliser les gestes de secours adaptés à son état ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "assurer une prise en charge médicale rapide."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "1 Communément appelé stade 1.",
+    "2 Elle peut présenter une toux persistante, signe de passage d’eau dans les poumons. Communément appelé stade 2.",
+    "3 Communément appelé stade 3.",
+    "4 Communément appelé stade 4."
+  ]
+}

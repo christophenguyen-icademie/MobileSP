@@ -1,0 +1,175 @@
+{
+  "nom": "01AC01",
+  "titre": "Le citoyen de Sécurité Civile",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Attitude et comportement",
+  "chapitres": [
+    {
+      "titre": "Introduction",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Cette fiche ne fait pas l’objet d’un enseignement spécifique. Les messages ci-après doivent être distillés tout au long de la formation au moment le plus opportun et en fonction de la teneur des échanges."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "La loi de 2004, dite de « modernisation de la sécurité civile », faisait du citoyen un acteur majeur de la Sécurité Civile. Reprise dans l’article L721-1 du Code de la Sécurité Intérieure, elle affirme entre autres que « Toute personne concourt par son comportement à la sécurité civile. En fonction des situations auxquelles elle est confrontée et dans la mesure de ses possibilités, elle veille à prévenir les services de secours et à prendre les premières dispositions nécessaires. »"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Au-delà des gestes techniques de secours, toute formation de Sécurité Civile à destination des citoyens est donc une occasion de rappeler la place essentielle de ces derniers."
+        }
+      ]
+    },
+    {
+      "titre": "Protection juridique du citoyen",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Il est à noter que cette même loi protège le citoyen dans toutes ses actions entreprises de manière isolée et spontanée : « … Quiconque porte assistance de manière bénévole à une personne en situation apparente de péril grave et imminent est un citoyen sauveteur et bénéficie de la qualité de collaborateur occasionnel du service public … ». LOI n° 2020-840 du 3 juillet 2020."
+        }
+      ]
+    },
+    {
+      "titre": "Le premier maillon",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le secouriste est la première personne formée à la prise en charge de victimes d’un accident, un malaise, une aggravation brutale d’une maladie ou toute autre situation venant interrompre leur quotidien, de manière soudaine et inattendue, et susceptible de déborder les capacités individuelles ou collectives à faire face."
+        }
+      ]
+    },
+    {
+      "titre": "Prévenir les accidents de la vie courante ou l’aggravation de situations",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Les services de secours sont souvent sollicités pour des accidents de la vie courante qui touchent particulièrement les enfants de moins de 15 ans et les personnes âgées. Toute action que le citoyen peut mettre en œuvre pour éviter un accident, en supprimant un danger ou en le réduisant, pour lui-même ou son entourage :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "est une occasion de ne pas être impacté, à court, moyen ou long terme par un événement ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "réduit la sollicitation des secours et du système de santé."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Ces actions passent entre autres par le respect des consignes de sécurité édictées par les autorités, collectivités, encadrants d’activités de loisirs ou inscrites dans des notices techniques (électroportatifs, électroménager, produits ménagers, etc.)."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Il est à noter que certaines aggravations de situations pourraient être anticipées ou limitées par l’action du citoyen :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "En allant au-devant des personnes (personne semblant ne pas se sentir bien, personnes fragiles, personnes âgées en période de grand froid ou fortes chaleurs, parent ou voisin dont on a pas de nouvelles, etc.) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "En adoptant une attitude empathique et une posture permettant de réduire l’impact psychologique de la victime ou des témoins pouvant aggraver certaines situations."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Entretenir et développer ses compétences",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Malgré une absence d’obligation de formation continue pour certaines qualifications grand public, il est recommandé que le citoyen actualise régulièrement ses compétences."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "De même, toute personne suivant une sensibilisation aux gestes qui sauvent (GQS), dont le but était initialement de répondre à une situation d’attentat, est invitée à développer ses compétences au travers d’une formation premiers secours citoyen (PSC), formation de base du citoyen permettant de répondre aux enjeux du quotidien, ou d’un niveau supérieur."
+        }
+      ]
+    },
+    {
+      "titre": "S’engager",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Que le citoyen soit confronté de manière directe ou indirecte à une situation dangereuse, un accident, une catastrophe naturelle ou un attentat terroriste, sa mobilisation est essentielle et peut permettre de sauver des vies."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Chaque citoyen peut s’engager sur la base du volontariat ou du bénévolat, pour contribuer à la sécurité du pays et pour aider les victimes. Pompier volontaire, bénévole de Sécurité Civile, réserviste, volontaire du Service civique, il existe de nombreuses façons de mettre ses compétences au service de la solidarité nationale."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Se mobiliser, c’est aussi adopter des gestes simples qui inscrivent chaque citoyen dans une démarche responsable et solidaire : donner son sang, avoir les bonnes pratiques numériques face à l’urgence, installer une application téléphonique de sollicitation citoyenne permettant d’être alerté et mobilisé par les secours en cas d’arrêt cardiaque à proximité (exemples : Staying Alive, Sauv Life, Permis de Sauver, etc.), etc."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "https://www.securite-civile.interieur.gouv.fr/sengager"
+        }
+      ]
+    },
+    {
+      "titre": "Être un « ambassadeur » des messages de sécurité civile",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Être un « ambassadeur » des messages de sécurité civile auprès de son entourage, c’est :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "partager son expérience acquise en formation et inciter à se former aux premiers secours ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "véhiculer les communications relatives à la sécurité civile ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "partager ses compétences lors de crises auprès des associations agréées de sécurité civile."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Impact psychologique d’une intervention",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Toute situation de crise peut avoir un impact psychologique tant sur les victimes que les témoins ou les intervenants. Le citoyen peut être dans l’une de ces trois catégories. La réduction de l’impact psychologique pour le citoyen passe par :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "sa préparation en se formant régulièrement, ce qui lui permet d’intervenir avec une moindre gêne des effets du stress ou de comprendre comment il va être pris en charge s’il est la victime."
+            },
+            {
+              "niveau": 1,
+              "texte": "sa posture lorsqu’il intervient sur une victime : en se mettant à sa hauteur, en l’écoutant et en la rassurant, en l’accompagnant du regard, en respectant son intimité, etc."
+            },
+            {
+              "niveau": 1,
+              "texte": "l’échange avec les secours présents sur place, une fois la victime prise en charge."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

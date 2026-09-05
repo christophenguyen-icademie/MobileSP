@@ -1,0 +1,205 @@
+{
+  "nom": "05FT03",
+  "titre": "Pansement compressif",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Urgences vitales",
+  "chapitres": [
+    {
+      "titre": "Indication",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le pansement compressif est indiqué pour relayer une compression manuelle efficace, lorsque la localisation le permet."
+        }
+      ]
+    },
+    {
+      "titre": "Justification",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La pose d’un pansement compressif permet de libérer le secouriste tout en maintenant une pression suffisante sur la plaie qui saigne pour arrêter l’hémorragie."
+        }
+      ]
+    },
+    {
+      "titre": "Matériel",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Pansement compressif improvisé : un paquet de plusieurs compresses ou un pansement « américain » et une bande élastique adhésive ou autoagrippante ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "Pansement compressif d’urgence 1 pouvant contenir dans le même emballage :"
+            },
+            {
+              "niveau": 2,
+              "texte": "un tampon de mousse, une compresse stérile et une bande élastique ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "une bande élastique équipée d’un tampon de gaze, une languette de maintien (applicateur de pression) et un élément de fermeture."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "L’élasticité de la bande est un élément important si l’on veut obtenir une pression suffisante pour maintenir l’arrêt du saignement."
+        }
+      ]
+    },
+    {
+      "titre": "Dans tous les cas",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "placer le pansement sur la plaie 2 ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "réaliser un bandage serré 3 recouvrant complètement le pansement ;"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Pansement compressif d’urgence",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "suivre les instructions du fabricant, généralement :"
+            },
+            {
+              "niveau": 2,
+              "texte": "retirer le pansement de son emballage sous vide après ouverture ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "si la plaie hémorragique forme une cavité (plaie profonde) la remplir de compresses ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "appliquer le pansement compressif sur la blessure ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "réaliser un tour complet pour bien plaquer le pansement ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "s’il dispose d’un applicateur de pression : § passer le bandage élastique dans la languette de maintien en plastique ; § tendre le bandage élastique en le ramenant en sens inverse, en tirant la languette de maintien en plastique vers le bas ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "enrouler le reste du bandage en le serrant sur le pansement compressif ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "fixer l’élément de fermeture à une des couches du bandage élastique à l’aide des crochets."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Pansement compressif improvisé",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "recouvrir complètement la plaie par une épaisseur de tissu (mouchoirs, torchons, vêtements, etc.), si possible propre ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "fixer ce tissu à l’aide d’un lien large (ou une bande élastique) assez long ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "serrer suffisamment et maintenir ainsi l’arrêt du saignement."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Cas particuliers",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Pour certaines localisations de plaie en zone « non garrotable », il est parfois possible de réaliser un pansement compressif en prenant appui sur un relief osseux opposé. Par exemple :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "cou avec contre-appui sur l’aisselle opposée ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "aisselle avec contre-appui à la base du cou côté opposé ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "fesse avec contre-appui sur le bassin ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "pli inguinal avec contre-appui sur le bassin ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "cuir chevelu avec contre- appui sur le menton."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Ces techniques sont particulièrement utiles en cas de nombreuses victimes où le secouriste ne peut pas rester fixé sur une seule victime."
+        }
+      ]
+    },
+    {
+      "titre": "Risques & Contraintes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le pansement compressif peut être moins efficace qu’une compression manuelle. S’il est constaté une reprise du saignement au travers du pansement (suintement de sang) reprendre la compression manuelle par-dessus. La compression doit être suffisante pour arrêter l’hémorragie. Si la victime se plaint d’une douleur importante à l’extrémité du membre ou si celle-ci devient froide, engourdie ou violacée (couleur du lit de l’ongle), demander un avis médical rapidement."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Certaines localisations ne permettent pas de comprimer suffisamment l’endroit qui saigne (cou, thorax, abdomen). Si l’on est dans l’impossibilité de réaliser ce pansement, la compression manuelle sera maintenue."
+        }
+      ]
+    },
+    {
+      "titre": "Évaluation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le pansement compressif est efficace si le saignement est arrêté."
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "1 De fabrication industrielle, exemples : coussin hémostatique, pansement de type israélien, pansement OLAES, etc.",
+    "2 Si une compression manuelle a déjà été réalisée, la substitution de celle-ci par le pansement compressif doit être la plus rapide possible.",
+    "3 La pression doit être suffisante et éviter la reprise du saignement."
+  ]
+}

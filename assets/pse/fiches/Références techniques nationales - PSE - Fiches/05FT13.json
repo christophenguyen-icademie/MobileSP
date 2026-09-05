@@ -1,0 +1,105 @@
+{
+  "nom": "05FT13",
+  "titre": "Administration d’oxygène par insufflation",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Urgences vitales",
+  "chapitres": [
+    {
+      "titre": "Indication",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’administration d’oxygène par insufflation doit être réalisée lorsque le secouriste effectue une ventilation artificielle par insufflateur manuel et qu’il dispose d’une source d’oxygène."
+        }
+      ]
+    },
+    {
+      "titre": "Justification",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’enrichissement en oxygène de l’air insufflé au cours d’une ventilation artificielle réalisée à l’aide d’un insufflateur manuel accroît l’efficacité des manœuvres de réanimation cardio-pulmonaire en amenant plus d’oxygène à l’ensemble de l’organisme."
+        }
+      ]
+    },
+    {
+      "titre": "Matériel",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "bouteille d’oxygène ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "insufflateur manuel (adulte, pédiatrique ou prématuré) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "« ballon-réserve » 1 ."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Réalisation",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "ouvrir la bouteille d’oxygène ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "connecter le tuyau de raccordement de l’oxygène au débitmètre puis au ballon réserve ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "raccorder le ballon réserve à l’insufflateur manuel si besoin ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "régler le débit de la bouteille d’oxygène à 15 l/min ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "insuffler."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Dès que la mesure de la SpO peut être mesurée de manière fiable, ajuster le débit d’oxygène à la SpO que l’on veut obtenir. En l’absence de SpO fiable, ne pas réduire le débit d’oxygène."
+        }
+      ]
+    },
+    {
+      "titre": "Risques",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’absence d’arrivée d’oxygène ne doit en aucun cas faire interrompre la ventilation artificielle à l’aide de l’insufflateur manuel. Ce dernier permet de réaliser, grâce à ses valves de sécurité, une ventilation artificielle à l’air. L’administration d’oxygène ne doit pas retarder la mise en œuvre de la RCP. L’insufflateur manuel équipé d’un ballon-réserve ne doit pas être utilisé comme moyen d’inhalation, car il augmente la résistance à l’inspiration, peut aggraver la détresse particulièrement chez l’enfant et il convient d’utiliser un moyen adapté à l’inhalation d’oxygène."
+        }
+      ]
+    },
+    {
+      "titre": "Évaluation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Elle se fait sur le degré de remplissage du ballon-réserve qui ne doit jamais être complètement aplati."
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "gaz frais est fermée et l’oxygène s’accumule dans le ballon réserve. Lors de l’expiration, le ballon autoremplisseur de l’insufflateur manuel se remplit avec l’oxygène qui arrive directement de la bouteille et du ballon réserve et très peu d’air extérieur. De plus, une valve d’entrée d’air permet la pénétration d’air extérieur dans le ballon autoremplisseur si le volume d’oxygène contenu dans le ballon réserve n’est pas suffisant pour le remplir. Une soupape de surpression permet aussi la sortie d’oxygène du ballon-réserve si l’alimentation en oxygène est trop importante."
+  ]
+}

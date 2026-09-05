@@ -1,0 +1,122 @@
+{
+  "nom": "07AC04",
+  "titre": "Traumatisme de l’abdomen",
+  "niveaux": [
+    "PSE 2"
+  ],
+  "chapitre_principal": "Traumatismes",
+  "chapitres": [
+    {
+      "titre": "Définition",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Les traumatismes abdominaux portent atteinte à l’intégrité de la cavité abdominale et des organes contenus dans celle-ci. Ces traumatismes concernent les organes pleins (foie, rate, reins), les organes creux (estomac, intestin) et les gros vaisseaux (aorte, veine cave inférieure)."
+        }
+      ]
+    },
+    {
+      "titre": "Causes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Une atteinte de l’abdomen 1 survient lors :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "d’un choc ( direct ) ou d’une compression appuyée ou brutale au niveau de l’abdomen (accident de circulation, chute de grande hauteur…) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "de la pénétration d’un corps étranger dans l’abdomen (projectiles d’arme à feu, arme blanche ou tout objet perforant) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "d’un cisaillement dû à une décélération brusque ( traumatisme indirect ) qui entraîne des lésions des gros vaisseaux abdominaux, du foie ou de la rate ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "d’une explosion (blast)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Risques & Conséquences",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La gravité du traumatisme abdominal est due à l’atteinte des organes abdominaux avec apparition d’une défaillance circulatoire par hémorragie interne. Cette dernière peut survenir de façon extrêmement brutale si ce sont des organes (foie, rate, rein) ou de gros vaisseaux abdominaux qui sont touchés. Le saignement peut être retardé et les signes apparaître secondairement. Les traumatismes avec atteinte des organes creux exposent à un risque infectieux important, car leur contenu est sceptique (matières fécales)."
+        }
+      ]
+    },
+    {
+      "titre": "Signes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’expression du mécanisme : traumatisme parfois violent, direct au niveau de l’abdomen ou indirect."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "La victime peut se plaindre : À l’examen, le secouriste peut trouver :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "d’une douleur spontanée • une douleur à la palpation prudente des côtes ; siégeant au niveau d’une partie • une douleur provoquée lors d’une palpation prudente de ou de tout l’abdomen. l’abdomen qui peut être anormalement dur ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "l’absence de soulèvement de l’abdomen à chaque inspiration ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "une contusion ou une plaie plus ou moins importante 2 ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "des vomissements de sang rouge (hématémèse)."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Toute plaie abdominale est considérée comme grave, même en l’absence de signes de détresse."
+        }
+      ]
+    },
+    {
+      "titre": "Principe de l’action de secours",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "prévenir toute détresse circulatoire par une surveillance attentive ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "installer ou transporter la victime dans une position d’attente adaptée à son état ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "demander un avis médical."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "1 Un traumatisme abdominal ne survient pas uniquement lors d’une atteinte de la face antérieure de l’abdomen, mais aussi lors d’une atteinte des flancs, du dos ou de la partie basse du thorax.",
+    "2 Avec une éventuelle éviscération."
+  ]
+}

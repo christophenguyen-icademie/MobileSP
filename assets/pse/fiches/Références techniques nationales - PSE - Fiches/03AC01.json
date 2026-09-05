@@ -1,0 +1,78 @@
+{
+  "nom": "03AC01",
+  "titre": "Accident d’exposition à un risque viral",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Hygiène et asepsie",
+  "chapitres": [
+    {
+      "titre": "Définition",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Un accident d’exposition à un risque viral est défini comme toute exposition percutanée (par piqûre ou coupure) ou tout contact direct sur une peau lésée ou des muqueuses (bouche, yeux) avec du sang ou un liquide biologique souillé par du sang."
+        }
+      ]
+    },
+    {
+      "titre": "Causes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "On définit par liquides biologiques tous les éléments liquides issus du corps humain, comme le sang, la salive, les urines, les vomissures, le liquide amniotique, le liquide céphalo-rachidien… Le risque de transmission a été prouvé pour les trois virus VIH, VHB et VHC par le sang et les liquides biologiques contenant du sang. En revanche, le risque est considéré comme nul pour les urines et les selles, sauf si elles contiennent du sang. Ce sont alors des liquides biologiques à risque prouvé. Le sperme et les sécrétions vaginales présentent un risque de transmission intrinsèque pour les virus VIH, VHB, VHC."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Les risques avec la salive sont faibles. Cependant, dès que la salive contient du sang (gencives fragiles, traumatisme facial), il s’agit alors d’un liquide biologique à risque prouvé."
+        }
+      ]
+    },
+    {
+      "titre": "Risques & Conséquences",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "En dehors de toute maladie, le sang est normalement stérile. Toutefois, le sang ainsi que les liquides biologiques peuvent véhiculer des agents infectieux divers comme les bactéries, les champignons, les parasites, les virus. Pour la plupart de ces agents, on dispose de médicaments anti-infectieux efficaces. En revanche, pour les virus concernés dans l’accident d’exposition au sang (VIH, VHB, VHC), il y a peu de traitements curatifs. Les risques sont plus importants lors d’une effraction cutanée par un objet piquant, tranchant ou coupant que par un simple contact avec la peau ou les muqueuses. Il convient de ne pas négliger le risque lié à une projection de sang dans les yeux."
+        }
+      ]
+    },
+    {
+      "titre": "Signes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Un accident d’exposition à un risque viral doit être suspecté si :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "une coupure ou une piqûre s’est produite avec un objet ayant été en contact avec un liquide biologique contaminé par du sang (vomissements, sécrétions oropharyngées) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "du sang ou un liquide biologique contenant du sang est projeté sur une muqueuse, en particulier les yeux et la bouche, ou sur une peau lésée (lésions non cicatrisées, maladies de la peau)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Principe de l’action de secours",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "réaliser immédiatement les soins adaptés en cas d’accident d’exposition à un risque viral avéré."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

@@ -1,0 +1,96 @@
+{
+  "nom": "05FT05",
+  "titre": "Gaze imbibée de substance hémostatique",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Urgences vitales",
+  "chapitres": [
+    {
+      "titre": "Indication",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Cette gaze est adaptée pour des hémorragies externes siégeant à la racine d’un membre (creux axillaire, pli de l’aine), au niveau des fesses, du cou et de la tête, et ne permettant pas la mise en place d’un garrot lorsque la compression manuelle continue est inefficace ou impossible."
+        }
+      ]
+    },
+    {
+      "titre": "Justification",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La mise en place d’une gaze imbibée de substance hémostatique permet, par sa présence et en déclenchant un processus d’hémostase (mécanismes d’arrêt du saignement du corps humain), une obstruction de la plaie et un arrêt du saignement."
+        }
+      ]
+    },
+    {
+      "titre": "Matériel",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Ces gazes sont des bandes de tissu imbibées d’une substance chimique dont la propriété est de déclencher, au contact du sang, une réaction de coagulation localisée. Elles sont pliées en rouleau ou en accordéon à l’intérieur de sachets stériles."
+        }
+      ]
+    },
+    {
+      "titre": "Réalisation",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "retirer la gaze de son emballage sous vide après ouverture ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "faire pénétrer la gaze à l’intérieur de la plaie, au contact direct de la source du saignement ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "exercer une pression pendant au minimum 3 min et jusqu'à l’arrêt du saignement ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "Une fois le saignement arrêté :"
+            },
+            {
+              "niveau": 2,
+              "texte": "réaliser la pose d’un pansement compressif pour maintenir en place la gaze imbibée de substance hémostatique et maintenir la pression."
+            },
+            {
+              "niveau": 2,
+              "texte": "noter : le nombre de gazes hémostatiques utilisés et l’heure de la pose et leurs localisations."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Une fois mis en place, NE JAMAIS RETIRER UNE GAZE IMBIBÉE DE SUBSTANCE HÉMOSTATIQUE DE LA PLAIE."
+        }
+      ]
+    },
+    {
+      "titre": "Risques & Contraintes 1",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Une gaze imbibée de substance hémostatique n’est jamais posée au contact des organes et des viscères. En présence de corps étrangers, la pose d’une gaze imbibée de substance hémostatique est contre-indiquée, car sa mise en place peut aggraver la lésion et le saignement. Le saignement peut persister si le paquet de gaze n’est pas suffisant pour arrêter le saignement et boucher la plaie. Dans ce cas, rajouter par-dessus une autre gaze imbibée de substance hémostatique et comprimer à nouveau pendant 3 minutes au minimum. Si vous ne pouvez comprimer vous-même la plaie pour maintenir la gaze (nombreuses victimes), demandez, si possible, à un témoin de réaliser cette compression."
+        }
+      ]
+    },
+    {
+      "titre": "Évaluation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La gaze imbibée de substance hémostatique est efficace si le saignement s’arrête et ne reprend pas."
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "1 Mise en œuvre comme décrit précédemment, ou selon les instructions du fabricant, ce geste ne présente pas de risque particulier."
+  ]
+}

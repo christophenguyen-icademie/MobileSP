@@ -1,0 +1,137 @@
+{
+  "nom": "07FT03",
+  "titre": "Emballage au moyen d’un pansement stérile",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Traumatismes",
+  "chapitres": [
+    {
+      "titre": "Indication",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Cette technique est indiquée pour protéger une ou plusieurs plaies étendues ainsi que les brûlures graves."
+        }
+      ]
+    },
+    {
+      "titre": "Justification",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’emballage au moyen d’un pansement stérile accroît la protection de la zone lésée contre les souillures et permet de limiter la déperdition de chaleur."
+        }
+      ]
+    },
+    {
+      "titre": "Matériel",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le pansement stérile pour brûlures type SSA :"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Le pansement stérile pour brûlures du service de santé des armées, d’un format de 60 x 80 cm, présente :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "une face argentée alvéolée imprégnée de Métalline Ò qui se pose sur la brûlure ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "quatre rubans permettant de l’attacher sur la victime."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Les draps et champs stériles :"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Les champs stériles sont des pièces de tissus de taille suffisante pour recouvrir des lésions étendues."
+        }
+      ]
+    },
+    {
+      "titre": "Avec un pansement stérile pour brûlures type SSA",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "ouvrir l’emballage en plastique et sortir la pochette papier ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "ouvrir la pochette papier et sortir le pansement stérile pour brûlé ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "déplier le pansement en prenant soin de ne pas toucher la partie argentée ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "poser la face argentée alvéolée sur la brûlure ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "attacher le pansement à l’aide des rubans prévus à cet effet."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Avec un drap ou un champ stérile",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "ouvrir l’emballage et sortir le drap ou le champ stérile en le saisissant par ses extrémités ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "déployer le drap ou le champ en tirant dessus ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "envelopper la lésion de la peau avec le drap ou le champ stérile en évitant que la partie du drap qui recouvre la lésion ne touche le sol, les vêtements ou le secouriste ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "maintenir le drap ou le champ à l’aide de ruban adhésif."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Risques & Contraintes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La partie du pansement, du drap ou du champ stérile entrant en contact avec la victime ne doit jamais être touchée par les doigts du sauveteur, même protégés par des gants."
+        }
+      ]
+    },
+    {
+      "titre": "Évaluation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La zone lésée est entièrement recouverte par le pansement."
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

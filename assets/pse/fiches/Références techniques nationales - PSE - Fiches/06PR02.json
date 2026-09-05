@@ -1,0 +1,47 @@
+{
+  "nom": "06PR02",
+  "titre": "Douleur thoracique (non traumatique)",
+  "niveaux": [
+    "PSE 2"
+  ],
+  "chapitre_principal": "Malaises et affections spécifiques",
+  "chapitres": [
+    {
+      "titre": "Face à une urgence ou une détresse vitale, ou en cas d’aggravation",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "appliquer la conduite à tenir adaptée et réaliser en priorité les gestes d’urgence qui s’imposent ;"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Face à une douleur thoracique sans signe évident de détresse",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "appliquer la conduite à tenir devant une victime qui présente un malaise ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "adapter la conduite à tenir avec :"
+            },
+            {
+              "niveau": 2,
+              "texte": "réaliser un électrocardiogramme."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

@@ -1,0 +1,186 @@
+{
+  "nom": "07FT12",
+  "titre": "Pose d’un collier cervical",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Traumatismes",
+  "chapitres": [
+    {
+      "titre": "Indication",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le collier cervical est mis en place aussi bien chez l’adulte que chez l’enfant suspect d'un traumatisme du rachis pour assurer une restriction des mouvements du rachis cervical avant une manœuvre de mobilisation de la victime, si la stabilisation du rachis par une technique manuelle ne peut pas être réalisée, car elle est difficile ou aléatoire. La mise en place du collier cervical est réalisée après installation de la tête de la victime en position neutre. Si la victime est allongée sur le ventre, le collier cervical est installé après son retournement. Le collier cervical ne doit pas être utilisé s’il existe :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "une possible obstruction des voies aériennes ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "une impossibilité de mettre la tête en position neutre (déformation préexistante du rachis cervical)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Justification",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "En limitant les mouvements du rachis cervical, le collier diminue le risque d’apparition ou d’aggravation d’une lésion de la moelle épinière lors de la manipulation d’une victime porteuse d’une lésion du rachis qui menace la moelle épinière."
+        }
+      ]
+    },
+    {
+      "titre": "Matériel",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Un collier cervical adapté à la taille de la victime."
+        }
+      ]
+    },
+    {
+      "titre": "Victime allongée sur le dos",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le secouriste 1 doit :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "maintenir la tête en position neutre pendant toute la manœuvre. Le secouriste 2 doit :"
+            },
+            {
+              "niveau": 1,
+              "texte": "dégager tout ce qui peut gêner la mise en place du collier cervical ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "choisir un collier cervical adapté à la taille de la victime ou en régler la taille ; La hauteur du collier cervical doit être égale à la distance qui sépare le menton du haut du sternum de la victime. Ce réglage se fait en fonction du modèle utilisé."
+            },
+            {
+              "niveau": 1,
+              "texte": "glisser la partie arrière du collier sous la nuque de la victime en dégageant la ou les bandes autoagrippantes ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "positionner la partie avant du collier afin d’obtenir un bon appui menton-sternum ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "ajuster la hauteur du collier, si c’est possible (selon le modèle) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "fixer les sangles ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "réévaluer la liberté des voies aériennes et s’assurer que le collier ne gêne pas la respiration de la victime."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "La mise en place d’un collier cervical n’empêche pas le maintien par un secouriste de la tête de la victime lors de sa mobilisation dans les opérations d’extraction ou pour l’installer sur un dispositif d’immobilisation comme le MID."
+        }
+      ]
+    },
+    {
+      "titre": "Victime assise ou debout",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le secouriste 1 doit :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "se placer de préférence derrière la victime ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "maintenir la tête en position neutre durant toute la manœuvre. Le secouriste 2 doit :"
+            },
+            {
+              "niveau": 1,
+              "texte": "dégager tout ce qui peut gêner la mise en place du collier cervical ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "choisir un collier cervical adapté à la taille de la victime ou en régler la taille ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "positionner la partie avant du collier afin d’obtenir un bon appui menton-sternum ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "glisser la partie arrière du collier sous la nuque de la victime ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "entourer le cou de la victime avec le collier et fixer les bandes autoagrippantes ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "réévaluer la liberté des voies aériennes et s’assurer que le collier ne gêne pas la respiration de la victime."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Risques & Contraintes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Une aggravation ou l’apparition d’un traumatisme de la moelle épinière peut survenir si une restriction des mouvements du rachis cervical n’est pas assurée. Si le collier cervical n’est pas de taille adaptée au cou de la victime, les mouvements de la tête sont possibles. Le collier cervical ne limite pas en totalité les mouvements de rotation et de latéralité de la nuque. La mise en place du collier cervical peut entraîner des complications, comme une obstruction des voies aériennes, une difficulté à assurer une libération des voies aériennes, une compression des vaisseaux du cou avec aggravation d’un traumatisme crânien ou des complications locales par compression. Le collier cervical peut aggraver une détresse respiratoire, particulièrement lorsqu’il est associé à des moyens d’immobilisation comme l’ACT."
+        }
+      ]
+    },
+    {
+      "titre": "Évaluation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le collier cervical doit être :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "adapté à la taille de la victime ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "positionné correctement : en appui sur le sternum et le menton en avant, le haut du dos et la base de la tête en arrière ; les clavicules et les angles de la mandibule latéralement doivent aussi être en contact avec le collier ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "relâché une fois l’immobilisation sur le MID réalisée."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Après mise en place du collier, la liberté des voies aériennes doit être réévaluée."
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

@@ -1,0 +1,113 @@
+{
+  "nom": "08AC15",
+  "titre": "Accident liés à la foudre",
+  "niveaux": [],
+  "chapitre_principal": "Atteintes circonstancielles et environnementales",
+  "chapitres": [
+    {
+      "titre": "Définition",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La foudre est une décharge électrique entre le nuage et la terre. Le foudroyé est possiblement électrisé, polytraumatisé, blasté, brûlé et hypotherme."
+        }
+      ]
+    },
+    {
+      "titre": "Risque",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le risque de foudroiement est majeur lorsque la distance ente le sol et la base du nuage est faible. L’effet de pointe (aiguille rocheuse, arbre isolé, homme debout, etc.) multiplie le risque de recevoir la décharge électrique. L’augmentation du champ électrique se manifeste par l’apparition de filaments bleus ou violets (dit « feux de Saint-Elme ») et la perception de crépitements (dits « abeille ») signifiant alors un danger immédiat. Le métal (mousquetons, piolet, crampon …) n’attire pas la foudre, mais reste un excellent conducteur."
+        }
+      ]
+    },
+    {
+      "titre": "Mécanisme de foudroiement",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Direct La foudre tombe sur la victime et peut se propager d’individu en individu s’ils sont proches les uns des autres (groupe avec foudroiement collectif). Indirect La foudre passe au travers du corps de la victime à partir d’un point de contact (arbre, paroi rocheuse, etc.) ; Par « tension de pas ». Un champ électrique se forme en périphérie de l’impact de la foudre. La victime est électrisée par ce champ. Le risque est majoré quand ses pieds sont écartés, c’est- à-dire, quand son pas est long (cela explique que l’exposition est majeure pour les quadrupèdes)."
+        }
+      ]
+    },
+    {
+      "titre": "Conséquences possibles",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Blast : l’onde de choc précédant le tonnerre peut être responsable d’un blast aérien (tympans) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "Traumatisme : il y a un risque de chute de pierres, de branches, de la victime elle-même."
+            },
+            {
+              "niveau": 1,
+              "texte": "Hypothermie : la victime foudroyée est située le plus souvent dans un environnement hostile et défavorable en terme météorologique, elle est alors exposée au risque d’hypothermie."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Ainsi peuvent survenir :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "L’arrêt cardiaque : plus fréquent dans les foudroiements directs, il est secondaire à un trouble du rythme cardiaque engendré par le courant de foudre."
+            },
+            {
+              "niveau": 1,
+              "texte": "Paralysie 1 liée à la foudre : il s’agit de paralysies induites par le courant de foudre."
+            },
+            {
+              "niveau": 1,
+              "texte": "Trouble de la conscience."
+            },
+            {
+              "niveau": 1,
+              "texte": "Traumatismes ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "Troubles de l’audition par lésion du tympan (blast aérien) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "Marques cutanées en forme de fougère. Ce ne sont pas des brûlures et elles disparaissent progressivement."
+            },
+            {
+              "niveau": 1,
+              "texte": "Brûlures :"
+            },
+            {
+              "niveau": 2,
+              "texte": "superficielles sur les zones les plus humides,"
+            },
+            {
+              "niveau": 2,
+              "texte": "en regard de bijoux ou ceinture,"
+            },
+            {
+              "niveau": 2,
+              "texte": "les brûlures internes sont moins importantes que lors des électrisations industrielles."
+            },
+            {
+              "niveau": 1,
+              "texte": "Troubles de la vision par atteinte directe du cristallin."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "1 Il peut être question de paraplégie ou de tétraplégie, plus ou moins complète. Ces paralysies peuvent régresser spontanément dans les 48 heures. Dans ces cas, la victime doit être systématiquement considérée comme suspecte d’un traumatisme de la colonne vertébrale."
+  ]
+}

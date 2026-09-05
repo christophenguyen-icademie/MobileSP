@@ -1,0 +1,41 @@
+{
+  "nom": "04PR05",
+  "titre": "Surveillance de la victime",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Bilans",
+  "chapitres": [
+    {
+      "titre": "Introduction",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La surveillance permet de suivre l’évolution de l’état de la victime, prendre en compte et surveiller la sensation de froid ou de chaud et l’efficacité des gestes de secours effectués. Elle débute dès le 2ème regard, est constante, et se termine lors de la transmission de la victime à l’équipe chargée d’assurer la continuité des soins. La mesure des paramètres physiologiques est renouvelée toutes les 5 minutes en cas de détresse vitale, sinon toutes les 10 à 15 minutes. Cette surveillance régulière peut être optimisée par l’utilisation d’appareil « multiparamétriques » (FC, PA, SpO , température)"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Devant tout changement d’état de la victime, les gestes de secours sont adaptés immédiatement. Ces éléments sont transmis :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Au médecin régulateur ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "À l’équipe de renfort éventuelle ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "À l’équipe chargée d’assurer la continuité des soins."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

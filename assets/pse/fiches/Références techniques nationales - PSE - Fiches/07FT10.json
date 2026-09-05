@@ -1,0 +1,223 @@
+{
+  "nom": "07FT10",
+  "titre": "Immobilisation d’un membre inférieur au moyen d’une attelle à traction",
+  "niveaux": [],
+  "chapitre_principal": "Traumatismes",
+  "chapitres": [
+    {
+      "titre": "Indication",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Les attelles à traction sont utilisées pour assurer l’immobilisation des traumatismes de la cuisse et des 2/3 supérieurs de la jambe. Elles ne peuvent être installées que sur un membre réaligné. Elles ne peuvent pas être utilisées si :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "les deux membres inférieurs sont atteints (préférer alors le MID) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "il existe un traumatisme de la cheville ou du pied ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "il existe un traumatisme du bassin ou de la partie inférieure du dos."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "L’attelle à traction ne peut être mise en place qu’à la demande et en présence d’un médecin."
+        }
+      ]
+    },
+    {
+      "titre": "Justification",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’immobilisation est obtenue en exerçant une traction sur le membre traumatisé. Cette immobilisation limite les mouvements du membre traumatisé, diminue la douleur et prévient la survenue de complications."
+        }
+      ]
+    },
+    {
+      "titre": "Matériel",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’attelle décrite ici est l’attelle à traction pneumatique dite de Donway . Elle est composée :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "d’une partie supérieure constituée de deux barres métalliques réunies par deux sangles, dont l’une, rembourrée et réglable, constitue l’anneau de blocage du bassin, et l’autre, plus large, soutient la cuisse ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "d’une partie inférieure en forme de « U » et creuse, qui comporte :"
+            },
+            {
+              "niveau": 2,
+              "texte": "une traverse métallique fixe, munie d’une semelle support de pied et de sangles auto- agrippantes,"
+            },
+            {
+              "niveau": 2,
+              "texte": "une large sangle réglable pour soutenir la jambe,"
+            },
+            {
+              "niveau": 2,
+              "texte": "une pompe et un manomètre reliés au tube creux constituant le « U »."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "L’engagement des deux barres supérieures dans les branches creuses du « U » réalise deux vérins, qui, commandés par la pression créée par la pompe, appliquent sur le membre une traction contrôlée par un dynamomètre. Une soupape de sécurité entre en jeu lorsque la pression est excessive."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Il existe d’autres types d’attelles à traction, notamment manuelles."
+        }
+      ]
+    },
+    {
+      "titre": "Réalisation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Si un autre type de matériel est utilisé, respecter les consignes d’installation du fabricant."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Réalisée sous le contrôle d’un médecin, sa mise en place nécessite au moins trois secouristes, formés et entraînés à son utilisation : le secouriste 3 doit :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "réaliser le maintien du bassin ; le secouriste 1 doit :"
+            },
+            {
+              "niveau": 1,
+              "texte": "maintenir le membre blessé dans l’axe par une traction progressive et prudente au niveau de la cheville, le pied bien tendu ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "soulever le membre blessé de quelques centimètres pour la mise en place du matériel. le secouriste 2 doit :"
+            },
+            {
+              "niveau": 1,
+              "texte": "ajuster l’anneau supérieur qui bloque le bassin en le faisant glisser sous le genou et en le remontant juste au sommet de la cuisse ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "attacher la boucle sans la serrer, en réclinant les organes génitaux externes chez l’homme ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "préparer l’attelle en engageant les deux barres supérieures dans les deux branches du « U » et en la positionnant à côté du membre inférieur de la victime ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "régler la longueur de l’attelle ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "mettre à zéro le dynamomètre ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "desserrer les barres de serrage et relever le support de pied ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "glisser l’attelle de part et d’autre du membre traumatisé ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "engager les fiches de l’anneau de blocage du bassin dans les barres supérieures ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "fixer le pied au support de pied, à angle droit, par les bandes autoagrippantes disposées en « huit » ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "utiliser la pompe pour appliquer la pression de traction prescrite par le médecin, en général de 15 kg. L’aiguille du manomètre se trouve alors dans la zone verte du cadran. le secouriste 1 doit :"
+            },
+            {
+              "niveau": 1,
+              "texte": "relâcher alors le maintien du membre. les secouristes 1 et 2 doivent :"
+            },
+            {
+              "niveau": 1,
+              "texte": "ajuster les sangles de cuisse et de jambe en évitant d’appuyer sur la zone traumatisée ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "verrouiller les barres de serrage reliant les barres au « U » ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "demander au médecin de vérifier la bonne installation de l’attelle ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "relâcher la pression en purgeant le circuit par ouverture de la valve quand l’installation est correcte."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Risques & Contraintes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La réalisation d’une immobilisation à l’aide d’une attelle à traction peut provoquer une mobilisation excessive du foyer de fracture si la procédure de mise en place n’est pas respectée et entraîner douleur et complications. En milieu nécessitant des chaussures spéciales (montagne), desserrer les chaussures avant la fin de la mise en place de l’attelle. Les risques de gelures engendrées par les chaussures peuvent être augmentés par l’anneau immobilisateur du bassin."
+        }
+      ]
+    },
+    {
+      "titre": "Évaluation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’immobilisation est correcte si :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "le segment blessé et les articulations sus et sous-jacentes sont immobilisés par l’attelle ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "l’attelle est correctement fixée ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "la douleur ressentie par la victime diminue ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "aucun signe de compression n’apparaît après sa mise en place (circulation en aval correcte) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "il n’y a pas de douleur testiculaire chez l’homme."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

@@ -1,0 +1,193 @@
+{
+  "nom": "01AC03",
+  "titre": "Attitude et comportement du secouriste",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Attitude et comportement",
+  "chapitres": [
+    {
+      "titre": "Introduction",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le secouriste dans ses actions de secours est amené à intervenir en urgence auprès de personnes victimes, en détresse physique et/ou psychologique. Outre la maîtrise des gestes et des techniques de secourisme, l'intervenant doit également être en mesure de dispenser les premiers secours psychologiques."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Toute action de secours sous-entend qu’un événement imprévu, inhabituel et potentiellement dangereux ait touché une ou plusieurs personnes, considérées alors comme victimes. En fonction du niveau d’exposition à cet événement « critique » et du vécu de la situation, l’impact psychologique et la blessure psychique potentielle qui en découlent seront variables."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Le secouriste devra prendre en compte ces dernières dans leur ensemble, tant les victimes primaires que les victimes secondaires. Les premières auront été directement exposées à l’événement en tant que sujet (avoir subi), acteur (avoir provoqué volontairement ou involontairement) ou encore comme témoin (avoir vu, assisté). Elles peuvent être impactées dans leur corps (blessures physiques), mais aussi moralement (blessures psychologiques). Et puis, les secondes, les proches des victimes primaires (parents, amis, collègues …), non confrontées directement à l’événement critique, peuvent devenir victimes secondaires lorsqu’elles découvrent ce qui est arrivé à leur proche et qu’elles ressentent un stress intense et des émotions douloureuses."
+        }
+      ]
+    },
+    {
+      "titre": "Prise en compte de l’impact psychologique",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Les personnes exposées à des événements critiques répondent naturellement par une réaction de stress, dont les manifestations varient en fonction de l’impact psychologique de la situation sur elles et de la détresse potentielle qui en découle."
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Face à une situation soudaine, imprévue et potentiellement menaçante, toute personne présentera un ensemble de manifestations regroupées sous le terme de réaction de stress."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Considérée comme un moyen de défense, cette réaction psychologique et physiologique urgente, favorise une adaptation de la personne à la situation afin de la fuir ou de s’en défendre. L’activation physiologique (libération d’hormones du stress, excitation du système nerveux central et du système nerveux autonome) entraîne un état d’alerte repérable notamment par l’augmentation de la fréquence respiratoire, de la fréquence cardiaque et de la pression artérielle."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Des frissons, des tremblements et une pâleur peuvent également être observés. La victime peut exprimer une sensation de faiblesse, des sensations pénibles de « boule dans la gorge », de striction thoracique, de « nœud à l’estomac », se plaindre de spasmes viscéraux désagréables, de maux de tête, de nausées, et ressentir une envie impérieuse d’uriner. Peuvent être associés des symptômes psychomoteurs, tels que lenteur ou imprécision des gestes et altération de la voix."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Sur le plan psychologique, des phénomènes adaptatifs s’enclenchent : incitation à l’action, focalisation sur la situation dangereuse, identification rapide de stratégies pour faire face. Certaines manifestations gênantes peuvent également être ressenties sur le plan psychique, telles qu’un vécu d’irréalité et/ou de tension."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Utile, adaptative, mais brève, cette réaction de stress est en revanche très coûteuse en énergie. Une fois la menace écartée apparaît un état ambigu d’euphorie et d’épuisement."
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Quand le stress est trop intense, trop prolongé ou chronique, il peut devenir incapacitant. Notamment, quand la personne perçoit le danger ou la contrainte comme étant plus élevé que ses capacités à faire face, elle ressent une insécurité massive et ne parvient plus à gérer le stress."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Le cortex préfrontal, siège des capacités cognitives, n’est plus en mesure de réguler l’action des amygdales cérébrales, sièges des émotions."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "La victime perd alors sa capacité à s’adapter, est en rupture d’équilibre et présente à ce moment-là des réactions inhabituelles traduisant un état de crise (cf. : chapitre « Les personnes en situation de crise »)."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Le retentissement psychologique est avant tout un vécu personnel, qui se vit avec plus ou moins d’intensité selon le contexte, selon le sens que lui attribue la personne, selon sa culture, son éducation, son histoire personnelle, ses antécédents et sa personnalité."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Les effets de l’impact psychologique (cf. « évaluation de l’impact psychologique » ) sont observables au travers des perturbations des fonctions cognitives (altération de la capacité à penser efficacement), émotionnelles (sentiments de peur, tristesse, impuissance, colère, etc.), et comportementales (agressivité, prostration, stupeur, fuite panique …)."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Plus l’impact psychologique est important chez la victime, plus le risque de blessure psychologique est élevé. Ces victimes nécessitent d’être orientées vers une prise en charge psychologique spécialisée aux urgences hospitalières ou sur les lieux par la CUMP (Cellule d’Urgence Médico-Psychologique) en cas d’événements impliquant de nombreuses victimes."
+        }
+      ]
+    },
+    {
+      "titre": "Attitude adaptée et abord relationnel de la victime",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le secouriste a pour mission de prévenir et de soulager toute souffrance qu’elle soit physique ou psychique. Son attitude joue un rôle important, car il est autant apprécié sur la qualité des gestes techniques que sur l’aptitude à développer une relation humaine d’aide et de soutien aux personnes en détresse."
+        }
+      ]
+    },
+    {
+      "titre": "Comportement général du secouriste",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le secouriste doit faire preuve d’organisation, de rigueur et de professionnalisme. En mission, il a une tenue propre et correcte, associée à une bonne hygiène. C’est à partir de ces éléments que la victime se constituera une première opinion du secouriste, mais également de la structure qu’il représente. Cette première impression est primordiale et peut influencer la réaction de la victime et de son entourage."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Le secouriste agit avec calme. Il intervient avec humanité et gagne la confiance de la victime et de son entourage d’autant plus facilement qu’il est courtois, attentif et posé."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Le secouriste veille à ce que peut induire sa propre attitude pour éviter tout conflit qui pourrait nuire au bon déroulement de l’intervention. La dégradation d’une situation ne tient souvent qu’à une parole ou un comportement."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Les victimes ou leur entourage peuvent parfois vivre l’intervention des secours comme une irruption, voire une intrusion difficilement supportable. Il s’agit donc d’intervenir dans le calme et avec humilité, en adoptant une attitude respectueuse tant à l’égard des personnes que des lieux (précautions lors de déplacements de meubles, bibelots, par exemple…)."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Il est respectueux de chaque individu et de sa vie privée."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Au même titre que les personnels de santé, les secouristes sont tenus par le secret professionnel. Les informations recueillies ne peuvent être divulguées qu’aux personnes contribuant à la prise en charge 1 ."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Il est important de retenir que les victimes se trouvent dans un moment de vulnérabilité et souvent en difficulté d’adaptation. C’est donc au secouriste que revient la nécessité de s’adapter à elles et à leurs besoins."
+        }
+      ]
+    },
+    {
+      "titre": "Principes de l’abord relationnel",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’abord de la victime est une phase déterminante."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "En effet, bien que son intervention soit très limitée dans le temps, la qualité de la relation mise en place influencera l’ensemble de la prise en charge, de l’adhésion de la victime à son rétablissement."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "L’empathie dont il fait preuve ne doit donc pas être considérée uniquement comme une qualité humaine, mais bien comme une véritable compétence professionnelle à développer pour assurer pleinement sa mission de secours à personne (cf. « l’abord relationnel en pratique » )."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Le secouriste s’attache à soigner l’ensemble des aspects de sa communication, verbale et non verbale, en s’adressant toujours directement à la victime, quel que soit son âge. Le secouriste se montre particulièrement attentif :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "à la distance interpersonnelle, en établissant une « juste distance » ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "à se placer à son niveau en la regardant dans les yeux pour lui montrer l’intérêt qu’il lui porte ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "à l’attitude verbale, en utilisant :"
+            },
+            {
+              "niveau": 2,
+              "texte": "un vocabulaire et un ton adapté ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "des phrases courtes, claires et respectueuses ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "le vouvoiement et en appelant la personne par son nom ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "le tutoiement et en appelant un enfant par son prénom ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "au toucher, grâce auquel le secouriste manifeste du soutien, du réconfort et témoigne d’une qualité de présence à la victime."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "de l'action sociale et des familles a droit au respect de sa vie privée et du secret des informations la concernant.\" La définition est précisée par l'Article R4127-4. Article 226-13 du code pénal incrimine « La révélation d’une information à caractère secret par une personne qui en est dépositaire soit par état ou par profession, soit en raison d’une fonction ou d’une mission temporaire »."
+  ]
+}

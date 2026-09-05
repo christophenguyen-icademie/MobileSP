@@ -1,0 +1,66 @@
+{
+  "nom": "05PR08",
+  "titre": "Détresse respiratoire",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Urgences vitales",
+  "chapitres": [
+    {
+      "titre": "Face à une urgence vitale, ou en cas d’aggravation",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "appliquer la conduite à tenir adaptée et réaliser en priorité les gestes d’urgence qui s’imposent ;"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "La victime est consciente 1",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "laisser s’installer la victime dans la position qui lui est la plus confortable, lui proposer la position demi- assise ou assise 2 ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "desserrer tous les vêtements qui peuvent gêner la respiration ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "administrer de l’oxygène en inhalation :"
+            },
+            {
+              "niveau": 2,
+              "texte": "adapter cette administration à la valeur de la SpO ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "en l’absence de valeur de SpO , poursuivre l’administration jusqu’à obtenir un avis médical ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "protéger la victime contre le froid, la chaleur ou les intempéries."
+            },
+            {
+              "niveau": 1,
+              "texte": "poursuivre le bilan et surveiller attentivement la ventilation."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "1 Après avoir traité une urgence vitale s’il y en avait une.",
+    "2 La position assise ou demi-assise libère les mouvements du diaphragme et améliore la respiration."
+  ]
+}

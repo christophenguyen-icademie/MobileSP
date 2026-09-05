@@ -1,0 +1,158 @@
+{
+  "nom": "04FT04",
+  "titre": "Libération des voies aériennes chez une victime non traumatisée",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Bilans",
+  "chapitres": [
+    {
+      "titre": "Indication",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La libération des voies aériennes (LVA) par bascule prudente de la tête en arrière et élévation du menton est réalisée chez toute victime ayant perdu connaissance, non suspecte d’un traumatisme du rachis, avant d’apprécier sa respiration."
+        }
+      ]
+    },
+    {
+      "titre": "Justification",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La perte de connaissance provoque une forte diminution du tonus musculaire qui entraîne, si la victime reste allongée sur le dos, une obstruction des voies aériennes par chute de la langue et de l'épiglotte en arrière. La LVA par bascule prudente de la tête en arrière et élévation du menton permet de dégager la langue de la paroi postérieure du pharynx et la libre circulation de l’air :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "pour apprécier la ventilation d’une victime qui a perdu connaissance lors du 2ème regard ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "pour faciliter la ventilation d’une victime qui a perdu connaissance et qui ventile ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "pour réaliser une ventilation artificielle."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Chez le nouveau-né et le nourrisson, du fait de leur anatomie, ce mouvement doit se limiter à ramener la tête en position neutre afin de ne pas entraîner une obstruction des voies aériennes."
+        }
+      ]
+    },
+    {
+      "titre": "Matériel",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Aucun matériel."
+        }
+      ]
+    },
+    {
+      "titre": "Réalisation",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "desserrer ou dégrafer rapidement tout ce qui peut gêner la respiration ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "placer la paume d’une main sur le front de la victime ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "placer 2 ou 3 doigts de l’autre main, juste sous la pointe du menton en prenant appui sur l’os. Éventuellement s’aider du pouce pour saisir le menton ;"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Chez l’adulte ou l’enfant",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "basculer doucement la tête de la victime en arrière en appuyant sur le front tout en élevant le menton pour libérer les voies aériennes."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Chez le nouveau-né ou le nourrisson",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "amener doucement la tête du nourrisson en position neutre dans l'alignement du torse ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "élever le menton tout en évitant une bascule excessive susceptible de provoquer une extension du rachis cervical et une gêne de la ventilation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Dans tous les cas",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "retirer les éventuels corps étrangers visibles à l’intérieur de la bouche de la victime avec la main qui était sur le front, y compris les prothèses dentaires décrochées, sans toucher à celles qui sont restées en place."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Risques & Contraintes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La LVA chez toute victime ayant perdu connaissance, non suspecte d’un traumatisme, est un geste salvateur qui nécessite cependant une réalisation avec précaution, afin d’éviter toute aggravation d’un traumatisme cervical méconnu."
+        }
+      ]
+    },
+    {
+      "titre": "Évaluation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La libération des voies aériennes est efficace si :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "la respiration de la victime peut s’effectuer normalement ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "la ventilation artificielle permet un soulèvement de la poitrine, en présence d’une victime qui ne respire pas."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

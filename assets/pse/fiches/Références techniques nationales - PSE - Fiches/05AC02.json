@@ -1,0 +1,81 @@
+{
+  "nom": "05AC02",
+  "titre": "Hémorragies externes",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Urgences vitales",
+  "chapitres": [
+    {
+      "titre": "Définition",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Une hémorragie est une perte de sang qui provient d'une plaie ou d'un orifice naturel et qui ne s'arrête pas spontanément. Elle imbibe de sang un mouchoir de tissu ou de papier en quelques secondes."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Un saignement dû à une écorchure, une éraflure ou une abrasion cutanée, qui s'arrête spontanément n'est pas une hémorragie."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Le plus souvent, il est facile de constater une hémorragie. Toutefois, celle-ci peut temporairement être masquée par la position de la victime ou un vêtement particulièrement absorbant (manteau, blouson, etc.)."
+        }
+      ]
+    },
+    {
+      "titre": "Causes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L'hémorragie est généralement secondaire à un traumatisme comme un coup, une chute, une plaie par un objet tranchant (couteau), un projectile (une balle) ou une maladie comme la rupture de varice chez la personne âgée."
+        }
+      ]
+    },
+    {
+      "titre": "Risques & Conséquences",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Sous l’effet d’une hémorragie, la quantité de sang de l’organisme diminue. Dans un premier temps, la fréquence cardiaque augmente pour compenser cette perte et maintenir un débit et une pression suffisante dans les vaisseaux afin d’assurer la distribution de sang à l’organisme. Dans un deuxième temps, si le saignement n’est pas arrêté, la pression sanguine s’effondre, le débit diminue et une détresse circulatoire apparaît. Elle peut provoquer un « désamorçage de la pompe » et un arrêt du cœur. Une hémorragie externe menace immédiatement ou à très court terme la vie d’une victime."
+        }
+      ]
+    },
+    {
+      "titre": "Signes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’hémorragie externe est, le plus souvent, évidente et constatée au début du bilan (2ème regard)."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Parfois, elle est découverte lors de la recherche de lésions traumatiques (4ème regard). En effet, l’hémorragie peut être temporairement masquée par la position de la victime ou un vêtement particulier (manteau, blouson). L’hémorragie externe doit être différenciée d’un saignement minime, peu abondant, dû à une écorchure, une éraflure ou une abrasion cutanée, qui lui s’arrête spontanément."
+        }
+      ]
+    },
+    {
+      "titre": "Principe de l’action de secours",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "arrêter immédiatement l’hémorragie pour limiter la perte de sang ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "rechercher une détresse circulatoire ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "limiter les conséquences."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

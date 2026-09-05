@@ -1,0 +1,85 @@
+{
+  "nom": "05AC06",
+  "titre": "Perte de connaissance",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Urgences vitales",
+  "chapitres": [
+    {
+      "titre": "Définition",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La perte de connaissance est la perte permanente ou temporaire de l’aptitude à communiquer et à réagir avec d’autres personnes et avec l’environnement."
+        }
+      ]
+    },
+    {
+      "titre": "Causes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Les causes d’une perte de connaissance peuvent être d’origine traumatique, médicale ou toxique."
+        }
+      ]
+    },
+    {
+      "titre": "Risques & Conséquences",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le risque de la perte de connaissance est d'évoluer vers l'arrêt respiratoire et l'arrêt cardiaque. En effet, la respiration n'est possible que si les voies aériennes permettent le passage de l'air sans encombre."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Une personne qui a perdu connaissance, laissée sur le dos, est toujours exposée à des difficultés respiratoires, du fait de l'encombrement ou de l'obstruction des voies aériennes par :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "des liquides 1 présents dans la gorge (salive, sang, liquide gastrique) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "la chute de la langue 2 et de l'épiglotte en arrière."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Signes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Au cours du 2ème regard, l’appréciation de la conscience est réalisée en quelques secondes. Une personne a perdu connaissance lorsqu'elle ne répond et ne réagit à aucune sollicitation verbale ou physique, mais respire."
+        }
+      ]
+    },
+    {
+      "titre": "Principe de l’action de secours",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "préserver la respiration en maintenant la liberté de ses voies aériennes ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "limiter l’aggravation d’une éventuelle lésion du rachis."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "1 Du fait d’une diminution des réflexes, en particulier de déglutition.",
+    "2 Du fait d’une forte diminution du tonus musculaire. Cette obstruction peut empêcher toute respiration naturelle ou artificielle."
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "nom": "06FT01",
+  "titre": "Positions d’attente et de transport",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Malaises et affections spécifiques",
+  "chapitres": [
+    {
+      "titre": "Indication",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La position d’attente et de transport est adaptée à l’état et à la détresse de la victime. Ainsi, on distingue, outre la position latérale de sécurité :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "la position à plat dos, horizontale ; C’est la position d’attente et de transport courante pour toute victime. Elle est particulièrement indiquée si celle-ci présente une détresse circulatoire, nécessite une RCP, ou présente les signes d’un AVC."
+            },
+            {
+              "niveau": 1,
+              "texte": "La position assise ou demi-assise ; C’est une position souvent confortable pour les victimes. Elle est particulièrement indiquée si la victime présente une détresse ou une gêne respiratoire pour lui permettre de mieux respirer."
+            },
+            {
+              "niveau": 1,
+              "texte": "La position allongée sur le côté ; Cette position facilite le transport des victimes qui présentent des vomissements. Elle est aussi indiquée pour le transport des femmes enceintes dans les derniers mois de la grossesse ou en imminence d’accouchement."
+            },
+            {
+              "niveau": 1,
+              "texte": "La position cuisses fléchies, jambes repliées. Elle est indiquée pour les victimes qui présentent une contusion, une plaie grave de l’abdomen ou de violentes douleurs abdominales."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Justification",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La position d’une victime, dans l’attente d’un renfort ou pour son transport à l’hôpital, est un des facteurs qui permet de stabiliser ou d’améliorer son état et de rendre plus confortable son attente ou son déplacement."
+        }
+      ]
+    },
+    {
+      "titre": "Matériel",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Aucun matériel particulier n’est nécessaire pour installer une victime en position d’attente. Toutefois, le maintien dans cette position est facilité par l’utilisation :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "du brancard ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "d’un matelas immobilisateur à dépression ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "de coussins ou couvertures roulées ou repliées."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Position à plat dos, horizontale",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Lorsque nécessaire, une victime peut être installée dans cette position, après avoir été retournée si elle était initialement allongée sur le ventre."
+        }
+      ]
+    },
+    {
+      "titre": "Position assise ou demi-assise",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Cette position peut être obtenue très rapidement en demandant à la victime de s’asseoir dans un fauteuil ou sur une chaise, en l’appuyant contre une paroi verticale (arbre, mur), en glissant des oreillers ou des coussins dans son dos ou en demandant à un secouriste de se placer à genoux, derrière elle. Cette position peut être maintenue après avoir installé la victime sur le brancard, en relevant la têtière du brancard."
+        }
+      ]
+    },
+    {
+      "titre": "Position sur le côté",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La victime peut être mise sur le côté, aussi bien en position allongée que demi-assise."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Cette position est obtenue en demandant à la victime de s’installer sur le côté ou en l’aidant à se placer sur le côté en la roulant au sol. Cette position peut être maintenue en installant la victime sur un matelas immobilisateur à dépression ou sur un brancard."
+        }
+      ]
+    },
+    {
+      "titre": "Position jambes fléchies",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Cette position est obtenue :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "en demandant à la victime consciente de maintenir ses membres inférieurs fléchis ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "en glissant des coussins ou une couverture repliée sous les genoux de la victime."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Si le brancard le permet, cette position est maintenue en relevant les parties intermédiaires du brancard au niveau des membres inférieurs."
+        }
+      ]
+    },
+    {
+      "titre": "Risques",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La mise en position d’attente comporte certains risques parce qu’elle nécessite parfois de mobiliser une victime traumatisée."
+        }
+      ]
+    },
+    {
+      "titre": "Évaluation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La position d’attente choisie est adaptée à l’état ou à la détresse de la victime."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "La victime est installée confortablement et la position est stable."
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

@@ -1,0 +1,301 @@
+{
+  "nom": "06FT02",
+  "titre": "Aide à la prise de médicaments",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Malaises et affections spécifiques",
+  "chapitres": [
+    {
+      "titre": "Indication",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’administration d’un médicament à une victime est indiquée si elle le demande, car il lui a été prescrit, ou à la demande du médecin régulateur. Dans certaines situations, le médecin régulateur peut demander l’administration d’un médicament à une victime, même en l’absence de signes de détresse, mais pour la prévenir."
+        }
+      ]
+    },
+    {
+      "titre": "Justification",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Certains médicaments ont un effet rapide et très efficace sur des malaises ou l’aggravation brutale d’une maladie. Leur administration permet de :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "améliorer l’état de la victime qui présente une détresse respiratoire ou circulatoire ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "soulager, diminuer ou faire disparaître une douleur qui est apparue au moment du malaise ou du traumatisme, ou qui vient de s’aggraver."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Matériel",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Les médicaments administrés dans ce cadre le sont par injection, par inhalation, par pulvérisation nasale, par ingestion (voie orale), déposés sous la langue (voie sublinguale) ou déposés sur la langue (voie buccale). Ils sont sous forme :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "d’un gaz (ex. oxygène) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "de spray buccal, parfois administré par l’intermédiaire d’une chambre de mélange (ou chambre d’inhalation) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "de spray nasal (ex. naloxone en spray) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "de comprimés ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "de dispositif auto injectable (DAI) (ex. DAI d’adrénaline)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Dans tous les cas",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "S’assurer de la prescription médicale ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "Vérifier la date de péremption du produit."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Administration d’un médicament par voie sublinguale ou buccale",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "s’assurer que la victime ne présente aucun trouble de la conscience ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "demander à la victime d’ouvrir la bouche ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "déposer le comprimé ou réaliser une pulvérisation de produit sous la langue si l’administration est sublinguale ou sur la langue si l’administration est buccale ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "demander à la victime de fermer la bouche et de ne pas avaler."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Administration d’un médicament par voie orale",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "s’assurer que la victime ne présente aucun trouble de la conscience et est capable d’avaler ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "demander à la victime d’ouvrir la bouche et de tirer la langue ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "déposer le comprimé sur la langue de la victime si elle ne peut le faire elle-même ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "demander à la victime d’avaler le comprimé avec un peu d’eau."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Administration d’un médicament à l’aide d’un spray buccal",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "suivre les instructions du fabricant, généralement :"
+            },
+            {
+              "niveau": 2,
+              "texte": "secouer vigoureusement le pulvérisateur plusieurs fois ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "mettre en place le pulvérisateur au niveau de la chambre de mélange (ou d’inhalation) 1 si nécessaire ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "enlever l’administration d’oxygène, si nécessaire ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "demander à la victime de vider autant que possible l’air contenu dans ses poumons ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "mettre les lèvres de la victime tout autour de l’embout buccal du pulvérisateur ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "demander à la victime de comprimer le pulvérisateur tout en inspirant lentement par la bouche, profondément et le plus longtemps possible ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "demander à la victime de retenir sa respiration pendant 10 secondes avant de respirer de nouveau normalement ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "replacer le masque à inhalation d’oxygène, si nécessaire."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Administration d’un médicament à l’aide d’un dispositif auto-injectable",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Après vérification de la limpidité de la solution, l’injection avec un DAI est réalisée par voie intramusculaire sur la face externe de la cuisse ou à défaut dans le deltoïde (face externe de l’extrémité proximale du bras)."
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "suivre les instructions du fabricant, généralement :"
+            },
+            {
+              "niveau": 2,
+              "texte": "retirer les dispositifs de protection du DAI ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "placer l’extrémité du DAI (coté seringue) contre la face externe de la cuisse de la victime, à égale distance de la hanche et du genou ou contre le deltoïde (en cas d’urgence, l’injection peut être faite au travers du tissu d’un vêtement si celui-ci n’est pas très épais) ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "maintenir fermement le DAI perpendiculairement contre la face externe de la cuisse ou contre le deltoïde ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "presser le bouton déclencheur ou avec un mouvement de balancement, pousser fermement l’extrémité du dispositif jusqu’à ce que l’on entende un déclic qui confirme le début de l’injection ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "maintenir le dispositif en place pendant quelques secondes avant de le retirer, conformément aux indications du fabricant ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "masser légèrement le site d’injection pendant quelques secondes ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "éliminer le dispositif injecteur dans un conteneur de recueil de DASRI."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Administration d’un médicament à l’aide d’un spray nasal",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "suivre les instructions du fabricant, généralement :"
+            },
+            {
+              "niveau": 2,
+              "texte": "se munir du ou des pulvérisateurs 2 ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "tenir le pulvérisateur délicatement entre les doigts et le pouce sans appuyer sur le piston ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "placer l’embout du pulvérisateur complètement dans la narine de la victime en direction de la paroi nasale, à l’opposé de la cloison ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "appuyer fermement sur le piston pour délivrer le médicament ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "renouveler cette opération dans l’autre narine si indiqué ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "observer les réactions de la victime."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Risques & Contraintes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Avant toute utilisation d’un médicament, il convient de s’assurer que celui-ci n’est pas périmé. La date de péremption est clairement inscrite sur la boîte ou le flacon du médicament. En son absence ou si elle est dépassée, le médicament ne doit pas être administré. L’administration d’un médicament peut entraîner des effets secondaires dont l’apparition impose la transmission d’un nouveau bilan pour avis médical. Toute administration de médicament ainsi que les réactions de la victime à cette administration doivent être relevées et notifiées sur la fiche d’intervention, en particulier son heure d’administration."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Les DAI possèdent une fenêtre qui permet de contrôler la limpidité de la solution. Si la solution est trouble, colorée ou contient des particules, le dispositif ne devra pas être utilisé. Les DAI sont équipés d’un système de protection de l’aiguille. Toutefois, si le secouriste se pique avec l’aiguille qui a servi à l’injection, il appliquera la procédure spécifique « accident d’exposition à un risque viral »."
+        }
+      ]
+    },
+    {
+      "titre": "Évaluation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’administration du médicament est conforme à la prescription médicale. L’administration du médicament améliore l’état de la victime."
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "1 L’utilisation d’une chambre de mélange (ou d’inhalation) lors de l’administration d’un médicament par inhalation permet d’augmenter l’efficacité de celui-ci et est recommandée. De même, une inspiration longue lors de l’inhalation permet d’augmenter l’absorption du médicament.",
+    "2 Le médicament peut être composé de deux pulvérisateurs, un pour chaque narine."
+  ]
+}

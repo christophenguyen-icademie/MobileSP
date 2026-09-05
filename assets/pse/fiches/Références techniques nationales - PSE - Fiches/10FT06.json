@@ -1,0 +1,187 @@
+{
+  "nom": "10FT06",
+  "titre": "Relevage à l’aide d’un brancard cuillère",
+  "niveaux": [
+    "PSE 2"
+  ],
+  "chapitre_principal": "Relevage et brancardage",
+  "chapitres": [
+    {
+      "titre": "Indication",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’utilisation du brancard cuillère est particulièrement indiquée pour relever une victime allongée sur le sol et l’installer sur un dispositif de portage. Il est le moyen recommandé de première intention pour relever une victime traumatisée suspecte d’un traumatisme du rachis allongée sur le dos pour l’installer sur un matelas immobilisateur à dépression. Il est possible aussi de l’utiliser :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "s’il est impossible de pratiquer un relevage de la victime par une méthode dite « du pont » à 3 ou 4 porteurs (zone surbaissée : victime sous un train, un véhicule...) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "pour relever une victime sans atteinte traumatique présentant des souillures ou des salissures (le matériel est non oxydable et aisément nettoyable) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "pour transférer une victime d'un dispositif de portage à un autre."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Justification",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’utilisation du brancard cuillère facilite l’installation de la victime sur un brancard ou son transfert sur un matelas immobilisateur à dépression tout en maintenant son axe tête-cou-tronc. Des moyens de relevage de victimes, c’est celui qui, s’il est utilisé correctement, est le moins susceptible de mobiliser la victime et d’aggraver une éventuelle lésion du rachis. Son utilisation peut être associée à celle des blocs de tête pour restreindre le rachis cervical."
+        }
+      ]
+    },
+    {
+      "titre": "Matériel",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "un brancard cuillère ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "deux blocs de tête."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Réalisation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La mise en œuvre de cette technique nécessite trois intervenants :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "un secouriste, placé à la tête de la victime, à genou. Il en assure le maintien par une prise latéro-latérale (secouriste 1) ; C’est ce secouriste qui guide et commande l’ensemble de la manœuvre."
+            },
+            {
+              "niveau": 1,
+              "texte": "deux secouristes, placés de chaque côté de la victime (secouristes 2 et 3)."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Préalablement à la manœuvre de relevage :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "déplier le brancard cuillère ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "placer le brancard cuillère le long de la victime ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "régler sa longueur en fonction de la taille du blessé et le verrouiller dans cette position ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "s'assurer de la rigidité du système en tirant sur la partie mobile, côté jambes ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "désolidariser les deux parties du brancard ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "assurer la stabilisation ou la restriction des mouvements du rachis cervical si la victime est suspecte d’un traumatisme du rachis."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Initialement : les secouristes 2 et 3 doivent :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "placer la face palmaire des mains de la victime sur ses cuisses pour éviter de les pincer pendant la manœuvre de fermeture du brancard."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Puis : les secouristes 2 et 3 doivent :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "se placer de chaque côté de la victime, chacun muni d’une cuillère du brancard,"
+            },
+            {
+              "niveau": 1,
+              "texte": "glisser une cuillère sous la victime, à tour de rôle, Pendant qu’un secouriste glisse la cuillère, l’autre secouriste saisit la victime à l’épaule et à la hanche pour la tirer vers lui très légèrement et faciliter ainsi la mise en place de la cuillère sous la victime."
+            },
+            {
+              "niveau": 1,
+              "texte": "Lors de la mise en place de la 2 ème cuillère, s’assurer que cette dernière est bien en face de l’autre pour faciliter sa fermeture."
+            },
+            {
+              "niveau": 1,
+              "texte": "réunir et solidariser les deux parties du brancard cuillère, à l’aide des dispositifs à encliquetage ; Il convient de commencer par celui situé à la tête, puis celui des pieds."
+            },
+            {
+              "niveau": 1,
+              "texte": "s’assurer de la fermeture du dispositif à encliquetage en tirant latéralement sur les deux parties du brancard ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "mettre en place les blocs de tête si disponibles (une fois la restriction des mouvements du rachis cervical obtenue, le maintien tête peut être relâché) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "arrimer la victime au brancard cuillère si un brancardage doit être réalisé."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Risques & Contraintes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Tout risque de chute de la victime ou d’une aggravation d’une éventuelle lésion de la colonne vertébrale est évité si la technique est correctement exécutée. Éviter de pincer les parties postérieures de la victime lors de la mise en place des cuillères. Contrôler le verrouillage des cuillères afin d’éviter tout risque de chute."
+        }
+      ]
+    },
+    {
+      "titre": "Évaluation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’axe tête-cou-tronc de la victime doit être maintenu pendant toute la manœuvre si un traumatisme du rachis est suspecté. La mise en place des cuillères doit mobiliser le moins possible la victime. À l’issue de la manœuvre, la victime est correctement installée sur le brancard cuillère et les fixations correctement fermées."
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

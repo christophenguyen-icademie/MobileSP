@@ -1,0 +1,116 @@
+{
+  "nom": "03FT05",
+  "titre": "Utilisation des détergents et désinfectants",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Hygiène et asepsie",
+  "chapitres": [
+    {
+      "titre": "Indication",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’utilisation de détergent et de désinfectant est indiquée lors de la réalisation des opérations de nettoyage et de désinfection réalisées conformément aux différents protocoles en vigueur."
+        }
+      ]
+    },
+    {
+      "titre": "Justification",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Les matériels utilisés pour donner des soins ou porter secours aux victimes sont susceptibles de transmettre des maladies infectieuses lorsqu’ils sont souillés par des matières organiques humaines ou animales ou des particules (terre, poussières) souillées ou suspectes de l’être. Les secouristes utilisent deux types de matériels :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "à usage unique ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "réutilisable, qui nécessitent une détersion et une désinfection."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Matériel",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "un produit détergent ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "un produit désinfectant , à défaut, on utilisera de l’eau de javel diluée."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Certains produits comportent les deux fonctions. Les définitions de ces fonctions sont indiquées dans la fiche « Informations générales »."
+        }
+      ]
+    },
+    {
+      "titre": "Réalisation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La détersion des surfaces s’effectue après nettoyage à grande eau et dépoussiérage avec un linge humide simple si le degré de saleté est important et si la surface traitée permet ces traitements préliminaires et en respectant les mesures de protection indiquée par le fabricant. Les produits détergents ou désinfectants ne doivent pas être utilisés sur la peau. Leur utilisation nécessite donc une protection de l’utilisateur."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Le traitement est effectué :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "en un temps avec les produits détergents-désinfectants. Dans ce cas, les surfaces traitées nécessitent une détersion simple périodique pour éliminer le film laissé sur les surfaces traitées ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "en deux temps , en respectant les températures et les temps d’application, si on utilise un détergent suivi d’un désinfectant ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "en progressant des zones les plus propres vers les zones les plus sales, du haut vers le bas ."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Les produits seront utilisés avec des chiffons propres ou des non tissés jetables à usage unique. Les éponges réutilisables sont proscrites."
+        }
+      ]
+    },
+    {
+      "titre": "Risques & Contraintes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Comme tous les produits phytosanitaires, les détergents et les désinfectants comportent certains risques liés à leur utilisation. Ces derniers sont notés sur la notice d’utilisation du produit."
+        }
+      ]
+    },
+    {
+      "titre": "Évaluation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Les détergents et les désinfectants doivent être utilisés en fonction des différentes procédures et leur règle d’utilisation indiquée sur la notice respectée."
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

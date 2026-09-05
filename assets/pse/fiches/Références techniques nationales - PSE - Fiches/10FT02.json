@@ -1,0 +1,125 @@
+{
+  "nom": "10FT02",
+  "titre": "Déplacement d’une victime à l’aide d’une chaise de transport",
+  "niveaux": [
+    "PSE 2"
+  ],
+  "chapitre_principal": "Relevage et brancardage",
+  "chapitres": [
+    {
+      "titre": "Indication",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La chaise de transport peut être utilisée si :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "la victime ne présente pas de détresse ou d'atteinte grave ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "la victime peut supporter la position assise."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Justification",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L'utilisation d'une chaise de transport pour déplacer une victime permet de répondre à une difficulté réelle de brancardage en étages, dans les escaliers ou ascenseurs étroits."
+        }
+      ]
+    },
+    {
+      "titre": "Matériel",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "une chaise de transport, préalablement préparée."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Réalisation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Après avoir installé et arrimé la victime sur la chaise de transport, il convient de :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "demander à la victime de garder ses mains croisées sur sa poitrine et de ne pas essayer de s’agripper ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "saisir la chaise par les poignées ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "basculer légèrement la chaise de transport en arrière après avoir prévenu la victime ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "faire rouler la chaise de transport sur le sol en prenant garde aux obstacles qui peuvent se présenter."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Lorsqu’un obstacle ou un escalier doit être franchi : un deuxième secouriste doit :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "saisir les poignées au niveau des pieds de la victime pour aider le premier secouriste à soulever la chaise. un troisième secouriste doit :"
+            },
+            {
+              "niveau": 1,
+              "texte": "précéder les déplacements de la chaise pour : ouvrir les portes, enlever les objets qui pourraient gêner le passage, sécuriser le sauveteur aux pieds en le tenant par la ceinture lors de la descente des escaliers."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Dès que possible, la chaise est placée à côté du brancard afin de procéder au transfert."
+        }
+      ]
+    },
+    {
+      "titre": "Risques & Contraintes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le verrouillage de la chaise ainsi que l'arrimage de la victime sont systématiquement vérifiés avant la manœuvre afin d’éviter toute chute. Afin de limiter les lésions du dos, les secouristes doivent garder le dos plat et travailler avec les cuisses."
+        }
+      ]
+    },
+    {
+      "titre": "Évaluation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La victime reste convenablement assise et son état ne s’aggrave pas."
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

@@ -1,0 +1,235 @@
+{
+  "nom": "10AC01",
+  "titre": "Relevage et brancardage",
+  "niveaux": [
+    "PSE 2"
+  ],
+  "chapitre_principal": "Relevage et brancardage",
+  "chapitres": [
+    {
+      "titre": "Définition",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le relevage est une action qui consiste à placer une victime sur un brancard, directement ou à l'aide d'un dispositif particulier de relevage afin d’assurer son déplacement (brancardage). Cette action est réalisée après avoir soustrait la victime à la cause de sa détresse et l’avoir installée dans la position que nécessite son état. L’application des techniques de relevage et de brancardage comporte des risques, notamment pour la victime, mais aussi pour le secouriste. Un bon entraînement et le respect des techniques évitent ou minimisent ces risques."
+        }
+      ]
+    },
+    {
+      "titre": "Principes généraux de manutention",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Les manœuvres de relevage et de brancardage doivent être pratiquées de manière coordonnée sous la conduite d'un chef et exigent la stabilité des secouristes et la sécurité de leurs mouvements."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "À cet effet, il convient de respecter les principes suivants :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Stabilité des positions et sécurité des mouvements des secouristes ; Le secouriste debout doit avoir les pieds écartés, décalés, non parallèles. À genoux, il se place en position du « trépied », un genou à terre, l'autre écarté en dehors des avant- bras. Penché en avant, il garde le dos plat et travaille avec les muscles des membres inférieurs, s'éloignant le moins possible de la position verticale. Il vaut mieux s'accroupir que se pencher. Ces principes évitent les « faux mouvements » à l’origine de douleurs dorso-lombaires."
+            },
+            {
+              "niveau": 1,
+              "texte": "Fermeté des prises ; La charge est saisie à pleines mains et non du bout des doigts ; elle porte sur les avant-bras et non sur les mains."
+            },
+            {
+              "niveau": 1,
+              "texte": "Bonne répartition des charges ; Les secouristes doivent être plusieurs (3 à 6) selon les cas; la charge doit être rapprochée au maximum des porteurs."
+            },
+            {
+              "niveau": 1,
+              "texte": "Synchronisation des mouvements. En équipe les mouvements doivent être doux et synchronisés, sous les ordres d’un chef."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Règles générales de brancardage",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le brancardage est une épreuve inconfortable pour la victime. Afin d’en minimiser les effets, il convient de respecter les règles et principes suivants :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "préalablement au déplacement :"
+            },
+            {
+              "niveau": 2,
+              "texte": "arrimer ou sangler la victime,"
+            },
+            {
+              "niveau": 2,
+              "texte": "positionner les secouristes, en fonction de leur taille et de leur force."
+            },
+            {
+              "niveau": 1,
+              "texte": "lors du déplacement :"
+            },
+            {
+              "niveau": 2,
+              "texte": "veiller à maintenir le brancard en position horizontale,"
+            },
+            {
+              "niveau": 2,
+              "texte": "s’assurer que les mouvements sont exécutés de façon coordonnée, afin d’être les plus doux possible pour la victime, En cela, les déplacements doivent être réalisés en marchant, sans secousse ni balancement."
+            },
+            {
+              "niveau": 2,
+              "texte": "placer la tête de la victime vers l’avant, en règle générale."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Le chef se place préférentiellement à l’arrière. Ce positionnement lui permet d’avoir une vision sur l’ensemble de son équipe d’une part, tout en pouvant exercer une surveillance constante de la victime d'autre part. Il doit :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "coordonner la manœuvre de brancardage. Pour cela, il veille à commander l'équipe de secouristes dans chacune des actions à conduire. Le commandement se fait, le plus souvent en deux temps. L’ordre d’exécution étant précédé d'un ordre préparatoire. Par exemple, « Attention pour lever… Levez ». Les ordres sont donnés à haute et intelligible voix, afin d’être entendus par tous les membres de l’équipe."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Matériel de relevage et de brancardage",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "II existe une série de matériels qui peuvent aider à relever une victime. Certains d'entre eux peuvent être utilisés pour un déplacement sur une courte distance jusqu'au lieu où la pose sur le brancard est possible."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Les véhicules spécialement affectés au transport des victimes (blessés, malades) sont équipés en général de brancards adaptés à des chariots porte-brancard dont ils peuvent être parfois désolidarisés (VSAV, UMH des SMUR, véhicules de premiers secours des associations agréées de sécurité civile, véhicules des transporteurs sanitaires privés…). Les modèles de brancards les plus couramment rencontrés sont :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "le brancard pliant à compas sans têtière ; C’est un brancard plat dont le fond est en toile ou en toile plastifiée. Les hampes sont en bois ou en métal, munies de pieds fixes et réunies par des compas métalliques permettant de plier le brancard dans le sens de largeur (transport à vide et stockage). II peut être muni de bretelles pour le brancardage à trois ."
+            },
+            {
+              "niveau": 1,
+              "texte": "le brancard dit principal 1 ; Ce brancard est muni de roues et peut être utilisé seul, ou combiné à un chariot de transport. Muni d'un dossier (appelé appui-tête), il permet la position demi-assise, et peut être complété d’un repose-pied (brancard articulé). La zone du thorax est rigide pour permettre de réaliser une RCP, il est recouvert d’un matelas de transport et parfois d’appuis latéraux rabattables."
+            },
+            {
+              "niveau": 1,
+              "texte": "les brancards dits de catastrophe ; II s'agit de brancards plats, rigides, aisément empilables, dont le stockage et le transport à vide peuvent être faits sous faible volume."
+            },
+            {
+              "niveau": 1,
+              "texte": "le brancard pour aéronefs. Certains aéronefs en version sanitaire sont munis de brancards spéciaux, plus étroits."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Outre les brancards, la chaise de transport permet de répondre à une difficulté réelle de brancardage en étages, dans les immeubles sans ascenseur ou aux escaliers ou ascenseurs étroits. Elle peut être utilisée pour une victime qui peut se tenir assise et qui ne présente aucune détresse. Il existe deux modèles de chaise de transport : pliant et non pliant. Elles sont équipées de poignées sur le cadre supérieur (dans le dos) et sur la barre inférieure (aux pieds)."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "1 Ce brancard répond à la norme NF EN 1865 - Décembre 1999 - relative aux spécifications des brancards et équipements d’ambulances pour le transport de patients."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Les brancards ou dispositifs de portage sont habituellement prévus pour des victimes de corpulence courante et ne peuvent être utilisés pour des victimes dont le poids est supérieur à un maximum indiqué par le fabricant. Pour transporter des victimes dont la corpulence est supérieure, il faut alors faire appel à des services dotés de dispositifs de portage adaptés encore appelés « dispositifs bariatriques ». D’autres dispositifs de portage sont aussi couramment utilisés 1 :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "le brancard cuillère ; Ce dispositif est constitué de deux parties que l'on glisse latéralement sous le blessé, puis qu'on réunit pour constituer un brancard rigide. Ce matériel, en métal inoxydable ou en PVC, est constitué :"
+            },
+            {
+              "niveau": 2,
+              "texte": "d'un cadre tubulaire, large de 43 cm au niveau du tronc, dont les montants permettent le portage,"
+            },
+            {
+              "niveau": 2,
+              "texte": "de lames pleines, légèrement incurvées, inclinées vers l'intérieur, permettant la « cueillette » de la victime."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Le cadre tubulaire est réglable en longueur et permet, par deux systèmes à encliquetage et articulés, l'ouverture en éventail ou la dissociation du brancard en deux parties. Trois sangles permettent l'arrimage de la victime. La forme « en auge » et les possibilités d'ouverture permettent de glisser les lames sous la victime sans la soulever. Le stockage peut s'effectuer en position repliée. Ce dispositif est surtout utilisé pour relever une victime et la transférer sur un autre moyen de transport. Il peut être équipé de blocs de tête pour assurer une restriction des mouvements du rachis cervical."
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "l’alèse portoir ; Elle est constituée d'un rectangle de toile épaisse, solide, plastifiée, radiotransparente, dont la dimension correspond à la surface utile du brancard. Elle est munie de poignées latérales renforcées de sangles de toile, dans le sens transversal et parfois longitudinal. Les poignées sont au nombre de 6 ou 8, symétriques ou dissymétriques. Elle est principalement utilisée comme dispositif de transfert. Placée à l'avance sur le brancard, sous la couverture, elle permet :"
+            },
+            {
+              "niveau": 2,
+              "texte": "de faire glisser le blessé d'un brancard sur un autre,"
+            },
+            {
+              "niveau": 2,
+              "texte": "de faire passer le blessé du brancard sur un lit, une table d'examen ou de radiologie."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Elle est utilisée isolément et de façon transitoire pour transporter une victime (qui ne présente pas de lésion traumatique) jusqu’au brancard si on ne peut amener ce dernier à la victime."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Elle est lavable, stockable sous faible volume, mais ne constitue pas un plan dur, rigide."
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "le brancard Piguilem ; Ce brancard est formé par un cadre tubulaire métallique, monté sur patins. Sur le devant est fixée une plaque en matière plastique assurant la protection de la toile et de la victime et facilitant le glissement. Léger, il est adapté au treuillage ou au glissage, sur neige par exemple. A été également mis au point un brancard claie de portage Pigui 3 , dérivé du premier, mais formé de deux éléments tubulaires facilitant le portage."
+            },
+            {
+              "niveau": 1,
+              "texte": "la barquette ;"
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "1 Le plan dur ainsi que le matelas immobilisateur à dépression sont deux dispositifs de portage couramment utilisés. Ils ne sont pas développés dans la présente partie, mais font l’objet d’une présentation détaillée sur les fiches techniques ad hoc."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "La barquette est un dispositif rigide de transport de victime, muni de bords sur ses quatre côtés et de sangles d’immobilisation. Elle présente quatre anneaux de fixation pour les élingues de treuillage ou d’hélitreuillage. Certains modèles sont constitués de deux parties détachables, pour faciliter leur portage à vide."
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "les civières pour hélicoptères ; Pour le transport en hélicoptère moyen ou léger, il est nécessaire de transférer la victime sur la civière de l'appareil (d'où l’intérêt du portoir). Seuls les hélicoptères lourds acceptent les brancards normalisés."
+            },
+            {
+              "niveau": 1,
+              "texte": "la gouttière Bellisle (ou portoir corset). La gouttière Bellisle est couramment utilisée sur les bâtiments de la Marine nationale. Il s’agit d’un dispositif d’immobilisation et de transport de victime qui facilite l’évacuation en passant par des passages étroits (ascenseur, escalier, trou d’homme). Elle est composée d’une enveloppe souple en toile lavable rigidifiée dans le sens de la longueur par des lamelles placées entre deux épaisseurs de toile. Elle dispose d’un dispositif de contention de la victime dans toutes les positions, et possède un système de portage par poignées et hampes amovibles et un système permettant le hissage en position verticale ou horizontale (sangles longitudinales). Une fois la victime déposée sur la gouttière, cette dernière s’enroule autour de la victime, assurant ainsi sa protection contre les chocs tout en la gardant sur un plan dur."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

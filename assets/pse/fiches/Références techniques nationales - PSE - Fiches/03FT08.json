@@ -1,0 +1,175 @@
+{
+  "nom": "03FT08",
+  "titre": "Équipement en moyens de protection contre les agents infectieux",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Hygiène et asepsie",
+  "chapitres": [
+    {
+      "titre": "Indication",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Comme il est impossible de dire si une personne, même apparemment saine, est porteuse ou non d’une maladie infectieuse, il est indispensable que l’intervenant se protège contre les agents infectieux chaque fois qu’il prend en charge une victime. Toutefois, pour ne pas alourdir les mesures, le choix des moyens de protection dépend :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "des gestes de secours à entreprendre ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "des manifestations présentées par la victime ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "des consignes données par l’autorité d’emploi."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Justification",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Lors de la prise en charge d’une victime porteuse de germes infectieux, les moyens de protection ont pour objectif de limiter le risque de contamination :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "par contact (peau de la victime, sang, matériels souillés) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "par voie aérienne (postillons, gouttes de salive)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Matériel",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "les gants 1 à usage unique ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "les masques : médicaux 2 , de protection respiratoire 3 , imperméables 4 avec protection oculaire ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "les lunettes 5 de protection ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "les charlottes 6 ou les cagoules ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "les surblouses 7 ."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Réalisation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’équipement avec ces moyens de protection peut être complet ou partiel. L’habillage et le déshabillage sont facilités lorsqu’ils sont réalisés en binôme."
+        }
+      ]
+    },
+    {
+      "titre": "Mise en place des moyens de protection",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "se laver les mains préalablement à la mise en place des moyens de protection ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "revêtir tout ou partie des équipements suivants :"
+            },
+            {
+              "niveau": 1,
+              "texte": "mettre en place la charlotte ou la cagoule en veillant à ce qu’elle recouvre la totalité des cheveux ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "mettre en place le masque de protection 1 , puis resserrer avec deux doigts l’agrafe située au-dessus de la racine du nez ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "mettre en place la surblouse par l’avant, ouverture dans le dos, et faire nouer les lanières 2 ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "mettre en place les lunettes 3 de protection ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "mettre en place les gants à usage unique."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Retrait de l’équipement de protection",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Afin d’éviter toute contamination au moment du retrait des moyens de protection, le secouriste doit se dévêtir de la manière suivante : 1. retirer les gants à usage unique pour éviter toute contamination des mains du secouriste ; 2. retirer le tablier plastique s’il est présent ; 3. retirer la surblouse vers l’avant après avoir détaché les lanières ; 4. se frictionner les mains ; 5. retirer la charlotte, puis la protection oculaire puis la protection respiratoire."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Les équipements souillés doivent être placés dans les conteneurs de DASRI."
+        }
+      ]
+    },
+    {
+      "titre": "Risques & Contraintes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Lors du retrait des moyens de protection, il faut veiller à ne pas entrer en contact avec la face externe souillée des équipements."
+        }
+      ]
+    },
+    {
+      "titre": "Évaluation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Les mains nues n’ont pas touché les faces externes des équipements. Les équipements, une fois ôtés, sont placés directement dans l’emballage à élimination de déchets."
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "4 Portés par l’intervenant, ils permettent de protéger sa bouche et ses yeux des projections liquides (salive, sang et sécrétions).",
+    "5 Elles permettent de protéger l’intervenant d’une contamination par projection dans les yeux.",
+    "6 Elles assurent la protection des cheveux de l’intervenant contre les projections.",
+    "7 Elles protègent l’intervenant contre les projections sur ses vêtements.",
+    "1 Le masque est placé avant la protection oculaire s’il n’en possède pas une lui-même. Il est maintenu par des élastiques ou par des lanières qui sont passées l’une au-dessus des oreilles par-dessus la charlotte et l’autre en dessous.",
+    "2 L’ouverture étant située dans le dos, il convient de se faire assister pour fixer les lanières à l’arrière à la base du cou ou dans le dos.",
+    "3 Les branches doivent être glissées sous la charlotte. Certaines lunettes de protection à usage unique nécessitent un « montage » avant utilisation."
+  ]
+}

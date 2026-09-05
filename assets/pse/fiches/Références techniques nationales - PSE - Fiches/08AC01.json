@@ -1,0 +1,211 @@
+{
+  "nom": "08AC01",
+  "titre": "Accident électrique",
+  "niveaux": [
+    "PSE 2"
+  ],
+  "chapitre_principal": "Atteintes circonstancielles et environnementales",
+  "chapitres": [
+    {
+      "titre": "Définition",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’accident électrique regroupe toutes les lésions de l’organisme, temporaires ou définitives, provoquées par le courant électrique et qui sont dues :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "à un effet direct du courant électrique lorsqu’il traverse les tissus (cerveau, cœur, nerfs, vaisseaux…) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "au traumatisme contondant provoqué par une contraction musculaire violente ou par la chute de la victime (éjection) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "au dégagement anormal de chaleur ou de lumière dégagé par le courant électrique."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "L’électrisation est l’ensemble des lésions provoquées par le passage d’un courant électrique à travers le corps. Le terme électrocution est réservé à une électrisation mortelle, soit immédiatement, soit très précocement."
+        }
+      ]
+    },
+    {
+      "titre": "Causes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "On distingue différents types d’accidents électriques :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "l’accident par contact avec deux conducteurs sous tension ou un conducteur sous tension et la terre ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "l’accident lié à la production d’un arc électrique ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "le foudroiement : action de la foudre sur le corps humain."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "En France, on estime à une centaine par an le nombre d’accidents mortels d’origine électrique, toutes origines confondues :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "accidents du travail ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "accidents domestiques : appareils ménagers électriques défectueux, surtout en ambiance humide (cuisine, salle de bain), bricolage d’installation électrique, enfants en bas âge en phase de découverte... ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "accidents dus à des conduites à risque (ascension de pylônes, marche sur le toit d’un wagon à proximité d’une caténaire...) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "accidents de loisirs : parapente, pêche, cerf-volant à proximité de lignes à haute tension… ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "foudroiement. La foudre étant la forme d’électricité naturelle la plus dangereuse, responsable d’une vingtaine d’accidents mortels par an."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Mécanisme",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "D’une manière générale, le courant suit le chemin offrant le moins de résistance entre le point d’entrée et le point de sortie du corps."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "La recherche de ces points d’entrée et de sortie est systématique afin de guider l’évaluation des organes traversés. À l’inverse des nerfs et des vaisseaux sanguins, la peau constitue la barrière la plus résistante, sa qualité dépend de son état (intègre, sèche, humide, mouillée…). Le liquide amniotique étant un excellent conducteur électrique, la grossesse devra être systématiquement recherchée pour évaluer toute atteinte du fœtus. Le courant électrique peut endommager tous les organes qui se trouvent sur son chemin par 3 mécanismes différents, en fonction de son intensité (en milliampères - mA) et de son voltage (en volts - V) :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "par un effet de stimulation / inhibition nerveuse et musculaire : sensation de picotements à 1 mA, tétanisation des muscles respiratoires à 30 mA jusqu’à la fibrillation ventriculaire à 80 mA ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "par brûlures électriques : destruction de la peau et des tissus en profondeur jusqu’à la carbonisation ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "par destruction irréversible de la membrane cellulaire."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Il est classique de dire que les hauts voltages (≥ 1000 V) « brûlent » et les faibles voltages (< 1000 V) « tuent ». Il est important de ne pas oublier les circonstances de l’accident électrique et de rechercher les éventuelles complications traumatiques d’une chute ou d’une projection de la victime."
+        }
+      ]
+    },
+    {
+      "titre": "Risques & Conséquences",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le passage du courant dans l’organisme peut entraîner :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "une perte de connaissance par atteinte du système nerveux central ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "un arrêt de la respiration par atteinte du système nerveux ou par tétanisation des muscles respiratoires ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "un arrêt de la circulation suite à un arrêt respiratoire prolongé ou par survenue d’un fonctionnement anarchique du cœur (fibrillation ventriculaire), lors du passage du courant à travers le cœur ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "une brûlure thermique souvent grave, par flash ou arc électrique lors d’un court-circuit ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "une brûlure électrique interne sur le trajet de passage du courant dont seuls sont visibles les points d’entrée et de sortie qui doivent être systématiquement recherchés ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "des traumatismes divers, en particulier de la colonne vertébrale, notamment cervicale, si la victime a été projetée à cause d’une violente contraction musculaire."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Les courants à haute tension (≥ 1000 V), plus particulièrement continue, provoquent des brûlures profondes et des traumatismes."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Les courants de basse tension (< 1000 V), le plus souvent alternatifs, provoquent surtout des fonctionnements anarchiques du cœur (fibrillation ventriculaire)."
+        }
+      ]
+    },
+    {
+      "titre": "Signes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’accident électrique est habituellement évoqué lors du 1er regard. Les signes présentés par la victime ne sont pas spécifiques. Au 2ème ou 3ème regard, la victime peut être consciente ou avoir perdu connaissance, en arrêt respiratoire ou cardio-respiratoire ou présenter une détresse. Au 4ème regard, elle peut présenter des brûlures plus ou moins étendues ou des traumatismes associés. Même si la victime ne présente aucun signe, des manifestations secondaires peuvent apparaître. Un avis médical est indispensable."
+        }
+      ]
+    },
+    {
+      "titre": "Principe de l’action de secours",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "assurer la sécurité de l’intervention ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "réaliser les gestes de secours adaptés en cas d’arrêt cardiaque ou de détresse vitale ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "prendre en charge les brûlures provoquées (flash ou arc électrique) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "obtenir un avis médical, systématiquement."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

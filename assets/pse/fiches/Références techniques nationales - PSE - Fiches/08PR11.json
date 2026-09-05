@@ -1,0 +1,232 @@
+{
+  "nom": "08PR11",
+  "titre": "Piqûres et morsures",
+  "niveaux": [
+    "PSE 2"
+  ],
+  "chapitre_principal": "Atteintes circonstancielles et environnementales",
+  "chapitres": [
+    {
+      "titre": "Introduction",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "soustraire la victime du danger ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "si la victime présente une hémorragie ou une détresse de l’une des fonctions vitales, appliquer la conduite à tenir adaptée selon la détresse vitale constatée ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "compléter le bilan afin de déterminer l’origine de l’atteinte et adapter la conduire à tenir ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "transmettre un bilan en urgence si la victime présente une détresse vitale ou si la victime a déjà présenté dans ces circonstances une réaction allergique grave (œdème de Quincke, choc allergique) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "demander un avis médical si nécessaire et respecter les consignes."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "En présence d’une piqûre d’insecte",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "retirer le plus rapidement possible le dard (piqûre d’abeille) en utilisant une pince à écharde, sans écraser la poche à venin ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "transmettre un bilan en urgence si :"
+            },
+            {
+              "niveau": 2,
+              "texte": "la piqûre siège dans la bouche ou la gorge,"
+            },
+            {
+              "niveau": 2,
+              "texte": "la victime est allergique."
+            },
+            {
+              "niveau": 1,
+              "texte": "retirer les bagues, bracelets si la piqûre se situe à la main, avant l’apparition de gonflements 1 ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "appliquer du froid 2 ; Si le siège de la piqûre est dans la bouche ou la gorge, demander à la victime de sucer de la glace."
+            },
+            {
+              "niveau": 1,
+              "texte": "aider la victime à s’injecter son traitement, si elle est allergique au venin d’hyménoptères ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "transmettre le bilan pour avis et appliquer les consignes reçues ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "conseiller à la victime de consulter un médecin si la douleur ou le gonflement persiste ou si la rougeur s’étend."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "S’il s’agit de piqûres de méduses :",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "rincer la zone piquée avec de l’eau de mer 3 ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "enlever les filaments s’ils sont toujours en contact avec la peau en se protégeant la main avec un gant ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "si la douleur persiste, enduire 4 la zone atteinte avec du sable, et racler sans frotter avec une carte rigide (exemple : carte de crédit, etc.) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "ensuite, appliquer du chaud 5 sur la zone atteinte 6 , jusqu’à la disparition de la douleur."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Dans les autres cas (vives, rascasses, etc.)",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "placer la zone atteinte dans l’eau chaude pendant trente minutes au minimum, demander un avis médical si nécessaire et appliquer les consignes reçues."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "En présence d’une morsure de serpent 1",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "ne jamais pratiquer de techniques d’aspiration, qu’elles soient buccales ou à l’aide d’un appareil (dispositif d’aspiration mécanique) et ne pas injecter de sérum antivenimeux ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "allonger la victime, lui demander de rester calme et la rassurer ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "demander à la victime de ne pas mobiliser le membre atteint ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "retirer les bagues, bracelets à proximité de la morsure ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "effectuer un lavage à l’eau ou au sérum physiologique sans frotter ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "protéger la plaie par un pansement ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "poursuivre le bilan et surveiller attentivement son état."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "En présence d’une morsure animale ou humaine",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "effectuer un lavage à l’eau ou au sérum physiologique ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "appliquer la conduite à tenir face à une plaie grave."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "En présence d’une morsure de tique",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "retirer immédiatement l’animal :"
+            },
+            {
+              "niveau": 2,
+              "texte": "soit en utilisant un « tire tique », en respectant le guide d’utilisation de l’appareil ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "soit en utilisant une pince à épiler."
+            },
+            {
+              "niveau": 1,
+              "texte": "rechercher la présence d’autres tiques ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "recommander à la victime de consulter le plus rapidement possible un médecin si une rougeur au niveau de la zone de la morsure ou une éruption apparaît."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "En cas de contact de la peau avec la salive d’un animal errant",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "demander un avis médical."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "4 Afin de « piéger » les nématocystes non encore rompus.",
+    "5 Des compresses chaudes, ou de l’eau aussi chaude que possible (entre 40 et 45°C), en restant tolérable et sécuritaire pour la victime. À défaut, du froid peut être utilisé.",
+    "6 Par immersion, arrosage, ou recouvrement.",
+    "1 Cette référence est prévue pour des serpents présents sur le territoire européen. Pour ceux d’autres localités, ou importés, les équipes doivent consulter les centres antipoison ou le SAMU pour obtenir une conduite à tenir adaptée."
+  ]
+}

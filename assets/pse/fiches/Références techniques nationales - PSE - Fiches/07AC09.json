@@ -1,0 +1,165 @@
+{
+  "nom": "07AC09",
+  "titre": "Traumatisme du crâne",
+  "niveaux": [
+    "PSE 2"
+  ],
+  "chapitre_principal": "Traumatismes",
+  "chapitres": [
+    {
+      "titre": "Définition",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "On appelle traumatisme du crâne (ou crânien) tout choc reçu sur le crâne."
+        }
+      ]
+    },
+    {
+      "titre": "Causes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Les traumatismes crâniens sont la conséquence de multiples mécanismes vulnérants de la boîte crânienne : choc direct, décélération brutale, blessure par un objet pénétrant..."
+        }
+      ]
+    },
+    {
+      "titre": "Risques & Conséquences",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Un choc direct au niveau de la tête peut entraîner, selon son intensité et son mécanisme, des lésions cutanées, osseuses (fractures) ou cérébrales. Une décélération brusque avec un arrêt net de la tête, sans aucun choc sur un obstacle, peut également entraîner des lésions cérébrales, uniquement par l’ébranlement du cerveau contre la boîte crânienne. Ces lésions peuvent être plus ou moins rapidement évolutives et mettre en jeu le pronostic vital. Il faut donc surveiller régulièrement l’état de conscience de la victime. Dans certains cas, une prise en charge chirurgicale précoce est nécessaire pour augmenter les chances de récupération."
+        }
+      ]
+    },
+    {
+      "titre": "Signes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’expression du mécanisme : un traumatisme parfois violent au niveau du crâne (coup, choc) ou indirect (décélération brutale). Au début du bilan , la victime peut présenter :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "une perte de connaissance qui persiste depuis l’accident ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "des troubles de la conscience (somnolence, confusion, agitation anormale) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "des convulsions ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "une asymétrie pupillaire nette et fixe."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Lors de la poursuite du bilan :"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "La victime peut se plaindre : À l’examen, le secouriste peut trouver :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "de céphalées ou d’une • une perte de la mémoire des faits souvent synonyme d’une perte douleur spontanée au niveau de connaissance passagère immédiatement après l’accident, des os du crâne ; parfois relatée par les témoins ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "de nausées ou de • un déficit moteur neurologique ; vomissements. • une plaie du cuir chevelu, un hématome ou une déformation ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "un hématome « en lunettes » (autour des yeux) pouvant témoigner d’une fracture des os de la base du crâne ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "une otorragie ou une épistaxis ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "En cas d’otorragie, la compression manuelle est inutile. Vérifier que l’écoulement sanguin vient bien de l’intérieur de l’oreille en la nettoyant avec une compresse ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "des lésions associées en particulier de la colonne cervicale."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Au cours de la surveillance, on peut constater :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "la survenue d’une perte de connaissance secondaire ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "des troubles de la conscience apparaissant plusieurs minutes à plusieurs heures après l’accident alors que la victime était parfaitement consciente (intervalle libre)."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Chez l’enfant ou le nourrisson, les signes peuvent être différents de ceux de l’adulte :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "la perte de connaissance est moins fréquente ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "l’enfant ou le nourrisson peut présenter des troubles du comportement (il ne joue plus, il est prostré) souvent constatés par l’entourage ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "une pâleur."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Toute chute d’un enfant ou d’un nourrisson, d’une hauteur supérieure à sa taille (table à langer, chaise haute) doit faire suspecter un traumatisme crânien et faire l’objet d’un avis médical immédiat."
+        }
+      ]
+    },
+    {
+      "titre": "Principe de l’action de secours",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "limiter les risques d’aggravation par une immobilisation de la victime suspecte d’une lésion du rachis ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "demander un avis médical."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

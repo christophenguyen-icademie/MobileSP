@@ -1,0 +1,111 @@
+{
+  "nom": "05PR01",
+  "titre": "Hémorragies externes",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Urgences vitales",
+  "chapitres": [
+    {
+      "titre": "Introduction",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "se protéger les mains par des gants à usage unique ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "constater l’hémorragie, si nécessaire en écartant les vêtements ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "arrêter immédiatement l’hémorragie :"
+            },
+            {
+              "niveau": 2,
+              "texte": "en demandant à la victime de comprimer immédiatement l’endroit qui saigne ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "ou à défaut, le faire 1 à sa place ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "maintenir la compression (par la victime ou le sauveteur) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "allonger confortablement la victime, par exemple sur un brancard, un canapé ou à défaut sur le sol 2 ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "mettre en place :"
+            },
+            {
+              "niveau": 2,
+              "texte": "un pansement compressif si l’hémorragie est contrôlée manuellement et pour se libérer ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "si la compression (manuelle et pansement compressif) est inefficace 3 ou impossible 4 , utiliser : § soit un garrot si la zone est « garrotable », § soit une gaze imbibée d'une substance hémostatique si la zone est « non garrotable »."
+            },
+            {
+              "niveau": 1,
+              "texte": "rassurer la victime, en lui parlant régulièrement et en lui expliquant ce qui se passe ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "réchauffer la victime, car l’hypothermie aggrave l’état de la victime ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "protéger la victime contre le froid, les intempéries ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "poursuivre le bilan et surveiller attentivement :"
+            },
+            {
+              "niveau": 2,
+              "texte": "l’efficacité des gestes réalisés ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "l’apparition de signes de détresse circulatoire."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Cas particulier : fracture ouverte et corps étranger",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Si la victime présente une fracture ouverte, avec un morceau d’os visible ou si la plaie qui saigne contient un corps étranger visible :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "ne toucher ni au morceau d’os ni au corps étranger, car leur présence peut limiter le saignement et leur mobilisation pourrait aggraver la lésion."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Si le saignement reste important et massif, poser un garrot."
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "2 La position allongée retarde ou empêche l’installation d’une détresse liée à la perte importante de sang.",
+    "3 Le saignement persiste malgré tout.",
+    "4 Nombreuses victimes, catastrophes, situations de violence collective ou de guerre, nombreuses lésions, plaie inaccessible, corps étranger, morceaux d’os visibles en cas de fracture ouverte."
+  ]
+}

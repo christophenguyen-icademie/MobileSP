@@ -1,0 +1,225 @@
+{
+  "nom": "08AC03",
+  "titre": "Accidents liés à la plongée",
+  "niveaux": [],
+  "chapitre_principal": "Atteintes circonstancielles et environnementales",
+  "chapitres": [
+    {
+      "titre": "Définition",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’accident lié à la plongée correspond potentiellement à toute manifestation qui survient pendant, immédiatement après ou dans les vingt-quatre heures qui suivent une plongée en apnée ou en scaphandre autonome."
+        }
+      ]
+    },
+    {
+      "titre": "Causes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Les accidents liés à la plongée ont plusieurs origines et peuvent survenir aussi bien lors d’une plongée en apnée que d’une plongée en scaphandre autonome. On distingue plusieurs types d’accidents dont les principaux sont :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "les accidents barotraumatiques (ou de surpression ou accidents biomécaniques) Ce sont des accidents provoqués par une variation des volumes de gaz dans les cavités naturelles (sinus, poumon, intestin) ou pathologiques (caries, emphysème) de l’organisme et les cavités artificielles (masque de plongée). Ces cavités se compriment au cours de la descente et se distendent lors de la remontée. Ils surviennent à toutes les profondeurs. À la descente, la principale atteinte est celle de l’oreille moyenne. Les gaz se rétractent et mettent en pression le tympan, entraînant douleur, otite, voire déchirure si le plongeur ne rééquilibre pas la pression par des manœuvres d’équilibration. Par le même mécanisme peut aussi survenir le placage de masque, compensé en soufflant de l’air par le nez dans le masque. Lors de la remontée, la surpression pulmonaire est l’accident le plus grave qui peut entraîner la mort du plongeur. Elle est la conséquence d’un blocage de l’expiration ou d’une expiration insuffisante. Pendant une remontée sans expirer suffisamment, l’air comprimé inspiré au fond se dilate dans les alvéoles pulmonaires et comme il ne peut s’échapper, il les distend puis les déchire, entraînant œdème aigu du poumon, emphysème, pneumothorax ou embolies gazeuses. La surpression peut être favorisée par une réaction de panique ou des problèmes de matériel."
+            },
+            {
+              "niveau": 1,
+              "texte": "les accidents de désaturation (ou de décompression ou accidents biophysiques) Lors d’une plongée en scaphandre autonome, les gaz inspirés (principalement l’azote) se dissolvent dans le sang et les tissus, d’autant plus que la durée de la plongée est longue et profonde. L’azote est stocké dans les tissus alors que l’oxygène est utilisé par les cellules. Normalement, lors de la remontée, les tissus libèrent l’azote dissous sous forme de microbulles qui s’éliminent par les poumons. Il arrive qu’il se forme des bulles qui se bloquent dans les capillaires des tissus, en particulier sous la peau, dans les articulations, la moelle épinière, le cerveau ou dans la circulation pulmonaire. Cet accident peut survenir lors de remontées rapides ou en présence de facteurs favorisants (surpoids, fatigue, stress, déshydratation) ou lors d’un voyage en avion trop proche de la dernière plongée. Dans 1/3 des cas, il n’est pas retrouvé de raisons."
+            },
+            {
+              "niveau": 1,
+              "texte": "les accidents toxiques (ou accidents biochimiques) Lors de la plongée, le plongeur respire de l’air (ou mélange) sous pression (oxygène et azote). Avec la profondeur, la pression des gaz augmente. La quantité de gaz dissous dans les tissus augmente et peut devenir toxique (narcose des profondeurs à l’azote, toxicité de l’oxygène). D’autre part, des gaz toxiques peuvent venir s’ajouter à la composition de l’air dans les bouteilles en les contaminant lors de leur remplissage, particulièrement si le local du compresseur n’est pas en conformité. Ce sont des gaz appelés polluants : gaz carbonique, monoxyde de carbone, vapeurs d’huile."
+            },
+            {
+              "niveau": 1,
+              "texte": "les accidents de plongée en apnée après hyperventilation L’hyperventilation préalable à la plongée en apnée peut provoquer une insensibilité à la baisse de la quantité d’oxygène dans le sang responsable de troubles du jugement voire de perte de connaissance. Ce trouble est responsable de noyades."
+            },
+            {
+              "niveau": 1,
+              "texte": "autres accidents D’autres accidents peuvent survenir à l’occasion d’une plongée telles que des pathologies cardiaques sur terrain prédisposé, des traumatismes, des hypothermies, des envenimations, des réactions toxiques ou allergiques… compliqués par l’hostilité du milieu."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Risques & Conséquences",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Selon le type d’accident, les risques comme les conséquences occasionnées à la victime peuvent varier :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "les accidents barotraumatiques provoquent la distension et la déchirure des alvéoles, entraînant un passage de l’air dans les différents espaces entourant le poumon :"
+            },
+            {
+              "niveau": 2,
+              "texte": "dans la plèvre (pneumothorax),"
+            },
+            {
+              "niveau": 2,
+              "texte": "entre les deux poumons (pneumomédiastin),"
+            },
+            {
+              "niveau": 2,
+              "texte": "sous la peau, particulièrement à la base du cou (emphysème sous-cutané)."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Cette déchirure peut aussi provoquer un passage de l’air dans les vaisseaux pulmonaires puis dans la circulation générale. Les bulles de gaz peuvent alors atteindre le cerveau et donner des manifestations neurologiques."
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "les accidents de désaturation permettent la création de bulles au niveau de la moelle épinière, du cerveau, des articulations et de la peau. Ces bulles entraînent une interruption de la circulation qui s’aggrave en favorisant la création de caillots ; En fonction de l’importance du phénomène, les conséquences peuvent être mineures, se limiter à des fourmillements cutanés voire des douleurs, ou majeures comme la survenue d’une paralysie ou d’un arrêt cardiaque."
+            },
+            {
+              "niveau": 1,
+              "texte": "les conséquences principales des concentrations toxiques des gaz sont des perturbations de l’état de conscience du plongeur pouvant entraîner la noyade ou un accident de décompression par remontée rapide ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "les autres accidents ont leurs conséquences propres et peuvent être cause de noyades ou d’accident de décompression par remontée rapide."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Signes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le 1er regard indique que l’on est en présence d’une victime qui vient de réaliser une plongée dans les vingt- quatre heures qui précèdent l’apparition des signes. Lors du 2ème ou 3ème regard, elle peut présenter :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "une perte de connaissance ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "un arrêt cardiaque ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "une atteinte neurologique caractérisée par une hémiplégie ou une paraplégie du corps ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "des convulsions ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "une détresse respiratoire avec cyanose, toux et crachats de sang ou une gêne respiratoire objectivée par une accélération des fréquences respiratoire et cardiaque et une baisse de la saturation artérielle en oxygène ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "une détresse circulatoire."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Si la victime est consciente, elle peut se plaindre :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "de maux de tête ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "de vertiges et d’étourdissements ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "de fourmillements et engourdissement des membres ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "de douleurs de la poitrine ou dans le dos plus ou moins intenses ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "de douleurs des articulations ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "d’une sensation de picotements sous la peau ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "de crampes."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "L’examen permet de constater, éventuellement :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "des troubles de la parole, de la vision ou de l’audition ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "des troubles psychiques et du raisonnement, de l’attention, de la mémoire et de l’humeur ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "des signes cutanés et/ou musculo-squelettiques, comme la perception, à la palpation, d’air sous la peau, particulièrement à la base du cou."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Toutes manifestations inhabituelles ou anormales qui surviennent pendant, immédiatement après ou dans les vingt-quatre heures qui suivent une plongée doivent être considérées comme un accident de plongée."
+        }
+      ]
+    },
+    {
+      "titre": "Principe de l’action de secours",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "limiter l’évolution et l’extension des lésions (administration d’oxygène, lutte contre la détresse vitale, contre le refroidissement et la déshydratation) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "recueillir toutes les informations nécessaires, particulièrement celles liées à la plongée ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "faciliter l’évacuation de la victime vers un service spécialisé dans les accidents de plongée."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

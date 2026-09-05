@@ -1,0 +1,64 @@
+{
+  "nom": "07PR04",
+  "titre": "Traumatisme de l’abdomen",
+  "niveaux": [
+    "PSE 2"
+  ],
+  "chapitre_principal": "Traumatismes",
+  "chapitres": [
+    {
+      "titre": "Face à une urgence ou une détresse vitale, ou en cas d’aggravation",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "appliquer la conduite à tenir adaptée et réaliser en priorité les gestes d’urgence qui s’imposent ;"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "En l’absence de détresse vitale apparente",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "appliquer la conduite à tenir face à une plaie grave ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "adapter la conduite à tenir avec :"
+            },
+            {
+              "niveau": 2,
+              "texte": "mettre la victime dans une position allongée, à plat dos, jambes fléchies 1 ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "rechercher l’existence de lésions dans le dos de la victime, particulièrement au cours de sa mobilisation ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "En présence d’une éviscération : § ne pas remettre les viscères en place ; § envelopper 2 les viscères dans un champ 3 stérile humidifié 4 ."
+            },
+            {
+              "niveau": 2,
+              "texte": "En présence d’une femme enceinte : § Toute femme enceinte victime d’un traumatisme violent (AVP, chute, coup dans l’abdomen) doit être considérée comme traumatisée de l’abdomen et faire l’objet d’une consultation dans un service d’urgence ou spécialisé."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "1 Cette position sera maintenue lors de son relevage et de son transport.",
+    "2 Sans les mobiliser, ni les comprimer.",
+    "3 Ne pas utiliser de compresses.",
+    "4 Eau stérile ou sérum physiologique."
+  ]
+}

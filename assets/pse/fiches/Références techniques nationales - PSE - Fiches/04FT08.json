@@ -1,0 +1,149 @@
+{
+  "nom": "04FT08",
+  "titre": "Mesure de la saturation pulsée en oxygène",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Bilans",
+  "chapitres": [
+    {
+      "titre": "Indication",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’oxymètre de pouls est un appareil électronique qui mesure la saturation d'oxygène (O2) des globules rouges au niveau de la circulation capillaire. L’oxymètre de pouls permet de détecter très rapidement un manque d'oxygène dans l'organisme. Il vient compléter la réalisation du bilan de la fonction respiratoire de la victime et aide à sa surveillance. La mesure de la saturation pulsée en oxygène (SpO ) ne doit, en aucun cas, retarder la mise en œuvre de gestes de secours d'urgence évidents. Elle est utile en particulier en cas de :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "détresse vitale (sauf arrêt cardiorespiratoire) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "gêne respiratoire ou de plainte respiratoire ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "malaise ou aggravation d'une maladie ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "traumatisme grave ou violent, ou en cas de traumatisme thoracique."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Le résultat de la mesure de la SpO reflète l'efficacité du transport de l'oxygène de l’air respiré jusqu’aux capillaires, lieu d’échange avec les cellules."
+        }
+      ]
+    },
+    {
+      "titre": "Justification",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La SpO permet de décider et de guider l’administration d’oxygène en fonction des valeurs indiquées."
+        }
+      ]
+    },
+    {
+      "titre": "Matériel",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’oxymètre de pouls comprend :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "une unité de mesure dotée, en règle générale, d’un écran de lecture et alimentée par des batteries ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "un capteur que l’on pose sur une partie du corps (doigt, lobe de l'oreille, front ou nez)."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Il existe des capteurs adaptés en fonction de l’âge de la victime (adulte, enfant, nourrisson, nouveau-né)."
+        }
+      ]
+    },
+    {
+      "titre": "Réalisation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’oxymètre de pouls peut être intégré dans des dispositifs médicaux multiparamétriques :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "placer le capteur sur une peau ou un ongle non verni, propre ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "mettre l'appareil en marche et respecter les indications du fabricant ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "relever le résultat sur l’écran de l’appareil."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "En règle générale, deux valeurs s’affichent :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "la saturation pulsée en oxygène,"
+            },
+            {
+              "niveau": 1,
+              "texte": "la fréquence du pouls."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "La SpO se situe normalement entre 94 et 100 %."
+        }
+      ]
+    },
+    {
+      "titre": "Risques & Contraintes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Dans plusieurs situations, le signal peut ne pas être détecté par le capteur (victime agitée, tremblements, refroidissement des extrémités, détresse circulatoire, maladies vasculaires, pigmentation de la peau, etc.) et ne donnera pas de résultat fiable. Les intoxications aux fumées et les intoxications au monoxyde de carbone (CO) faussent la mesure et donnent à tort des valeurs rassurantes. La présence de vernis à ongles ou un doigt sale ne permettent pas une bonne mesure au niveau de l’extrémité du doigt."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "L’indication de la fréquence du pouls sur l’appareil peut donner une tendance, toutefois dans certaines situations, cette dernière peut être faussée. Il convient donc de ne pas négliger la mesure manuelle de la fréquence."
+        }
+      ]
+    },
+    {
+      "titre": "Évaluation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "À la fin de la mesure, la SpO s’affiche correctement, sans message d’erreur et le résultat est cohérent avec l’état de la victime."
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

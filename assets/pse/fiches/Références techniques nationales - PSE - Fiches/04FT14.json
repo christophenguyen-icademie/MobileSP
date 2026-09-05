@@ -1,0 +1,176 @@
+{
+  "nom": "04FT14",
+  "titre": "Mesure de la température",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Bilans",
+  "chapitres": [
+    {
+      "titre": "Indication",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La mesure de la température doit être réalisée systématiquement chez toute victime suspecte d’hypothermie ou d’hyperthermie (victime anormalement chaude ou froide au touché lors de son examen)."
+        }
+      ]
+    },
+    {
+      "titre": "Justification",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La mesure de la température d’une victime a pour objectif de dépister une augmentation (hyperthermie) ou une diminution (hypothermie) de la température."
+        }
+      ]
+    },
+    {
+      "titre": "Matériel",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Il existe plusieurs types de thermomètres utilisables pour mesurer la température :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "tympanique (ou auriculaire) ; Il permet de réaliser la mesure à partir de la chaleur infrarouge émise par la membrane du tympan. Il se compose habituellement :"
+            },
+            {
+              "niveau": 2,
+              "texte": "de couvre-sondes à usage unique,"
+            },
+            {
+              "niveau": 2,
+              "texte": "d’un écran qui affiche la température ainsi que les instructions d’utilisation,"
+            },
+            {
+              "niveau": 2,
+              "texte": "d’un bouton qui active la mesure de la température,"
+            },
+            {
+              "niveau": 2,
+              "texte": "d’un logement pour les batteries."
+            },
+            {
+              "niveau": 1,
+              "texte": "électronique ; Il permet, selon les modèles, une mesure rectale, buccale ou axillaire (sous le bras). Un signal sonore annonce le résultat après environ soixante secondes de prise. En fonction de la localisation de la mesure, il faut ajouter au résultat affiché entre un demi et un degré pour obtenir la température correcte (cf. notice fabricant)."
+            },
+            {
+              "niveau": 1,
+              "texte": "médical ; Ressemblant à l'ancien thermomètre au mercure, son contenu a été remplacé par un autre liquide. Il permet une prise de mesure rectale ou axillaire. Le résultat de la température apparaît au bout de trois minutes environ de prise et se lit en inclinant de profil le thermomètre."
+            },
+            {
+              "niveau": 1,
+              "texte": "frontal ; Il existe plusieurs types de thermomètres frontaux. Ils peuvent être de simples indicateurs de température et se présenter sous la forme d’une barrette plastique à poser sur le front de la victime. Ils peuvent être aussi des thermomètres avec contact ou à distance à infrarouge."
+            },
+            {
+              "niveau": 1,
+              "texte": "hypothermique. Il est spécifiquement conçu pour mesurer des températures corporelles très basses, en dessous de la normale (36,5–37,5 °C). Il peut mesurer des températures à partir de 25 °C ou moins, ce qui permet de détecter et suivre une hypothermie sévère, ce qu’un thermomètre ordinaire ne permet pas de faire."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Réalisation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Seule est décrite la prise de température à l’aide d’un thermomètre auriculaire :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "placer un couvre-sonde à usage unique sur l’extrémité de la sonde ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "saisir le pavillon de l’oreille et exercer une légère traction vers le haut et vers l’arrière ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "positionner l’ensemble sonde et couvre-sonde à l’entrée du conduit auditif externe de la victime ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "pousser doucement l’ensemble dans le conduit auditif ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "appuyer sur le bouton de mesure de la température ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "retirer le thermomètre du conduit auditif après l’émission du signal annonçant la fin de la prise de température ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "noter la température affichée sur l’écran ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "éjecter le couvre sonde dans un conteneur de recueil de DASRI."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Si un autre type d’appareil de mesure de la température est utilisé, se conformer au guide d’utilisation du constructeur."
+        }
+      ]
+    },
+    {
+      "titre": "Risques & Contraintes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Pour limiter tout risque traumatique en utilisant un thermomètre auriculaire, il convient de prévenir tout mouvement excessif de la tête lors de la mesure. Le thermomètre auriculaire ne doit pas être utilisé chez :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "un nourrisson de moins de 3 mois, car le diamètre de son conduit auditif est inférieur à celui de la sonde du thermomètre ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "une victime d’un traumatisme auriculaire bilatéral, lors d’un accident avec explosion, par exemple."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Lors de variation brusque de température ambiante (passage de l’ambulance à l’environnement extérieur froid), le thermomètre auriculaire peut donner des chiffres erronés."
+        }
+      ]
+    },
+    {
+      "titre": "Évaluation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "À la fin de la mesure, la température s’affiche correctement. Tableau 8: techniques de mesures de la température recommandées en fonction de l'âge T ’ T"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "De la naissance à 2 ans 1 - Rectale (indiquée) 2 - Axillaire (dépistage des enfants peu vulnérables)"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "De 2 à 5 ans 1 - Rectale (indiquée) 2 - Axillaire ou tympanique (dépistage)"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Au-delà de 5 ans 1 - Buccale (définitive) 2 - Axillaire, tympanique, frontale (dépistage)"
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

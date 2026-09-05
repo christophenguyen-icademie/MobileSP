@@ -1,0 +1,133 @@
+{
+  "nom": "08PR09",
+  "titre": "Intoxications",
+  "niveaux": [
+    "PSE 2"
+  ],
+  "chapitre_principal": "Atteintes circonstancielles et environnementales",
+  "chapitres": [
+    {
+      "titre": "En cas d’intoxication (ingestion, injection)",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "réaliser le 2ème ainsi que le 3ème regard et les gestes de secours adaptés ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "réaliser le 4ème regard, en particulier :"
+            },
+            {
+              "niveau": 2,
+              "texte": "déterminer les circonstances de survenue, la nature du (des) toxique(s) en cause, la dose supposée absorbée ainsi que l’heure de prise,"
+            },
+            {
+              "niveau": 2,
+              "texte": "rechercher les emballages et flacons des produits en cause."
+            },
+            {
+              "niveau": 1,
+              "texte": "ne pas faire vomir ni boire la victime ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "transmettre le bilan et appliquer les consignes reçues ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "surveiller la victime."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Intoxication aux opiacés ou aux opioïdes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’usage excessif volontaire ou non d’opiacés ou opioïdes est une cause fréquente de décès par intoxication. La dépression respiratoire avec troubles de la conscience et myosis sont des signes caractéristiques de surdosage ou d’intoxication aux opiacés ou aux opioïdes. L’évolution peut se faire vers la perte de connaissance et la mort de la victime par anoxie."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Devant une victime qui présente une intoxication aux opiacés avec dépression respiratoire (FR < 12 mvts/min) et/ou une perte de connaissance, il faut :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "administrer de l’oxygène en inhalation ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "retirer les patchs de médicaments éventuels ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "demander un avis médical ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "si de la naloxone administrable par pulvérisation intra-nasale est disponible, administrer une pulvérisation de naloxone (antagoniste) dans une narine chez toute victime âgée de 14 ans et plus 1 (voir fiche administration de médicaments). Si l’état de la victime ne s’améliore pas ou en cas de réapparition des signes, renouveler cette administration au bout de 2 à 3 min."
+            },
+            {
+              "niveau": 1,
+              "texte": "surveiller en permanence la ventilation :"
+            },
+            {
+              "niveau": 2,
+              "texte": "si la FR < 6 mvts/min, réaliser une ventilation artificielle ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "si la victime est en arrêt cardiaque, pratiquer l’administration de naloxone après avoir débuté la réanimation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Si le produit a provoqué une brûlure",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "adopter la conduite à tenir face à une brûlure chimique."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "En l’absence de brûlure",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "appliquer la procédure spécifique 2 à l’entreprise, si l’accident a lieu en milieu professionnel ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "appliquer la procédure communiquée par les services de secours, lors de la transmission du bilan."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "2 Ou inscrit dans les fiches de données sécurité."
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "La sécurité et l’efficacité de naloxone administrable par pulvérisation intranasale chez les enfants de moins de 14 ans n’ont pas été établies."
+  ]
+}

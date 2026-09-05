@@ -1,0 +1,397 @@
+{
+  "nom": "04FT12",
+  "titre": "Évaluation de la fonction neurologique",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Bilans",
+  "chapitres": [
+    {
+      "titre": "Indication",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’évaluation de la fonction neurologique est réalisée lors du bilan et de la surveillance de la victime."
+        }
+      ]
+    },
+    {
+      "titre": "Justification",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La fonction neurologique est une fonction vitale. Toute altération de la fonction neurologique peut entraîner à plus ou moins brève échéance une altération des autres fonctions vitales et une aggravation de l’état de la victime. Son évaluation au cours des différentes phases du bilan et au cours de la surveillance de la victime permet :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "d’identifier une perte de connaissance (2 ème regard),"
+            },
+            {
+              "niveau": 1,
+              "texte": "d’évaluer le niveau de conscience de la victime (3 ème regard),"
+            },
+            {
+              "niveau": 1,
+              "texte": "de rechercher des troubles de l’orientation, une perte de connaissance passagère, d’évaluer la motricité et la sensibilité globale de la victime et enfin si nécessaire d’examiner l’état de ses pupilles (4 ème regard)"
+            },
+            {
+              "niveau": 1,
+              "texte": "d’évaluer l’évolution de l’état de la victime et l’efficacité de gestes de secours entrepris (surveillance de la victime)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Matériel",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’appréciation de la fonction neurologique ne nécessite aucun appareil."
+        }
+      ]
+    },
+    {
+      "titre": "Réalisation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’évaluation de fonction neurologique se fait en trois temps :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Rechercher une perte de connaissance (2 ème regard)"
+            },
+            {
+              "niveau": 1,
+              "texte": "Apprécier la fonction neurologique. Elle se fait en posant des questions, en stimulant la victime et éventuellement en lui demandant de réaliser certains gestes (3 ème regard)."
+            },
+            {
+              "niveau": 1,
+              "texte": "Mesurer la fonction neurologique en évaluant la réponse de la victime à certaines sollicitations ou tests (4 ème regard) :"
+            },
+            {
+              "niveau": 2,
+              "texte": "Score EVDA (AVPU en anglo-saxon)"
+            },
+            {
+              "niveau": 2,
+              "texte": "Score de Glasgow"
+            },
+            {
+              "niveau": 2,
+              "texte": "Scores de l’AVC"
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "L’autorité médicale de chaque organisme ou association est à même de choisir la méthode à utiliser pour mesurer le niveau de conscience et de proposer son enseignement."
+        }
+      ]
+    },
+    {
+      "titre": "Rechercher une perte de connaissance",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La recherche d’une perte de connaissance ne nécessite que quelques secondes et se fait quelle que soit la position de la victime."
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "poser une question simple à la victime : « Comment ça va ? Vous m’entendez ? » tout en la secouant doucement par les épaules,"
+            },
+            {
+              "niveau": 1,
+              "texte": "lui prendre la main et lui demander d’exécuter un ordre simple : « Ouvrez les yeux, serrez-moi la main »"
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Normalement, une victime consciente répond quand on lui pose une question et réalise le geste simple qu’on lui demande. On dit qu’une victime a perdu connaissance quand elle ne répond pas quand on lui pose une question, qu’elle ne réalise pas le geste simple qu’on lui demande et ne réagit pas aux sollicitations physiques."
+        }
+      ]
+    },
+    {
+      "titre": "Apprécier la fonction neurologique",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’appréciation de la fonction neurologique se fait en interrogeant la victime ou son entourage ou en lui demandant de réaliser certains gestes."
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Évaluer l’orientation de la victime dans le temps et dans l’espace"
+            },
+            {
+              "niveau": 2,
+              "texte": "« Comment vous appelez-vous ? »"
+            },
+            {
+              "niveau": 2,
+              "texte": "« En quelle année sommes-nous ? Quel jour sommes-nous ? »"
+            },
+            {
+              "niveau": 2,
+              "texte": "« Où sommes-nous ? »"
+            },
+            {
+              "niveau": 1,
+              "texte": "Rechercher une perte de connaissance initiale ou passagère"
+            },
+            {
+              "niveau": 2,
+              "texte": "Interroger l’entourage de la victime"
+            },
+            {
+              "niveau": 2,
+              "texte": "Demander à la victime si elle se souvient de ce qui s’est passé."
+            },
+            {
+              "niveau": 1,
+              "texte": "Apprécier la motricité et la sensibilité des membres supérieurs et inférieurs"
+            },
+            {
+              "niveau": 2,
+              "texte": "Demander à la victime de remuer les doigts puis les orteils ou les pieds."
+            },
+            {
+              "niveau": 2,
+              "texte": "Demander à la victime de serrer la main."
+            },
+            {
+              "niveau": 2,
+              "texte": "Demander à la victime de fermer les yeux et d’identifier successivement les membres touchés."
+            },
+            {
+              "niveau": 1,
+              "texte": "Apprécier la symétrie et la taille des pupilles"
+            },
+            {
+              "niveau": 2,
+              "texte": "À la lumière du jour ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "Sous une lumière de « faible intensité »."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "En conditions normales :",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "la victime :"
+            },
+            {
+              "niveau": 2,
+              "texte": "répond correctement aux questions de manière cohérente et compréhensible,"
+            },
+            {
+              "niveau": 2,
+              "texte": "se souvient des modalités de survenue de l’accident ou du malaise si elle n’a pas perdu connaissance,"
+            },
+            {
+              "niveau": 2,
+              "texte": "bouge les membres supérieurs et inférieurs,"
+            },
+            {
+              "niveau": 2,
+              "texte": "sent quand on la touche ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "les pupilles sont d’un diamètre égal et se resserrent à la lumière."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Mesurer le niveau de conscience de la victime et réaliser des scores neurologiques",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Score EVDA (AVPU en anglo-saxon) Le score EVDA se réalise plus particulièrement chez une victime qui présente une altération de la fonction neurologique. Il a pour objectif d’évaluer son niveau de conscience en appréciant sa réactivité à une stimulation verbale ou douloureuse. Pour cela il faut :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "interpeler la victime, lui poser une question simple,"
+            },
+            {
+              "niveau": 1,
+              "texte": "lui prendre la main et lui demander d’exécuter un ordre simple,"
+            },
+            {
+              "niveau": 1,
+              "texte": "en l’absence de réaction, la stimuler en réalisant une pression sur la base d’un de ses ongles (aucune autre méthode de stimulation douloureuse ne doit être réalisée)."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "En fonction de la réponse de la victime à ces gestes d’examen, la victime est considérée comme :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "(E) Éveillée, alerte, si elle ouvre les yeux, répond et bouge spontanément ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "(V) réactive à la Voix si elle n’ouvre les yeux, ne parle, n’exécute un ordre simple que quand on le lui demande (stimulation verbale) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "(D) réactive à la Douleur si elle n’ouvre les yeux ou ne réagit que quand on exerce une pression à la base de l’ongle, mais ne répond pas à la stimulation verbale ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "(A) Aréactive si elle reste inerte, ne bouge pas, n’ouvre pas les yeux et ne réagit ni à la voix ni à la stimulation douloureuse."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Cet examen peut être renouvelé autant que nécessaire si le secouriste pense que l’état de conscience de la victime se modifie, particulièrement lors de la surveillance. Si la victime est consciente, il est alors possible d’identifier ses plaintes."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Score ou échelle de Glasgow Le niveau de conscience d’une victime peut aussi être mesuré en utilisant le score de Glasgow. Cette mesure s’effectue en évaluant l’ouverture des yeux, la réponse verbale et motrice à la stimulation. Le score de Glasgow est étroitement corrélé à la gravité d’une altération de la fonction neurologique (coma). C’est un score allant de 3 si la victime est en « coma aréactif » à 15 si elle est parfaitement consciente."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Tableau 7: Score de Glasgow (3 à 15) Y : O UVERTURE DES YEUX S CORE V : R EPONSE VERBALE M : R EPONSE MOTRICE ( REPONSE OCULAIRE )"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "1 Aucune Aucune Aucune"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Extension anormale (extension, 2 À la douleur Sons incompréhensibles enroulement des membres) Flexion anormale (flexion des 3 À la demande Paroles inappropriées membres)"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "4 Spontanée Confuse Retrait à la douleur"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "5 Normale Localise la douleur"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "6 Normale"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Scores de l’Accident Vasculaire Cérébral Le score de reconnaissance de l’AVC le plus connu et utilisé est le FAST. Il consiste à demander à la victime de réaliser différents tests pour rechercher :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Demander à la victime de sourire ou de montrer les dents (asymétrie de l’expression faciale) ( F ace);"
+            },
+            {
+              "niveau": 1,
+              "texte": "Demander à la victime assise ou allongée de fermer les yeux et d’étendre les bras devant elle et de maintenir cette position pendant 10 secondes (faiblesse musculaire des membres supérieurs) ( A rm);"
+            },
+            {
+              "niveau": 1,
+              "texte": "Demander à la victime de répéter une phrase comme « on n’apprend pas au vieux singe à faire des grimaces » (parole)( S peech);"
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "La présence d’une asymétrie de l’expression faciale, d’une faiblesse des membres supérieurs ou bien d’une anomalie de la parole doit considérer le score comme positif. Il doit faire suspecter la présence d’un AVC et demander un avis médical immédiat ( T ime). Il existe d’autres scores de reconnaissance de l’AVC, mais plus complexes à réaliser (CPSS 1 , LAPSS 2 , etc.). Certains inclus la mesure de la glycémie capillaire qui doit être supérieure à 0,6 g/l pour considérer le score comme positif (LAPSS). En conditions normales, lors de la réalisation :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "du score EVDA (AVPU en anglo-saxon), la victime bouge spontanément, répond à un ordre simple et réagit à la stimulation."
+            },
+            {
+              "niveau": 1,
+              "texte": "du score de Glasgow, présente un résultat supérieur à 12."
+            },
+            {
+              "niveau": 1,
+              "texte": "d’un score de l’AVC (FAST), la victime :"
+            },
+            {
+              "niveau": 2,
+              "texte": "à une expression faciale symétrique,"
+            },
+            {
+              "niveau": 2,
+              "texte": "bouge les membres supérieurs et maintien la position demandée,"
+            },
+            {
+              "niveau": 2,
+              "texte": "répète correctement la phrase proposée."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Évaluation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’évaluation de la fonction neurologique chez une victime doit permettre d’identifier une atteinte de la fonction neurologique, comme :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Une perte de connaissance,"
+            },
+            {
+              "niveau": 1,
+              "texte": "La présence de troubles de la conscience,"
+            },
+            {
+              "niveau": 1,
+              "texte": "La présence de signes qui peut traduire une détresse neurologique en voie de constitution."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "1 Cincinnati Prehospital Stroke Scale",
+    "2 Los Angeles Prehospital Stroke Scale"
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "nom": "05FT12",
+  "titre": "Ventilation artificielle par une méthode orale",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Urgences vitales",
+  "chapitres": [
+    {
+      "titre": "Indication",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La ventilation artificielle est nécessaire, après libération des voies aériennes, en présence d’une victime :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "en arrêt respiratoire ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "présentant une respiration agonique et dont la fréquence respiratoire est inférieure ou égale à six mouvements par minute."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Justification",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La ventilation artificielle par une méthode orale permet d’apporter de l’air aux poumons d’une victime en l’absence de matériel de ventilation artificielle. Ces méthodes orales permettent au secouriste d’insuffler directement à la victime l’air qu’il expire et dont la part résiduelle d’oxygène est suffisante pour assurer l’efficacité de la technique. Si l’arrêt de la respiration vient de se produire, cette technique peut favoriser la reprise de la respiration."
+        }
+      ]
+    },
+    {
+      "titre": "Matériel",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Aucun matériel."
+        }
+      ]
+    },
+    {
+      "titre": "Réalisation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La victime est préalablement installée en position horizontale et sur le dos. Le secouriste peut utiliser un écran facial ou un masque de poche pour réaliser cette technique."
+        }
+      ]
+    },
+    {
+      "titre": "Chez l’adulte ou l’enfant",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "basculer la tête de la victime en arrière comme pour la technique de libération des voies aériennes ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "pincer le nez de la victime entre le pouce et l'index, tout en maintenant la bascule en arrière de la tête 1 avec la main qui est placée sur le front ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "ouvrir légèrement la bouche de la victime en utilisant l'autre main et maintenir le menton élevé ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "inspirer, sans excès ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "appliquer la bouche largement ouverte autour de la bouche de la victime en appuyant fermement 2 ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "insuffler progressivement jusqu'à ce que la poitrine de la victime commence à se soulever (durant 1 seconde environ) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "se redresser légèrement tout en maintenant la bascule de la tête en arrière afin de :"
+            },
+            {
+              "niveau": 2,
+              "texte": "reprendre son souffle ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "vérifier l'affaissement de la poitrine de la victime."
+            },
+            {
+              "niveau": 1,
+              "texte": "insuffler une seconde fois dans les mêmes conditions."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "La durée de réalisation de ces deux insufflations successives ne doit pas excéder 5 secondes 1 ."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Si le ventre ou la poitrine de la victime ne se soulève pas lors des insufflations :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "s'assurer que la tête de la victime est en bonne position et que son menton est élevé ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "s'assurer qu'il y a une bonne étanchéité et pas de fuite d'air lors de l'insufflation ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "rechercher la présence d'un corps étranger dans la bouche. Le retirer avec les doigts, si nécessaire."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Chez le nourrisson ou le nouveau-né",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La technique est sensiblement la même que pour l’adulte ou l’enfant. Toutefois, il convient de :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "placer la tête du nourrisson en position neutre, menton élevé ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "englober avec la bouche à la fois la bouche et le nez de la victime ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "insuffler progressivement jusqu’à ce que la poitrine du nourrisson commence à se soulever (durant 1 seconde environ) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "se redresser légèrement, tout en maintenant la tête en position neutre, afin de :"
+            },
+            {
+              "niveau": 2,
+              "texte": "reprendre son souffle ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "vérifier l’affaissement de la poitrine."
+            },
+            {
+              "niveau": 1,
+              "texte": "insuffler une seconde fois dans les mêmes conditions."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Risques & Contraintes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Une insufflation trop rapide ou d’un volume d’air trop important peut entraîner un passage de l’air dans l’estomac et secondairement une régurgitation de son contenu. Ceci est plus fréquent chez l’enfant et le nouveau-né qui ont besoin de volumes d’air beaucoup moins importants que l’adulte."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Une régurgitation de liquide de l’estomac dans les voies aériennes de la victime entraîne un encombrement de celles-ci et compromet les manœuvres de réanimation et la survie de la victime."
+        }
+      ]
+    },
+    {
+      "titre": "Évaluation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’efficacité de la technique est jugée sur l’obtention d’un début de soulèvement de la poitrine de la victime, lors de chaque insufflation."
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "1 Le pincement du nez empêchera toute fuite d’air par le nez lors des insufflations.",
+    "2 La pression ferme autour de la bouche de la victime empêchera toute fuite d’air durant les insufflations.",
+    "1 La réalisation rapide des manœuvres d’insufflation permet de ne pas retarder la reprise des compressions thoraciques."
+  ]
+}

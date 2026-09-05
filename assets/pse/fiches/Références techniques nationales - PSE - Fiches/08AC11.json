@@ -1,0 +1,111 @@
+{
+  "nom": "08AC11",
+  "titre": "Pendaison, strangulation",
+  "niveaux": [
+    "PSE 2"
+  ],
+  "chapitre_principal": "Atteintes circonstancielles et environnementales",
+  "chapitres": [
+    {
+      "titre": "Définition",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La pendaison est une suspension du corps par le cou."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "La strangulation (ou étranglement) est une constriction du cou ou une pression sur la gorge."
+        }
+      ]
+    },
+    {
+      "titre": "Causes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La pendaison, comme la strangulation, peut survenir :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "de manière accidentelle : par exemple lorsqu’un vêtement ou une cravate se prend dans une machine, ou au cours de jeux, notamment chez les enfants ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "de façon volontaire, dans un but suicidaire ou criminel."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Risques & Conséquences",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Lorsqu’une pression est exercée sur l’extérieur du cou, les voies aériennes et les vaisseaux du cou sont comprimés. L’afflux d’air vers les poumons comme la circulation du sang vers le cerveau sont interrompus. Lors de la pendaison, sous l’effet du poids du corps (chute), il peut y avoir une lésion vertébrale avec atteinte de la moelle épinière."
+        }
+      ]
+    },
+    {
+      "titre": "Signes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le 1er regard permet le plus souvent de constater une pendaison ou de suspecter une strangulation : corps pendu même si une partie du corps touche le sol, présence d’un objet constrictif autour du cou…"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Lors du bilan, la victime peut présenter :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Une perte de connaissance ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "Un arrêt cardiaque ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "Une détresse respiratoire."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Si la victime est consciente, la victime peut présenter, à l’interrogatoire, une raucité de la voix ou une difficulté à respirer. L’examen permet de constater la présence de marques éventuelles (traces de strangulation)."
+        }
+      ]
+    },
+    {
+      "titre": "Principe de l’action de secours",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "supprimer la cause tout en protégeant le rachis cervical ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "réaliser les gestes de secours nécessaires ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "demander un avis médical."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

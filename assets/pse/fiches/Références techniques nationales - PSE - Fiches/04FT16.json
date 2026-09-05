@@ -1,0 +1,199 @@
+{
+  "nom": "04FT16",
+  "titre": "Mesure de la douleur",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Bilans",
+  "chapitres": [
+    {
+      "titre": "Indication",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La mesure de la douleur 1 se réalise lors de l’analyse des plaintes de la victime au cours du bilan (4 ème regard) et régulièrement lors de sa surveillance."
+        }
+      ]
+    },
+    {
+      "titre": "Justification",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La mesure d’une douleur de la victime permet :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "lors du bilan, d’identifier le niveau de douleur initial exprimé par la victime,"
+            },
+            {
+              "niveau": 1,
+              "texte": "au cours de sa surveillance, de suivre l’évolution du niveau de douleur ressentit par la victime pendant et après la réalisation des gestes de premiers secours."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Le niveau de douleur est utilisé pour porter l’indication de l’utilisation des antalgiques. Certains antalgiques peuvent être utilisés par des secouristes habilités sur indication médicale 2 ."
+        }
+      ]
+    },
+    {
+      "titre": "Matériel",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Pour effectuer une mesure de la douleur, on utilise une échelle d’évaluation 3 . Cette échelle d’évaluation peut être verbale, expliquée par le secouriste ou utilisée à l’aide d’un outil visuel. Cet outil dépend de l’échelle qui est choisie. Le choix de l’échelle de la douleur utilisée par le secouriste est du ressort de l’autorité médicale de chaque organisme ou association."
+        }
+      ]
+    },
+    {
+      "titre": "Échelle verbale simple (EVS)",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’EVS est une échelle virtuelle qui évalue l’intensité de la douleur en 5 points, de 0 à 4 et pour laquelle correspond à chaque valeur une réponse verbale apportée par la victime. Il faut demander à la victime de préciser le niveau de sa douleur à l’instant présent en lui donnant une note de 0 à 4 selon les indications ci-dessous : q - 0 – Douleur nulle q - 1 – Douleur faible q - 2 – Douleur modérée q - 3 – Douleur intense q - 4 – Douleur insupportable"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "La victime nécessite une prise en charge de la douleur si EVS ≥ 2"
+        }
+      ]
+    },
+    {
+      "titre": "Échelle numérique (EN)",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’EN est une échelle virtuelle qui évalue l’intensité de la douleur en 11 points, 0 à 10 et pour laquelle correspond à chaque valeur une réponse verbale apportée par la victime. Il faut demander à la victime de préciser le niveau de sa douleur à l’instant présent en lui donnant une note de 0 à 10 selon les indications ci-dessous : q - La note « 0 » correspond à une absence de douleur q - La note de 1 à 3 à une douleur faible q - La note de 4 à 5 à une douleur modérée"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "q - La note de 6 à 7 à une douleur forte q - La note de 8 à 10 à une douleur insupportable Cette évaluation nécessite une bonne explication par le secouriste et la compréhension par la victime. Elle est plus facile à réaliser chez l’adulte. La victime nécessite une prise en charge de la douleur si EN ≥ 4/10."
+        }
+      ]
+    },
+    {
+      "titre": "Échelle visuelle analogique (EVA)",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Son principe est le même que l’EN, mais elle s’appuie sur l’utilisation d’un outil en plastique gradué en mm, encore appelé « réglette ». Sur la face présentée à la victime se trouve un curseur qu’elle mobilise le long d’une ligne droite (fig. 1) ou d’un triangle couché dont la pointe est située du côté du 0 et la base du côté 10. L’une des extrémités correspond à « pas de douleur », et l’autre à « douleur maximale imaginable ». La victime doit, le long de cette ligne, positionner le curseur à l’endroit qui correspond le mieux à sa douleur. Sur l’autre face se trouvent des graduations millimétrées vues seulement par le secouriste (fig. 2). La position du curseur mobilisé par la victime permet de lire l’intensité de la douleur, qui est mesurée en millimètres."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Figure 3: Réglette \"échelle visuelle analogique\", côté victime"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Figure 4: Réglette \"échelle visuelle analogique\", côté secouriste"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "L’utilisation de ces échelles demande une bonne coopération de la victime et une explication claire de son utilisation. Le secouriste doit toujours s’assurer de la bonne compréhension de la victime. Si la victime présente plusieurs points douloureux, une évaluation de chaque point doit être réalisée. La victime nécessite une prise en charge de la douleur si EVA ≥ 4/10."
+        }
+      ]
+    },
+    {
+      "titre": "Échelle des 6 visages",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Cette échelle est basée sur le principe de l’EVA, mais adaptée pour des enfants de 4 à 10 ans. La réglette, coté victime, représente 6 visages qui expriment l’absence de douleur ou une douleur légère à très intense (fig. 3). La réglette, côté secouriste, donne pour chaque visage un niveau de douleur. Comme il n’existe que 6 visages, seuls 6 niveaux sont identifiés (0, 2, 4, 6, 8 et 10) (fig. 4)."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Figure 5: Réglette \"échelle des 6 visages\", côté enfant 1"
+        }
+      ]
+    },
+    {
+      "titre": "0 2 4 6 8 10 0 Echelle de visages pour l’enfant à partir de quatre ans 2 4 6 8 10",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "« Montre-moi le visage qui a mal comme toi en ce moment ? » Echelle de visages pour l’enfant à partir de quatre ans Consignes : ces visages montrent combien on peut avoir mal. Ce visage (montrer celui de gauche) montre quelqu’un « Montre-moi le visage qui a mal comme toi en ce moment ? » qui n’a pas mal du tout. Ces visages (les montrer un à un de gauche à droite) montrent quelqu’un qui a de plus en plus Consignes mal, jusqu’à celui-ci (montrer celui de droite), qui montre quelqu’un qui a très très mal. Choisis le visage qui montre : ces visages montrent combien on peut avoir mal. Ce visage (montrer celui de gauche) montre quelqu’un qui n’a pas mal du tout. Ces visages (les montrer un à un de gauche à droite) montrent quelqu’un qui a de plus en plus combien tu as mal en ce moment. mal, jusqu’à celui-ci (montrer celui de droite), qui montre quelqu’un qui a très très mal. Choisis le visage qui montre combien tu as mal en ce moment."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Figure 6: Réglette \"échelle des 6 visages\", côté secouriste"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Cette échelle est de compréhension facile, même chez l’enfant jeune, chez l’enfant douloureux ou fatigué. C’est l'échelle la mieux validée et la plus appréciée par les enfants. L’enfant nécessite une prise en charge de la douleur si le score est supérieur ou égal à 4."
+        }
+      ]
+    },
+    {
+      "titre": "Échelle EVENDOL (hétéroévaluation de la douleur)",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Les enfants les plus jeunes ou stressés ont du mal à relativiser, à comparer différents niveaux de douleur entre eux. Il en est de même pour les enfants qui ne s’expriment pas. Dans cette situation il est pertinent de revenir à une hétéroévaluation comportementale de la douleur."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "L’échelle d’hétéroévaluation EVENDOL en 15 points a été validée pour les enfants de 0 à 7 ans en situation d’urgence. Pour cela, le secouriste doit identifier des signes d’évaluation de la douleur qui portent sur l’expression, la mimique, les mouvements, la position de la victime et ses relations avec l’environnement. La douleur est évaluée sur un total de 15 (tableau 7). L’usage de cette échelle est plus difficile, et reste le plus souvent utilisé par du personnel habitué à la prise en charge de la douleur chez l’enfant. Son utilisation par les secouristes est du ressort de l’autorité médicale de chaque organisme ou association."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "1 D’après Carrie L Hicks, Carl L von Baeyer, Pamela A Spafford et all. The Faces Pain Scale-Revised: toward a common metric in pediatric pain measurement. Pain. 2001 Aug;93(2):173-183. doi: 10.1016/S0304-3959(01)00314-1."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Tableau 10: Échelle d'hétéroévaluation de la douleur chez l'enfant \"EVENDOL\" 1 S IGNE S IGNE S IGNE S IGNE C RITERES D ’ HETEROEVALUATION ABSENT PEU INTENSE MOYEN OU PRESENT FORT OU QUASI"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Expression vocale ou verbale Pleure et/ou crie et/ou gémit et/ou dit qu'il a mal 0 1 2 3 Mimique A le front plissé et/ou les sourcils froncés et/ou la 0 1 2 3 bouche crispée Mouvements S'agite et /ou se raidit et/ou se crispe 0 1 2 3 Position A une attitude inhabituelle et/ou antalgique et/ou se 0 1 2 3 protège et/ou reste immobile Relation avec l’environnement Peut-être consolé et/ou s'intéresse aux jeux et/ou Normale Diminué Très diminué Absente communique avec l'entourage 0 1 2 3 Score total __/15"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "L’enfant nécessite une prise en charge de la douleur si EVENDOL ≥ 4/15."
+        }
+      ]
+    },
+    {
+      "titre": "Évaluation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La mesure de la douleur :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "est réalisée pour chaque victime qui présente une douleur,"
+            },
+            {
+              "niveau": 1,
+              "texte": "utilise un outil de mesure validé,"
+            },
+            {
+              "niveau": 1,
+              "texte": "est répétée pour suivre son évolution tout le long de la prise en charge de la victime,"
+            },
+            {
+              "niveau": 1,
+              "texte": "est renseignée sur la fiche de bilan."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "D’après Fournier-Charrière, E. et al. EVENDOL, a new behavioral pain scale for children ages 0 to 7years in the emergency department: Design and validation. Pain 153, 1573–1582 (2012)."
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "1 https://www.has-sante.fr/upload/docs/application/pdf/2022-01/liste_echelles_acceptees_2022.pdf",
+    "2 Décret n° 2022-621 du 22 avril 2022 relatif aux actes de soins d'urgence relevant de la compétence des sapeurs-pompiers",
+    "3 Liste des échelles acceptées pour mesurer la douleur, Haute Autorité de Santé, Direction de l’Amélioration de la Qualité et de la Sécurité des Soins, Service Évaluation et Outils pour la Qualité et la Sécurité des Soins en date du 12 janvier 2022."
+  ]
+}

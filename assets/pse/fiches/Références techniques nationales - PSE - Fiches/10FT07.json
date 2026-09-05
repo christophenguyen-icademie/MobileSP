@@ -1,0 +1,295 @@
+{
+  "nom": "10FT07",
+  "titre": "Relevage à quatre secouristes",
+  "niveaux": [
+    "PSE 2"
+  ],
+  "chapitre_principal": "Relevage et brancardage",
+  "chapitres": [
+    {
+      "titre": "Indication",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Les techniques de relevage d’une victime à quatre secouristes sont réalisées :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "si la corpulence de la victime le nécessite ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "si un brancard cuillère ne peut être utilisé pour relever une victime suspecte d’un traumatisme de la colonne vertébrale."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Justification",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Ces techniques permettent :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "de relever une victime lourde ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "de maintenir l’axe tête-cou-tronc."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Une cinquième personne peut être utilisée pour faire glisser le brancard sous la victime lorsque cela est nécessaire."
+        }
+      ]
+    },
+    {
+      "titre": "Matériel",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Un dispositif de portage préalablement préparé et adapté, si nécessaire, à recevoir une victime qui présente un traumatisme du rachis (matelas immobilisateur, plan dur). L’ensemble de ce dispositif sera nommé « brancard » dans la suite de la fiche."
+        }
+      ]
+    },
+    {
+      "titre": "Pont néerlandais à quatre porteurs",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La mise en œuvre de cette technique nécessite quatre intervenants :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "un secouriste, placé à la tête de la victime, assure la stabilisation du rachis en maintenant la tête de la victime par une prise latéro-latérale (secouriste 1) ; Il se positionne un genou côté brancard à terre, à l’intérieur des deux hampes du brancard et contre la poignée pour la caler. C’est ce secouriste qui guide et commande l’ensemble de la manœuvre."
+            },
+            {
+              "niveau": 1,
+              "texte": "trois secouristes, placés en pont, les jambes écartées au-dessus de la victime (secouristes 2, 3 et 4)."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Préalablement à la manœuvre de relevage :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "disposer le brancard le long du corps de la victime et s’il a des roulettes, les bloquer ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "assurer une stabilisation du rachis cervical par un maintien tête si la victime est suspecte d’un traumatisme du rachis ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "si la victime est porteuse d’un collier cervical mis en place pour son extraction ou son dégagement avant son relevage, le maintenir en place jusqu’à la fin du relevage et de l’immobilisation de la victime."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Initialement : les secouristes 2, 3 ou 4 doivent ramener les bras de la victime sur son tronc. Puis :"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "le secouriste 2 doit :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "prendre position au niveau des pieds de la victime ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "placer le pied côté brancard à l’intérieur des poignées de manière à les bloquer. les secouristes 3 et 4 doivent :"
+            },
+            {
+              "niveau": 1,
+              "texte": "se placer debout respectivement au niveau du bassin et des épaules de la victime en se faisant face ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "enjamber la victime successivement en prenant appui l’un sur l’autre pour poser leur pied sur la hampe extérieure sous le drap ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "engager les mains respectivement sous les épaules et sous la taille de la victime (ou saisir les parties latérales de la ceinture si elle est solide). le secouriste 2 doit saisir les chevilles de la victime ; Secouriste 1 : « Êtes-vous prêts ? » Secouristes 2, 3 et 4 : « Prêts ! » Secouriste1 : « Attention pour lever… Levez ! » les secouristes 2, 3 et 4 doivent :"
+            },
+            {
+              "niveau": 1,
+              "texte": "se relever en gardant le dos plat ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "soulever la victime ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "déplacer latéralement la victime jusqu’au brancard. le secouriste 1 doit :"
+            },
+            {
+              "niveau": 1,
+              "texte": "accompagner le mouvement ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "ordonner de poser la victime sur le brancard, en fin de déplacement. Les secouristes doivent :"
+            },
+            {
+              "niveau": 1,
+              "texte": "poser la victime doucement sur le brancard ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "se dégager successivement de la victime, dans l’ordre 3 et 4, puis l’équipier placé aux pieds (secouriste 2)."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "L’équipier de tête (secouriste 1) peut se dégager seulement si la stabilisation du rachis cervical est assurée."
+        }
+      ]
+    },
+    {
+      "titre": "Pont amélioré",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La mise en œuvre de cette technique nécessite quatre intervenants :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "un secouriste, placé à la tête de la victime, en trépied, assure la stabilisation du rachis en maintenant la tête de la victime par une prise latéro-latérale (secouriste 1) ; C’est ce secouriste qui guide et commande l’ensemble de la manœuvre."
+            },
+            {
+              "niveau": 1,
+              "texte": "trois secouristes, placés en pont, les jambes écartées au-dessus de la victime (secouriste 2, 3 et 4)."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Préalablement à la manœuvre de relevage :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "disposer le brancard dans l’axe de la victime, si possible au niveau des pieds ; Un aide assurera son glissement sous la victime au commandement. S’il n’est pas possible de disposer le brancard dans l’axe aux pieds de la victime, le secouriste qui soutient la tête (secouriste 1) se place à la tête de la victime en pont, comme les autres secouristes, pour laisser passer le brancard par la tête."
+            },
+            {
+              "niveau": 1,
+              "texte": "assurer une stabilisation du rachis cervical par un maintien tête si la victime est suspecte d’un traumatisme du rachis ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "si la victime est porteuse d’un collier cervical mis en place pour son extraction ou son dégagement avant son relevage, le maintenir en place jusqu’à la fin du relevage et de l’immobilisation de la victime si la victime est suspecte d’un traumatisme du rachis."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Initialement : les secouristes 2, 3 ou 4 doivent ramener les bras de la victime sur son tronc. Puis : les secouristes 2, 3 et 4 doivent :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "se placer l’un après l’autre en pont au-dessus de la victime, jambes suffisamment écartées et pieds légèrement décalés, respectivement au niveau des épaules, du bassin et des jambes de la victime ; Les secouristes situés aux épaules et au bassin se font face."
+            },
+            {
+              "niveau": 1,
+              "texte": "Le secouriste aux membres inférieurs fait face au secouriste de tête."
+            },
+            {
+              "niveau": 1,
+              "texte": "s’accroupir en gardant le dos plat ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "engager leurs mains respectivement sous les épaules de la victime, sous sa taille (niveau de la ceinture) et au niveau des chevilles ; Secouriste 1 : « Êtes-vous prêts ? » Secouristes 2, 3 et 4 : « Prêts ! » Secouriste 1 : « Attention pour lever… Levez ! » les secouristes doivent alors :"
+            },
+            {
+              "niveau": 1,
+              "texte": "se relever en gardant le dos plat ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "soulever légèrement la victime pour permettre le passage du brancard. Secouriste 1 : « Envoyez le brancard ! »"
+            },
+            {
+              "niveau": 1,
+              "texte": "l’aide doit alors glisser le brancard entre les jambes des secouristes, sous la victime. le secouriste 1 doit commander l’arrêt du brancard lorsque celui-ci est arrivé sous la tête de la victime."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Une fois que le brancard est en place : Secouriste 1 : « Posez ! » les secouristes doivent alors :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "poser doucement la victime sur le brancard ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "se dégager successivement de la victime, dans l’ordre 3 et 4, puis 2, l’équipier placé aux pieds."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "L’équipier de tête peut se dégager seulement si la victime n’est pas suspecte d’un traumatisme du rachis ou après avoir assuré une restriction des mouvements du rachis cervical, par exemple par une immobilisation de la tête dans un matelas à dépression ou la mise en place de blocs de tête."
+        }
+      ]
+    },
+    {
+      "titre": "Risques & Contraintes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Tout risque de chute de la victime ou d’une aggravation d’une éventuelle lésion de la colonne vertébrale est évité si la technique est correctement choisie et exécutée. Le respect des règles de manutention évite au secouriste de se blesser pendant la manœuvre."
+        }
+      ]
+    },
+    {
+      "titre": "Évaluation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le transfert de la victime sur le brancard doit être doux, sans à-coup et l’axe tête-cou-tronc doit être respecté. À l’issue de la manœuvre, la victime se trouve en position correcte sur le brancard."
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

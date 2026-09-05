@@ -1,0 +1,154 @@
+{
+  "nom": "08FT01",
+  "titre": "Soin au cordon ombilical",
+  "niveaux": [
+    "PSE 2"
+  ],
+  "chapitre_principal": "Atteintes circonstancielles et environnementales",
+  "chapitres": [
+    {
+      "titre": "Indication",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le clampage et la section du cordon ombilical doivent être réalisés :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "après la naissance, après la 1 ère minute de vie ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "parfois pendant l’accouchement, en cas de circulaire serré du cordon (cordon entourant le cou du bébé)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Justification",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le clampage du cordon ombilical facilite le déclenchement des mécanismes d’adaptation (circulation et respiration) du nouveau-né qui lui permettent de passer de la vie intra-utérine à la vie extra-utérine. La section du cordon facilite la prise en charge du nouveau-né et de sa mère : réanimation éventuelle du nouveau-né, soins à la mère et prévention de l’hypothermie. En présence d’une circulaire du cordon, la section du cordon permet l’expulsion du nouveau-né."
+        }
+      ]
+    },
+    {
+      "titre": "Matériel",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La section du cordon nécessite :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "des compresses stériles ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "deux clamps de Barr ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "une paire de ciseaux stériles."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Réalisation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Il s’agit de clamper le cordon en deux points du cordon ombilical et de sectionner celui-ci entre les deux clamps :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "changer les gants utilisés lors de l’accouchement et s’équiper de gants et de lunette (ou visière oculaire) de protection ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "essuyer le cordon, avec une compresse, sur la zone prévue de positionnement des clamps ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "poser le premier clamp à environ 10 à 15 cm de l’ombilic et le verrouiller ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "pincer le cordon avec une compresse stérile pour le vider de son sang, en partant du premier clamp sur environ 3 à 5 cm. Cela évitera les projections de sang au moment de la section du cordon ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "placer le second clamp sur le cordon toujours pincé et le verrouiller ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "couper le cordon entre les clamps ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "recouvrir le cordon et le clamp relié au nouveau-né d’une compresse stérile."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Cas particuliers",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "circulaire du cordon impossible à libérer : Les 2 clamps sont positionnés plus près l’un de l’autre en s’adaptant à la situation et la section se fait prudemment, les doigts du secouriste étant en protection entre le cordon et le nouveau-né afin de ne pas le blesser."
+            },
+            {
+              "niveau": 1,
+              "texte": "nouveau-né en détresse : L’urgence à réanimer le nouveau-né impose une rapidité d’action et permet de s’affranchir de l’étape désinfection du cordon en mettant seulement des gants propres."
+            },
+            {
+              "niveau": 1,
+              "texte": "l’expulsion a eu lieu et le cordon a été « rompu » avant l’arrivée des secours : Poser un clamp sur la partie du cordon reliée au nouveau-né et un autre clamp sur la partie qui reste relié à la mère après avoir désinfecté la zone de pose."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Risques & Contraintes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "On ne doit jamais tirer sur le cordon. Le positionnement du premier clamp doit être suffisamment loin de l’ombilic pour ne pas pincer une partie d’intestin."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "On ne peut sectionner qu’entre les deux clamps."
+        }
+      ]
+    },
+    {
+      "titre": "Évaluation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Il ne doit pas y avoir de saignement après la section."
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

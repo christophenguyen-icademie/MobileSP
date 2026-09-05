@@ -1,0 +1,309 @@
+{
+  "nom": "08PR04",
+  "titre": "Accouchement inopiné",
+  "niveaux": [
+    "PSE 2"
+  ],
+  "chapitre_principal": "Atteintes circonstancielles et environnementales",
+  "chapitres": [
+    {
+      "titre": "L’accouchement n’a pas encore eu lieu",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "installer la femme enceinte sur le côté 1 ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "réaliser un bilan de la femme enceinte, et au cours du 4ème regard, recueillir 2 les éléments suivants :"
+            },
+            {
+              "niveau": 2,
+              "texte": "la date et le lieu prévus de l’accouchement ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "les contractions : heure du début (douleurs régulières), durée et intervalle entre deux ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "la perte des eaux : heure de la perte et couleur du liquide (transparent, trouble, sanglant) ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "si la parturiente a perdu du sang ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "si la parturiente sent le bébé bouger ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "le suivi ou non de la grossesse ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "les problèmes liés à cette grossesse (malformation fœtale, diabète, hypertension, œdèmes, etc.) ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "s’il s’agit d’une grossesse simple ou multiple et son déroulement ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "le type d’accouchement prévu (voie basse ou césarienne) et nature de la présentation (tête, siège,"
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "épaule),"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 2,
+              "texte": "le nombre d’accouchements déjà réalisé et leur déroulement."
+            },
+            {
+              "niveau": 1,
+              "texte": "demander un avis médical en transmettant le bilan."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Si le transport de la femme enceinte peut être réalisé",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "relever et installer la victime sur un brancard, allongée sur le côté 1 et ceinturée ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "transporter la victime en milieu hospitalier ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "surveiller la victime durant le transport."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Si le transport de la femme enceinte ne peut pas être réalisé, après avis médical, l’accouchement doit être réalisé sur place",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "se protéger contre le risque de projection de liquides (gants, masque, lunettes de protection) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "préparer le matériel nécessaire à l’accouchement et à l’accueil du nouveau-né :"
+            },
+            {
+              "niveau": 2,
+              "texte": "serviettes de bain propres et sèches ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "récipient pour recueillir les liquides corporels et le placenta ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "le matériel nécessaire à une éventuelle réanimation du nouveau-né : § bouteille d’oxygène, insufflateur manuel pédiatrique ; § aspirateur de mucosités avec une sonde adaptée au nouveau-né ; § oxymètre de pouls."
+            },
+            {
+              "niveau": 1,
+              "texte": "installer la parturiente dans la position qui lui convient le mieux (demi-assise 3 , sur le côté, bord du lit, etc.) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "réaliser l’accouchement. Pour cela :"
+            },
+            {
+              "niveau": 2,
+              "texte": "demander à la parturiente de pousser :"
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "§ à partir du moment où le haut du crâne du nouveau-né commence à apparaître à la vulve ; § lorsqu’elle ressent un besoin irrépressible de pousser."
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 2,
+              "texte": "lui demander de pousser vers le bas en retenant sa respiration dès qu’elle ressent la contraction et,"
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "si possible, jusqu’au maximum de la contraction ;"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 2,
+              "texte": "en cas de position demi-assise, lui demander d’attraper ses cuisses avec ses mains et d’hyper-fléchir"
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "ses cuisses sur l’abdomen pendant la poussée ;"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 2,
+              "texte": "faire reposer les jambes à la fin de la contraction utérine ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "recommencer la même manœuvre jusqu’à l’apparition de la moitié de la tête du nouveau-né ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "dès lors que la moitié de la tête du nouveau-né est apparu, cesser alors de faire pousser la"
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "parturiente, laisser se terminer l’expulsion naturellement tout en ralentissant la sortie de la tête en la maintenant d’une main afin d’éviter les déchirures du périnée ;"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 2,
+              "texte": "accompagner progressivement la sortie spontanée du nouveau-né. Pour cela :"
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "§ lâcher la tête du nouveau-né pour ne pas s’opposer à sa rotation 1 , § une fois la tête totalement sortie, si la tête ne tourne pas, demander à la parturiente d’arrêter de pousser et vérifier s’il y a un circulaire du cordon autour du cou du nouveau-né, § en présence d’un circulaire du cordon, procéder à son dégagement, § maintenir la tête de l’enfant le temps du dégagement des épaules qui sortent l’une (épaule antérieure) après l’autre (épaule postérieure) ; § soutenir le corps du nouveau-né avec les mains placées sous lui au cours de sa sortie , § le nouveau-né, recouvert de liquide amniotique et du sang de la mère, est particulièrement glissant et doit être maintenu fermement. Ne jamais tirer sur l’enfant."
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "noter l’heure de naissance ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "assurer la prise en charge du nouveau-né ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "surveiller la mère jusqu’à la délivrance."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "L’accouchement est déjà réalisé",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "réaliser simultanément un bilan complet de la mère et du nouveau-né ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "demander l’heure de la naissance ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "demander un avis médical en transmettant les deux bilans et appliquer les consignes reçues ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "prendre en charge le nouveau-né."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "En l’absence d’équipe médicale, surveiller la mère et l’assister pendant la délivrance."
+        }
+      ]
+    },
+    {
+      "titre": "La délivrance",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La délivrance se fait chez une femme après l’accouchement et le plus souvent en présence d’une équipe médicale. Toutefois, en son absence, il faut réaliser les actions suivantes :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "laisser sortir le placenta sans tirer dessus, ni sur le cordon ombilical et en faisant pousser ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "recueillir le placenta, dans une cuvette ou un sac plastique, une fois expulsé ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "l’acheminer avec la mère à l’hôpital pour vérifier son intégrité ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "réaliser un massage utérin pour prévenir les hémorragies après la naissance ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "placer un pansement absorbant ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "surveiller la mère ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "s’assurer de l’absence d’hémorragie extériorisée 2 ."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Cas particulier : si le placenta ne sort pas au bout de 30 minutes après la naissance, réaliser un massage utérin pour prévenir une hémorragie."
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "1 De préférence sur le côté gauche. L’installation sur le dos est à proscrire.",
+    "2 En questionnant la femme enceinte ou son entourage, ou en consultant le carnet de maternité.",
+    "3 En cas de position demi-assise, il est préférable que la mère ait les fesses légèrement au-delà du bord du lit ou du brancard, avec les cuisses fléchies, de façon que le bassin soit partiellement dans le vide.",
+    "1 Généralement la tête regarde vers le bas puis effectue une rotation d’un quart de tour sur la droite ou la gauche au cours de sa sortie",
+    "2 Une hémorragie secondaire peut survenir après la délivrance. En présence de celle-ci, appliquer la conduite à tenir adaptée."
+  ]
+}

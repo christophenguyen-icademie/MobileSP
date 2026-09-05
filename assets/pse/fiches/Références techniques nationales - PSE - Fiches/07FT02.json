@@ -1,0 +1,141 @@
+{
+  "nom": "07FT02",
+  "titre": "Maintien d’un pansement",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Traumatismes",
+  "chapitres": [
+    {
+      "titre": "Indication",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Cette technique est indiquée afin d’assurer le maintien d’un pansement non compressif sur une plaie."
+        }
+      ]
+    },
+    {
+      "titre": "Justification",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le maintien du pansement à l’aide d’un filet tubulaire évite tout phénomène de compression circulaire d’un membre et laisse à la victime sa liberté de mouvement."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Réalisé avec une bande, ce maintien accroît la protection contre les souillures extérieures."
+        }
+      ]
+    },
+    {
+      "titre": "Matériel",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Les bandes de crêpe ou extensibles :"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Les bandes de crêpe ou les bandes extensibles sont les plus communément utilisées. Elles sont de différentes largeurs."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Les filets de mailles tubulaires :"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Les filets de mailles tubulaires sont des cylindres de filet élastique de différents diamètres adaptés à chaque partie du corps."
+        }
+      ]
+    },
+    {
+      "titre": "Maintien à l’aide d’une bande",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Après avoir positionné le pansement non compressif :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "enrouler la bande autour de la zone atteinte (segment de membre, thorax, tête) ; Le bandage doit largement dépasser les dimensions du pansement."
+            },
+            {
+              "niveau": 1,
+              "texte": "maintenir la bande avec un morceau de ruban adhésif ou une épingle de sûreté."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Maintien à l’aide d’un filet",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Après avoir positionné le pansement non compressif :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "étirer et enfiler le filet, comme une chaussette, pour maintenir le pansement ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "faire un tour, puis repasser sur le filet pour assurer le maintien, si celui-ci est trop large pour la partie du corps à équiper ; Lors du retour, il convient de veiller à ce que le filet n’exerce pas de compression."
+            },
+            {
+              "niveau": 1,
+              "texte": "réaliser à l’aide d’une paire de ciseaux des orifices pour libérer certaines parties du corps (par exemple pouce, talon, orifice naturel), si cela s’avère nécessaire."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Risques & Contraintes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le dispositif de maintien (par bande ou filet) :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "ne doit jamais être directement posé sur la plaie ou la brûlure ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "ne doit pas déplacer le pansement lors de sa mise en place ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "doit largement dépasser les dimensions du pansement."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "La mise en place d’un filet peut être effectuée sur une victime allongée qui présente une plaie du crâne et est suspecte d’un traumatisme du rachis. Toutefois, elle doit être effectuée en présence d’un maintien de la tête et en glissant délicatement le filet sous celle-ci. En revanche, cette technique ne peut pas être réalisée avec une bande. Un bandage circulaire peut conduire à un effet garrot. Aussi, il convient de surveiller attentivement l’apparition progressive d’une douleur diffuse ou d’un saignement et de contrôler la circulation du membre en dessous du pansement (pouls, temps de recoloration cutanée, aspect de la peau). Exceptionnellement, cette technique peut permettre de réaliser la compression du membre pansé."
+        }
+      ]
+    },
+    {
+      "titre": "Évaluation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le dispositif doit maintenir le pansement sans entraver la circulation en aval. Par ailleurs, aucune douleur ne doit apparaître au niveau du membre pansé après une dizaine de minutes."
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

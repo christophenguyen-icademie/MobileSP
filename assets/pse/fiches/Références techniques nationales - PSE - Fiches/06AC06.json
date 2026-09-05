@@ -1,0 +1,167 @@
+{
+  "nom": "06AC06",
+  "titre": "Malaise hypoglycémique chez le diabétique",
+  "niveaux": [],
+  "chapitre_principal": "Malaises et affections spécifiques",
+  "chapitres": [
+    {
+      "titre": "Définition",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Comme l’oxygène, le sucre est essentiel au fonctionnement de l’organisme et notamment du cerveau. L’organisme produit une hormone appelée « insuline » qui intervient dans le transport et la pénétration du sucre dans les tissus. Le diabète est une maladie au cours de laquelle l’organisme, par manque de production de cette hormone, n’arrive pas à réguler le passage et l’utilisation du sucre qui est transporté par le sang vers les tissus du corps et qui s’accumule dans le sang. Les diabétiques doivent surveiller attentivement la quantité de sucre présente dans leur sang. Ils utilisent un lecteur de glycémie qui permet, à partir d’une goutte de sang prélevée au niveau du doigt, de mesurer et de surveiller le taux de sucre dans le sang. Un régime alimentaire adapté et un traitement médical régulier leur permettent de réguler l’utilisation du sucre par l’organisme."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Un apport insuffisant de sucre ou un excès de traitement peuvent entraîner un manque grave de sucre à l’origine d’un malaise : c’est « l’hypoglycémie ». La plupart des diabétiques connaissent ce risque et ont sur eux un morceau de sucre qu’ils doivent prendre immédiatement en cas de malaise pour faire remonter le taux de sucre rapidement. Cependant, la survenue du malaise est parfois très brutale."
+        }
+      ]
+    },
+    {
+      "titre": "Causes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Les malaises par manque de sucre sont fréquents chez le diabétique et sont facilités par :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "une alimentation inadaptée ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "un exercice physique inhabituel ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "l’excès de traitement ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "la déshydratation ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "la fièvre…"
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "NB : D’autres malaises d’origine et causes différentes peuvent se rencontrer chez une personne atteinte de diabète. De même, un malaise lié à une hypoglycémie peut se rencontrer chez des personnes qui ne sont pas diabétiques (malaise à l’effort, à jeun)."
+        }
+      ]
+    },
+    {
+      "titre": "Risques & Conséquences",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Lorsque le taux de sucre diminue, le fonctionnement du cerveau et de tout l’organisme est rapidement altéré. L’hypoglycémie peut déclencher des complications soudaines et potentiellement mortelles comme des convulsions ou une perte de connaissance (détresse neurologique). Il n’en est pas de même pour l’hyperglycémie qui évolue en règle générale progressivement, sans signes visibles sur une période de plusieurs heures ou plusieurs jours et qui fait rarement l’objet d’un recours à des services de secours d’urgence."
+        }
+      ]
+    },
+    {
+      "titre": "Signes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Les signes d’hypoglycémie peuvent être constatés chez une personne connue comme étant diabétique dès le 2ème regard. La victime peut présenter :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "une perte de connaissance ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "des convulsions généralisées ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "un trouble du comportement (prostration, agitation, agressivité, signes d’ébriété sans consommation d’alcool) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "des sueurs abondantes ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "une pâleur."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Dans certains cas, la victime présente des signes qui peuvent faire évoquer un accident vasculaire cérébral."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Lors du 4ème regard, la victime peut se plaindre :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "d’avoir faim ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "d’être très fatiguée et d’avoir mal à la tête ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "de sentir son cœur battre rapidement ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "de tremblements."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Mesure de la glycémie capillaire",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Lors de l’interrogatoire de la victime ou de son entourage, il est possible d’apprendre que celle-ci est diabétique. Dans ce cas, devant un malaise chez un diabétique, un test de dépistage d’une hypoglycémie peut être réalisé en utilisant un appareil de mesure de la glycémie capillaire, le glucomètre. Le résultat instantané de cette mesure permet à l’équipe de secours de transmettre cette information lors du bilan au médecin régulateur pour l’aider dans l’évaluation de la situation et des suites à donner."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Lors du transfert de la valeur de la mesure, il est essentiel d’indiquer l’unité de mesure de la glycémie utilisée par l’appareil : millimoles par litre (mmol/l), milligrammes par décilitre (mg/dl) ou grammes par litre (g/l). En fonction de l’unité, le chiffre est totalement différent. On considère qu’une victime est en hypoglycémie si la valeur mesurée de la glycémie est < 3,3 mmol/l (ou < 60 mg/dl ou < 0,6 g/l)."
+        }
+      ]
+    },
+    {
+      "titre": "Principe de l’action de secours",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "préserver la respiration tout en maintenant la liberté des voies aériennes, si la victime a perdu connaissance ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "aider la victime à faire remonter le taux de sucre dans son sang, si elle est consciente ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "demander un avis médical, dans tous les cas."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

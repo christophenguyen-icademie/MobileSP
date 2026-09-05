@@ -1,0 +1,68 @@
+{
+  "nom": "07PR05",
+  "titre": "Traumatisme du thorax",
+  "niveaux": [
+    "PSE 2"
+  ],
+  "chapitre_principal": "Traumatismes",
+  "chapitres": [
+    {
+      "titre": "Face à une urgence ou une détresse vitale, ou en cas d’aggravation",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "appliquer la conduite à tenir adaptée et réaliser en priorité les gestes d’urgence qui s’imposent ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "ne jamais retirer un corps étranger pénétrant dans le thorax, sauf s’il empêche la réalisation d’une RCP ;"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "En l’absence de détresse vitale apparente",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "appliquer la conduite à tenir face à une plaie grave ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "adapter la conduite à tenir avec :"
+            },
+            {
+              "niveau": 2,
+              "texte": "mettre la victime dans une position 1 assise ou demi-assise dès lors qu’il existe une gêne respiratoire ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "dénuder 2 le thorax de la victime : § vérifier la présence de lésions dans le dos de la victime, § particulièrement au cours de sa mobilisation 3 ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "protéger la plaie par : § un dispositif médical non occlusif spécifique à cette utilisation s’il est à disposition, § en son absence, laisser la plaie à l’air libre 4 ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "administrer de l’oxygène en inhalation, si nécessaire ;"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "1 Cette position sera maintenue lors de son relevage et de son transport.",
+    "2 Dans la mesure du possible cela doit se faire en préservant son intimité et si possible sans l’exposer au froid.",
+    "3 Installation en : position assise, position latérale de sécurité.",
+    "4 En l’espèce, le pansement non occlusif doit permettre la sortie de l’air piégé dans le thorax par la plaie et empêcher sa pénétration."
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "nom": "01PR02",
+  "titre": "Intervenir auprès d’un enfant",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Attitude et comportement",
+  "chapitres": [
+    {
+      "titre": "Introduction",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Lorsque la situation de secours met l'équipage en présence d'un enfant conscient (blessé ou non), ce dernier peut être victime primaire (a subi, a provoqué ou a vu l'événement survenir) ou victime secondaire (lien affectif avec la victime blessée et n'ayant pas assisté à l’événement concerné)."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Intervenir auprès d’enfants implique certaines particularités à prendre en compte. Face à des événements graves, exceptionnels, l'enfant, tout comme l'adulte, peut réagir par une réaction de stress modérée ou de forte intensité. Pour lui, l'impact est double :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "D'une part, elle affecte ses capacités de compréhension et d'expression et, à l'inverse de l’adulte qui s'exprime par le langage verbal en plus du langage corporel, l'enfant ne peut pas toujours s’appuyer sur les mots pour mettre du sens sur l’événement et pour exprimer ses peurs, sa détresse. Plus souvent, lors d’un drame, l’enfant se mure dans le silence."
+            },
+            {
+              "niveau": 1,
+              "texte": "D'autre part, lorsque l’enfant est au côté de ses parents dans pareilles expériences, il peut être confronté à leurs vulnérabilités (parents blessés, qui pleurent, souffrent, crient, paniquent…). L’enfant perd alors un élément fondamental de ce qui constitue la sécurité pour lui. La présence du secouriste sera d'autant plus déterminante pour sécuriser et contenir l'enfant. Un enfant dans certaines situations peut également agir pour protéger son parent (ne pas montrer sa détresse, être faussement calme)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Prendre en charge l’enfant",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Un seul et même secouriste assure une continuité auprès de l'enfant et :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Adapte sa communication :"
+            },
+            {
+              "niveau": 2,
+              "texte": "Se positionner à la hauteur de l'enfant, être vigilant au ton de sa voix (rythme posé, tonalité grave) ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "Lui parler directement, quel que soit son âge, y compris avec un bébé, en utilisant des mots simples et honnêtes ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "Utiliser les capacités d'imagination de l'enfant pour potentialiser les gestes de premiers secours : par exemple, présenter les outils de secourisme comme des petits robots, utiliser les références des dessins animés ou des contes qui ont un pouvoir de suggestion très efficace (la reine des neiges qui refroidit les brûlures, Pinocchio qui a les bras et les jambes durs comme du bois …)."
+            },
+            {
+              "niveau": 1,
+              "texte": "Implique les parents au maximum en tenant compte des circonstances, si possible installe l'enfant dans leurs bras."
+            },
+            {
+              "niveau": 1,
+              "texte": "Signifie à l'enfant qu’il a besoin de sa participation pour mieux l'aider et comprendre ce qu'il ressent : « Dis-moi dans quelle position tu te sens le mieux. Installe-toi le plus confortablement »."
+            },
+            {
+              "niveau": 1,
+              "texte": "Évalue la douleur : au-delà de 5 ans, la douleur est évaluée à partir d’échelles d’auto-évaluation adaptées à l’âge et à la compréhension de l’enfant. En dessous de 5 ans, l’évaluation est essentiellement basée sur l’appréciation des modifications physiques et comportementales liées à la douleur (pleurs, crispations, agitation, etc.)."
+            },
+            {
+              "niveau": 1,
+              "texte": "Et simultanément, couvre, au plus vite, une plaie, une déformation de membre ou tout autre facteur générateur d’angoisse pour l’enfant."
+            },
+            {
+              "niveau": 1,
+              "texte": "Utilise une peluche (si présente dans le matériel secouriste) pour faciliter la prise de contact et la relation ultérieure. Elle va permettre de créer un lien avec l'enfant plus rapidement. En utilisant la peluche, objet familier pour l'enfant, l'équipier s'adapte à ses besoins, et témoigne ainsi de sa volonté de rencontrer l'enfant dans son monde. Si l'enfant dispose de son propre doudou et/ou de sa tétine, ils seront à privilégier (ou à utiliser en complément) : présenter la peluche à l'enfant et lui proposer de la prendre après ce temps de présentation mutuelle et d'explications simples. Elle servira de médiateur tout au long de l'intervention."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Par le biais de la peluche et les explications du secouriste, l’enfant peut comprendre ce qu’on attend de lui, être prévenu des gestes techniques ou médicaux avant qu'ils soient faits et y participer plus facilement : « Regarde, je lui mets ce masque sur le museau pour l’aider à respirer… Maintenant, je fais pareil avec toi pour t’aider à respirer calmement »."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "L'enfant peut également montrer sur la peluche où il a mal, comme un miroir de son propre corps."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Enfin, elle va détourner son attention pendant les gestes de secourisme ou les manœuvres de l'intervention. Elle peut également, au travers du jeu, détourner l’enfant de sa douleur et/ou de ses angoisses."
+        }
+      ]
+    },
+    {
+      "titre": "Tout au long de l’intervention",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le secouriste veillera à :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Ne pas mentir (« Ça ne fait pas mal. C’est juste une petite attelle »). Mais plutôt : « il est possible que tu sentes quelque chose. Dis-le-moi. »"
+            },
+            {
+              "niveau": 1,
+              "texte": "Ne pas l'obliger à parler"
+            },
+            {
+              "niveau": 1,
+              "texte": "Ne pas banaliser ni dramatiser (comme : « Ce n’est pas grave / Tu as de la chance de t’en être sorti ! »), mais rassurer sur la fin de la situation de danger."
+            },
+            {
+              "niveau": 1,
+              "texte": "Ne pas encourager les attitudes héroïques (« Sois courageux, tu es un(e) grand(e) »), mais plutôt l'autoriser à exprimer ses émotions (« tu peux pleurer si tu en as besoin, dire tout ce que tu as envie de dire »), accepter ses réactions normales liées à la douleur, à la peur et aux émotions douloureuses."
+            },
+            {
+              "niveau": 1,
+              "texte": "Ne pas menacer (« Si tu cries, je dis à tes parents de partir. »), mais plutôt, valoriser l'enfant, l'encourager dans ses comportements adaptés et positifs : « C'est bien, respire calmement. Tu sais exactement comment faire pour te soulager, continue »."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

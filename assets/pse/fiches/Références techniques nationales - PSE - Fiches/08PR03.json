@@ -1,0 +1,116 @@
+{
+  "nom": "08PR03",
+  "titre": "Accidents liés à la plongée",
+  "niveaux": [],
+  "chapitre_principal": "Atteintes circonstancielles et environnementales",
+  "chapitres": [
+    {
+      "titre": "Au préalable",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "sortir le plus rapidement possible de l’eau ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "déséquiper la victime."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Face à une urgence ou une détresse vitale, ou en cas d’aggravation",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "appliquer la conduite à tenir adaptée et réaliser en priorité les gestes d’urgence qui s’imposent ;"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "En l’absence de détresse vitale",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "mettre la victime au repos et l’installer en position adaptée ou demi-assise si elle préfère ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "déshabiller et sécher la victime, la protéger du froid ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "administrer de l’oxygène en inhalation à l’aide d’un masque à haute concentration à un débit de 15 l/min, quelle que soit la saturation en oxygène, jusqu’à la prise en charge médicale ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "faire boire de l’eau plate (0,5 à 1 l en fractionnant les prises sur une heure), sauf si la victime présente un trouble de la conscience, des vomissements ou refuse de boire ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "transmettre le bilan et appliquer les consignes 1 reçues ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "surveiller la victime."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Dans tous les cas, avant de transmettre le bilan",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "rechercher auprès de la victime, ou de son entourage, les renseignements suivants :"
+            },
+            {
+              "niveau": 2,
+              "texte": "paramètres de la plongée : § type (apnée, bouteilles…), § lieu, § profondeur atteinte, § durée, § remontées avec paliers, § heure de sortie… ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "tables utilisées ou ordinateur de plongée : § à joindre à la fiche d’intervention secouriste lors de l’évacuation de la victime ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "nombre de plongées dans les vingt-quatre heures précédant l’action de secours ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "évènements survenus durant la plongée : § stress, § remontée rapide, § douleurs à la descente… ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "heure de survenue des symptômes et de leur évolution."
+            },
+            {
+              "niveau": 1,
+              "texte": "reporter ces renseignements sur la fiche d’évacuation du plongeur accidenté 2 ."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "d’allergie ou de saignement et si ce médicament est disponible.",
+    "2 Ces renseignements sont à reporter sur la fiche d’évacuation du plongeur accidenté, tel que prévu à l’article A322-78 du code du sport La fiche d’évacuation répond au modèle défini à l’annexe III-19 (art. A322-78) du code du sport. Elle fait partie du matériel de secours qui devrait être présent sur le lieu de mise à l'eau ou d'immersion et elle peut être téléchargée via le site internet https://www.legifrance.gouv.fr"
+  ]
+}

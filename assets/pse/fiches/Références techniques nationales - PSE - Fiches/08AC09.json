@@ -1,0 +1,173 @@
+{
+  "nom": "08AC09",
+  "titre": "Piqûres et morsures",
+  "niveaux": [
+    "PSE 2"
+  ],
+  "chapitre_principal": "Atteintes circonstancielles et environnementales",
+  "chapitres": [
+    {
+      "titre": "Définition",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le terme de piqûre est réservé aux atteintes provoquées par certains insectes ou par certains animaux marins. Le terme de morsure est quant à lui réservé aux plaies provoquées par des dents ou des crochets et concerne donc l’Homme, les animaux domestiques ou sauvages et les serpents."
+        }
+      ]
+    },
+    {
+      "titre": "Causes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Les piqûres et les morsures peuvent provenir :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "des insectes : hyménoptères (guêpes, frelons, abeilles), fourmis, etc ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "des animaux marins : méduses, vives, rascasses, etc. ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "des mammifères : Homme, animaux domestiques ou sauvages ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "des serpents, des arachnides (scorpions, araignées, etc)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Risques & Conséquences",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Les piqûres et les morsures d’animaux peuvent être à l’origine :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "d’hémorragie externe ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "de plaie avec risque infectieux, notamment pour les morsures, pouvant être très grave (tétanos) voire mortelle (rage) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "d’inoculation de substances toxiques, encore appelées « venin », à l’origine :"
+            },
+            {
+              "niveau": 2,
+              "texte": "de manifestations locales désagréables (gonflement, rougeur, douleur…),"
+            },
+            {
+              "niveau": 2,
+              "texte": "de détresses vitales (venin de serpents exotiques, réaction allergique grave)."
+            },
+            {
+              "niveau": 1,
+              "texte": "de risques fonctionnels et esthétiques."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "En France métropolitaine, les serpents sont habituellement peu dangereux, sauf s’il s’agit d’espèces exotiques importées ou d’espèces vivant naturellement dans les territoires ultra-marins. Les morsures d’origine humaine se caractérisent par un risque infectieux important et sont systématiquement considérées comme des plaies graves."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Par ailleurs, une victime mordue par un animal susceptible d’être infecté par la rage (région endémique, animal malade, animal non capturé) doit obligatoirement suivre un traitement médical particulier. Une consultation médicale est indispensable. L’animal, quant à lui, doit légalement être mis en observation chez un vétérinaire et présenté, soit par ses propriétaires, soit par les forces de police s’il s’agit d’un animal errant. Depuis 2007, la déclaration en mairie de toute morsure de chien, quelle que soit la race du chien, est obligatoire."
+        }
+      ]
+    },
+    {
+      "titre": "Signes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La victime dit avoir été mordue ou piquée."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Lors du bilan, on peut retrouver des signes comme :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "une hémorragie externe ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "une détresse respiratoire, si la piqûre siège dans la bouche ou la gorge, car le gonflement qu’elle provoque peut entraîner une obstruction des voies aériennes ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "une détresse circulatoire, par action d’un venin (action directe ou réaction allergique grave), plus particulièrement chez l’enfant ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "une détresse neurologique, par effet toxique de certains venins de serpents, d’araignées ou de scorpions."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "C’est le plus souvent au cours du 4ème regard, lors de l’examen de la victime que l’on retrouve :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "la présence d’une ou plusieurs plaies, sous forme de lacérations (morsures), coupures ou piqûre (insecte) ; La morsure de certains serpents est reconnaissable par une ou deux plaies punctiformes distantes de quelques millimètres."
+            },
+            {
+              "niveau": 1,
+              "texte": "un gonflement, une rougeur et une douleur locale, plus ou moins étendus autour de la piqûre ; La présence d’une ou plusieurs « traces rouges » très douloureuses, plus ou moins larges avec un gonflement périphérique en cas de contact avec des filaments de méduse."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Principe de l’action de secours",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "soustraire la victime à la cause ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "arrêter le saignement et limiter le risque d’infection ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "limiter la diffusion du venin, si possible ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "obtenir un avis médical."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

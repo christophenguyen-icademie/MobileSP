@@ -1,0 +1,257 @@
+{
+  "nom": "02FT01",
+  "titre": "Dégagement d’urgence",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Protection et sécurité",
+  "chapitres": [
+    {
+      "titre": "Indication",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le dégagement d’urgence d’une victime est réalisé pour :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "soustraire une victime à un danger réel, vital, immédiat et non contrôlable ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "rendre possible les gestes d’urgence vitale sur une victime se trouvant dans un lieu ou dans une position ne permettant pas de les réaliser."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Justification",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le dégagement d’urgence est destiné à déplacer, de quelques mètres ou plus, en quelques secondes, la victime jusqu’à un lieu sûr pour permettre de réaliser, en toute sécurité, le bilan, les gestes de secours d’urgence et la surveillance de la victime."
+        }
+      ]
+    },
+    {
+      "titre": "Matériel",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Aucun matériel."
+        }
+      ]
+    },
+    {
+      "titre": "Réalisation",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Assurer la sécurité de toute intervention."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Traction par les chevilles",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Saisir la victime par les chevilles ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "tirer la victime sur le sol, jusqu'à ce qu’elle soit en lieu sûr."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Traction par les poignets",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Saisir la victime par les poignets ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "tirer la victime sur le sol, jusqu’à ce qu’elle soit en lieu sûr."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Traction par les vêtements",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Saisir la victime par ses vêtements ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "tirer la victime sur le sol, jusqu'à ce qu’elle soit en lieu sûr."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Traction sous les aisselles 1",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Asseoir la victime en la saisissant par ses vêtements ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "se placer derrière elle et saisir ses poignets opposés en passant les avant-bras sous ses aisselles ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "surélever la partie supérieure de son corps, ses pieds restant en contact avec le sol ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "tirer la victime à reculons, jusqu'à ce qu’elle soit en lieu sûr."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "1 Cette technique permet de déplacer la victime dans des escaliers ou sur un sol accidenté, tout en protégeant la tête de la victime."
+        }
+      ]
+    },
+    {
+      "titre": "Sortie d’un véhicule",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Détacher ou couper la ceinture de sécurité ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "dégager éventuellement les pieds de la victime des pédales du véhicule ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "passer la main sous son aisselle la plus proche et maintenir son menton ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "passer l’autre main sous l’autre aisselle et saisir sa ceinture ou son poignet opposé ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "tirer la victime hors du véhicule en se redressant, tout en poursuivant le maintien de sa tête ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "allonger la victime sur le sol en zone sûre en accompagnant sa tête et sa nuque."
+            },
+            {
+              "niveau": 1,
+              "texte": "Un second secouriste peut aider à allonger la victime sur le sol."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Dégagement d’un enfant ou d’un nourrisson",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Dégager le jeune enfant ou le nourrisson en le portant dans les bras."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Traction sur le sol par « équipier relais » 1",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Un 1 er secouriste doit :"
+            },
+            {
+              "niveau": 2,
+              "texte": "s’allonger au sol ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "saisir la victime : § au niveau des chevilles, si l’abord se fait par les pieds, § par les poignets, la ceinture ou les aisselles, si l’abord se fait par la tête."
+            },
+            {
+              "niveau": 1,
+              "texte": "un ou deux autres secouristes doivent :"
+            },
+            {
+              "niveau": 2,
+              "texte": "saisir les chevilles du 1 er secouriste,"
+            },
+            {
+              "niveau": 2,
+              "texte": "tirer de dessous l’obstacle la victime par l’intermédiaire du 1 er secouriste, lorsque ce dernier en donne l’ordre."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Risques",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Les techniques de dégagement d’urgence sont susceptibles d’aggraver les lésions de la victime, notamment de la colonne vertébrale, mais permettent de soustraire une victime à une mort quasi certaine."
+        }
+      ]
+    },
+    {
+      "titre": "Évaluation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La victime doit se trouver en quelques secondes hors de danger, en zone sûre. La prise de risque par le sauveteur est minimale."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "1 Cette technique, exceptionnelle, permet de tirer une victime gisant sous un obstacle, accessible par la tête ou par les pieds. Avant toute manœuvre, le calage du véhicule ou de l’obstacle sera réalisé ou vérifié."
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

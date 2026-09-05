@@ -1,0 +1,181 @@
+{
+  "nom": "10FT05",
+  "titre": "Transfert d’une victime à l’aide d’une alèse portoir",
+  "niveaux": [
+    "PSE 2"
+  ],
+  "chapitre_principal": "Relevage et brancardage",
+  "chapitres": [
+    {
+      "titre": "Indication",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La mise en place d’une alèse portoir est indiquée :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "pour faciliter un changement prévisible de brancard (passage d’un brancard au lit ou changement de brancard) ; L’alèse portoir est alors placée sur le brancard avant de déposer la victime par une méthode classique."
+            },
+            {
+              "niveau": 1,
+              "texte": "pour transférer un malade ou un blessé sans atteintes graves sur un brancard ou sur un lit ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "pour transporter une victime sans atteinte grave dans des endroits exigus non accessibles à un autre moyen de relevage ou de brancardage."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Justification",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Cette technique facilite l’installation d’une victime sur un brancard ou sur un lit en limitant les contraintes musculo-squelettiques des secouristes."
+        }
+      ]
+    },
+    {
+      "titre": "Matériel",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Une alèse portoir."
+        }
+      ]
+    },
+    {
+      "titre": "Réalisation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Cette technique consiste en un roulement au sol de la victime. Sa mise en œuvre nécessite trois intervenants au minimum :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "un secouriste, placé à la tête de la victime (secouriste 1) ; C’est ce secouriste qui guide et commande l’ensemble de la manœuvre."
+            },
+            {
+              "niveau": 1,
+              "texte": "deux secouristes, placés du côté du retournement, à quelques centimètres (secouristes 2 et 3)."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Initialement :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "ramener les bras de la victime le long de son corps, paume des mains sur les cuisses."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Puis : le secouriste 1 doit :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "maintenir la tête de la victime par une prise latéro-latérale. les secouristes 2 et 3 doivent :"
+            },
+            {
+              "niveau": 1,
+              "texte": "placer l’alèse portoir de toile enroulée ou repliée sur elle-même le long de la victime ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "s’assurer que l’alèse est bien centrée sur la victime ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "se placer du côté du retournement, à quelques centimètres de la victime, respectivement au niveau du tronc et des membres inférieurs de la victime ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "saisir la victime du côté opposé au retournement au niveau de l’épaule, du bassin et des membres inférieurs qui doivent rester alignés. La main opposée de la victime peut être bloquée contre le haut de sa cuisse par la main d’un des deux secouristes. Secouriste 1 : « Êtes-vous prêts ? » Secouristes 2 et 3 : « Prêts ! » Secouriste1 : « Attention pour tourner… Tournez ! » les secouristes 2 et 3 doivent :"
+            },
+            {
+              "niveau": 1,
+              "texte": "tourner la victime sur le côté ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "La rotation se fait lentement et d’un bloc. le secouriste 1 doit :"
+            },
+            {
+              "niveau": 1,
+              "texte": "accompagner le mouvement pour garder la tête du blessé dans l’axe du tronc. les secouristes 2 et 3 doivent :"
+            },
+            {
+              "niveau": 1,
+              "texte": "interrompre la rotation dès que la victime est suffisamment tournée pour pouvoir glisser l’alèse portoir sous son dos. Secouriste 1 : « Glissez le portoir ! » les secouristes 2 et 3 doivent :"
+            },
+            {
+              "niveau": 1,
+              "texte": "glisser l’alèse portoir le plus loin possible sous son dos ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "s’assurer que l’alèse est bien centrée sur la hauteur de la victime. Secouriste 1 : « Posez ! » les secouristes 2 et 3 doivent :"
+            },
+            {
+              "niveau": 1,
+              "texte": "reposer la victime délicatement sur l’alèse portoir ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "changer de position et reprendre les mêmes positions de l’autre côté. Secouriste 1 : « Êtes-vous prêts ? » Secouristes 2 et 3 : « Prêts ! » Secouriste 1 : « Attention pour tourner… Tournez ! » les secouristes 2 et 3 doivent :"
+            },
+            {
+              "niveau": 1,
+              "texte": "tourner la victime sur le côté ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "dérouler ou déplier l’alèse portoir ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "reposer la victime sur l’alèse."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Risques & Contraintes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Correctement réalisée, cette technique ne présente pas de danger particulier au moment de sa mise en œuvre. L’alèse portoir ne doit pas être utilisée pour relever une victime qui présente une atteinte traumatique grave (traumatisme du rachis, traumatisme non immobilisé des membres)."
+        }
+      ]
+    },
+    {
+      "titre": "Évaluation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La rotation de la victime par les secouristes doit être synchronisée, douce et sans à-coup. À l’issue de la manœuvre, la victime doit être correctement installée sur le portoir et centrée sur ce dernier."
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

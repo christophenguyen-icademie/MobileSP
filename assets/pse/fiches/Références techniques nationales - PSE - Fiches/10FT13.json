@@ -1,0 +1,159 @@
+{
+  "nom": "10FT13",
+  "titre": "Installation d’une victime dans un vecteur de transport",
+  "niveaux": [
+    "PSE 2"
+  ],
+  "chapitre_principal": "Relevage et brancardage",
+  "chapitres": [
+    {
+      "titre": "Indication",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Cette technique est indiquée pour isoler ou transporter une victime installée sur un brancard."
+        }
+      ]
+    },
+    {
+      "titre": "Justification",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’utilisation d’un véhicule de secours rend plus confortable la prise en charge d’une victime voire son transport."
+        }
+      ]
+    },
+    {
+      "titre": "Matériel",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "un véhicule de secours et son brancard."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "En utilisant un brancard sans chariot",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le brancard est chargé dans le véhicule :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "soit directement sur des rails placés au sol du véhicule ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "soit sur un porte-brancard fixe ou mobile."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Le brancard doit être verrouillé au sol ou au porte-brancard."
+        }
+      ]
+    },
+    {
+      "titre": "En utilisant un chariot-brancard",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le brancard est chargé dans le véhicule :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "soit directement sur des rails placés au sol du véhicule ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "soit sur un porte-brancard fixe ou mobile."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Le brancard doit être verrouillé au sol ou au porte-brancard."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Le chariot est chargé dans le véhicule de secours à trois secouristes, parfois quatre : deux secouristes, placés à la tête de la victime, doivent maintenir le chariot et guider les roulettes dans les rails du véhicule. Dès que l’avant du chariot est posé sur les rails : le(s) secouriste(s) placé(s) aux pieds de la victime doit(doivent) :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "libérer les pieds avant du brancard en appuyant sur la poignée de commande,"
+            },
+            {
+              "niveau": 1,
+              "texte": "pousser ensuite le brancard à l’intérieur du véhicule. Si besoin en se faisant aider par les deux secouristes placés au niveau de la tête de la victime."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Lorsque le chariot est rentré des deux tiers dans le véhicule : les secouristes placés à la tête de la victime doivent :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "soutenir le chariot. le(s) secouriste(s) placé(s) aux pieds de la victime doit(doivent) :"
+            },
+            {
+              "niveau": 1,
+              "texte": "libérer les pieds arrière du chariot et les replier pour terminer la manœuvre."
+            },
+            {
+              "niveau": 1,
+              "texte": "vérifier que le système de fixation du chariot est verrouillé et immobilisé."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Le déchargement d’une victime d’un véhicule de secours se fait exactement de manière inverse au chargement. S’assurer que les pieds du chariot-brancard soient bien verrouillés avant de déplacer le brancard."
+        }
+      ]
+    },
+    {
+      "titre": "Risques & Contraintes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’arrimage de la victime doit toujours être vérifié avant la manœuvre pour éviter toute chute. Afin de limiter les lésions dorsales, les secouristes doivent garder le dos droit et travailler en fléchissant les genoux et les hanches. La responsabilité de l’arrimage de la victime dans le moyen de transport et la fermeture des portes incombe au conducteur du véhicule."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "En aucun cas la manœuvre ne doit être réalisée à un seul secouriste. Dans les véhicules de secours dotés de plusieurs brancards, le blessé le plus grave doit être le plus facilement accessible par les personnels d’accompagnement."
+        }
+      ]
+    },
+    {
+      "titre": "Évaluation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La personne commandant la manœuvre est placée au pied du brancard pour surveiller les autres secouristes ainsi que la victime. Le brancard doit être maintenu le plus horizontalement possible. Une fois installé dans le véhicule, le chariot est fixé sur son support (fixation 3 points)."
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

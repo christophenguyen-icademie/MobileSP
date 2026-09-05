@@ -1,0 +1,247 @@
+{
+  "nom": "10FT12",
+  "titre": "Brancardage à trois secouristes",
+  "niveaux": [
+    "PSE 2"
+  ],
+  "chapitre_principal": "Relevage et brancardage",
+  "chapitres": [
+    {
+      "titre": "Indication",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Ces techniques sont indiquées lorsqu’une victime doit être transportée du lieu de sa prise en charge vers un poste de secours ou un véhicule d’évacuation et que la corpulence de la victime permet un brancardage à seulement 3 secouristes."
+        }
+      ]
+    },
+    {
+      "titre": "Justification",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le brancardage permet de transporter une victime qui ne peut pas, ou ne doit pas, se déplacer par ses propres moyens."
+        }
+      ]
+    },
+    {
+      "titre": "Matériel",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "dispositif de transport de victime (brancard) équipé d’un système d’arrimage ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "sangles de fixation ou sangle-araignée."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Réalisation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La mise en œuvre de cette technique nécessite trois intervenants :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "un secouriste placé au pied de la victime, entre les deux hampes du brancard, commande la manœuvre (secouriste 1) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "deux secouristes se placent à la tête de la victime, de part et d’autre du brancard (secouristes 2 et 3)."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Préalablement à la manœuvre de brancardage, la victime a été installée et arrimée dans le brancard. Traditionnellement, la victime est brancardée tête en avant, dans le sens de la marche."
+        }
+      ]
+    },
+    {
+      "titre": "Brancardage en terrain plat",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Initialement :"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Secouriste 1 : « Pour le brancardage… En position ! » L'ensemble des secouristes s’accroupit devant sa poignée en faisant face au brancard, cuisses écartées, dos plat. Secouriste 1 : « Êtes-vous prêts ? » Secouristes 2, 3 et 4 : « Prêts ! » Secouriste 1 : « Attention pour lever… Levez ! » L'ensemble des secouristes se relève, à la force des cuisses, en conservant le dos plat. Secouriste 1 : « Attention pour avancer… » Les secouristes 2 et 3 pivotent alors d’un quart de tour pour se retrouver dans le sens de la marche, une main tenant la poignée du brancard, l’autre restant libre. Secouriste 1 : « Avancez ! » Les secouristes avancent avec le brancard. En cours de déplacement, les secouristes placés à l’avant annoncent tout obstacle dès qu’ils l’aperçoivent."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Lorsque c’est nécessaire (relais, passage d’obstacle…), le chef commande l’arrêt du brancard :"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Secouriste 1 : « Attention pour arrêter… Arrêtez ! » Puis ensuite, afin de le poser : Secouriste 1 : « Attention pour poser… » Les secouristes 2 et 3 pivotent alors d’un quart de tour afin de faire face au brancard, reposent la main libre sur la poignée. Secouriste 1 : « Posez ! » Le brancard est descendu horizontalement et posé doucement sur le sol. Si le brancardage est réalisé au moyen d’un chariot brancard, il est plus facile de le réaliser après avoir soulevé le chariot et déployé ses pieds. Dans ce cas de figure, un équipier se place à l’arrière, entre les hampes du chariot et le pousse tout en le dirigeant. Les deux autres saisissent le chariot par les hampes avant pour faciliter sa progression et le maintenir."
+        }
+      ]
+    },
+    {
+      "titre": "Franchissement d’obstacle",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Après que l’obstacle ait été signalé par l'un des secouristes placés à l’avant :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "ramener le brancard perpendiculairement à l’obstacle, tout contre celui-ci ; Secouriste 1 : « Face au brancard ! » les secouristes 2 et 3 doivent :"
+            },
+            {
+              "niveau": 1,
+              "texte": "faire un quart de tour afin de faire face au brancard ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "reposer la main libre sur la poignée du brancard ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "poser l’avant du brancard sur l’obstacle. le secouriste 1 doit maintenir le brancard."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Puis :"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "les secouristes 2 et 3 doivent :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "se dégager du brancard ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "passer rapidement de l’autre côté de l’obstacle ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "saisir les poignées avant du brancard. Secouriste 1 : « Envoyez ! » les secouristes 2 et 3 doivent :"
+            },
+            {
+              "niveau": 1,
+              "texte": "faire progresser le brancard vers l’avant, jusqu’à ce que le secouriste 1, resté en arrière, soit à son tour au contact de l’obstacle."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Après que le secouriste 1 ait commandé l’arrêt du brancard : le secouriste 1 doit :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "se dégager du brancard ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "passer rapidement de l’autre côté de l’obstacle ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "venir se placer entre les deux poignées avant du brancard. les secouristes 2 et 3 doivent :"
+            },
+            {
+              "niveau": 1,
+              "texte": "coulisser le long du brancard, sans le lâcher, jusqu’à être en contact avec l’obstacle ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "saisir la hampe à deux mains. Secouriste 1 : « Envoyez ! »"
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Les secouristes dégagent alors le brancard de l’obstacle."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Le secouriste 1 commande de poser le brancard. Une fois celui-ci au sol, chacun reprend sa place initiale."
+        }
+      ]
+    },
+    {
+      "titre": "Passage étroit",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "À proximité du passage étroit, le secouriste 1 fait arrêter la progression. Puis, il commande aux secouristes 2 et 3 de passer, l’un après l’autre, à l’intérieur de la hampe du brancard sans la lâcher. À l’issue de cette manœuvre, les secouristes 2 et 3 doivent se retrouver dos à dos à l’intérieur des hampes du brancard. Secouriste 1 : « Avancez ! » Les secouristes progressent au travers du passage, en pas chassés pour ceux situés entre les hampes. Une fois le franchissement du passage étroit terminé, le brancard est à nouveau arrêté afin de permettre aux secouristes 2 et 3 de reprendre leur place initiale, à l’extérieur des hampes, dans le sens de la progression."
+        }
+      ]
+    },
+    {
+      "titre": "Brancardage en pente ou dans un escalier",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Après avoir vérifié l’arrimage de la victime, le chef place :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "un secouriste à l’avant et deux à l’arrière, si la progression se fait dans le sens de la montée ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "deux secouristes vers l'avant et un vers l’arrière, si la progression se fait dans le sens de la descente."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Ensuite, il commande aux secouristes qui sont vers le bas, de tenir les poignées à deux mains et de les relever jusqu’à la ceinture, la poitrine ou l’épaule de façon à maintenir le brancard en position horizontale."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Si la progression se fait dans le sens de la descente, il est préférable de brancarder la victime les pieds en avant."
+        }
+      ]
+    },
+    {
+      "titre": "Risques & Contraintes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Afin de limiter les lésions du dos, les secouristes doivent garder le dos plat et travailler avec les cuisses. Le respect des ordres donnés permet une parfaite synchronisation des gestes et évite ainsi toute chute du brancard et de la victime."
+        }
+      ]
+    },
+    {
+      "titre": "Évaluation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Les ordres de brancardage sont audibles, clairs et justes. Le brancard est maintenu en position horizontale. Le déplacement de la victime est souple, sans secousse ni balancement."
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

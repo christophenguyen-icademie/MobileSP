@@ -1,0 +1,167 @@
+{
+  "nom": "03FT01",
+  "titre": "Utilisation des emballages à élimination de déchets",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Hygiène et asepsie",
+  "chapitres": [
+    {
+      "titre": "Indication",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "On utilise les emballages spéciaux relatifs aux déchets des activités de soins à risques infectieux (DASRI) pour :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "les matériels piquants, coupants et tranchants : aiguilles, scalpels, lames de rasoir…"
+            },
+            {
+              "niveau": 1,
+              "texte": "les déchets d’activités de soins fortement imprégné de sang, de sécrétions ou d’excrétions avec risque d’écoulement : compresses, pansements, champs, draps à usage unique…"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Justification",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La réalisation des soins est à l’origine d’une production de DASRI. Ils représentent une source importante de transmission des infections et d’accident d’exposition à un risque viral."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Le recueil, le stockage et l’élimination des DASRI sont réglementés et utilisent des emballages et des conteneurs spéciaux conçus pour cet usage."
+        }
+      ]
+    },
+    {
+      "titre": "Matériel",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "emballages spéciaux :"
+            },
+            {
+              "niveau": 2,
+              "texte": "agréés et homologués. Ils présentent un mode d’emploi inscrit sur leurs parois extérieures ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "reconnaissables grâce à leur couleur jaune et leur pictogramme spécifique reconnu internationalement."
+            },
+            {
+              "niveau": 2,
+              "texte": "prennent la forme : § de sacs souples, mais étanches pour le recueil des déchets mous ; § de collecteurs en plastique rigide pour les déchets tranchants, coupants et piquants. § Ils doivent être stockés de manière également réglementée dans des collecteurs en carton ou des grands récipients."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Utilisation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Il est indispensable de manipuler les DASRI avec des gants."
+        }
+      ]
+    },
+    {
+      "titre": "Règles générales",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "ne rien laisser sur les lieux de l’action de secours ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "ne jamais recapuchonner les aiguilles ni séparer les aiguilles d’une seringue ou d’une tubulure à perfusion avant de les mettre dans le collecteur ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "utiliser l’emballage conforme adapté au déchet ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "ne pas jeter de DASRI aux ordures ménagères ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "déposer les emballages pleins dans un lieu prévu à cet effet."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Manipulation",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "ouvrir l’emballage (sac ou collecteur) au préalable ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "déposer le déchet dans l’emballage et le fermer immédiatement après à l’aide de la fermeture provisoire (collecteur) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "ne pas remplir l’emballage au-delà de la limite indiquée ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "ne pas tasser les déchets à l’intérieur de l’emballage à DASRI ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "fermer l’emballage lorsque le taux maximum de remplissage, ou la date de péremption, est atteint ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "La fermeture doit se faire au moyen du dispositif de fermeture définitive, si l’emballage en est doté."
+            },
+            {
+              "niveau": 1,
+              "texte": "déposer l’emballage dans le container prévu à cet effet."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Risques & Contraintes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La manipulation des DASRI expose aux risques infectieux, notamment aux accidents d’exposition au sang."
+        }
+      ]
+    },
+    {
+      "titre": "Évaluation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Tous les déchets sont éliminés grâce à des emballages appropriés. Les emballages ne sont ni perforés ni surchargés. Les aiguilles sont éliminées sans être recapuchonnées."
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

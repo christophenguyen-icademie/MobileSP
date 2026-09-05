@@ -1,0 +1,311 @@
+{
+  "nom": "04FT11",
+  "titre": "Réaliser un électrocardiogramme",
+  "niveaux": [],
+  "chapitre_principal": "Bilans",
+  "chapitres": [
+    {
+      "titre": "Indication",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Un électrocardiogramme (ECG) peut être réalisé par l’équipe secouriste sur prescription d’un médecin présent sur les lieux ou du médecin régulateur lors du bilan ou de la surveillance de la victime. Seule une personne formée et habilitée peut utiliser un appareil pour enregistrer et télétransmettre un ECG 1 ."
+        }
+      ]
+    },
+    {
+      "titre": "Justification",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "À chaque battement cardiaque, une impulsion électrique (ou « onde ») traverse le cœur. Cette onde électrique génère une contraction du muscle cardiaque à l’origine de la circulation du sang. L’ECG mesure et enregistre l’activité électrique du cœur. Cet enregistrement permet au médecin de déterminer si le cœur présente un rythme normal ou irrégulier et si le muscle cardiaque est intact ou présente des lésions."
+        }
+      ]
+    },
+    {
+      "titre": "Matériel",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Appareil d’enregistrement et de télétransmission de l’ECG et ses accessoires :"
+            },
+            {
+              "niveau": 2,
+              "texte": "câbles de connexion ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "électrodes à usage unique non périmées et éventuellement ceinture d’électrodes ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "sacoche de transport et de protection ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "accessoires adaptés à l’appareil et permettant la télétransmission."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Réalisation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Compte tenu de la multiplicité des appareils permettant de réaliser des ECG, il conviendra de respecter les préconisations du fabricant quant à la mise en œuvre de l’appareil à disposition de l’équipe secouriste."
+        }
+      ]
+    },
+    {
+      "titre": "Préalable à la réalisation d’un ECG",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Installer la victime confortablement de préférence sur le dos."
+            },
+            {
+              "niveau": 1,
+              "texte": "Écarter si possible tout appareil électronique (montre, portable, radio, etc.) ou tout objet métallique pouvant entrer en contact avec la victime."
+            },
+            {
+              "niveau": 1,
+              "texte": "S’assurer que les câbles de connexion entre l’appareil et les électrodes sont correctement connectés."
+            },
+            {
+              "niveau": 1,
+              "texte": "Demander à la victime de dénuder sa poitrine tout en respectant son intimité. Garder si possible le soutien-gorge en place."
+            },
+            {
+              "niveau": 1,
+              "texte": "Demander à la victime de ne pas parler, de ne pas bouger, et de respirer calmement lors de l’enregistrement."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Réaliser un ECG avec des électrodes",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Raser tous les poils des zones où seront collées les électrodes si nécessaire."
+            },
+            {
+              "niveau": 1,
+              "texte": "Positionner les électrodes des extrémités (dérivations périphériques) puis placer les électrodes précordiales (dérivations précordiales) aux endroits indiqués (tableau 9). Si l’appareil est doté d’une ceinture d’électrode précordiale, positionner la ceinture conformément aux préconisations du fabricant (respecter les repères)."
+            },
+            {
+              "niveau": 1,
+              "texte": "Brancher les câbles sur les électrodes correspondantes."
+            },
+            {
+              "niveau": 1,
+              "texte": "Allumer l’appareil et s’assurer d’être sur le mode ECG."
+            },
+            {
+              "niveau": 1,
+              "texte": "Réaliser l’enregistrement de l’ECG. Tableau 6: positions des électrodes pour la réalisation d’un ECG à 12 dérivations Membre supérieur droit ROUGE Face antérieure de l’articulation du poignet Membre inférieur droit NOIR"
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "D ERIVATIONS PERIPHERIQUES Face antérieure de l’articulation de la cheville ( FIG . 1) Membre supérieur gauche JAUNE Face antérieure de l’articulation du poignet Membre inférieur gauche VERTE Face antérieure de l’articulation de la cheville C1 Quatrième espace intercostal droit, au bord droit du sternum R OUGE C2 Quatrième espace intercostal gauche, au bord gauche du sternum J AUNE C4 Cinquième espace intercostal gauche sur la ligne médioclaviculaire D B ( FIG . 2) C3 Milieu de la ligne entre C2 et C4 V ERTE C6 Cinquième espace intercostal gauche sur la Ligne médioaxillaire (même V IOLETTE niveau que la C4) C5 Milieu de la ligne entre C6 et C4 N OIRE"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Figure 1: position des Figure 2: position des électrodes, électrodes, dérivations dérivations précordiales périphériques"
+        }
+      ]
+    },
+    {
+      "titre": "Réaliser un ECG avec une ceinture d’électrodes",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Brancher les câbles sur les électrodes correspondantes selon les coloris ou désignations."
+            },
+            {
+              "niveau": 1,
+              "texte": "Humidifier les électrodes de la ceinture, si besoin."
+            },
+            {
+              "niveau": 1,
+              "texte": "Positionner la ceinture (demander la participation de la victime) comme préconisée par le constructeur."
+            },
+            {
+              "niveau": 1,
+              "texte": "Bloquer la ceinture à l’aide des anses ou de la sangle."
+            },
+            {
+              "niveau": 1,
+              "texte": "Vérifier que toutes électrodes sont en contact avec le corps."
+            },
+            {
+              "niveau": 1,
+              "texte": "Allumer l’appareil et s’assurer d’être sur le mode ECG."
+            },
+            {
+              "niveau": 1,
+              "texte": "Réaliser l’enregistrement de l’ECG."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Transmettre un ECG",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La télétransmission d’un ECG se fait pendant l’intervention. Elle peut être automatisée ou nécessiter une action de la part du secouriste. Les modes de télétransmission dépendent de l’appareil utilisé. Un exemplaire électronique ou papier de l’ECG peut être laissé à l’équipe chargée d’assurer la continuité des soins de la victime."
+        }
+      ]
+    },
+    {
+      "titre": "Reconditionner l’appareil et ses accessoires après intervention",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le reconditionnement de l’appareil est important, pensez entre autres à :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "la désinfection des surfaces, des câbles et la recharge de l’appareil ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "le rangement soigneux des divers câbles, notamment ceux associés à l’ECG ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "le remplacement des électrodes utilisées."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Risques et contraintes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Devant toutes difficultés d’enregistrement de l’ECG (tracé parasité), vérifier que :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "les câbles sont correctement connectés (à l’appareil et aux électrodes),"
+            },
+            {
+              "niveau": 1,
+              "texte": "les électrodes adhèrent correctement à la peau de la victime."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Certaines situations empêchent la mise en place des électrodes au niveau des extrémités (poignet et chevilles). C’est le cas, par exemple, si la victime présente une amputation. Placer alors les électrodes périphériques à la racine des membres au niveau de l’épaule pour le membre supérieur et du pli de l’aine pour le membre inférieur. Informer le médecin qui interprétera l’ECG de la modification du positionnement des électrodes. Chez une femme qui présente des seins volumineux, relever le sein avec le dos de la main pour placer les électrodes (C4, C5 et C6) sous le sein au plus près de la paroi thoracique et du cœur."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Les tremblements de la victime parasitent l’enregistrement de l’ECG. Ces tremblements peuvent être dus à l’angoisse de la victime, au froid ou à certaines maladies (syndrome de Parkinson)."
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Rassurer la victime si elle est angoissée."
+            },
+            {
+              "niveau": 1,
+              "texte": "Réchauffer la victime si elle a froid avant de réaliser l’enregistrement de l’ECG (couverture, chauffage)."
+            },
+            {
+              "niveau": 1,
+              "texte": "Placer les électrodes périphériques à la racine des membres en cas de tremblements persistants."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "D’autres interférences (vibrations, courant électrique) peuvent parasiter l’enregistrement de l’ECG. S’assurer que :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "la victime reste immobile,"
+            },
+            {
+              "niveau": 1,
+              "texte": "le moteur du véhicule est arrêté,"
+            },
+            {
+              "niveau": 1,
+              "texte": "la victime n’est pas en contact avec des éléments métalliques (brancard, montant d’un lit),"
+            },
+            {
+              "niveau": 1,
+              "texte": "la victime n’est pas sur un lit électrique, si tel est le cas, le débrancher."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Évaluation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La réalisation et la télétransmission d’un ECG :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "la mise en œuvre est effectuée sur prescription médicale et respecte les protocoles internes."
+            },
+            {
+              "niveau": 1,
+              "texte": "les électrodes ou la ceinture sont positionnées conformément aux préconisations et le branchement des câbles est conforme."
+            },
+            {
+              "niveau": 1,
+              "texte": "le tracé obtenu ne présente pas d’artéfacts."
+            },
+            {
+              "niveau": 1,
+              "texte": "la télétransmission de l’ECG si elle est nécessaire permet une interprétation de l’ECG par un médecin à distance."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "1 Décret n° 2022-621 du 22 avril 2022 relatif aux actes de soins d’urgence relevant de la compétence des sapeurs-pompiers."
+  ]
+}

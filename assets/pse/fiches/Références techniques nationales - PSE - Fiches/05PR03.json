@@ -1,0 +1,145 @@
+{
+  "nom": "05PR03",
+  "titre": "Obstruction des voies aériennes",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Urgences vitales",
+  "chapitres": [
+    {
+      "titre": "Dans tous les cas",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "demander à la victime si elle s’étouffe, ainsi que de tousser."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Si la victime peut parler, crier, tousser 1",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "continuer d’encourager la victime à tousser 2 ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "surveiller l’efficacité de la toux ou l’apparition de signes de fatigue."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Si la victime ne peut plus parler, crier, tousser 3",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "laisser la victime dans la position où elle se trouve, généralement debout ou assise ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "donner de 1 à 5 « claques dans le dos » ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "réaliser de 1 à 5 « compressions » en cas d’inefficacité ou d’impossibilité de pratiquer des « claques » :"
+            },
+            {
+              "niveau": 2,
+              "texte": "au niveau abdominal s’il s’agit d’un adulte ou d’un enfant,"
+            },
+            {
+              "niveau": 2,
+              "texte": "au niveau thoracique s’il s’agit : § d’un nourrisson, § d’un personne obèse ou d’une femme enceinte, s’il est impossible d’encercler l’abdomen ; § d’une personne alitée ou allongée, difficilement mobilisable."
+            },
+            {
+              "niveau": 1,
+              "texte": "répéter le cycle « claques dans le dos » et « compressions » ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "interrompre les manœuvres dès :"
+            },
+            {
+              "niveau": 2,
+              "texte": "l’apparition d’une toux efficace, de cris ou de pleurs ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "la reprise de la respiration ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "le rejet du corps étranger."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Si la victime respire (toux efficace) ou après le succès des manœuvres",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "installer la victime en position d'attente, confortablement 4 et sans délai ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "desserrer les vêtements ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "poursuivre le bilan et surveiller attentivement :"
+            },
+            {
+              "niveau": 2,
+              "texte": "sa respiration."
+            },
+            {
+              "niveau": 1,
+              "texte": "transmettre le bilan, pour avis médical 5 ."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Si la victime perd connaissance",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "l’accompagner au sol ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "réaliser une réanimation cardio-pulmonaire."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "3 Confère les signes de l’obstruction.",
+    "4 Par exemple sur un lit, une chaise, ou un canapé, ou à défaut sur le sol.",
+    "5 Même si la désobstruction est efficace de petits corps peuvent passer dans les voies aériennes et dans les poumons et provoquer des complications secondaires. Les manœuvres de compressions, même réalisées correctement, peuvent provoquer des lésions internes."
+  ]
+}

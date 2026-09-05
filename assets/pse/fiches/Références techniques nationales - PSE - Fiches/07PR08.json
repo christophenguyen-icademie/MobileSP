@@ -1,0 +1,300 @@
+{
+  "nom": "07PR08",
+  "titre": "Traumatisme du dos et du cou",
+  "niveaux": [
+    "PSE 2"
+  ],
+  "chapitre_principal": "Traumatismes",
+  "chapitres": [
+    {
+      "titre": "Rechercher une menace ou détresse vitale",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Devant une victime qui présente un traumatisme avec suspicion d’une lésion du rachis (cervical, thoracique, lombaire ou sacré), il faut rechercher en priorité une menace ou détresse vitale :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "hémorragie ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "obstruction des voies aériennes ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "détresse respiratoire ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "détresse circulatoire ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "détresse neurologique."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "À toutes les étapes de l’examen de la victime, limiter les mouvements du rachis, soit en lui demandant de ne pas bouger, soit en assurant une stabilisation de son rachis."
+        }
+      ]
+    },
+    {
+      "titre": "La victime présente une menace ou détresse vitale",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "toute menace ou détresse vitale doit être traitée prioritairement selon la conduite à tenir adéquate ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "si la victime traumatisée est consciente , demander à la victime de ne pas bouger ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "demander un avis médical et respecter les consignes."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "L’immobilisation de la colonne vertébrale ne doit jamais passer avant la prise en charge d’une détresse vitale."
+        }
+      ]
+    },
+    {
+      "titre": "En l’absence d’une détresse vitale ou après traitement de celle-ci",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "conseiller à la victime de ne faire aucun mouvement ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "poursuivre la stabilisation manuelle de la tête si possible (secouriste disponible, victime non agitée) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "retirer le casque de protection, s’il est encore présent ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "réaliser une immobilisation complète du rachis si :"
+            },
+            {
+              "niveau": 2,
+              "texte": "la victime ne peut pas être examinée complètement ou l’examen n’est pas fiable (A) : la victime présente une altération du niveau de conscience ou est confuse, est sous l’influence de l’alcool ou d’autres drogues, présente de nombreuses lésions qui empêchent de rechercher des signes d’atteinte du rachis, a des difficultés de communication (langue étrangère, enfant),"
+            },
+            {
+              "niveau": 2,
+              "texte": "la victime se plaint ou présente des signes d’une atteinte du rachis (B) ou de la moelle (C) comme une douleur de la colonne vertébrale, un déficit moteur ou sensitif des membres, une sensation anormale des membres (décharges électriques, fourmillements), un priapisme, une déformation de la colonne vertébrale, une sensibilité de la colonne vertébrale (douleur provoquée à la palpation), une douleur de la colonne vertébrale quand la victime tousse, essaye de se déplacer ou de s’asseoir 1 ,"
+            },
+            {
+              "niveau": 2,
+              "texte": "la victime présente un traumatisme à haut risque (D) de lésion du rachis et : § soit a plus de 65 ans, § soit présente des antécédents à risque (E) comme une chirurgie ou une fracture antérieure de la colonne vertébrale ou une maladie osseuse ou du rachis (ostéoporose). (A) Victime dont les réponses sont qualifiées de NON fiables Fiabilité des q Présence d’une détresse vitale. réponses (A) de q Altération du niveau de conscience. NON la victime ? q Non, coopération, difficultés de communication. q Influence de l’alcool ou d’autres drogues. q Présence d’une atteinte traumatique sévère (douleur OUI distrayante). Présence de signes (B) Signes d’atteinte du rachis d’atteinte du OUI q Douleur spontanée siégeant au niveau du rachis. rachis (B) ou de q Douleur du rachis à la mobilisation, à la marche. q Raideur de la nuque empêchant de tourner la tête. la moelle (C) ? q Douleur à la palpation prudente du rachis. q Déformation évidente du rachis. NON"
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Traumatisme (C) Signes d’atteinte de la moelle épinière à haut risque q Perte ou diminution de la force musculaire ou de la NON d’atteinte du motricité des mains ou des pieds (difficulté de serrer les rachis (D) ? mains, de bouger les orteils, de bouger un ou plusieurs membres). q Perte ou une diminution de la sensibilité des membres supérieurs (mains) ou inférieurs (pied). OUI q Engourdissement, de sensations de décharges électriques au niveau des membres (paresthésie), q Perte des urines ou des matières fécales. Âge > 65 ans q Érection chez l’homme (victime inconsciente, victime ou NON OUI trouvée déshabillée). antécédents à risque (E) ? (D) Traumatismes à haut risque du rachis q Chute sur la tête d’une hauteur > 1 mètre comme lors d’un plongeon (rachis cervical) ou chute sur les pieds ou Pas Immobilisation les fesses d’une hauteur > 3 mètres (rachis dorso- d’immobilisation du rachis lombo-sacré). du rachis (corps entier) q Passager d’un véhicule accidenté à grande vitesse (voies rapides, autoroutes, vitesse > 40 km/h avec arrêt brutal contre un obstacle ou sur une courte distance < 10 m, déformation de l’habitacle). q Absence de port de ceinture de sécurité (et déclenchement des airbags). q Retournement d’un véhicule. q Victime éjectée d’un véhicule lors de la collision. q Accidents avec des véhicules à moteur de loisirs (jet-ski, quad, kart…). q Collision avec un 2 roues (conducteur ou passager du 2 roues). q Piéton renversé. q Chute de cheval."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "(E) Antécédents à risque q Traumatisme vertébral ancien (fracture, luxation) q Chirurgie de la colonne vertébrale. q Maladie de la colonne vertébrale ou des os qui qui fragilise la colonne vertébrale (ostéoporose)"
+        }
+      ]
+    },
+    {
+      "titre": "En présence d’une plaie pénétrante isolée du thorax, du cou ou de la tête",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "appliquer la conduite à tenir devant une plaie du thorax, du cou ou de la tête ;"
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Il ne faut ne pas perdre de temps à immobiliser la victime car l’évacuation est prioritaire afin d’augmenter les chances de survie."
+        }
+      ]
+    },
+    {
+      "titre": "Dans tous les cas",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "protéger la victime contre le froid, la chaleur ou les intempéries ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "transmettre un bilan et appliquer les consignes reçues ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "surveiller attentivement la victime, en raison du risque d’aggravation brutale, en particulier après chaque mobilisation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Victime agitée non-coopérante",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Devant une victime agitée ou non coopérante (intoxication alcoolique associée, enfant…) et qui refuse toute immobilisation, ne pas l’immobiliser, la laisser s’installer dans la position qui lui est le plus confortable tout en essayant de maintenir à 2 mains la tête dans l’axe. Demander un avis médical."
+        }
+      ]
+    },
+    {
+      "titre": "Victime qui présente une déformation préexistante de la colonne vertébrale (cyphose, scoliose…), victime très âgée (déformations liées à l’ostéoporose)",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’immobilisation en position horizontale corps entier d’une victime très âgée ou qui présente une déformation préexistante de la colonne vertébrale est difficile et peut être contre-productive (augmentation de la douleur, aggravation des signes ou de la lésion). Il est alors nécessaire de respecter la position et la déformation de la victime et l’immobiliser dans la position qui lui est la plus confortable. Seul le matelas immobilisateur à dépression permet de réaliser cette immobilisation et garder la victime immobile."
+        }
+      ]
+    },
+    {
+      "titre": "Traumatisme grave et suspicion de lésion du rachis de l’enfant",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "si l’enfant a perdu connaissance, conserver la stabilisation en ligne du rachis cervical pour assurer la liberté des voies aériennes supérieures ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "l’aspiration des sécrétions, débris, sangs et vomissures à l’aide d’un aspirateur de mucosité doit se faire en conservant la stabilisation en ligne du rachis cervical ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "laisser l’enfant dans son siège d’automobile (coque) si c’est possible (pas de déformation de la coque). Parfaire l’immobilisation de la tête et du corps de l’enfant à l’intérieur du siège à l’aide de rembourrage ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "pour relever un enfant suspect d’une lésion du rachis et qui est allongé au sol, utiliser comme chez l’adulte un brancard cuillère plutôt qu’un plan dur ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "comme pour l’adulte, immobiliser l’enfant sur un matelas immobilisateur à dépression (ou attelle à dépression pour les petits enfants) qui doit rester en place pour le transfert sur le brancard à l’hôpital. Le plan dur doit être réservé aux manœuvres d’extraction et non à l’immobilisation ultérieure de l’enfant ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "lors de l’immobilisation, une attention particulière doit être portée au maintien en ligne du rachis cervical. Comme chez l’adulte, les blocs de tête peuvent être positionnés dans le matelas à dépression ou sur le brancard cuillère pour restreindre les mouvements du rachis cervical."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Relevage et immobilisation d’une victime",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’immobilisation de la colonne vertébrale d’une victime se fait le plus souvent en position allongée. Toutefois l’immobilisation doit respecter une déformation ou une position d’attente adaptée à une détresse."
+        }
+      ]
+    },
+    {
+      "titre": "Choix du moyen",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "stabilisation du rachis La stabilisation du rachis est réalisée :"
+            },
+            {
+              "niveau": 2,
+              "texte": "en demandant à la victime de ne pas bouger si elle est consciente et coopérante ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "en maintenant la tête de la victime à deux mains pour garder le rachis cervical dans l’axe si la victime est calme."
+            },
+            {
+              "niveau": 1,
+              "texte": "restriction des mouvements du rachis La restriction des mouvements du rachis cervical est réalisée :"
+            },
+            {
+              "niveau": 2,
+              "texte": "à l’aide de blocs de tête placés de part et d’autre de la tête et maintenus par des sangles ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "à l’aide d’un matelas immobilisateur à dépression (MID) ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "à l’aide d’un collier cervical rigide ; L’usage systématique du collier cervical chez l’adulte comme chez l’enfant n’est plus conseillé. Le collier cervical peut encore être utilisé pour restreindre les mouvements du rachis cervical lors de l’extraction ou du relevage d’une victime si la stabilisation de la tête par un sauveteur s’annonce difficile ou aléatoire. Le collier cervical ne doit pas être utilisé s’il existe une contre-indication comme : § une possible obstruction des voies aériennes, § une déformation préexistante du rachis cervical (dans ce cas, maintenir la tête dans la position où elle se trouve). Le collier cervical doit être : § adapté à la taille de la victime, § positionné correctement, § desserré une fois l’immobilisation sur le MID réalisée, § resserré pour une nouvelle mobilisation (transfert sur un brancard). Après mise en place du collier, réévaluer la liberté des voies aériennes."
+            },
+            {
+              "niveau": 1,
+              "texte": "immobilisation de la colonne vertébrale L’immobilisation corps entier d’une victime qui présente un traumatisme du rachis est réalisée :"
+            },
+            {
+              "niveau": 2,
+              "texte": "en priorité dans un matelas immobilisateur à dépression qui doit rester en place pour le transfert sur le brancard à l’hôpital. Les blocs de tête peuvent être utilisés pour restreindre les mouvements du rachis cervical à l’intérieur du matelas ; Une fois immobilisée, si la victime porte un collier cervical rigide, il faut le desserrer. Le MID permet aussi d’immobiliser les victimes dans la position adaptée à leur détresse (demi- assise pour une détresse respiratoire)."
+            },
+            {
+              "niveau": 2,
+              "texte": "exceptionnellement sur un plan dur équipé de blocs de tête : § en cas d’indisponibilité d’un MID, § si le nombre de secouristes n’est pas suffisant pour transférer la victime du plan dur sur le MID, § en l’absence de contre-indications comme :"
+            },
+            {
+              "niveau": 1,
+              "texte": "une déformation préexistante de la colonne vertébrale,"
+            },
+            {
+              "niveau": 1,
+              "texte": "ou s’il faut immobiliser la victime dans une autre position (détresse respiratoire)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Choix de la technique de relevage",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "relevage d’une victime allongée sur le sol Pour relever une victime allongée au sol, il est préférable d’utiliser un brancard cuillère plutôt qu’un plan dur. Une fois installés sur le brancard cuillère, les blocs de tête peuvent être utilisés pour restreindre les mouvements du rachis cervical. Ils permettent ainsi de libérer le secouriste chargé du maintien de la tête lors du transfert de la victime dans un moyen d’immobilisation. En l’absence de brancard cuillère, relever la victime en utilisant une technique de relevage en pont à plusieurs secouristes. Si aucune des deux techniques précédentes n’est possible, mettre en place un collier cervical et installer la victime sur un plan dur par roulement au sol avant de la transférer dans un moyen d’immobilisation."
+            },
+            {
+              "niveau": 1,
+              "texte": "victime située dans un endroit difficile d’accès (endroit exigu, véhicule accidenté…) Si la victime nécessite une immobilisation corps entier, réaliser une technique d’extraction en utilisant les moyens dédiés comme le plan dur ou l’attelle cervico-thoracique. Si la stabilisation de la tête par un sauveteur est difficile lors de la manœuvre d’extraction, il est nécessaire de restreindre les mouvements du rachis avec un collier cervical rigide puis l’attelle cervico- thoracique. En l’absence d’indication d’immobilisation corps entier, rechercher la coopération de la victime et lui demander de se dégager elle-même, puis, si elle le peut de s’allonger sur le brancard. Interrompre tout mouvement si la victime présente une aggravation de la douleur ou des signes d’atteinte de la moelle."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "1 Si la victime présente une douleur ou si des signes d'atteinte du rachis ou de la moelle apparaissent lorsque la victime se déplace, demander à la victime de s'arrêter et l'immobiliser."
+  ]
+}

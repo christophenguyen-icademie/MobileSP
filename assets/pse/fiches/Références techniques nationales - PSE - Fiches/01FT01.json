@@ -1,0 +1,91 @@
+{
+  "nom": "01FT01",
+  "titre": "Évaluation de l’impact psychologique",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Attitude et comportement",
+  "chapitres": [
+    {
+      "titre": "Indications et justifications",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Au même titre que les détresses vitales, l’évaluation de l’impact psychologique fait partie intégrante du bilan secouriste. Lorsque la victime manifeste des signes de détresse psychologique et que ces derniers ne sont pas pris en compte, cela risque de :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "parasiter ou complexifier le travail des secouristes (manifestations émotionnelles difficiles à contenir victime non coopérante, opposante ou agressive) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "impacter ses paramètres vitaux, ses ressentis (élévation du rythme cardiaque, augmentation de sa perception de la douleur, etc.) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "engendrer des répercussions psychologiques négatives à plus long terme (troubles liés à des traumatismes ou des facteurs de stress)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Réalisation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Les éléments révélant un potentiel impact psychologique nécessitent d’être recherchés et transmis au même titre que les paramètres vitaux. Observer Se questionner La présentation"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "l’expression du visage et le regard qui traduisent l’état • Qu’est-ce que m’évoquent ses mimiques et affectif et émotionnel dans lequel se trouve la son regard ? personne (en cohérence avec ses propos ?)"
+            },
+            {
+              "niveau": 1,
+              "texte": "le comportement et la gestuelle (attitude générale • Comment se comporte-t-elle ? calme, agitée, coopérante, réticente ?)"
+            },
+            {
+              "niveau": 1,
+              "texte": "la présence de blessures, marques visibles • « Y a-t-il des traces visibles de blessures, des éventuelles, attitudes particulières pouvant révéler un marques, des attitudes particulières, état douloureux ou autre évocatrices … ? L’état de conscience"
+            },
+            {
+              "niveau": 1,
+              "texte": "la vigilance : sa capacité à réagir de façon appropriée • Comment réagit-elle ? aux événements, à prendre des décisions, par rapport à elle, aux autres et au monde extérieur • Est-elle capable de se remémorer les faits, (hypervigilante, hypovigilante, désorientée au niveau de retenir de nouvelles informations ? temporel et spatial ?)"
+            },
+            {
+              "niveau": 1,
+              "texte": "la mémoire (troubles de la mémoire, amnésie) • Comment s’exprime-t-elle ?"
+            },
+            {
+              "niveau": 1,
+              "texte": "le langage (discours accéléré ou ralenti, bégaiement, répétition, anomalies diverses, particularité de la voix • Est-elle capable de penser, analyser, …) émettre un avis ?"
+            },
+            {
+              "niveau": 1,
+              "texte": "le jugement et le raisonnement L’expression • Qu’est-ce qu’elle nous dit ?"
+            },
+            {
+              "niveau": 1,
+              "texte": "le contenu de son discours, ce dont elle se plaint • De quoi se plaint-elle ?"
+            },
+            {
+              "niveau": 1,
+              "texte": "ce qu’elle nous dit de ses émotions, de son état • Semble-t-elle consciente de sa situation ? d’esprit Sa perception est-elle en cohérence avec la"
+            },
+            {
+              "niveau": 1,
+              "texte": "sa façon de percevoir son environnement, les autres. réalité ?"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

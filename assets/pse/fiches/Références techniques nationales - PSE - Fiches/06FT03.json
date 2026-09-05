@@ -1,0 +1,125 @@
+{
+  "nom": "06FT03",
+  "titre": "Manœuvres physiques",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Malaises et affections spécifiques",
+  "chapitres": [
+    {
+      "titre": "Indication",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Les manœuvres physiques sont des mesures qui doivent être réalisées dès que la victime reconnait des signes annonciateurs d’une perte de connaissance imminente d’origine vagale ou orthostatique."
+        }
+      ]
+    },
+    {
+      "titre": "Justification",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "En agissant sur la circulation, les manœuvres physiques ont pour but de créer une contre-pression vasculaire destinée à augmenter la pression artérielle de la victime. Elles permettent ainsi d’éviter la survenue d’une perte de connaissance et de lésions traumatiques secondaires à une chute."
+        }
+      ]
+    },
+    {
+      "titre": "Réalisation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Les manœuvres physiques doivent être réalisées par la victime elle-même. Si la victime ne connaît pas ces manœuvres, le sauveteur lui expliquera comment les réaliser si possible."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Les manœuvres ne remplacent pas la mise en position de confort de la victime notamment la position allongée. Cependant, si le sauveteur (ou la victime elle-même) est dans l’impossibilité immédiate d’allonger la victime (malaise dans un bus, un avion, le train), les manœuvres physiques peuvent précéder la mise en position allongée."
+        }
+      ]
+    },
+    {
+      "titre": "L'accroupissement (peut être un préalable à la mise en position allongée)",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Se placer en position accroupie."
+            },
+            {
+              "niveau": 1,
+              "texte": "Baisser la tête comme pour la mettre entre les deux genoux."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Croisement des membres inférieurs",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La victime peut être en position allongée ou debout en prenant appui contre un mur :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Croiser les membres inférieurs."
+            },
+            {
+              "niveau": 1,
+              "texte": "Contracter les muscles en essayant de tendre les jambes."
+            },
+            {
+              "niveau": 1,
+              "texte": "Serrer les fesses."
+            },
+            {
+              "niveau": 1,
+              "texte": "Contracter la ceinture abdominale."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Crochetage des doigts et tension des muscles des membres supérieurs",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Agripper les deux mains par les doigts en crochets."
+            },
+            {
+              "niveau": 1,
+              "texte": "Écarter les coudes de la poitrine au maximum."
+            },
+            {
+              "niveau": 1,
+              "texte": "Contracter les deux membres supérieurs en tirant comme pour essayer de séparer les deux mains."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "NB : Le croisement des membres inférieurs à une efficacité supérieure aux deux autres techniques."
+        }
+      ]
+    },
+    {
+      "titre": "Évaluation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Les manœuvres physiques sont réalisées par la victime dès l’apparition des premiers signes de malaise, et poursuivis après la mise au repos."
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

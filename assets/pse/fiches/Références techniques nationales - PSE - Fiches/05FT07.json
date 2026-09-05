@@ -1,0 +1,155 @@
+{
+  "nom": "05FT07",
+  "titre": "Désobstruction par des claques dans le dos",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Urgences vitales",
+  "chapitres": [
+    {
+      "titre": "Indication",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Cette technique est indiquée en cas d’obstruction des voies aériennes par un corps étranger chez une victime consciente incapable de :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "parler ou de tousser, ou dont la toux devient inefficace (adulte, adolescent, enfant) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "pleurer fortement ou de reprendre sa respiration (nourrisson, jeune enfant), notamment lorsqu’elle est nourrie, qu’elle mange ou qu’elle jouait sans surveillance."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Justification",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le but de cette technique est de provoquer un mouvement de toux pour débloquer et expulser le corps étranger qui obstrue les voies aériennes."
+        }
+      ]
+    },
+    {
+      "titre": "Réalisation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La technique de désobstruction des voies aériennes varie en fonction du gabarit de la victime."
+        }
+      ]
+    },
+    {
+      "titre": "Chez l’adulte et le grand enfant",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "se placer sur le côté et légèrement en arrière de la victime ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "soutenir le thorax avec une main et pencher la victime vers l’avant ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "donner de 1 à 5 claques vigoureuses dans le dos, entre les omoplates, avec le talon de la main ouverte ;"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Chez la victime qui peut tenir sur la cuisse du sauveteur",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "s'asseoir et basculer la victime sur sa cuisse, la face vers le bas ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "donner de 1 à 5 claques vigoureuses dans le dos, entre les omoplates, avec le talon de la main ouverte."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Chez la victime qui peut tenir sur l’avant-bras du sauveteur 1",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "maintenir sa tête avec les doigts, de part et d'autre de la bouche 2 ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "coucher la victime à califourchon sur l'avant-bras, la face vers le sol ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "incliner la victime afin que la tête soit plus basse que le thorax ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "donner de 1 à 5 claques vigoureuses dans le dos, entre les omoplates, avec le talon de la main ouverte."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Risques & Contraintes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le risque minime de blesser la victime ne doit pas diminuer la vigueur des claques qui est absolument nécessaire au rejet du corps étranger."
+        }
+      ]
+    },
+    {
+      "titre": "Évaluation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’efficacité de la technique est jugée sur :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "le rejet du corps étranger ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "l’apparition de toux chez l’adulte et de pleurs ou de cris chez l’enfant et le nourrisson ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "la reprise d’une respiration normale."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "1 Si la victime est un nourrisson ou petit-enfant",
+    "2 Le pouce d'un côté et un ou deux doigts de la même main de l'autre côté placés au niveau de l'angle de la mâchoire inférieure sans appuyer sur la gorge ;"
+  ]
+}

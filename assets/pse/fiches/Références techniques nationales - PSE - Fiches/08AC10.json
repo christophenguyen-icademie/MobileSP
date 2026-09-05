@@ -1,0 +1,200 @@
+{
+  "nom": "08AC10",
+  "titre": "Syndrome de suspension",
+  "niveaux": [],
+  "chapitre_principal": "Atteintes circonstancielles et environnementales",
+  "chapitres": [
+    {
+      "titre": "Définition",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le traumatisme de suspension ou syndrome de suspension regroupe toutes les manifestations qui surviennent chez une victime qui est suspendue, immobile, en position verticale pendant une durée prolongée (plus de 5 minutes)."
+        }
+      ]
+    },
+    {
+      "titre": "Causes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le syndrome de suspension peut se rencontrer :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "en montagne notamment lors d’une activité de loisir comme l’escalade, l’alpinisme, le canyoning ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "en spéléologie ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "dans l’industrie, notamment lors de travail en grande hauteur ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "chez les sauveteurs en montagne ou en milieu périlleux (treuillage)."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Dans ces situations, que ce soit pour leur activité, pour assurer leur sécurité en cas de chute où faciliter les opérations de sauvetage, des personnes peuvent se trouver « encordées » le plus souvent par l’intermédiaire d’un baudrier ou harnais et être alors victime d’un syndrome de suspension."
+        }
+      ]
+    },
+    {
+      "titre": "Risques & Conséquences",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La suspension d’une personne, immobile, en position verticale pendant une durée prolongée entraîne une accumulation du sang dans les parties inférieures de l’organisme (membres inférieurs), une hypotension, un ralentissement des battements du cœur, des troubles du comportement, une perte de connaissance et dans les cas les plus défavorables le décès de la victime. Le décès de la victime peut être rapide et survenir en quelques minutes ou plusieurs heures. La compression thoracique par du matériel (harnais, cordes) peut limiter aussi la respiration de la victime et aggraver les conséquences. Les survivants peuvent, si la suspension a été prolongée, présenter des complications notamment rénales. Il existe différents types de baudriers, mais quelle que soit leur nature, aucun ne peut éviter les conséquences d’un phénomène de suspension. Les mécanismes et les conséquences de la suspension d’une victime ne sont pas connus parfaitement. Facteurs favorisants :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "la prise de toxique et/ou d’alcool en altérant les réactions normales de l’organisme peuvent favoriser la survenue d’un syndrome de suspension."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Signes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le 1er regard permet de constater et de confirmer la suspension de la victime puisque la victime peut être toujours accrochée à la paroi ou avoir été dégagée. Dans tous les cas, rechercher :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "la nature du harnais ou baudrier porté par la victime ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "la position de la victime pendant la suspension (verticale, tête ou pied en l’air, horizontale) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "la durée de la suspension ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "la hauteur de chute s’il y a lieu."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Le bilan :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "si la victime est toujours pendue par sa corde ou son matériel, un secouriste spécialisé doit :"
+            },
+            {
+              "niveau": 2,
+              "texte": "prendre contact avec la victime et évaluer sa réponse,"
+            },
+            {
+              "niveau": 2,
+              "texte": "mettre en œuvre une opération de dégagement."
+            },
+            {
+              "niveau": 1,
+              "texte": "si la victime est dépendue, elle peut :"
+            },
+            {
+              "niveau": 2,
+              "texte": "présenter les signes d’un arrêt cardiaque,"
+            },
+            {
+              "niveau": 2,
+              "texte": "ne pas répondre et respirer,"
+            },
+            {
+              "niveau": 2,
+              "texte": "répondre à la stimulation ou toute sollicitation et présenter des signes de détresse comme une respiration superficielle, une pression artérielle basse et/ou des troubles de la conscience et/ou une hypothermie."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Le 4ème regard doit être réalisé dès que possible, en interrogeant la victime, en recherchant les antécédents, notamment les facteurs favorisants et en examinant la victime à la recherche de lésions traumatiques qui pourraient être associées. Dans tous les cas, si la victime n’est pas en arrêt cardiaque, le sauveteur essayera d’identifier les signes et les symptômes du syndrome de suspension, signes qui peuvent précéder la survenue d’une perte de connaissance, à savoir :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "étourdissement, vertige ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "fatigue intense ou sensation de malaise ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "nausées ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "tremblement ou fatigue des membres supérieurs ou inférieurs ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "angoisse ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "troubles visuels."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Le syndrome de suspension, du fait de la chute qui précède le plus souvent la suspension, peut être associé à des lésions traumatiques."
+        }
+      ]
+    },
+    {
+      "titre": "Principe de l’action de secours",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "dégager le plus rapidement la victime et la mettre en sécurité ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "réaliser les gestes de secours nécessaires en fonction de son état ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "surveiller attentivement la victime, car l’aggravation peut être rapide et brutale après son dégagement ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "obtenir un avis médical précoce."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

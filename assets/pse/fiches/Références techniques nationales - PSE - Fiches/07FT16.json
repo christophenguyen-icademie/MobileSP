@@ -1,0 +1,159 @@
+{
+  "nom": "07FT16",
+  "titre": "Contention pelvienne",
+  "niveaux": [
+    "PSE 2"
+  ],
+  "chapitre_principal": "Traumatismes",
+  "chapitres": [
+    {
+      "titre": "Indication",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Une contention pelvienne est mise en place chez une victime suspecte d'un traumatisme du bassin avant son transport :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "après avis ou à la demande du médecin ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "si la victime présente des signes de détresse circulatoire (hémorragie interne) et qu’un avis médical ne peut pas être obtenu."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Une contention pelvienne peut être préinstallée sous la victime dans l'attente d'un avis médical."
+        }
+      ]
+    },
+    {
+      "titre": "Justification",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "En réalisant une compression circonférentielle, la ceinture pelvienne entraîne :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "un rapprochement des ailes iliaques, qui rapproche les fragments osseux de la fracture et les immobilise ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "une diminution du saignement secondaire aux lésions vasculaires associées par :"
+            },
+            {
+              "niveau": 2,
+              "texte": "immobilisation de la région lésée,"
+            },
+            {
+              "niveau": 2,
+              "texte": "augmentation de la pression intra-abdominale."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Matériel",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Une ceinture pelvienne adaptée à la taille de la victime."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "La réalisation de ceinture improvisée à l'aide d’un moyen de fortune (drap…) n'est pas recommandée."
+        }
+      ]
+    },
+    {
+      "titre": "Réalisation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La victime est allongée sur le dos :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "glisser la ceinture sous les genoux de la victime ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "relever légèrement la victime (pont adapté, à plusieurs sauveteurs) pour décoller ses fesses du sol ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "glisser la ceinture sous les fesses, la centrer au niveau des grands trochanters ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "reposer la victime au sol ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "ramener les deux extrémités de la ceinture au niveau de la symphyse. Dans certains cas il est possible de couper ou de rabattre à l'intérieur les extrémités pour les adapter à la taille de la victime ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "assurer une tension appropriée 1 de la ceinture en utilisant le dispositif de serrage prévu à cet effet et sécuriser sa fermeture."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "La ceinture doit rester en place et laissée avec la victime à l'hôpital."
+        }
+      ]
+    },
+    {
+      "titre": "Risques & Contraintes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La ceinture pelvienne est particulièrement efficace pour les fractures dites « en livre ouvert » du bassin. Mise en place pour d'autres types de fractures, elle ne présente pas d'effet secondaire si les conditions de mise en place sont respectées. La mise en place de la ceinture ne doit pas prendre plus de 3 à 5 minutes."
+        }
+      ]
+    },
+    {
+      "titre": "Évaluation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La ceinture mise en place assure une compression circonférentielle :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "elle prend appui sur les côtés, au niveau des grands trochanters ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "en avant, elle passe sur la symphyse pubienne ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "une fois mise en place, le dispositif de sécurité empêche son relâchement intempestif."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "1 La tension appropriée est définie selon le type de ceinture utilisé."
+  ]
+}

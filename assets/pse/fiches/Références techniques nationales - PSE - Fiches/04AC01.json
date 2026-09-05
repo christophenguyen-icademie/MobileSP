@@ -1,0 +1,103 @@
+{
+  "nom": "04AC01",
+  "titre": "Généralités sur les bilans",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Bilans",
+  "chapitres": [
+    {
+      "titre": "Introduction",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La chronologie et les principes associés qui sont ici proposés se basent sur des pratiques de terrain et déterminent un langage commun, adaptable quelle que soit la méthodologie ou la procédure employée par une entité."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Chaque autorité d’emploi est donc libre d’associer un nom à chaque regard ou de rédiger une procédure respectant cette chronologie et ces principes, l’essentiel étant le respect de ce code commun nécessaire à une compréhension mutuelle."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Le bilan est la phase de recueil d’informations permettant d’évaluer une situation et l’état d’une victime tout au long de sa prise en charge. Sa réalisation, de manière structurée et rigoureuse, assure :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "la mise en sécurité des intervenants, de la ou des victimes, des témoins et des lieux ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "la recherche de détresses vitales et la mise en œuvre rapide d’une conduite à tenir appropriée ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "une évaluation globale de l’état physique et psychique de la victime permettant la mise en œuvre de gestes de premiers secours complémentaires ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "la transmission au médecin régulateur de tous les éléments lui permettant d’établir un diagnostic le plus précis possible pour proposer une suite à donner à l’intervention ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "le suivi de l’évolution de l’état de la victime."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "L’attitude et le comportement des secouristes ont un impact direct sur la qualité des informations recueillies auprès de la victime et de sa prise en charge. Le bilan respecte les 3 principes suivants :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Commencer par une évaluation globale pour aller ensuite dans le détail."
+            },
+            {
+              "niveau": 1,
+              "texte": "Rechercher et traiter en priorité « ce qui tue en premier » ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "Fonctionner en cercles de contrôle continu, de l’abord de la victime, jusqu’à la fin de l’intervention : évaluer (apprécier et mesurer les fonctions vitales de manière hiérarchisée), agir, contrôler l’action et réévaluer."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "L’approche chronologique du bilan distingue 4 regards successifs :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Le premier regard apprécie la situation dans sa globalité pour déceler d’éventuels dangers pour l’équipe, la victime et son environnement ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "Le deuxième regard progresse vers la victime et a pour objectif d’identifier une menace vitale ainsi que la plainte principale ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "Le troisième regard repose sur une évaluation hiérarchisée et structurée des fonctions vitales, l’une après l’autre pour rechercher une détresse vitale moins évidente ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "Le quatrième regard permet de compléter l’évaluation en approfondissant l’interrogatoire, en examinant la victime et en poursuivant la mesure des paramètres vitaux."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Dès le 2ème regard, une logique de surveillance de la victime débute et se poursuit jusqu’à la fin de l’intervention. La synthèse des informations et des actions entreprises durant toute l’intervention doit être consignée et transmise à l’équipe qui prend le relai."
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

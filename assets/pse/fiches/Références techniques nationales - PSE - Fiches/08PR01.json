@@ -1,0 +1,65 @@
+{
+  "nom": "08PR01",
+  "titre": "Accident électrique",
+  "niveaux": [
+    "PSE 2"
+  ],
+  "chapitre_principal": "Atteintes circonstancielles et environnementales",
+  "chapitres": [
+    {
+      "titre": "Introduction",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "s’assurer que la victime n’est pas en contact direct ou indirect (eau) avec un conducteur endommagé (fil électrique, appareil ménager sous tension) ou un câble électrique de haute tension au sol ; Dans le cas contraire :"
+            },
+            {
+              "niveau": 2,
+              "texte": "ne pas s’approcher ou toucher la victime avant d’être certain que l’alimentation est coupée (pour le courant haute tension, avoir été averti par les autorités responsables),"
+            },
+            {
+              "niveau": 2,
+              "texte": "faire écarter immédiatement les personnes présentes et leur interdire de toucher la victime."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Si un véhicule est en contact accidentel avec une ligne électrique, ne pas s’approcher du véhicule et ordonner aux occupants qui sont à l’intérieur de rester dedans, tant que le service compétent n’a pas donné l’assurance que la ligne est hors tension 1 ."
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "couper le courant (débrancher l’appareil en cause) ou le faire couper par une personne qualifiée (EDF, SNCF…), si possible ; On peut s’approcher et manipuler des victimes frappées par la foudre."
+            },
+            {
+              "niveau": 1,
+              "texte": "enlever les vêtements en combustion et les chaussures pour prévenir d’autres lésions thermiques ; Si la victime présente une détresse vitale, appliquer la conduite à tenir adaptée à son état. Si la victime présente des brûlures, appliquer la conduite à tenir adaptée face à une brûlure thermique et électrique 2 ."
+            },
+            {
+              "niveau": 1,
+              "texte": "compléter le bilan et rechercher des lésions provoquées par une contraction musculaire ou si la victime a été projetée au moment de l’électrisation ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "réaliser les gestes et soins complémentaires ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "demander un avis médical et appliquer les consignes reçues ; Si la victime est une femme enceinte, le préciser lors de la transmission du bilan, car il existe un risque pour le fœtus."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "pneumatiques.",
+    "2 Lors d’une électrisation, l’arc électrique ou le flash provoque une brûlure thermique au niveau du point de contact avec la victime. La traversée de l’organisme par le courant provoque en revanche des lésions internes. C’est pourquoi il convient de prendre en charge la victime simultanément selon le protocole lié à la brûlure thermique comme à celui de la brûlure électrique."
+  ]
+}

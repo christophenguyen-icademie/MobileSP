@@ -1,0 +1,316 @@
+{
+  "nom": "10FT08",
+  "titre": "Relevage à trois secouristes",
+  "niveaux": [
+    "PSE 2"
+  ],
+  "chapitre_principal": "Relevage et brancardage",
+  "chapitres": [
+    {
+      "titre": "Indication",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Les techniques de relevage d’une victime à trois secouristes porteurs sont réalisées si la corpulence de la victime le permet. Une quatrième personne peut être utilisée pour faire glisser le brancard sous la victime lorsque cela est nécessaire."
+        }
+      ]
+    },
+    {
+      "titre": "Justification",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Ces techniques, très couramment utilisées, permettent d’installer une victime sur un brancard."
+        }
+      ]
+    },
+    {
+      "titre": "Matériel",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Un dispositif de relevage ou de brancardage préalablement préparé. L’ensemble de ce dispositif sera nommé « brancard » dans la suite de la fiche."
+        }
+      ]
+    },
+    {
+      "titre": "Pont néerlandais à trois porteurs",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La mise en œuvre de cette technique nécessite trois intervenants :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "un secouriste, placé en pont, au-dessus de la tête de la victime (secouriste 1) ; C’est ce secouriste qui guide et commande l’ensemble de la manœuvre."
+            },
+            {
+              "niveau": 1,
+              "texte": "un secouriste, placé en pont, au-dessus des pieds la victime (secouriste 2) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "un secouriste, placé en pont, au-dessus de la victime, entre les deux autres (secouriste 3)."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Préalablement à la manœuvre de relevage :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "disposer le brancard le long du corps de la victime et s’il a des roulettes, les bloquer."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Initialement :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "ramener les avant-bras de la victime sur son tronc."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Puis : les secouristes 1 et 2 doivent :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "se faire face ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "prendre position respectivement au niveau de la tête et des pieds de la victime ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "placer le pied côté brancard à l’intérieur des poignées situées contre la victime de manière à les bloquer. le secouriste 3 doit :"
+            },
+            {
+              "niveau": 1,
+              "texte": "s’appuyer sur l’épaule du secouriste 1 ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "enjamber la victime et poser son pied sur le milieu de la hampe extérieure, sous le drap. le secouriste 1 doit :"
+            },
+            {
+              "niveau": 1,
+              "texte": "glisser une main sous la nuque de la victime et l’autre sous ses omoplates ; le secouriste 2 doit :"
+            },
+            {
+              "niveau": 1,
+              "texte": "saisir les chevilles de la victime. le secouriste 3 doit :"
+            },
+            {
+              "niveau": 1,
+              "texte": "engager ses mains sous la taille de la victime ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "saisir les parties latérales de la ceinture ou du pantalon, si elles sont solides. Secouriste 1 : « Êtes-vous prêts ? » Secouristes 2 et 3 : « Prêts ! » Secouriste 1 : « Attention pour lever… Levez ! » les secouristes doivent :"
+            },
+            {
+              "niveau": 1,
+              "texte": "se relever en gardant le dos plat ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "soulever la victime ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "déplacer latéralement la victime jusqu’au brancard ; le secouriste 1 doit :"
+            },
+            {
+              "niveau": 1,
+              "texte": "ordonner de poser la victime sur le brancard, en fin de déplacement."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Les secouristes doivent :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "poser la victime doucement sur le brancard ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "se dégager successivement de la victime, sans la heurter."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Pont simple",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La mise en œuvre de cette technique nécessite trois porteurs et un aide :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "un secouriste, placé en pont, au-dessus de la tête de la victime (secouriste 1) ; C’est ce secouriste qui guide et commande l’ensemble de la manœuvre."
+            },
+            {
+              "niveau": 1,
+              "texte": "un secouriste, placé en pont, au-dessus des pieds la victime (secouriste 2) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "un secouriste, placé en pont, au-dessus de la victime, entre les deux autres (secouriste 3)."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Préalablement à la manœuvre de relevage :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "disposer le brancard dans l’axe de la victime, si possible au niveau des pieds ; Un aide assurera son glissement sous la victime au commandement."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Initialement :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "ramener les avant-bras de la victime sur son tronc."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Puis : le secouriste 1 doit :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "se placer à la tête de la victime, jambes suffisamment écartées. les secouristes 2 et 3 doivent :"
+            },
+            {
+              "niveau": 1,
+              "texte": "se placer face au secouriste 1, en pont au-dessus de la victime, jambes suffisamment écartées et pieds légèrement décalés, respectivement au niveau des pieds et du bassin ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "s’accroupir en gardant le dos plat. le secouriste 1 doit :"
+            },
+            {
+              "niveau": 1,
+              "texte": "glisser une main sous la nuque de la victime et l’autre sous ses omoplates. le secouriste 2 doit :"
+            },
+            {
+              "niveau": 1,
+              "texte": "saisir les chevilles de la victime. le secouriste 3 doit :"
+            },
+            {
+              "niveau": 1,
+              "texte": "engager ses mains sous la taille de la victime ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "saisir les parties latérales de la ceinture ou du pantalon, si elles sont solides. Secouriste 1 : « Êtes-vous prêts ? » Secouristes 2 et 3 : « Prêts ! » Secouriste 1 : « Attention pour lever… Levez ! » Les secouristes doivent alors :"
+            },
+            {
+              "niveau": 1,
+              "texte": "se relever en gardant le dos plat ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "soulever la victime pour permettre le passage du brancard. Secouriste 1 : « Envoyez le brancard ! »"
+            },
+            {
+              "niveau": 1,
+              "texte": "l’aide doit alors :"
+            },
+            {
+              "niveau": 1,
+              "texte": "glisser le brancard entre les jambes des secouristes, sous la victime. le secouriste 1 doit :"
+            },
+            {
+              "niveau": 1,
+              "texte": "commander l’arrêt du brancard lorsque celui-ci est arrivé sous la tête de la victime."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Une fois que le brancard est en place :"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Secouriste 1 : « Posez ! » Les secouristes doivent alors :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "poser doucement la victime sur le brancard ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "se dégager successivement de la victime, sans la heurter."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Risques & Contraintes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Tout risque de chute de la victime est évité si la technique est correctement choisie et exécutée. Le respect des règles de manutention évite au secouriste de se blesser pendant la manœuvre."
+        }
+      ]
+    },
+    {
+      "titre": "Évaluation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le transfert de la victime sur le brancard doit être doux, sans à-coup et le moins traumatisant possible. À l’issue de la manœuvre, la victime se trouve en position correcte sur le brancard."
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

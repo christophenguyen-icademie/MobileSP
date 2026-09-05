@@ -1,0 +1,174 @@
+{
+  "nom": "10FT09",
+  "titre": "Relevage d’une victime en position particulière",
+  "niveaux": [
+    "PSE 2"
+  ],
+  "chapitre_principal": "Relevage et brancardage",
+  "chapitres": [
+    {
+      "titre": "Indication",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Cette technique est indiquée dès lors que la victime est en position latérale de sécurité, en position assise ou demi-assise, à plat dos, cuisses fléchies."
+        }
+      ]
+    },
+    {
+      "titre": "Justification",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Cette technique permet de réaliser le relevage d’une victime en position d’attente."
+        }
+      ]
+    },
+    {
+      "titre": "Matériel",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Matériel de relevage et brancardage préalablement préparé, adapté à recevoir une victime et à la garder dans la position choisie."
+        }
+      ]
+    },
+    {
+      "titre": "Victime en position latérale de sécurité",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Cette technique est réalisée à quatre secouristes selon une méthode en pont. Si la victime n’est pas traumatisée, il est possible d’adapter la technique à 3 secouristes toujours selon une méthode en pont. Le secouriste de tête maintient la tête de la victime en position latéro-latérale."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Le secouriste situé au niveau des pieds, dès que les autres secouristes maintiennent la victime, ramène le membre inférieur fléchi sur l’autre et saisit les chevilles ensemble. La position finale obtenue est si possible maintenue à l’aide d’un matelas immobilisateur à dépression."
+        }
+      ]
+    },
+    {
+      "titre": "Victime à plat dos, cuisses fléchies",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Deux ou trois secouristes soulèvent la moitié supérieure du corps selon une méthode en pont. Les membres inférieurs sont saisis au niveau des genoux par le secouriste placé aux pieds de la victime."
+        }
+      ]
+    },
+    {
+      "titre": "Victime en position demi-assise",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La partie supérieure du corps est soutenue par le secouriste de tête qui glisse ses avant-bras sous les aisselles de la victime. Il peut éventuellement saisir les poignets opposés ou la ceinture de la victime. La position des autres secouristes ne diffère pas des règles générales du relevage."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Les matériels de calage sont transférés du sol sur le brancard après la dépose de la victime sur le brancard si ce dernier n’est pas équipé de dispositif permettant le maintien de cette position."
+        }
+      ]
+    },
+    {
+      "titre": "Victime en position assise - Transfert sur une chaise de transport",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’installation d’une victime sur une chaise de transport rend plus facile son brancardage, notamment si l’équipe doit emprunter des escaliers ou un ascenseur."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Pour être possible, il est indispensable que la victime puisse tenir la position assise et que la position assise ne soit pas contre-indiquée. Sa mise en œuvre nécessite trois intervenants :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "un secouriste, chargé de maintenir la chaise de transport (secouriste 1) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "deux secouristes, placés devant et derrière la victime (secouristes 2 et 3)."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Initialement : le secouriste 1 doit :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "placer, sur le côté de la victime, la chaise de transport préalablement préparée ; le secouriste 2 doit :"
+            },
+            {
+              "niveau": 1,
+              "texte": "croiser les bras de la victime sur sa poitrine ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "se placer derrière la victime puis glisser ses avant-bras sous les aisselles et saisir les poignets opposés. le secouriste 3 doit :"
+            },
+            {
+              "niveau": 1,
+              "texte": "se placer face à la victime, légèrement accroupie, un pied décalé vers la chaise de transport ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "saisir les genoux de la victime en glissant ses avant-bras dessous. Secouriste 2 : « Êtes-vous prêts ? » Secouristes 1 et 3 : « Prêts ! » Secouriste 2 : « Attention pour lever… Levez ! » les secouristes 2 et 3 doivent :"
+            },
+            {
+              "niveau": 1,
+              "texte": "se relever en gardant le dos plat ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "soulever la victime et la déplacer latéralement au-dessus de la chaise de transport ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "poser la victime doucement sur la chaise. le secouriste 1 doit :"
+            },
+            {
+              "niveau": 1,
+              "texte": "aider à la réception de la victime."
+            },
+            {
+              "niveau": 1,
+              "texte": "envelopper la victime avec le drap ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "recouvrir la victime, éventuellement, d’une couverture ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "arrimer la victime avant de la transporter."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Risques & Contraintes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Tout risque de chute de la victime lors de son relevage est évité si la technique est correctement choisie et réalisée. Le respect des règles de manutention précédemment décrites évite au secouriste de se blesser pendant la manœuvre."
+        }
+      ]
+    },
+    {
+      "titre": "Évaluation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La position d’attente choisie doit être maintenue au cours du relevage pour éviter une aggravation de l’état de la victime."
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

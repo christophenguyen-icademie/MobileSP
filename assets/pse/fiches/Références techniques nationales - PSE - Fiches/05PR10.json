@@ -1,0 +1,57 @@
+{
+  "nom": "05PR10",
+  "titre": "Détresse neurologique",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Urgences vitales",
+  "chapitres": [
+    {
+      "titre": "Face à une urgence vitale, ou en cas d’aggravation",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "appliquer la conduite à tenir adaptée et réaliser en priorité les gestes d’urgence qui s’imposent ;"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "La victime est consciente 1",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "allonger la victime ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "administrer de l’oxygène en inhalation si nécessaire ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "protéger la victime contre le froid, la chaleur ou les intempéries."
+            },
+            {
+              "niveau": 1,
+              "texte": "poursuivre le bilan et surveiller attentivement :"
+            },
+            {
+              "niveau": 2,
+              "texte": "son état neurologique."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "1 Après avoir traité une urgence vitale s’il y en avait une."
+  ]
+}

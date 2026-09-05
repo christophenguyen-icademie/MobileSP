@@ -1,0 +1,150 @@
+{
+  "nom": "11FT01",
+  "titre": "Repérage en cas de nombreuses victimes",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Situations particulières",
+  "chapitres": [
+    {
+      "titre": "Indication",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le repérage des victimes est réalisé chaque fois que l’on se trouve en présence de plusieurs victimes et que le nombre de victimes apparemment graves est supérieur au nombre de secouristes présents."
+        }
+      ]
+    },
+    {
+      "titre": "Justification",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Ce repérage permet, dans l’attente de l’arrivée des renforts, de :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "localiser les victimes ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "déterminer les victimes dont l’état nécessite une action de secours immédiate et rapide (pose d’un garrot, libération des voies aériennes, mise en position d’attente, etc.) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "déterminer les victimes qui devront être examinées, prioritairement, par un médecin."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Matériel",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Un dispositif de repérage, qui peut être composé par des fiches d’identification, des bracelets… permettant d’identifier rapidement la victime et son état. Ce dispositif peut inclure un système de numérotation afin que l’identification de la victime soit unique tout au long de la chaîne de prise en charge. L’état de la victime est généralement repéré par un code couleur. En l’absence d’un dispositif de repérage, celui-ci peut être remplacé par un marquage de la victime à l’aide d’un stylo."
+        }
+      ]
+    },
+    {
+      "titre": "Réalisation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le repérage sur le chantier doit être très rapide et repose sur des critères simples. L’intervenant doit :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "aborder les victimes les unes après les autres, en commençant par la plus proche de l’endroit où il se trouve ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "rechercher une menace vitale, en l’absence, apprécier² rapidement les fonctions respiratoire et circulatoire, ainsi que les lésions éventuelles ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "réaliser les gestes de secours adaptés ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "identifier la victime avec la couleur appropriée ; R EPERAGE DES VICTIMES Victime dont le décès ne fait aucun doute 1 NOIR Victime qui a perdu connaissance et ne respire pas après LVA Victime qui a perdu connaissance et respire après LVA"
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "ROUGE Victime avec une hémorragie ou consciente, et qui présente une détresse vitale 2 JAUNE Victime consciente qui ne présente pas de détresse vitale et ne pouvant se déplacer seul. Personne exposée à la situation, ne présente pas de détresse vitale et pouvant se déplacer seule ou VERT aidée"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "passer à la victime suivante."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "A l’issue du repérage, l’intervenant prend ses consignes auprès du commandement, notamment pour engager des gestes complémentaires en fonction des consignes du moment."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "ENGAGEMENT"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "VICTIME LA PLUS PROCHE CHANGER DE VICTIME POSER BRACELET SI POSSIBLE"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Décès ne fait pas de doute 1 OUI NOIR"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Hémorragie OUI TRAITER L’HEMORRAGIE"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "R NON HE ERC Perte de connaissance OUI LIBERATION DES VOIES AERIENNES CH RE"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Respire NON"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "POSITION LATERALE DE SECURITE"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Détresse vitale² OUI POSITION D’ATTENTE ROUGE R IE EC NON PR LAISSER LA VICTIME AP SUR PLACE Incapacité à se déplacer OUI LAISSER DANS SA POSITION JAUNE"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "VERT"
+        }
+      ]
+    },
+    {
+      "titre": "Évaluation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le repérage doit permettre une catégorisation précoce de l’ensemble des victimes afin de prioriser leur prise en charge en fonction des moyens disponibles."
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "1 Tête séparée du tronc, victime déchiquetée, victime démembrée, raideur cadavérique",
+    "2 Apprécier la respiration et la circulation sans excéder 15 sec par fonction. Chez l’adulte, en cas de nombreuses victimes, est considéré comme détresse respiratoire (fréquence supérieure à 30 mvt/min) ou circulatoire (fréquence supérieure à 120 bat/min)."
+  ]
+}

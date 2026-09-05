@@ -1,0 +1,147 @@
+{
+  "nom": "04PR04",
+  "titre": "Quatrième regard",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Bilans",
+  "chapitres": [
+    {
+      "titre": "Introduction",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Ce regard vient préciser les plaintes de la victime et compléter son examen. Le 4ème regard porte ainsi sur :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "L ’interrogatoire de la victime ou de son entourage :"
+            },
+            {
+              "niveau": 2,
+              "texte": "Il débute par la recherche du mécanisme de l’accident, de l’évènement ou de l’histoire de la maladie . Cette recherche est essentielle. § Dans un contexte de traumatisme, la recherche du mécanisme de l’accident permet de préciser :"
+            },
+            {
+              "niveau": 1,
+              "texte": "sa nature (chute, faux mouvement, accident de la voie publique, victime heurtée par un objet) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "son intensité (hauteur de la chute, niveau de décélération, etc.) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "des éléments particuliers (position dans le véhicule, port d’un casque, état du casque de protection, port de la ceinture de sécurité, etc.). § Lors d’une atteinte circonstancielle, il faut rechercher :"
+            },
+            {
+              "niveau": 1,
+              "texte": "l’évènement déclencheur (noyade, pendaison, accident de plongée, intoxication, exposition à la chaleur ou au froid, etc.)"
+            },
+            {
+              "niveau": 1,
+              "texte": "ses particularités (durée d’immersion, durée d’exposition au froid ou à la chaleur, nature du produit toxique et voie d’administration, etc.). § L’histoire de la maladie permet chez une victime qui présente un malaise ou une affection spécifique d’indiquer s’il s’agit de symptômes d’apparition récente ou de l’aggravation d’une maladie connue et de son évolution ; Dans des circonstances particulières (suspicion de violence, tentative de suicide), il est important de formuler clairement la problématique repérée lorsqu’elle n’est pas spontanément exprimée."
+            },
+            {
+              "niveau": 2,
+              "texte": "Les plaintes (douleur, angoisse, fatigue, troubles digestifs, paralysie, trouble de la parole ou de la vue, vertiges, etc.) sont analysées en fonction du contexte : § Le facteur déclencheur ou améliorant ( P rovoqué par) ; § La Q ualité (comment la douleur ou la gêne est décrite par la victime) ; § La localisation s’il y a lieu (dans quelle R égion du corps ?) ; § La S évérité (comment la douleur ou la gêne est ressentie par la victime) ; § La T emporalité ( Depuis combien de temps ? À quel moment de la journée ? Est-ce la première fois ? )"
+            },
+            {
+              "niveau": 2,
+              "texte": "La recherche des antécédents termine cet interrogatoire. Elle a pour but de connaître l’état de santé préalable de la victime. Elle porte sur : § les antécédents M édicaux (maladies chroniques : asthme, diabète, épilepsie, arthrose, insuffisance respiratoire chronique, hypertension artérielle, hypercholestérolémie, etc.) et chirurgicaux, § les H ospitalisations, § les T raitements en cours et ses modifications récentes, § les A llergies, § l’existence de F acteurs de risques (tabagisme, sédentarité, stress, le surpoids, etc.)."
+            },
+            {
+              "niveau": 1,
+              "texte": "L’examen :"
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Le secouriste approfondit l’examen de la victime à la recherche de lésions de la peau (plaies, brûlures, contusion) ou d’autres atteintes (tâches, rougeurs), mais aussi des hématomes, des gonflements, des écoulements ou des déformations."
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "La mesure 1 des paramètres physiologiques :"
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Les paramètres suivants seront systématiquement réalisés :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 2,
+              "texte": "La fréquence respiratoire (FR) ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "La saturation pulsée (SpO ) ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "La fréquence cardiaque (FC) ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "La pression artérielle (PA) ;"
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "D’autres paramètres peuvent être mesurés en fonction du contexte, de la plainte et de l’examen. Tel est le cas de la mesure de la glycémie capillaire, de la mesure de la température corporelle ou la réalisation et télétransmission d’un électrocardiogramme pour les secouristes habilités 2 ."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Compte tenu de la fiabilité des appareils, la prise en compte des signes cliniques prime sur les mesures des paramètres vitaux."
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Des scores ou échelles peuvent compléter le bilan en fonction du contexte :"
+            },
+            {
+              "niveau": 2,
+              "texte": "mesure de la douleur ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "mesure du niveau de conscience d’une victime (EVDA/AVPU ou score de Glasgow) ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "mesure de la superficie d’une surface corporelle brûlée (score de Wallace ou tables de Lund et Browder) ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "réalisation d’un score de reconnaissance des AVC ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "Etc."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "À plusieurs secouristes, la réalisation de la mesure des paramètres physiologiques ou des scores, peut-être réalisée pendant qu’un autre secouriste s’occupe de l’interrogatoire et de l’examen de la victime. À l’issue du 4ème regard, l’ensemble des éléments recueillis doit être transmis au médecin régulateur sans les interpréter."
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "1 Confère la section « Mesurer » dans les fiches « évaluation des fonctions vitales ».",
+    "2 Décret n° 2022-621 du 22 avril 2022 relatif aux actes de soins d'urgence relevant de la compétence des sapeurs-pompiers"
+  ]
+}

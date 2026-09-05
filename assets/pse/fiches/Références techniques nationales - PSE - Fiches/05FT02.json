@@ -1,0 +1,94 @@
+{
+  "nom": "05FT02",
+  "titre": "Compression manuelle",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Urgences vitales",
+  "chapitres": [
+    {
+      "titre": "Indication",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La compression manuelle doit être réalisée devant toute hémorragie externe accessible, quelle que soit sa localisation, et si elle ne présente pas de corps étranger."
+        }
+      ]
+    },
+    {
+      "titre": "Justification",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La plupart des hémorragies externes s’arrêtent en appuyant sur la plaie."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "La compression manuelle est une technique facile et rapide. Elle est très efficace et suffit dans la plupart des cas pour arrêter le saignement."
+        }
+      ]
+    },
+    {
+      "titre": "Matériel",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "gants à usage unique ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "paquet de compresses, pansement « américain » ou tissu propre (mouchoir, torchon, vêtement)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Réalisation",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "appuyer 1 fortement sur l’endroit qui saigne 2 ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "interposer le plus tôt possible entre la main et la plaie plusieurs compresses, un pansement ou un tissu, si possible propre, pour augmenter la compression ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "maintenir la compression de la plaie jusqu’au relais par un pansement compressif."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Risques & Contraintes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La compression directe est susceptible d’entraîner une contamination de la victime par le sauveteur ou inversement (accident d’exposition à un risque infectieux). Le temps de compression avant la mise en place d’un pansement compressif doit parfois être prolongé chez les personnes prenant des médicaments servant à fluidifier le sang."
+        }
+      ]
+    },
+    {
+      "titre": "Évaluation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La compression manuelle est efficace lorsque le saignement est arrêté."
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "1 Si le secouriste ne peut lui-même maintenir la compression, par exemple s’il existe de nombreuses victimes, il peut demander à la victime ou à un témoin (en s’assurant de sa protection), s’il en est capable, d’appuyer.",
+    "2 Avec ce qui est efficace au regard de la situation et qu'on peut maintenir aisément : avec la ou les mains protégées par des gants à usage unique, voir si nécessaire le genou."
+  ]
+}

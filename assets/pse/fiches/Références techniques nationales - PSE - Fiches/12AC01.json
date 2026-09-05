@@ -1,0 +1,205 @@
+{
+  "nom": "12AC01",
+  "titre": "Informations générales",
+  "niveaux": [
+    "PSE 1",
+    "PSE 2"
+  ],
+  "chapitre_principal": "Divers",
+  "chapitres": [
+    {
+      "titre": "Abréviations",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "AC Arrêt cardiaque"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "ACT Attelle cervico-thoracique"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "AEV Accident d’exposition à un risque viral"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "AVC Accident vasculaire cérébral"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "CO Monoxyde de carbone"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "CO Dioxyde de carbone"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "CUMP Cellule d’urgence médico-psychologique"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "DAE Défibrillateur automatisé externe"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "DASRI Déchets d’activités de soins à risques infectieux"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "DEA Défibrillateur entièrement automatisé"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "DGSCGC Direction Générale de la Sécurité Civile et de la Gestion des Crises"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "DSA Défibrillateur semi-automatique"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "FAST Face, Arm, Speech, Time"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "FC Fréquence cardiaque"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "FFP2 Masque de protection respiratoire individuel"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "FR Fréquence respiratoire"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Hg Mercure"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "LVA Libération des voies aériennes"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "MID Matelas immobilisateur à dépression"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "MIN Mort inattendue et inexpliquée du nourrisson"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "O (di)Oxygène"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "OVA Obstruction des voies aériennes"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "PA Pression artérielle"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "PLS Position latérale de sécurité"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "RCP Réanimation cardio-pulmonaire"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "SAI Seringue auto-injectable"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "SpO Saturation pulsée en oxygène"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "TA Tension artérielle"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "VA Voies aériennes"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "VHB Virus de l’hépatite B"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "VHC Virus de l’hépatite C"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "VIH Virus de l’immunodéficience humaine"
+        }
+      ]
+    },
+    {
+      "titre": "Hygiène et asepsie",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Produit nettoyant qui rend propre visuellement le support et qui :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "dégraisse et détache les particules infectées du support où elles sont collées et les met en suspension dans une solution qui peut s’éliminer par rinçage ou par un second passage du produit, selon les préconisations du fabricant, Certains détergents sont pulvérisables."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Détergent"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "ne contient pas de substance antimicrobienne,"
+            },
+            {
+              "niveau": 1,
+              "texte": "est dit agent tensioactif. Son action est basée sur une action chimique qui nécessite, en plus de l’action mécanique (brossage ou frottement pour décoller la salissure), le respect d’une température d’utilisation et d’un temps d’action du produit."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Produit qui ne peut être utilisé que sur les surfaces propres pour éliminer, inactiver ou tuer Désinfectant les microorganismes après le temps de détersion. On utilise des produits normés selon les normes AFNOR, pour les activités bactéricide et fongicide."
+        }
+      ]
+    },
+    {
+      "titre": "Morphologie",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Adulte Ressemblant à un adulte morphologiquement"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Enfant Ressemblant à un enfant, pouvant tenir sur la cuisse du secouriste"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Nourrisson Ressemblant à un nourrisson, peut tenir sur l’avant-bras du secouriste"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Ressemblant à un nouveau-né de quelques semaines, peut tenir sur l’avant-bras du Nouveau-né secouriste"
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

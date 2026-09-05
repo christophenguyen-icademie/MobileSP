@@ -1,0 +1,91 @@
+{
+  "nom": "08PR16",
+  "titre": "Victimes d’avalanche",
+  "niveaux": [],
+  "chapitre_principal": "Atteintes circonstancielles et environnementales",
+  "chapitres": [
+    {
+      "titre": "Introduction",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "une attention toute particulière doit être portée au moment du dégagement de la tête de la victime pour repérer la présence ou non, d’une poche d’air au niveau des voies aériennes supérieures ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "si cela ne retarde pas le dégagement de la tête, le faire en présence du médecin ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "noter l’heure de l’ensevelissement et l’heure de dégagement de la tête."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Prise en charge de la victime",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "stabiliser le rachis cervical ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "libérer les voies aériennes supérieurs si nécessaire ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "administrer de l’oxygène en complément si nécessaire ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "effectuer le bilan des lésions traumatiques et appliquer la conduite à tenir correspondante aux lésions ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "réchauffer la victime ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "appliquer la conduite à tenir devant une victime en hypothermie ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "rassurer la victime, car il s’agit d’un accident très anxiogène."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Si la victime est en arrêt cardiaque",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "stabiliser le rachis cervical ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "appliquer la conduite à tenir devant une victime en arrêt cardiaque ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "rechercher les lésions traumatiques en parallèle."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

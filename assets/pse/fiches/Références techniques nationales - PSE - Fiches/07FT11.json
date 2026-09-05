@@ -1,0 +1,147 @@
+{
+  "nom": "07FT11",
+  "titre": "Maintien de la tête en position neutre",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Traumatismes",
+  "chapitres": [
+    {
+      "titre": "Indication",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le maintien de la tête du blessé en position neutre est recommandé dès qu’un traumatisme de la tête, de la nuque ou du dos de la victime est suspecté, dans l’attente d’une éventuelle immobilisation complète de l’axe tête-cou-tronc. Le maintien de la tête peut être interrompu après avoir demandé à la victime de ne pas bouger la tête et si cette dernière est allongée à plat dos, calme et coopérante."
+        }
+      ]
+    },
+    {
+      "titre": "Justification",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le maintien de la tête du blessé en position neutre, dans l’alignement du tronc, limite les mouvements intempestifs du cou et permet la stabilisation du rachis cervical dans l’attente de son immobilisation."
+        }
+      ]
+    },
+    {
+      "titre": "Matériel",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Aucun matériel."
+        }
+      ]
+    },
+    {
+      "titre": "Victime allongée sur le dos",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "demander à la victime de ne pas bouger la tête et la prévenir de ce que l'on va faire ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "se placer en position stable à genou dans l'axe de la victime, au niveau de sa tête ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "prendre appui avec les coudes 1 sur le sol ou sur les genoux ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "placer les mains de chaque côté de sa tête pour la maintenir dans la position où elle se trouve ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "replacer la tête, si nécessaire, délicatement, dans l’axe du tronc, sans exercer de traction, jusqu'à ce que la victime regarde droit devant."
+            },
+            {
+              "niveau": 1,
+              "texte": "maintenir la position :"
+            },
+            {
+              "niveau": 2,
+              "texte": "au moins jusqu’à l’immobilisation du rachis cervical,"
+            },
+            {
+              "niveau": 2,
+              "texte": "en général, jusqu’à l'immobilisation complète du rachis."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Victime debout ou assise",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "se positionner devant ou derrière la victime ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "placer les mains de chaque côté de la tête de la victime ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "replacer délicatement la tête dans l’axe du tronc, en soulageant le rachis cervical du poids de la tête, jusqu'à ce que la victime regarde droit devant ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "maintenir la position tant que l’axe tête-cou-tronc n’est pas complètement immobilisé (ACT, plan dur avec immobilisateur de tête)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Risques & Contraintes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Si un déplacement de la tête est nécessaire pour la ramener en position neutre, la manœuvre sera immédiatement interrompue si :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "une résistance au déplacement de la tête est perçue ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "le déplacement déclenche ou aggrave une douleur cervicale ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "le déplacement déclenche des sensations anormales (fourmillements, décharges électriques) dans les membres supérieurs ou inférieurs."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Dans ces cas, maintenir la tête dans la position où elle se trouve dans l’attente d’un renfort médical."
+        }
+      ]
+    },
+    {
+      "titre": "Évaluation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La tête de la victime reste en position neutre."
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "1 Diminue la fatigue et augmente la stabilité"
+  ]
+}

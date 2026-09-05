@@ -1,0 +1,64 @@
+{
+  "nom": "04PR02",
+  "titre": "Deuxième regard",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Bilans",
+  "chapitres": [
+    {
+      "titre": "Introduction",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Avancer vers la victime, la visualiser et apprécier :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "La victime dans sa globalité , ce qui permet de préciser son genre, son âge (personne âgée, adulte, enfant, nourrisson), sa position (allongée, assise, debout, recroquevillée sur elle-même, etc.)."
+            },
+            {
+              "niveau": 1,
+              "texte": "La conscience de la victime en lui demandant comment elle va, d’ouvrir les yeux ou de serrer les mains."
+            },
+            {
+              "niveau": 1,
+              "texte": "La présence de menaces vitales nécessitant une réaction immédiate en respectant le principe de « traiter en priorité ce qui tue en premier » (tableau 2). Tableau 3: Les menaces vitales et les actions à entreprendre M ENACE ( S ) VITALE ( S ) A RECHERCHER 1 A CTION ( S ) A ENTREPRENDRE"
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Hémorragie externe grave Arrêter l’hémorragie"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Assurer la liberté des voies aériennes pour permettre le passage de l’air. Obstruction des voies aériennes En présence d’un casque de protection, le retirer. ou Liberté des voies aériennes menacée Installer une victime qui a perdu connaissance sur le dos avant de rechercher sa ventilation Absence de réaction sans respiration Débuter une réanimation cardiopulmonaire ou respiration anormale"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "En parallèle des actions entreprises, toute détresse vitale constatée doit faire l’objet d’un avis médical ou d’une demande de renfort."
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "La plainte principale si la victime l’exprime spontanément ou par le biais de son observation qui peut mettre en évidence une attitude douloureuse, un essoufflement, une vigilance altérée ou des lésions traumatiques évidentes ou suspectées (traumatisme du rachis)."
+            },
+            {
+              "niveau": 1,
+              "texte": "Il convient alors d’installer la victime dans une position adaptée à son état, en la retournant si nécessaire, et d’assurer une stabilisation du rachis cervical à titre conservatoire devant une lésion traumatique évidente ou suspectée du rachis."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "1 Confère la section « Rechercher » dans les fiches « évaluation des fonctions vitales »."
+  ]
+}

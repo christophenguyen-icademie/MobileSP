@@ -1,0 +1,124 @@
+{
+  "nom": "01FT04",
+  "titre": "La respiration contrôlée",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Attitude et comportement",
+  "chapitres": [
+    {
+      "titre": "Indications et justifications",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La respiration contribue à l’équilibre physiologique et psychologique. La fonction respiratoire est la seule fonction qui soit à la fois volontaire et involontaire. Outre le fait que la respiration nous soit indispensable pour vivre, de par son possible contrôle volontaire, elle permet de réguler nos états internes via son action sur le système nerveux autonome : branche orthosympathique (l’accélérateur), branche parasympathique (le frein)."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Par l’effet conjugué d’une meilleure oxygénation sanguine et de réflexes neurovégétatifs, en contrôlant notre manière de respirer, nous pouvons agir sur notre niveau de vigilance. En prolongeant le temps d’expiration (3 temps d’expiration minimum pour 1 temps d’inspiration), cela favorise la détente ; et lorsque le temps d’inspiration est augmenté, suivi d’une expiration brève (3 temps sur l’inspiration pour 1 temps d’expiration), c’est un effet dynamisant qui est induit."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Lors d’une action de secours à personne, et donc en situation de stress, la respiration chez la victime est souvent perturbée : respiration rapide, superficielle, voire « souffle coupé ». L’objectif du contrôle respiratoire, dans ce contexte, sera donc d’induire une respiration relaxante pour se détendre et se calmer. Cette technique est également applicable par le secouriste, pour lui-même, dans la régulation de son niveau de stress."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Deux types de respiration peuvent être employés :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "la respiration complète qui consiste à mobiliser (successivement ou simultanément) les trois étages respiratoires : abdominal, thoracique et scapulaire (ventre, thorax, épaules) « Vous inspirez, le ventre se gonfle, le thorax se dilate et les épaules se soulèvent » « Vous expirez, les épaules s’abaissent, votre thorax se vide et votre ventre rentre »"
+            },
+            {
+              "niveau": 1,
+              "texte": "la respiration abdominale : il s’agit de gonfler le ventre pour inspirer et de le rentrer pour expirer, sans mobiliser le thorax ni les épaules. « Placez une main sur votre ventre » « Inspirer lentement et profondément par le nez en gonflant votre ventre » « Expirez profondément par la bouche en rentrant le ventre »"
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Pour se relaxer, de manière consciente et volontaire :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Il faudra donc insister sur l’expiration qui sera lente, ample et profonde afin d’activer le système parasympathique (relâchement musculaire, baisse de la tension artérielle, ralentissement des pulsations du cœur …) et bloquer les effets anxiogènes du système sympathique (décharge d’adrénaline, accélération du rythme cardiaque, hausse de la tension musculaire). Le temps d’expiration peut être 3, 4 ou 5 fois supérieur au temps d’inspiration."
+            },
+            {
+              "niveau": 1,
+              "texte": "Il faut être attentif à ce que les volumes inspiratoires et expiratoires soient identiques, car une expiration forcée entraîne une inspiration profonde (dynamisante et donc effet inverse de celui recherché) par un mécanisme réflexe. En cas de difficulté, demander à la personne de se concentrer uniquement sur l’expiration, l’inspiration se faisant ensuite automatiquement."
+            },
+            {
+              "niveau": 1,
+              "texte": "L’association d’images relatives à la détente permet d’accentuer l’effet relaxant (ex : une mer calme, une musique douce, se dire des mots « relax », « calme » …)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Réalisation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "En pratique : sur 3 à 5 minutes"
+        }
+      ]
+    },
+    {
+      "titre": "Respiration complète",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "« Inspirez avec les 3 étages, en 2 temps » « Expirez lentement et profondément, sur 6 temps » « Vous pouvez approfondir votre état de détente en laissant venir des images signifiant pour vous calme et détente » « Quand c’est le moment, vous laissez venir l’inspiration, puis vous recommencez cet exercice plusieurs fois en prenant conscience de votre calme et de votre détente de plus en plus profonds » « C’est très bien » « Puis, vous reprenez votre rythme respiratoire habituel »"
+        }
+      ]
+    },
+    {
+      "titre": "Respiration abdominale",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "« Placez une main sur votre ventre ». « Inspirer lentement et profondément par le nez en gonflant votre ventre, sur 3 temps » « Expirez profondément par la bouche en rentrant le ventre, sur 6 temps ». « Répétez l’exercice, en prenant des inspirations et des expirations amples et profondes. « Respirez en gonflant votre ventre comme un ballon et en essayant que votre poitrine bouge le moins possible… Inspirez calmement… Expirez tranquillement… » « Tout en gonflant puis en rentrant votre ventre, vous laisser venir à l’inspiration et à l’expiration des images de calme et de détente…, des objets…, couleurs…, musiques…, sensations, … pensées… » « Vous prenez conscience des sensations induites par cette respiration abdominale lente.\""
+        }
+      ]
+    },
+    {
+      "titre": "Respiration abdominale, autre exemple",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "« Après avoir inspiré 3 temps, retenez l’air dans vos poumons (maximum 3 temps) » « Expirez sans faire d’effort, un peu comme un ballon qui se dégonfle sur 6 temps ». « Continuez à faire cet exercice, à votre rythme. Le ventre se gonfle lentement et amplement puis vous le rentrez progressivement… La respiration suit le mouvement… C’est très bien… »"
+        }
+      ]
+    },
+    {
+      "titre": "Risques et contraintes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La pathologie de la victime peut contre-indiquer :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "la mise en œuvre d’une respiration contrôlée ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "une technique de respiration contrôlée (complète ou abdominale)."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

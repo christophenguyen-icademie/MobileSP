@@ -1,0 +1,79 @@
+{
+  "nom": "07AC03",
+  "titre": "Amputation ou arrachement complet d’une partie du corps",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Traumatismes",
+  "chapitres": [
+    {
+      "titre": "Définition",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "On parle d’amputation ou arrachement :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "complet lorsqu’une partie externe du corps (doigt, main, bras, etc.) ou des tissus mous (joue, nez, oreille, organes génitaux, etc.) est entièrement séparée du corps, sans aucune liaison résiduelle telle que muscles, tendons ou peau."
+            },
+            {
+              "niveau": 1,
+              "texte": "partiel lorsque des connexions résiduelles (muscles, vaisseaux sanguins, peau) sont conservées, ce qui augmentent les possibilités de réparation chirurgicale et de récupération fonctionnelle."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Causes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Les amputations ou arrachement d’une partie du corps touchent surtout les jeunes enfants et les adultes. Ils sont toujours d’origine traumatique et surviennent, le plus souvent, après un accident domestique ou un accident du travail."
+        }
+      ]
+    },
+    {
+      "titre": "Risques & Conséquences",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Les amputations ou arrachements complets de parties externes du corps sont des événements traumatiques pouvant entraîner des séquelles physiques et psychologiques majeures. Le premier risque d’une amputation ou d’un arrachement d’une partie du corps est l’hémorragie externe dont la survenue peut être retardée de plusieurs minutes. Les conséquences sont les mêmes que pour toute hémorragie externe et son contrôle reste la priorité des premiers secours. Il est parfois possible de « réimplanter » chirurgicalement une partie de corps amputée ou arrachée. Cette réimplantation dépend étroitement de la qualité de la prise en charge initiale de la partie sectionnée. Le temps d’ischémie 1 constitue un facteur décisif pour la réussite de la réimplantation et une conservation correcte par refroidissement en augmente significativement les chances."
+        }
+      ]
+    },
+    {
+      "titre": "Principe de l’action de secours",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "arrêter le saignement ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "lutter contre la détresse circulatoire ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "retrouver et préserver la partie du corps amputée ou arrachée ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "transporter avec la victime, la partie du corps amputée ou arrachée."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "1 Arrêt ou insuffisance de la circulation du sang dans un tissu, un membre ou un organe."
+  ]
+}

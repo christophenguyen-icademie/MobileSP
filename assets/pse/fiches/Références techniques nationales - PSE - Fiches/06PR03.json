@@ -1,0 +1,80 @@
+{
+  "nom": "06PR03",
+  "titre": "Accident vasculaire cérébral",
+  "niveaux": [
+    "PSE 2"
+  ],
+  "chapitre_principal": "Malaises et affections spécifiques",
+  "chapitres": [
+    {
+      "titre": "Face à une urgence ou une détresse vitale, ou en cas d’aggravation",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "appliquer la conduite à tenir adaptée et réaliser en priorité les gestes d’urgence qui s’imposent ;"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "La victime est consciente et présente des signes d’AVC ou d’AIT",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "appliquer la conduite à tenir devant une victime qui présente un malaise ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "adapter le conduite à tenir avec :"
+            },
+            {
+              "niveau": 2,
+              "texte": "installer la victime : § en position strictement horizontale à plat ; § ou en position latérale de sécurité 1 si elle présente des nausées et des vomissements ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "lors du 4 ème regard : § réaliser une mesure de la glycémie capillaire ; § rechercher les éléments spécifiques de l'AVC, les signes, les facteurs de risque et antécédents particuliers ou nécessaires à la prise en charge."
+            },
+            {
+              "niveau": 2,
+              "texte": "transmettre le bilan pour obtenir un avis médical 2 et respecter les consignes ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "poursuivre le bilan et surveiller attentivement : § l’évolution des signes d’AVC, § la conscience, § la respiration."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Transport",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "maintenir la victime dans la position initiale pendant son transport."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Les victimes d’AVC sont idéalement acheminées vers un centre spécialisé « Unité de soins intensifs neurologiques » ou « unité neuro-vasculaire ». La prise en charge précoce des victimes d’AVC permet d’obtenir des bénéfices réels par rapport à une prise en charge conventionnelle avec un risque de mortalité et de séquelles réduit."
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "1 Près des 2/3 des victimes qui présentent un AVC présentent des troubles de la déglutition associés.",
+    "2 Le médecin régulateur peut vous demander de rechercher d'autres signes spécifiques ou vous mettre en relation avec un neurologue pour récolter les éléments nécessaires à une hospitalisation en unité neuro-vasculaire."
+  ]
+}

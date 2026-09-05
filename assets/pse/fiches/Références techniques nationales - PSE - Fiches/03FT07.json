@@ -1,0 +1,482 @@
+{
+  "nom": "03FT07",
+  "titre": "Nettoyage et désinfection d’un véhicule ou d’un local",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Hygiène et asepsie",
+  "chapitres": [
+    {
+      "titre": "Indication",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Cette procédure est applicable pour les véhicules sanitaires ou les locaux utilisés comme poste de secours. Les opérations de nettoyage – désinfection doivent être réalisées :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "selon un protocole simplifié entre chaque victime prise en charge ou à l’issue de chaque transport ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "selon un protocole quotidien avant la prise de service d’une nouvelle équipe ou avant le début d’une mission de longueur durée ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "selon un protocole de désinfection approfondie à l’issue du transport d’une victime à risque infectieux particulier connu (après conseil de l’autorité médicale ou de l’autorité d’emploi) ou de manière périodique à une fréquence recommandée par l’autorité d’emploi."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Justification",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Les victimes véhiculées et les intervenants courent le risque, dans un véhicule ou un local non ou mal entretenu, de contracter des micro-organismes pathogènes résistants dans l’environnement extérieur. L’entretien doit permettre d’assurer :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "la propreté visuelle ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "la propreté microbiologique."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Matériel",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Afin de réaliser le nettoyage et la désinfection d’un véhicule ou d’un local, il convient d’avoir :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "un point d’eau propre ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "des gants non stériles à usage unique à manchette longue ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "du savon liquide et/ou un système de distribution de gel pour l’antisepsie des mains ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "le nécessaire pour procéder au débarras et au lavage préalable du volume. À savoir :"
+            },
+            {
+              "niveau": 2,
+              "texte": "deux seaux de couleurs différentes (par exemple rouge et bleu) et d’une contenance d’environ dix litres,"
+            },
+            {
+              "niveau": 2,
+              "texte": "un balai brosse ou équivalent (balai faubert à support plat pour frange ou balai avec pince plastique pour frange) propre,"
+            },
+            {
+              "niveau": 2,
+              "texte": "une frange adaptée, lavée en machine et éventuellement un système de presse pour frange,"
+            },
+            {
+              "niveau": 2,
+              "texte": "un aspirateur réservé au nettoyage des véhicules sanitaires,"
+            },
+            {
+              "niveau": 2,
+              "texte": "un sac jaune pour déchets d’activités de soins à risques infectieux,"
+            },
+            {
+              "niveau": 2,
+              "texte": "un sac d’une autre couleur pour les déchets assimilés aux ordures ménagères,"
+            },
+            {
+              "niveau": 2,
+              "texte": "des essuie-tout."
+            },
+            {
+              "niveau": 1,
+              "texte": "l’équipement avec le nécessaire pour utiliser le détergent-désinfectant. À savoir :"
+            },
+            {
+              "niveau": 2,
+              "texte": "des lavettes à usage unique ou lingettes préimprégnées de détergent-désinfectant satisfaisant aux normes antimicrobiennes, Les supports en non-tissé à usage unique sont préférés par commodité."
+            },
+            {
+              "niveau": 2,
+              "texte": "une solution détergente désinfectante pour sols, surfaces, mobilier, dispositifs médicaux."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "En règle générale ces solutions sont présentées :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 2,
+              "texte": "soit en bidon (en général cinq litres),"
+            },
+            {
+              "niveau": 2,
+              "texte": "soit en flacon (en général un litre),"
+            },
+            {
+              "niveau": 2,
+              "texte": "soit en dose individuelle (en général autour de vingt millilitres)."
+            },
+            {
+              "niveau": 1,
+              "texte": "un pulvérisateur ou spray de détergent-désinfectant pour surfaces, matériels et dispositifs médicaux, en flacon avec un pistolet (produit prêt à l’emploi),"
+            },
+            {
+              "niveau": 1,
+              "texte": "une brosse de nettoyage qui a été elle-même désinfectée."
+            },
+            {
+              "niveau": 1,
+              "texte": "le cahier de traçabilité des opérations réalisées."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Les serpillères et les éponges sont interdites, car elles constituent des réservoirs de micro-organismes potentiellement pathogènes. Si les textiles de nettoyage sont réutilisés, les laver en machine à haute température (> 60 °C) avec javellisation au dernier rinçage."
+        }
+      ]
+    },
+    {
+      "titre": "Réalisation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le protocole simplifié d’entretien entre deux victimes peut se réaliser n’importe où, car il ne nécessite aucun point d’eau. Le matériel d’entretien pour ce protocole peut être stocké dans le véhicule."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Le protocole quotidien et le protocole approfondi doivent autant que possible être réalisés dans un endroit réservé et adapté comportant au minimum un point d’eau du réseau, muni d’un système d’évacuation des eaux usées ainsi que le matériel spécifique d’entretien et des plans de travail sans joints."
+        }
+      ]
+    },
+    {
+      "titre": "Règles générales",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Quel que soit le protocole utilisé, il faut, avant sa mise en œuvre :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "bien aérer le véhicule ou le local en ouvrant les portes ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "s’être lavé les mains ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "s’être protégé au moyen :"
+            },
+            {
+              "niveau": 2,
+              "texte": "de gants à usage unique, non stériles,"
+            },
+            {
+              "niveau": 2,
+              "texte": "d’une paire de lunettes de protection."
+            },
+            {
+              "niveau": 1,
+              "texte": "avoir dépoussiéré et nettoyé le sol ainsi que l’intérieur du véhicule ou du local."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "À la fin du protocole, il faut :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "placer les matériels à usage unique usagés dans les emballages prévus pour la collecte des DASRI ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "retirer les gants et les jeter dans le sac jaune à déchets mous prévu pour les DASRI ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "se laver les mains ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "noter ce qui a été fait sur le cahier de traçabilité."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Protocole simplifié",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "pulvériser une solution détergente désinfectante sur le matériel qui a été en contact avec la victime ou qui a été exposé à des liquides biologiques (brancard, matelas immobilisateur à dépression, plans de travail, poignées de portes…) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "étaler la solution pulvérisée sur ce matériel à l’aide d’une lavette à usage unique, propre et sèche ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "laisser sécher et ne pas rincer ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "jeter la lavette dans le sac à déchets mous prévu pour les DASRI."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Protocole périodique",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "nettoyer et désinfecter la cellule sanitaire. Pour cela :"
+            },
+            {
+              "niveau": 2,
+              "texte": "ôter le matériel encombrant les surfaces ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "procéder au nettoyage et à la désinfection de toutes les surfaces sauf le sol à l’aide d’une lingette à usage unique selon la « technique des 2 seaux » ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "laisser sécher sans rincer ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "réintégrer le matériel préalablement nettoyé et désinfecté dans la cellule ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "nettoyer et désinfecter le sol en utilisant la même technique et un balai à franges ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "laisser sécher le sol avant de pénétrer dans la cellule sanitaire."
+            },
+            {
+              "niveau": 1,
+              "texte": "nettoyer et désinfecter la cabine de conduite. Pour cela :"
+            },
+            {
+              "niveau": 2,
+              "texte": "nettoyer à l’aide d’un pulvérisateur de solution détergente désinfectante le tableau de bord, le volant, le levier de vitesse, les manettes, le frein à main, les portes intérieures et particulièrement les poignées, les appareils de communication (radios, téléphones mobiles) ; Ne pas effectuer de pulvérisation directe sur les matériels sensibles aux projections humides."
+            },
+            {
+              "niveau": 2,
+              "texte": "étaler la solution pulvérisée sur ce matériel à l’aide d’une lavette en non-tissé à usage unique, propre et sèche, laisser sécher et ne pas rincer ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "procéder au lavage du sol de l’intérieur vers l’extérieur, comme décrit précédemment pour la cellule sanitaire."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Protocole approfondi",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "nettoyer et désinfecter la cellule sanitaire. Pour cela :"
+            },
+            {
+              "niveau": 2,
+              "texte": "sortir de la cellule sanitaire l’ensemble du matériel et le stocker à l’intérieur ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "déposer ces matériels sur un plan de travail réservé pour accueillir le matériel non désinfecté ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "réaliser les points 2 à 6 du protocole périodique relatif à la cellule sanitaire ; Il convient de procéder en commençant par le plafond et en descendant progressivement sur les parois. Ne pas oublier les tiroirs et l’intérieur des placards. Bien insister sur le support de brancard. Terminer par le sol."
+            },
+            {
+              "niveau": 2,
+              "texte": "nettoyer et désinfecter le matériel qui a été préalablement stocké hors de la cellule sanitaire ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "réintégrer l’ensemble du matériel nettoyé et désinfecté à l’intérieur en ayant vérifié son état de fonctionnement ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "nettoyer et désinfecter la cabine de conduite comme indiqué au protocole périodique."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Technique des deux seaux",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Tableau 1: Technique des deux seaux"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Préparer dans un seau une solution de détergent-désinfectant en respectant la Seau de lavage ou rouge dilution prescrite par le fournisseur"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Seau de rinçage ou bleu Remplir un seau d’une autre couleur avec de l’eau propre du réseau"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Seau de lavage ou rouge Tremper la frange et la fixer à l’extrémité du balai"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Nettoyer le sol de la cellule sanitaire en commençant par le fond et en terminant vers l’extérieur, en déplaçant la frange en faisant des « S »"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Seau de rinçage ou bleu Essorer la frange, autant de fois que cela est nécessaire"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Seau de lavage ou rouge Tremper la frange"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Seau de rinçage ou bleu Dès que l’eau devient suffisamment trouble, le vider et le remplir d’eau claire"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Renouveler les étapes des points 4 à 7 autant que nécessaire"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Vider les deux seaux, les rincer, essorer et rincer la frange, au besoin la laver en machine à laver, séparément de tout linge, et laisser sécher le tout"
+        }
+      ]
+    },
+    {
+      "titre": "Risques & Contraintes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Les désinfectants peuvent être irritants pour la peau et les muqueuses (yeux). Il est donc nécessaire de porter des gants appropriés (gants à usage unique pour un usage court, à manchettes longues, sans immersion dans la solution, sinon porter des gants de ménage), des lunettes de protection, une blouse de protection, un masque de protection respiratoire éventuellement. En cas de contact avec les yeux, laver abondamment sous l’eau et consulter un médecin. En cas d’ingestion, il est impératif de consulter immédiatement un médecin et de lui montrer l’emballage ou l’étiquette du produit. Ne pas mélanger les différents produits entre eux. Pour les solutions en pulvérisateur, ne pas respirer l’aérosol issu de la pulvérisation. Ne jamais pulvériser sur du matériel électrique (DAE, aspirateur de mucosités)."
+        }
+      ]
+    },
+    {
+      "titre": "Évaluation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Les procédures de nettoyage-désinfection sont :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "écrites dans un document à la disposition de toutes les personnes susceptibles de réaliser ce type d’action ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "mises à jour régulièrement."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Ces procédures doivent donc être respectées et des fiches de suivi ou d’enregistrement de l’entretien des véhicules ou des locaux doivent être créées et renseignées convenablement chaque fois qu’une action de nettoyage-désinfection est menée. Sur ces fiches figurent :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "le nom du local ou le type de véhicule et son immatriculation ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "le type de protocole réalisé ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "la date et l’heure de réalisation de celui-ci ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "le nom et la signature de la personne qui a réalisé l’opération."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Régulièrement, l’autorité d’emploi met à jour les procédures d’utilisation du matériel de nettoyage et du suivi, et vise les fiches de suivi d’entretien. Lors de la réalisation des opérations de désinfection-entretien, la personne :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "porte les équipements de protection adaptés ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "respecte les procédures de nettoyage et de désinfection adaptées à la situation ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "utilise correctement les détergents et les désinfectants employés."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

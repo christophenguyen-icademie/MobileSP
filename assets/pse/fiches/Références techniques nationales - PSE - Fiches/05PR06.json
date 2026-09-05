@@ -1,0 +1,118 @@
+{
+  "nom": "05PR06",
+  "titre": "Perte de connaissance en équipe",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Urgences vitales",
+  "chapitres": [
+    {
+      "titre": "Introduction",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Lorsque la victime a perdu connaissance et respire, lors d’une intervention en équipe, il convient pour cette dernière d’appliquer la conduite à tenir suivante :"
+        }
+      ]
+    },
+    {
+      "titre": "A la suite d’un évènement non traumatique",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "la placer en position stable sur le côté, en position latérale de sécurité (PLS 1 ) à un secouriste ;"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "A la suite d’un traumatisme ou d’un événement d’origine inconnue",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "dans l’attente d’un avis médical :"
+            },
+            {
+              "niveau": 2,
+              "texte": "laisser la victime sur le dos dans l’attente d’un avis médical ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "poursuivre la stabilisation de la tête de la victime à deux mains ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "assurer une liberté des voies aériennes permanente ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "poursuivre l’évaluation des fonctions vitales ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "demander un avis médical et appliquer leurs consignes ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "installer la victime en PLS à deux secouristes 2 seulement sur indication médicale ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "sinon la laisser sur le dos."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Dans tous les cas",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "si nécessaire :"
+            },
+            {
+              "niveau": 2,
+              "texte": "administrer de l’oxygène en inhalation ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "réaliser une aspiration 3 des sécrétions ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "protéger la victime contre le froid, la chaleur ou les intempéries."
+            },
+            {
+              "niveau": 1,
+              "texte": "poursuivre le bilan et surveiller attentivement :"
+            },
+            {
+              "niveau": 2,
+              "texte": "la conscience de la victime ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "la respiration."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "1 Le retournement sur le côté gauche de la femme enceinte, ou d’une victime obèse, permet d’éviter l’apparition d’une détresse par compression de certains vaisseaux sanguins de l’abdomen.",
+    "2 Une palpation sommaire à la recherche de lésions traumatiques permet de définir au préalable le côté de retournement lors de la PLS.",
+    "3 Si la victime présente des signes d’encombrement des voies aériennes supérieures, afin d’améliorer la respiration."
+  ]
+}

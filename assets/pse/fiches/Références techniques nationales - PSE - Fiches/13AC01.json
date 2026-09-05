@@ -1,0 +1,92 @@
+{
+  "nom": "13AC01",
+  "titre": "Obligations pour les formations",
+  "niveaux": [
+    "PSE 1",
+    "PSE 2"
+  ],
+  "chapitre_principal": "Formations",
+  "chapitres": [
+    {
+      "titre": "Conditions minimales d’accueil",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "A l’exception des mises en situation ou simulations qui peuvent se dérouler dans des conditions les plus proches de la réalité, la formation doit :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "être dispensée dans un lieu suffisamment spacieux pour permettre aux apprenants d’évoluer sans contrainte (min. 2 m² par personne) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "disposer de chaises en quantité suffisante ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "protéger des contraintes climatiques (abrité de la pluie et du vent, chauffé ou climatisé, etc.) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "disposer de toilettes et d’un point d’eau à proximité."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Pour les formations à destination des personnes en situation de handicap, le lieu de formation doit être conforme aux règles en vigueur relatives à l’accessibilité et à l’accueil des personnes en situation de handicap."
+        }
+      ]
+    },
+    {
+      "titre": "Liste des matériels obligatoires pour les formations initiales",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le matériel présent durant la formation initiale doit être adapté aux enseignements dispensés. Par exemple, il ne sert à rien d’avoir le matériel PSE2 sur une formation PSE1, le matériel des fiches optionnelles ne doit être présent que si lesdites fiches sont dispensées, etc."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Tout autre matériel utile à la formation peut être ajouté à la présente liste. Quantité / nombre d’apprenants Désignation 06 à 12 13 à 18 Références techniques nationales PSE 1 Référentiel interne de formation et de certification de l’organisme habilité et dispensateur 1 Feuille de présence 1 Fiches d’évaluation EQS Fiches de certification EQS Produits d’entretien et d’hygiène EQS Antiseptique cutanée EQS Appareil de communication mobile (téléphone, radio, etc.) 2 4 Aspirateur de mucosités (électrique ou mécanique) 1 2 Attelles à dépression membre inférieur (adulte / enfant) 1 2 Attelles à dépression membre supérieur (adulte / enfant) 1 2 Attelles modulables membre inférieur (adulte / enfant) 1 2 Attelles modulables membre supérieur (adulte / enfant) 1 2 Autopiqueurs pour lecteur de glycémie EQS Bac d’immersion u matériel 1 2 Balai brosse 1 2 Balai à franges 1 2 Bande élastique adhésive ou auto-agrippante EQS Bande extensible de différentes tailles EQS"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Bandelettes réactives adaptées au lecteur de glycémie EQS Bouteille O 2 médicale normalisée avec dispositif de détente de gaz (factice ou neutralisée) 1 2 Brancard normalisé 1 2 Brosse de nettoyage 1 2 Cahier de traçabilité (nettoyage) 1 2 Canules oropharyngées de différentes tailles 1 2 Casque de motocycliste (intégral) 1 2 Chaise de transport 1 2 Chambre de mélange (ou d’inhalation) pour spray buccal 1 2 Champs stériles EQS Charlotte ou cagoule EQS Collecteur rigide pour OPTC 1 2 Collier cervical (réglables ou différentes tailles) 1 2 compresses EQS Compresses chimiques de froid 2 4 Compresses stériles EQS Conteneur de recueil DASRI 1 1 Maquette de coupe de tête 1 1 Coussin de tête 1 2 Couverture bactériostatique 1 2 Couverture de survie 5 10 Couvre sonde (pour thermomètre) à usage unique EQS DAE de formation*, avec électrodes adultes et enfant (ou dispositif d’adaptation) et ses 1 2 accessoires. Dispositif auto injectable de formation 1 2 Dispositif de repérage secouriste (situation nombreuses victimes) EQS Distributeur d’essuie-mains à usage unique 1 2 Écharpes triangulaires 2 4 Échelle visuelle analogique 1 2 Fiches bilan ou dispositif électronique équivalent EQS Filets de mailles tubulaires de différentes tailles EQS Film étirable alimentaire en rouleau 1 2 Gants à usage unique de différentes tailles EQS Gants de manutention (paire) 3 6 Gants stériles de différentes tailles EQS Garrots 2 4 Gilets de signalisation avec bandes rétro réfléchissantes 3 6 Insufflateur manuel avec ballon réserve (adulte) 1 2 Insufflateur manuel avec ballon réserve (pédiatrique) 1 2 Insufflateur manuel avec ballon réserve (nouveau-né) 1 2 Lampe de poche ou frontale 1 2 Lavettes à usage unique ou lingettes pré-imprégnées de détergent-désinfectant EQS Lecteur de glycémie* 1 2 Lot « pour membre arraché ou sectionné » 1 2"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Lunettes à oxygène 1 2 Lunettes ou visière de protection 3 6 Mannequin de réanimation cardio-pulmonaire adulte (corps entier : bras et jambes) 1 2 Mannequin de réanimation cardio-pulmonaire enfant (corps entier : bras et jambes) 1 2 Mannequin de réanimation cardio-pulmonaire nourrisson 1 2 Masque à inhalation à haute concentration (adulte) EQS Masque à inhalation à haute concentration (enfant) EQS Masque à inhalation simple (adulte) EQS Masque à inhalation simple (enfant) EQS Masque d’insufflation adulte 1 2 Masque d’insufflation pédiatrique 1 2 Masque d’insufflation nouveau-né 1 2 Masques de protection FFP2 EQS Masques chirurgicaux EQS Matériels nécessaires pour les garrots improvisés 1 2 Matériels nécessaires pour les pansements compressifs improvisés 1 2 Matériels de simulation (factices ou neutralisés), maquillages, fausses plaies, etc. 1 2 Oxymètre de pouls* 1 2 Paire de ciseaux type Jesco 1 2 Pansements « américain » EQS Pansements adhésifs de différentes tailles EQS Pansements imbibés de substance hémostatique de formation 2 4 Pansements individuels 2 4 Pansements stériles pour brulure type SSA EQS Pansement type C EQS Pince à échardes 1 2 Pompe à dépression 1 2 Poubelles DAOM 1 2 Ruban adhésif 1 2 Ruban de balisage 1 2 Sacs poubelles DAOM EQS Sacs DASRI EQS Sac de secours 1 2 Sachet plastique refermable 1 2 Sangles de fixation 3 6 Savon neutre liquide EQS Seaux de couleurs différentes 2 4 Sérum physiologique EQS Solution détergente / désinfectante pour sol EQS Solution détergente / désinfectante en spray pour surfaces EQS Solution hydro-alcoolique EQS Sondes d’aspiration buccale de différentes tailles EQS Stéthoscope adulte 1 2"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Surblouse EQS Tensiomètre électronique 1 2 Tensiomètre manuel 1 2 Thermomètre électronique 1 2 Draps à usage unique EQS Alèse portoir 1 2 Attelle cervico-thoracique 1 2 Bassin d’accouchement 1 2 Bonnet pour nouveau-né 1 2 Brancard cuillère 1 2 Brancard simple 1 2 Ceinture pelvienne de taille moyenne 1 2 Dispositifs médicaux non occlusifs pour plaie au thorax 1 2 Immobilisateur de tête pour plan dur et brancard cuillère 1 2 Kit accouchement comprenant au moins 2 clamps et une paire de ciseaux stérile 1 2 Matelas immobilisateur à dépression 1 2 Plan dur radio transparent 1 2"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "EQS : en quantité suffisante pour l’ensemble des apprenants, pour la durée de la formation, en fonction des techniques pédagogiques imposées par l’organisme habilité."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "* Ces matériels doivent être opérants et disposer de leurs moyens d’alimentation (câble, batteries, chargeur, etc.)"
+        }
+      ]
+    },
+    {
+      "titre": "Liste des matériels obligatoires pour les formations continues",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le matériel présent durant la formation continue doit être adapté au programme annuel de la DGSCGC, ainsi qu’aux compléments décidés par l’autorité d’emploi, et aux mises en situation réalisées permettant de revalider les compétences visées réglementairement."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "b"
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

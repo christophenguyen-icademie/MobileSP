@@ -1,0 +1,112 @@
+{
+  "nom": "08FT02",
+  "titre": "Massage utérin",
+  "niveaux": [
+    "PSE 2"
+  ],
+  "chapitre_principal": "Atteintes circonstancielles et environnementales",
+  "chapitres": [
+    {
+      "titre": "Indication",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Un message utérin est indiqué pour prévenir ou réduire les hémorragies extériorisées immédiate post- partum."
+        }
+      ]
+    },
+    {
+      "titre": "Justification",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L'hémorragie post-partum immédiate est une cause majeure de mortalité et de complications chez les mères, surtout dans les territoires où les ressources de santé sont limitées. Ce type de saignement est le plus souvent dû à un manque de tonicité du muscle utérin, qui normalement se contracte pour fermer les vaisseaux de la paroi utérine après détachement du placenta, arrêtant ainsi le saignement. Une atonie utérine (manque de tonicité) peut-être causée par un épuisement musculaire ou la présence de résidus dans l'utérus."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Pour prévenir ou réduire ces saignements, un massage externe du fond de l’utérus à travers l’abdomen est recommandé. Ce massage aide à stimuler les contractions de l'utérus, ce qui peut arrêter ou réduire le saignement ou limiter le risque qu’il se produise."
+        }
+      ]
+    },
+    {
+      "titre": "Matériel",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "gants à usage unique."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Réalisation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Expliquer le geste à la mère puis procéder de la façon suivante :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "placer la tranche d’une main au niveau de l’ombilic 1 de la mère, paume dirigée vers ses pieds ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "exercer une pression douce de 5 à 8 cm vers l’arrière et vers le bas de la mère pour percevoir 2 le fond de l’utérus avec la surface de la paume de la main ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "effectuer un massage doux en exerçant une légère pression et des mouvements rotatifs circulaires comme pour créer une boule. L’utérus est alors perçu car il devient de plus en plus dur 3 ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "réaliser ce massage :"
+            },
+            {
+              "niveau": 2,
+              "texte": "pendant 1 minute : toutes les 10 minutes en l’absence d’hémorragie ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "en continu en cas d’hémorragie."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Le massage utérin peut être effectué tout en laissant le nouveau-né en contact peau-à-peau avec sa mère. Si la mère est d'accord, on peut aussi lui proposer de mettre le bébé au sein. La succion du bébé stimule la libération de substances chimiques dans le corps de la mère, ce qui peut aider l'utérus à se contracter plus facilement."
+        }
+      ]
+    },
+    {
+      "titre": "Risques & Contraintes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le massage utérin est un geste très douloureux, et il est essentiel d’en informer la parturiente avant de le pratiquer. Si elle refuse que ce geste soit réalisé par le secouriste 1 , lui proposer de l’effectuer elle-même. Dans ce cas, lui expliquer clairement la technique : exercer un mouvement circulaire ferme avec le talon de la main, situé sous le nombril, au niveau du fond utérin."
+        }
+      ]
+    },
+    {
+      "titre": "Évaluation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le massage utérin après la naissance est efficace si le saignement : s'arrête, diminue, ou ne se produit pas."
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "1 Nombril.",
+    "2 L’utérus est perçu sous la forme d’une zone ronde et dure de la taille d’un pamplemousse. Parfois, l’utérus n’est pas perçu car complètement relâché (atone). Le massage le fera durcir au fur et à mesure.",
+    "3 Comme un ballon de basket.",
+    "1 En cas d’hémorragie il est préférable que le massage soit réalisé par le secouriste car il est beaucoup plus efficace."
+  ]
+}

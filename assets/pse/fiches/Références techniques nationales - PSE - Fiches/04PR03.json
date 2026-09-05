@@ -1,0 +1,26 @@
+{
+  "nom": "04PR03",
+  "titre": "Troisième regard",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Bilans",
+  "chapitres": [
+    {
+      "titre": "Introduction",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le secouriste, au contact de la victime, se focalise ensuite sur l’évaluation des 3 fonctions vitales. Il les évalue successivement et selon le principe de « traiter en priorité ce qui tue en premier ». Cette évaluation se fait en appréciant 1 la fonction concernée grâce aux dires de la victime et aux constatations du secouriste. Dès qu’une détresse est identifiée, les gestes de premiers secours appropriés doivent être réalisés immédiatement (même si l’examen de la fonction n’est pas terminé) et un avis médical demandé. Cette appréciation doit ensuite être complétée par la mesure de l’ensemble des paramètres physiologiques vitaux s’ils ne ralentissent pas la progression."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "La stabilisation du rachis cervical à titre conservatoire si le contexte est traumatique sera maintenue tant qu’une décision d’immobilisation du rachis cervical par un autre moyen n’est pas confirmée. Tout au long de cette étape, le secouriste sera à l’écoute des informations ou de l’aide proposée par l’entourage ou les témoins afin de gagner du temps dans la compréhension de la situation."
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "1 Confère la section « Apprécier » dans les fiches « évaluation des fonctions vitales »."
+  ]
+}

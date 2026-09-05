@@ -1,0 +1,260 @@
+{
+  "nom": "05AC01",
+  "titre": "La bouteille d’oxygène",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Urgences vitales",
+  "chapitres": [
+    {
+      "titre": "Indication",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’oxygène en bouteille est un médicament pouvant, sous certaines conditions, être administré à une victime :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "en inhalation pour enrichir l’air en oxygène ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "en insufflation ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "pour faire fonctionner un respirateur médical ou tout autre dispositif médical."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Justification",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’oxygène, dans les conditions normales de pression et de température, est un gaz ; il est donc compressible. Cette propriété permet de le comprimer afin de le stocker et de le transporter, au moyen de récipients spéciaux (les bouteilles), sous un faible encombrement. Pour être administré à une victime, l’oxygène comprimé doit être détendu et ramené à la pression atmosphérique ambiante à l’aide d’un dispositif fixé sur la bouteille, appelé détendeur. Le débit d’oxygène (exprimé en litre par minute ou l/min) administré à la victime est réglé à l’aide d’un appareil, appelé débitmètre."
+        }
+      ]
+    },
+    {
+      "titre": "La bouteille d’oxygène",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Les bouteilles peuvent être de différents volumes : 2, 5, 11 et 15 litres et contiennent respectivement, lorsqu’elles sont pleines, sous une pression de 200 bar, et après détente à pression atmosphérique, environ 0.4, 1, 2.2 et 3 m 3 d’oxygène. En France, les bouteilles sont blanches, en aluminium recouvert de matière composite, légères, équipées d’une poignée de transport, d’un chapeau inamovible dans lequel est logé un détenteur-débitmètre intégré. Plusieurs informations sont gravées sur la bouteille, en particulier, la date de la dernière vérification, la pression maximale d’utilisation et son volume en eau."
+        }
+      ]
+    },
+    {
+      "titre": "Le détendeur-débitmètre intégré",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le détenteur-débitmètre intégré est composé :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "d’un manomètre haute pression, avec des plages colorées, qui indique la pression régnant à l’intérieur de la bouteille ou d’un affichage sur écran LCD de l’autonomie en temps de la bouteille en fonction du débit choisi (la pression résiduelle n’apparaît que sous forme d’une jauge graduée par ¼ avec alarmes sonores) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "d’une sécurité active, sous forme d’un volet, empêchant tout branchement intempestif sur la bouteille lorsque celle-ci est en position fermée ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "d’un raccord de sortie (olive), qui permet de brancher un tuyau afin d’alimenter un masque à inhalation ou un ballon-réserve en oxygène d’un insufflateur ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "d’une prise normalisée à trois crans afin d’alimenter un respirateur ou un réseau de distribution d’oxygène interne au véhicule de secours ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "d’un robinet d’ouverture de la bouteille ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "d’un robinet permettant de régler le débit d’utilisation par palier, sur une plage de 0 à 15 l/min ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "d’une soupape de sécurité tarée à 200 bars ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "d’un raccord de remplissage spécifique, pour le conditionnement chez le fournisseur."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Étiquettes et accessoires",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La bouteille d’oxygène est fournie avec :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "une étiquette identifiant le nom du laboratoire fournisseur ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "une notice « produit » ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "une étiquette indiquant le numéro du lot d’oxygène et sa date limite d’utilisation ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "un panneau étiquette « danger », collé sur la bouteille, rappelant les risques liés à son utilisation et les principales mesures à respecter."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "L’autonomie",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’autonomie de la bouteille dépend de :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "la quantité d’oxygène disponible, déterminée par la pression qui règne à l’intérieur de la bouteille et par le volume en eau de la bouteille ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "la consommation en oxygène, c’est-à-dire du débit administré à la victime."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "La quantité d’oxygène (exprimée en litre) est le produit de la pression (exprimée en bar) par le volume en eau de la bouteille (exprimé en litre)."
+        }
+      ]
+    },
+    {
+      "titre": "Consignes de conservation, de stockage et de transport",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Les bouteilles pleines et les bouteilles vides doivent être conservées séparément. Les bouteilles conservées ou transportées doivent être solidement arrimées et installées dans un emplacement permettant de les protéger des chutes et des chocs. Les bouteilles doivent être :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "protégées des intempéries, des sources de chaleur (température supérieure ou égale à 50 °C) et conservées dans un local aéré ou ventilé, propre et sans matières inflammables ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "maintenues en position verticale, robinet fermé ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "déplacées sans être traînées ou roulées sur le sol."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Les bouteilles ne doivent pas être"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "soulevées par leur robinet ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "graissées ou lubrifiées ni enduites de corps gras."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Il ne faut jamais utiliser de flacons pressurisés (laque, désodorisant…), de solvant (alcool, essence…) ou de produits corrosifs pour nettoyer les bouteilles."
+        }
+      ]
+    },
+    {
+      "titre": "Consignes de manipulation et d’utilisation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le bon état du matériel, la présence d’oxygène dans la bouteille, la date limite d’utilisation ainsi que l’intégrité des étiquetages doivent être vérifiés lors de la prise de fonction. Toute manipulation doit se faire avec des mains propres, exemptes de graisse. Les tuyaux de raccordement utilisés doivent être spécifiques à l’oxygène. Le visage de la victime, comme le dispositif d’administration (masque), ne doivent pas être enduits de corps gras."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "La bouteille ne doit pas être ouverte :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "lorsqu’elle est en position couchée ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "à proximité de matières inflammables, pour éviter le risque de propagation d’incendie."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "L’ouverture de la bouteille doit être réalisée lentement. Il ne faut jamais procéder à plusieurs mises en pression successives et rapprochées. Le débitmètre ne doit jamais être ouvert avant le robinet (il doit être réglé à 0 l/min au préalable). La sortie du robinet de la bouteille ne doit jamais se trouver dirigée face à l’intervenant ou la victime. Ils doivent toujours être du côté opposé au détendeur, derrière la bouteille et en retrait."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Une bouteille présentant un défaut d’étanchéité ne doit jamais être utilisée. En cas de fuite, fermer le robinet. Une flamme, une source de chaleur supérieure à 50 °C ou un appareil générant des étincelles ne doivent jamais être approchés. Il faut immédiatement, autant que possible, refermer le robinet de la bouteille en cas de phénomène anormal (étincelles, crépitements)."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Toute bouteille ayant chuté ou présentant une anomalie (chapeau mal fixé) ou une défaillance (robinet bloqué, manomètre défectueux…) ne doit plus être utilisée. Elle doit, quelle que soit sa pression résiduelle, être rapportée au responsable chargé de l’oxygène."
+        }
+      ]
+    },
+    {
+      "titre": "Risques & Contraintes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’oxygène est un comburant qui entretient et active la combustion. Il peut également entraîner l’inflammation des corps gras, des poussières ou de tous objets inflammables installés à proximité."
+        }
+      ]
+    },
+    {
+      "titre": "Évaluation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "En cas de doute, vérifier que l’oxygène est bien délivré à la sortie du tuyau venant de la bouteille en écoutant le bruit généré par la sortie du gaz. Pour cela, pincer l’extrémité du tuyau une à deux secondes puis le relâcher. On perçoit ainsi le bruit sec lié à la sortie brutale de l’oxygène comprimé dans le tuyau pendant le temps où ce dernier est resté pincé."
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

@@ -1,0 +1,126 @@
+{
+  "nom": "06PR01",
+  "titre": "Malaise et aggravation de maladie",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Malaises et affections spécifiques",
+  "chapitres": [
+    {
+      "titre": "Face à une urgence ou une détresse vitale, ou en cas d’aggravation",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "appliquer la conduite à tenir adaptée et réaliser en priorité les gestes d’urgence qui s’imposent ;"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Si la victime est consciente",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "soustraire la victime aux facteurs 1 qui pourraient avoir déclenché la crise ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "installer la victime en position d'attente, confortablement 2 et sans délai :"
+            },
+            {
+              "niveau": 2,
+              "texte": "allongée ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "assise en cas de difficultés à respirer ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "sinon, dans la position où elle se sent le mieux."
+            },
+            {
+              "niveau": 1,
+              "texte": "poursuivre le bilan ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "aider la victime :"
+            },
+            {
+              "niveau": 2,
+              "texte": "à dégrafer ses vêtements, en cas de gêne ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "à sa demande ou à la demande des secours, à prendre : § son traitement prescrit ; § du sucre en morceaux."
+            },
+            {
+              "niveau": 1,
+              "texte": "rassurer la victime, lui demander de rester calme ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "transmettre les informations recueillies pour avoir un avis médical et appliquer les consignes ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "protéger de la chaleur, du froid ou des intempéries ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "poursuivre le bilan et surveiller attentivement :"
+            },
+            {
+              "niveau": 2,
+              "texte": "l’évolution des signes ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "l’aggravation vers une détresse vitale."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Devant des signes de maladie infectieuse 3 , appliquer les mesures barrières 4 , de distance physique et d'isolement ;"
+        }
+      ]
+    },
+    {
+      "titre": "Cas particulier, devant un malaise vagal ou orthostatique",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "appliquer la conduite à tenir devant une victime qui présente un malaise ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "adapter la conduite à tenir avec :"
+            },
+            {
+              "niveau": 2,
+              "texte": "inviter la victime à réaliser des manœuvres physiques si la victime : § déclare faire régulièrement des malaises « vagaux » ; § et présente des signes tels que : étourdissement, nausées, sueurs, sensation de chaleur, points noirs devant les yeux ou sentiment de perte de conscience imminente."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "1 Exemple : foule, bruit, etc.",
+    "2 Par exemple sur un brancard, un lit, une chaise, ou un canapé, ou à défaut sur le sol.",
+    "3 Et plus particulièrement en période épidémique.",
+    "4 Exemple : demander à la victime de porter un masque, toutefois, lui proposer de le retirer si cela gêne sa respiration."
+  ]
+}

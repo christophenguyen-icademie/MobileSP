@@ -1,0 +1,237 @@
+{
+  "nom": "07FT01",
+  "titre": "Pansement",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Traumatismes",
+  "chapitres": [
+    {
+      "titre": "Indication",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Cette technique est indiquée pour protéger une plaie, après son nettoyage et éventuellement sa désinfection."
+        }
+      ]
+    },
+    {
+      "titre": "Justification",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "En protégeant la plaie des souillures, le pansement limite le risque d’infection secondaire."
+        }
+      ]
+    },
+    {
+      "titre": "Matériel",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Il existe différents types de pansements."
+        }
+      ]
+    },
+    {
+      "titre": "Le pansement adhésif",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le pansement adhésif est prédécoupé, stérile et sous emballage individuel. Il se compose :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "D’une compresse ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "D’une fixation adhésive qui ne doit pas être irritante pour la peau (hypoallergénique)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Le pansement individuel",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le pansement individuel est, à l’origine, conçu pour les plaies par balle. Il peut néanmoins être utilisé pour tout type de plaie non étendue. Ce pansement est stérile. Il est contenu dans un emballage qui s’ouvre sans être déchiré, en décollant et séparant simplement les bords de l’emballage. Il se compose :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "D’une bande non extensible ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "De deux compresses absorbantes, l’une fixe, l’autre mobile, pouvant ainsi se déplacer sur toute la longueur de la bande ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "D’une épingle permettant la fixation de la bande."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Le pansement Type C",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Déployé, le pansement Type C permet la protection d’une ou plusieurs plaies grâce à la différence de taille des compresses qu’il contient. Fermé, il se présente sous la forme d’un cylindre, protégé par une enveloppe plastique. Une fois déplié, il se compose :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "D’une compresse absorbante de 40 x 13 cm (compresse principale) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "D’une compresse absorbante de 16 x 14 cm ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "D’une compresse de 14 x 60 cm ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "D’une bande extensible ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "De deux épingles."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Réalisation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Ne jamais toucher avec les doigts, même recouverts de gants, la partie du pansement qui entrera en contact avec la plaie."
+        }
+      ]
+    },
+    {
+      "titre": "Avec un pansement adhésif",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Choisir le pansement en fonction des dimensions de la plaie ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "Sortir le pansement de son emballage stérile ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "Appliquer le pansement sur la plaie simple, en retirant les protections des zones autocollantes ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "Appliquer les parties collantes sur la peau saine, puis les lisser avec le doigt."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Avec un pansement individuel",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Ouvrir l’emballage sans le déchirer ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "Sortir le sachet stérile et l’ouvrir ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "Dérouler la bande, sans toucher aux compresses absorbantes ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "Appliquer les compresses sur la plaie ; S’il s’agit d’une plaie par balle, appliquer une compresse sur le point d’entrée et l’autre, en la faisant coulisser, sur le point de sortie."
+            },
+            {
+              "niveau": 1,
+              "texte": "Attacher la bande avec l’épingle de sûreté."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Avec un pansement Type C",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Ouvrir l’emballage en plastique ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "Ouvrir l’emballage papier et enlever la compresse ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "Dérouler le pansement ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "Appliquer les compresses absorbantes sur la ou les plaies ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "Maintenir la ou les compresses avec la bande, maintenue à l’aide des épingles."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "La compresse non absorbante peut servir de support au matériel non utilisé."
+        }
+      ]
+    },
+    {
+      "titre": "Risques & Contraintes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Un pansement peut cacher un saignement et un bandage circulaire peut conduire à un effet garrot. Aussi, il convient de surveiller attentivement l’apparition progressive d’une douleur diffuse ou d’un saignement et de contrôler la circulation du membre en dessous du pansement (pouls, temps de recoloration cutanée, aspect de la peau). Dans le cas d’un pansement du front ou du cuir chevelu, la technique ne peut pas être réalisée sur une personne allongée, suspecte d’un traumatisme du rachis cervical (en effet, il serait nécessaire de soulever la tête de la victime pour passer la bande)."
+        }
+      ]
+    },
+    {
+      "titre": "Évaluation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La lésion cutanée est entièrement recouverte par le pansement, et aucune douleur n’apparaît au niveau de la zone bandée après une dizaine de minutes."
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

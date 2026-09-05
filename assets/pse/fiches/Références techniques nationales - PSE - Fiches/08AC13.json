@@ -1,0 +1,88 @@
+{
+  "nom": "08AC13",
+  "titre": "Compression de membre",
+  "niveaux": [],
+  "chapitre_principal": "Atteintes circonstancielles et environnementales",
+  "chapitres": [
+    {
+      "titre": "Définition",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Une compression de membre est l’interruption de la circulation sanguine au niveau de masses musculaires comprimées. Elle est dite prolongée si elle est de plus de deux heures. La compression prolongée des muscles des membres est aussi appelée « crush syndrome » ou « syndrome des ensevelis » ."
+        }
+      ]
+    },
+    {
+      "titre": "Causes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Les compressions de membres se rencontrent lors de situations accidentelles telles que :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "les accidents du trafic routier ou ferroviaire, qui nécessitent une longue désincarcération ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "les ensevelissements (éboulement, avalanche) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "les effondrements de bâtiments (tremblement de terre, explosion)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Risques & Conséquences",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’arrêt de la circulation sanguine et la compression directe entraînent, progressivement, des lésions des muscles qui s’accompagnent d’une production de déchets toxiques pour l’organisme. Ces déchets toxiques restent au niveau du membre tant que ce dernier est comprimé. Ils s’accumulent d’autant plus que la compression dure longtemps."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Au moment du dégagement de la victime et de la levée de la compression qui rétablit la circulation sanguine, ces déchets sont entraînés par le sang dans tout l’organisme. Ils agissent comme de véritables poisons, notamment pour le cœur et les reins. Cela peut se traduire par la survenue brutale d’un arrêt cardiaque ou d’une détresse circulatoire, juste après le dégagement. Ultérieurement, un blocage du fonctionnement des reins de la victime peut survenir. C’est pourquoi un traitement médical est nécessaire avant la levée de la compression. À la compression des membres peuvent s’associer d’autres lésions traumatiques créées par les mêmes circonstances : plaies, fractures, luxation."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Une compression prolongée de membre peut être mortelle à plus ou moins brève échéance."
+        }
+      ]
+    },
+    {
+      "titre": "Signes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le 1er regard est essentiel. Il permet de constater que la victime est, en partie, coincée et comprimée sous une charge importante. Lors des autres regards, il peut exister des signes de détresse circulatoire. Si la partie du corps qui siège en dessous de la compression est accessible, elle est froide, pâle et il existe des troubles de la sensibilité."
+        }
+      ]
+    },
+    {
+      "titre": "Principe de l’action de secours",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "assurer la sécurité des lieux et des intervenants ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "assurer le dégagement de la victime en présence d’une équipe médicale."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

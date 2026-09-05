@@ -1,0 +1,250 @@
+{
+  "nom": "05AC07",
+  "titre": "Détresse respiratoire",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Urgences vitales",
+  "chapitres": [
+    {
+      "titre": "Définition",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "On appelle détresse respiratoire une atteinte de la fonction respiratoire dont l‘évolution peut affecter, à court terme, les autres fonctions vitales de l’organisme (fonction circulatoire, fonction neurologique) et conduire au décès de la victime. Si l’arrêt respiratoire est une détresse respiratoire majeure qui relève de gestes de secours immédiats, il existe un certain nombre de situations où une victime peut présenter des signes visibles de détresse respiratoire sans qu’elle soit, pour autant, en arrêt respiratoire. Les trois fonctions vitales sont étroitement liées et une altération de la fonction respiratoire entraîne, plus ou moins rapidement, une perturbation des autres."
+        }
+      ]
+    },
+    {
+      "titre": "Causes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Plusieurs causes peuvent entraîner une détresse respiratoire. Par exemple :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "l’obstruction des voies aériennes (corps étranger, allergie, traumatisme ou infection, etc.) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "les maladies pulmonaires, dont l’asthme ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "le traumatisme du thorax ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "l’inhalation de produits caustiques ou de fumées."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Risques & Conséquences",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’atteinte de la fonction respiratoire retentit rapidement sur les deux autres et menace, immédiatement ou à très court terme, la vie de la victime, car ses organes vitaux (cerveau, cœur) peuvent, très vite, être privés d’oxygène."
+        }
+      ]
+    },
+    {
+      "titre": "Signes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Les signes d’une détresse respiratoire sont identifiés : 1. Lors de la recherche de respiration, si la ventilation est absente ou agonique. 2. Lors de l’ appréciation de la respiration. La victime :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 2,
+              "texte": "a perdu connaissance, est confuse, somnolente, anxieuse ou agitée. Ces signes traduisent un manque"
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "d’oxygénation du cerveau et une accumulation du CO2 ;"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 2,
+              "texte": "refuse de s’allonger, mais cherche à rester en position assise, ce qui rend moins pénible la respiration;"
+            },
+            {
+              "niveau": 2,
+              "texte": "se plaint d’avoir des difficultés à respirer : « j’ai du mal à respirer », « j’étouffe », « j’ai mal quand je"
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "respire »."
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 2,
+              "texte": "présente un balancement thoraco-abdominal 1 ."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Le secouriste peut entendre en écoutant la ventilation :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 2,
+              "texte": "un sifflement traduisant une gêne au passage de l’air dans des voies aériennes rétrécies ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "des gargouillements traduisant un encombrement des voies aériennes par des sécrétions ou des"
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "vomissures ;"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 2,
+              "texte": "des râles traduisant la présence de liquide dans les poumons."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Le secouriste constate que la victime fait des efforts pour respirer, se tient la poitrine et ne peut plus"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "parler. Elle présente :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 2,
+              "texte": "une ventilation rapide, voire superficielle. Il est difficile de voir facilement le ventre et la poitrine de"
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "la victime se soulever"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 2,
+              "texte": "une contraction des muscles du haut du thorax et du cou (tirage) ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "un battement des ailes du nez et un creusement au-dessus du sternum ou au niveau du creux de"
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "l’estomac à l’inspiration s’il s’agit d’un enfant ;"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 2,
+              "texte": "des sueurs en l’absence d’effort ou de fièvre, ce qui traduit un défaut d’épuration du dioxyde de"
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "carbone (CO2 ) contenu dans le sang ;"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 2,
+              "texte": "une coloration bleutée (cyanose), surtout au niveau des doigts, du lobe des oreilles et des lèvres."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Cette coloration traduit un manque d’oxygénation du sang. 3. Lors de la mesure des paramètres physiologiques respiratoires."
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 2,
+              "texte": "la fréquence respiratoire est rapide souvent supérieure à 30 mvts/min ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "la baisse de la saturation pulsée en O2 (saturomètre) < 94 % ou < 89 % chez l’insuffisant respiratoire"
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "chronique."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "4. Enfin la détresse respiratoire peut ne pas être évidente si elle est en cours de constitution. L’apparition d’un ou plusieurs signes détaillés ci-dessus ainsi que, lors des mesures répétées de la fonction respiratoire ; une accélération de la fréquence ventilatoire et une baisse de la SpO2 doivent faire évoquer l’installation d’une détresse respiratoire même si les mesures de la fonction respiratoire restent dans les limites de la normale. Enfin, toute victime ayant perdu connaissance et qui respire doit être considérée à haut risque de détresse respiratoire, car ses voies aériennes sont menacées."
+        }
+      ]
+    },
+    {
+      "titre": "Principe de l’action de secours",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "arrêter immédiatement toute cause évidente de détresse respiratoire comme une obstruction complète des voies aériennes ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "améliorer l’oxygénation de l’organisme et de ses organes vitaux par une position d’attente adaptée et l’administration d’oxygène ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "obtenir rapidement un avis médical ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "surveiller attentivement la victime et d’adapter les gestes de secours à l’évolution de la situation."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "1 Mouvement opposé du thorax et de l’abdomen. Lorsque l’un se soulève à l’inspiration, l’autre s’abaisse."
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "nom": "04FT15",
+  "titre": "Recherche de lésions",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Bilans",
+  "chapitres": [
+    {
+      "titre": "Indication",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La recherche des lésions et des anomalies est réalisée au cours du bilan de la victime, lors de son examen."
+        }
+      ]
+    },
+    {
+      "titre": "Justification",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’examen du corps de la victime a pour objectif de rechercher la présence de signes de lésions cutanées (contusions, plaies, brûlures) ou d’autres anomalies comme un hématome, un gonflement, une déformation qui peuvent être secondaires à un traumatisme, mais aussi des lésions ou des anomalies qui sont liées à une affection médicale ou circonstancielle (hématome, rougeur, tâches cutanées, etc.)."
+        }
+      ]
+    },
+    {
+      "titre": "Matériel",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Aucun matériel"
+        }
+      ]
+    },
+    {
+      "titre": "Réalisation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’examen à la recherche de lésions est orienté dans un premier temps par les plaintes exprimées par la victime. Il peut se terminer par un examen plus exhaustif de la « tête aux pieds » notamment chez la victime présentant une affection traumatique et si le traumatisme a été violent ou s’il présente des troubles de la conscience. Cet examen, réalisé par le secouriste, est visuel et peut être accompagné d’une palpation douce de certaines zones du corps de la victime pour révéler d’éventuels points douloureux, parfois non exprimés spontanément par la victime. Les différentes zones du corps de la victime sont examinées en suivant la procédure détaillée dans le tableau ci-après. Tableau 9 : Examen du corps de la victime à la recherche de lésions ou d’anomalies Z ONE A C OMMENT ? R ECHERCHER QUOI ? O BSERVATIONS"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "T ETE Observer, le cuir chevelu, la face (y compris Plaies et brûlures Maintenir la tête de la narines, oreilles, yeux et bouche) Hématomes victime pour ne pas Passer la main dans les cheveux mobiliser la tête et le Déformations, gonflements cou en cas de Écoulement par le nez et par les oreilles traumatisme. Asymétrie de l’expression faciale, déformation de la bouche Asymétrie pupillaire C Observer Plaies et brûlures Maintenir la tête de la Passer délicatement la main sous la nuque Hématomes victime pour ne pas mobiliser la tête et le Déformations, gonflements cou en cas de Douleur à la palpation. traumatisme. T HORAX Observer Plaies (plaie soufflante) Soulever ou écarter Palper délicatement Brûlures les vêtements. Hématomes Anomalie (asymétrie) du soulèvement de la poitrine à la respiration (seule une partie du thorax se soulève). Douleur à la palpation."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "A Observer Plaies (parfois accompagnée d’une sortie de Soulever ou écarter Palper délicatement l’intestin) et brûlures les vêtements. Hématomes Localiser la zone Douleur à la palpation atteinte de l’abdomen (par Mobilité de l’abdomen (soulèvement de exemple par rapport l’abdomen à chaque inspiration) au nombril en considérant qu’il est le centre d’une horloge). D Observer Plaies (présence de sang sur la main qui palpe) Glisser les mains sous Palper Hématomes la victime sans la mobiliser et sans la Brûlures déplacer en cas de Douleur à la palpation traumatisme. Profiter du relevage ou du déplacement de la victime pour observer ou palper le dos. B ASSIN Observer Plaies et brûlures Ne pas palper : la Hématomes palpation du bassin peut entraîner un Taches de sang sur les sous-vêtements déplacement (suspicion de traumatisme des organes d’éventuelles génitaux ou urinaires) fractures et aggraver un saignement interne. M EMBRES Observer chaque membre et les comparer Plaies et brûlures Soulever ou écarter Palper (empaumer latéralement le Gonflements les vêtements. membre sans le mobiliser et appuyer Déformations Enlever tout ce qui délicatement à deux mains en allant de sa pourrait gêner Douleur provoquée racine à son extrémité) l’examen. État de la circulation du membre (coloration, Rechercher les pouls périphériques Retirer les chaussures température de la peau, pouls périphériques 1 ) Demander de bouger les doigts ou les et les chaussettes si Altération motrice ou sensitive orteils possibles. Demander à la victime si elle sent quand on la touche en plusieurs endroits des membres"
+        }
+      ]
+    },
+    {
+      "titre": "Évaluation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Après l’examen de la victime, les différentes lésions, anomalies ou points douloureux sont identifiés et localisés."
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "1 Radial, pédieux, tibial postérieur. L’apprentissage ou non des deux derniers est de la décision de l’autorité d’emploi."
+  ]
+}

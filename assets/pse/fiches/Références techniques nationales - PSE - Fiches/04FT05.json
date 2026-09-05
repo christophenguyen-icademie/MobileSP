@@ -1,0 +1,107 @@
+{
+  "nom": "04FT05",
+  "titre": "Libération des voies aériennes chez une victime traumatisée",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Bilans",
+  "chapitres": [
+    {
+      "titre": "Indication",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La libération des voies aériennes (LVA) par simple élévation du menton est réalisée chez toute victime ayant perdu connaissance, suspecte d’un traumatisme du rachis."
+        }
+      ]
+    },
+    {
+      "titre": "Justification",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La perte de connaissance provoque une forte diminution du tonus musculaire qui entraîne, si la victime reste allongée sur le dos, une obstruction des voies aériennes par chute de la langue en arrière. La LVA par élévation du menton seul peut être suffisante pour dégager la langue de la paroi postérieure du pharynx sans mobiliser le rachis cervical et permettre la libre circulation de l’air :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "pour apprécier sa ventilation lors du 2ème regard ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "pour faciliter sa ventilation ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "pour réaliser une ventilation artificielle."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Chez le nourrisson, du fait de son anatomie, le mouvement doit se limiter à ramener la tête en position neutre afin de ne pas entraîner une obstruction des voies aériennes."
+        }
+      ]
+    },
+    {
+      "titre": "Matériel",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Aucun matériel."
+        }
+      ]
+    },
+    {
+      "titre": "Réalisation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "En même temps que l’on maintient la tête à deux mains :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "placer l’index ou le majeur de chaque main derrière l’angle de la mâchoire et sous les oreilles de la victime ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "ouvrir la bouche avec les pouces placés sur le menton ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "pousser vers l’avant la mâchoire inférieure ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "maintenir cette position."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Risques & Contraintes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La LVA doit être réalisée avec précaution pour éviter toute aggravation d’un traumatisme du rachis cervical."
+        }
+      ]
+    },
+    {
+      "titre": "Évaluation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La libération des voies aériennes est efficace si la respiration de la victime peut s’effectuer normalement."
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

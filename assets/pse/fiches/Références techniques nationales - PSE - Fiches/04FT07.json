@@ -1,0 +1,302 @@
+{
+  "nom": "04FT07",
+  "titre": "Évaluation de la fonction respiratoire",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Bilans",
+  "chapitres": [
+    {
+      "titre": "Indication",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’évaluation de la fonction respiratoire est réalisée lors du bilan et de la surveillance de la victime."
+        }
+      ]
+    },
+    {
+      "titre": "Justification",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La fonction respiratoire est une fonction vitale. Toute altération de la fonction respiratoire peut entraîner à plus ou moins brève échéance le décès de la victime."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Son évaluation permet :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "de rechercher la présence ou l’absence de respiration (2ème regard) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "d’identifier la présence d’une détresse respiratoire (3ème regard) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "d’identifier la présence de signes pouvant faire craindre l’évolution vers une détresse respiratoire (4ème regard ) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "d’évaluer l’évolution de l’état de la victime et l’efficacité de gestes de secours entrepris (surveillance de la victime)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Matériel",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "un chronomètre ou équivalent"
+            },
+            {
+              "niveau": 1,
+              "texte": "un oxymètre de pouls"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Réalisation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’évaluation de fonction respiratoire se fait en trois temps :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Rechercher la présence de la respiration (2ème regard)"
+            },
+            {
+              "niveau": 1,
+              "texte": "Apprécier la fonction respiratoire. Cette appréciation se fait à partir (3ème regard et surveillance) :"
+            },
+            {
+              "niveau": 2,
+              "texte": "des plaintes exprimées par la victime"
+            },
+            {
+              "niveau": 2,
+              "texte": "des constatations visuelles, auditives ou tactiles du secouriste."
+            },
+            {
+              "niveau": 1,
+              "texte": "Mesurer la fonction respiratoire, et notamment (4ème regard et surveillance) :"
+            },
+            {
+              "niveau": 2,
+              "texte": "la fréquence ventilatoire"
+            },
+            {
+              "niveau": 2,
+              "texte": "la saturation pulsée en oxygène (SpO )"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Rechercher la respiration",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Pour évaluer la présence de la respiration chez une victime qui a perdu connaissance, il convient de :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "assurer la liberté des voies aériennes ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "se pencher sur la victime, l’oreille et la joue du secouriste au-dessus de sa bouche et de son nez ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "rechercher, durant dix secondes au plus :"
+            },
+            {
+              "niveau": 2,
+              "texte": "avec la joue : le flux d’air expiré par le nez et la bouche,"
+            },
+            {
+              "niveau": 2,
+              "texte": "avec l’oreille : les bruits normaux (souffle) ou anormaux de la respiration (sifflement, ronflement, gargouillement),"
+            },
+            {
+              "niveau": 2,
+              "texte": "avec les yeux : le soulèvement du ventre ou de la poitrine."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Apprécier la respiration",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Pour apprécier la respiration d’une victime, il convient de :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "écouter les dires de la victime si elle peut s’exprimer."
+            },
+            {
+              "niveau": 1,
+              "texte": "écouter la facilité avec laquelle la victime parle ou respire."
+            },
+            {
+              "niveau": 1,
+              "texte": "observer la respiration pendant 15 secondes environ : sa rapidité, son amplitude, sa régularité :"
+            },
+            {
+              "niveau": 2,
+              "texte": "en regardant la partie supérieure de l’abdomen et du thorax,"
+            },
+            {
+              "niveau": 2,
+              "texte": "en plaçant une main à cheval sur la partie inférieure de son sternum et le haut de l’abdomen,"
+            },
+            {
+              "niveau": 1,
+              "texte": "apprécier la coloration :"
+            },
+            {
+              "niveau": 2,
+              "texte": "de la peau au niveau de la face et des extrémités,"
+            },
+            {
+              "niveau": 2,
+              "texte": "des muqueuses au niveau des lèvres"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "En conditions normales :",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "la victime ventile sans s’en apercevoir et ne s’en plaint pas,"
+            },
+            {
+              "niveau": 1,
+              "texte": "la victime parle facilement et sans essoufflement,"
+            },
+            {
+              "niveau": 1,
+              "texte": "la respiration est silencieuse et se fait sans bruit surajouté, sans difficulté ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "les mouvements ventilatoires sont :"
+            },
+            {
+              "niveau": 2,
+              "texte": "identifiables environ toutes les 5 secondes chez l’adulte (3 à 4 secondes chez l’enfant) ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "visibles, se font sans effort particulier et sont symétriques ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "réguliers, sans pause de plus de six secondes."
+            },
+            {
+              "niveau": 1,
+              "texte": "la peau est colorée et sèche,"
+            },
+            {
+              "niveau": 1,
+              "texte": "les muqueuses sont rosées."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Mesurer la respiration",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Mesurer la fréquence ventilatoire en comptant le nombre de mouvements sur une minute à l’aide d’un chronomètre ou équivalent (un mouvement équivaut à un soulèvement et un abaissement de la poitrine). La fréquence ventilatoire varie en fonction de l’âge (tableau 3). Tableau 4: Fréquence ventilatoire en fonction de l’âge (en mouvements par minute) A DULTE E NFANT N OURRISSON N OUVEAU - NE"
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "12 à 20 20 à 30 30 à 40 40 à 60"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Mesurer la saturation pulsée en oxygène (SpO2) à l’aide d’un oxymètre de pouls."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Risques & Contraintes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La mesure de la fonction respiratoire en utilisant un appareil ne doit pas retarder la réalisation des gestes de secours en présence d’une détresse."
+        }
+      ]
+    },
+    {
+      "titre": "Évaluation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’évaluation de la fonction respiratoire chez une victime doit permettre d’identifier une atteinte de la fonction respiratoire, comme :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "la présence d’une détresse respiratoire,"
+            },
+            {
+              "niveau": 1,
+              "texte": "la présence de signes qui peut traduire une détresse respiratoire en voie de constitution."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

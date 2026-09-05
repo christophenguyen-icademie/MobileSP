@@ -1,0 +1,369 @@
+{
+  "nom": "04FT09",
+  "titre": "Évaluation de la fonction circulatoire",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Bilans",
+  "chapitres": [
+    {
+      "titre": "Indication",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’évaluation de la fonction circulatoire est réalisée lors du bilan et de la surveillance de la victime"
+        }
+      ]
+    },
+    {
+      "titre": "Justification",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La fonction circulatoire est une fonction vitale. Toute altération de la fonction circulatoire peut entraîner à plus ou moins brève échéance un arrêt cardiaque et le décès de la victime."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Son évaluation permet :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "d’identifier la présence d’un arrêt cardiaque (2ème regard) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "d’identifier la présence d’une détresse circulatoire (3ème regard) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "de rechercher la présence d’une altération de la circulation pouvant évoluer vers une détresse circulatoire. (4ème regard) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "d’évaluer l’évolution de l’état de la victime et l’efficacité de gestes de secours entrepris (surveillance)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Matériel",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "un chronomètre ou un équivalent"
+            },
+            {
+              "niveau": 1,
+              "texte": "un tensiomètre manuel ou automatique"
+            },
+            {
+              "niveau": 1,
+              "texte": "un appareil de surveillance (oxymètre de pouls ou appareil de surveillance cardiaque)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Réalisation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’évaluation de fonction circulatoire se fait en trois temps :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Rechercher la présence du pouls (2 ème regard)"
+            },
+            {
+              "niveau": 1,
+              "texte": "Apprécier la fonction circulatoire. Cette appréciation se fait à partir (3 ème regard et surveillance) :"
+            },
+            {
+              "niveau": 2,
+              "texte": "des plaintes exprimées par la victime"
+            },
+            {
+              "niveau": 2,
+              "texte": "des constatations visuelles, auditives ou tactiles du secouriste."
+            },
+            {
+              "niveau": 1,
+              "texte": "Mesurer la fonction circulatoire, et notamment (4 ème regard et surveillance) :"
+            },
+            {
+              "niveau": 2,
+              "texte": "La mesure de la fréquence cardiaque (FC)"
+            },
+            {
+              "niveau": 2,
+              "texte": "La mesure du temps de recoloration cutanée (TRC)"
+            },
+            {
+              "niveau": 2,
+              "texte": "La mesure de la pression artérielle (PA)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Rechercher la circulation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Bien que non systématique pour identifier un arrêt cardiaque, en cas de réalisation, elle ne doit pas retarder la mise en œuvre de la RCP. C’est pourquoi elle doit être effectuée en même temps que la recherche de ventilation. Il en va de même pour les contrôles lors de la réanimation cardiopulmonaire. Recherche du pouls carotidien (chez l’adulte et l’enfant)"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Se placer du côté de la carotide qui va être palpée."
+            },
+            {
+              "niveau": 1,
+              "texte": "Maintenir la tête de la victime avec une main sur le front."
+            },
+            {
+              "niveau": 1,
+              "texte": "Positionner 2 à 3 doigts de l’autre main :"
+            },
+            {
+              "niveau": 2,
+              "texte": "les poser sur la ligne médiane du cou ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "glisser la pulpe de ces derniers sur la face latérale, vers soi ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "effectuer une légère pression pour percevoir les battements."
+            },
+            {
+              "niveau": 1,
+              "texte": "Rechercher, durant dix secondes au plus."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Recherche du pouls fémoral (chez le nourrisson)"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Positionner 2 à 3 doigts :"
+            },
+            {
+              "niveau": 2,
+              "texte": "poser la pulpe au niveau et dans l’axe du pli de l’aine, à la racine de la cuisse ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "effectuer une légère pression pour percevoir les battements."
+            },
+            {
+              "niveau": 1,
+              "texte": "Rechercher, durant dix secondes au plus."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Apprécier la circulation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Pour apprécier la circulation d’une victime, il convient de :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Apprécier la rapidité, l’amplitude (force) et la régularité du pouls 1 pendant 15 secondes environ."
+            },
+            {
+              "niveau": 2,
+              "texte": "Au niveau de la face antérieure du poignet, en plaçant la pulpe de 2 à 3 doigts sur le trajet de l’artère radiale, dans le prolongement du pouce et effectuer une légère pression pour percevoir les battements."
+            },
+            {
+              "niveau": 2,
+              "texte": "Au niveau du cou, en palpant l’artère carotidienne (voir ci-dessus) si le pouls au niveau du poignet est imperceptible ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "Au milieu du pli de l’aine en palpant l’artère fémorale avec deux ou trois doigts si l’on ne peut pas prendre le pouls carotidien (voir ci-dessus)."
+            },
+            {
+              "niveau": 1,
+              "texte": "Observer la coloration de peau et des muqueuses"
+            },
+            {
+              "niveau": 1,
+              "texte": "Apprécier avec la main la température et l’humidité de la peau"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "En conditions normales :",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Le pouls est :"
+            },
+            {
+              "niveau": 2,
+              "texte": "perçu toutes les secondes chez l’adulte et de façon plus rapide chez l’enfant ou le nourrisson ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "facilement perceptible au niveau du poignet, du cou ou du pli de l’aine ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "régulier, symétrique et ne marque pas de pause."
+            },
+            {
+              "niveau": 1,
+              "texte": "La peau est chaude et sèche au toucher ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "La peau et les muqueuses sont colorées (roses)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Mesurer la circulation",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Mesurer la fréquence cardiaque, en prenant un pouls et en comptant le nombre de battements (sensation de soulèvement) perçu sur une minute à l’aide d’un chronomètre ou équivalent. N. B. La mesure de la fréquence cardiaque peut être complétée par l’utilisation d’un appareil de mesure tel que l’oxymètre de pouls ou un appareil de surveillance de la fréquence cardiaque. Bien que fiables, certaines situations ne peuvent être comprises par un appareil, la mesure manuelle reste donc importante."
+            },
+            {
+              "niveau": 1,
+              "texte": "Mesurer le temps de recoloration cutanée (TRC)."
+            },
+            {
+              "niveau": 2,
+              "texte": "S’assurer de l’absence de vernis empêchant l’observation du lit de l’ongle."
+            },
+            {
+              "niveau": 2,
+              "texte": "Comprimer fortement pendant 3 secondes, entre le pouce et l’index, l’extrémité d’un doigt, le lit de l’ongle devenu pâle."
+            },
+            {
+              "niveau": 2,
+              "texte": "Relâcher la pression."
+            },
+            {
+              "niveau": 2,
+              "texte": "Mesurer le temps (en seconde) de recoloration."
+            },
+            {
+              "niveau": 1,
+              "texte": "Mesurer la pression artérielle"
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Le pouls est une sensation de soulèvement sous les doigts qui correspond à un battement cardiaque."
+        }
+      ]
+    },
+    {
+      "titre": "En conditions normales :",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "La fréquence cardiaque en battements par minute dépend de l’âge de la victime (tableau 4). Tableau 5: Fréquence cardiaque en fonction de l'âge (en battements par minute) A DULTE E NFANT N OURRISSON N OUVEAU - NE"
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "60 à 100 70 à 140 100 à 160 120 à 160"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "La recoloration cutanée du lit de l’ongle est inférieure à deux secondes ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "La pression artérielle chez l’adulte au repos et réveillé oscille autour de 100 mmHg de PA systolique et 80 mmHg de PA diastolique."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Risques & Contraintes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La mesure de la fonction circulatoire en utilisant un appareil ne doit pas retarder la réalisation des gestes de secours en présence d’une détresse."
+        }
+      ]
+    },
+    {
+      "titre": "Évaluation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’évaluation de la fonction circulatoire chez une victime doit permettre d’identifier une atteinte de la fonction circulatoire, comme :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Un arrêt cardiaque,"
+            },
+            {
+              "niveau": 1,
+              "texte": "La présence d’une détresse circulatoire,"
+            },
+            {
+              "niveau": 1,
+              "texte": "La présence de signes qui peut traduire une détresse circulatoire en voie de constitution."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

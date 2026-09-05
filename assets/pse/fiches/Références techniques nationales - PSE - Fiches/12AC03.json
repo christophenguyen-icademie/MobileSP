@@ -1,0 +1,239 @@
+{
+  "nom": "12AC03",
+  "titre": "Alerte et protection des populations",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Divers",
+  "chapitres": [
+    {
+      "titre": "Principe d’organisation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’alerte aux populations est une mesure exceptionnelle dont l’efficacité repose sur une connaissance préalable des risques particuliers auxquels les personnes sont exposées (Document d’Information Départemental/Communal des Risques Majeurs)."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "L’alerte aux populations est utilisée pour avertir les individus d’un danger imminent ou d’un événement grave, en train de produire ses effets et susceptible de porter atteinte à leur intégrité physique."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Elle est diffusée par les services de l’état via un ensemble d’outils :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "sirènes diffusant suivant la situation :"
+            },
+            {
+              "niveau": 2,
+              "texte": "le signal national d'alerte (SNA) § pour inciter au confinement ou à l’évacuation, § ce dernier est composé d’un signal :"
+            },
+            {
+              "niveau": 1,
+              "texte": "de début d’alerte, variation du signal sur trois cycles successifs d'une durée de 1 minute et 41 secondes espacés de 5 secondes ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "de fin d'alerte, signal continu de 30 secondes."
+            },
+            {
+              "niveau": 1,
+              "texte": "il est testé le premier mercredi de chaque mois, à midi. Lors de ces essais mensuels, le signal émis est une variation sur un seul cycle de 1 minute et 41 secondes, pour ne pas être confondu avec le SNA."
+            },
+            {
+              "niveau": 2,
+              "texte": "un signal de type corne de brume pour les dispositifs d’alerte propres aux aménagements hydrauliques, incitant à l’évacuation ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "un signal spécifique lorsqu’il existe des risques particuliers (chimiques, radioactifs, infectieux, etc.)."
+            },
+            {
+              "niveau": 1,
+              "texte": "notifications « FR-ALERT » 1 sur les téléphones portables :"
+            },
+            {
+              "niveau": 2,
+              "texte": "pour recevoir cette notification, le téléphone doit : § être dans une zone géographique affectée ; § être allumé ; § avoir du réseau."
+            },
+            {
+              "niveau": 2,
+              "texte": "ce dispositif actif depuis juin 2022, ne nécessite pas d’inscription ni d’application."
+            },
+            {
+              "niveau": 1,
+              "texte": "médias (Radio France, France Télévisions, radios locales, vigilance météo, etc.) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "réseaux sociaux :"
+            },
+            {
+              "niveau": 2,
+              "texte": "X 2 en s’abonnant et en activant les notifications du compte @Beauvau_alerte du ministère de l’Intérieur ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "Facebook via l’outil « Safety Check » ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "Google via son moteur de recherche et son outil « Posts on Google » ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "abonnements et notifications aux comptes des réseaux sociaux des services de l’état (services de l’état, préfectures, etc.)."
+            },
+            {
+              "niveau": 1,
+              "texte": "autres outils :"
+            },
+            {
+              "niveau": 2,
+              "texte": "panneaux communaux à messages variables ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "panneaux des opérateurs routiers, aériens et ferroviaires ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "…"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "En amont de toute crise / Risques majeurs",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "« Toute personne concourt par son comportement à la sécurité civile » conformément à l’article L721-1 du code de la sécurité intérieure. A minima, chaque citoyen doit donc se préparer en :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "s’informant sur les risques et procédures pouvant l’impacter sur son lieu d’habitation, son environnement professionnel ou de loisirs (vacances, sport, etc.) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "préparant un kit d’urgence, pour en savoir plus et compléter son kit :"
+            },
+            {
+              "niveau": 2,
+              "texte": "https://www.georisques.gouv.fr/"
+            },
+            {
+              "niveau": 2,
+              "texte": "https://www.securite-civile.interieur.gouv.fr/reagir/comment-se-preparer-face-aux- risques/plan-individuel-de-mise"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Face à tout déclenchement 1",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Dès que vous avez connaissance d’une alerte aux populations :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "se mettre en sécurité (bâtiment le plus proche, etc.) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "ne pas aller chercher les enfants à l’école, car ils y sont protégés par leurs enseignants ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "s’informer sur la situation ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "sauf urgence vitale, ne pas téléphoner2;"
+            },
+            {
+              "niveau": 1,
+              "texte": "respecter les consignes des autorités, s’il vous est demandé :"
+            },
+            {
+              "niveau": 2,
+              "texte": "de vous confiner, à minima : § fermer les portes et fenêtres ; § calfeutrer les portes, fenêtres et bouches d’aération ; § arrêter les systèmes de ventilation ou de climatisation."
+            },
+            {
+              "niveau": 2,
+              "texte": "d’évacuer, à minima : § emporter votre kit d’urgence préparé à l’avance."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "En période d’épidémie",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Pour lutter contre la transmission de maladies infectieuses contagieuses, les services de l’État peuvent diffuser des informations générales concernant la mise en application de mesures spécifiques, notamment des mesures barrières et de distanciation physique."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Afin de limiter la propagation d’une maladie infectieuse contagieuse notamment à transmission respiratoire ou par contact, les mesures minimales sont les suivantes :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "se laver régulièrement les mains ou utiliser une solution hydroalcoolique ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "tousser ou éternuer dans son coude ou dans son mouchoir ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "se moucher dans un mouchoir à usage unique puis le jeter ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "éviter de se toucher le visage ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "respecter une distance d’au moins un mètre avec les autres ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "saluer sans serrer la main et arrêter les embrassades."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "En complément de ces gestes, porter un masque quand la distance d’un mètre ne peut pas être respectée."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "1 SNA, FR-ALERT, notifications, médias et réseaux sociaux officiels, etc."
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "1 https://www.fr-alert.gouv.fr/",
+    "2 Anciennement Twitter",
+    "2 pour laisser les réseaux disponibles pour les services de secours"
+  ]
+}

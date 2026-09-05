@@ -1,0 +1,161 @@
+{
+  "nom": "07AC07",
+  "titre": "Traumatisme des membres",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Traumatismes",
+  "chapitres": [
+    {
+      "titre": "Définition",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Il existe trois types d’atteintes des os et des articulations des membres :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "l’entorse 1 (une entorse peut s’accompagner d’un arrachement osseux) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "la luxation 2 (la luxation peut s’accompagner d’une fracture ou d’une atteinte des nerfs et des vaisseaux) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "la fracture (rupture totale ou partielle de l’os) dite simple 3 ou compliquée 4 ."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Causes & Mécanisme",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Une atteinte des os et des articulations des membres survient suite à une chute lors des activités de sport, de travail ou de loisir, un accident de circulation ou une agression. Elle peut survenir à la suite d’un traumatisme :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "direct : la lésion se situe à l’endroit du choc ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "indirect : la lésion est provoquée par un mouvement forcé en flexion, en extension ou en rotation ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "par pénétration d’un corps étranger : blessures par arme à feu."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Risques & Conséquences",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Les lésions des os et des articulations peuvent s’accompagner de complications telles que :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "une atteinte des vaisseaux 5 ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "une lésion des nerfs 6 ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "une plaie, il s’agit alors d’une fracture ouverte qui peut être hémorragique."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Les fractures de la cuisse ou de multiples fractures de membres peuvent entraîner une détresse circulatoire."
+        }
+      ]
+    },
+    {
+      "titre": "Signes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’expression du mécanisme : un traumatisme des membres ou des articulations (chute, choc violent, etc)."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "La victime peut se plaindre : À l’examen, le secouriste peut trouver :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "de la perception d’un craquement au moment de la • une déformation et un gonflement chute ou du choc ; visibles au niveau de la lésion."
+            },
+            {
+              "niveau": 1,
+              "texte": "d’une douleur vive à l’endroit de la blessure ou à côté, augmentée par le mouvement ou la palpation ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "de la difficulté voire de l’impossibilité à bouger le membre atteint ou à se déplacer."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Chez la victime qui a perdu connaissance, même en l’absence d’une déformation et d’un gonflement visible, une manifestation douloureuse lors de la palpation ou de la mobilisation de la victime doit faire suspecter une fracture. Si la plupart des lésions des os et des articulations sont évidentes, elles peuvent être parfois plus difficiles à identifier. Le traumatisme de membre sera alors seulement suspecté par le secouriste et confirmé éventuellement lors de l’examen médical et radiographique."
+        }
+      ]
+    },
+    {
+      "titre": "Principe de l’action de secours",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "rechercher le mécanisme de survenue de la lésion et sa violence ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "empêcher l’aggravation en évitant tout déplacement de la zone blessée ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "rechercher et parer à toutes complications associées ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "immobiliser la lésion avec du matériel spécifique avant tout déplacement de la victime ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "demander un avis médical."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "ouverte) et/ou si elle est déplacée.",
+    "5 Gonflement du membre (hématome), extrémité du membre froide et pâle.",
+    "6 La victime perçoit des fourmillements à l’extrémité du membre atteint. Il existe parfois une disparition de la sensibilité ou de la motricité des doigts ou des orteils."
+  ]
+}

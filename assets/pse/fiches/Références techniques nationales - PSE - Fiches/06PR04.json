@@ -1,0 +1,103 @@
+{
+  "nom": "06PR04",
+  "titre": "Crise convulsive généralisée",
+  "niveaux": [],
+  "chapitre_principal": "Malaises et affections spécifiques",
+  "chapitres": [
+    {
+      "titre": "Chez l’adulte ou l’enfant",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Au début de la crise Pendant la crise A la fin des convulsions"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "allonger la victime au sol 1 ; • protéger la tête de la victime • s’assurer que les voies"
+            },
+            {
+              "niveau": 1,
+              "texte": "écarter les personnes qui en glissant si possible un aériennes de la victime sont sont autour. vêtement ou un tissu plié libres et vérifier sa sous sa tête, sans recouvrir respiration ; les voies aériennes ; • appliquer la conduite à tenir"
+            },
+            {
+              "niveau": 1,
+              "texte": "écarter tout objet qui adaptée et réaliser en pourrait être traumatisant ; priorité les gestes d’urgence"
+            },
+            {
+              "niveau": 1,
+              "texte": "ne rien 2 placer entre les qui s’imposent ; dents ou dans la bouche de • lorsque la victime redevient la victime. consciente, la garder au calme et la rassurer ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "réaliser une mesure de la glycémie capillaire."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Dans tous les cas",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "ne jamais contraindre les mouvements de la victime durant toute la crise ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "noter l’heure de survenue et la durée de la crise ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "poursuivre le bilan, rechercher d’éventuels signes de traumatisme ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "transmettre un bilan et appliquer les consignes ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "surveiller la victime jusqu’à ce qu’elle retrouve un état normal de conscience."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Chez le nourrisson",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La prise en charge est identique à celle de l’adulte, mais il faut en plus :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "prendre la température de l’enfant ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "procéder à un refroidissement actif ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "transmettre un bilan, systématiquement."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "1 Si elle n’est pas déjà dans cette position pour éviter qu’elle ne se blesse en chutant. 2 Elle n’avalera pas sa langue."
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

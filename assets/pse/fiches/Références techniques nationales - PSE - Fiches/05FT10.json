@@ -1,0 +1,213 @@
+{
+  "nom": "05FT10",
+  "titre": "Compressions thoraciques",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Urgences vitales",
+  "chapitres": [
+    {
+      "titre": "Indication",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Les compressions thoraciques sont nécessaires chaque fois qu’une victime présente un arrêt cardiaque ou a perdu connaissance à la suite d’une obstruction des voies aériennes. Elles sont aussi indiquées en présence d’un nouveau-né qui présente une détresse à la naissance."
+        }
+      ]
+    },
+    {
+      "titre": "Justification",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Quand le cœur s’arrête de fonctionner, le sang ne circule plus dans l’organisme et la distribution d’oxygène n’est plus assurée. La compression régulière du thorax rétablit une circulation artificielle égale à 20 à 30 % du débit cardiaque normal chez l’adulte. Ce débit est suffisant pour maintenir le cerveau et le cœur de la victime oxygénés, notamment pendant les quelques minutes nécessaires à la mise en œuvre du choc électrique externe. La pression, exercée au milieu de la poitrine d’une victime allongée sur le dos, vide les cavités cardiaques et les poumons du sang qui s’y trouve, et le propulse vers les organes périphériques. Lorsque la pression est relâchée, la poitrine revient à sa taille initiale, le sang est de nouveau aspiré et remplit le cœur et les poumons. Ce sang sera ensuite propulsé par la compression thoracique suivante. Lors d’une obstruction complète des voies aériennes par un corps étranger, l’augmentation de la pression à l’intérieur du thorax à chaque compression facilite l’expulsion du corps étranger par « effet piston »."
+        }
+      ]
+    },
+    {
+      "titre": "Matériel",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Un dispositif d’aide au massage cardiaque comme un métronome et un moniteur de la profondeur de compression peuvent être utilisés afin d’améliorer la qualité de la RCP."
+        }
+      ]
+    },
+    {
+      "titre": "Réalisation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La victime est installée en position horizontale, sur le dos, de préférence 1 sur un plan dur (sol, table, etc)."
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "se placer à genoux au plus près de la victime (adulte et enfant) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "dénuder la poitrine de la victime, dans la mesure du possible ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "localiser la zone de compression ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "réaliser des compressions thoraciques ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "appuyer verticalement ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "ne pas appuyer sur les côtes ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "maintenir une fréquence comprise entre 100 et 120 compressions par minute ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "assurer un temps de compression égal au temps de relâchement 2 ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "laisser le thorax reprendre sa forme initiale, entre chaque compression, sans pour cela décoller le talon de la main (adulte, enfant) ou les pouces (nourrisson, nouveau-né)."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "En présence de plusieurs sauveteurs, relayer le sauveteur qui réalise les compressions thoraciques toutes les 2 minutes en interrompant le moins possible les compressions thoraciques (en cas d’utilisation d’un DAE, le relais sera réalisé pendant l’analyse)."
+        }
+      ]
+    },
+    {
+      "titre": "Chez l’adulte",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "placer le talon d’une main au centre de la poitrine, sur la moitié inférieure du sternum ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "placer l’autre main au-dessus de la première et entrecroiser les doigts des deux mains ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "relever les doigts pour ne pas appuyer sur les côtes ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "tendre les bras et verrouiller les coudes ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "réaliser des compressions thoraciques d’une profondeur d’environ 5 cm, sans dépasser 6 cm."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Chez l’enfant",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "placer le talon d’une main au centre de la poitrine, sur la moitié inférieure du sternum ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "relever les doigts pour ne pas appuyer sur les côtes ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "tendre les bras et verrouiller le coude ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "réaliser des compressions d’une profondeur d’un tiers de son épaisseur, soit environ 5 cm ;"
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Il est possible de changer la main qui effectue les compressions toutes les 2 minutes environ, voire plus fréquemment si le sauveteur perçoit des signes de fatigue. Si la victime (enfant) est grande ou si le sauveteur est petit et n'a pas suffisamment de force, il peut être utile d’utiliser la même technique que chez l’adulte."
+        }
+      ]
+    },
+    {
+      "titre": "Chez le nouveau-né ou le nourrisson",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "entourer le thorax du nourrisson avec les mains ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "placer la pulpe des deux pouces placés l’un sur l’autre, sur la moitié inférieure du sternum ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "réaliser des compressions d’une profondeur d’un tiers de son épaisseur, soit environ 4 cm ;"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Risques & Contraintes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Une mauvaise position des mains, une compression thoracique trop forte ou non verticale peuvent entraîner des lésions graves du thorax (fractures de côtes) et des poumons (contusion). Ces risques ne doivent pas faire diminuer la vigueur des compressions thoraciques. La présence de respiration agonique ne doit pas faire interrompre les compressions thoraciques."
+        }
+      ]
+    },
+    {
+      "titre": "Évaluation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Les compressions thoraciques sont efficaces si :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "une reprise normale de la respiration a lieu ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "une recoloration de la victime est constatée ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "le pouls 1 , lors de chaque compression thoracique, est perçu."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "1 L’installation sur un plan dur ne doit pas retarder la réanimation cardio pulmonaire.",
+    "2 Cette technique offre une efficacité maximale. Elle permet au thorax de reprendre sa dimension initiale après chaque compression thoracique, afin que le cœur se remplisse bien de sang.",
+    "1 La recherche du pouls est faite préférentiellement au pli de l’aine (pouls fémoral) pour ne pas gêner la réanimation."
+  ]
+}

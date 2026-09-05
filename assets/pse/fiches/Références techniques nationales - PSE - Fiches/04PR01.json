@@ -1,0 +1,24 @@
+{
+  "nom": "04PR01",
+  "titre": "Premier regard",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Bilans",
+  "chapitres": [
+    {
+      "titre": "Introduction",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Après avoir signalé son arrivée sur les lieux ou son engagement, l’équipe d’intervention réalise une vision globale de la situation appelée 1 er regard. Les objectifs, la réalisation et les actions à mener lors du premier regard sont détaillés dans le tableau 1. Tableau 2: le premier regard O BJECTIFS C OMMENT FAIRE ? A CTIONS A MENER ( QUESTIONNEMENT ) Déterminer la nature de Observer la scène et les lieux de Transmettre la nature de l’intervention l’intervention et les circonstances l’intervention (accident, maladie, intoxication, de survenue. Questionner les tiers et/ou la situation de violence, accouchement, « Que s’est-il passé ? » victime sur ce qu’il s’est passé etc.) et les circonstances de survenue. Compléter et corriger, si besoin, S’assurer de la justesse des Transmettre tout élément les informations de départ. informations transmises à complémentaire ou à corriger « Les informations initiales sont- l’équipe pour assurer elles correctes ? » l’intervention (ordre de mission). Identifier la présence de dangers, Rechercher : Assurer la protection et la sécurité. d’évaluer leurs risques. - Les dangers évidents (véhicules Appliquer les précautions standards ou Assurer la sécurité des accidentés, structure instable, particulières en cas de risque infectieux intervenants et de la victime. situation violente) (fiches « risques infectieux »). « Existe-t-il un danger immédiat à - Les dangers moins évidents Indiquer les mesures de sécurité prises. venir ? » (risque : électrique, toxique, d’impact psychologique, etc.) - Les personnes exposées (intervenants, victimes, tiers) Déterminer le nombre de victimes Faire une reconnaissance des Appliquer si nécessaire les principes de « Combien y a-t-il de victimes ? » lieux et ses alentours si nécessaire prise en charge de nombreuses pour définir le nombre et la victimes : localisation des victimes (victime - Repérage de nombreuses victimes. éjectée, plusieurs victimes dans - Transmettre sans délai la situation de des lieux différents, etc.). nombreuses victimes, le nombre approximatif de victimes (et leur état de gravité apparent)"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Demander, si besoin, des moyens Identifier les moyens sur places et Demander les moyens nécessaires le complémentaires les moyens complémentaires plus rapidement possible. « Les moyens sont-ils suffisants nécessaires. pour le moment ? »"
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

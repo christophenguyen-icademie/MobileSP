@@ -1,0 +1,194 @@
+{
+  "nom": "05FT09",
+  "titre": "Désobstruction par des compressions thoraciques",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Urgences vitales",
+  "chapitres": [
+    {
+      "titre": "Indication",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Cette technique est indiquée en cas d’obstruction complète des voies aériennes par un corps étranger :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "lorsqu’il est impossible d’encercler l’abdomen de la victime :"
+            },
+            {
+              "niveau": 2,
+              "texte": "adulte obèse ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "femme enceinte ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "personne alitée ou allongée, difficilement mobilisable."
+            },
+            {
+              "niveau": 1,
+              "texte": "chez une victime qui peut tenir sur l’avant-bras du sauveteur (nourrisson)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Justification",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le but de cette technique est de comprimer l’air contenu dans les poumons de la victime et d’expulser le corps étranger par un effet de « piston ». Suivant l’importance et la position du corps étranger, plusieurs pressions successives peuvent être nécessaires pour l’expulser."
+        }
+      ]
+    },
+    {
+      "titre": "Matériel",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Aucun matériel."
+        }
+      ]
+    },
+    {
+      "titre": "Personne dont il est impossible d’encercler l’abdomen (obèse ou femme enceinte)",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "se positionner derrière la victime ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "placer ses avant-bras sous les bras de la victime et encercler la poitrine de la victime ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "placer le poing fermé (dos de la main vers le ciel) au milieu du sternum, sans appuyer sur la pointe inférieure du sternum ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "placer l'autre main sur la première ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "tirer franchement en exerçant une pression vers l'arrière, sans appuyer les avants bras sur les côtes ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "effectuer de 1 à 5 compressions successives, en relâchant complétement entre chacune."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Chez la victime qui peut tenir sur l’avant-bras du sauveteur 1",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "tourner le nourrisson en soutenant sa tête et pour que sa face soit côté ciel ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "poser le nourrisson de telle sorte que :"
+            },
+            {
+              "niveau": 2,
+              "texte": "son dos et sa tête reposent directement sur les deux cuisses du secouriste ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "sa tête soit plus basse que le reste du corps."
+            },
+            {
+              "niveau": 1,
+              "texte": "comme pour les compressions thoraciques pour un arrêt cardiaque :"
+            },
+            {
+              "niveau": 2,
+              "texte": "entourer le thorax du nourrisson avec les mains ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "placer deux pouces, l’un sur l’autre, au milieu du sternum."
+            },
+            {
+              "niveau": 1,
+              "texte": "effectuer de 1 à 5 compressions successives, en relâchant complétement entre chacune. La profondeur de compression est au-delà d’un tiers de la hauteur du thorax."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Chez la personne alitée ou allongée, difficilement mobilisable",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "effectuer des compressions thoraciques, comme pour une victime en arrêt cardiaque."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Risques & Contraintes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Des complications par traumatisme des organes internes, des côtes ou du sternum peuvent survenir après ces manœuvres. Ce risque ne doit pas diminuer la qualité des compressions thoraciques qui est absolument nécessaire au rejet du corps étranger."
+        }
+      ]
+    },
+    {
+      "titre": "Évaluation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’efficacité de la technique est jugée sur :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "le rejet du corps étranger chez l’adulte ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "l’apparition de toux chez l’adulte ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "l’apparition de pleurs ou de cris chez le nourrisson ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "la reprise d’une respiration normale."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "1 Si la victime est un nourrisson ou petit enfant"
+  ]
+}

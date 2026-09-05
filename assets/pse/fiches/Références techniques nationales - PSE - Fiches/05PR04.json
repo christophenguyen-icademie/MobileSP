@@ -1,0 +1,205 @@
+{
+  "nom": "05PR04",
+  "titre": "Arrêt cardiaque en équipe",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Urgences vitales",
+  "chapitres": [
+    {
+      "titre": "Introduction",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Lorsque la victime a perdu connaissance et ne respire pas, ou que la respiration est anormale, et que les secouristes sont en équipe avec matériel, il convient d’appliquer la conduite à tenir suivante :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "retirer délicatement tout corps étranger visible et facilement accessible dans la bouche ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "débuter immédiatement 1 une RCP en répétant des cycles de :"
+            },
+            {
+              "niveau": 2,
+              "texte": "adulte : 30 compressions thoraciques / 2 insufflations ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "enfant et nourrisson : 15 compressions thoraciques / 2 insufflations."
+            },
+            {
+              "niveau": 1,
+              "texte": "le plus tôt possible, en interrompant le moins possible le massage cardiaque :"
+            },
+            {
+              "niveau": 2,
+              "texte": "mettre en œuvre le DAE et suivre ses indications vocales ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "administrer de l’oxygène 2 par insufflation."
+            },
+            {
+              "niveau": 1,
+              "texte": "si un DAE est installé, reprendre la RCP immédiatement après la délivrance, ou non, d'un choc électrique par le DAE, sans attendre ses instructions vocales."
+            },
+            {
+              "niveau": 1,
+              "texte": "poursuivre la RCP jusqu’à une demande d’interruption par le DAE ou le relais par les renforts médicalisés ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "si la poitrine de la victime ne se soulève pas après 2 insufflations :"
+            },
+            {
+              "niveau": 2,
+              "texte": "envisager une obstruction des voies aériennes ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "vérifier la présence d’un corps étranger dans la bouche après chaque cycle de compressions ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "retirer prudemment le corps étranger, s’il y en a un et s’il est accessible."
+            },
+            {
+              "niveau": 1,
+              "texte": "si nécessaire :"
+            },
+            {
+              "niveau": 2,
+              "texte": "réaliser une aspiration 3 des sécrétions ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "mettre en place une canule 4 oropharyngée."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Lorsqu'un témoin a réalisé une réanimation avant l'arrivée des secours, l'équipe prend le relais de ce dernier. Avoir pratiqué ces gestes, souvent sur un proche, peut être psychologiquement difficile à vivre pour le témoin. Sans retarder l’action de secours et dans la mesure du possible, un membre de l'équipe doit donc prendre un moment pour évaluer son état émotionnel, le rassurer sur la qualité de son intervention et valoriser son action."
+        }
+      ]
+    },
+    {
+      "titre": "Organisation selon le nombre de secouristes",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "À 2 secouristes sans DAE : un secouriste poursuit le massage cardiaque, le second va chercher un DAE et demande un renfort médical ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "À 2 secouristes avec DAE : un secouriste poursuit le massage cardiaque, le second met en œuvre le DAE puis demande un renfort médical immédiatement après la première analyse ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "À 3 secouristes ou plus : les trois actions (alerte, RCP et DAE) sont réalisées simultanément."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Si plusieurs intervenants formés sont présents, et si possible, se relayer pour la RCP lors des analyses du DAE ou toutes les 2 minutes environs. Dans le but de garantir l’efficacité des manœuvres, un de ces intervenants formés peut assurer le rôle de « coach » en guidant, encourageant et corrigeant les gestes effectués par les autres."
+        }
+      ]
+    },
+    {
+      "titre": "Dans tous les cas",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "si des signes de vie apparaissent (la victime se remet à respirer efficacement, bouge, ou ouvre les yeux) :"
+            },
+            {
+              "niveau": 2,
+              "texte": "cesser les compressions thoraciques et la ventilation ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "garder la victime strictement allongée ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "réaliser un bilan en repartant du 2ème regard ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "surveiller de manière permanente la conscience et la respiration ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "protéger la victime contre le froid, le chaud et les intempéries ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "se tenir prêt à reprendre les manœuvres de RCP en raison du risque majeur de récidive de l'arrêt"
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "cardiaque."
+        }
+      ]
+    },
+    {
+      "titre": "En cas de contrôle du pouls 1 à partir de 3 secouristes",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "si un pouls est perçu (hors compressions) et que la ventilation est absente ou anormale (FR ≤ 6 mvts/min)"
+            },
+            {
+              "niveau": 2,
+              "texte": "interrompre les compressions thoraciques ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "poursuivre les insufflations à la fréquence de : Adulte / Enfant Nourrisson Nouveau-né"
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "10 insuﬄa•ons/min 20 insuﬄa•ons/min 30 insuﬄa•ons/min"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 2,
+              "texte": "contrôler le pouls carotidien ou fémoral en permanence ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "se tenir prêt à reprendre les compressions thoraciques en cas d’absence de perception du pouls."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "2 L’apport d'oxygène à la victime sous ventilation artificielle doit être réalisé dès que possible, sans retarder la mise en œuvre des gestes de réanimation.",
+    "3 Lorsque l’aspiration de sécrétions est réalisée, elle ne doit pas retarder ni interrompre les manœuvres de RCP ou la délivrance d’un choc électrique.",
+    "4 Une canule oropharyngée est mise en place en cas de ventilation artificielle inefficace par difficulté de maintien des voies aériennes de la victime libres.",
+    "1 Localiser le pouls carotidien ou fémoral pendant les compressions thoraciques, maintenir la position et contrôler la présence ou l’absence de pouls lors des insufflations."
+  ]
+}

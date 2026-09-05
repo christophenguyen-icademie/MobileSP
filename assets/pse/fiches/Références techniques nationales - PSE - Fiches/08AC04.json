@@ -1,0 +1,92 @@
+{
+  "nom": "08AC04",
+  "titre": "Accouchement inopiné",
+  "niveaux": [
+    "PSE 2"
+  ],
+  "chapitre_principal": "Atteintes circonstancielles et environnementales",
+  "chapitres": [
+    {
+      "titre": "Définition",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’accouchement inopiné est l’acte de mettre au monde un nouveau-né hors d’une maternité. Il peut survenir avant l’arrivée des secours ou en leur présence. Normalement, l’accouchement survient lors du 9 ème mois de grossesse, soit entre 37 et 41 semaines révolues d’aménorrhée (absence de règles). Avant 37 semaines d’aménorrhée, on parle d’accouchement prématuré. On appelle parturiente une femme enceinte lorsque le travail a commencé. L’accouchement se déroule en trois étapes :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Le travail À la fin de la grossesse, l’utérus commence à se contracter, de plus en plus régulièrement et de plus en plus fort. La partie basse de l’utérus commence à s’ouvrir pour pouvoir laisser passer l’enfant. L’ouverture se traduit par la sortie de glaires sanguinolentes (bouchon muqueux) puis d’un liquide, c’est la rupture de la poche des eaux. Elle correspond à la perte du liquide dans lequel baigne le fœtus. Le liquide qui s’écoule est normalement clair. La rupture de la poche des eaux peut aussi survenir avant le début du travail. Le travail peut durer de plusieurs minutes à plusieurs heures suivant la personne. Il est habituellement plus rapide chez une femme qui a déjà accouché une ou plusieurs fois."
+            },
+            {
+              "niveau": 1,
+              "texte": "L’expulsion L’orifice (col) de l’utérus s’ouvre de plus en plus sous l’effet des contractions. Le fœtus descend vers le vagin, en général la tête la première. Le nouveau-né apparaît alors et progressivement va sortir du corps de la mère. Une fois expulsé, le nouveau-né est toujours relié à la mère par le cordon ombilical et peut être pris en charge 1 . L’expulsion peut durer plusieurs minutes. L’enfant se présente normalement la tête en avant (présentation céphalique). Cependant, d’autres présentations sont possibles (présentation par le siège ou l’épaule) et sont sources de complications parfois très graves (ralentissement de l’accouchement, impossibilité d’accoucher, procidence du cordon ombilical)."
+            },
+            {
+              "niveau": 1,
+              "texte": "La délivrance Il s’agit de la sortie hors de l’utérus du placenta et du reste du cordon ombilical. Généralement, elle survient vingt à trente minutes après la sortie du nouveau-né."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Causes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Les causes d’accouchement inopiné sont multiples (antécédents d’accouchement rapide ou inopinés, grossesse mal ou non suivie, multiparité)."
+        }
+      ]
+    },
+    {
+      "titre": "Risques & Conséquences",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’accouchement se déroule normalement sans complications, mais il peut parfois entraîner des complications mettant en jeu la vie du fœtus ou de la mère."
+        }
+      ]
+    },
+    {
+      "titre": "Signes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Des contractions régulières en fréquence et en intensité peuvent être le signe d’un début de travail. Elles sont en général douloureuses, mais sont aussi perceptibles en posant doucement la main sur le ventre de la mère. Durant la contraction, celui-ci devient très dur puis se relâche. Peu intenses et espacées au début, elles vont devenir de plus en plus fréquentes, rapprochées et douloureuses. La rupture de la poche des eaux survient secondairement ou avant le début du travail alors que la mère ne présente aucune contraction. Le liquide qui s’écoule est normalement clair. La rupture de la poche des eaux et l’envie irrépressible que la mère ressent de pousser traduisent généralement un accouchement imminent et le début de la phase d’expulsion. Il en est de même si la tête du nouveau-né apparaît à la vulve. Après l’expulsion, la mère ressent de nouvelles contractions, l’envie de pousser et perd aussi un petit filet de sang. Ces contractions se traduisent par une expulsion du placenta et de ses annexes. C’est la délivrance."
+        }
+      ]
+    },
+    {
+      "titre": "Principe de l’action de secours",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "réaliser un bilan, complété par des éléments spécifiques de l’accouchement, pour permettre au médecin d’évaluer l’imminence de l’accouchement et les risques de ce dernier ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "assister la future maman pendant l’accouchement lorsqu’il n’est plus possible de la transporter à l’hôpital ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "assurer une prise en charge et une surveillance attentive de la mère ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "prendre en charge un nouveau-né à la naissance."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "1 Confère fiche de la prise en charge du nouveau-né à la naissance."
+  ]
+}

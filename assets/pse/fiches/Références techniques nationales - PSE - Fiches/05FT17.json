@@ -1,0 +1,192 @@
+{
+  "nom": "05FT17",
+  "titre": "Position latérale de sécurité à deux secouristes",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Urgences vitales",
+  "chapitres": [
+    {
+      "titre": "Indication",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Cette technique est indiquée après avis médical chez toute victime qui a perdu connaissance, respire normalement et est suspecte de traumatisme."
+        }
+      ]
+    },
+    {
+      "titre": "Justification",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La position latérale de sécurité (PLS) maintient libres les voies aériennes supérieures de la victime en permettant l’écoulement des liquides vers l’extérieur et évite que la langue ne chute dans le fond de la gorge. Sa réalisation à deux secouristes limite les mouvements du rachis cervical et diminue le risque de complications secondaires ou de séquelles."
+        }
+      ]
+    },
+    {
+      "titre": "Matériel",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "collier cervical si indiqué ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "coussin de tête."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Réalisation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’installation en PLS est réalisée après avoir mis en place un collier cervical si indiqué. La manœuvre est commandée par le secouriste placé à la tête (secouriste 1). La technique se réalise en trois temps :"
+        }
+      ]
+    },
+    {
+      "titre": "1er temps : Préparer le retournement de la victime. Pour cela :",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le secouriste 1, placé dans l’axe de la victime, derrière la tête, doit"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "maintenir à deux mains la tête de la victime, jusqu’à la réalisation du retournement ; le secouriste 2 doit :"
+            },
+            {
+              "niveau": 1,
+              "texte": "préparer le coussin de tête qui servira au calage après la mise en PLS,"
+            },
+            {
+              "niveau": 1,
+              "texte": "retirer les lunettes de la victime si elle en porte,"
+            },
+            {
+              "niveau": 1,
+              "texte": "rapprocher délicatement les membres inférieurs de l’axe du corps,"
+            },
+            {
+              "niveau": 1,
+              "texte": "placer le bras de la victime, situé du côté du retournement, à angle droit de son corps,"
+            },
+            {
+              "niveau": 1,
+              "texte": "plier le coude de ce même bras en gardant la paume de la main de la victime tournée vers le haut,"
+            },
+            {
+              "niveau": 1,
+              "texte": "saisir l’avant-bras opposé de la victime, et amener le dos de la main de la victime sur son oreille, côté retournement, sous la main du 1 er secouriste,"
+            },
+            {
+              "niveau": 1,
+              "texte": "Le secouriste 1 maintient la main pressée contre l’oreille de la victime paume contre paume."
+            },
+            {
+              "niveau": 1,
+              "texte": "se placer à genoux ou en trépied à côté de la victime, assez loin d’elle pour pouvoir la tourner sur le côté sans avoir à se reculer,"
+            },
+            {
+              "niveau": 1,
+              "texte": "saisir la hanche de la victime d’une main et l’épaule de l’autre, du côté opposé au retournement."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "2ème temps : Retourner la victime. Pour cela :",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Secouriste 1 : « Êtes-vous prêt ? » Secouriste 2 : « Prêt ! » Secouriste 1 : « Attention pour tourner… Tournez ! » le secouriste 2 doit"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "tirer en même temps sur la hanche et l’épaule de la victime, bras tendus, afin de la faire rouler d’un bloc et de l’amener sur son côté ; le secouriste 1 doit,"
+            },
+            {
+              "niveau": 1,
+              "texte": "dans le même temps maintenir la tête et la main de la victime entre ses mains et accompagner le mouvement en évitant toute torsion du cou. Le retournement de la victime doit être réalisé sans brusquerie, en un seul temps. Le maintien de la main et de la tête de la victime vise à conserver l’axe de la colonne cervicale durant toute la manœuvre et évite ainsi toute aggravation d’un traumatisme. En cas de difficultés pour le secouriste 2 (victime obèse ou force insuffisante du secouriste), il peut faciliter le retournement en tirant sur le genou fléchi de la victime du côté opposé au retournement comme dans la PLS à un secouriste 1 , l’autre main tirant sur l’épaule."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "3ème temps : Stabiliser la victime. Pour cela :",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le secouriste 1 doit poursuivre le maintien de la tête ; le secouriste 2 doit :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "saisir la hanche de la victime avec la main qui tient l’épaule,"
+            },
+            {
+              "niveau": 1,
+              "texte": "fléchir, avec la main qui tenait la hanche, la hanche et le genou de la victime situés vers le haut pour les amener à angle droit 2 ,"
+            },
+            {
+              "niveau": 1,
+              "texte": "placer un coussin ou un autre dispositif sous la tête de la victime pour compenser l’espace qui existe entre la tête de la victime et le sol et ainsi la soutenir dans l’axe du tronc,"
+            },
+            {
+              "niveau": 1,
+              "texte": "Ce coussin peut être placé avant le retournement contre la tête de la victime du côté de celui-ci."
+            },
+            {
+              "niveau": 1,
+              "texte": "vérifier que la bouche de la victime est ouverte 3 ."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Après la mise en PLS, le secouriste 1 poursuit la stabilisation de la tête, dans la mesure du possible. Si la victime présente une lésion thoracique, du membre supérieur ou du membre inférieur, elle est couchée, autant que possible, sur le côté atteint."
+        }
+      ]
+    },
+    {
+      "titre": "Risques & Contraintes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Cette technique peut aggraver une éventuelle lésion traumatique, notamment du rachis ou du bassin. C’est pourquoi, une victime traumatisée ayant perdu connaissance et qui respire normalement ne sera mise en PLS qu’après avis médical. La mise en PLS rend difficile la surveillance de la ventilation d’une victime."
+        }
+      ]
+    },
+    {
+      "titre": "Évaluation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Une fois mise en PLS, la victime se trouve dans une position stable, la plus latérale possible. En position sur le côté, les voies aériennes et les mouvements de la respiration doivent pouvoir être contrôlés, l’écoulement des sécrétions vers l’extérieur est favorisé."
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "1 La saisie de la jambe de la victime au niveau du genou permet de l’utiliser comme « bras de levier » pour le retournement",
+    "2 La saisie de la jambe de la victime au niveau du genou permet de l’utiliser comme « bras de levier » pour le retournement.",
+    "3 L’ouverture de la bouche de la victime facilite l’écoulement des liquides vers l’extérieur."
+  ]
+}

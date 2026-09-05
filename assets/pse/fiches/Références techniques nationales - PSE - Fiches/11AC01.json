@@ -1,0 +1,172 @@
+{
+  "nom": "11AC01",
+  "titre": "Situation à nombreuses victimes",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Situations particulières",
+  "chapitres": [
+    {
+      "titre": "Définition",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La situation à nombreuses victimes se définit comme une situation accidentelle d’ampleur ayant fait de nombreuses victimes ou ayant un potentiel évolutif pouvant entraîner de nombreuses victimes. Une telle situation est un événement particulier qui nécessite une méthode de travail différente des autres interventions. L’accident catastrophique à effet limité est une situation à nombreuses victimes qui se caractérise par :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "un accident ou une situation unique entraînant un afflux brutal, mais relativement limité de victimes (entre 10 et 100), plus ou moins gravement atteintes au plan physique ou psychique, auquel les secours ne peuvent pas immédiatement faire face du fait d’une inadéquation temporaire entre les besoins et les moyens rapidement disponibles ou l’inhibition de ces moyens par l’accident ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "une situation évolutive, tel un incendie par exemple, susceptible d’entraîner un nombre potentiellement élevé de victimes (moins de la centaine) et qui nécessite rapidement l’envoi de moyens en nombre."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Causes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Les situations à multiples victimes trouvent leurs origines dans différents types de sinistres :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "accidents de trafic : routier, ferroviaire, aérien, maritime ou fluvial ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "incendies : feux d’habitations collectives, d’établissements de soins (hôpitaux, maisons de retraite…), d’établissements recevant du public (salles de spectacles…), de tunnel, etc. ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "effondrements de structures (explosion, glissement de terrain, avalanche, vétusté) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "accidents sociaux : manifestations avec de grands mouvements de foules (émeutes, paniques…), agressions collectives… ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "actes de terrorisme : explosions, armes chimiques… ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "catastrophes naturelles limitées : avalanches, glissements de terrain, tremblements de terre, inondations, raz-de-marée, tornades… ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "catastrophes technologiques : fuites de produits, explosion d’installations de matières dangereuses, rupture de barrage… ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "accidents infectieux : intoxications collectives, épidémies, bioterrorisme…"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Caractéristiques",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Les principales conséquences caractérisant un accident entraînant de nombreuses victimes peuvent être :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "la présence de nombreuses victimes réelles ou potentielles ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "des dégâts matériels importants ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "une inadéquation, initiale et temporaire, entre les moyens immédiatement disponibles et les besoins."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Présence de nombreuses victimes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Les blessés sont suffisamment nombreux pour que la situation soit inhabituelle. Leur nombre est souvent difficilement appréciable au début, car les blessés valides ont toujours tendance à fuir les lieux avant l’arrivée des secours."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Les lésions rencontrées chez les victimes sont uniques ou multiples, visibles ou non, et leurs conséquences peuvent être immédiates ou retardées. Des lésions internes, dues à une explosion, une compression prolongée d’un membre ou à une exposition à des toxiques (chimiques, radiologiques, fumées d’incendie…) peuvent entraîner des détresses vitales après un temps de latence. L’accès aux victimes est un élément important de ce type d’intervention. Certaines peuvent être accessibles immédiatement, car retrouvées en surface ou, au contraire, difficilement repérables, car recouvertes (poussières…). D’autres, emprisonnées sous d’importantes structures ou enfouies en profondeur, sous les gravats, nécessiteront la mise en œuvre de moyens spécialisés de dégagement. Le piétinement des structures et le bruit sont autant d’éléments qui peuvent rendre plus difficile leur localisation. Les blessés ne sont pas les seules victimes à prendre en charge. Un grand nombre de personnes, non blessées, sont tout de même considérées comme victimes de la catastrophe, car elles auront un proche perdu de vue, tué ou blessé, ou bien parce qu’elles auront assisté à des scènes difficilement supportables, perdu un bien matériel important (habitation détruite…). Victimes d’un traumatisme psychique, ces personnes présentent des manifestations caractéristiques que les secours reconnaîtront et dont la prise en charge est nécessaire. Leur regroupement au sein d’une zone dédiée aux impliqués est primordial pour assurer leur prise en charge. Au côté du personnel spécialisé des cellules d’urgence médico-psychologique (CUMP), le secouriste peut apporter une aide et une écoute réconfortante à ces victimes et faciliter ainsi l’expression des émotions ressenties. Un certain nombre de victimes seront aussi découvertes en arrêt cardiaque ou mortes. Les corps peuvent être intacts ou fortement mutilés."
+        }
+      ]
+    },
+    {
+      "titre": "Dégâts matériels importants",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Les dégâts engendrés par un accident de ce type sont souvent importants et étendus. Ils dépendent de la cause du sinistre."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Ils touchent habituellement les véhicules, les habitations, les constructions ou bâtiments à usage administratif ou privé et, parfois, des établissements sanitaires ou industriels. Ces dégâts peuvent engendrer des risques persistants, notamment pour les intervenants (feux, fumées, fuite de produits toxiques, éboulements…), et rendre l’accès, au site de la catastrophe comme aux victimes, difficile et laborieux. L’importance de ces dégâts aura un impact direct sur le sauvetage des victimes, leur dégagement et la nature des gestes de secours à réaliser."
+        }
+      ]
+    },
+    {
+      "titre": "Inadéquation des moyens",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Afin de limiter au maximum les effets du sinistre, il faut adopter une méthode spécifique de prise en charge des victimes, d’une part, et organiser les secours en se fondant sur une organisation qui intègre et coordonne les maillons de la chaîne des secours. Cette organisation s’appuie sur la planification ORSEC 1 ."
+        }
+      ]
+    },
+    {
+      "titre": "Principe de l’action de secours",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "procéder à une reconnaissance rapide du site ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "assurer la sécurité ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "transmettre sans délai les informations recueillies et de demander des moyens de renforcement ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "procéder au repérage des nombreuses victimes ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "réaliser les gestes de secours les plus urgents."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "1 Le Code de la sécurité intérieure fixe l'organisation de la réponse de sécurité civile (ORSEC)."
+  ]
+}

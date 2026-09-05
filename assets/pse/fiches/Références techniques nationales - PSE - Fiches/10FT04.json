@@ -1,0 +1,141 @@
+{
+  "nom": "10FT04",
+  "titre": "Préparation d’un dispositif de portage",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Relevage et brancardage",
+  "chapitres": [
+    {
+      "titre": "Indication",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Cette technique est indiquée chaque fois qu’une victime doit être installée sur un brancard ou un autre dispositif qui permet son transport."
+        }
+      ]
+    },
+    {
+      "titre": "Justification",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Afin d’assurer un transport correct et confortable de la victime, le dispositif de portage doit être préparé par les secouristes."
+        }
+      ]
+    },
+    {
+      "titre": "Matériel",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "un matériel de relevage ou de brancardage ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "un drap 1 ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "une couverture ; Elle est destinée à protéger la victime du froid. Il est préférable d’utiliser des couvertures bactériostatiques, lavables ou d’intercaler entre la couverture et la victime un drap de préférence à usage unique."
+            },
+            {
+              "niveau": 1,
+              "texte": "une couverture de survie 2 ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "des sangles de fixation. Les brancards sont équipés ou peuvent s’équiper de sangles de fixation permettant le maintien de la victime sur le brancard. Avec les plans durs, des sangles-araignées peuvent être utilisées."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Pour un brancard",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Chaque fois que possible, la victime est enveloppée dans un drap puis une couverture avant d’être arrimée sur le brancard. Pour cela :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "assurer le montage du brancard, si nécessaire ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "installer un drap ou une couverture de survie sur le brancard. Le drap ou la couverture de survie sont placés en règle générale sur le brancard avant d’y déposer la victime. Elle peut ensuite être enveloppée avec."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Une fois que la victime a été installée sur le brancard au moyen d’une technique adaptée à son état :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "recouvrir la victime au moyen d’une couverture ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "sangler la victime. Les sangles doivent passer par-dessus la couverture afin que l’ensemble soit parfaitement maintenu."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Pour une chaise de transport",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Un drap (ou une couverture) peut être disposé sur une chaise de transport pour envelopper une victime. Le drap est placé sur la chaise en prenant soin de ne pas le laisser traîner au sol pour ne pas gêner le déplacement. En aucun cas la couverture ou le drap ne devront rendre inaccessibles les sangles qui permettent de maintenir la victime une fois celle-ci installée sur la chaise."
+        }
+      ]
+    },
+    {
+      "titre": "Risques & Contraintes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Néant."
+        }
+      ]
+    },
+    {
+      "titre": "Évaluation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Une fois préparé, le dispositif de portage doit permettre :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "d’envelopper facilement et totalement le corps de la victime dans un drap ou une couverture de survie ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "de maintenir la victime à l’aide de sangles pour éviter qu’elle ne chute pendant le transport."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "1 Le drap peut être en toile ou en matériau intissé. Il est préférable d’utiliser des draps à usage unique. Les draps stériles sont utilisés pour envelopper une victime qui présente des brûlures étendues.",
+    "2 Le face ou la couleur de la couverture de survie n’ont que peu d’incidence sur la déperdition de chaleur."
+  ]
+}

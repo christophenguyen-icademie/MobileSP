@@ -1,0 +1,127 @@
+{
+  "nom": "01FT03",
+  "titre": "L’écoute active",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Attitude et comportement",
+  "chapitres": [
+    {
+      "titre": "Indications et justifications",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’écoute active est une technique de communication qui consiste à utiliser le questionnement et la reformulation afin de s’assurer que l’on a compris au mieux le message de son interlocuteur et de lui démontrer. Pratiquer l’écoute active, c’est adopter une attitude ouverte et bienveillante en laissant l’autre s’exprimer sans jugement pour favoriser une alliance positive avec la personne."
+        }
+      ]
+    },
+    {
+      "titre": "Réalisation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Pour la mise en pratique de l’écoute active, il est utile de s’appuyer sur les 4 ( Recontextualiser, Reformuler, Renforcer, Résumer)."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Recontextualiser Remettre dans le contexte et associer ce que dit la personne aux conditions de survenue. Il s'agit d'aider la personne à préciser la situation, en posant des questions ouvertes :"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "« J'ai mal\"/ \"Pouvez-vous me dire où vous avez mal exactement ? » « C'est grave\" / \" Qu'est-ce qui vous fait dire que c'est grave ? » « J'ai peur\" / \" Quand, de quoi, de qui avez-vous peur? » Reformuler S'assurer qu'on a bien compris ce que la personne a voulu dire, en lui demandant de clarifier le sens de certains éléments."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Relancer l’échange à partir des mots utilisés par la personne :"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "« Je ne sens plus mon pied » / « Vous ne sentez plus votre pied ? » ou « Quand je respire, j'ai mal à la poitrine » / « A la poitrine ? »"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Reprendre les propos de la personne en commençant par : « Si je comprends bien... » / « En somme... » / « Ce que vous me dites c'est... » et en répétant ou en résumant ensuite ce qu'elle dit."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Renforcer Demander si nécessaire des approfondissements afin d'avoir plus d'éléments sur le point de vue de l'autre : « Comment pourriez-vous faire? Quelle solution pouvez-vous trouver? »"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Renforcer positivement une personne permet d'augmenter la probabilité que son comportement soit adapté et acceptable. C'est une intervention qui cherche à développer la participation active de la personne, à améliorer la collaboration."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Renforcer un fait, une action : « Super! Vous voyez, vous réussissez à... »"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Renforcer les qualités de la personne : « Vous avez de bonnes ressources pour... »"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Résumer Confirmer à l'interlocuteur qu'il a bien été écouté et compris en synthétisant la situation. Ceci contribue à apaiser la relation et permet de mieux comprendre et de faire avancer la situation :"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "« si j'ai bien compris... », « si je résume la situation... »"
+        }
+      ]
+    },
+    {
+      "titre": "Contraintes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le secouriste veillera à ne pas :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Conseiller, proposer des solutions : « Si j’étais à votre place... », « Vous devriez... »."
+            },
+            {
+              "niveau": 1,
+              "texte": "Juger négativement, critiquer : « Vous avez tort... » « C’est ridicule de... », « vous n’auriez pas dû… », « C'est n'importe quoi »."
+            },
+            {
+              "niveau": 1,
+              "texte": "Rationaliser, raisonner : « Mais enfin, réfléchissez ! », « L’expérience prouve que... », « Vous savez que ce n'est pas possible »."
+            },
+            {
+              "niveau": 1,
+              "texte": "Menacer, faire du chantage : « Je vous avertis... », « Si vous faites cela... »."
+            },
+            {
+              "niveau": 1,
+              "texte": "Culpabiliser, faire la morale : « vous rouliez sans doute trop vite », « Pensez à votre entourage… », « Ça ne vaut pas le coup de se mettre dans cet état… », « c'est de votre faute, quelle idée de... » , « vous auriez pu être plus vigilant... »."
+            },
+            {
+              "niveau": 1,
+              "texte": "Rabaisser, ridiculiser : « Un enfant de 10 ans le ferait... », « Vous ne comprenez pas ce que je vous dis », « Ne faites pas le douillet »."
+            },
+            {
+              "niveau": 1,
+              "texte": "Pratiquer une pseudo-analyse : « Vous dites cela parce que vous manquez de confiance en vous... », « Votre crise d'angoisse, ça doit venir de votre enfance »."
+            },
+            {
+              "niveau": 1,
+              "texte": "Consoler, minimiser : « Vous exagérez le problème », « Ne vous en faites pas, ça va passer... », « Une de perdue dix de retrouvées », « Ce n’est pas grave », « Ce n'est que du matériel », « Vous avez de la chance », « Estimez-vous heureux, vous auriez pu… »."
+            },
+            {
+              "niveau": 1,
+              "texte": "Parler de soi : « Moi, ça m'est aussi arrivé́... », « C’est comme l’année dernière, j’étais... »,"
+            },
+            {
+              "niveau": 1,
+              "texte": "Faire des comparaisons : « Regardez untel, il le fait bien, lui ! », « Non, mais il y a pire que vous »."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

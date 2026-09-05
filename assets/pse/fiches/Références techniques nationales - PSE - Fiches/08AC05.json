@@ -1,0 +1,251 @@
+{
+  "nom": "08AC05",
+  "titre": "Affections liées à la chaleur",
+  "niveaux": [
+    "PSE 2"
+  ],
+  "chapitre_principal": "Atteintes circonstancielles et environnementales",
+  "chapitres": [
+    {
+      "titre": "Définition",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Les affections liées à la chaleur sont des élévations anormales, au-dessus de 37,5 °C, de la température corporelle, plus ou moins accompagnées de différents symptômes non spécifiques. La forme d'évolution la plus grave, qui engage le pronostic vital, est le coup de chaleur (ou hyperthermie maligne d’effort), qui associe une température corporelle supérieure à 40 °C et des troubles neurologiques et qui évolue vers une détresse vitale avec notamment des troubles circulatoires."
+        }
+      ]
+    },
+    {
+      "titre": "Causes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Les affections liées à la chaleur sont dues :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "soit à une exposition prolongée à des températures élevées (canicule, enfant dans une voiture..) :"
+            },
+            {
+              "niveau": 2,
+              "texte": "épuisement lié à la chaleur consécutif à une exposition prolongée à la chaleur,"
+            },
+            {
+              "niveau": 2,
+              "texte": "insolation consécutive à une exposition prolongée au soleil,"
+            },
+            {
+              "niveau": 2,
+              "texte": "coup de chaleur."
+            },
+            {
+              "niveau": 1,
+              "texte": "soit à un effort important :"
+            },
+            {
+              "niveau": 2,
+              "texte": "hyperthermie maligne d’effort couramment appelée « coup de chaleur d’exercice »."
+            },
+            {
+              "niveau": 1,
+              "texte": "soit à l’association des deux."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Plus la température ambiante est élevée, plus l’organisme a du mal à perdre de la chaleur, surtout si le milieu est chaud et humide, et qu’un effort est produit. La température centrale de l’organisme s’élève et est associée à une perte d’eau et de sels minéraux."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Les personnes âgées et les nourrissons y sont particulièrement sensibles, notamment si elles présentent des maladies chroniques. La prise de certains traitements ou toxiques (drogues) peuvent les favoriser. Les manifestations liées à la chaleur sont aggravées par la durée de l’exposition et les vêtements contraignants qui empêchent l’évaporation de la sueur."
+        }
+      ]
+    },
+    {
+      "titre": "Risques & Conséquences",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’exposition prolongée à la chaleur peut entraîner des troubles graves du fonctionnement de l’organisme lorsque le système de thermorégulation de l’organisme est dépassé ou cesse de fonctionner. Cette exposition peut entrainer une déshydratation, des atteintes du foie, des reins et des fonctions neurologiques et circulatoires, pouvant entrainer des séquelles graves ou le décès de la victime."
+        }
+      ]
+    },
+    {
+      "titre": "Signes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le 1er regard est essentiel. Il permet de constater l’exposition à la chaleur, au soleil ou l’existence d’un contexte d’effort important. Lors du 2ème ou 3ème regard, la victime peut présenter :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "des signes d’une détresse respiratoire :"
+            },
+            {
+              "niveau": 2,
+              "texte": "fréquence respiratoire élevée,"
+            },
+            {
+              "niveau": 2,
+              "texte": "oppression thoracique,"
+            },
+            {
+              "niveau": 2,
+              "texte": "sensation d’étouffement."
+            },
+            {
+              "niveau": 1,
+              "texte": "des signes d’une détresse circulatoire :"
+            },
+            {
+              "niveau": 2,
+              "texte": "fréquence cardiaque élevée,"
+            },
+            {
+              "niveau": 2,
+              "texte": "hypotension artérielle,"
+            },
+            {
+              "niveau": 2,
+              "texte": "troubles du rythme cardiaque (pouls irrégulier)."
+            },
+            {
+              "niveau": 1,
+              "texte": "des signes de détresse neurologique :"
+            },
+            {
+              "niveau": 2,
+              "texte": "confusion,"
+            },
+            {
+              "niveau": 2,
+              "texte": "désorientation,"
+            },
+            {
+              "niveau": 2,
+              "texte": "délire,"
+            },
+            {
+              "niveau": 2,
+              "texte": "trouble du comportement (prostration, agressivité, agitation),"
+            },
+            {
+              "niveau": 2,
+              "texte": "perte de connaissance,"
+            },
+            {
+              "niveau": 2,
+              "texte": "convulsions."
+            },
+            {
+              "niveau": 1,
+              "texte": "des signes cutanéomuqueux avec :"
+            },
+            {
+              "niveau": 2,
+              "texte": "une peau chaude, rouge, couverte ou non de sueurs,"
+            },
+            {
+              "niveau": 2,
+              "texte": "hémorragie sous-cutanée puis extériorisée,"
+            },
+            {
+              "niveau": 2,
+              "texte": "une température anormalement élevée (supérieure à 37,5 °C)."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Si la victime est consciente et sans atteinte neurologique, elle se plaint souvent :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "d’une sensation de faiblesse musculaire et de fatigue générale ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "de céphalées, de bourdonnements d’oreilles ou de vertiges ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "de nausées ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "de crampes musculaires ou d’hypertonie musculaire (muscle tendu, dur)."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Suivant les circonstances et l’importance des manifestations, on parle de :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "crampes liées à la chaleur si la victime présente seulement des crampes ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "insolation (ou épuisement hyperthermique) : la victime a une impression de chaleur, elle se plaint de céphalées voire de vertiges. Elle a la peau rouge et une température qui reste inférieure ou égale à 40°C;"
+            },
+            {
+              "niveau": 1,
+              "texte": "coup de chaleur :"
+            },
+            {
+              "niveau": 2,
+              "texte": "Peut dépendre du contexte : effort physique prolongé (< 30 min) avec trouble neurologique quel que soit la température ambiante, exposition prolongée à la chaleur d'une enfant ou d'une personne âgée et troubles neurologiques"
+            },
+            {
+              "niveau": 2,
+              "texte": "Peut dépendre des signes cliniques 1 : les signes neurologiques peuvent précéder la température élevée ; la température peut-être en phase ascendante ; la température corporelle, mesurée de manière fiable, dépasse 40°C."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Principe de l’action de secours",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "soustraire la victime à la cause ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "refroidir la victime rapidement ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "réhydrater, si possible, et refroidir ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "demander un avis médical dans les cas de l’épuisement et du coup de chaleur."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Des troubles neurologiques progressifs qui reflètent une atteinte cérébrale (encéphalopathie) apparaissent. La victime éprouve des difficultés à marcher (démarche instable), manifeste de la confusion, des troubles visuels et comportementaux. L'apparition de convulsions ou une perte de connaissance indique une aggravation de son état. Si la température corporelle peut être mesurée de manière fiable, elle dépasse 40°C."
+  ]
+}

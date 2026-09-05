@@ -1,0 +1,163 @@
+{
+  "nom": "07FT07",
+  "titre": "Réalignement de membre",
+  "niveaux": [
+    "PSE 2"
+  ],
+  "chapitre_principal": "Traumatismes",
+  "chapitres": [
+    {
+      "titre": "Indication",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le réalignement est effectué chaque fois que possible par un médecin."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "En l’absence de médecin, on peut être amené, sur avis médical, à réaligner un avant-bras ou une jambe qui présente une fracture fermée, c’est-à-dire lui faire recouvrer un axe proche de la normale. Ce réalignement est indiqué par la présence de signes de complications vasculaires ou neurologiques (membre froid, pâle, insensible) ou si la déformation empêche la mise en place d’un dispositif d’immobilisation."
+        }
+      ]
+    },
+    {
+      "titre": "Justification",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La présence d’une déformation angulaire au niveau d’un membre fracturé peut entraîner une complication nerveuse ou vasculaire et constituer un obstacle ou une gêne à la mise en place d’un matériel d’immobilisation spécifique."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Le réalignement d’un membre traumatisé permet de :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "limiter les complications de compression vasculaire ou nerveuse ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "mettre en place une attelle."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Matériel",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Aucun matériel."
+        }
+      ]
+    },
+    {
+      "titre": "Fracture fermée de l’avant-bras",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le secouriste doit :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "saisir et bloquer avec une main l’articulation du coude de la victime ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "saisir le poignet ou la main de la victime, avec son autre main ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "ramener progressivement l’avant-bras dans l’axe en exerçant une traction douce."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "La traction n’est relâchée qu’après immobilisation du membre."
+        }
+      ]
+    },
+    {
+      "titre": "Fracture fermée de la jambe",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Cette technique nécessite que le secouriste soit assisté d’une seconde personne. Le secouriste doit :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "faire réaliser le maintien du genou de la victime par la personne qui l’assiste ; Il veille à ce que celle-ci saisisse à deux mains le genou de la victime et le bloque."
+            },
+            {
+              "niveau": 1,
+              "texte": "saisir à deux mains la cheville et ramener progressivement la jambe dans l’axe normal du membre inférieur en exerçant une traction douce."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "La traction n’est relâchée qu’après immobilisation du membre."
+        }
+      ]
+    },
+    {
+      "titre": "Risques & Contraintes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le réalignement d’un membre doit être immédiatement interrompu et un nouvel avis médical demandé si :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "il existe une résistance au réalignement ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "la douleur provoquée devient intolérable pour la victime."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Pendant ou après le réalignement, des complications vasculaires (hématome, compression d’un vaisseau) ou neurologiques (perte de la sensibilité ou de la motricité) peuvent apparaître. Dans ce cas, un nouvel avis médical doit être demandé."
+        }
+      ]
+    },
+    {
+      "titre": "Évaluation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le réalignement de membre est correct si :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "il est possible de poser sans difficulté un moyen d’immobilisation spécifique ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "on constate une atténuation de la douleur et des signes de complications."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

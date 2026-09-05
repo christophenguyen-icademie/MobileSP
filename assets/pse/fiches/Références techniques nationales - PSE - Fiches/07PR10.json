@@ -1,0 +1,75 @@
+{
+  "nom": "07PR10",
+  "titre": "Traumatisme du bassin",
+  "niveaux": [
+    "PSE 2"
+  ],
+  "chapitre_principal": "Traumatismes",
+  "chapitres": [
+    {
+      "titre": "Face à une urgence ou une détresse vitale, ou en cas d’aggravation",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "appliquer la conduite à tenir adaptée et réaliser en priorité les gestes d’urgence qui s’imposent ;"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Face à un traumatisme du bassin",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "laisser la victime en une position allongée stricte, si possible ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "dénuder le bassin de la victime :"
+            },
+            {
+              "niveau": 2,
+              "texte": "dans la mesure du possible en préservant son intimité pour vérifier la présence de lésions (plaies, hématomes, œdèmes) ou de sang sur les sous-vêtements,"
+            },
+            {
+              "niveau": 2,
+              "texte": "pour vérifier la présence de lésions dans le bas du dos ou au niveau des fesses de la victime au cours de sa mobilisation (PLS, relevage, immobilisation)."
+            },
+            {
+              "niveau": 1,
+              "texte": "mettre en place une contention externe du bassin :"
+            },
+            {
+              "niveau": 2,
+              "texte": "si la victime présente un traumatisme du bassin associé à des signes de détresse circulatoire : § après avis médical ; § en cas d’impossibilité d’obtenir un avis médical."
+            },
+            {
+              "niveau": 1,
+              "texte": "protéger au plus vite contre le froid, le vent ou la chaleur ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "transmettre le bilan pour obtenir un avis médical ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "relever et immobiliser sur un matelas à dépression, selon les consignes reçues ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "surveiller attentivement la victime du fait d’un risque d’aggravation brutale."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

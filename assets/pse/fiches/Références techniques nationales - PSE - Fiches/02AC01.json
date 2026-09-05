@@ -1,0 +1,85 @@
+{
+  "nom": "02AC01",
+  "titre": "Équipement de protection individuelle",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Protection et sécurité",
+  "chapitres": [
+    {
+      "titre": "Protection individuelle de l’intervenant",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Simple, léger et efficace, l’équipement de protection individuelle doit participer et favoriser à la sécurité de l’intervenant. En fonction des missions, il comprend :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "une paire de gants à usage unique, pour prévenir le risque de transmission par les mains, de germes dangereux ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "des bandes réfléchissantes sur les vêtements ou sur une chasuble, pour améliorer la visibilité du secouriste, notamment la nuit ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "des gants de manutention, pour se protéger du risque de plaies des mains lors de manipulation d’objets tranchants ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "un blouson adapté en cas de conditions climatiques difficiles, et éventuellement, un casque de protection si le secouriste intervient sur un accident de la circulation, de chantier ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "une lampe de poche ou frontale pour travailler en sécurité dans l’obscurité."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Protection contre la contamination",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Afin de comprendre comment les mesures de protection peuvent diminuer les risques de contamination, il est nécessaire de les connaître. L’objectif des techniques de protection utilisables par les intervenants est d’interrompre la transmission d’un germe d’un individu à l’autre et de limiter le risque de transmission d’un germe dangereux aux secouristes. Pour être efficaces, il est indispensable que ces techniques soient utilisées, chaque fois qu’une victime est prise en charge. En effet, il est impossible de dire si une personne, même apparemment saine, est porteuse ou non d’une maladie infectieuse. Ces mesures de protection passent par l’application des précautions standards et particulières pour lutter contre les infections."
+        }
+      ]
+    },
+    {
+      "titre": "Protection contre les objets perforants",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Il est fréquent de rencontrer des objets perforants (tranchants ou piquants) sur une intervention : débris de verre, métal tranchant, aiguille non protégée… Les gants à usage unique protègent l’intervenant d’une contamination par des liquides biologiques (sang, urine, salive…), mais nullement du risque de plaie par un objet perforant. Il doit déposer les objets tranchants ou piquants dans les boites de recueil des déchets d’activités de soins. Devant des débris de verre ou autres objets perforants, il doit mettre des gants épais de manutention et veiller à ne pas se blesser ou à ne pas blesser accidentellement un tiers."
+        }
+      ]
+    },
+    {
+      "titre": "Protection lors des manœuvres de réanimation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Même si le risque de transmission par la salive est très faible, il faut éviter d’utiliser une méthode orale directe de ventilation artificielle (bouche-à-bouche, bouche-à-nez) si l’on dispose d’un moyen de ventilation (insufflateur manuel)."
+        }
+      ]
+    },
+    {
+      "titre": "Vaccination",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Même si l’on est contaminé par un agent infectieux, le développement de la maladie n’est pas obligatoire, notamment si l’organisme est immunisé ou résistant à cet agent. Un des moyens d’acquérir cette résistance est la vaccination. La vaccination consiste à injecter dans l’organisme tout ou partie de l’agent infectieux tué ou atténué et permettre ainsi à son propre système immunitaire de développer une résistance spécifique. Comme cette résistance peut s’atténuer avec le temps, il est nécessaire, pour certains vaccins, de renouveler la vaccination à intervalle régulier, c’est le « rappel »."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Un certain nombre de vaccinations est recommandé pour le secouriste, en règle général par le service médical de l’autorité d’emploi de l’intervenant. Ce même service peut recommander ou effectuer d’autres vaccinations qu’il juge nécessaires. Il n’existe pas de vaccination pour chaque germe existant, c’est pourquoi les méthodes de protection décrites ci-dessus sont indispensables."
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

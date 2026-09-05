@@ -1,0 +1,111 @@
+{
+  "nom": "03PR01",
+  "titre": "Accident d’exposition à un risque viral",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Hygiène et asepsie",
+  "chapitres": [
+    {
+      "titre": "Dès la constatation d’un accident d’exposition à un risque viral",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "interrompre l’action de secours en cours, si possible ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "se faire relayer."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "S’il s’agit d’une plaie",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "ne pas faire saigner ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "nettoyer immédiatement, à l’eau courante et au savon, puis rincer ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "réaliser l’asepsie, en assurant un temps de contact d’au moins cinq minutes, à l’aide :"
+            },
+            {
+              "niveau": 2,
+              "texte": "d’un dérivé chloré stable (soluté de Dakin),"
+            },
+            {
+              "niveau": 2,
+              "texte": "d’un dérivé chloré fraîchement préparé (solution d’eau de javel à 9 ° chlorométrique diluée au 1/5 ème ),"
+            },
+            {
+              "niveau": 2,
+              "texte": "à défaut, d’un antiseptique à large spectre (produits iodés, par exemple)."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "En revanche, il convient de ne pas utiliser les produits pour traitement hygiénique des mains par friction."
+        }
+      ]
+    },
+    {
+      "titre": "En cas de projection sur les muqueuses, en particulier au niveau de la conjonctive",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "rincer abondamment, durant au moins cinq minutes avec :"
+            },
+            {
+              "niveau": 2,
+              "texte": "de préférence un soluté isotonique (sérum physiologique),"
+            },
+            {
+              "niveau": 2,
+              "texte": "à défaut de l’eau."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Après la réalisation de ces soins immédiats,",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "rendre compte sans délai à son autorité d’emploi afin de :"
+            },
+            {
+              "niveau": 2,
+              "texte": "poursuivre la procédure de soins ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "réaliser les formalités administratives obligatoires."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

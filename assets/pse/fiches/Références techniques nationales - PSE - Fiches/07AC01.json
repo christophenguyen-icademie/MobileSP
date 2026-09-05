@@ -1,0 +1,210 @@
+{
+  "nom": "07AC01",
+  "titre": "Brûlures",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Traumatismes",
+  "chapitres": [
+    {
+      "titre": "Définition",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La brûlure est une lésion de la peau, des voies aériennes ou digestives. Elle est qualifiée de :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "brûlure simple , lorsqu’il s’agit de rougeurs de la peau chez l’adulte ou d’une cloque dont la surface est inférieure à celle de la moitié de la paume de la main de la victime ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "brûlure grave , dès lors que l’on est en présence :"
+            },
+            {
+              "niveau": 2,
+              "texte": "d’une ou plusieurs cloques dont la surface totale est supérieure à celle de la moitié de la paume de la main de la victime ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "d’une destruction plus profonde (aspect blanchâtre ou noirâtre parfois indolore) associée souvent à des cloques et à une rougeur plus ou moins étendue ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "d’un aspect circulaire (qui fait le tour du cou ou d’un membre) ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "d’une brûlure dont la localisation est sur le visage ou le cou, les mains, les articulations ou au voisinage des orifices naturels ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "d’une rougeur étendue (un coup de soleil généralisé par exemple) de la peau chez l’enfant ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "d’une brûlure d’origine chimique, électrique ou radiologique."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Cette gravité est plus ou moins importante en fonction des différentes caractéristiques de la brûlure. Certaines brûlures sont du domaine du médecin traitant, d’autres nécessitent une prise en charge par un véhicule d’évacuation et de premiers secours pour être acheminées vers un service d’urgence. Enfin, les brûlures les plus graves nécessitent une médicalisation de leur transport avant leur acheminement vers un centre de traitement des brûlures."
+        }
+      ]
+    },
+    {
+      "titre": "Causes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La brûlure peut être provoquée par la chaleur, des substances chimiques, l’électricité, le frottement ou des radiations."
+        }
+      ]
+    },
+    {
+      "titre": "Risques & Conséquences",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Suivant l’étendue, la profondeur et la localisation, la brûlure peut entraîner :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "un danger immédiat comme une défaillance circulatoire (en cas de brûlure étendue) ou respiratoire (lors d’une brûlure au visage, au cou ou consécutive à l'inhalation de fumée) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "une douleur sévère ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "des conséquences retardées comme l’infection, les séquelles fonctionnelles ou esthétiques."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "La brûlure est évolutive, sans action immédiate, elle peut continuer de s’étendre en profondeur et en surface."
+        }
+      ]
+    },
+    {
+      "titre": "Signes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La reconnaissance d’une brûlure est en règle générale facile. Elle est réalisée le plus souvent au cours du 1er regard ou par l’écoute de la plainte principale. Que la victime présente ou pas une détresse vitale, c’est au cours du 4ème regard que le secouriste analyse les caractéristiques et par là même la gravité d’une brûlure. Une brûlure se caractérise par :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "son aspect ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "son étendue ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "sa localisation ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "la présence de douleur."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "L’aspect des brûlures diffère en fonction de la profondeur de celle-ci :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "une peau rouge, sèche et douloureuse traduit une atteinte superficielle ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "des cloques ou phlyctènes, uniques ou multiples et plus ou moins étendues, accompagnées d’une douleur forte ou modérée, traduit une atteinte plus profonde ; Elles peuvent se rompre spontanément en libérant un liquide clair. Leur apparition peut être retardée. L’aspect humide d’une zone brûlée en dehors d’un refroidissement à l’eau signe cette atteinte plus profonde."
+            },
+            {
+              "niveau": 1,
+              "texte": "une pâleur cireuse, un aspect noirâtre ou brunâtre de la peau traduit une atteinte très profonde de toutes les couches de la peau. Ces brûlures sont souvent peu douloureuses, car les terminaisons nerveuses ont été détruites."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Une zone brûlée peut revêtir plusieurs aspects conjoints. L’étendue de la brûlure doit être évaluée, car la surface atteinte conditionne également la conduite à tenir. Pour évaluer cette étendue, le secouriste peut s’aider de différentes règles dont la plus connue, chez l’adulte, est la règle de Wallace. Chez l’enfant et pour des petites surfaces, il peut s’aider de la surface de la main (paume et doigts) de la victime qui est égale à 1 % de la surface totale de la peau de la victime, quel que soit l’âge. La localisation de la brûlure doit être décrite avec précision, notamment s’il s’agit de localisations particulières comme :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "les brûlures des voies aériennes, objectivées par la présence de traces noires autour des narines et de la bouche ou de la langue, l’existence de toux ou de crachats noirs (qui seront systématiquement recherchés en cas de victimes d’incendie) ou de la modification de la voix qui devient rauque ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "les brûlures des mains, des plis de flexion, du visage ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "les brûlures à proximité immédiate des orifices naturels."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Une brûlure par ingestion doit être suspectée chez une personne qui, après avoir absorbé un liquide brûlant ou caustique, présente de violentes douleurs dans la poitrine ou à l’abdomen, parfois associées à des lésions de brûlure (chaleurs) ou des traces blanchâtres (caustiques) au niveau des lèvres ou de la bouche. Une brûlure par inhalation doit être suspectée chez une personne qui a respiré des fumées d’incendies ou inhalé des produits chimiques."
+        }
+      ]
+    },
+    {
+      "titre": "Principe de l’action de secours",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "supprimer la cause ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "identifier la gravité et la nature de la brûlure ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "limiter l’étendue ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "soulager la douleur et l’œdème ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "éviter l’apparition ou limiter l’aggravation, d’une détresse vitale éventuelle ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "limiter le risque d’infection."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

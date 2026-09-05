@@ -1,0 +1,157 @@
+{
+  "nom": "04FT01",
+  "titre": "Retournement à deux secouristes",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Bilans",
+  "chapitres": [
+    {
+      "titre": "Indication",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Cette technique est indiquée après avoir trouvé une victime sur le ventre. Elle doit être réalisée systématiquement lorsque l’on est en équipe et que la victime est suspecte d’un traumatisme du rachis."
+        }
+      ]
+    },
+    {
+      "titre": "Justification",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le retournement d’une victime et sa mise en position allongée, le dos sur le sol, est nécessaire pour :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "libérer les voies aériennes et rechercher les signes de respiration ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "réaliser les gestes d’urgence comme la ventilation artificielle et les compressions thoraciques ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "examiner une victime en vue d’une éventuelle immobilisation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Matériel",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Aucun matériel."
+        }
+      ]
+    },
+    {
+      "titre": "Réalisation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le retournement s’effectue du côté opposé au visage de la victime. Le secouriste 1 doit :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "se placer dans le prolongement de la tête de la victime, un genou à terre l’autre en l’air du côté du retournement ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "saisir la tête de la victime avec deux mains (prise occipito-frontale ou latéro-latérale si la victime porte un casque) sans bouger la tête. Le secouriste 2 doit :"
+            },
+            {
+              "niveau": 1,
+              "texte": "allonger le membre supérieur de la victime, le long du corps, du côté du retournement ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "glisser sa main sous sa cuisse ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "se placer dans une position stable (à genoux ou en trépied) du côté du retournement à une distance suffisante pour ne pas gêner le retournement de la victime ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "saisir la victime par l’épaule et par la hanche du côté opposé au retournement. Secouriste 1 : « Êtes-vous prêt ? » Secouriste 2 : « Prêt ! » Secouriste 1 : « Attention pour tourner… Tournez ! » Le secouriste 2 doit"
+            },
+            {
+              "niveau": 1,
+              "texte": "faire rouler doucement et d’un seul bloc la victime au sol pour l’emmener sur le côté ; Le secouriste 1 doit"
+            },
+            {
+              "niveau": 1,
+              "texte": "accompagner le mouvement de la tête qui effectue une rotation moindre que le corps pour la ramener dans l’axe."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Lorsque la victime se trouve sur le côté : Secouriste 1 : « Halte ! - Repositionnez-vous ! » Le secouriste 2 doit :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "repositionner ses mains ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "s’écarter de la victime afin de pouvoir l’allonger sur le dos sans encombre."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Secouriste 1 : « Attention pour tourner… Tournez ! » Le secouriste 2 doit"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "terminer le retournement pour amener la victime sur le dos ; Le secouriste 1 doit"
+            },
+            {
+              "niveau": 1,
+              "texte": "accompagner le mouvement en maintenant la tête dans l’axe."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Une fois la victime sur le dos, les signes de respiration peuvent être recherchés et les manœuvres de réanimation débutées, au besoin. En présence de trois secouristes, le troisième se place au niveau des membres inférieurs et les maintient tout en accompagnant le mouvement."
+        }
+      ]
+    },
+    {
+      "titre": "Risques & Contraintes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Afin de limiter tout risque d’aggravation d’un traumatisme de la colonne cervicale, il est préférable que le retournement soit réalisé à deux sauveteurs, au moins. À l’issue de la manœuvre, le maintien de la tête doit être conservé, éventuellement après s’être replacé afin d’adopter une position efficace."
+        }
+      ]
+    },
+    {
+      "titre": "Évaluation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’axe tête-cou-tronc de la victime doit être maintenu le plus rectiligne possible tout au long du retournement."
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

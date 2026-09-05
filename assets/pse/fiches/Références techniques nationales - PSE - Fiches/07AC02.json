@@ -1,0 +1,169 @@
+{
+  "nom": "07AC02",
+  "titre": "Plaie",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Traumatismes",
+  "chapitres": [
+    {
+      "titre": "Définition",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La plaie est une lésion de la peau avec effraction et atteinte possible des tissus sous-jacents."
+        }
+      ]
+    },
+    {
+      "titre": "Causes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Les plaies sont généralement secondaires à un traumatisme de :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "l’extérieur vers l’intérieur : coupure, piqûre, projectile, coup, morsures ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "l’intérieur vers l’extérieur : fracture ouverte, l’os cassé perfore la peau."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Risques & Conséquences",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Suivant son importance et sa localisation, une plaie peut avoir pour la victime plusieurs types de conséquences, comme :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "une hémorragie ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "une atteinte des organes sous-jacents ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "une infection de la plaie, qui peut s’étendre à tout l’organisme."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Ces atteintes peuvent entraîner une défaillance respiratoire, circulatoire ou neurologique. Toute plaie, toute piqûre, même minime, peut provoquer une maladie parfois mortelle : le tétanos. Seule la vaccination antitétanique protège du tétanos. Si le sujet n’a pas été vacciné, ou si la vaccination a plus de dix ans chez l’adulte ou cinq ans chez l’enfant, il doit immédiatement consulter un médecin. Une plaie peut aussi entraîner pour l’intervenant un risque de contamination par le sang de la victime (virus des hépatites et VIH)."
+        }
+      ]
+    },
+    {
+      "titre": "Signes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La personne est le plus souvent victime d’un traumatisme, avec ou sans signe de détresse vitale. C’est au cours du 4ème regard qu’est recherchée la présence de plaies, déterminée leur localisation, leur aspect et identifiée leur gravité. L’aspect d’une plaie permet d’apprécier plus facilement sa gravité et de décrire précisément la lésion lors de la transmission du bilan. On distingue ainsi :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "la contusion , qui est un choc ou un coup susceptible de provoquer une rupture des vaisseaux situés immédiatement sous la peau ; Le sang s’échappe dans les tissus sous l’épiderme, donnant une coloration violette et un aspect gonflé à la peau qui ne peut pas être rompue, c’est l’hématome. Ces hématomes sont parfois très étendus, traduisant une lésion plus profonde comme une fracture ou une lésion interne."
+            },
+            {
+              "niveau": 1,
+              "texte": "l’écorchure, qui est une plaie simple et superficielle avec un aspect rouge et suintant, souvent douloureuse et généralement provoquée par une chute avec glissement ou friction ; De petits corps étrangers incrustés dans la peau peuvent entraîner des infections secondaires."
+            },
+            {
+              "niveau": 1,
+              "texte": "la coupure, qui est provoquée par un objet tranchant (couteau, morceau de verre) ; Elle peut être accompagnée d’une hémorragie ou d’une lésion d’un organe sous-jacent."
+            },
+            {
+              "niveau": 1,
+              "texte": "la plaie punctiforme (en forme de point), qui est une plaie souvent profonde, provoquée par un objet pointu (clou, arme blanche, projectile) pouvant traverser les organes sous-jacents ; C’est une plaie souvent grave même si son aspect extérieur ne l’est pas. Une plaie par injection de liquide sous pression (accidents du travail ou de bricolage) présente le plus souvent ces caractéristiques."
+            },
+            {
+              "niveau": 1,
+              "texte": "la lacération, qui est une déchirure souvent complexe de la peau par arrachement ou écrasement. Cette plaie est irrégulière avec une atteinte des tissus sous-jacents."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Au-delà de l’aspect de la plaie, il convient d’en distinguer la gravité. Ainsi :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "une plaie est considérée comme simple lorsqu’il s’agit d’une petite coupure superficielle, d’une éraflure saignant peu, qui n’est pas située au niveau d’un orifice naturel ou de l’œil ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "une plaie est considérée comme grave du fait, entre autres :"
+            },
+            {
+              "niveau": 2,
+              "texte": "d’une hémorragie associée,"
+            },
+            {
+              "niveau": 2,
+              "texte": "d’un mécanisme pénétrant (objet tranchant ou perforant, morsures, projectiles),"
+            },
+            {
+              "niveau": 2,
+              "texte": "de sa localisation : cou, thorax, abdomen, œil, orifices naturels,"
+            },
+            {
+              "niveau": 2,
+              "texte": "de son aspect (déchiquetée, écrasée),"
+            },
+            {
+              "niveau": 2,
+              "texte": "de plaies multiples."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "En cas de doute, la plaie doit être considérée comme grave. Une plaie par injection de liquide sous pression est toujours une plaie grave dont la prise en charge chirurgicale est urgente."
+        }
+      ]
+    },
+    {
+      "titre": "Principe de l’action de secours",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "identifier la gravité d’une plaie ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "limiter les risques d’aggravation vers d’une détresse vitale ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "limiter le risque d’infection."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

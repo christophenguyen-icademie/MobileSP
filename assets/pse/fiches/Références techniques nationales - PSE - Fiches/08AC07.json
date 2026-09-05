@@ -1,0 +1,163 @@
+{
+  "nom": "08AC07",
+  "titre": "Gelures",
+  "niveaux": [],
+  "chapitre_principal": "Atteintes circonstancielles et environnementales",
+  "chapitres": [
+    {
+      "titre": "Définition",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Les gelures sont des lésions de la peau et des tissus sous-jacents provoquées par un refroidissement local intense suite à une exposition prolongée au froid. Elles siègent en général au niveau des extrémités du corps les plus exposées et les plus éloignées du cœur (pieds, mains) et aussi au niveau du visage (nez, oreilles, joues, lèvres)."
+        }
+      ]
+    },
+    {
+      "titre": "Causes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Les lésions de gelures peuvent se rencontrer :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "au cours d’activités en montagne : alpinisme, motoneige, chasse, camping d’hiver ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "au cours d’activités récréatives ou d’exploration en extérieur par temps ou en zone froide : randonnées ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "chez les personnes sans domicile exposées aux basses températures ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "suite à l’utilisation intempestive de sachets de froid chez certains athlètes."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Mécanisme",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Lorsque la température ambiante devient proche de zéro (0 °C), les vaisseaux à la surface de la peau commencent à se contracter, c’est la vasoconstriction. Cette vasoconstriction permet normalement à l’organisme de maintenir constante la température générale du corps et d’éviter ainsi une hypothermie. Cependant, si elle est intense et prolongée, elle entraîne une diminution du débit sanguin des extrémités exposées et entraîne une lésion par ischémie de la peau et des tissus sous-jacents. À ceci s’ajoute la survenue de cristaux intra et extracellulaires, de caillots intravasculaires et d’une réaction inflammatoire au réchauffement. Les gelures sont plus fréquentes s’il existe un ou plusieurs des facteurs suivants :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "personne âgée, personne habitant habituellement dans les pays chauds ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "maladie, fatigue, prise de médicaments ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "alimentation insuffisante, déshydratation ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "prise d’alcool, tabac, drogues ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "humidité ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "striction des extrémités par les vêtements ou les équipements ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "immobilité et immobilisation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Risques & Conséquences",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "En fonction du niveau de température d’exposition, de la durée de l’exposition, de l’étendue et de la profondeur de la zone atteinte, on peut distinguer, selon la réversibilité des lésions, plusieurs stades de gravité allant de lésions ischémiques réversibles a des lésions de nécrose irrémédiable qui imposeront une amputation. L’aspect des tissus atteints permet de déterminer plusieurs stades de gravité croissants, stades encore appelés « degrés » de la gelure :"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "1 er degré La zone atteinte est insensible, rouge, peu œdémateuse, mais sans cloques (phlyctènes). Après réchauffement, la zone se recolore et la victime récupère la perte de sensibilité ; 2 ème degré la zone atteinte reste localisée, insensible. Elle est rouge, œdémateuse, présente des cloques remplies d’un liquide clair. Au réchauffement, la perte de sensibilité persiste et les dernières phalanges des doigts ou des orteils restent bleues ou violacées ; 3 ème degré La zone atteinte est insensible, d’aspect bleuté ou noirâtre et remonte le plus souvent au- dessus des dernières phalanges sans atteindre la totalité de la main ou du pied. Après réchauffement, il persiste une anesthésie et il apparaît des cloques sanglantes (phlyctènes hématiques). L’irréversibilité de ces lésions impose le plus souvent une amputation de la zone la plus atteinte ; 4 ème degré La zone atteinte est extensive, totalement insensible, bleutée et englobe la main ou l’avant-pied sans œdème. Après réchauffement, il n’apparaît pas de cloques, les tissus restent froids et insensibles et certains deviennent nécrotiques. L’amputation est malheureusement nécessaire."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Le plus souvent, comme pour la brûlure, les degrés peuvent s’associer. L’identification de son degré de gravité, qui dépend de l’aspect final de la gelure, est réalisée en milieu hospitalier."
+        }
+      ]
+    },
+    {
+      "titre": "Signes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le 1er regard permet de constater une exposition prolongée au froid. Le 2ème ou 3ème regard recherchera plus particulièrement des signes d’une hypothermie ou d’autres détresses vitales qui peuvent être associées. Lors du 4ème regard, l’interrogatoire de la victime doit faire préciser :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "la nature des signes ressentis par la victime : sensation de « piqûres d’aiguilles », de douleur, d’engourdissement des extrémités ou une insensibilisation totale ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "les régions atteintes ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "la durée d’exposition au froid."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "La recherche des antécédents de la victime peut retrouver des facteurs favorisants la gelure : tabagisme, absorption d’alcool, maladies vasculaires et infectieuses, diabète, prise de médicaments (béta bloquants, sédatifs, neuroleptiques). L’examen des zones exposées permet de constater une pâleur cireuse locale, une zone glacée et un durcissement au toucher. Enfin, si la gelure est évoluée, la présence de cloques et d’un œdème sera observée. La présence d’autres traumatismes doit être précisée, car ils favorisent l’installation de la gelure (immobilisation)."
+        }
+      ]
+    },
+    {
+      "titre": "Principe de l’action de secours",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "soustraire la victime à la cause ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "éviter toute perte de chaleur supplémentaire ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "réchauffer et protéger les parties atteintes ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "demander un avis médical."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

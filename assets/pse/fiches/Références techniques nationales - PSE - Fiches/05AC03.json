@@ -1,0 +1,82 @@
+{
+  "nom": "05AC03",
+  "titre": "Hémorragies extériorisées",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Urgences vitales",
+  "chapitres": [
+    {
+      "titre": "Définition",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’hémorragie extériorisée est un épanchement de sang à l’intérieur de l’organisme qui s’extériorise par un orifice naturel (oreille, nez, bouche, voies urinaires, anus, vagin)."
+        }
+      ]
+    },
+    {
+      "titre": "Causes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’hémorragie extériorisée peut être d’origine traumatique (traumatisme du crâne, du thorax…), mais aussi d’origine médicale."
+        }
+      ]
+    },
+    {
+      "titre": "Risques & Conséquences",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Sous l’effet d’une hémorragie, la quantité de sang de l’organisme diminue. Dans un premier temps, la fréquence cardiaque augmente pour compenser cette perte et maintenir un débit et une pression suffisante dans les vaisseaux afin d’assurer la distribution de sang à l’organisme. Dans un deuxième temps, si le saignement n’est pas arrêté, la pression sanguine s’effondre, le débit diminue et une détresse circulatoire apparaît. Elle peut provoquer un « désamorçage de la pompe » et un arrêt du cœur. Une hémorragie extériorisée menace immédiatement ou à très court terme la vie d’une victime. Malheureusement, certaines hémorragies extériorisées ne peuvent pas être arrêtées par des gestes de secours habituels."
+        }
+      ]
+    },
+    {
+      "titre": "Signes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Ce saignement, lorsqu’il se situe au niveau du nez ou du conduit de l’oreille, peut être le signe d’une fracture du crâne. Par la bouche, il est le plus souvent lié à des crachats ou des vomissements. Dans les autres cas, il s’agit d’une perte de sang inhabituelle, émanant des voies :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "urinaires : émission de sang ou d’urine teintée de sang ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "anale : sang dans les selles ou saignement isolé ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "vaginale : règles anormalement abondantes ou saignement inattendu."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Quelle que soit son origine, ce saignement peut être le premier signe d’une maladie ou d’un traumatisme qu’il importe de traiter sans retard."
+        }
+      ]
+    },
+    {
+      "titre": "Principe de l’action de secours",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "limiter les conséquences du saignement."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

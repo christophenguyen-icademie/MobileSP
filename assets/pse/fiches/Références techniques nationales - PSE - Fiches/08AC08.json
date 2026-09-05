@@ -1,0 +1,194 @@
+{
+  "nom": "08AC08",
+  "titre": "Intoxications",
+  "niveaux": [
+    "PSE 2"
+  ],
+  "chapitre_principal": "Atteintes circonstancielles et environnementales",
+  "chapitres": [
+    {
+      "titre": "Définition",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’intoxication est un trouble engendré par la pénétration dans l’organisme d’une substance appelée poison ou toxique."
+        }
+      ]
+    },
+    {
+      "titre": "Causes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Les poisons ou toxiques peuvent être des aliments contaminés, des plantes vénéneuses, des toxiques domestiques (lessives, détergents, décapants, désherbants…), des toxiques industriels (gaz toxiques, produits chimiques…), actes malveillants (terrorisme, etc.). Les drogues, les médicaments et l’alcool peuvent également provoquer des intoxications. Le poison pénètre dans l’organisme par :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "ingestion : Il est avalé et absorbé par le tube digestif (aliments contaminés, médicaments, produits domestiques) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "inhalation : Il pénètre par les voies respiratoires et est absorbé dans l’organisme par les poumons (gaz toxiques, aérosols) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "injection : Il pénètre dans l’organisme à l’occasion d’une plaie (venins, piqûres) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "absorption : Il pénètre dans l’organisme à travers la peau saine (produits industriels : désherbants, pesticides)."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "L’intoxication peut aussi être causée par un environnement toxique. Le toxique est alors dans l’air, sous forme de gaz ou de fines particules en suspension (monoxyde de carbone, gaz carbonique, fumées d’incendie, gaz irritants, toxiques de guerre). Le mode de pénétration privilégié est alors l’inhalation, secondairement l’absorption."
+        }
+      ]
+    },
+    {
+      "titre": "Risques & Conséquences",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La gravité d’une intoxication varie en fonction de la nature du toxique et de la quantité de substance toxique qui a pénétré dans l’organisme. Les toxiques peuvent entraîner des troubles, immédiats ou retardés, dont la gravité, pouvant parfois conduire à la mort, varie en fonction de la nature et de la quantité qui a pénétré dans l’organisme. En présence d’un environnement toxique, la sécurité des intervenants est une priorité. En effet, ceux-ci peuvent sans le savoir entrer en contact avec le toxique, d’autant plus que certains gaz mortels sont totalement inodores et invisibles comme le monoxyde de carbone."
+        }
+      ]
+    },
+    {
+      "titre": "Signes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "En présence d’une intoxication due à un environnement toxique, le 1er regard est essentiel. Il permet :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "de voir, dans certains cas, la présence du nuage toxique ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "de sentir une odeur, forte, caractéristique, désagréable ou irritante ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "de constater que plusieurs personnes présentent les mêmes signes ou les mêmes plaintes ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "de repérer la présence d’animaux, malades, agonisants ou morts."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "En dehors de la présence d’un environnement toxique, l’intoxication est principalement due à l’ingestion volontaire ou accidentelle, liée à une erreur de dosage ou à l’ingestion d’aliments toxiques ou avariés."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Le 1er regard est là aussi essentiel, il permet de relever ou de rechercher la présence :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "de comprimés ou de boîtes de médicaments vides (table, poubelle) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "de flacons « suspects », au contenu non identifié ou présentant des pictogrammes de danger ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "de bouteilles d’alcool ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "d’une « lettre d’adieu » ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "de plantes vénéneuses ou de fruits toxiques (enfants : « intoxication de la dînette »)."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "L’interrogatoire de la victime, comme de son entourage, doit permettre de déterminer :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "les circonstances de survenue ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "la nature du (des) toxique(s) en cause ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "la dose supposée absorbée ainsi que l’heure de l’ingestion."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "L’examen de la victime peut retrouver des signes spécifiques qui peuvent faire évoquer des signes de consommation de drogues :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "présence de timbres médicamenteux autocollants (patch) sur la peau, quelle que soit leur localisation (creux axillaire, périnée, scrotum, etc.) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "présence de trace de piqûres, de scarification ou de cicatrices sur la peau."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Principe de l’action de secours",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "identifier autant que possible le toxique ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "assurer la sécurité de tous ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "demander des renforts si l’environnement est toxique ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "lutter contre une détresse vitale ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "demander un avis médical et suivre les instructions ;"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

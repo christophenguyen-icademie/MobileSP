@@ -1,0 +1,262 @@
+{
+  "nom": "06AC01",
+  "titre": "Malaise et aggravation de maladie",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Malaises et affections spécifiques",
+  "chapitres": [
+    {
+      "titre": "Définition",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le malaise est une sensation pénible, traduisant un trouble du fonctionnement de l’organisme, sans que la personne qui en est victime puisse en identifier l'origine. Ce trouble peut être fugace ou durable, de survenue brutale ou progressive, ou correspondre à une maladie qui s’aggrave. Parfois, la victime ne se rend pas compte de son trouble ou ne peut l’exprimer, c’est alors son entourage qui constate une anomalie et qui demande d’intervenir. Certaines personnes présentent des malaises répétitifs, souvent identiques, typiques d’une maladie (troubles cardiaques, diabète, asthme). On distingue couramment :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "le malaise bénin, qui est le plus courant, pour lequel la victime ne montre pas de détresse vitale et dont les signes disparaissent après quelques minutes de repos ; Ce type de malaise a souvent une cause facilement identifiable :"
+            },
+            {
+              "niveau": 2,
+              "texte": "fatigue et manque de sommeil,"
+            },
+            {
+              "niveau": 2,
+              "texte": "stress, émotion, colère,"
+            },
+            {
+              "niveau": 2,
+              "texte": "douleur violente,"
+            },
+            {
+              "niveau": 2,
+              "texte": "erreurs alimentaires : repas copieux bien arrosé ou jeûne trop prolongé."
+            },
+            {
+              "niveau": 1,
+              "texte": "le malaise grave, qui peut être révélateur d'une situation pouvant à tout moment entraîner une détresse vitale. Les manifestations que présente la victime peuvent être caractéristiques d’une maladie potentiellement grave et les signes, intenses et localisés, ne s’améliorent pas spontanément ou se répètent malgré la mise au repos."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Causes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "De nombreuses causes peuvent entraîner un malaise ou l’aggravation d’une maladie, telles que :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "une modification des conditions de vie : alimentation (jeûne prolongé, excès alimentaire), exercice physique (intense, prolongé, inhabituel), surmenage, fatigue, manque de sommeil, stress, émotions, traitements médicamenteux (prescription récente, modification de posologie, arrêt brutal d’un traitement au long cours) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "l’expression d’un problème de santé non connu, comme :"
+            },
+            {
+              "niveau": 2,
+              "texte": "un accident vasculaire cérébral ou un traumatisme cérébral accidentel récent,"
+            },
+            {
+              "niveau": 2,
+              "texte": "une hypo ou hyper-tension artérielle,"
+            },
+            {
+              "niveau": 2,
+              "texte": "une hypo ou hyper-glycémie,"
+            },
+            {
+              "niveau": 2,
+              "texte": "une fièvre élevée."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Il ne faut pas confondre un malaise ou une aggravation brutale d’une maladie avec la survenue de signes ou de manifestions qui sont secondaires à :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "une exposition à des facteurs thermiques extrêmes induisant :"
+            },
+            {
+              "niveau": 2,
+              "texte": "une hypothermie par exposition accidentelle au froid,"
+            },
+            {
+              "niveau": 2,
+              "texte": "une hyperthermie (coup de chaleur, par exemple)."
+            },
+            {
+              "niveau": 1,
+              "texte": "une exposition à un produit toxique : monoxyde de carbone, drogue, alcool…"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Signes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La victime est consciente et peut présenter des signes de gravité tels que :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "une sensation de froid 1 ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "une pâleur intense ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "une difficulté à respirer 2 ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "une paralysie du bras ou de la jambe, même transitoire ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "une difficulté à parler ainsi qu’une déformation de la bouche ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "une température de la peau, en particulier chez le nourrisson et la personne âgée, très élevée ou très basse après une exposition prolongée respectivement à la chaleur ou au froid."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "En l’absence de signe de détresse vitale rapidement identifiable, c’est le 4ème regard qui permet de retrouver les signes d’un malaise. L’analyse de la plainte de la victime permet de mettre en évidence des sensations particulières (symptômes) tels que :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "une angoisse, exprimée par des mots, tels que « Je ne me sens pas bien », « je me sens mal », « je vais mourir… » ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "une douleur « dans la poitrine » ou « au ventre », inhabituelle ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "une difficulté à respirer ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "une faiblesse brutale et intense ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "une difficulté à réaliser certains mouvements ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "des troubles visuels ou auditifs ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "une sensation de chaleur ou de froid ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "des nausées, vertiges ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "des maux de tête intenses et récents."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "L’interrogatoire permet de retrouver parfois des antécédents médicaux (maladies) ainsi que l’existence d’un traitement à prendre régulièrement ou en cas de malaise. L’examen de la victime permet de mettre en évidence des signes tels que :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "une difficulté d’élocution, une paralysie d’une partie du corps, des troubles de l’orientation dans l’espace (où sommes-nous ?), dans le temps (d’après vous, quelle est la date d’aujourd’hui ?) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "des tremblements ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "des extrémités bleutées (cyanose) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "une fréquence cardiaque supérieure à 120 battements par minute ou inférieure à quarante battements par minute ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "une fréquence respiratoire supérieure à vingt mouvements par minute ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "des vomissements, des diarrhées."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Risques & Conséquences",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Un malaise grave peut à tout moment évoluer vers une détresse vitale."
+        }
+      ]
+    },
+    {
+      "titre": "Principe de l’action de secours",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "apprécier la gravité du malaise ou de l’aggravation d’une maladie ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "installer la victime dans une position confortable ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "demander un avis médical."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "1 La victime est couverte de sueur, sans avoir fourni d’effort ou sans que la température ambiante en soit la cause.",
+    "2 La victime ne peut plus parler ou le fait avec de grandes difficultés."
+  ]
+}

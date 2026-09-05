@@ -1,0 +1,163 @@
+{
+  "nom": "08PR07",
+  "titre": "Hypothermie",
+  "niveaux": [
+    "PSE 2"
+  ],
+  "chapitre_principal": "Atteintes circonstancielles et environnementales",
+  "chapitres": [
+    {
+      "titre": "Introduction",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "soustraire la victime à la cause :"
+            },
+            {
+              "niveau": 2,
+              "texte": "certaines circonstances nécessiteront l’intervention d’équipes spécialisées ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "mettre la victime à l’abri du vent ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "isoler la victime dans un endroit chaud (point chaud, refuge, habitation, véhicule, ambulance) afin d’éviter toute perte de chaleur supplémentaire par conduction ou convection ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "ôter les vêtements de la victime, surtout s’ils sont mouillés ou humides. Cette opération doit se faire en prenant soin de mobiliser la victime délicatement et avec prudence (risque d ’ arrêt cardiaque brutal). Si la mobilisation se révèle pénible ou douloureuse pour la victime, couper les vêtements."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "La victime présente une détresse vitale",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "la victime ne présente pas de signes de vie. Elle est inconsciente et ne respire plus ou présente un état de mort apparente :"
+            },
+            {
+              "niveau": 2,
+              "texte": "appliquer la conduite à tenir devant une victime en arrêt cardiaque. Précautions particulières pour la RCP d’une victime hypotherme : § rechercher la présence de signes de vie au moins pendant 1 minute, La recherche de la ventilation ou du pouls d’une victime hypotherme est très difficile. En cas de doute, débuter la RCP. § l’hypothermie entraîne une rigidité de la paroi thoracique, Cette rigidité peut rendre plus difficiles les compressions et les insufflations thoraciques. § dès que la RCP est en cours, confirmer l’hypothermie en mesurant la température de la victime avec un thermomètre hypotherme s’il est disponible, § un cœur hypotherme peut ne pas réagir à une défibrillation, Le nombre de défibrillations successives chez une victime qui présente une température < 30 °C doit être limité à 3 tant que la victime n’est pas réchauffée. § une RCP ne sera débutée que si l’équipe de secours se trouve dans des conditions de sécurité satisfaisante."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "La victime a perdu connaissance et respire, même très lentement",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "appliquer la conduite à tenir devant une victime qui a perdu connaissance, même si elle respire lentement,"
+            },
+            {
+              "niveau": 1,
+              "texte": "réchauffer la victime (voir ci-dessous)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "La victime présente une hypothermie sévère ou modérée",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "allonger la victime et la mobiliser avec précaution ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "administrer de l’oxygène ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "transmettre le bilan pour avis et assurer une évacuation rapide de la victime. Appliquer les consignes reçues ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "réchauffer la victime (voir ci-dessous) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "surveiller attentivement la victime dans tous les cas ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "réaliser toute mobilisation de la victime très prudemment et sans à-coups."
+            },
+            {
+              "niveau": 1,
+              "texte": "Les victimes qui présentent une hypothermie modérée ou sévère sont très instables et peuvent faire facilement un arrêt cardiaque."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "La victime présente une hypothermie légère",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "transmettre le bilan et respecter les consignes ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "réchauffer la victime (voir ci-dessous) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "mobiliser la victime si vous n’avez pas de moyen de réchauffement et dans l’attente de secours complémentaires."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Réchauffement 1 de la victime",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Devant une victime consciente qui présente une hypothermie :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "légère (avec des frissons intenses), réaliser un réchauffement passif ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "modérée ou sévère (sans frisson), réaliser un réchauffement actif."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "1 Cf. « Techniques de réchauffement d’une victime »"
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

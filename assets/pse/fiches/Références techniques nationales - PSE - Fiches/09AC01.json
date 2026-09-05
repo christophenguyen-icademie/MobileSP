@@ -1,0 +1,369 @@
+{
+  "nom": "09AC01",
+  "titre": "Les personnes en situation de crise",
+  "niveaux": [
+    "PSE 2"
+  ],
+  "chapitre_principal": "Souffrance psychique et comportements inhabituels",
+  "chapitres": [
+    {
+      "titre": "Les états de crise",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Lors de l’action de secours, le secouriste peut être confronté à une victime présentant des réactions inhabituelles, d’intensité variable et de formes diverses, traduisant un état de crise. Ce dernier peut se manifester par un contact impossible à établir, une agitation extrême, un état d'ébriété, un vécu délirant, des hallucinations, une angoisse massive, un comportement agressif, une violence incontrôlable ou encore des intentions suicidaires."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Les origines de ces troubles peuvent être diverses : physiques, psychologiques ou psychiatriques."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "La plupart du temps, la demande de secours n’émane pas de la victime, mais de son entourage et nécessite une réponse urgente et immédiate du fait :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "De l’intensité émotionnelle des manifestations pouvant mettre en danger la personne elle-même et/ou son entourage"
+            },
+            {
+              "niveau": 1,
+              "texte": "Du risque vital pouvant exister selon l’origine du trouble."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Définition",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La crise est une manifestation brusque et intense, de durée limitée, pouvant entraîner des conséquences néfastes. Elle est révélatrice d’une rupture d’équilibre, générant une souffrance aiguë difficile à contenir par la victime elle-même ou par autrui."
+        }
+      ]
+    },
+    {
+      "titre": "Causes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Deux types de facteurs peuvent être à l’origine d’un état de crise :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Un facteur ou déclencheur externe : c’est-à-dire un événement stressant, voire potentiellement traumatisant lorsqu’il expose soudainement la personne qui y fait face, à une atteinte à l'intégrité physique et/ou morale voire une menace de mort (la sienne ou celle d’autrui) ou encore un événement bouleversant. Il peut s’agir d'un accident de la voie publique, d’une situation de violence, d’un événement catastrophique, etc., auquel la victime va répondre par une réaction aiguë."
+            },
+            {
+              "niveau": 1,
+              "texte": "Un facteur ou déclencheur interne à la personne : c’est-à-dire un changement ou un dysfonctionnement interne à la personne se traduisant par des réactions inhabituelles. Il peut s’agir de dysfonctionnements d’origine physique ou psychiatrique, tels que ceux décrits ci-dessous :"
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Hypoglycémie Hypoxie, TROUBLES Hypo ou hyperthermie, Déshydratation, ORGANIQUES Tumeur cérébrale Accident Vasculaire Cérébral … TRAUMATISMES Crânien PHYSIQUES Hémorragie grave Douleur intense générée par le traumatisme"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Alcool INTOXICATIONS Stupéfiants Médicaments (arrêt brutal, surdosage, interactions médicamenteuses). (volontaires ou Les prises de toxiques sont souvent associées entre elles (alcool et cocaïne par exemple) … involontaires)"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "ÉTATS AIGUS : états transitoires, mais qui parfois peuvent être un mode de révélation d’une maladie psychiatrique TROUBLES PSYCHIATRIQUES ÉTATS CHRONIQUES : troubles liés à une affection psychiatrique permanente, engendrant des difficultés dans la vie de la personne, des souffrances et des troubles du comportement (schizophrénie, troubles bipolaires, troubles du comportement alimentaire, troubles addictifs …)"
+        }
+      ]
+    },
+    {
+      "titre": "Risques et conséquences",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’état de crise prend souvent l’allure de troubles psychiatriques, alors qu’il peut être l’expression d’un problème physique."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "En état de crise, la victime n’est pas toujours raisonnable et consciente de la réalité de la situation, ce qui peut complexifier l’action de secours. Le secouriste risque ainsi d’être :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "confronté à une attitude opposante, de l’agressivité, voire de la violence"
+            },
+            {
+              "niveau": 1,
+              "texte": "exposé à un potentiel passage à l’acte agressif sur soi ou autrui"
+            },
+            {
+              "niveau": 1,
+              "texte": "contraint, dans certains cas, de se retirer par mesure conservatoire"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Signes et manifestations",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’état de crise est repérable au travers de manifestations inhabituelles. Ces dernières peuvent être le motif de l’intervention ou apparaître secondairement en cours de la prise en charge d’une victime."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Le secouriste les identifiera en observant la personne dans ses différentes sphères : comportementales, émotionnelles et cognitives."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Le secouriste observe Les signes et manifestations à repérer La présentation • Etat vestimentaire inadapté"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Etat d’hygiène : manque ou excès"
+            },
+            {
+              "niveau": 1,
+              "texte": "Présence de marques, blessures, etc."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Les signes physiques et • Une hyperventilation, une sensation d’étouffement physiologiques, de stress,"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Une pâleur ou coloration du visage, des sueurs, etc."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "de tension, d’anxiété :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Des tremblements, une tension musculaire"
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Le comportement • Une hypoactivité avec un contact difficile, voire impossible à établir : mutisme, isolement, incapacité à réagir, prostration"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Une hyperactivité, avec une agitation stérile, des actions désordonnées, irréfléchies, incontrôlables"
+            },
+            {
+              "niveau": 1,
+              "texte": "Une agressivité, voire une violence incontrôlable"
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Le discours • Un discours accéléré ou ralenti"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Un bégaiement ou autre anomalie du langage"
+            },
+            {
+              "niveau": 1,
+              "texte": "Un discours désorganisé, des propos incohérents"
+            },
+            {
+              "niveau": 1,
+              "texte": "Une incapacité à penser, à émettre un avis, une « sidération »"
+            },
+            {
+              "niveau": 1,
+              "texte": "Des troubles de la mémoire (amnésie)"
+            },
+            {
+              "niveau": 1,
+              "texte": "Une absence de conscience de son état"
+            },
+            {
+              "niveau": 1,
+              "texte": "De la confusion, de la désorientation"
+            },
+            {
+              "niveau": 1,
+              "texte": "Une perception négative de la vie, des intentions suicidaires"
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "L’état d’esprit et • Une hyperémotivité : cris, pleurs, panique/euphorie, exaltation émotionnel • Une peur intense, un fort sentiment d’insécurité"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Un sentiment de colère avec une tendance à l’agressivité, à la violence"
+            },
+            {
+              "niveau": 1,
+              "texte": "Une perte de contrôle de soi : impulsivité"
+            },
+            {
+              "niveau": 1,
+              "texte": "Une absence d’émotion, comme « déconnectée de ses émotions »"
+            },
+            {
+              "niveau": 1,
+              "texte": "De la tristesse, du désespoir"
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Au total, le secouriste peut se retrouver confronté à deux cas de figure :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Une victime présentant une attitude et un comportement plutôt inhibés (absence d’émotion, sidération, mutisme …) que l’on peut qualifier d’hypoactif, se manifestant par des réactions « silencieuses »."
+            },
+            {
+              "niveau": 1,
+              "texte": "Une victime aux manifestations extériorisées, dans une attitude et un comportement, désinhibés ou non contrôlés (hyperventilation, hyperémotivité, agitation …), de type hyperactif, se manifestant par des réactions « bruyantes »."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Les réactions « silencieuses »",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Après avoir été exposée à un événement stressant, potentiellement traumatisant ou bouleversant, la victime répond par une réaction aiguë pouvant prendre la forme d’un état de dissociation. Ce phénomène protecteur se met automatiquement en place chez la victime face à un stress extrême, lui permettant de se soustraire à la frayeur, de se déconnecter d’une réalité insupportable."
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Dans certains cas, la victime présente un état de stupeur , une paralysie de la capacité d’agir et de la volonté. Cet état de sidération est autant physique (ne bouge plus) que psychique (ne pense plus). Elle a un regard vide et une expression d’incompréhension totale. Elle peut demeurer immobile dans le danger. Cette sidération peut durer une minute comme plusieurs heures."
+            },
+            {
+              "niveau": 1,
+              "texte": "D’autres fois, la victime présente des comportements qui peuvent sembler normaux, mais qui se révèlent être des gestes répétitifs et inutiles ou peu adaptés à la situation et qui sont le reflet d’actions automatiques . L’expression du visage montre que la victime est « absente », comme si elle ne se rendait pas compte de la réalité tragique de l’événement. Si on lui parle, elle semble écouter, mais elle n’enregistre pas ce qui vient d’être dit. Une fois l’action terminée, elle est incapable de dire ce qu’elle vient de faire, ou encore elle n’en a conservé qu’un souvenir flou avec des « trous » de mémoire ou des « blancs ». Cet état peut durer de quelques minutes à plusieurs heures, au sortir desquelles elle aura l’impression d’émerger d’un rêve."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Dans ce type de réactions, la victime se trouve coupée de ses émotions et est incapable de les exprimer. Parfois l’état dissociatif est tel que la personne peut être totalement confuse et désorientée, sans notion de temps qui s’écoule, amnésique, elle peut errer sans savoir qui elle est et où elle est. Elle n’est donc pas en mesure de juger et d’évaluer la situation."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Ce type de manifestation est le signe d’une détresse psychologique aiguë, voire d’une blessure psychologique grave (risque de voir se développer par la suite des troubles psychotraumatiques). Elle nécessite une orientation vers une prise en charge psychologique spécialisée (aux urgences hospitalières, possibilité de prise en charge par la CUMP dans le cas d’événements impliquant de nombreuses victimes)."
+        }
+      ]
+    },
+    {
+      "titre": "Les réactions « bruyantes »",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "À l’opposé des réactions précédentes, il existe certaines réactions plus « bruyantes ». La victime présente une hyperactivité (physique ou psychique) d’intensité et de durée variable et qui peut être le signe d’une souffrance psychologique tout aussi grave."
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "La victime peut présenter une réaction de fuite panique prenant la forme d’une fuite impulsive, non raisonnée, éperdue, en se heurtant aux obstacles, en bousculant, renversant et piétinant autrui, et sans même savoir où elle va. La victime présente un faciès hagard, un regard vide, et une expression d’incompréhension totale. Il arrive que cette fuite panique pousse la personne affolée droit dans le danger. Cette réaction est très contagieuse, et peut dégénérer, par imitation, en panique collective. Elle peut durer quelques instants, le temps de l’impulsion ; mais elle peut durer plus longtemps voire jusqu’à épuisement physique."
+            },
+            {
+              "niveau": 1,
+              "texte": "D’autres fois, la victime manifeste une agitation désordonnée se traduisant par un état d’excitation, de gesticulation. Elle peut tenir des propos incohérents, parler beaucoup (logorrhée). Elle ne parvient pas à fixer son attention ou à se contrôler et n’est pas en mesure de prendre des décisions. La victime peut alors présenter des actions désordonnées ou irréfléchies et incontrôlables. Dans ce cas, elle risque d’être dangereuse pour elle-même et pour les autres. La terreur et l’affolement se lisent sur son visage, la communication et la relation aux autres sont perturbées (elle ne les reconnaît pas toujours et ne les écoute pas). Cette agitation peut être éphémère (quelques minutes) ou prolongée (plusieurs heures)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Précisions",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Il est possible que la victime passe d’une réaction à l’autre au cours de la prise en charge."
+            },
+            {
+              "niveau": 1,
+              "texte": "Les réactions de stress peuvent se prolonger pendant quelques heures, voire quelques jours après l’événement laissant la personne « sous tension ». Ces réactions ne sont pas forcément pathologiques et peuvent disparaître naturellement, telles des « courbatures psychologiques »."
+            },
+            {
+              "niveau": 1,
+              "texte": "Une réaction de stress semblant adaptée dans l’immédiat ne garantit pas toujours que la personne soit indemne de toute blessure psychique."
+            },
+            {
+              "niveau": 1,
+              "texte": "Dans certains cas, des manifestations inhabituelles peuvent apparaître après la fin de l’événement : crises de larmes, abattement, dépression brève, irritabilité passagère."
+            },
+            {
+              "niveau": 1,
+              "texte": "Enfin, la blessure psychologique peut entraîner l’installation de pathologies du stress comme le trouble de l’adaptation, le trouble de stress aigu (TSA) ou le trouble de stress post-traumatique (TSPT)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Autres réactions",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La réaction de stress n’est pas la seule réaction possible, les personnes peuvent également être violemment frappées par un choc de compassion ou une perte, quelle qu’elle soit."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Dans le cas du choc de compassion, la victime est marquée par la douleur de l’autre et engage des ruminations autour du drame qui se joue."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Les sentiments éprouvés ne seront donc pas de l’ordre de la peur cette fois, mais plutôt de la tristesse, de la colère ou de l’impuissance."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Les réactions peuvent varier et parfois donner lieu à une décharge brutale de souffrance psychique et à la mise en place de mécanismes de défense psychologique : sidération, malaise, incompréhension, déni, culpabilité, recherche de responsabilité, agressivité, etc."
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

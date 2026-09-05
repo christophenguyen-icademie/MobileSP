@@ -1,0 +1,342 @@
+{
+  "nom": "05FT11",
+  "titre": "Ventilation artificielle par un insufflateur manuel",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Urgences vitales",
+  "chapitres": [
+    {
+      "titre": "Indication",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La ventilation artificielle est nécessaire, après libération des voies aériennes, en présence d’une victime :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "en arrêt respiratoire ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "présentant une respiration agonique et dont la fréquence respiratoire est inférieure ou égale à six mouvements par minute."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Justification",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La ventilation artificielle par un insufflateur manuel permet d’apporter de l’air, éventuellement enrichi en oxygène, aux poumons d’une victime."
+        }
+      ]
+    },
+    {
+      "titre": "Matériel",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "insufflateur manuel à ballon autoremplisseur ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "masque d’insufflation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Description du matériel",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’insufflateur manuel se compose :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "d’un ballon autoremplisseur souple, élastique, qui reprend automatiquement sa forme quand on cesse d’appuyer dessus ; Il existe plusieurs modèles, en fonction du volume du ballon :"
+            },
+            {
+              "niveau": 2,
+              "texte": "adulte (> 25 KG) : 1400 à 2000 ml,"
+            },
+            {
+              "niveau": 2,
+              "texte": "pédiatrique (> 2,5 KG et < 25 KG): 400 à 500 ml,"
+            },
+            {
+              "niveau": 2,
+              "texte": "prématuré (< 2,5 KG) : 200 à 250 ml. Ce modèle est inefficace pour la réanimation du nouveau- né à la naissance ou le nourrisson. Il est exclusivement réservé au prématuré."
+            },
+            {
+              "niveau": 1,
+              "texte": "d’une valve d’admission d’air ou d’oxygène, qui empêche le retour du gaz contenu dans le ballon vers l’extérieur ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "d’un ballon réserve destiné à accumuler l’oxygène pendant l’insufflation ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "d’une valve séparatrice des gaz insufflés et des gaz expirés, contenue dans une pièce en « T » ; Elle oriente :"
+            },
+            {
+              "niveau": 2,
+              "texte": "les gaz frais du ballon vers la victime quand le secouriste appuie sur le ballon,"
+            },
+            {
+              "niveau": 2,
+              "texte": "les gaz expirés par la victime vers l’extérieur quand le secouriste relâche le ballon."
+            },
+            {
+              "niveau": 1,
+              "texte": "d’un dispositif de raccordement à la victime (masque ou sonde d’intubation)."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Les insufflateurs manuels prématurés et pédiatriques sont munis d’une valve de surpression préréglée à 35-40 mmHg, afin d’éviter à des poumons normaux d’être lésés par des pressions excessives. Le masque facial est destiné à recouvrir la bouche et le nez de la victime sans appuyer sur les yeux. De forme anatomique (triangulaire) chez l’adulte et l’enfant, ou circulaire chez le nourrisson, il est équipé d’un bourrelet en plastique mou, en silicone ou gonflable, destiné à assurer l’étanchéité entre le masque et la face de la victime. L’orifice supérieur permet de raccorder le masque à la pièce en « T »."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Il faut préférer des masques translucides, car ils permettent de voir rapidement les sécrétions ou vomissements et d’observer la coloration des lèvres de la victime. Il existe trois à sept tailles de masque allant de l’adulte au prématuré. En l’absence d’utilisation de matériel à usage unique, il faut mettre en place un filtre antibactérien entre la pièce séparatrice des gaz et le masque."
+        }
+      ]
+    },
+    {
+      "titre": "Réalisation",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "choisir un ballon insufflateur et un masque adapté à la victime et les connecter entre eux par l’intermédiaire de la pièce en « T » ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "se placer à la tête de la victime."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "À un secouriste",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "d’une main, assurer la libération des voies aériennes ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "saisir de l’autre main l’ensemble ballon/masque ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "placer le masque sur le nez de la victime, en appliquant le sommet du triangle sur la racine du nez ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "rabattre la base du masque vers le menton pour appliquer son pourtour sur le visage de la victime ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "appliquer le masque selon la technique de pince C-E, pour cela :"
+            },
+            {
+              "niveau": 1,
+              "texte": "placer le pouce de la main sur le masque, au-dessus du nez de la victime,"
+            },
+            {
+              "niveau": 1,
+              "texte": "et placer l’index sur la base du masque, au-dessus de la lèvre inférieure de la victime (le pouce et l’index forment un ainsi C),"
+            },
+            {
+              "niveau": 1,
+              "texte": "placer les autres doigts (3 ème , 4 ème et 5 ème doigts) en crochet sous le menton et le tirer vers le haut pour l’appliquer contre le masque et maintenir les VA de la victime libres (le pouce, l’index et les autres doigts forment ainsi un E),"
+            },
+            {
+              "niveau": 1,
+              "texte": "exercer une pression vers le bas avec le pouce et l’index et vers le haut avec les autres doigts."
+            },
+            {
+              "niveau": 1,
+              "texte": "Le maintien de la tête en arrière (position neutre pour le nourrisson) est réalisé par le mouvement du poignet de la main qui tient le masque. Cette saisie du masque et du menton sous forme de « pince » par la main du secouriste est l’élément essentiel qui permet d’assurer l’étanchéité du masque sur le visage de la victime tout en maintenant les VA libres."
+            },
+            {
+              "niveau": 1,
+              "texte": "empaumer le ballon dans la partie centrale avec l’autre main ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "comprimer le ballon progressivement, durant une seconde environ, jusqu’au début du soulèvement du thorax (la pression à exercer est variable selon la victime) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "relâcher le ballon, dès que la poitrine se soulève, tout en continuant de maintenir le masque."
+            },
+            {
+              "niveau": 1,
+              "texte": "La poitrine de la victime s’abaisse alors que l’air sort de ses poumons."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Recommencer le cycle d’insufflations afin d’obtenir une ventilation artificielle efficace."
+        }
+      ]
+    },
+    {
+      "titre": "À deux secouristes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Cette technique, dont un secouriste maintient les voies aériennes ouvertes et le masque alors que l’autre comprime le ballon, améliore l’étanchéité du masque. Préalablement :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "s’assurer de la bascule de la tête de la victime en arrière, menton tiré vers le haut."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Dans un premier temps, le secouriste 1 s’assure de la mise en place du masque et de son maintien à deux mains. Pour cela, il doit :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "placer le masque sur le nez de la victime, en appliquant le sommet du triangle sur la racine du nez ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "rabattre le masque vers le menton pour appliquer son pourtour sur le visage de la victime ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "appliquer le masque (technique de pince C-E) avec une main ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "placer l’autre main de façon symétrique à la première ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "exercer une pression, vers le bas avec les pouces et vers le haut avec les autres doigts ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "s’assurer de la bascule de la tête en arrière (position neutre pour le nourrisson)."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Dans un second temps, le secouriste 2 pratique les insufflations. Pour cela il doit :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "empaumer le ballon dans la partie centrale d’une seule main ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "comprimer le ballon progressivement, avec une seule main et durant une seconde environ, jusqu’au soulèvement du thorax (la pression à exercer est variable selon la victime) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "relâcher le ballon, dès que la poitrine se soulève. La poitrine de la victime s’abaisse alors que l’air sort de ses poumons."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Ensuite, recommencer le cycle d’insufflations afin d’obtenir une ventilation artificielle efficace. Si, durant la ventilation artificielle, la victime présente un vomissement, il faut :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "interrompre immédiatement la ventilation ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "tourner la victime sur le côté ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "dégager aux doigts les débris alimentaires solides et volumineux ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "aspirer les liquides de la bouche de la victime, si un aspirateur de mucosités est disponible ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "remettre la victime sur le dos ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "reprendre la ventilation artificielle."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Par l’intermédiaire d’une sonde d’intubation ou d’un dispositif supra- glottique",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le secouriste peut être amené à ventiler une victime à l’aide d’un insufflateur manuel directement relié à une sonde d’intubation ou un dispositif supra-glottique. Pour cela, il veille à ne pas mobiliser la sonde ou le dispositif lors des insufflations et respecte les consignes données."
+        }
+      ]
+    },
+    {
+      "titre": "Risques & Contraintes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Une insufflation trop rapide ou un volume d’air trop important peut entraîner un passage de l’air dans l’estomac et secondairement une régurgitation de son contenu. Ceci est plus fréquent chez l’enfant et le nouveau-né qui ont besoin de volumes d’air moins importants que l’adulte. Une régurgitation de liquide de l’estomac dans les voies aériennes de la victime entraîne un encombrement de celles-ci, compromet les manœuvres de réanimation et la survie de la victime. Les conditions d’entretien et de stockage des matériels doivent être conformes aux préconisations du fabricant."
+        }
+      ]
+    },
+    {
+      "titre": "Évaluation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’efficacité de la technique est jugée sur l’obtention d’un début de soulèvement de la poitrine de la victime, lors de chaque insufflation et l’absence de fuite d’air au niveau du masque."
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

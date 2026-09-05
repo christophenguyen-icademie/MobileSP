@@ -1,0 +1,120 @@
+{
+  "nom": "10FT10",
+  "titre": "Arrimage de la victime",
+  "niveaux": [
+    "PSE 2"
+  ],
+  "chapitre_principal": "Relevage et brancardage",
+  "chapitres": [
+    {
+      "titre": "Indication",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Toute victime doit être arrimée sur un brancard ou tout autre dispositif de transport avant son brancardage."
+        }
+      ]
+    },
+    {
+      "titre": "Justification",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Les mouvements entraînés au cours du brancardage peuvent être à l’origine d’une chute de la victime. Afin d’éviter cela, la victime doit obligatoirement être arrimée."
+        }
+      ]
+    },
+    {
+      "titre": "Matériel",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "harnais de sécurité adapté à la corpulence de la victime (enfant, adulte, obèse) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "sangles d'arrimage fixées au brancard ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "sangles de fixation ou sangle-araignée."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Réalisation",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "refermer le drap, la ou les couverture(s) sur la victime ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "arrimer la victime au brancard au moyen :"
+            },
+            {
+              "niveau": 2,
+              "texte": "du harnais de sécurité du brancard s'il en est doté,"
+            },
+            {
+              "niveau": 2,
+              "texte": "d’une sangle araignée,"
+            },
+            {
+              "niveau": 2,
+              "texte": "de trois sangles passant au niveau : § de la partie supérieure du thorax (au-dessus d’un bras et en dessous de l’autre), § du bassin, § des cuisses, juste au-dessus des genoux."
+            },
+            {
+              "niveau": 1,
+              "texte": "veiller à ce qu’aucune sangle n’appuie sur : une blessure, le cou, la partie inférieure du thorax, la partie supérieure de l'abdomen."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Si la victime est installée dans un matelas immobilisateur à dépression posé sur un brancard, l’arrimage de l’ensemble « victime-matelas » s’effectue de la même façon. Si le brancard n’est pas équipé de sangles de fixation, les secouristes peuvent arrimer la victime en utilisant des sangles, en évitant l’utilisation de cordes et cordages."
+        }
+      ]
+    },
+    {
+      "titre": "Risques & Contraintes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Un serrage excessif est susceptible d’occasionner à la victime :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "une compression ou une blessure ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "une sensation d’oppression."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Évaluation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’arrimage sur le brancard maintient la victime en totalité, sans compression de la partie inférieure du thorax, de la partie supérieure de l’abdomen ou d’une éventuelle lésion."
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

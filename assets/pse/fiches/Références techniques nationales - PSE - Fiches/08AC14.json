@@ -1,0 +1,113 @@
+{
+  "nom": "08AC14",
+  "titre": "Victimes d’avalanche",
+  "niveaux": [],
+  "chapitre_principal": "Atteintes circonstancielles et environnementales",
+  "chapitres": [
+    {
+      "titre": "Généralités",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Sur les lieux de l’avalanche, les témoins doivent :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "donner l’alerte ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "entamer les recherches : indices de surface, dernière position visuelle et utilisation d’un appareil détecteur de victime d’avalanche (DVA) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "dégager les victimes."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Asphyxie",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’asphyxie est la cause principale de décès. Plusieurs mécanismes sont possibles :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "obstruction immédiate des Voies Aériennes Supérieures (VAS) par la neige ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "inondation pulmonaire par aérosols de neige poudreuse ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "ensevelissement dans une neige très compacte et pauvre en air, empêchant la création d’une poche d’air devant les VAS ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "compression du thorax par une neige très compacte ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "création secondaire d’un masque de glace devant les VAS."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Traumatismes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La victime ensevelie est soumise à des forces mécaniques importantes et à des chocs directs, causes de traumatismes qui dépendent :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "du type de neige (avalanche de neige humide, compacte et lourde) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "du type de terrain avec présence d’obstacles (arbres, rochers, barres rocheuses, etc.) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "de la collision avec tout ce qui est emporté par l’avalanche."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Hypothermie",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La victime ensevelie perd 3 degrés environ par heure. En cas d’ensevelissement prolongé, l’hypothermie peut être responsable de troubles de la conscience, d’une bradycardie, voire d’un arrêt cardiaque. Chez l’hypothermie, la rigidité n’est pas un critère de mort certaine."
+        }
+      ]
+    },
+    {
+      "titre": "Information",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Identifier l’existence d’une poche d’air lors du dégagement de la tête de la victime est une information importante qui permet à l’équipe médicale de décider de la conduite à tenir."
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

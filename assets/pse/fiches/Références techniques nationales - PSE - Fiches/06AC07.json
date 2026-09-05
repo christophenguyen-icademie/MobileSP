@@ -1,0 +1,71 @@
+{
+  "nom": "06AC07",
+  "titre": "Réaction allergique grave",
+  "niveaux": [],
+  "chapitre_principal": "Malaises et affections spécifiques",
+  "chapitres": [
+    {
+      "titre": "Définition",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’allergie est une réaction de l’organisme à une substance étrangère ou allergène que l’individu touche, inhale, avale ou qui lui est administrée. Si les réactions allergiques sont relativement courantes et bénignes, elles peuvent dans certains cas donner une réaction généralisée sévère qui met en jeu le pronostic vital. Il s’agit alors d’une réaction allergique grave appelée « réaction anaphylactique » ou « anaphylaxie »."
+        }
+      ]
+    },
+    {
+      "titre": "Causes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’anaphylaxie est une réaction d’hypersensibilité allergique lorsqu’une personne sensible est en contact avec l’allergène. Les allergènes les plus connus sont souvent contenus dans : les pollens, les aliments, les produits chimiques, les médicaments, les venins."
+        }
+      ]
+    },
+    {
+      "titre": "Risques & Conséquences",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’anaphylaxie se caractérise par l’apparition brutale d’une atteinte des voies aériennes supérieures ou inférieures, ou d’une atteinte cardiovasculaire qui peut évoluer très rapidement vers un arrêt cardiaque et le décès de la victime."
+        }
+      ]
+    },
+    {
+      "titre": "Signes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’anaphylaxie peut survenir quelques minutes à quelques heures après l’exposition à un allergène (facteur déclenchant), chez une personne qui connaît son allergie ou qui présente ces signes pour la première fois. Lors du 2ème ou 3ème regard, elle se caractérise par des signes de détresse respiratoire : atteinte des voies aériennes inférieures (souffle court, sifflement expiratoire) ou obstruction des voies supérieures par œdème de Quincke (gonflement de la peau, de la gorge, du visage, de la bouche, des lèvres, de la langue, qui entraîne une voix rauque). Elle peut aussi prendre la forme d’une détresse circulatoire : accélération de la fréquence cardiaque, pouls radial faible et chute de la pression artérielle. Sans prise en charge rapide, la victime peut perdre connaissance et présenter un arrêt cardiaque. Lors du 4 ème regard, ces signes de détresse s'accompagnent souvent d'une atteinte cutanéomuqueuse (plaques rouges sur la peau généralisées et démangeaisons) et de troubles digestifs (douleurs abdominales, diarrhées, vomissements). Il est essentiel pour le secouriste de reconnaître ces signes et de savoir les rechercher. Ces manifestations peuvent être isolées, associées ou annoncer une aggravation."
+        }
+      ]
+    },
+    {
+      "titre": "Principe de l’action de secours",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "reconnaître les signes de la réaction allergique grave ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "soustraire la victime au facteur déclenchant ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "administrer, à la demande de la victime ou du médecin régulateur, un médicament si nécessaire ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "réaliser les gestes de secours qui s’imposent."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

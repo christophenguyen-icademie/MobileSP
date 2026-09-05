@@ -1,0 +1,121 @@
+{
+  "nom": "08PR02",
+  "titre": "Noyade",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Atteintes circonstancielles et environnementales",
+  "chapitres": [
+    {
+      "titre": "Introduction",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "assurer le sauvetage aquatique de la victime. Le dégagement d’une victime de l’eau doit être réalisé en toute sécurité :"
+            },
+            {
+              "niveau": 2,
+              "texte": "alerter ou faire alerter immédiatement les secours spécialisés,"
+            },
+            {
+              "niveau": 2,
+              "texte": "éviter de pénétrer directement dans l’eau chaque fois que possible, Si vous devez entrer dans l’eau, s’équiper d’une bouée ou de tout autre dispositif de flottaison pour pénétrer dans l’eau, ne pas s’aventurer seul et ne pas plonger tête la première."
+            },
+            {
+              "niveau": 2,
+              "texte": "parler à la victime et utiliser un moyen d’aide au sauvetage : envoi d’objet (bouée de sauvetage, bâton, corde, vêtement…) si la victime est proche de la terre ferme. Sinon, utiliser un bateau ou toute autre embarcation flottante pour faciliter le sauvetage"
+            },
+            {
+              "niveau": 1,
+              "texte": "sortir la victime rapidement de l’eau, la probabilité pour que la victime présente une lésion de la colonne vertébrale est très faible ; Si la victime est en arrêt cardiaque, sa sortie doit être aussi rapide que possible tout en limitant autant que possible la flexion et l’extension du cou. Les sauveteurs spécialisés peuvent réaliser une immobilisation du rachis cervical et thoracique avant de procéder à la sortie de l’eau dans les rares cas suivants :"
+            },
+            {
+              "niveau": 2,
+              "texte": "plongeon en eau profonde,"
+            },
+            {
+              "niveau": 2,
+              "texte": "victime d’accident de sport nautique (toboggan aquatique, scooter de mer, kitesurf, ski nautique, accident de la circulation avec chute dans l’eau…) : § et qui présente des signes d’atteinte du rachis, § qui ne peut être examinée (lésions multiples, intoxication alcoolique associée…)."
+            },
+            {
+              "niveau": 1,
+              "texte": "si la victime présente une détresse vitale, appliquer la conduite à tenir adaptée à son état en tenant compte des spécificités liées à la prise en charge d’une victime de noyade reprises ci-après ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "lorsque la victime est consciente, l’installer dans la position où elle se sent le mieux, si possible à l’abri du vent."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Dans tous les cas",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "compléter le 2ème ainsi que le 3ème regard ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "déshabiller la victime en évitant les mobilisations intempestives ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "sécher prudemment et sans friction la victime ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "envelopper la victime dans des couvertures et la protéger du vent ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "poursuivre le bilan et surveiller attentivement la victime."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Spécificités liées à la prise en charge d’une victime de noyade",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "si le secouriste est isolé , il doit réaliser cinq cycles de réanimation cardio-pulmonaire avant de quitter la victime pour aller alerter les secours ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "compressions thoraciques : Les compressions thoraciques ne sont débutées que si la victime est hors de l’eau, sur terre ou dans une embarcation. Pour réaliser les compressions thoraciques dans les embarcations, il est possible d’utiliser des dispositifs automatiques de massages cardiaques externes. Leur efficacité similaire aux compressions thoraciques manuelles en situation normale prend toute sa valeur dans un environnement difficile et étroit et pour des réanimations prolongées."
+            },
+            {
+              "niveau": 1,
+              "texte": "administration d’oxygène : L’administration d’oxygène sera rapide, systématique et à haute concentration (15 l/min) tant que la victime est en arrêt cardiaque et tant que l’on ne peut obtenir une SpO fiable."
+            },
+            {
+              "niveau": 1,
+              "texte": "défibrillation : Sécher le thorax avant de placer les électrodes pour la défibrillation, en respectant les consignes de sécurité liées à son utilisation."
+            },
+            {
+              "niveau": 1,
+              "texte": "manœuvres de désobstruction : La quantité d’eau inhalée par une victime d’une noyade est en général faible. La mousse aux lèvres, composée d’un mélange d’eau et d’air, est très fréquente chez la victime de noyade et ne gêne pas la ventilation. Ne pas insister pour l’enlever. Les techniques de désobstruction des voies aériennes (tapes dans le dos, compressions abdominales) sont dangereuses et ne doivent pas être réalisées. En effet, elles peuvent entraîner une régurgitation, une inhalation de liquide gastrique, des lésions traumatiques et retardent la mise en œuvre de la réanimation cardio-pulmonaire."
+            },
+            {
+              "niveau": 1,
+              "texte": "survenue de régurgitations : Au cours de la réanimation, si la victime présente une régurgitation du contenu de l’estomac et de l’eau avalée qui gêne la ventilation, il convient de la tourner immédiatement sur le côté et retirer les débris alimentaires présents dans la bouche à l’aide des doigts et pratiquer une aspiration des sécrétions. Si une lésion cervicale est suspectée, retourner la victime d’un bloc, en gardant la tête, le cou et le torse alignés."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

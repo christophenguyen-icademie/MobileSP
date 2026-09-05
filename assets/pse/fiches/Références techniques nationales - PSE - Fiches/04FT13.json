@@ -1,0 +1,226 @@
+{
+  "nom": "04FT13",
+  "titre": "Mesure de la glycémie capillaire",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Bilans",
+  "chapitres": [
+    {
+      "titre": "Indication",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "En situation d’urgence et en l'absence de la présence d'un infirmier ou d'un médecin, la mesure de la glycémie est réalisée par les secouristes devant toutes victimes qui présentent :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "des signes qui évoquent un accident vasculaire cérébral ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "un malaise susceptible d’être lié à une hypoglycémie :"
+            },
+            {
+              "niveau": 2,
+              "texte": "malaise chez un diabétique,"
+            },
+            {
+              "niveau": 2,
+              "texte": "malaise à l’effort, à jeun."
+            },
+            {
+              "niveau": 1,
+              "texte": "des troubles du comportement (agitation, prostration, agressivité) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "une perte de connaissance."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "La mesure de la glycémie peut aussi être réalisée à la demande du médecin régulateur."
+        }
+      ]
+    },
+    {
+      "titre": "Justification",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La mesure de la glycémie capillaire donne une indication sur le taux de sucre présent dans le sang. Cette mesure est un élément précieux pour le médecin régulateur. Elle peut permettre de décider de l’administration de sucre (< 60 mg/dl ou < 3,3 mmol/ml ou < 0,6 g/l)."
+        }
+      ]
+    },
+    {
+      "titre": "Matériel",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La lecture de la glycémie capillaire nécessite :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "un lecteur de glycémie 1 ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "des bandelettes réactives adaptées au lecteur ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "un manuel d’utilisation ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "des autopiqueurs (lancettes autorétractables) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "du savon et des compresses ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "une paire de gants à usage unique et non stérile ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "un collecteur OPTC, objets piquants/tranchants/coupants ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "un sac à DASRI."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "N. B. Le stockage du matériel nécessaire à la réalisation d'une glycémie capillaire, et plus particulièrement les bandelettes, doit respecter les conditions d'humidité et de température préconisées par le fabricant."
+        }
+      ]
+    },
+    {
+      "titre": "Réalisation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Si la victime dotée de son lecteur de glycémie, ou l’un de ses aidants, a l’habitude de réaliser elle-même la glycémie capillaire, la laisser faire ou l’aider. Même si la victime dispose d'un dispositif de mesure en continu de la glycémie capillaire il faut mesurer la glycémie capillaire."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Sinon, procéder comme suit :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "installer la victime confortablement ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "expliquer le geste technique à la victime ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "préparer les matériels nécessaires à la réalisation du geste ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "se frictionner les mains avec une solution hydroalcoolique ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "mettre des gants à usage unique non stériles ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "nettoyer l'extrémité du doigt de la victime avec une compresse imbibée d'eau ou d'eau et de savon."
+            },
+            {
+              "niveau": 1,
+              "texte": "sécher soigneusement avec une seconde compresse ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "insérer une bandelette dans le lecteur comme indiqué par le fabricant. Le lecteur s’allume ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "attendre, selon le type d’appareil, le signal indiquant qu’il est prêt à fonctionner ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "poser l'autopiqueur à usage unique sur la face latérale de l’extrémité du doigt (troisième phalange du majeur, de l'annulaire ou de l'auriculaire en excluant le pouce et l’index) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "prévenir la victime et déclencher la piqûre ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "comprimer le doigt en amont de la troisième phalange pour faire affluer le sang et obtenir une grosse goutte de sang ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "rapprocher l’extrémité de la bandelette (fente) insérée dans le lecteur au contact de la goutte de sang. Le sang est alors aspiré automatiquement par capillarité dans la fente de la bandelette ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "au bout de quelques secondes, lire le résultat de la glycémie qui s'affiche à l'écran ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "appliquer une compresse à l'endroit qui a été piqué et exercer une pression jusqu’à l’arrêt du saignement ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "jeter l'autopiqueur dans le collecteur OPTC, objets piquants/tranchants/coupants ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "retirer la bandelette utilisée et la jeter dans le sac à DASRI ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "transmettre le résultat de la glycémie en indiquant son unité de mesure ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "éteindre le lecteur de glycémie après utilisation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Risques & Contraintes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Une piqûre accidentelle du secouriste avec du matériel souillé par le sang de la victime ne devrait pas survenir si la technique et le matériel sont correctement utilisés. Néanmoins, il s’agit d’un AES et la conduite à tenir spécifique doit être appliquée. Les bandelettes utilisées ne doivent pas être périmées. Les bandelettes périmées, non utilisées, peuvent être éliminées avec les ordures ménagères. Certains appareils donnent seulement une indication sans affichage du taux lorsque la glycémie est très haute ou très basse. L’appareil doit être entretenu conformément aux indications du fabricant. En cas de dysfonctionnement ou de messages d'erreur, se reporter à la notice d’utilisation de l’appareil."
+        }
+      ]
+    },
+    {
+      "titre": "Évaluation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’appareil doit afficher dans les délais impartis, sans message d’erreur, une mesure du taux de sucre dans le sang de la victime."
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "1 Certains appareils de glycémie nécessitent une calibration préalable. Pour cela, il faut se référer au manuel d'utilisation de l'appareil."
+  ]
+}

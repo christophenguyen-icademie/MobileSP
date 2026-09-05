@@ -1,0 +1,270 @@
+{
+  "nom": "04FT10",
+  "titre": "Mesure de la pression artérielle",
+  "niveaux": [
+    "PSE 1"
+  ],
+  "chapitre_principal": "Bilans",
+  "chapitres": [
+    {
+      "titre": "Indication",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La pression artérielle (PA) est un indicateur de la fonction circulatoire. Sa mesure est réalisée chaque fois que possible, lors du bilan et de la surveillance. La mesure de la PA ne doit en aucun cas retarder la mise en œuvre d’un geste de secours d’urgence."
+        }
+      ]
+    },
+    {
+      "titre": "Justification",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La mesure de la PA apporte au secouriste et au médecin régulateur des indications supplémentaires sur l’état de la circulation de la victime. L’élévation de la PA (hypertension artérielle) ou sa diminution (hypotension artérielle) peuvent se voir à la suite d’un traumatisme ou d’une maladie. La mesure de la PA consiste à relever deux valeurs qui représentent, en millimètres de mercure, la pression exercée par le sang dans les artères :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "la valeur la plus élevée, appelée pression systolique , mesure la force exercée par le sang sur la paroi interne des artères lors de la contraction du cœur ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "la valeur la plus basse, appelée pression diastolique , mesure la force exercée par le sang sur la paroi interne des artères lors du relâchement du cœur."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Matériel",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La mesure de la pression artérielle est possible grâce à un tensiomètre qui mesure la contrepression exercée au niveau du bras par un brassard pneumatique. Il existe plusieurs types de tensiomètres utilisables pour mesurer la pression artérielle :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "le tensiomètre manuel composé :"
+            },
+            {
+              "niveau": 2,
+              "texte": "d’un manchon gonflable qui sera placé autour du bras de la victime (il existe, en fonction de la taille, des manchons adultes et enfants),"
+            },
+            {
+              "niveau": 2,
+              "texte": "d’un tuyau relié à une poire qui permet de gonfler le manchon,"
+            },
+            {
+              "niveau": 2,
+              "texte": "cette poire est équipée d’une valve dont l’ouverture permet au manchon de se dégonfler progressivement,"
+            },
+            {
+              "niveau": 2,
+              "texte": "d’un manomètre qui mesure la contrepression exercée sur le bras."
+            },
+            {
+              "niveau": 1,
+              "texte": "le tensiomètre automatique composé :"
+            },
+            {
+              "niveau": 2,
+              "texte": "d’une centrale, alimentée par une batterie, sur laquelle s’affichent les chiffres de la pression artérielle et de la fréquence cardiaque ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "d’un manchon gonflable qui sera placé autour du bras de la victime (identique au tensiomètre manuel) ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "d’un tuyau qui relie le manchon à la centrale."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Réalisation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La mesure de la PA se fait idéalement sur une victime immobile, en position assise, demi-assise ou allongée avec pose du brassard au niveau du bras."
+        }
+      ]
+    },
+    {
+      "titre": "Mesure automatique",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La mesure de la PA à l’aide d’un appareil automatique est préférable pour le secouriste à la mesure de la pression artérielle avec un appareil manuel. Elle demande uniquement la mise en place du manchon à pression autour du bras, idéalement à même la peau 1 , en disposant le repère artériel juste au-dessus du passage de l’artère (au niveau de la face interne du bras). La mesure se fait automatiquement. Le mode d’emploi de l’appareil doit être respecté. La mesure de la pression artérielle s’affiche sur le cadran de même que la fréquence cardiaque."
+        }
+      ]
+    },
+    {
+      "titre": "Mesure par auscultation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Cette méthode nécessite un tensiomètre manuel et un stéthoscope :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Placer le manchon du tensiomètre autour du bras de la victime (accessible et non traumatisé) ; Le bord inférieur du brassard doit être placé à deux centimètres au moins au-dessus du pli du coude (en face interne bras). Si le manomètre est fixé au manchon, il doit être visible."
+            },
+            {
+              "niveau": 1,
+              "texte": "Placer les embouts du stéthoscope dans les oreilles en veillant à ce qu’ils pointent vers l’avant ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "Localiser le pouls de l’artère qui passe au niveau de la partie interne du pli du coude avec les doigts ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "Placer le pavillon du stéthoscope sur le trajet de l’artère, juste au-dessus du pouls. Le maintenir avec l’index et le majeur d’une main ; Le pavillon du stéthoscope se trouve un centimètre au-dessous du bord inférieur du brassard."
+            },
+            {
+              "niveau": 1,
+              "texte": "Gonfler doucement le brassard en appuyant sur la poire jusqu'à ne plus entendre le bruit du pouls ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "Continuer à gonfler de 30 mmHg en plus, après disparition du bruit du pouls ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "Dégonfler doucement le brassard en appuyant (ou tournant) sur la valve de dégonflage ; L’aiguille du manomètre doit descendre doucement sur le cadran (de 2 à 3 mmHg/s)."
+            },
+            {
+              "niveau": 1,
+              "texte": "Noter la valeur indiquée sur le cadran dès que le bruit du pouls est à nouveau audible ; cette valeur correspond à la pression systolique ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "Continuer à dégonfler le brassard et noter à nouveau la valeur lorsque le bruit du pouls disparaît, cette valeur correspond à la pression diastolique."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Mesure par palpation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Cette méthode est à utiliser dans une ambiance bruyante. Elle ne permet de mesurer que la pression systolique :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Placer le manchon du tensiomètre autour du bras de la victime (accessible et non traumatisé) ; Le bord inférieur du brassard doit être placé à deux centimètres au moins au-dessus du pli du coude (en face interne du bras). Si le manomètre est fixé au manchon, il doit être visible."
+            },
+            {
+              "niveau": 1,
+              "texte": "Maintenir la poire de gonflage d’une main et fermer la valve ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "Localiser le pouls radial de la victime avec les doigts de l’autre main ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "Gonfler doucement le brassard en appuyant sur la poire jusqu'à ne plus percevoir le pouls radial ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "Continuer à gonfler de 30 mmHg en plus après la disparition du pouls radial ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "Dégonfler doucement le brassard en appuyant (ou tournant) sur la valve de dégonflage ; L’aiguille du manomètre doit descendre doucement sur le cadran (2 à 3 mmHg/s)."
+            },
+            {
+              "niveau": 1,
+              "texte": "Noter la valeur indiquée sur le cadran dès que le pouls radial est à nouveau perceptible. Cette valeur"
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "1 La peau nue est toujours préférable. Un vêtement fin peut être toléré à défaut, mais un bourrelet de tissu ou une manche épaisse invalide la mesure."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "correspond à la pression systolique ;"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Dégonfler totalement le brassard."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Les valeurs normales de pression artérielle chez l’adulte au repos et réveillé oscillent autour de 100 mmHg de PA systolique et 80 mmHg de PA diastolique. Contrairement à l’adulte, il ne peut y avoir de valeur de référence chez l’enfant. La pression artérielle de l’enfant varie en fonction de son sexe, de son âge, de sa taille et de son poids."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Le secouriste se limitera à transmettre les valeurs de pression artérielle mesurée pour demander un avis médical."
+        }
+      ]
+    },
+    {
+      "titre": "Risques & Contraintes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Avant de débuter la mesure, prévenir la victime que le gonflement du brassard peut entraîner une possible sensation douloureuse. Si le manchon du tensiomètre est laissé en place pour une nouvelle mesure lors de la surveillance, il convient de s’assurer que ce dernier est bien dégonflé, pas trop serré et ne gêne pas la victime. Les dispositifs médicaux de mesure de la PA peuvent ne pas afficher de résultats si la PA est trop basse ou trop élevée."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Le brassard doit être posé sur le bras approprié dans ces situations :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 2,
+              "texte": "contre-indication médicale ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "plainte exprimée par la victime ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "perfusion ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "lésion de membre."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Évaluation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La mise en place correcte de l’appareil garantit l’efficacité de la technique."
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

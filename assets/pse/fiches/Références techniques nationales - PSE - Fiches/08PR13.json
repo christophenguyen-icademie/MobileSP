@@ -1,0 +1,99 @@
+{
+  "nom": "08PR13",
+  "titre": "Pendaison, strangulation",
+  "niveaux": [
+    "PSE 2"
+  ],
+  "chapitre_principal": "Atteintes circonstancielles et environnementales",
+  "chapitres": [
+    {
+      "titre": "Introduction",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "ne pas détruire, jeter ou déplacer les objets plus que nécessaire 1 ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "soutenir la victime en cas de pendaison en se faisant aider ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "desserrer et enlever rapidement toute source de constriction du cou ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "allonger la victime au sol en limitant autant que possible les mouvements du rachis cervical."
+            },
+            {
+              "niveau": 1,
+              "texte": "réaliser le bilan de la victime tout en assurant une stabilisation du rachis."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Si la victime présente une détresse vitale",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "appliquer la conduite à tenir devant une victime :"
+            },
+            {
+              "niveau": 2,
+              "texte": "en arrêt cardiaque, en l’absence de respiration, doute ou respiration agonique (gasps) ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "qui a perdu connaissance, même si elle respire difficilement ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "qui présente une détresse vitale, notamment respiratoire."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "En l’absence d’une détresse vitale",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "compléter le bilan tout en poursuivant la stabilisation de la tête de la victime ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "transmettre le bilan pour obtenir un avis médical et respecter les consignes ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "réaliser une immobilisation complète de la colonne vertébrale si nécessaire ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "surveiller attentivement la victime ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "demander les forces de l’ordre si nécessaire."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "1 En effet, ces éléments, comme une corde nouée par exemple, peuvent servir de preuve aux forces de l’ordre."
+  ]
+}
