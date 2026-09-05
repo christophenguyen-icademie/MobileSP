@@ -8,7 +8,7 @@ import { clone as clonerSquelette } from "three/examples/jsm/utils/SkeletonUtils
 
 // Metro exige une référence statique pour inclure le GLB dans les bundles natifs.
 // eslint-disable-next-line @typescript-eslint/no-require-imports
-const modele = require("../../assets/models/pompier.glb");
+const modele = require("../../assets/models/firefighter.glb");
 
 type Props = {
   progression: number;
@@ -89,14 +89,11 @@ function PersonnageCharge({ uri, progression, enfoncement }: Omit<Props, "fallba
     });
     const hanche = scene.getObjectByName("mixamorig:Hips_01");
     if (hanche) hanche.position.y = hancheY - approche * 47 - enfoncement * 55;
-    // Le modèle pompier actuel est un maillage statique d'environ 1,90 m,
-    // centré sur son origine. On le pose au sol et on conserve un léger
-    // mouvement global pendant les compressions en attendant sa version riggée.
-    if (groupe.current) groupe.current.position.y = 1.62 - approche * 0.12 - enfoncement * 0.2;
+    if (groupe.current) groupe.current.position.y = 0.1 - enfoncement * 0.48;
   }, [approche, bases, enfoncement, hancheY, scene]);
 
   return (
-    <group ref={groupe} position={[2.25, 1.62, 0.18]} rotation={[0, -Math.PI / 2, 0]} scale={1.7}>
+    <group ref={groupe} position={[1.95, 0.1, 0.18]} rotation={[0, -Math.PI / 2, 0]} scale={0.023}>
       <primitive object={scene} />
     </group>
   );
