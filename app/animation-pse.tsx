@@ -1,5 +1,5 @@
 import { Ionicons } from "@expo/vector-icons";
-import { Stack } from "expo-router";
+import { Stack, useLocalSearchParams } from "expo-router";
 import { useEffect, useMemo, useRef, useState } from "react";
 import { Pressable, SafeAreaView, ScrollView, StyleSheet, Text, View } from "react-native";
 
@@ -15,6 +15,8 @@ const etapes = [
 ];
 
 export default function AnimationPse() {
+  const params = useLocalSearchParams<{ reference?: string | string[] }>();
+  const reference = Array.isArray(params.reference) ? params.reference[0] : params.reference;
   const [lecture, setLecture] = useState(true);
   const [progression, setProgression] = useState(0);
   const [angle, setAngle] = useState(0);
@@ -46,7 +48,7 @@ export default function AnimationPse() {
 
   return (
     <SafeAreaView style={styles.container}>
-      <Stack.Screen options={{ title: "05FT10 · Animation 3D" }} />
+      <Stack.Screen options={{ title: `${reference ?? "PSE"} · Démo 3D` }} />
       <View style={styles.scene}>
         <CompressionCanvas progression={progression} angle={angle} />
         <View style={styles.vues}>
@@ -74,7 +76,7 @@ export default function AnimationPse() {
 
         <View style={styles.rappel}>
           <Ionicons name="warning-outline" size={22} color="#8a5a00" />
-          <Text style={styles.rappelTexte}>Support pédagogique uniquement. Cette animation ne remplace ni la fiche officielle 05FT10 ni une formation pratique encadrée.</Text>
+          <Text style={styles.rappelTexte}>Démonstration provisoire : cette animation de compressions thoraciques est actuellement réutilisée pour la fiche {reference ?? "sélectionnée"}. Elle ne représente pas nécessairement le geste décrit et ne remplace ni la fiche officielle ni une formation pratique encadrée.</Text>
         </View>
       </ScrollView>
     </SafeAreaView>

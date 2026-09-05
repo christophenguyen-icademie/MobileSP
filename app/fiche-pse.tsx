@@ -83,12 +83,13 @@ export default function FichePse() {
             </View>
           )}
 
-          {fiche.nom === "05FT10" && (
-            <Pressable style={styles.animation} onPress={() => router.push("/animation-pse")}>
-              <Ionicons name="cube-outline" size={20} color="#fff" />
-              <Text style={styles.animationTexte}>Voir l’animation 3D</Text>
-            </Pressable>
-          )}
+          <Pressable
+            style={styles.animation}
+            onPress={() => router.push({ pathname: "/animation-pse", params: { reference: fiche.nom } })}
+          >
+            <Ionicons name="cube-outline" size={20} color="#fff" />
+            <Text style={styles.animationTexte}>Voir la démonstration 3D</Text>
+          </Pressable>
 
           <Pressable style={styles.pdf} onPress={ouvrirPdf} disabled={chargementPdf}>
             {chargementPdf ? <ActivityIndicator color="#1f176a" /> : <Ionicons name="document-text-outline" size={21} color="#1f176a" />}

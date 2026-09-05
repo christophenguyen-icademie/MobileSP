@@ -1,13 +1,14 @@
 import CarteScreen from '@/components/Itineraires/CarteScreen';
 import SaisieAdresseScreen from '@/components/Itineraires/SaisieAdresseScreen';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
+import { Stack } from 'expo-router';
 import React, { useRef, useState } from 'react';
-import {Platform, Text, View } from 'react-native';
-import {Stack} from "expo-router";
+import { Platform, StyleSheet, Text, useWindowDimensions, View } from 'react-native';
 
 const Tab = createBottomTabNavigator();
 
 export default function ItineraireScreen() {
+  const { height, width } = useWindowDimensions();
     const [myLocation, setMyLocation] = useState(null);
   const [destination, setDestination] = useState(null);
   const [summary, setSummary] = useState(null);
@@ -15,14 +16,36 @@ export default function ItineraireScreen() {
   const [finalAddress, setFinalAddress] = useState(null);
   const webviewRef = useRef(null);
 
-    if (Platform.OS === "web") {
+    const mobileWebEnPortrait = Platform.OS === "web" && width <= 900 && height > width;
+
+    if (mobileWebEnPortrait) {
         return (
-            <View style={{ flex: 1, flexDirection: "row", minHeight: "100vh" }}>
+            <>
+                <Stack.Screen options={{ headerShown: true, title: "Itinéraire" }} />
+                <View style={styles.orientation}>
+                    <View style={styles.telephone}>
+                        <Text style={styles.telephoneEcran}>↻</Text>
+                    </View>
+                    <Text style={styles.orientationTitre}>Tournez votre téléphone</Text>
+                    <Text style={styles.orientationTexte}>
+                        La recherche d’itinéraire et la carte sont optimisées pour une utilisation en mode paysage.
+                    </Text>
+                </View>
+            </>
+        );
+    }
+
+    if (Platform.OS === "web") {
+        const largeurPanneau = Math.min(400, Math.max(300, width * 0.42));
+        return (
+            <>
+            <Stack.Screen options={{ headerShown: true, title: "Itinéraire" }} />
+            <View style={styles.pageWeb}>
                 <View
                     style={{
-                        width: 400,
+                        width: largeurPanneau,
                         flexShrink: 0,
-                        minWidth: 400,
+                        minWidth: largeurPanneau,
                         borderRightWidth: 1,
                         borderRightColor: "#ddd",
                         overflow: "auto",
@@ -49,6 +72,7 @@ export default function ItineraireScreen() {
                     />
                 </View>
             </View>
+            </>
         );
     }
 
@@ -78,3 +102,33 @@ export default function ItineraireScreen() {
     </Tab.Navigator>
   );
 }
+
+const styles = StyleSheet.create({
+  orientation: {
+    alignItems: "center",
+    backgroundColor: "#f5f5f8",
+    flex: 1,
+    justifyContent: "center",
+    paddingHorizontal: 32,
+  },
+  pageWeb: {
+    flex: 1,
+    flexDirection: "row",
+    minHeight: 0,
+    overflow: "hidden",
+  },
+  telephone: {
+    alignItems: "center",
+    borderColor: "#1f176a",
+    borderRadius: 16,
+    borderWidth: 4,
+    height: 112,
+    justifyContent: "center",
+    marginBottom: 30,
+    transform: [{ rotate: "90deg" }],
+    width: 62,
+  },
+  telephoneEcran: { color: "#1f176a", fontSize: 38, fontWeight: "700" },
+  orientationTitre: { color: "#211e31", fontSize: 25, fontWeight: "800", textAlign: "center" },
+  orientationTexte: { color: "#625e70", fontSize: 17, lineHeight: 25, marginTop: 12, maxWidth: 420, textAlign: "center" },
+});
