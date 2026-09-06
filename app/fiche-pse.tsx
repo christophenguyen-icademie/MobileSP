@@ -1,7 +1,7 @@
 import { Ionicons } from "@expo/vector-icons";
 import { Stack, useLocalSearchParams, useRouter } from "expo-router";
 import { useEffect, useMemo, useRef, useState } from "react";
-import { ActivityIndicator, Alert, Platform, Pressable, SafeAreaView, ScrollView, Share, StyleSheet, Text, useWindowDimensions, View, type StyleProp, type TextStyle } from "react-native";
+import { ActivityIndicator, Alert, Platform, Pressable, SafeAreaView, ScrollView, StyleSheet, Text, useWindowDimensions, View, type StyleProp, type TextStyle } from "react-native";
 
 import fichesJson from "@/assets/pse/fiches/Références techniques nationales - PSE - Fiches/fiches.json";
 import { PSE_DATA } from "@/constants/pseData";
@@ -112,12 +112,6 @@ export default function FichePse() {
     }
   };
 
-  const partager = () => Share.share({
-    title: `${fiche.nom} · ${fiche.titre}`,
-    message: Platform.OS === "web" ? window.location.href : `${fiche.nom} · ${fiche.titre}`,
-    url: Platform.OS === "web" ? window.location.href : undefined,
-  });
-
   const allerSection = (index: number) => {
     scroll.current?.scrollTo({ y: Math.max(0, (positions.current[index] ?? 0) - 8), animated: true });
     setSommaireOuvert(false);
@@ -126,7 +120,7 @@ export default function FichePse() {
   return (
     <SafeAreaView style={styles.container}>
       <Stack.Screen options={{ title: fiche.nom }} />
-      <ScrollView ref={scroll} contentContainerStyle={styles.contenu}>
+      <ScrollView ref={scroll} style={styles.defilement} contentContainerStyle={styles.contenu}>
         <View style={styles.page}>
           <View style={styles.entete}>
           <Text style={[styles.chapitrePrincipal, mobileWeb && styles.chapitrePrincipalMobile]}>{fiche.chapitre_principal}</Text>
@@ -139,7 +133,6 @@ export default function FichePse() {
           </View>
           <View style={styles.outils}>
             <Pressable style={styles.outil} onPress={basculerFavori}><Ionicons name={favori ? "star" : "star-outline"} size={20} color="#fff" /><Text style={styles.outilTexte}>{favori ? "Favori" : "Ajouter"}</Text></Pressable>
-            <Pressable style={styles.outil} onPress={partager}><Ionicons name="share-outline" size={20} color="#fff" /><Text style={styles.outilTexte}>Partager</Text></Pressable>
             <View style={styles.tailleTexte}>
               <Pressable onPress={() => setEchelle((valeur) => Math.max(0.85, valeur - 0.15))} hitSlop={8}><Text style={styles.tailleBouton}>A−</Text></Pressable>
               <Pressable onPress={() => setEchelle((valeur) => Math.min(1.45, valeur + 0.15))} hitSlop={8}><Text style={styles.tailleBouton}>A+</Text></Pressable>
@@ -198,6 +191,7 @@ export default function FichePse() {
 
 const styles = StyleSheet.create({
   container: { backgroundColor: "#f5f5f8", flex: 1 },
+  defilement: { flex: 1 },
   contenu: { paddingBottom: 38 },
   page: { alignSelf: "center", maxWidth: 900, width: "100%" },
   entete: { backgroundColor: "#1f176a", paddingHorizontal: 20, paddingVertical: 24 },

@@ -1,7 +1,7 @@
 import { Ionicons } from "@expo/vector-icons";
 import { Stack, useRouter } from "expo-router";
 import { useEffect, useMemo, useState } from "react";
-import { FlatList, Platform, Pressable, SafeAreaView, ScrollView, StyleSheet, Switch, Text, TextInput, useWindowDimensions, View, type StyleProp, type TextStyle } from "react-native";
+import { Platform, Pressable, SafeAreaView, ScrollView, StyleSheet, Switch, Text, TextInput, useWindowDimensions, View, type StyleProp, type TextStyle } from "react-native";
 
 import fichesJson from "@/assets/pse/fiches/Références techniques nationales - PSE - Fiches/fiches.json";
 import { PSE_DATA } from "@/constants/pseData";
@@ -93,18 +93,6 @@ export default function Secourisme() {
     }));
   }, [filtre, recherche, rechercheContenu, typeFiche]);
 
-  const telechargerChapitre = (chapitre: Chapitre) => {
-    if (Platform.OS !== "web") return;
-    const contenu = chapitre.fiches.map((fiche) => PSE_DATA[fiche.nom]);
-    const blob = new Blob([JSON.stringify(contenu, null, 2)], { type: "application/json" });
-    const url = URL.createObjectURL(blob);
-    const lien = document.createElement("a");
-    lien.href = url;
-    lien.download = `PSE-${chapitre.numero}-${chapitre.nom.replace(/[^a-z0-9]+/gi, "-")}.json`;
-    lien.click();
-    URL.revokeObjectURL(url);
-  };
-
   const basculerChapitre = (chapitre: string) => {
     setOuverts((actuels) => {
       const suivants = new Set(actuels);
@@ -115,64 +103,70 @@ export default function Secourisme() {
   };
 
   const rechercheActive = recherche.trim().length > 0;
+  const enteteAnnuaire = <>
+    <View style={styles.entete}>
+      <Text style={[styles.titre, mobileWeb && styles.titreMobile]}>Annuaire des fiches PSE</Text>
+      <Text style={[styles.sousTitre, mobileWeb && styles.sousTitreMobile]}>198 fiches classées par chapitre</Text>
+      <View style={styles.recherche}>
+        <Ionicons name="search" size={20} color="#615f76" />
+        <TextInput value={recherche} onChangeText={setRecherche} placeholder="Rechercher une fiche, un code…" placeholderTextColor="#858398" style={styles.champ} returnKeyType="search" />
+        {recherche.length > 0 && <Pressable onPress={() => setRecherche("")} hitSlop={10}><Ionicons name="close-circle" size={20} color="#858398" /></Pressable>}
+      </View>
+      <View style={styles.filtres}>
+        {filtres.map((valeur) => (
+          <Pressable key={valeur} onPress={() => setFiltre(valeur)} style={[styles.filtre, filtre === valeur && styles.filtreActif]}>
+            <Text style={[styles.texteFiltre, filtre === valeur && styles.texteFiltreActif]}>{valeur}</Text>
+          </Pressable>
+        ))}
+      </View>
+      <View style={styles.filtres}>
+        {types.map((valeur) => (
+          <Pressable key={valeur} onPress={() => setTypeFiche(valeur)} style={[styles.filtreType, typeFiche === valeur && styles.filtreActif]}>
+            <Text style={[styles.texteFiltre, typeFiche === valeur && styles.texteFiltreActif]}>{valeur === "Tous" ? "Tous types" : valeur}</Text>
+          </Pressable>
+        ))}
+      </View>
+      <View style={styles.optionRecherche}>
+        <View style={styles.optionLibelle}>
+          <Text style={styles.optionTitre}>Rechercher dans le contenu</Text>
+          <Text style={styles.optionAide}>Paragraphes, puces et notes des fiches</Text>
+        </View>
+        <Switch
+          value={rechercheContenu}
+          onValueChange={setRechercheContenu}
+          trackColor={{ false: "#cbc9d4", true: "#8882bb" }}
+          thumbColor={rechercheContenu ? "#1f176a" : "#f4f3f4"}
+        />
+      </View>
+    </View>
+
+    {(favoris.size > 0 || recents.length > 0) && <View style={styles.raccourcis}>
+      <Ionicons name="bookmark-outline" size={17} color="#1f176a" />
+      <Text style={styles.raccourcisTitre}>Accès rapide :</Text>
+      {[...favoris, ...recents].filter((item, index, tableau) => tableau.indexOf(item) === index).slice(0, 8).map((reference) => (
+        <Pressable key={reference} onPress={() => ouvrirFiche(reference)}><Text style={styles.raccourci}>{reference}</Text></Pressable>
+      ))}
+    </View>}
+  </>;
+
   return (
     <SafeAreaView style={styles.container}>
       <Stack.Screen options={{ title: "Recommandations PSE" }} />
-      <View style={styles.entete}>
-        <Text style={[styles.titre, mobileWeb && styles.titreMobile]}>Annuaire des fiches PSE</Text>
-        <Text style={[styles.sousTitre, mobileWeb && styles.sousTitreMobile]}>198 fiches classées par chapitre</Text>
-        <View style={styles.recherche}>
-          <Ionicons name="search" size={20} color="#615f76" />
-          <TextInput value={recherche} onChangeText={setRecherche} placeholder="Rechercher une fiche, un code…" placeholderTextColor="#858398" style={styles.champ} returnKeyType="search" />
-          {recherche.length > 0 && <Pressable onPress={() => setRecherche("")} hitSlop={10}><Ionicons name="close-circle" size={20} color="#858398" /></Pressable>}
-        </View>
-        <View style={styles.filtres}>
-          {filtres.map((valeur) => (
-            <Pressable key={valeur} onPress={() => setFiltre(valeur)} style={[styles.filtre, filtre === valeur && styles.filtreActif]}>
-              <Text style={[styles.texteFiltre, filtre === valeur && styles.texteFiltreActif]}>{valeur}</Text>
-            </Pressable>
-          ))}
-        </View>
-        <View style={styles.filtres}>
-          {types.map((valeur) => (
-            <Pressable key={valeur} onPress={() => setTypeFiche(valeur)} style={[styles.filtreType, typeFiche === valeur && styles.filtreActif]}>
-              <Text style={[styles.texteFiltre, typeFiche === valeur && styles.texteFiltreActif]}>{valeur === "Tous" ? "Tous types" : valeur}</Text>
-            </Pressable>
-          ))}
-        </View>
-        <View style={styles.optionRecherche}>
-          <View style={styles.optionLibelle}>
-            <Text style={styles.optionTitre}>Rechercher dans le contenu</Text>
-            <Text style={styles.optionAide}>Paragraphes, puces et notes des fiches</Text>
-          </View>
-          <Switch
-            value={rechercheContenu}
-            onValueChange={setRechercheContenu}
-            trackColor={{ false: "#cbc9d4", true: "#8882bb" }}
-            thumbColor={rechercheContenu ? "#1f176a" : "#f4f3f4"}
-          />
-        </View>
-      </View>
-
-      {(favoris.size > 0 || recents.length > 0) && <View style={styles.raccourcis}>
-        <Ionicons name="bookmark-outline" size={17} color="#1f176a" />
-        <Text style={styles.raccourcisTitre}>Accès rapide :</Text>
-        {[...favoris, ...recents].filter((item, index, tableau) => tableau.indexOf(item) === index).slice(0, 8).map((reference) => (
-          <Pressable key={reference} onPress={() => ouvrirFiche(reference)}><Text style={styles.raccourci}>{reference}</Text></Pressable>
-        ))}
-      </View>}
 
       <View style={styles.corps}>
-      <FlatList
-        data={chapitres}
+      <View style={styles.colonneGauche}>
+      {desktopWeb && enteteAnnuaire}
+      <ScrollView
         style={styles.resultats}
-        keyExtractor={(chapitre) => chapitre.nom}
-        contentContainerStyle={styles.liste}
-        ListEmptyComponent={<Text style={styles.vide}>Aucune fiche ne correspond à la recherche.</Text>}
-        renderItem={({ item: chapitre }) => {
+        contentContainerStyle={[styles.liste, !desktopWeb && styles.listeAvecEntete]}
+        showsVerticalScrollIndicator
+      >
+        {!desktopWeb && enteteAnnuaire}
+        {chapitres.length === 0 && <Text style={styles.vide}>Aucune fiche ne correspond à la recherche.</Text>}
+        {chapitres.map((chapitre) => {
           const estOuvert = rechercheActive || ouverts.has(chapitre.nom);
           return (
-            <View style={styles.chapitre}>
+            <View key={chapitre.nom} style={styles.chapitre}>
               <Pressable style={styles.ligneChapitre} onPress={() => basculerChapitre(chapitre.nom)}>
                 <View style={styles.numeroChapitre}><Text style={styles.numeroTexte}>{chapitre.numero}</Text></View>
                 <View style={styles.libelleChapitre}>
@@ -180,7 +174,6 @@ export default function Secourisme() {
                   <Text style={[styles.compteur, mobileWeb && styles.compteurMobile]}>{chapitre.fiches.length} fiche(s)</Text>
                 </View>
                 <Ionicons name={estOuvert ? "chevron-up" : "chevron-down"} size={22} color="#1f176a" />
-                {Platform.OS === "web" && <Pressable accessibilityLabel="Télécharger ce chapitre" onPress={() => telechargerChapitre(chapitre)} hitSlop={8} style={styles.telecharger}><Ionicons name="download-outline" size={21} color="#1f176a" /></Pressable>}
               </Pressable>
               {estOuvert && chapitre.fiches.map((fiche) => (
                 <View key={fiche.nom} style={styles.ficheBloc}>
@@ -210,8 +203,9 @@ export default function Secourisme() {
               ))}
             </View>
           );
-        }}
-      />
+        })}
+      </ScrollView>
+      </View>
       {desktopWeb && <ScrollView style={styles.apercu} contentContainerStyle={styles.apercuContenu}>
         {selection && PSE_DATA[selection] ? <>
           <Text style={styles.apercuReference}>{PSE_DATA[selection].nom}</Text>
@@ -250,8 +244,10 @@ const styles = StyleSheet.create({
   optionTitre: { color: "#353243", fontSize: 14, fontWeight: "600" },
   optionAide: { color: "#7a7788", fontSize: 12, marginTop: 2 },
   liste: { padding: 14, paddingBottom: 30 },
+  listeAvecEntete: { paddingTop: 0 },
   corps: { flex: 1, flexDirection: "row", minHeight: 0 },
-  resultats: { alignSelf: "center", flex: 1, width: "100%" },
+  colonneGauche: { flex: 1, minHeight: 0, minWidth: 0 },
+  resultats: { flex: 1, minHeight: 0, width: "100%" },
   chapitre: { backgroundColor: "#fff", borderColor: "#e2e0e9", borderRadius: 14, borderWidth: 1, marginBottom: 10, overflow: "hidden" },
   ligneChapitre: { alignItems: "center", flexDirection: "row", minHeight: 72, padding: 12 },
   numeroChapitre: { alignItems: "center", backgroundColor: "#eceaf7", borderRadius: 10, height: 42, justifyContent: "center", width: 42 },
@@ -273,7 +269,6 @@ const styles = StyleSheet.create({
   badgeTexte: { color: "#176b49", fontSize: 11, fontWeight: "700" },
   optionnelle: { color: "#817d8e", fontSize: 11, fontStyle: "italic" },
   favori: { padding: 7 },
-  telecharger: { marginLeft: 7, padding: 5 },
   titreFiche: { color: "#302d3d", fontSize: 15, lineHeight: 20, marginTop: 4 },
   titreFicheMobile: { fontSize: 18, lineHeight: 25, marginTop: 6 },
   vide: { color: "#716e80", paddingTop: 50, textAlign: "center" },
