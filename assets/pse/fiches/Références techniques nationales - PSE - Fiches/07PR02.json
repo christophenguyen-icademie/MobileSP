@@ -28,31 +28,31 @@
           "elements": [
             {
               "niveau": 1,
-              "texte": "ne jamais retirer le corps étranger pénétrant (couteau, morceau de verre, etc.) 1 ;"
+              "texte": "ne jamais retirer le corps étranger pénétrant (couteau, morceau de verre, etc.) (1) ;"
             },
             {
               "niveau": 1,
-              "texte": "installer la victime en position d'attente, confortablement 2 et sans délai :"
+              "texte": "installer la victime en position d'attente, confortablement (2) et sans délai :"
             },
             {
               "niveau": 2,
-              "texte": "assise 3 en laissant la plaie à l’air libre en présence d'une plaie au thorax ;"
+              "texte": "assise (3) en laissant la plaie à l’air libre en présence d'une plaie au thorax ;"
             },
             {
               "niveau": 2,
-              "texte": "allongée 4 , jambes fléchies 5 en présence d'une plaie de l'abdomen ;"
+              "texte": "allongée (4) , jambes fléchies (5) en présence d'une plaie de l'abdomen ;"
             },
             {
               "niveau": 2,
-              "texte": "allongée, yeux fermés 6 en demandant de ne pas bouger la tête en présence d'une plaie à l'œil ;"
+              "texte": "allongée, yeux fermés (6) en demandant de ne pas bouger la tête en présence d'une plaie à l'œil ;"
             },
             {
               "niveau": 2,
-              "texte": "allongée 7 dans tous les autres cas."
+              "texte": "allongée (7) dans tous les autres cas."
             },
             {
               "niveau": 1,
-              "texte": "à l’exception des plaies du thorax , protéger la plaie par un pansement ou un champ stérile humidifié 8 ;"
+              "texte": "à l’exception des plaies du thorax , protéger la plaie par un pansement ou un champ stérile humidifié (8) ;"
             },
             {
               "niveau": 1,
@@ -162,7 +162,7 @@
             },
             {
               "niveau": 2,
-              "texte": "appliquer une compresse humide sur la zone qui saigne dans la bouche 2 ;"
+              "texte": "appliquer une compresse humide sur la zone qui saigne dans la bouche (2) ;"
             },
             {
               "niveau": 2,
@@ -178,7 +178,7 @@
             },
             {
               "niveau": 2,
-              "texte": "la rincer 3 si elle est souillée pendant 10 secondes maximum ;"
+              "texte": "la rincer (3) si elle est souillée pendant 10 secondes maximum ;"
             },
             {
               "niveau": 2,
@@ -186,7 +186,7 @@
             },
             {
               "niveau": 2,
-              "texte": "à défaut, la conserver dans un petit récipient contenant 4 du lait de vache ou de la salive de la victime"
+              "texte": "à défaut, la conserver dans un petit récipient contenant (4) du lait de vache ou de la salive de la victime"
             },
             {
               "niveau": 1,
@@ -202,12 +202,17 @@
     }
   ],
   "notes": [
-    "5 La flexion des jambes d’une victime préalablement allongée permet, par le relâchement des muscles de l’abdomen, de diminuer la douleur.",
-    "6 La fermeture des yeux et l’immobilité de la tête permettent de limiter les risques d’aggravation de la lésion de l’œil.",
-    "7 La position allongée permet de prévenir les détresses et d’éviter les complications.",
-    "8 Eau stérile ou sérum physiologique.",
-    "2 Ne pas le faire si la victime risque d’avaler la compresse (par exemple, un petit enfant, une personne agitée ou qui présente des troubles de la conscience).",
-    "3 Avec du sérum physiologique ou sous l’eau courante.",
-    "4 Il ne faut pas la conserver dans de l’eau du robinet ni dans du sérum physiologique."
+    "(1) Cela risque d’aggraver la plaie.",
+    "(2) Par exemple sur un brancard, un lit, une chaise, un canapé ou à défaut sur le sol.",
+    "(3) La position assise facilite la respiration lorsque l’on est en présence d’une plaie au thorax.",
+    "(4) La position allongée permet de prévenir les détresses et d’éviter les complications.",
+    "(5) La flexion des jambes d’une victime préalablement allongée permet, par le relâchement des muscles de l’abdomen, de diminuer la douleur.",
+    "(6) La fermeture des yeux et l’immobilité de la tête permettent de limiter les risques d’aggravation de la lésion de l’œil.",
+    "(7) La position allongée permet de prévenir les détresses et d’éviter les complications.",
+    "(8) Eau stérile ou sérum physiologique.",
+    "(1) Délogement d’une dent suite à un choc.",
+    "(2) Ne pas le faire si la victime risque d’avaler la compresse (par exemple, un petit enfant, une personne agitée ou qui présente des troubles de la conscience).",
+    "(3) Avec du sérum physiologique ou sous l’eau courante.",
+    "(4) Il ne faut pas la conserver dans de l’eau du robinet ni dans du sérum physiologique."
   ]
 }

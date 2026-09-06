@@ -38,7 +38,7 @@
             },
             {
               "niveau": 2,
-              "texte": "pour la victime : § un masque de type chirurgical ou un masque de protection respiratoire (sans soupape d’expiration) 1 ."
+              "texte": "pour la victime : § un masque de type chirurgical ou un masque de protection respiratoire (sans soupape d’expiration) (1) ."
             },
             {
               "niveau": 1,
@@ -68,7 +68,7 @@
         },
         {
           "type": "paragraphe",
-          "texte": "1 Le port d’un masque par la victime évite ou limite la dissémination des particules infectieuses."
+          "texte": "(1) Le port d’un masque par la victime évite ou limite la dissémination des particules infectieuses."
         }
       ]
     }

@@ -157,7 +157,7 @@
             },
             {
               "niveau": 2,
-              "texte": "mettre en place le pulvérisateur au niveau de la chambre de mélange (ou d’inhalation) 1 si nécessaire ;"
+              "texte": "mettre en place le pulvérisateur au niveau de la chambre de mélange (ou d’inhalation) (1) si nécessaire ;"
             },
             {
               "niveau": 2,
@@ -245,7 +245,7 @@
             },
             {
               "niveau": 2,
-              "texte": "se munir du ou des pulvérisateurs 2 ;"
+              "texte": "se munir du ou des pulvérisateurs (2) ;"
             },
             {
               "niveau": 2,
@@ -295,7 +295,7 @@
     }
   ],
   "notes": [
-    "1 L’utilisation d’une chambre de mélange (ou d’inhalation) lors de l’administration d’un médicament par inhalation permet d’augmenter l’efficacité de celui-ci et est recommandée. De même, une inspiration longue lors de l’inhalation permet d’augmenter l’absorption du médicament.",
-    "2 Le médicament peut être composé de deux pulvérisateurs, un pour chaque narine."
+    "(1) L’utilisation d’une chambre de mélange (ou d’inhalation) lors de l’administration d’un médicament par inhalation permet d’augmenter l’efficacité de celui-ci et est recommandée. De même, une inspiration longue lors de l’inhalation permet d’augmenter l’absorption du médicament.",
+    "(2) Le médicament peut être composé de deux pulvérisateurs, un pour chaque narine."
   ]
 }

@@ -158,7 +158,7 @@ const styles = StyleSheet.create({
   optionTitre: { color: "#353243", fontSize: 14, fontWeight: "600" },
   optionAide: { color: "#7a7788", fontSize: 12, marginTop: 2 },
   liste: { padding: 14, paddingBottom: 30 },
-  resultats: { alignSelf: "center", maxWidth: 900, width: "100%" },
+  resultats: { alignSelf: "center", width: "100%" },
   chapitre: { backgroundColor: "#fff", borderColor: "#e2e0e9", borderRadius: 14, borderWidth: 1, marginBottom: 10, overflow: "hidden" },
   ligneChapitre: { alignItems: "center", flexDirection: "row", minHeight: 72, padding: 12 },
   numeroChapitre: { alignItems: "center", backgroundColor: "#eceaf7", borderRadius: 10, height: 42, justifyContent: "center", width: 42 },

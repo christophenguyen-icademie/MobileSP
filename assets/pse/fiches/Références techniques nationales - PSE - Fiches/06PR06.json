@@ -97,7 +97,7 @@
             },
             {
               "niveau": 2,
-              "texte": "surveiller 1 la victime : § si aucune amélioration ne survient au bout de 15 minutes suite à une ingestion de sucre, une seconde dose de sucre peut être prise."
+              "texte": "surveiller (1) la victime : § si aucune amélioration ne survient au bout de 15 minutes suite à une ingestion de sucre, une seconde dose de sucre peut être prise."
             }
           ]
         }
@@ -105,6 +105,6 @@
     }
   ],
   "notes": [
-    "1 Il faut compter environ 10 à 15 minutes entre l’ingestion du sucre, une élévation de la glycémie et une amélioration des signes."
+    "(1) Il faut compter environ 10 à 15 minutes entre l’ingestion du sucre, une élévation de la glycémie et une amélioration des signes."
   ]
 }

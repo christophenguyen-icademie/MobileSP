@@ -108,7 +108,7 @@
           "elements": [
             {
               "niveau": 1,
-              "texte": "réaliser un refroidissement actif avancé 1 de la victime ;"
+              "texte": "réaliser un refroidissement actif avancé (1) de la victime ;"
             },
             {
               "niveau": 1,
@@ -124,20 +124,20 @@
             },
             {
               "niveau": 1,
-              "texte": "transmettre le bilan pour avis 2 sans délai ;"
+              "texte": "transmettre le bilan pour avis (2) sans délai ;"
             }
           ]
         },
         {
           "type": "paragraphe",
-          "texte": "Le refroidissement actif doit se poursuivre jusqu’à la disparition des signes neurologiques et jusqu’à ce que la température corporelle de la victime devienne inférieure à 39°C ou pendant 15 minutes si la température ne peut être mesurée. Un bilan complet est nécessaire avant 3 toute verticalisation ou mobilisation de la victime après l’immersion."
+          "texte": "Le refroidissement actif doit se poursuivre jusqu’à la disparition des signes neurologiques et jusqu’à ce que la température corporelle de la victime devienne inférieure à 39°C ou pendant 15 minutes si la température ne peut être mesurée. Un bilan complet est nécessaire avant (3) toute verticalisation ou mobilisation de la victime après l’immersion."
         }
       ]
     }
   ],
   "notes": [
-    "1 Mettre tout en œuvre pour obtenir les moyens de réaliser un refroidissement actif.",
-    "2 Présenter tous les signes de gravité et appliquer les consignes reçues. Une prise en charge médicale d’urgence est nécessaire.",
-    "3 Les victimes peuvent présenter une hypotension (notamment à cause de la déshydratation) qui sera aggravée à l'orthostatisme pouvant aller jusqu'à entrainer un désamorçage cardiaque."
+    "(1) Mettre tout en œuvre pour obtenir les moyens de réaliser un refroidissement actif.",
+    "(2) Présenter tous les signes de gravité et appliquer les consignes reçues. Une prise en charge médicale d’urgence est nécessaire.",
+    "(3) Les victimes peuvent présenter une hypotension (notamment à cause de la déshydratation) qui sera aggravée à l'orthostatisme pouvant aller jusqu'à entrainer un désamorçage cardiaque."
   ]
 }

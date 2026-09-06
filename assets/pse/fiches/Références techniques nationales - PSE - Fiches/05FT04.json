@@ -11,7 +11,7 @@
       "contenu": [
         {
           "type": "paragraphe",
-          "texte": "Cette technique est indiquée en cas d’hémorragie d’un membre lorsque la compression directe est inefficace, impossible ou lors de situations particulières 1 . Il ne peut être posé qu’aux membres supérieurs ou inférieurs."
+          "texte": "Cette technique est indiquée en cas d’hémorragie d’un membre lorsque la compression directe est inefficace, impossible ou lors de situations particulières (1) . Il ne peut être posé qu’aux membres supérieurs ou inférieurs."
         }
       ]
     },
@@ -58,7 +58,7 @@
           "elements": [
             {
               "niveau": 1,
-              "texte": "se munir du matériel nécessaire 2 ;"
+              "texte": "se munir du matériel nécessaire (2) ;"
             },
             {
               "niveau": 1,
@@ -178,7 +178,7 @@
             },
             {
               "niveau": 1,
-              "texte": "noter 1 l’heure de pose du garrot afin de pouvoir la communiquer aux personnes assurant le relais dans la prise en charge de la victime."
+              "texte": "noter (1) l’heure de pose du garrot afin de pouvoir la communiquer aux personnes assurant le relais dans la prise en charge de la victime."
             }
           ]
         }
@@ -198,15 +198,15 @@
       "contenu": [
         {
           "type": "paragraphe",
-          "texte": "Le garrot est efficace si le saignement est arrêté. En cas de persistance du saignement, resserrer le garrot. Si ce n’est pas suffisant, compléter par un ou plusieurs autres dispositifs d’arrêt des hémorragies 2 ."
+          "texte": "Le garrot est efficace si le saignement est arrêté. En cas de persistance du saignement, resserrer le garrot. Si ce n’est pas suffisant, compléter par un ou plusieurs autres dispositifs d’arrêt des hémorragies (2) ."
         }
       ]
     }
   ],
   "notes": [
-    "1 Catastrophes, théâtres d’opérations militaires ou situations apparentées, situation d’isolement.",
-    "2 S’il est disponible, il est préférable d’utiliser un garrot de fabrication industrielle, spécialement conçu à cet effet.",
-    "1 Lisiblement, sur le garrot, sur une fiche, etc.",
-    "2 Second garrot entre le premier et la racine du membre et/ou, si disponible, gaze imbibée d’une substance hémostatique avec pansement compressif."
+    "(1) Catastrophes, théâtres d’opérations militaires ou situations apparentées, situation d’isolement.",
+    "(2) S’il est disponible, il est préférable d’utiliser un garrot de fabrication industrielle, spécialement conçu à cet effet.",
+    "(1) Lisiblement, sur le garrot, sur une fiche, etc.",
+    "(2) Second garrot entre le premier et la racine du membre et/ou, si disponible, gaze imbibée d’une substance hémostatique avec pansement compressif."
   ]
 }

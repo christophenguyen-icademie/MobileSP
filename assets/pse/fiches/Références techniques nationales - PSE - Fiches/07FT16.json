@@ -107,7 +107,7 @@
             },
             {
               "niveau": 1,
-              "texte": "assurer une tension appropriée 1 de la ceinture en utilisant le dispositif de serrage prévu à cet effet et sécuriser sa fermeture."
+              "texte": "assurer une tension appropriée (1) de la ceinture en utilisant le dispositif de serrage prévu à cet effet et sécuriser sa fermeture."
             }
           ]
         },
@@ -154,6 +154,6 @@
     }
   ],
   "notes": [
-    "1 La tension appropriée est définie selon le type de ceinture utilisé."
+    "(1) La tension appropriée est définie selon le type de ceinture utilisé."
   ]
 }

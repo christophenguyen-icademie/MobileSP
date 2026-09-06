@@ -36,7 +36,7 @@
             },
             {
               "niveau": 1,
-              "texte": "un drap 1 ;"
+              "texte": "un drap (1) ;"
             },
             {
               "niveau": 1,
@@ -44,7 +44,7 @@
             },
             {
               "niveau": 1,
-              "texte": "une couverture de survie 2 ;"
+              "texte": "une couverture de survie (2) ;"
             },
             {
               "niveau": 1,
@@ -135,7 +135,7 @@
     }
   ],
   "notes": [
-    "1 Le drap peut être en toile ou en matériau intissé. Il est préférable d’utiliser des draps à usage unique. Les draps stériles sont utilisés pour envelopper une victime qui présente des brûlures étendues.",
-    "2 Le face ou la couleur de la couverture de survie n’ont que peu d’incidence sur la déperdition de chaleur."
+    "(1) Le drap peut être en toile ou en matériau intissé. Il est préférable d’utiliser des draps à usage unique. Les draps stériles sont utilisés pour envelopper une victime qui présente des brûlures étendues.",
+    "(2) Le face ou la couleur de la couverture de survie n’ont que peu d’incidence sur la déperdition de chaleur."
   ]
 }

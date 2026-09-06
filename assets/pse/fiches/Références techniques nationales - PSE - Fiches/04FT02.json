@@ -62,7 +62,7 @@
           "elements": [
             {
               "niveau": 1,
-              "texte": "placer le bras de la victime du côté du retournement au- dessus de sa tête 1 ;"
+              "texte": "placer le bras de la victime du côté du retournement au- dessus de sa tête (1) ;"
             },
             {
               "niveau": 1,
@@ -112,6 +112,6 @@
     }
   ],
   "notes": [
-    "1 Le fait de placer le bras de la victime au-dessus de sa tête permet de faciliter le retournement et de maintenir la tête dans l’axe lors du retournement"
+    "(1) Le fait de placer le bras de la victime au-dessus de sa tête permet de faciliter le retournement et de maintenir la tête dans l’axe lors du retournement"
   ]
 }

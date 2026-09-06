@@ -43,7 +43,7 @@
             },
             {
               "niveau": 2,
-              "texte": "un mouvement brusque de flexion extension du rachis cervical 1 ("
+              "texte": "un mouvement brusque de flexion extension du rachis cervical (1) ("
             },
             {
               "niveau": 2,
@@ -91,23 +91,23 @@
           "elements": [
             {
               "niveau": 1,
-              "texte": "dont les réponses sont qualifiées de non fiables 2 ;"
+              "texte": "dont les réponses sont qualifiées de non fiables (2) ;"
             },
             {
               "niveau": 1,
-              "texte": "présentant des signes d’atteinte du rachis 3 ;"
+              "texte": "présentant des signes d’atteinte du rachis (3) ;"
             },
             {
               "niveau": 1,
-              "texte": "présentant des signes d’atteinte de la moelle épinière 4 ;"
+              "texte": "présentant des signes d’atteinte de la moelle épinière (4) ;"
             },
             {
               "niveau": 1,
-              "texte": "suite à un traumatisme évocateur d’accident à haut risque de lésion du rachis 5 ;"
+              "texte": "suite à un traumatisme évocateur d’accident à haut risque de lésion du rachis (5) ;"
             },
             {
               "niveau": 1,
-              "texte": "âgée de 65 ans et plus, ou ayant des antécédents à risque 6 ."
+              "texte": "âgée de 65 ans et plus, ou ayant des antécédents à risque (6) ."
             }
           ]
         }
@@ -171,9 +171,11 @@
     }
   ],
   "notes": [
-    "3 Confère les signes de l’encadré B dans la conduite à tenir.",
-    "4 Confère les signes de l’encadré C dans la conduite à tenir.",
-    "5 Confère les signes de l’encadré D dans la conduite à tenir.",
-    "6 Confère les signes de l’encadré E dans la conduite à tenir."
+    "(1) Collision avec un véhicule à grande vitesse, retournement d’un véhicule, victime éjectée, accident de 2 roues, chute de cheval…",
+    "(2) Confère les signes de l’encadré A dans la conduite à tenir.",
+    "(3) Confère les signes de l’encadré B dans la conduite à tenir.",
+    "(4) Confère les signes de l’encadré C dans la conduite à tenir.",
+    "(5) Confère les signes de l’encadré D dans la conduite à tenir.",
+    "(6) Confère les signes de l’encadré E dans la conduite à tenir."
   ]
 }

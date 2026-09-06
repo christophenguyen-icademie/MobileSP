@@ -54,7 +54,7 @@
             },
             {
               "niveau": 1,
-              "texte": "notifications « FR-ALERT » 1 sur les téléphones portables :"
+              "texte": "notifications « FR-ALERT » (1) sur les téléphones portables :"
             },
             {
               "niveau": 2,
@@ -74,7 +74,7 @@
             },
             {
               "niveau": 2,
-              "texte": "X 2 en s’abonnant et en activant les notifications du compte @Beauvau_alerte du ministère de l’Intérieur ;"
+              "texte": "X (2) en s’abonnant et en activant les notifications du compte @Beauvau_alerte du ministère de l’Intérieur ;"
             },
             {
               "niveau": 2,
@@ -226,14 +226,14 @@
         },
         {
           "type": "paragraphe",
-          "texte": "1 SNA, FR-ALERT, notifications, médias et réseaux sociaux officiels, etc."
+          "texte": "(1) SNA, FR-ALERT, notifications, médias et réseaux sociaux officiels, etc."
         }
       ]
     }
   ],
   "notes": [
-    "1 https://www.fr-alert.gouv.fr/",
-    "2 Anciennement Twitter",
-    "2 pour laisser les réseaux disponibles pour les services de secours"
+    "(1) https://www.fr-alert.gouv.fr/",
+    "(2) Anciennement Twitter",
+    "(2) pour laisser les réseaux disponibles pour les services de secours"
   ]
 }

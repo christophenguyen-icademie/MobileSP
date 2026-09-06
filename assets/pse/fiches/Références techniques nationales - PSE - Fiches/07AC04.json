@@ -20,7 +20,7 @@
       "contenu": [
         {
           "type": "paragraphe",
-          "texte": "Une atteinte de l’abdomen 1 survient lors :"
+          "texte": "Une atteinte de l’abdomen (1) survient lors :"
         },
         {
           "type": "liste",
@@ -78,7 +78,7 @@
             },
             {
               "niveau": 1,
-              "texte": "une contusion ou une plaie plus ou moins importante 2 ;"
+              "texte": "une contusion ou une plaie plus ou moins importante (2) ;"
             },
             {
               "niveau": 1,
@@ -116,7 +116,7 @@
     }
   ],
   "notes": [
-    "1 Un traumatisme abdominal ne survient pas uniquement lors d’une atteinte de la face antérieure de l’abdomen, mais aussi lors d’une atteinte des flancs, du dos ou de la partie basse du thorax.",
-    "2 Avec une éventuelle éviscération."
+    "(1) Un traumatisme abdominal ne survient pas uniquement lors d’une atteinte de la face antérieure de l’abdomen, mais aussi lors d’une atteinte des flancs, du dos ou de la partie basse du thorax.",
+    "(2) Avec une éventuelle éviscération."
   ]
 }

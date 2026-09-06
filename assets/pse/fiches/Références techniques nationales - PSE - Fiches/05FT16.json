@@ -242,7 +242,7 @@
       "contenu": [
         {
           "type": "paragraphe",
-          "texte": "Chez l’adulte et l’enfant de plus de 25 kg 1 :"
+          "texte": "Chez l’adulte et l’enfant de plus de 25 kg (1) :"
         },
         {
           "type": "liste",
@@ -259,7 +259,7 @@
         },
         {
           "type": "paragraphe",
-          "texte": "Chez le nourrisson et l’enfant de moins de 25 kg 1 :"
+          "texte": "Chez le nourrisson et l’enfant de moins de 25 kg (1) :"
         },
         {
           "type": "liste",
@@ -309,7 +309,7 @@
           "elements": [
             {
               "niveau": 1,
-              "texte": "l’électrode antérieure est placée sur le côté gauche de la poitrine, entre la ligne médiane et le mamelon 2 ;"
+              "texte": "l’électrode antérieure est placée sur le côté gauche de la poitrine, entre la ligne médiane et le mamelon (2) ;"
             },
             {
               "niveau": 1,
@@ -531,8 +531,8 @@
     }
   ],
   "notes": [
-    "1 Cette position est appelée antéro-latérale.",
-    "1 En l’absence d’électrodes pédiatriques, les électrodes adultes sont utilisées, l’électrode postérieure ira dans le dos, tandis que la latérale ira sur le thorax.",
-    "2 Pour les patientes de sexe féminin, essayez d’éviter autant que possible le tissu mammaire."
+    "(1) Cette position est appelée antéro-latérale.",
+    "(1) En l’absence d’électrodes pédiatriques, les électrodes adultes sont utilisées, l’électrode postérieure ira dans le dos, tandis que la latérale ira sur le thorax.",
+    "(2) Pour les patientes de sexe féminin, essayez d’éviter autant que possible le tissu mammaire."
   ]
 }

@@ -114,7 +114,7 @@
       "contenu": [
         {
           "type": "paragraphe",
-          "texte": "Après avoir terminé l’interrogatoire, l’examen de la victime et la mesure des paramètres physiologiques, transmettre la totalité du bilan de façon concise et ordonnée 1 . Pour cela, il convient d’indiquer :"
+          "texte": "Après avoir terminé l’interrogatoire, l’examen de la victime et la mesure des paramètres physiologiques, transmettre la totalité du bilan de façon concise et ordonnée (1) . Pour cela, il convient d’indiquer :"
         },
         {
           "type": "liste",
@@ -139,7 +139,7 @@
         },
         {
           "type": "paragraphe",
-          "texte": "1 En fonction des organismes autorisés et des lésions que présente la victime, une procédure de transmission simplifiée du bilan peut être utilisée."
+          "texte": "(1) En fonction des organismes autorisés et des lésions que présente la victime, une procédure de transmission simplifiée du bilan peut être utilisée."
         }
       ]
     }

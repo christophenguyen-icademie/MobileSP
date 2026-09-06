@@ -28,7 +28,7 @@
           "elements": [
             {
               "niveau": 1,
-              "texte": "laisser s’installer la victime dans la position qui lui est la plus confortable, lui proposer la position demi- assise ou assise 2 ;"
+              "texte": "laisser s’installer la victime dans la position qui lui est la plus confortable, lui proposer la position demi- assise ou assise (2) ;"
             },
             {
               "niveau": 1,
@@ -60,7 +60,7 @@
     }
   ],
   "notes": [
-    "1 Après avoir traité une urgence vitale s’il y en avait une.",
-    "2 La position assise ou demi-assise libère les mouvements du diaphragme et améliore la respiration."
+    "(1) Après avoir traité une urgence vitale s’il y en avait une.",
+    "(2) La position assise ou demi-assise libère les mouvements du diaphragme et améliore la respiration."
   ]
 }

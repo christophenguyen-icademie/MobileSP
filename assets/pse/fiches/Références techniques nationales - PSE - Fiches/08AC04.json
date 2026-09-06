@@ -22,7 +22,7 @@
             },
             {
               "niveau": 1,
-              "texte": "L’expulsion L’orifice (col) de l’utérus s’ouvre de plus en plus sous l’effet des contractions. Le fœtus descend vers le vagin, en général la tête la première. Le nouveau-né apparaît alors et progressivement va sortir du corps de la mère. Une fois expulsé, le nouveau-né est toujours relié à la mère par le cordon ombilical et peut être pris en charge 1 . L’expulsion peut durer plusieurs minutes. L’enfant se présente normalement la tête en avant (présentation céphalique). Cependant, d’autres présentations sont possibles (présentation par le siège ou l’épaule) et sont sources de complications parfois très graves (ralentissement de l’accouchement, impossibilité d’accoucher, procidence du cordon ombilical)."
+              "texte": "L’expulsion L’orifice (col) de l’utérus s’ouvre de plus en plus sous l’effet des contractions. Le fœtus descend vers le vagin, en général la tête la première. Le nouveau-né apparaît alors et progressivement va sortir du corps de la mère. Une fois expulsé, le nouveau-né est toujours relié à la mère par le cordon ombilical et peut être pris en charge (1) . L’expulsion peut durer plusieurs minutes. L’enfant se présente normalement la tête en avant (présentation céphalique). Cependant, d’autres présentations sont possibles (présentation par le siège ou l’épaule) et sont sources de complications parfois très graves (ralentissement de l’accouchement, impossibilité d’accoucher, procidence du cordon ombilical)."
             },
             {
               "niveau": 1,
@@ -87,6 +87,6 @@
     }
   ],
   "notes": [
-    "1 Confère fiche de la prise en charge du nouveau-né à la naissance."
+    "(1) Confère fiche de la prise en charge du nouveau-né à la naissance."
   ]
 }

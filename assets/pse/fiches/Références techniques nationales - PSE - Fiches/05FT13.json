@@ -40,7 +40,7 @@
             },
             {
               "niveau": 1,
-              "texte": "« ballon-réserve » 1 ."
+              "texte": "« ballon-réserve » (1) ."
             }
           ]
         }
@@ -100,6 +100,6 @@
     }
   ],
   "notes": [
-    "gaz frais est fermée et l’oxygène s’accumule dans le ballon réserve. Lors de l’expiration, le ballon autoremplisseur de l’insufflateur manuel se remplit avec l’oxygène qui arrive directement de la bouteille et du ballon réserve et très peu d’air extérieur. De plus, une valve d’entrée d’air permet la pénétration d’air extérieur dans le ballon autoremplisseur si le volume d’oxygène contenu dans le ballon réserve n’est pas suffisant pour le remplir. Une soupape de surpression permet aussi la sortie d’oxygène du ballon-réserve si l’alimentation en oxygène est trop importante."
+    "(1) Le ballon-réserve est un ballon souple placé avant la valve d’admission des gaz frais. Son adjonction permet d’obtenir à l’intérieur de l’insufflateur manuel une concentration d’oxygène élevée proche de 85 % à un débit de 15 l/min. Il est alimenté par l’intermédiaire d’un tuyau d’arrivée d’oxygène (relié à une bouteille d’oxygène) qui arrive entre le ballon réserve et la valve d’admission des gaz frais. Pendant l’insufflation, la valve d’admission des gaz frais est fermée et l’oxygène s’accumule dans le ballon réserve. Lors de l’expiration, le ballon autoremplisseur de l’insufflateur manuel se remplit avec l’oxygène qui arrive directement de la bouteille et du ballon réserve et très peu d’air extérieur. De plus, une valve d’entrée d’air permet la pénétration d’air extérieur dans le ballon autoremplisseur si le volume d’oxygène contenu dans le ballon réserve n’est pas suffisant pour le remplir. Une soupape de surpression permet aussi la sortie d’oxygène du ballon-réserve si l’alimentation en oxygène est trop importante."
   ]
 }

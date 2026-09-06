@@ -130,7 +130,7 @@
         },
         {
           "type": "paragraphe",
-          "texte": "et lents, c’est-à-dire moins de 1 mouvement en 10 secondes (≤ 6 mvts/min). Parfois, ces signes peuvent être accompagnés d’une courte période de mouvements saccadés de la victime, ressemblant à des convulsions. La recherche d’un pouls n’est pas systématique pour caractériser l’arrêt cardiaque 1 . Toutefois, si elle est effectuée, son évaluation simultanée à la recherche de la respiration ne doit jamais dépasser 10 secondes et elle ne doit pas retarder la mise en œuvre des gestes de secours déclinés dans le tableau suivant. Cette recherche se fait au niveau :"
+          "texte": "et lents, c’est-à-dire moins de 1 mouvement en 10 secondes (≤ 6 mvts/min). Parfois, ces signes peuvent être accompagnés d’une courte période de mouvements saccadés de la victime, ressemblant à des convulsions. La recherche d’un pouls n’est pas systématique pour caractériser l’arrêt cardiaque (1) . Toutefois, si elle est effectuée, son évaluation simultanée à la recherche de la respiration ne doit jamais dépasser 10 secondes et elle ne doit pas retarder la mise en œuvre des gestes de secours déclinés dans le tableau suivant. Cette recherche se fait au niveau :"
         },
         {
           "type": "liste",
@@ -167,11 +167,11 @@
         },
         {
           "type": "paragraphe",
-          "texte": "Avec Non Non ou anormale Non ou doute (non perçu) RCP prise de pouls Non Oui Non (non perçu) RCP 2"
+          "texte": "Avec Non Non ou anormale Non ou doute (non perçu) RCP prise de pouls Non Oui Non (non perçu) RCP (2)"
         },
         {
           "type": "paragraphe",
-          "texte": "Non Non Oui (perçu) Insufflations 3"
+          "texte": "Non Non Oui (perçu) Insufflations (3)"
         },
         {
           "type": "paragraphe",
@@ -215,7 +215,8 @@
     }
   ],
   "notes": [
-    "d’une RCP après la survenue de l’arrêt cardiaque",
-    "3 Cette situation se rencontre chez les victimes qui présentent un arrêt ventilatoire initial, le plus souvent d’origine toxique (overdose). Si le secouriste intervient immédiatement après l’arrêt de la respiration, le pouls peut encore être perceptible. La réalisation d’insufflations évitera la survenue de l’arrêt-cardiaque."
+    "(1) La prise du pouls par les secouristes dépend du choix des autorités médicales de chaque organisme ou association.",
+    "(2) Cette situation, bien qu’exceptionnelle, peut se rencontrer dans les premières minutes d’une RCP chez les victimes qui ont bénéficié immédiatement d’une RCP après la survenue de l’arrêt cardiaque",
+    "(3) Cette situation se rencontre chez les victimes qui présentent un arrêt ventilatoire initial, le plus souvent d’origine toxique (overdose). Si le secouriste intervient immédiatement après l’arrêt de la respiration, le pouls peut encore être perceptible. La réalisation d’insufflations évitera la survenue de l’arrêt-cardiaque."
   ]
 }

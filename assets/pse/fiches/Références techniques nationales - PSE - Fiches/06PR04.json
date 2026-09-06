@@ -16,7 +16,7 @@
           "elements": [
             {
               "niveau": 1,
-              "texte": "allonger la victime au sol 1 ; • protéger la tête de la victime • s’assurer que les voies"
+              "texte": "allonger la victime au sol (1) ; • protéger la tête de la victime • s’assurer que les voies"
             },
             {
               "niveau": 1,
@@ -28,7 +28,7 @@
             },
             {
               "niveau": 1,
-              "texte": "ne rien 2 placer entre les qui s’imposent ; dents ou dans la bouche de • lorsque la victime redevient la victime. consciente, la garder au calme et la rassurer ;"
+              "texte": "ne rien (2) placer entre les qui s’imposent ; dents ou dans la bouche de • lorsque la victime redevient la victime. consciente, la garder au calme et la rassurer ;"
             },
             {
               "niveau": 1,
@@ -94,7 +94,7 @@
         },
         {
           "type": "paragraphe",
-          "texte": "1 Si elle n’est pas déjà dans cette position pour éviter qu’elle ne se blesse en chutant. 2 Elle n’avalera pas sa langue."
+          "texte": "(1) Si elle n’est pas déjà dans cette position pour éviter qu’elle ne se blesse en chutant. (2) Elle n’avalera pas sa langue."
         }
       ]
     }

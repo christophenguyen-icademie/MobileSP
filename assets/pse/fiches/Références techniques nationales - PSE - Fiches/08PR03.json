@@ -60,7 +60,7 @@
             },
             {
               "niveau": 1,
-              "texte": "transmettre le bilan et appliquer les consignes 1 reçues ;"
+              "texte": "transmettre le bilan et appliquer les consignes (1) reçues ;"
             },
             {
               "niveau": 1,
@@ -102,7 +102,7 @@
             },
             {
               "niveau": 1,
-              "texte": "reporter ces renseignements sur la fiche d’évacuation du plongeur accidenté 2 ."
+              "texte": "reporter ces renseignements sur la fiche d’évacuation du plongeur accidenté (2) ."
             }
           ]
         }
@@ -110,7 +110,7 @@
     }
   ],
   "notes": [
-    "d’allergie ou de saignement et si ce médicament est disponible.",
-    "2 Ces renseignements sont à reporter sur la fiche d’évacuation du plongeur accidenté, tel que prévu à l’article A322-78 du code du sport La fiche d’évacuation répond au modèle défini à l’annexe III-19 (art. A322-78) du code du sport. Elle fait partie du matériel de secours qui devrait être présent sur le lieu de mise à l'eau ou d'immersion et elle peut être téléchargée via le site internet https://www.legifrance.gouv.fr"
+    "(1) Il est courant, dans les premières trente minutes, que le médecin demande que soit administré à la victime de l’aspirine® par voie orale en l’absence d’allergie ou de saignement et si ce médicament est disponible.",
+    "(2) Ces renseignements sont à reporter sur la fiche d’évacuation du plongeur accidenté, tel que prévu à l’article A322-78 du code du sport La fiche d’évacuation répond au modèle défini à l’annexe III-19 (art. A322-78) du code du sport. Elle fait partie du matériel de secours qui devrait être présent sur le lieu de mise à l'eau ou d'immersion et elle peut être téléchargée via le site internet https://www.legifrance.gouv.fr"
   ]
 }

@@ -14,11 +14,11 @@
           "elements": [
             {
               "niveau": 1,
-              "texte": "installer la femme enceinte sur le côté 1 ;"
+              "texte": "installer la femme enceinte sur le côté (1) ;"
             },
             {
               "niveau": 1,
-              "texte": "réaliser un bilan de la femme enceinte, et au cours du 4ème regard, recueillir 2 les éléments suivants :"
+              "texte": "réaliser un bilan de la femme enceinte, et au cours du 4ème regard, recueillir (2) les éléments suivants :"
             },
             {
               "niveau": 2,
@@ -85,7 +85,7 @@
           "elements": [
             {
               "niveau": 1,
-              "texte": "relever et installer la victime sur un brancard, allongée sur le côté 1 et ceinturée ;"
+              "texte": "relever et installer la victime sur un brancard, allongée sur le côté (1) et ceinturée ;"
             },
             {
               "niveau": 1,
@@ -127,7 +127,7 @@
             },
             {
               "niveau": 1,
-              "texte": "installer la parturiente dans la position qui lui convient le mieux (demi-assise 3 , sur le côté, bord du lit, etc.) ;"
+              "texte": "installer la parturiente dans la position qui lui convient le mieux (demi-assise (3) , sur le côté, bord du lit, etc.) ;"
             },
             {
               "niveau": 1,
@@ -201,7 +201,7 @@
         },
         {
           "type": "paragraphe",
-          "texte": "§ lâcher la tête du nouveau-né pour ne pas s’opposer à sa rotation 1 , § une fois la tête totalement sortie, si la tête ne tourne pas, demander à la parturiente d’arrêter de pousser et vérifier s’il y a un circulaire du cordon autour du cou du nouveau-né, § en présence d’un circulaire du cordon, procéder à son dégagement, § maintenir la tête de l’enfant le temps du dégagement des épaules qui sortent l’une (épaule antérieure) après l’autre (épaule postérieure) ; § soutenir le corps du nouveau-né avec les mains placées sous lui au cours de sa sortie , § le nouveau-né, recouvert de liquide amniotique et du sang de la mère, est particulièrement glissant et doit être maintenu fermement. Ne jamais tirer sur l’enfant."
+          "texte": "§ lâcher la tête du nouveau-né pour ne pas s’opposer à sa rotation (1) , § une fois la tête totalement sortie, si la tête ne tourne pas, demander à la parturiente d’arrêter de pousser et vérifier s’il y a un circulaire du cordon autour du cou du nouveau-né, § en présence d’un circulaire du cordon, procéder à son dégagement, § maintenir la tête de l’enfant le temps du dégagement des épaules qui sortent l’une (épaule antérieure) après l’autre (épaule postérieure) ; § soutenir le corps du nouveau-né avec les mains placées sous lui au cours de sa sortie , § le nouveau-né, recouvert de liquide amniotique et du sang de la mère, est particulièrement glissant et doit être maintenu fermement. Ne jamais tirer sur l’enfant."
         },
         {
           "type": "liste",
@@ -288,7 +288,7 @@
             },
             {
               "niveau": 1,
-              "texte": "s’assurer de l’absence d’hémorragie extériorisée 2 ."
+              "texte": "s’assurer de l’absence d’hémorragie extériorisée (2) ."
             }
           ]
         },
@@ -300,10 +300,10 @@
     }
   ],
   "notes": [
-    "1 De préférence sur le côté gauche. L’installation sur le dos est à proscrire.",
-    "2 En questionnant la femme enceinte ou son entourage, ou en consultant le carnet de maternité.",
-    "3 En cas de position demi-assise, il est préférable que la mère ait les fesses légèrement au-delà du bord du lit ou du brancard, avec les cuisses fléchies, de façon que le bassin soit partiellement dans le vide.",
-    "1 Généralement la tête regarde vers le bas puis effectue une rotation d’un quart de tour sur la droite ou la gauche au cours de sa sortie",
-    "2 Une hémorragie secondaire peut survenir après la délivrance. En présence de celle-ci, appliquer la conduite à tenir adaptée."
+    "(1) De préférence sur le côté gauche. L’installation sur le dos est à proscrire.",
+    "(2) En questionnant la femme enceinte ou son entourage, ou en consultant le carnet de maternité.",
+    "(3) En cas de position demi-assise, il est préférable que la mère ait les fesses légèrement au-delà du bord du lit ou du brancard, avec les cuisses fléchies, de façon que le bassin soit partiellement dans le vide.",
+    "(1) Généralement la tête regarde vers le bas puis effectue une rotation d’un quart de tour sur la droite ou la gauche au cours de sa sortie",
+    "(2) Une hémorragie secondaire peut survenir après la délivrance. En présence de celle-ci, appliquer la conduite à tenir adaptée."
   ]
 }

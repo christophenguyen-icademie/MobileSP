@@ -85,7 +85,7 @@
           "elements": [
             {
               "niveau": 1,
-              "texte": "immerger 1 le corps de la victime entièrement dans un bain d’eau fraîche, froide, ou glacée ;"
+              "texte": "immerger (1) le corps de la victime entièrement dans un bain d’eau fraîche, froide, ou glacée ;"
             },
             {
               "niveau": 1,
@@ -97,7 +97,7 @@
             },
             {
               "niveau": 1,
-              "texte": "remuer 2 activement l’eau autour de la victime."
+              "texte": "remuer (2) activement l’eau autour de la victime."
             }
           ]
         }
@@ -111,7 +111,7 @@
           "elements": [
             {
               "niveau": 1,
-              "texte": "pulvériser de l’eau à température ambiante sur la victime pour la mouiller 1 ;"
+              "texte": "pulvériser de l’eau à température ambiante sur la victime pour la mouiller (1) ;"
             },
             {
               "niveau": 1,
@@ -166,8 +166,8 @@
     }
   ],
   "notes": [
-    "de premiers secours, une improvisation doit être nécessaire pour assurer coûte que coûte un refroidissement actif : baignoire de la personne, bâche plastique, obtenir de la glace chez le voisin ou au bar du coin, demande de renforts, installer la victime dans une petite piscine pour enfants remplie d’eau, l’envelopper dans une bâche contenant de l’eau et de la glace en la faisant doucement osciller, etc",
-    "2 Cela favorise les échanges thermiques entre l’eau et la peau, et permet d’éviter une éventuelle brûlure par de la glace qui resterait en contact.",
-    "1 Cela augmente la déperdition de chaleur par évaporation."
+    "(1) Cette immersion peut être réalisée en plaçant la victime dans une baignoire remplie d’eau à laquelle on ajoute des glaçons. Toutefois, en contexte de premiers secours, une improvisation doit être nécessaire pour assurer coûte que coûte un refroidissement actif : baignoire de la personne, bâche plastique, obtenir de la glace chez le voisin ou au bar du coin, demande de renforts, installer la victime dans une petite piscine pour enfants remplie d’eau, l’envelopper dans une bâche contenant de l’eau et de la glace en la faisant doucement osciller, etc",
+    "(2) Cela favorise les échanges thermiques entre l’eau et la peau, et permet d’éviter une éventuelle brûlure par de la glace qui resterait en contact.",
+    "(1) Cela augmente la déperdition de chaleur par évaporation."
   ]
 }

@@ -23,7 +23,7 @@
           "elements": [
             {
               "niveau": 1,
-              "texte": "la placer en position stable sur le côté, en position latérale de sécurité (PLS 1 ) ;"
+              "texte": "la placer en position stable sur le côté, en position latérale de sécurité (PLS (1) ) ;"
             },
             {
               "niveau": 1,
@@ -61,11 +61,11 @@
             },
             {
               "niveau": 1,
-              "texte": "faire alerter ou alerter les secours, respecter leurs consignes 2 ;"
+              "texte": "faire alerter ou alerter les secours, respecter leurs consignes (2) ;"
             },
             {
               "niveau": 1,
-              "texte": "surveiller en permanence la respiration de la victime jusqu’à l’arrivée des secours comme effectué lors de la recherche de la respiration 3 ;"
+              "texte": "surveiller en permanence la respiration de la victime jusqu’à l’arrivée des secours comme effectué lors de la recherche de la respiration (3) ;"
             },
             {
               "niveau": 1,
@@ -99,8 +99,8 @@
     }
   ],
   "notes": [
-    "1 Le retournement sur le côté gauche de la femme enceinte, ou d’une victime obèse, permet d’éviter l’apparition d’une détresse par compression de certains vaisseaux sanguins de l’abdomen.",
-    "2 Il est possible que les services de secours demandent de mettre la victime en position latérale de sécurité.",
-    "3 Le maintien de la libération des voies aériennes permet de stabiliser le rachis cervical."
+    "(1) Le retournement sur le côté gauche de la femme enceinte, ou d’une victime obèse, permet d’éviter l’apparition d’une détresse par compression de certains vaisseaux sanguins de l’abdomen.",
+    "(2) Il est possible que les services de secours demandent de mettre la victime en position latérale de sécurité.",
+    "(3) Le maintien de la libération des voies aériennes permet de stabiliser le rachis cervical."
   ]
 }

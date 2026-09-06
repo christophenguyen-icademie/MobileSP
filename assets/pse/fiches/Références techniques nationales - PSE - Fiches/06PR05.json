@@ -34,7 +34,7 @@
             },
             {
               "niveau": 2,
-              "texte": "soustraire la victime aux facteurs qui pourraient avoir déclenché la crise 1 ;"
+              "texte": "soustraire la victime aux facteurs qui pourraient avoir déclenché la crise (1) ;"
             },
             {
               "niveau": 2,
@@ -64,6 +64,6 @@
     }
   ],
   "notes": [
-    "1 Atmosphère enfumée, polluée, poussière."
+    "(1) Atmosphère enfumée, polluée, poussière."
   ]
 }

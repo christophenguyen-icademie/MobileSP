@@ -212,7 +212,7 @@
             },
             {
               "niveau": 2,
-              "texte": "Peut dépendre des signes cliniques 1 : les signes neurologiques peuvent précéder la température élevée ; la température peut-être en phase ascendante ; la température corporelle, mesurée de manière fiable, dépasse 40°C."
+              "texte": "Peut dépendre des signes cliniques (1) : les signes neurologiques peuvent précéder la température élevée ; la température peut-être en phase ascendante ; la température corporelle, mesurée de manière fiable, dépasse 40°C."
             }
           ]
         }
@@ -246,6 +246,6 @@
     }
   ],
   "notes": [
-    "Des troubles neurologiques progressifs qui reflètent une atteinte cérébrale (encéphalopathie) apparaissent. La victime éprouve des difficultés à marcher (démarche instable), manifeste de la confusion, des troubles visuels et comportementaux. L'apparition de convulsions ou une perte de connaissance indique une aggravation de son état. Si la température corporelle peut être mesurée de manière fiable, elle dépasse 40°C."
+    "(1) La victime présente des nausées, des vomissements et des signes de déshydratation. La peau de la victime est rouge, sèche et brûlante au toucher. Des troubles neurologiques progressifs qui reflètent une atteinte cérébrale (encéphalopathie) apparaissent. La victime éprouve des difficultés à marcher (démarche instable), manifeste de la confusion, des troubles visuels et comportementaux. L'apparition de convulsions ou une perte de connaissance indique une aggravation de son état. Si la température corporelle peut être mesurée de manière fiable, elle dépasse 40°C."
   ]
 }

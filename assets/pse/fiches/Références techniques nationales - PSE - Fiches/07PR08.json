@@ -98,7 +98,7 @@
             },
             {
               "niveau": 2,
-              "texte": "la victime se plaint ou présente des signes d’une atteinte du rachis (B) ou de la moelle (C) comme une douleur de la colonne vertébrale, un déficit moteur ou sensitif des membres, une sensation anormale des membres (décharges électriques, fourmillements), un priapisme, une déformation de la colonne vertébrale, une sensibilité de la colonne vertébrale (douleur provoquée à la palpation), une douleur de la colonne vertébrale quand la victime tousse, essaye de se déplacer ou de s’asseoir 1 ,"
+              "texte": "la victime se plaint ou présente des signes d’une atteinte du rachis (B) ou de la moelle (C) comme une douleur de la colonne vertébrale, un déficit moteur ou sensitif des membres, une sensation anormale des membres (décharges électriques, fourmillements), un priapisme, une déformation de la colonne vertébrale, une sensibilité de la colonne vertébrale (douleur provoquée à la palpation), une douleur de la colonne vertébrale quand la victime tousse, essaye de se déplacer ou de s’asseoir (1) ,"
             },
             {
               "niveau": 2,
@@ -295,6 +295,6 @@
     }
   ],
   "notes": [
-    "1 Si la victime présente une douleur ou si des signes d'atteinte du rachis ou de la moelle apparaissent lorsque la victime se déplace, demander à la victime de s'arrêter et l'immobiliser."
+    "(1) Si la victime présente une douleur ou si des signes d'atteinte du rachis ou de la moelle apparaissent lorsque la victime se déplace, demander à la victime de s'arrêter et l'immobiliser."
   ]
 }

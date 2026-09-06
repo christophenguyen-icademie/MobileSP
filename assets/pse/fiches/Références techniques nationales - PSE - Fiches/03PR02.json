@@ -36,7 +36,7 @@
           "elements": [
             {
               "niveau": 1,
-              "texte": "porter une tenue adaptée 1 , confortable et lavable ;"
+              "texte": "porter une tenue adaptée (1) , confortable et lavable ;"
             },
             {
               "niveau": 1,
@@ -92,6 +92,6 @@
     }
   ],
   "notes": [
-    "1 Cette tenue doit être changée dès qu’elle est souillée."
+    "(1) Cette tenue doit être changée dès qu’elle est souillée."
   ]
 }

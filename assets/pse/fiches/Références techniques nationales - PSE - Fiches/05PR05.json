@@ -35,7 +35,7 @@
           "elements": [
             {
               "niveau": 2,
-              "texte": "si un DAE est proche 1 :"
+              "texte": "si un DAE est proche (1) :"
             }
           ]
         },
@@ -48,19 +48,19 @@
           "elements": [
             {
               "niveau": 1,
-              "texte": "si un tiers est présent, lui demander d’alerter 2 les secours et de ramener et installer un DAE ;"
+              "texte": "si un tiers est présent, lui demander d’alerter (2) les secours et de ramener et installer un DAE ;"
             },
             {
               "niveau": 1,
-              "texte": "débuter immédiatement 3 une RCP en répétant des cycles de :"
+              "texte": "débuter immédiatement (3) une RCP en répétant des cycles de :"
             },
             {
               "niveau": 2,
-              "texte": "adulte : 30 compressions thoraciques / 2 insufflations 4 ;"
+              "texte": "adulte : 30 compressions thoraciques / 2 insufflations (4) ;"
             },
             {
               "niveau": 2,
-              "texte": "enfant et nourrisson : 15 compressions thoraciques / 2 insufflations 4 ."
+              "texte": "enfant et nourrisson : 15 compressions thoraciques / 2 insufflations (4) ."
             },
             {
               "niveau": 1,
@@ -90,11 +90,11 @@
             },
             {
               "niveau": 1,
-              "texte": "apprécier la respiration 6 de la victime en regardant si son ventre et sa poitrine se soulèvent ;"
+              "texte": "apprécier la respiration (6) de la victime en regardant si son ventre et sa poitrine se soulèvent ;"
             },
             {
               "niveau": 1,
-              "texte": "si possible, placer 7 un tissu, une serviette ou un masque sur la bouche et le nez de la victime ;"
+              "texte": "si possible, placer (7) un tissu, une serviette ou un masque sur la bouche et le nez de la victime ;"
             },
             {
               "niveau": 1,
@@ -126,8 +126,12 @@
     }
   ],
   "notes": [
-    "5 Lors d’une épidémie engendrant une maladie infectieuse contagieuse par transmission respiratoire.",
-    "6 Ne pas procéder à la bascule de la tête de la victime en arrière, ne pas tenter de lui ouvrir la bouche, ne pas se pencher au-dessus de la face de la victime et ne pas mettre son oreille et sa joue au-dessus de la bouche et du nez de la victime ;",
-    "7 Avant de procéder aux compressions thoraciques et à la défibrillation."
+    "(1) Le sauveteur récupère lui-même le DAE s’il est à proximité, facilement accessible, et qu’il peut se le procurer immédiatement sans quitter la victime plus de 10 secondes. Dans le cas contraire, le sauveteur réalise la RCP jusqu’à ce qu’on lui apporte le DAE.",
+    "(2) Le service de secours appelé pourra aider le sauveteur à la réalisation de la RCP, en donnant des instructions téléphoniques.",
+    "(3) Toute action entreprise par le sauveteur ne doit pas retarder, empêcher ou interrompre la RCP.",
+    "(4) Si les insufflations ne peuvent pas être effectuées (répulsion, maladie infectieuse et contagieuse, vomissements, traumatisme majeur de la face, etc.), il doit réaliser uniquement les compressions thoraciques en continu à un rythme de 100 à 120 compressions par minute.",
+    "(5) Lors d’une épidémie engendrant une maladie infectieuse contagieuse par transmission respiratoire.",
+    "(6) Ne pas procéder à la bascule de la tête de la victime en arrière, ne pas tenter de lui ouvrir la bouche, ne pas se pencher au-dessus de la face de la victime et ne pas mettre son oreille et sa joue au-dessus de la bouche et du nez de la victime ;",
+    "(7) Avant de procéder aux compressions thoraciques et à la défibrillation."
   ]
 }

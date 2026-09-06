@@ -39,7 +39,12 @@ class Ligne:
 
 
 def nettoyer(texte: str) -> str:
-    return ESPACES.sub(" ", html.unescape(texte)).strip()
+    texte = ESPACES.sub(" ", html.unescape(texte)).strip()
+    # Ne pas confondre les exposants scientifiques et indices chimiques avec
+    # des appels de notes lors de l'assemblage des fragments typographiques.
+    texte = re.sub(r"\bm \(([23])\)", lambda m: f"m{'²' if m.group(1) == '2' else '³'}", texte)
+    texte = texte.replace("O (2)", "O₂")
+    return texte
 
 
 def convertir_pdf(pdf: Path) -> tuple[list[Ligne], list[str]]:
@@ -83,9 +88,16 @@ def convertir_pdf(pdf: Path) -> tuple[list[Ligne], list[str]]:
             else:
                 groupes.append([fragment])
 
+        dans_notes_de_page = False
         for groupe in groupes:
             groupe.sort(key=lambda item: item.gauche)
-            morceaux = [item.texte for item in groupe]
+            contient_texte_normal = any(item.taille >= 12 for item in groupe)
+            morceaux = [
+                f"({item.texte})"
+                if contient_texte_normal and item.taille < 12 and item.texte.isdigit()
+                else item.texte
+                for item in groupe
+            ]
             marqueur = morceaux[0] if morceaux[0] in MARQUEURS else None
             if marqueur:
                 morceaux = morceaux[1:]
@@ -93,9 +105,21 @@ def convertir_pdf(pdf: Path) -> tuple[list[Ligne], list[str]]:
             if not texte or re.fullmatch(r"\d+", texte):
                 continue
             taille_max = max(item.taille for item in groupe)
-            if taille_max < 12:
-                if min(item.haut for item in groupe) > float(page.attrib.get("height", 1262)) - 145:
+            debut_note = bool(re.match(r"^\d+\s*\D", texte)) and min(
+                item.gauche for item in groupe
+            ) < 115
+            # Certaines fiches possèdent un bloc de notes assez haut (jusqu'à
+            # environ 230 points du bas lorsqu'il contient plusieurs notes).
+            proche_bas = min(item.haut for item in groupe) > float(
+                page.attrib.get("height", 1262)
+            ) - 230
+            est_petite_note = taille_max <= 13 and (
+                debut_note or dans_notes_de_page
+            )
+            if taille_max < 12 or est_petite_note:
+                if debut_note or proche_bas or dans_notes_de_page:
                     notes_brutes.append(texte)
+                    dans_notes_de_page = True
                 continue
             lignes.append(
                 Ligne(
@@ -109,7 +133,8 @@ def convertir_pdf(pdf: Path) -> tuple[list[Ligne], list[str]]:
             )
     notes: list[str] = []
     for ligne in notes_brutes:
-        if re.match(r"^\d+\s*\D", ligne) or not notes:
+        ligne = re.sub(r"^(\d+)\s*", r"(\1) ", ligne)
+        if re.match(r"^\(\d+\)\s*\D", ligne) or not notes:
             notes.append(ligne)
         else:
             notes[-1] = nettoyer(f"{notes[-1]} {ligne}")

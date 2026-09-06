@@ -26,7 +26,7 @@
             },
             {
               "niveau": 2,
-              "texte": "même s’ils sont transfixiants 1 ,"
+              "texte": "même s’ils sont transfixiants (1) ,"
             },
             {
               "niveau": 2,
@@ -48,11 +48,11 @@
             },
             {
               "niveau": 1,
-              "texte": "demander à la victime de rester à plat dos 2 dans la mesure du possible. ;"
+              "texte": "demander à la victime de rester à plat dos (2) dans la mesure du possible. ;"
             },
             {
               "niveau": 1,
-              "texte": "recouvrir 3 les deux yeux par des compresses stériles."
+              "texte": "recouvrir (3) les deux yeux par des compresses stériles."
             }
           ]
         }
@@ -114,8 +114,9 @@
     }
   ],
   "notes": [
-    "2 Cette position évite une aggravation éventuelle de la lésion de l’œil.",
-    "3 Sans appuyer et seulement s’il n’existe pas de corps étrangers dont la mobilisation pourrait aggraver la lésion oculaire.",
-    "4 Ces lésions sont susceptibles de provoquer un saignement abondant qui peut s’écouler et encombrer les voies aériennes, pouvant engendrer une détresse respiratoire."
+    "(1) Qui traverse de part en part.",
+    "(2) Cette position évite une aggravation éventuelle de la lésion de l’œil.",
+    "(3) Sans appuyer et seulement s’il n’existe pas de corps étrangers dont la mobilisation pourrait aggraver la lésion oculaire.",
+    "(4) Ces lésions sont susceptibles de provoquer un saignement abondant qui peut s’écouler et encombrer les voies aériennes, pouvant engendrer une détresse respiratoire."
   ]
 }

@@ -60,11 +60,11 @@
             },
             {
               "niveau": 1,
-              "texte": "retirer les bagues, bracelets si la piqûre se situe à la main, avant l’apparition de gonflements 1 ;"
+              "texte": "retirer les bagues, bracelets si la piqûre se situe à la main, avant l’apparition de gonflements (1) ;"
             },
             {
               "niveau": 1,
-              "texte": "appliquer du froid 2 ; Si le siège de la piqûre est dans la bouche ou la gorge, demander à la victime de sucer de la glace."
+              "texte": "appliquer du froid (2) ; Si le siège de la piqûre est dans la bouche ou la gorge, demander à la victime de sucer de la glace."
             },
             {
               "niveau": 1,
@@ -90,7 +90,7 @@
           "elements": [
             {
               "niveau": 1,
-              "texte": "rincer la zone piquée avec de l’eau de mer 3 ;"
+              "texte": "rincer la zone piquée avec de l’eau de mer (3) ;"
             },
             {
               "niveau": 1,
@@ -98,11 +98,11 @@
             },
             {
               "niveau": 1,
-              "texte": "si la douleur persiste, enduire 4 la zone atteinte avec du sable, et racler sans frotter avec une carte rigide (exemple : carte de crédit, etc.) ;"
+              "texte": "si la douleur persiste, enduire (4) la zone atteinte avec du sable, et racler sans frotter avec une carte rigide (exemple : carte de crédit, etc.) ;"
             },
             {
               "niveau": 1,
-              "texte": "ensuite, appliquer du chaud 5 sur la zone atteinte 6 , jusqu’à la disparition de la douleur."
+              "texte": "ensuite, appliquer du chaud (5) sur la zone atteinte (6) , jusqu’à la disparition de la douleur."
             }
           ]
         }
@@ -224,9 +224,12 @@
     }
   ],
   "notes": [
-    "4 Afin de « piéger » les nématocystes non encore rompus.",
-    "5 Des compresses chaudes, ou de l’eau aussi chaude que possible (entre 40 et 45°C), en restant tolérable et sécuritaire pour la victime. À défaut, du froid peut être utilisé.",
-    "6 Par immersion, arrosage, ou recouvrement.",
-    "1 Cette référence est prévue pour des serpents présents sur le territoire européen. Pour ceux d’autres localités, ou importés, les équipes doivent consulter les centres antipoison ou le SAMU pour obtenir une conduite à tenir adaptée."
+    "(1) Les bagues et bracelets doivent être retirés en cas de piqûres ou de morsure de serpent à la main. En effet, en cas de gonflements, ils sont susceptibles d’interrompre la circulation.",
+    "(2) L’application de froid sur le siège d’une piqûre permet de limiter le gonflement et la douleur.",
+    "(3) L’eau douce peut activer les nématocystes, aussi rincer avec de l’eau de mer avant d’appliquer de l’eau chaude douce si utilisée.",
+    "(4) Afin de « piéger » les nématocystes non encore rompus.",
+    "(5) Des compresses chaudes, ou de l’eau aussi chaude que possible (entre 40 et 45°C), en restant tolérable et sécuritaire pour la victime. À défaut, du froid peut être utilisé.",
+    "(6) Par immersion, arrosage, ou recouvrement.",
+    "(1) Cette référence est prévue pour des serpents présents sur le territoire européen. Pour ceux d’autres localités, ou importés, les équipes doivent consulter les centres antipoison ou le SAMU pour obtenir une conduite à tenir adaptée."
   ]
 }

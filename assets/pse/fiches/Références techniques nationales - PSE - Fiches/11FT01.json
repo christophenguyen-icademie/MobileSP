@@ -74,13 +74,13 @@
             },
             {
               "niveau": 1,
-              "texte": "identifier la victime avec la couleur appropriée ; R EPERAGE DES VICTIMES Victime dont le décès ne fait aucun doute 1 NOIR Victime qui a perdu connaissance et ne respire pas après LVA Victime qui a perdu connaissance et respire après LVA"
+              "texte": "identifier la victime avec la couleur appropriée ; R EPERAGE DES VICTIMES Victime dont le décès ne fait aucun doute (1) NOIR Victime qui a perdu connaissance et ne respire pas après LVA Victime qui a perdu connaissance et respire après LVA"
             }
           ]
         },
         {
           "type": "paragraphe",
-          "texte": "ROUGE Victime avec une hémorragie ou consciente, et qui présente une détresse vitale 2 JAUNE Victime consciente qui ne présente pas de détresse vitale et ne pouvant se déplacer seul. Personne exposée à la situation, ne présente pas de détresse vitale et pouvant se déplacer seule ou VERT aidée"
+          "texte": "ROUGE Victime avec une hémorragie ou consciente, et qui présente une détresse vitale (2) JAUNE Victime consciente qui ne présente pas de détresse vitale et ne pouvant se déplacer seul. Personne exposée à la situation, ne présente pas de détresse vitale et pouvant se déplacer seule ou VERT aidée"
         },
         {
           "type": "liste",
@@ -105,7 +105,7 @@
         },
         {
           "type": "paragraphe",
-          "texte": "Décès ne fait pas de doute 1 OUI NOIR"
+          "texte": "Décès ne fait pas de doute (1) OUI NOIR"
         },
         {
           "type": "paragraphe",
@@ -144,7 +144,7 @@
     }
   ],
   "notes": [
-    "1 Tête séparée du tronc, victime déchiquetée, victime démembrée, raideur cadavérique",
-    "2 Apprécier la respiration et la circulation sans excéder 15 sec par fonction. Chez l’adulte, en cas de nombreuses victimes, est considéré comme détresse respiratoire (fréquence supérieure à 30 mvt/min) ou circulatoire (fréquence supérieure à 120 bat/min)."
+    "(1) Tête séparée du tronc, victime déchiquetée, victime démembrée, raideur cadavérique",
+    "(2) Apprécier la respiration et la circulation sans excéder 15 sec par fonction. Chez l’adulte, en cas de nombreuses victimes, est considéré comme détresse respiratoire (fréquence supérieure à 30 mvt/min) ou circulatoire (fréquence supérieure à 120 bat/min)."
   ]
 }

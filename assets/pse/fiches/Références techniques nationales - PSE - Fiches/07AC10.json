@@ -31,7 +31,7 @@
             },
             {
               "niveau": 1,
-              "texte": "à distance du bassin et transmis 1 par l’intermédiaire des os des membres inférieurs."
+              "texte": "à distance du bassin et transmis (1) par l’intermédiaire des os des membres inférieurs."
             }
           ]
         },
@@ -53,7 +53,7 @@
           "elements": [
             {
               "niveau": 1,
-              "texte": "à la perte de sang 2 due aux fractures elles-mêmes ;"
+              "texte": "à la perte de sang (2) due aux fractures elles-mêmes ;"
             },
             {
               "niveau": 1,
@@ -129,7 +129,7 @@
     }
   ],
   "notes": [
-    "1 Chute ou choc sur la hanche, chute de grande hauteur sur les talons.",
-    "2 Une fracture multiple du bassin est fréquemment responsable d’une hémorragie interne importante."
+    "(1) Chute ou choc sur la hanche, chute de grande hauteur sur les talons.",
+    "(2) Une fracture multiple du bassin est fréquemment responsable d’une hémorragie interne importante."
   ]
 }

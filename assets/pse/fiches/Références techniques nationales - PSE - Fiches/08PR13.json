@@ -14,7 +14,7 @@
           "elements": [
             {
               "niveau": 1,
-              "texte": "ne pas détruire, jeter ou déplacer les objets plus que nécessaire 1 ;"
+              "texte": "ne pas détruire, jeter ou déplacer les objets plus que nécessaire (1) ;"
             },
             {
               "niveau": 1,
@@ -94,6 +94,6 @@
     }
   ],
   "notes": [
-    "1 En effet, ces éléments, comme une corde nouée par exemple, peuvent servir de preuve aux forces de l’ordre."
+    "(1) En effet, ces éléments, comme une corde nouée par exemple, peuvent servir de preuve aux forces de l’ordre."
   ]
 }

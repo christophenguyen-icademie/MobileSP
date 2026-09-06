@@ -131,7 +131,7 @@
       "contenu": [
         {
           "type": "paragraphe",
-          "texte": "Afin de limiter au maximum les effets du sinistre, il faut adopter une méthode spécifique de prise en charge des victimes, d’une part, et organiser les secours en se fondant sur une organisation qui intègre et coordonne les maillons de la chaîne des secours. Cette organisation s’appuie sur la planification ORSEC 1 ."
+          "texte": "Afin de limiter au maximum les effets du sinistre, il faut adopter une méthode spécifique de prise en charge des victimes, d’une part, et organiser les secours en se fondant sur une organisation qui intègre et coordonne les maillons de la chaîne des secours. Cette organisation s’appuie sur la planification ORSEC (1) ."
         }
       ]
     },
@@ -167,6 +167,6 @@
     }
   ],
   "notes": [
-    "1 Le Code de la sécurité intérieure fixe l'organisation de la réponse de sécurité civile (ORSEC)."
+    "(1) Le Code de la sécurité intérieure fixe l'organisation de la réponse de sécurité civile (ORSEC)."
   ]
 }

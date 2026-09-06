@@ -96,7 +96,7 @@
           "elements": [
             {
               "niveau": 2,
-              "texte": "présente un balancement thoraco-abdominal 1 ."
+              "texte": "présente un balancement thoraco-abdominal (1) ."
             }
           ]
         },
@@ -245,6 +245,6 @@
     }
   ],
   "notes": [
-    "1 Mouvement opposé du thorax et de l’abdomen. Lorsque l’un se soulève à l’inspiration, l’autre s’abaisse."
+    "(1) Mouvement opposé du thorax et de l’abdomen. Lorsque l’un se soulève à l’inspiration, l’autre s’abaisse."
   ]
 }

@@ -67,7 +67,7 @@
           "elements": [
             {
               "niveau": 1,
-              "texte": "La mesure 1 des paramètres physiologiques :"
+              "texte": "La mesure (1) des paramètres physiologiques :"
             }
           ]
         },
@@ -98,7 +98,7 @@
         },
         {
           "type": "paragraphe",
-          "texte": "D’autres paramètres peuvent être mesurés en fonction du contexte, de la plainte et de l’examen. Tel est le cas de la mesure de la glycémie capillaire, de la mesure de la température corporelle ou la réalisation et télétransmission d’un électrocardiogramme pour les secouristes habilités 2 ."
+          "texte": "D’autres paramètres peuvent être mesurés en fonction du contexte, de la plainte et de l’examen. Tel est le cas de la mesure de la glycémie capillaire, de la mesure de la température corporelle ou la réalisation et télétransmission d’un électrocardiogramme pour les secouristes habilités (2) ."
         },
         {
           "type": "paragraphe",
@@ -141,7 +141,7 @@
     }
   ],
   "notes": [
-    "1 Confère la section « Mesurer » dans les fiches « évaluation des fonctions vitales ».",
-    "2 Décret n° 2022-621 du 22 avril 2022 relatif aux actes de soins d'urgence relevant de la compétence des sapeurs-pompiers"
+    "(1) Confère la section « Mesurer » dans les fiches « évaluation des fonctions vitales ».",
+    "(2) Décret n° 2022-621 du 22 avril 2022 relatif aux actes de soins d'urgence relevant de la compétence des sapeurs-pompiers"
   ]
 }

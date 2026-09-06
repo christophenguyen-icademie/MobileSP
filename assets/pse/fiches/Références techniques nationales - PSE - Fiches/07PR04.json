@@ -36,7 +36,7 @@
             },
             {
               "niveau": 2,
-              "texte": "mettre la victime dans une position allongée, à plat dos, jambes fléchies 1 ;"
+              "texte": "mettre la victime dans une position allongée, à plat dos, jambes fléchies (1) ;"
             },
             {
               "niveau": 2,
@@ -44,7 +44,7 @@
             },
             {
               "niveau": 2,
-              "texte": "En présence d’une éviscération : § ne pas remettre les viscères en place ; § envelopper 2 les viscères dans un champ 3 stérile humidifié 4 ."
+              "texte": "En présence d’une éviscération : § ne pas remettre les viscères en place ; § envelopper (2) les viscères dans un champ (3) stérile humidifié (4) ."
             },
             {
               "niveau": 2,
@@ -56,9 +56,9 @@
     }
   ],
   "notes": [
-    "1 Cette position sera maintenue lors de son relevage et de son transport.",
-    "2 Sans les mobiliser, ni les comprimer.",
-    "3 Ne pas utiliser de compresses.",
-    "4 Eau stérile ou sérum physiologique."
+    "(1) Cette position sera maintenue lors de son relevage et de son transport.",
+    "(2) Sans les mobiliser, ni les comprimer.",
+    "(3) Ne pas utiliser de compresses.",
+    "(4) Eau stérile ou sérum physiologique."
   ]
 }

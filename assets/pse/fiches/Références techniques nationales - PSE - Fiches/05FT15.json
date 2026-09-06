@@ -78,7 +78,7 @@
             },
             {
               "niveau": 1,
-              "texte": "une sonde d’aspiration 1 buccale adaptée à l’âge de la victime (cf. tableau suivant) qui peut être :"
+              "texte": "une sonde d’aspiration (1) buccale adaptée à l’âge de la victime (cf. tableau suivant) qui peut être :"
             },
             {
               "niveau": 2,
@@ -90,7 +90,7 @@
             },
             {
               "niveau": 1,
-              "texte": "un réceptacle 2 constitué d’un flacon en plastique ou en verre ou parfois d’un sac à usage unique ;"
+              "texte": "un réceptacle (2) constitué d’un flacon en plastique ou en verre ou parfois d’un sac à usage unique ;"
             },
             {
               "niveau": 1,
@@ -212,7 +212,7 @@
     }
   ],
   "notes": [
-    "1 La sonde d’aspiration est reliée à l’appareil par un tuyau. L’ensemble, à usage unique, doit être remplacé après chaque utilisation.",
-    "2 Prévu pour récupérer les produits d’aspiration, il est inséré entre la pompe et le tuyau d’aspiration. Son remplissage doit être surveillé. Il est vidé ou remplacé systématiquement en fin d’intervention ;"
+    "(1) La sonde d’aspiration est reliée à l’appareil par un tuyau. L’ensemble, à usage unique, doit être remplacé après chaque utilisation.",
+    "(2) Prévu pour récupérer les produits d’aspiration, il est inséré entre la pompe et le tuyau d’aspiration. Son remplissage doit être surveillé. Il est vidé ou remplacé systématiquement en fin d’intervention ;"
   ]
 }

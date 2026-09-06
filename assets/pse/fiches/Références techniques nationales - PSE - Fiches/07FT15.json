@@ -103,7 +103,7 @@
             },
             {
               "niveau": 1,
-              "texte": "mettre en place un drap ou une couverture de survie 1 ."
+              "texte": "mettre en place un drap ou une couverture de survie (1) ."
             }
           ]
         },
@@ -191,6 +191,6 @@
     }
   ],
   "notes": [
-    "1 La face ou la couleur de la couverture n’ont que peu d’incidence sur la déperdition de chaleur."
+    "(1) La face ou la couleur de la couverture n’ont que peu d’incidence sur la déperdition de chaleur."
   ]
 }

@@ -40,7 +40,7 @@
             },
             {
               "niveau": 1,
-              "texte": "responsables d’une détresse vitale par une obstruction des voies aériennes 1 ou une hémorragie ;"
+              "texte": "responsables d’une détresse vitale par une obstruction des voies aériennes (1) ou une hémorragie ;"
             },
             {
               "niveau": 1,
@@ -125,6 +125,6 @@
     }
   ],
   "notes": [
-    "1 Provoquée par une inhalation d’un corps étranger ou de sang, une fracture de la mandibule avec désinsertion et bascule de la langue en arrière dans les voies aériennes ou un gonflement post-traumatique de la muqueuse des voies aériennes (traumatisme du larynx) ;"
+    "(1) Provoquée par une inhalation d’un corps étranger ou de sang, une fracture de la mandibule avec désinsertion et bascule de la langue en arrière dans les voies aériennes ou un gonflement post-traumatique de la muqueuse des voies aériennes (traumatisme du larynx) ;"
   ]
 }

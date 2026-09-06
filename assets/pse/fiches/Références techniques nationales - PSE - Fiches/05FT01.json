@@ -81,7 +81,7 @@
             },
             {
               "niveau": 2,
-              "texte": "masque à inhalation à « haute concentration » (MHC) 1 ;"
+              "texte": "masque à inhalation à « haute concentration » (MHC) (1) ;"
             }
           ]
         },
@@ -94,7 +94,7 @@
           "elements": [
             {
               "niveau": 2,
-              "texte": "masque simple 2 ;"
+              "texte": "masque simple (2) ;"
             }
           ]
         },
@@ -196,7 +196,7 @@
             },
             {
               "niveau": 2,
-              "texte": "inhalation d’O avec un MHC et à un débit de 15 l/min quels que soient les antécédents de la victime dans l’attente d’un avis médical. Tableau 11: Débits d’oxygène en fonction du dispositif d’inhalation d’O² MHC M ASQUE SIMPLE L UNETTES A O ( ) ( ) 2"
+              "texte": "inhalation d’O avec un MHC et à un débit de 15 l/min quels que soient les antécédents de la victime dans l’attente d’un avis médical. Tableau 11: Débits d’oxygène en fonction du dispositif d’inhalation d’O² MHC M ASQUE SIMPLE L UNETTES A O ( ) ( ) (2)"
             }
           ]
         },
@@ -230,7 +230,7 @@
     }
   ],
   "notes": [
-    "1 Le MHC délivre un air dont la concentration en O est comprise entre 60 et 90 % lorsque le débit d’admission est de 8 à 15 l/min.",
-    "2 Le MS délivre un air dont la concentration en O est comprise entre 40 et 60 % lorsque le débit d’admission est de 5 à 10 l/min."
+    "(1) Le MHC délivre un air dont la concentration en O est comprise entre 60 et 90 % lorsque le débit d’admission est de 8 à 15 l/min.",
+    "(2) Le MS délivre un air dont la concentration en O est comprise entre 40 et 60 % lorsque le débit d’admission est de 5 à 10 l/min."
   ]
 }

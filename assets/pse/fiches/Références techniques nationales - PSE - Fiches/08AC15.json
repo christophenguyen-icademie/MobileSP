@@ -64,7 +64,7 @@
             },
             {
               "niveau": 1,
-              "texte": "Paralysie 1 liée à la foudre : il s’agit de paralysies induites par le courant de foudre."
+              "texte": "Paralysie (1) liée à la foudre : il s’agit de paralysies induites par le courant de foudre."
             },
             {
               "niveau": 1,
@@ -108,6 +108,6 @@
     }
   ],
   "notes": [
-    "1 Il peut être question de paraplégie ou de tétraplégie, plus ou moins complète. Ces paralysies peuvent régresser spontanément dans les 48 heures. Dans ces cas, la victime doit être systématiquement considérée comme suspecte d’un traumatisme de la colonne vertébrale."
+    "(1) Il peut être question de paraplégie ou de tétraplégie, plus ou moins complète. Ces paralysies peuvent régresser spontanément dans les 48 heures. Dans ces cas, la victime doit être systématiquement considérée comme suspecte d’un traumatisme de la colonne vertébrale."
   ]
 }

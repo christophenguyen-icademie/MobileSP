@@ -62,23 +62,23 @@
           "elements": [
             {
               "niveau": 1,
-              "texte": "les gants 1 à usage unique ;"
+              "texte": "les gants (1) à usage unique ;"
             },
             {
               "niveau": 1,
-              "texte": "les masques : médicaux 2 , de protection respiratoire 3 , imperméables 4 avec protection oculaire ;"
+              "texte": "les masques : médicaux (2) , de protection respiratoire (3) , imperméables (4) avec protection oculaire ;"
             },
             {
               "niveau": 1,
-              "texte": "les lunettes 5 de protection ;"
+              "texte": "les lunettes (5) de protection ;"
             },
             {
               "niveau": 1,
-              "texte": "les charlottes 6 ou les cagoules ;"
+              "texte": "les charlottes (6) ou les cagoules ;"
             },
             {
               "niveau": 1,
-              "texte": "les surblouses 7 ."
+              "texte": "les surblouses (7) ."
             }
           ]
         }
@@ -113,15 +113,15 @@
             },
             {
               "niveau": 1,
-              "texte": "mettre en place le masque de protection 1 , puis resserrer avec deux doigts l’agrafe située au-dessus de la racine du nez ;"
+              "texte": "mettre en place le masque de protection (1) , puis resserrer avec deux doigts l’agrafe située au-dessus de la racine du nez ;"
             },
             {
               "niveau": 1,
-              "texte": "mettre en place la surblouse par l’avant, ouverture dans le dos, et faire nouer les lanières 2 ;"
+              "texte": "mettre en place la surblouse par l’avant, ouverture dans le dos, et faire nouer les lanières (2) ;"
             },
             {
               "niveau": 1,
-              "texte": "mettre en place les lunettes 3 de protection ;"
+              "texte": "mettre en place les lunettes (3) de protection ;"
             },
             {
               "niveau": 1,
@@ -164,12 +164,15 @@
     }
   ],
   "notes": [
-    "4 Portés par l’intervenant, ils permettent de protéger sa bouche et ses yeux des projections liquides (salive, sang et sécrétions).",
-    "5 Elles permettent de protéger l’intervenant d’une contamination par projection dans les yeux.",
-    "6 Elles assurent la protection des cheveux de l’intervenant contre les projections.",
-    "7 Elles protègent l’intervenant contre les projections sur ses vêtements.",
-    "1 Le masque est placé avant la protection oculaire s’il n’en possède pas une lui-même. Il est maintenu par des élastiques ou par des lanières qui sont passées l’une au-dessus des oreilles par-dessus la charlotte et l’autre en dessous.",
-    "2 L’ouverture étant située dans le dos, il convient de se faire assister pour fixer les lanières à l’arrière à la base du cou ou dans le dos.",
-    "3 Les branches doivent être glissées sous la charlotte. Certaines lunettes de protection à usage unique nécessitent un « montage » avant utilisation."
+    "(1) Ces gants permettent d’assurer une protection des mains de l’intervenant contre le risque d’exposition au sang ou à un autre liquide biologique comme la salive, l’urine ou les selles. Les gants à usage unique en PVC, nitrile, sans latex fournissent une protection tout à fait efficace.",
+    "(2) Portés par la victime, ils protègent l’intervenant contre les projections (salive, éternuement).",
+    "(3) Ils permettent de protéger l’intervenant d’une contamination aérienne.",
+    "(4) Portés par l’intervenant, ils permettent de protéger sa bouche et ses yeux des projections liquides (salive, sang et sécrétions).",
+    "(5) Elles permettent de protéger l’intervenant d’une contamination par projection dans les yeux.",
+    "(6) Elles assurent la protection des cheveux de l’intervenant contre les projections.",
+    "(7) Elles protègent l’intervenant contre les projections sur ses vêtements.",
+    "(1) Le masque est placé avant la protection oculaire s’il n’en possède pas une lui-même. Il est maintenu par des élastiques ou par des lanières qui sont passées l’une au-dessus des oreilles par-dessus la charlotte et l’autre en dessous.",
+    "(2) L’ouverture étant située dans le dos, il convient de se faire assister pour fixer les lanières à l’arrière à la base du cou ou dans le dos.",
+    "(3) Les branches doivent être glissées sous la charlotte. Certaines lunettes de protection à usage unique nécessitent un « montage » avant utilisation."
   ]
 }

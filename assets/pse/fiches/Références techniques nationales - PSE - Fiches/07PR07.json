@@ -44,7 +44,7 @@
             },
             {
               "niveau": 2,
-              "texte": "membre supérieur : assise 1 ."
+              "texte": "membre supérieur : assise (1) ."
             },
             {
               "niveau": 1,
@@ -74,7 +74,7 @@
           "elements": [
             {
               "niveau": 1,
-              "texte": "ne pas toucher 2 un morceau d’os ou corps étranger visible ;"
+              "texte": "ne pas toucher (2) un morceau d’os ou corps étranger visible ;"
             },
             {
               "niveau": 1,
@@ -82,7 +82,7 @@
             },
             {
               "niveau": 1,
-              "texte": "immobiliser le membre en respectant 3 la déformation ."
+              "texte": "immobiliser le membre en respectant (3) la déformation ."
             }
           ]
         }
@@ -90,8 +90,8 @@
     }
   ],
   "notes": [
-    "1 Il convient alors d’indiquer à la victime de placer le membre atteint contre sa poitrine et de le soutenir avec une main dans la position la moins douloureuse possible.",
-    "2 Leur présence peut limiter le saignement et leur mobilisation pourrait aggraver la lésion.",
-    "3 Le réalignement d’une fracture est un geste très douloureux, il est réalisé par un médecin ou à la demande du médecin."
+    "(1) Il convient alors d’indiquer à la victime de placer le membre atteint contre sa poitrine et de le soutenir avec une main dans la position la moins douloureuse possible.",
+    "(2) Leur présence peut limiter le saignement et leur mobilisation pourrait aggraver la lésion.",
+    "(3) Le réalignement d’une fracture est un geste très douloureux, il est réalisé par un médecin ou à la demande du médecin."
   ]
 }

@@ -49,7 +49,7 @@
             },
             {
               "niveau": 1,
-              "texte": "prendre appui avec les coudes 1 sur le sol ou sur les genoux ;"
+              "texte": "prendre appui avec les coudes (1) sur le sol ou sur les genoux ;"
             },
             {
               "niveau": 1,
@@ -142,6 +142,6 @@
     }
   ],
   "notes": [
-    "1 Diminue la fatigue et augmente la stabilité"
+    "(1) Diminue la fatigue et augmente la stabilité"
   ]
 }

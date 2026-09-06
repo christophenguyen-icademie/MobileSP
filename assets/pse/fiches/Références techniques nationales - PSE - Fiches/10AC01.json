@@ -124,7 +124,7 @@
             },
             {
               "niveau": 1,
-              "texte": "le brancard dit principal 1 ; Ce brancard est muni de roues et peut être utilisé seul, ou combiné à un chariot de transport. Muni d'un dossier (appelé appui-tête), il permet la position demi-assise, et peut être complété d’un repose-pied (brancard articulé). La zone du thorax est rigide pour permettre de réaliser une RCP, il est recouvert d’un matelas de transport et parfois d’appuis latéraux rabattables."
+              "texte": "le brancard dit principal (1) ; Ce brancard est muni de roues et peut être utilisé seul, ou combiné à un chariot de transport. Muni d'un dossier (appelé appui-tête), il permet la position demi-assise, et peut être complété d’un repose-pied (brancard articulé). La zone du thorax est rigide pour permettre de réaliser une RCP, il est recouvert d’un matelas de transport et parfois d’appuis latéraux rabattables."
             },
             {
               "niveau": 1,
@@ -142,11 +142,11 @@
         },
         {
           "type": "paragraphe",
-          "texte": "1 Ce brancard répond à la norme NF EN 1865 - Décembre 1999 - relative aux spécifications des brancards et équipements d’ambulances pour le transport de patients."
+          "texte": "(1) Ce brancard répond à la norme NF EN 1865 - Décembre 1999 - relative aux spécifications des brancards et équipements d’ambulances pour le transport de patients."
         },
         {
           "type": "paragraphe",
-          "texte": "Les brancards ou dispositifs de portage sont habituellement prévus pour des victimes de corpulence courante et ne peuvent être utilisés pour des victimes dont le poids est supérieur à un maximum indiqué par le fabricant. Pour transporter des victimes dont la corpulence est supérieure, il faut alors faire appel à des services dotés de dispositifs de portage adaptés encore appelés « dispositifs bariatriques ». D’autres dispositifs de portage sont aussi couramment utilisés 1 :"
+          "texte": "Les brancards ou dispositifs de portage sont habituellement prévus pour des victimes de corpulence courante et ne peuvent être utilisés pour des victimes dont le poids est supérieur à un maximum indiqué par le fabricant. Pour transporter des victimes dont la corpulence est supérieure, il faut alors faire appel à des services dotés de dispositifs de portage adaptés encore appelés « dispositifs bariatriques ». D’autres dispositifs de portage sont aussi couramment utilisés (1) :"
         },
         {
           "type": "liste",
@@ -209,7 +209,7 @@
         },
         {
           "type": "paragraphe",
-          "texte": "1 Le plan dur ainsi que le matelas immobilisateur à dépression sont deux dispositifs de portage couramment utilisés. Ils ne sont pas développés dans la présente partie, mais font l’objet d’une présentation détaillée sur les fiches techniques ad hoc."
+          "texte": "(1) Le plan dur ainsi que le matelas immobilisateur à dépression sont deux dispositifs de portage couramment utilisés. Ils ne sont pas développés dans la présente partie, mais font l’objet d’une présentation détaillée sur les fiches techniques ad hoc."
         },
         {
           "type": "paragraphe",

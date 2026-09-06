@@ -42,7 +42,7 @@
       "contenu": [
         {
           "type": "paragraphe",
-          "texte": "L’application de froid 1 peut être réalisée avec :"
+          "texte": "L’application de froid (1) peut être réalisée avec :"
         },
         {
           "type": "liste",
@@ -76,11 +76,11 @@
           "elements": [
             {
               "niveau": 1,
-              "texte": "remplir d’eau et de glace 2 un sachet plastique ou une vessie de glace ;"
+              "texte": "remplir d’eau et de glace (2) un sachet plastique ou une vessie de glace ;"
             },
             {
               "niveau": 1,
-              "texte": "chasser l’air en excédent 3 et fermer hermétiquement la poche ;"
+              "texte": "chasser l’air en excédent (3) et fermer hermétiquement la poche ;"
             },
             {
               "niveau": 1,
@@ -145,8 +145,8 @@
     }
   ],
   "notes": [
-    "1 Les bombes cryogènes sont réservées à l’usage médical.",
-    "2 Glaçons, glace pilée ou neige.",
-    "3 L’air est un excellent isolant. C’est pourquoi il convient de le chasser de la vessie ou du sac contenant la source de froid afin d’en améliorer l’efficacité."
+    "(1) Les bombes cryogènes sont réservées à l’usage médical.",
+    "(2) Glaçons, glace pilée ou neige.",
+    "(3) L’air est un excellent isolant. C’est pourquoi il convient de le chasser de la vessie ou du sac contenant la source de froid afin d’en améliorer l’efficacité."
   ]
 }

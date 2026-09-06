@@ -38,7 +38,7 @@
       "contenu": [
         {
           "type": "paragraphe",
-          "texte": "La victime est installée en position horizontale, sur le dos, de préférence 1 sur un plan dur (sol, table, etc)."
+          "texte": "La victime est installée en position horizontale, sur le dos, de préférence (1) sur un plan dur (sol, table, etc)."
         },
         {
           "type": "liste",
@@ -73,7 +73,7 @@
             },
             {
               "niveau": 2,
-              "texte": "assurer un temps de compression égal au temps de relâchement 2 ;"
+              "texte": "assurer un temps de compression égal au temps de relâchement (2) ;"
             },
             {
               "niveau": 2,
@@ -198,7 +198,7 @@
             },
             {
               "niveau": 1,
-              "texte": "le pouls 1 , lors de chaque compression thoracique, est perçu."
+              "texte": "le pouls (1) , lors de chaque compression thoracique, est perçu."
             }
           ]
         }
@@ -206,8 +206,8 @@
     }
   ],
   "notes": [
-    "1 L’installation sur un plan dur ne doit pas retarder la réanimation cardio pulmonaire.",
-    "2 Cette technique offre une efficacité maximale. Elle permet au thorax de reprendre sa dimension initiale après chaque compression thoracique, afin que le cœur se remplisse bien de sang.",
-    "1 La recherche du pouls est faite préférentiellement au pli de l’aine (pouls fémoral) pour ne pas gêner la réanimation."
+    "(1) L’installation sur un plan dur ne doit pas retarder la réanimation cardio pulmonaire.",
+    "(2) Cette technique offre une efficacité maximale. Elle permet au thorax de reprendre sa dimension initiale après chaque compression thoracique, afin que le cœur se remplisse bien de sang.",
+    "(1) La recherche du pouls est faite préférentiellement au pli de l’aine (pouls fémoral) pour ne pas gêner la réanimation."
   ]
 }

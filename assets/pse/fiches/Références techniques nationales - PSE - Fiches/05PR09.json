@@ -28,7 +28,7 @@
           "elements": [
             {
               "niveau": 1,
-              "texte": "allonger la victime en position horizontale 2 ;"
+              "texte": "allonger la victime en position horizontale (2) ;"
             },
             {
               "niveau": 1,
@@ -76,7 +76,7 @@
     }
   ],
   "notes": [
-    "1 Après avoir traité une urgence vitale s’il y en avait une.",
-    "2 Le fait de placer en position horizontale une personne victime d’une hémorragie facilite la circulation sanguine, notamment au niveau du cerveau. La réalisation des gestes de secours est aussi facilitée et les conséquences de l’hémorragie sur les fonctions vitales sont retardées."
+    "(1) Après avoir traité une urgence vitale s’il y en avait une.",
+    "(2) Le fait de placer en position horizontale une personne victime d’une hémorragie facilite la circulation sanguine, notamment au niveau du cerveau. La réalisation des gestes de secours est aussi facilitée et les conséquences de l’hémorragie sur les fonctions vitales sont retardées."
   ]
 }

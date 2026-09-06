@@ -42,7 +42,7 @@
       "contenu": [
         {
           "type": "paragraphe",
-          "texte": "Les amputations ou arrachements complets de parties externes du corps sont des événements traumatiques pouvant entraîner des séquelles physiques et psychologiques majeures. Le premier risque d’une amputation ou d’un arrachement d’une partie du corps est l’hémorragie externe dont la survenue peut être retardée de plusieurs minutes. Les conséquences sont les mêmes que pour toute hémorragie externe et son contrôle reste la priorité des premiers secours. Il est parfois possible de « réimplanter » chirurgicalement une partie de corps amputée ou arrachée. Cette réimplantation dépend étroitement de la qualité de la prise en charge initiale de la partie sectionnée. Le temps d’ischémie 1 constitue un facteur décisif pour la réussite de la réimplantation et une conservation correcte par refroidissement en augmente significativement les chances."
+          "texte": "Les amputations ou arrachements complets de parties externes du corps sont des événements traumatiques pouvant entraîner des séquelles physiques et psychologiques majeures. Le premier risque d’une amputation ou d’un arrachement d’une partie du corps est l’hémorragie externe dont la survenue peut être retardée de plusieurs minutes. Les conséquences sont les mêmes que pour toute hémorragie externe et son contrôle reste la priorité des premiers secours. Il est parfois possible de « réimplanter » chirurgicalement une partie de corps amputée ou arrachée. Cette réimplantation dépend étroitement de la qualité de la prise en charge initiale de la partie sectionnée. Le temps d’ischémie (1) constitue un facteur décisif pour la réussite de la réimplantation et une conservation correcte par refroidissement en augmente significativement les chances."
         }
       ]
     },
@@ -74,6 +74,6 @@
     }
   ],
   "notes": [
-    "1 Arrêt ou insuffisance de la circulation du sang dans un tissu, un membre ou un organe."
+    "(1) Arrêt ou insuffisance de la circulation du sang dans un tissu, un membre ou un organe."
   ]
 }

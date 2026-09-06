@@ -31,11 +31,11 @@
             },
             {
               "niveau": 1,
-              "texte": "de la pénétration d’un corps étranger 1 dans le thorax ;"
+              "texte": "de la pénétration d’un corps étranger (1) dans le thorax ;"
             },
             {
               "niveau": 1,
-              "texte": "d’une décélération brusque 2 ;"
+              "texte": "d’une décélération brusque (2) ;"
             },
             {
               "niveau": 1,
@@ -95,7 +95,7 @@
           "elements": [
             {
               "niveau": 1,
-              "texte": "d’une douleur spontanée • une douleur à la palpation prudente des côtes ; siégeant au niveau d’une ou • une plaie avec ou sans bulles sanglantes à l’expiration 3 ; plusieurs côtes ou provoquée par • une contusion ; les mouvements respiratoires ou • une anomalie du soulèvement de la poitrine la toux ; • une déformation nette du thorax ;"
+              "texte": "d’une douleur spontanée • une douleur à la palpation prudente des côtes ; siégeant au niveau d’une ou • une plaie avec ou sans bulles sanglantes à l’expiration (3) ; plusieurs côtes ou provoquée par • une contusion ; les mouvements respiratoires ou • une anomalie du soulèvement de la poitrine la toux ; • une déformation nette du thorax ;"
             },
             {
               "niveau": 1,
@@ -141,8 +141,8 @@
     }
   ],
   "notes": [
-    "1 Projectiles d’arme à feu, arme blanche ou tout objet perforant.",
-    "2 Qui peut entraîner des lésions des organes intrathoraciques qui viennent s’écraser sur les côtes.",
-    "3 Si tel est le cas, vérifier le dos."
+    "(1) Projectiles d’arme à feu, arme blanche ou tout objet perforant.",
+    "(2) Qui peut entraîner des lésions des organes intrathoraciques qui viennent s’écraser sur les côtes.",
+    "(3) Si tel est le cas, vérifier le dos."
   ]
 }

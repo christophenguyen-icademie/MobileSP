@@ -101,7 +101,7 @@
       "contenu": [
         {
           "type": "paragraphe",
-          "texte": "La mesure de la PA à l’aide d’un appareil automatique est préférable pour le secouriste à la mesure de la pression artérielle avec un appareil manuel. Elle demande uniquement la mise en place du manchon à pression autour du bras, idéalement à même la peau 1 , en disposant le repère artériel juste au-dessus du passage de l’artère (au niveau de la face interne du bras). La mesure se fait automatiquement. Le mode d’emploi de l’appareil doit être respecté. La mesure de la pression artérielle s’affiche sur le cadran de même que la fréquence cardiaque."
+          "texte": "La mesure de la PA à l’aide d’un appareil automatique est préférable pour le secouriste à la mesure de la pression artérielle avec un appareil manuel. Elle demande uniquement la mise en place du manchon à pression autour du bras, idéalement à même la peau (1) , en disposant le repère artériel juste au-dessus du passage de l’artère (au niveau de la face interne du bras). La mesure se fait automatiquement. Le mode d’emploi de l’appareil doit être respecté. La mesure de la pression artérielle s’affiche sur le cadran de même que la fréquence cardiaque."
         }
       ]
     },
@@ -197,7 +197,7 @@
         },
         {
           "type": "paragraphe",
-          "texte": "1 La peau nue est toujours préférable. Un vêtement fin peut être toléré à défaut, mais un bourrelet de tissu ou une manche épaisse invalide la mesure."
+          "texte": "(1) La peau nue est toujours préférable. Un vêtement fin peut être toléré à défaut, mais un bourrelet de tissu ou une manche épaisse invalide la mesure."
         },
         {
           "type": "paragraphe",

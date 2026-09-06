@@ -9,7 +9,7 @@
       "contenu": [
         {
           "type": "paragraphe",
-          "texte": "Un électrocardiogramme (ECG) peut être réalisé par l’équipe secouriste sur prescription d’un médecin présent sur les lieux ou du médecin régulateur lors du bilan ou de la surveillance de la victime. Seule une personne formée et habilitée peut utiliser un appareil pour enregistrer et télétransmettre un ECG 1 ."
+          "texte": "Un électrocardiogramme (ECG) peut être réalisé par l’équipe secouriste sur prescription d’un médecin présent sur les lieux ou du médecin régulateur lors du bilan ou de la surveillance de la victime. Seule une personne formée et habilitée peut utiliser un appareil pour enregistrer et télétransmettre un ECG (1) ."
         }
       ]
     },
@@ -306,6 +306,6 @@
     }
   ],
   "notes": [
-    "1 Décret n° 2022-621 du 22 avril 2022 relatif aux actes de soins d’urgence relevant de la compétence des sapeurs-pompiers."
+    "(1) Décret n° 2022-621 du 22 avril 2022 relatif aux actes de soins d’urgence relevant de la compétence des sapeurs-pompiers."
   ]
 }

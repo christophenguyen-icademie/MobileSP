@@ -26,7 +26,7 @@
             },
             {
               "niveau": 1,
-              "texte": "La présence de menaces vitales nécessitant une réaction immédiate en respectant le principe de « traiter en priorité ce qui tue en premier » (tableau 2). Tableau 3: Les menaces vitales et les actions à entreprendre M ENACE ( S ) VITALE ( S ) A RECHERCHER 1 A CTION ( S ) A ENTREPRENDRE"
+              "texte": "La présence de menaces vitales nécessitant une réaction immédiate en respectant le principe de « traiter en priorité ce qui tue en premier » (tableau 2). Tableau 3: Les menaces vitales et les actions à entreprendre M ENACE ( S ) VITALE ( S ) A RECHERCHER (1) A CTION ( S ) A ENTREPRENDRE"
             }
           ]
         },
@@ -59,6 +59,6 @@
     }
   ],
   "notes": [
-    "1 Confère la section « Rechercher » dans les fiches « évaluation des fonctions vitales »."
+    "(1) Confère la section « Rechercher » dans les fiches « évaluation des fonctions vitales »."
   ]
 }

@@ -22,7 +22,7 @@
             },
             {
               "niveau": 1,
-              "texte": "si la victime est en contact avec un appareil électrique, couper le courant (disjoncteur) ou débrancher l’appareil en cause ; Ne pas s’approcher ou toucher la victime avant d’être certain que l’alimentation est coupée 1 ."
+              "texte": "si la victime est en contact avec un appareil électrique, couper le courant (disjoncteur) ou débrancher l’appareil en cause ; Ne pas s’approcher ou toucher la victime avant d’être certain que l’alimentation est coupée (1) ."
             },
             {
               "niveau": 1,
@@ -52,7 +52,7 @@
             },
             {
               "niveau": 1,
-              "texte": "garer 2 son véhicule équipé de signalisation en amont, en protection de la zone d’accident ;"
+              "texte": "garer (2) son véhicule équipé de signalisation en amont, en protection de la zone d’accident ;"
             },
             {
               "niveau": 1,
@@ -73,7 +73,7 @@
           "elements": [
             {
               "niveau": 1,
-              "texte": "baliser 3 ou faire baliser de part et d’autre de l’accident, à une distance de 150 à 200 m ;"
+              "texte": "baliser (3) ou faire baliser de part et d’autre de l’accident, à une distance de 150 à 200 m ;"
             },
             {
               "niveau": 1,
@@ -104,7 +104,7 @@
       "contenu": [
         {
           "type": "paragraphe",
-          "texte": "Pour faire face à ce risque 4 , il convient de :"
+          "texte": "Pour faire face à ce risque (4) , il convient de :"
         },
         {
           "type": "liste",
@@ -130,7 +130,7 @@
       "contenu": [
         {
           "type": "paragraphe",
-          "texte": "Pour faire face à ce risque 1 , il convient d’assurer la protection des personnes et de limiter l’extension du sinistre, pour cela :"
+          "texte": "Pour faire face à ce risque (1) , il convient d’assurer la protection des personnes et de limiter l’extension du sinistre, pour cela :"
         },
         {
           "type": "liste",
@@ -232,7 +232,7 @@
             },
             {
               "niveau": 1,
-              "texte": "éteindre les flammes ou à défaut les étouffer 2 ."
+              "texte": "éteindre les flammes ou à défaut les étouffer (2) ."
             }
           ]
         }
@@ -243,7 +243,7 @@
       "contenu": [
         {
           "type": "paragraphe",
-          "texte": "Pour faire face à ce risque 3 , il convient de :"
+          "texte": "Pour faire face à ce risque (3) , il convient de :"
         },
         {
           "type": "liste",
@@ -274,9 +274,12 @@
     }
   ],
   "notes": [
-    "3 A l’aide d’un triangle de signalisation (sauf sur les voies rapides ou autoroutes) ou d’une lampe électrique, d’un linge blanc, de feux de détresse du véhicule ;",
-    "4 Dans un endroit fermé, où plusieurs personnes présentent des signes communs de malaises avec des maux de tête et des vomissements, une intoxication par libération de monoxyde de carbone doit être suspectée.",
-    "2 Avec une couverture ou un manteau que l’on retire dès que les flammes sont éteintes.",
-    "3 La libération de substances dangereuses ou la fuite de produit toxique est le plus souvent rencontrée à la suite d’un accident de la circulation touchant un véhicule qui transporte des matières dangereuses ou à la suite d’un accident industriel. La présence d’une odeur particulière ou de fumées est signe de cette émanation."
+    "(1) Les matériaux, tels que le bois humide ou les vêtements, ne procurent aucune protection contre le courant électrique",
+    "(2) Sur le bas-côté ou la bande d’arrêt d’urgence sur les voies rapides ou autoroutes ;",
+    "(3) A l’aide d’un triangle de signalisation (sauf sur les voies rapides ou autoroutes) ou d’une lampe électrique, d’un linge blanc, de feux de détresse du véhicule ;",
+    "(4) Dans un endroit fermé, où plusieurs personnes présentent des signes communs de malaises avec des maux de tête et des vomissements, une intoxication par libération de monoxyde de carbone doit être suspectée.",
+    "(1) Un incendie crée une atmosphère dangereuse du fait de la chaleur, du manque d’oxygène et de la présence de fumées toxiques. Il peut être générateur de brûlures et d’intoxications graves. Pour être allumé et entretenu, un feu a besoin d’un combustible (essence, bois, tissus…), d’une source de chaleur (étincelle, flamme) et d’oxygène.",
+    "(2) Avec une couverture ou un manteau que l’on retire dès que les flammes sont éteintes.",
+    "(3) La libération de substances dangereuses ou la fuite de produit toxique est le plus souvent rencontrée à la suite d’un accident de la circulation touchant un véhicule qui transporte des matières dangereuses ou à la suite d’un accident industriel. La présence d’une odeur particulière ou de fumées est signe de cette émanation."
   ]
 }

@@ -36,7 +36,7 @@
             },
             {
               "niveau": 2,
-              "texte": "installer la victime : § en position strictement horizontale à plat ; § ou en position latérale de sécurité 1 si elle présente des nausées et des vomissements ;"
+              "texte": "installer la victime : § en position strictement horizontale à plat ; § ou en position latérale de sécurité (1) si elle présente des nausées et des vomissements ;"
             },
             {
               "niveau": 2,
@@ -44,7 +44,7 @@
             },
             {
               "niveau": 2,
-              "texte": "transmettre le bilan pour obtenir un avis médical 2 et respecter les consignes ;"
+              "texte": "transmettre le bilan pour obtenir un avis médical (2) et respecter les consignes ;"
             },
             {
               "niveau": 2,
@@ -74,7 +74,7 @@
     }
   ],
   "notes": [
-    "1 Près des 2/3 des victimes qui présentent un AVC présentent des troubles de la déglutition associés.",
-    "2 Le médecin régulateur peut vous demander de rechercher d'autres signes spécifiques ou vous mettre en relation avec un neurologue pour récolter les éléments nécessaires à une hospitalisation en unité neuro-vasculaire."
+    "(1) Près des 2/3 des victimes qui présentent un AVC présentent des troubles de la déglutition associés.",
+    "(2) Le médecin régulateur peut vous demander de rechercher d'autres signes spécifiques ou vous mettre en relation avec un neurologue pour récolter les éléments nécessaires à une hospitalisation en unité neuro-vasculaire."
   ]
 }

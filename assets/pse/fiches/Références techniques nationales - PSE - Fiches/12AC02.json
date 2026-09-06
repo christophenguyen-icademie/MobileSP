@@ -57,7 +57,7 @@
       "contenu": [
         {
           "type": "paragraphe",
-          "texte": "Contacter un service d’urgence à l’aide d’un téléphone portable ou à défaut d’un téléphone fixe ou d’une borne d’appel 1 :"
+          "texte": "Contacter un service d’urgence à l’aide d’un téléphone portable ou à défaut d’un téléphone fixe ou d’une borne d’appel (1) :"
         },
         {
           "type": "liste",
@@ -160,6 +160,6 @@
     }
   ],
   "notes": [
-    "1 Borne orange sur le bord des routes et autoroutes"
+    "(1) Borne orange sur le bord des routes et autoroutes"
   ]
 }

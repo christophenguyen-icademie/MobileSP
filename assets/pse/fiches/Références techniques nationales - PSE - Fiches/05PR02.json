@@ -107,7 +107,7 @@
           "elements": [
             {
               "niveau": 1,
-              "texte": "allonger la victime, si elle présente une grossesse visible, il convient alors de l’allonger préférentiellement sur le côté gauche 1 ."
+              "texte": "allonger la victime, si elle présente une grossesse visible, il convient alors de l’allonger préférentiellement sur le côté gauche (1) ."
             },
             {
               "niveau": 1,
@@ -148,6 +148,6 @@
     }
   ],
   "notes": [
-    "1 Le retournement sur le côté gauche de la femme enceinte permet d’éviter l’apparition d’une détresse par compression de certains vaisseaux sanguins de l’abdomen."
+    "(1) Le retournement sur le côté gauche de la femme enceinte permet d’éviter l’apparition d’une détresse par compression de certains vaisseaux sanguins de l’abdomen."
   ]
 }

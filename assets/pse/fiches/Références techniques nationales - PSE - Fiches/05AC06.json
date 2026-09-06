@@ -40,11 +40,11 @@
           "elements": [
             {
               "niveau": 1,
-              "texte": "des liquides 1 présents dans la gorge (salive, sang, liquide gastrique) ;"
+              "texte": "des liquides (1) présents dans la gorge (salive, sang, liquide gastrique) ;"
             },
             {
               "niveau": 1,
-              "texte": "la chute de la langue 2 et de l'épiglotte en arrière."
+              "texte": "la chute de la langue (2) et de l'épiglotte en arrière."
             }
           ]
         }
@@ -79,7 +79,7 @@
     }
   ],
   "notes": [
-    "1 Du fait d’une diminution des réflexes, en particulier de déglutition.",
-    "2 Du fait d’une forte diminution du tonus musculaire. Cette obstruction peut empêcher toute respiration naturelle ou artificielle."
+    "(1) Du fait d’une diminution des réflexes, en particulier de déglutition.",
+    "(2) Du fait d’une forte diminution du tonus musculaire. Cette obstruction peut empêcher toute respiration naturelle ou artificielle."
   ]
 }

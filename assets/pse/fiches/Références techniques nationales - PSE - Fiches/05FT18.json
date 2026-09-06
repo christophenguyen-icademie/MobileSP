@@ -45,7 +45,7 @@
             },
             {
               "niveau": 1,
-              "texte": "rapprocher délicatement les membres inférieurs de l'axe du corps 1 ;"
+              "texte": "rapprocher délicatement les membres inférieurs de l'axe du corps (1) ;"
             },
             {
               "niveau": 1,
@@ -65,11 +65,11 @@
             },
             {
               "niveau": 1,
-              "texte": "maintenir le dos de la main de la victime pressée contre son oreille, paume contre paume 2 ;"
+              "texte": "maintenir le dos de la main de la victime pressée contre son oreille, paume contre paume (2) ;"
             },
             {
               "niveau": 1,
-              "texte": "attraper la jambe opposée de la victime, avec l'autre main, juste derrière le genou 3 ;"
+              "texte": "attraper la jambe opposée de la victime, avec l'autre main, juste derrière le genou (3) ;"
             },
             {
               "niveau": 1,
@@ -95,7 +95,7 @@
             },
             {
               "niveau": 1,
-              "texte": "dégager doucement la main du sauveteur située sous la tête de la victime, tout en préservant la bascule de la tête en arrière, en maintenant le coude de la victime à l'aide de la main du sauveteur précédemment située au genou 4 ."
+              "texte": "dégager doucement la main du sauveteur située sous la tête de la victime, tout en préservant la bascule de la tête en arrière, en maintenant le coude de la victime à l'aide de la main du sauveteur précédemment située au genou (4) ."
             }
           ]
         }
@@ -117,11 +117,11 @@
             },
             {
               "niveau": 2,
-              "texte": "et de telle sorte que la hanche et le genou soient à angle droit 1 ;"
+              "texte": "et de telle sorte que la hanche et le genou soient à angle droit (1) ;"
             },
             {
               "niveau": 1,
-              "texte": "ouvrir la bouche de la victime sans mobiliser la tête et sans rabattre le menton sur le sternum 2 ."
+              "texte": "ouvrir la bouche de la victime sans mobiliser la tête et sans rabattre le menton sur le sternum (2) ."
             }
           ]
         }
@@ -177,10 +177,11 @@
     }
   ],
   "notes": [
-    "2 Lors du retournement, le maintien de la main de la victime contre son oreille permet d’accompagner le mouvement de la tête et de diminuer la flexion de la colonne cervicale qui pourrait aggraver un traumatisme éventuel.",
-    "3 La saisie de la jambe de la victime au niveau du genou permet de l’utiliser comme « bras de levier » pour le retournement.",
-    "4 Le maintien de la main sous la tête de la victime limite les mouvements de la colonne cervicale.",
-    "1 La position de la jambe permet de stabiliser la PLS.",
-    "2 L’ouverture de la bouche de la victime facilite l’écoulement des liquides vers l’extérieur"
+    "(1) L’alignement des jambes et la position du membre supérieur anticipent la position finale.",
+    "(2) Lors du retournement, le maintien de la main de la victime contre son oreille permet d’accompagner le mouvement de la tête et de diminuer la flexion de la colonne cervicale qui pourrait aggraver un traumatisme éventuel.",
+    "(3) La saisie de la jambe de la victime au niveau du genou permet de l’utiliser comme « bras de levier » pour le retournement.",
+    "(4) Le maintien de la main sous la tête de la victime limite les mouvements de la colonne cervicale.",
+    "(1) La position de la jambe permet de stabiliser la PLS.",
+    "(2) L’ouverture de la bouche de la victime facilite l’écoulement des liquides vers l’extérieur"
   ]
 }

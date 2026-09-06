@@ -54,15 +54,15 @@
           "elements": [
             {
               "niveau": 1,
-              "texte": "placer la tranche d’une main au niveau de l’ombilic 1 de la mère, paume dirigée vers ses pieds ;"
+              "texte": "placer la tranche d’une main au niveau de l’ombilic (1) de la mère, paume dirigée vers ses pieds ;"
             },
             {
               "niveau": 1,
-              "texte": "exercer une pression douce de 5 à 8 cm vers l’arrière et vers le bas de la mère pour percevoir 2 le fond de l’utérus avec la surface de la paume de la main ;"
+              "texte": "exercer une pression douce de 5 à 8 cm vers l’arrière et vers le bas de la mère pour percevoir (2) le fond de l’utérus avec la surface de la paume de la main ;"
             },
             {
               "niveau": 1,
-              "texte": "effectuer un massage doux en exerçant une légère pression et des mouvements rotatifs circulaires comme pour créer une boule. L’utérus est alors perçu car il devient de plus en plus dur 3 ;"
+              "texte": "effectuer un massage doux en exerçant une légère pression et des mouvements rotatifs circulaires comme pour créer une boule. L’utérus est alors perçu car il devient de plus en plus dur (3) ;"
             },
             {
               "niveau": 1,
@@ -89,7 +89,7 @@
       "contenu": [
         {
           "type": "paragraphe",
-          "texte": "Le massage utérin est un geste très douloureux, et il est essentiel d’en informer la parturiente avant de le pratiquer. Si elle refuse que ce geste soit réalisé par le secouriste 1 , lui proposer de l’effectuer elle-même. Dans ce cas, lui expliquer clairement la technique : exercer un mouvement circulaire ferme avec le talon de la main, situé sous le nombril, au niveau du fond utérin."
+          "texte": "Le massage utérin est un geste très douloureux, et il est essentiel d’en informer la parturiente avant de le pratiquer. Si elle refuse que ce geste soit réalisé par le secouriste (1) , lui proposer de l’effectuer elle-même. Dans ce cas, lui expliquer clairement la technique : exercer un mouvement circulaire ferme avec le talon de la main, situé sous le nombril, au niveau du fond utérin."
         }
       ]
     },
@@ -104,9 +104,9 @@
     }
   ],
   "notes": [
-    "1 Nombril.",
-    "2 L’utérus est perçu sous la forme d’une zone ronde et dure de la taille d’un pamplemousse. Parfois, l’utérus n’est pas perçu car complètement relâché (atone). Le massage le fera durcir au fur et à mesure.",
-    "3 Comme un ballon de basket.",
-    "1 En cas d’hémorragie il est préférable que le massage soit réalisé par le secouriste car il est beaucoup plus efficace."
+    "(1) Nombril.",
+    "(2) L’utérus est perçu sous la forme d’une zone ronde et dure de la taille d’un pamplemousse. Parfois, l’utérus n’est pas perçu car complètement relâché (atone). Le massage le fera durcir au fur et à mesure.",
+    "(3) Comme un ballon de basket.",
+    "(1) En cas d’hémorragie il est préférable que le massage soit réalisé par le secouriste car il est beaucoup plus efficace."
   ]
 }

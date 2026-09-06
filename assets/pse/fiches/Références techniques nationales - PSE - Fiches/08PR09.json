@@ -72,7 +72,7 @@
             },
             {
               "niveau": 1,
-              "texte": "si de la naloxone administrable par pulvérisation intra-nasale est disponible, administrer une pulvérisation de naloxone (antagoniste) dans une narine chez toute victime âgée de 14 ans et plus 1 (voir fiche administration de médicaments). Si l’état de la victime ne s’améliore pas ou en cas de réapparition des signes, renouveler cette administration au bout de 2 à 3 min."
+              "texte": "si de la naloxone administrable par pulvérisation intra-nasale est disponible, administrer une pulvérisation de naloxone (antagoniste) dans une narine chez toute victime âgée de 14 ans et plus (1) (voir fiche administration de médicaments). Si l’état de la victime ne s’améliore pas ou en cas de réapparition des signes, renouveler cette administration au bout de 2 à 3 min."
             },
             {
               "niveau": 1,
@@ -112,22 +112,19 @@
           "elements": [
             {
               "niveau": 1,
-              "texte": "appliquer la procédure spécifique 2 à l’entreprise, si l’accident a lieu en milieu professionnel ;"
+              "texte": "appliquer la procédure spécifique (2) à l’entreprise, si l’accident a lieu en milieu professionnel ;"
             },
             {
               "niveau": 1,
               "texte": "appliquer la procédure communiquée par les services de secours, lors de la transmission du bilan."
             }
           ]
-        },
-        {
-          "type": "paragraphe",
-          "texte": "2 Ou inscrit dans les fiches de données sécurité."
         }
       ]
     }
   ],
   "notes": [
-    "La sécurité et l’efficacité de naloxone administrable par pulvérisation intranasale chez les enfants de moins de 14 ans n’ont pas été établies."
+    "La sécurité et l’efficacité de naloxone administrable par pulvérisation intranasale chez les enfants de moins de 14 ans n’ont pas été établies.",
+    "(2) Ou inscrit dans les fiches de données sécurité."
   ]
 }

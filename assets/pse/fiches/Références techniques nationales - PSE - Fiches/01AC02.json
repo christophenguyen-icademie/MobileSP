@@ -98,22 +98,22 @@
       "contenu": [
         {
           "type": "paragraphe",
-          "texte": "Respecter les règles d’hygiène et de sécurité Le premier principe du secouriste est de respecter les règles d’hygiène et de sécurité, individuelles et collectives. Afin d’assurer ses missions de secours à victime, le secouriste doit 1 :"
+          "texte": "Respecter les règles d’hygiène et de sécurité Le premier principe du secouriste est de respecter les règles d’hygiène et de sécurité, individuelles et collectives. Afin d’assurer ses missions de secours à victime, le secouriste doit (1) :"
         },
         {
           "type": "liste",
           "elements": [
             {
               "niveau": 1,
-              "texte": "Porter des équipements de protection individuelle 2 ;"
+              "texte": "Porter des équipements de protection individuelle (2) ;"
             },
             {
               "niveau": 1,
-              "texte": "Accorder de l’importance à sa condition physique 3 ;"
+              "texte": "Accorder de l’importance à sa condition physique (3) ;"
             },
             {
               "niveau": 1,
-              "texte": "Adopter les règles liées à l’utilisation des véhicules 4 ;"
+              "texte": "Adopter les règles liées à l’utilisation des véhicules (4) ;"
             },
             {
               "niveau": 1,
@@ -125,15 +125,15 @@
             },
             {
               "niveau": 2,
-              "texte": "appliquer les principes de sécurité physique et d’économie d’effort 5 ."
+              "texte": "appliquer les principes de sécurité physique et d’économie d’effort (5) ."
             },
             {
               "niveau": 1,
-              "texte": "Assurer une protection de l’environnement de l’intervention 6 ;"
+              "texte": "Assurer une protection de l’environnement de l’intervention (6) ;"
             },
             {
               "niveau": 1,
-              "texte": "Travailler en étroite collaboration avec ses équipiers et responsables 7 ."
+              "texte": "Travailler en étroite collaboration avec ses équipiers et responsables (7) ."
             }
           ]
         },
@@ -157,8 +157,12 @@
     }
   ],
   "notes": [
-    "5 Travail préférentiel avec les cuisses et non le dos, proximité de la charge à manipuler, respect de la courbure naturelle du dos, stabilité des appuis, solidité des prises, etc.",
-    "6 Balisage, périmètre de sécurité, récupération pour élimination des déchets de l’intervention, etc.",
-    "7 Rendre compte, respecter les consignes, etc."
+    "(1) Les exemples ne sont pas exhaustifs et pour certains sont précisés tout au long du présent référentiel.",
+    "(2) Gilet de signalisation, casque, gants, etc.",
+    "(3) Hygiène de vie, vaccinations, activités physique et sportive régulières, etc.",
+    "(4) Port de la ceinture de sécurité, vigilance lors des manœuvres de montée et descente du véhicule, respect des limitations de vitesse, utilisation des signaux lumineux, etc.",
+    "(5) Travail préférentiel avec les cuisses et non le dos, proximité de la charge à manipuler, respect de la courbure naturelle du dos, stabilité des appuis, solidité des prises, etc.",
+    "(6) Balisage, périmètre de sécurité, récupération pour élimination des déchets de l’intervention, etc.",
+    "(7) Rendre compte, respecter les consignes, etc."
   ]
 }

@@ -99,19 +99,19 @@
           "elements": [
             {
               "niveau": 1,
-              "texte": "consciente qui est fatiguée, à froid et est souvent angoissée 1 ;"
+              "texte": "consciente qui est fatiguée, à froid et est souvent angoissée (1) ;"
             },
             {
               "niveau": 1,
-              "texte": "consciente qui présente des signes de détresse respiratoire 2 souvent associés à des vomissements et des frissons ;"
+              "texte": "consciente qui présente des signes de détresse respiratoire (2) souvent associés à des vomissements et des frissons ;"
             },
             {
               "niveau": 1,
-              "texte": "qui a perdu connaissance 3 et qui présente des signes de détresse respiratoire sans arrêt de la respiration ;"
+              "texte": "qui a perdu connaissance (3) et qui présente des signes de détresse respiratoire sans arrêt de la respiration ;"
             },
             {
               "niveau": 1,
-              "texte": "en arrêt cardiaque 4 ."
+              "texte": "en arrêt cardiaque (4) ."
             }
           ]
         },
@@ -149,9 +149,9 @@
     }
   ],
   "notes": [
-    "1 Communément appelé stade 1.",
-    "2 Elle peut présenter une toux persistante, signe de passage d’eau dans les poumons. Communément appelé stade 2.",
-    "3 Communément appelé stade 3.",
-    "4 Communément appelé stade 4."
+    "(1) Communément appelé stade 1.",
+    "(2) Elle peut présenter une toux persistante, signe de passage d’eau dans les poumons. Communément appelé stade 2.",
+    "(3) Communément appelé stade 3.",
+    "(4) Communément appelé stade 4."
   ]
 }

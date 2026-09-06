@@ -121,7 +121,7 @@
             },
             {
               "niveau": 1,
-              "texte": "dans le même temps maintenir la tête et la main de la victime entre ses mains et accompagner le mouvement en évitant toute torsion du cou. Le retournement de la victime doit être réalisé sans brusquerie, en un seul temps. Le maintien de la main et de la tête de la victime vise à conserver l’axe de la colonne cervicale durant toute la manœuvre et évite ainsi toute aggravation d’un traumatisme. En cas de difficultés pour le secouriste 2 (victime obèse ou force insuffisante du secouriste), il peut faciliter le retournement en tirant sur le genou fléchi de la victime du côté opposé au retournement comme dans la PLS à un secouriste 1 , l’autre main tirant sur l’épaule."
+              "texte": "dans le même temps maintenir la tête et la main de la victime entre ses mains et accompagner le mouvement en évitant toute torsion du cou. Le retournement de la victime doit être réalisé sans brusquerie, en un seul temps. Le maintien de la main et de la tête de la victime vise à conserver l’axe de la colonne cervicale durant toute la manœuvre et évite ainsi toute aggravation d’un traumatisme. En cas de difficultés pour le secouriste 2 (victime obèse ou force insuffisante du secouriste), il peut faciliter le retournement en tirant sur le genou fléchi de la victime du côté opposé au retournement comme dans la PLS à un secouriste (1) , l’autre main tirant sur l’épaule."
             }
           ]
         }
@@ -143,7 +143,7 @@
             },
             {
               "niveau": 1,
-              "texte": "fléchir, avec la main qui tenait la hanche, la hanche et le genou de la victime situés vers le haut pour les amener à angle droit 2 ,"
+              "texte": "fléchir, avec la main qui tenait la hanche, la hanche et le genou de la victime situés vers le haut pour les amener à angle droit (2) ,"
             },
             {
               "niveau": 1,
@@ -155,7 +155,7 @@
             },
             {
               "niveau": 1,
-              "texte": "vérifier que la bouche de la victime est ouverte 3 ."
+              "texte": "vérifier que la bouche de la victime est ouverte (3) ."
             }
           ]
         },
@@ -185,8 +185,8 @@
     }
   ],
   "notes": [
-    "1 La saisie de la jambe de la victime au niveau du genou permet de l’utiliser comme « bras de levier » pour le retournement",
-    "2 La saisie de la jambe de la victime au niveau du genou permet de l’utiliser comme « bras de levier » pour le retournement.",
-    "3 L’ouverture de la bouche de la victime facilite l’écoulement des liquides vers l’extérieur."
+    "(1) La saisie de la jambe de la victime au niveau du genou permet de l’utiliser comme « bras de levier » pour le retournement",
+    "(2) La saisie de la jambe de la victime au niveau du genou permet de l’utiliser comme « bras de levier » pour le retournement.",
+    "(3) L’ouverture de la bouche de la victime facilite l’écoulement des liquides vers l’extérieur."
   ]
 }

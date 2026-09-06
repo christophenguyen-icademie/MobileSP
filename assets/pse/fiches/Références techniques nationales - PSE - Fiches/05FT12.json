@@ -67,7 +67,7 @@
             },
             {
               "niveau": 1,
-              "texte": "pincer le nez de la victime entre le pouce et l'index, tout en maintenant la bascule en arrière de la tête 1 avec la main qui est placée sur le front ;"
+              "texte": "pincer le nez de la victime entre le pouce et l'index, tout en maintenant la bascule en arrière de la tête (1) avec la main qui est placée sur le front ;"
             },
             {
               "niveau": 1,
@@ -79,7 +79,7 @@
             },
             {
               "niveau": 1,
-              "texte": "appliquer la bouche largement ouverte autour de la bouche de la victime en appuyant fermement 2 ;"
+              "texte": "appliquer la bouche largement ouverte autour de la bouche de la victime en appuyant fermement (2) ;"
             },
             {
               "niveau": 1,
@@ -105,7 +105,7 @@
         },
         {
           "type": "paragraphe",
-          "texte": "La durée de réalisation de ces deux insufflations successives ne doit pas excéder 5 secondes 1 ."
+          "texte": "La durée de réalisation de ces deux insufflations successives ne doit pas excéder 5 secondes (1) ."
         },
         {
           "type": "paragraphe",
@@ -196,8 +196,8 @@
     }
   ],
   "notes": [
-    "1 Le pincement du nez empêchera toute fuite d’air par le nez lors des insufflations.",
-    "2 La pression ferme autour de la bouche de la victime empêchera toute fuite d’air durant les insufflations.",
-    "1 La réalisation rapide des manœuvres d’insufflation permet de ne pas retarder la reprise des compressions thoraciques."
+    "(1) Le pincement du nez empêchera toute fuite d’air par le nez lors des insufflations.",
+    "(2) La pression ferme autour de la bouche de la victime empêchera toute fuite d’air durant les insufflations.",
+    "(1) La réalisation rapide des manœuvres d’insufflation permet de ne pas retarder la reprise des compressions thoraciques."
   ]
 }

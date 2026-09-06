@@ -54,7 +54,7 @@
           "elements": [
             {
               "niveau": 1,
-              "texte": "appuyer 1 fortement sur l’endroit qui saigne 2 ;"
+              "texte": "appuyer (1) fortement sur l’endroit qui saigne (2) ;"
             },
             {
               "niveau": 1,
@@ -88,7 +88,7 @@
     }
   ],
   "notes": [
-    "1 Si le secouriste ne peut lui-même maintenir la compression, par exemple s’il existe de nombreuses victimes, il peut demander à la victime ou à un témoin (en s’assurant de sa protection), s’il en est capable, d’appuyer.",
-    "2 Avec ce qui est efficace au regard de la situation et qu'on peut maintenir aisément : avec la ou les mains protégées par des gants à usage unique, voir si nécessaire le genou."
+    "(1) Si le secouriste ne peut lui-même maintenir la compression, par exemple s’il existe de nombreuses victimes, il peut demander à la victime ou à un témoin (en s’assurant de sa protection), s’il en est capable, d’appuyer.",
+    "(2) Avec ce qui est efficace au regard de la situation et qu'on peut maintenir aisément : avec la ou les mains protégées par des gants à usage unique, voir si nécessaire le genou."
   ]
 }

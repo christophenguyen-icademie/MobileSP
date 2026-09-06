@@ -120,7 +120,7 @@
         },
         {
           "type": "paragraphe",
-          "texte": "Au même titre que les personnels de santé, les secouristes sont tenus par le secret professionnel. Les informations recueillies ne peuvent être divulguées qu’aux personnes contribuant à la prise en charge 1 ."
+          "texte": "Au même titre que les personnels de santé, les secouristes sont tenus par le secret professionnel. Les informations recueillies ne peuvent être divulguées qu’aux personnes contribuant à la prise en charge (1) ."
         },
         {
           "type": "paragraphe",
@@ -188,6 +188,6 @@
     }
   ],
   "notes": [
-    "de l'action sociale et des familles a droit au respect de sa vie privée et du secret des informations la concernant.\" La définition est précisée par l'Article R4127-4. Article 226-13 du code pénal incrimine « La révélation d’une information à caractère secret par une personne qui en est dépositaire soit par état ou par profession, soit en raison d’une fonction ou d’une mission temporaire »."
+    "(1) Article L1110-4 \"I.- Toute personne prise en charge par un professionnel de santé, un établissement ou service, un professionnel ou organisme concourant à la prévention ou aux soins dont les conditions d'exercice ou les activités sont régies par le présent code, le service de santé des armées, un professionnel du secteur médico-social ou social ou un établissement ou service social et médico-social mentionné au I de l'article L. 312-1 du Code de l'action sociale et des familles a droit au respect de sa vie privée et du secret des informations la concernant.\" La définition est précisée par l'Article R4127-4. Article 226-13 du code pénal incrimine « La révélation d’une information à caractère secret par une personne qui en est dépositaire soit par état ou par profession, soit en raison d’une fonction ou d’une mission temporaire »."
   ]
 }

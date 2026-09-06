@@ -330,7 +330,7 @@
         },
         {
           "type": "paragraphe",
-          "texte": "La présence d’une asymétrie de l’expression faciale, d’une faiblesse des membres supérieurs ou bien d’une anomalie de la parole doit considérer le score comme positif. Il doit faire suspecter la présence d’un AVC et demander un avis médical immédiat ( T ime). Il existe d’autres scores de reconnaissance de l’AVC, mais plus complexes à réaliser (CPSS 1 , LAPSS 2 , etc.). Certains inclus la mesure de la glycémie capillaire qui doit être supérieure à 0,6 g/l pour considérer le score comme positif (LAPSS). En conditions normales, lors de la réalisation :"
+          "texte": "La présence d’une asymétrie de l’expression faciale, d’une faiblesse des membres supérieurs ou bien d’une anomalie de la parole doit considérer le score comme positif. Il doit faire suspecter la présence d’un AVC et demander un avis médical immédiat ( T ime). Il existe d’autres scores de reconnaissance de l’AVC, mais plus complexes à réaliser (CPSS (1) , LAPSS (2) , etc.). Certains inclus la mesure de la glycémie capillaire qui doit être supérieure à 0,6 g/l pour considérer le score comme positif (LAPSS). En conditions normales, lors de la réalisation :"
         },
         {
           "type": "liste",
@@ -391,7 +391,7 @@
     }
   ],
   "notes": [
-    "1 Cincinnati Prehospital Stroke Scale",
-    "2 Los Angeles Prehospital Stroke Scale"
+    "(1) Cincinnati Prehospital Stroke Scale",
+    "(2) Los Angeles Prehospital Stroke Scale"
   ]
 }

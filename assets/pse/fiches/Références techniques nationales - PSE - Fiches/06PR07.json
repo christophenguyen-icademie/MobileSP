@@ -34,11 +34,11 @@
             },
             {
               "niveau": 2,
-              "texte": "éliminer tout contact 2 de la victime avec l’allergène si possible et si l’allergène est connu."
+              "texte": "éliminer tout contact (2) de la victime avec l’allergène si possible et si l’allergène est connu."
             },
             {
               "niveau": 2,
-              "texte": "si la victime possède un traitement 3 pour lutter contre les réactions allergiques graves : § administrer à la demande de la victime ou du médecin régulateur le traitement prescrit, § demander un avis médical immédiatement et appliquer les consignes, § surveiller la victime."
+              "texte": "si la victime possède un traitement (3) pour lutter contre les réactions allergiques graves : § administrer à la demande de la victime ou du médecin régulateur le traitement prescrit, § demander un avis médical immédiatement et appliquer les consignes, § surveiller la victime."
             }
           ]
         },
@@ -72,8 +72,8 @@
     }
   ],
   "notes": [
-    "1 Détresse respiratoire : souffle court, sifflements à l’expiration, œdèmes des voies respiratoires, gonflement, voix rauque. Détresse circulatoire : chute de la tension artérielle, pouls rapide et difficile à percevoir, fréquence cardiaque s’accélère.",
-    "2 Par exemple, supprimer le contact avec du latex si la victime est allergique au latex.",
-    "3 Auto-injecteur d’adrénaline - AIA"
+    "(1) Détresse respiratoire : souffle court, sifflements à l’expiration, œdèmes des voies respiratoires, gonflement, voix rauque. Détresse circulatoire : chute de la tension artérielle, pouls rapide et difficile à percevoir, fréquence cardiaque s’accélère.",
+    "(2) Par exemple, supprimer le contact avec du latex si la victime est allergique au latex.",
+    "(3) Auto-injecteur d’adrénaline - AIA"
   ]
 }

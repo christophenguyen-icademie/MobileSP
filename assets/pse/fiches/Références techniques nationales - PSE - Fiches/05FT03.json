@@ -36,7 +36,7 @@
             },
             {
               "niveau": 1,
-              "texte": "Pansement compressif d’urgence 1 pouvant contenir dans le même emballage :"
+              "texte": "Pansement compressif d’urgence (1) pouvant contenir dans le même emballage :"
             },
             {
               "niveau": 2,
@@ -62,11 +62,11 @@
           "elements": [
             {
               "niveau": 1,
-              "texte": "placer le pansement sur la plaie 2 ;"
+              "texte": "placer le pansement sur la plaie (2) ;"
             },
             {
               "niveau": 1,
-              "texte": "réaliser un bandage serré 3 recouvrant complètement le pansement ;"
+              "texte": "réaliser un bandage serré (3) recouvrant complètement le pansement ;"
             }
           ]
         }
@@ -198,8 +198,8 @@
     }
   ],
   "notes": [
-    "1 De fabrication industrielle, exemples : coussin hémostatique, pansement de type israélien, pansement OLAES, etc.",
-    "2 Si une compression manuelle a déjà été réalisée, la substitution de celle-ci par le pansement compressif doit être la plus rapide possible.",
-    "3 La pression doit être suffisante et éviter la reprise du saignement."
+    "(1) De fabrication industrielle, exemples : coussin hémostatique, pansement de type israélien, pansement OLAES, etc.",
+    "(2) Si une compression manuelle a déjà été réalisée, la substitution de celle-ci par le pansement compressif doit être la plus rapide possible.",
+    "(3) La pression doit être suffisante et éviter la reprise du saignement."
   ]
 }

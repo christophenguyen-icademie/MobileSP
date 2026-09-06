@@ -28,7 +28,7 @@
           "elements": [
             {
               "niveau": 1,
-              "texte": "continuer d’encourager la victime à tousser 2 ;"
+              "texte": "continuer d’encourager la victime à tousser (2) ;"
             },
             {
               "niveau": 1,
@@ -96,7 +96,7 @@
           "elements": [
             {
               "niveau": 1,
-              "texte": "installer la victime en position d'attente, confortablement 4 et sans délai ;"
+              "texte": "installer la victime en position d'attente, confortablement (4) et sans délai ;"
             },
             {
               "niveau": 1,
@@ -112,7 +112,7 @@
             },
             {
               "niveau": 1,
-              "texte": "transmettre le bilan, pour avis médical 5 ."
+              "texte": "transmettre le bilan, pour avis médical (5) ."
             }
           ]
         }
@@ -138,8 +138,10 @@
     }
   ],
   "notes": [
-    "3 Confère les signes de l’obstruction.",
-    "4 Par exemple sur un lit, une chaise, ou un canapé, ou à défaut sur le sol.",
-    "5 Même si la désobstruction est efficace de petits corps peuvent passer dans les voies aériennes et dans les poumons et provoquer des complications secondaires. Les manœuvres de compressions, même réalisées correctement, peuvent provoquer des lésions internes."
+    "(1) Confère les signes de l’obstruction.",
+    "(2) Une victime qui est éveillée, réactive et capable de tousser doit être encouragée à le faire, car la toux génère une pression élevée et soutenue dans les voies respiratoires et peut expulser le corps étranger.",
+    "(3) Confère les signes de l’obstruction.",
+    "(4) Par exemple sur un lit, une chaise, ou un canapé, ou à défaut sur le sol.",
+    "(5) Même si la désobstruction est efficace de petits corps peuvent passer dans les voies aériennes et dans les poumons et provoquer des complications secondaires. Les manœuvres de compressions, même réalisées correctement, peuvent provoquer des lésions internes."
   ]
 }

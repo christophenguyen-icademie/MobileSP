@@ -23,7 +23,7 @@
           "elements": [
             {
               "niveau": 1,
-              "texte": "la placer en position stable sur le côté, en position latérale de sécurité (PLS 1 ) à un secouriste ;"
+              "texte": "la placer en position stable sur le côté, en position latérale de sécurité (PLS (1) ) à un secouriste ;"
             }
           ]
         }
@@ -61,7 +61,7 @@
             },
             {
               "niveau": 2,
-              "texte": "installer la victime en PLS à deux secouristes 2 seulement sur indication médicale ;"
+              "texte": "installer la victime en PLS à deux secouristes (2) seulement sur indication médicale ;"
             },
             {
               "niveau": 2,
@@ -87,7 +87,7 @@
             },
             {
               "niveau": 2,
-              "texte": "réaliser une aspiration 3 des sécrétions ;"
+              "texte": "réaliser une aspiration (3) des sécrétions ;"
             },
             {
               "niveau": 1,
@@ -111,8 +111,8 @@
     }
   ],
   "notes": [
-    "1 Le retournement sur le côté gauche de la femme enceinte, ou d’une victime obèse, permet d’éviter l’apparition d’une détresse par compression de certains vaisseaux sanguins de l’abdomen.",
-    "2 Une palpation sommaire à la recherche de lésions traumatiques permet de définir au préalable le côté de retournement lors de la PLS.",
-    "3 Si la victime présente des signes d’encombrement des voies aériennes supérieures, afin d’améliorer la respiration."
+    "(1) Le retournement sur le côté gauche de la femme enceinte, ou d’une victime obèse, permet d’éviter l’apparition d’une détresse par compression de certains vaisseaux sanguins de l’abdomen.",
+    "(2) Une palpation sommaire à la recherche de lésions traumatiques permet de définir au préalable le côté de retournement lors de la PLS.",
+    "(3) Si la victime présente des signes d’encombrement des voies aériennes supérieures, afin d’améliorer la respiration."
   ]
 }

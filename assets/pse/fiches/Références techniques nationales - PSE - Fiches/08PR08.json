@@ -20,7 +20,7 @@
             },
             {
               "niveau": 1,
-              "texte": "enlever doucement les gants, bagues, chaussures, desserrer les élastiques ou les bandes auto- agrippantes des manches 1 … ;"
+              "texte": "enlever doucement les gants, bagues, chaussures, desserrer les élastiques ou les bandes auto- agrippantes des manches (1) … ;"
             },
             {
               "niveau": 1,
@@ -28,7 +28,7 @@
             },
             {
               "niveau": 1,
-              "texte": "sécher la victime, mais ne pas frictionner les zones gelées 2 ; Si les gelures sont mineures, réchauffer les extrémités en les plaçant contre la peau du sauveteur (main, creux de l’aisselle) pendant 10 minutes."
+              "texte": "sécher la victime, mais ne pas frictionner les zones gelées (2) ; Si les gelures sont mineures, réchauffer les extrémités en les plaçant contre la peau du sauveteur (main, creux de l’aisselle) pendant 10 minutes."
             },
             {
               "niveau": 1,
@@ -77,7 +77,7 @@
     }
   ],
   "notes": [
-    "1 Bagues, bracelets, montres… doivent être retirés, car ils sont susceptibles d’interrompre la circulation sanguine par « effet garrot ».",
-    "2 Le fait de sécher la victime permet de prévenir l'hypothermie."
+    "(1) Bagues, bracelets, montres… doivent être retirés, car ils sont susceptibles d’interrompre la circulation sanguine par « effet garrot ».",
+    "(2) Le fait de sécher la victime permet de prévenir l'hypothermie."
   ]
 }

@@ -69,7 +69,7 @@
           "elements": [
             {
               "niveau": 1,
-              "texte": "un lecteur de glycémie 1 ;"
+              "texte": "un lecteur de glycémie (1) ;"
             },
             {
               "niveau": 1,
@@ -221,6 +221,6 @@
     }
   ],
   "notes": [
-    "1 Certains appareils de glycémie nécessitent une calibration préalable. Pour cela, il faut se référer au manuel d'utilisation de l'appareil."
+    "(1) Certains appareils de glycémie nécessitent une calibration préalable. Pour cela, il faut se référer au manuel d'utilisation de l'appareil."
   ]
 }

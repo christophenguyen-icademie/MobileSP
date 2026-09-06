@@ -22,7 +22,7 @@
             },
             {
               "niveau": 1,
-              "texte": "débuter immédiatement 1 une RCP en répétant des cycles de :"
+              "texte": "débuter immédiatement (1) une RCP en répétant des cycles de :"
             },
             {
               "niveau": 2,
@@ -42,7 +42,7 @@
             },
             {
               "niveau": 2,
-              "texte": "administrer de l’oxygène 2 par insufflation."
+              "texte": "administrer de l’oxygène (2) par insufflation."
             },
             {
               "niveau": 1,
@@ -74,11 +74,11 @@
             },
             {
               "niveau": 2,
-              "texte": "réaliser une aspiration 3 des sécrétions ;"
+              "texte": "réaliser une aspiration (3) des sécrétions ;"
             },
             {
               "niveau": 2,
-              "texte": "mettre en place une canule 4 oropharyngée."
+              "texte": "mettre en place une canule (4) oropharyngée."
             }
           ]
         },
@@ -197,9 +197,10 @@
     }
   ],
   "notes": [
-    "2 L’apport d'oxygène à la victime sous ventilation artificielle doit être réalisé dès que possible, sans retarder la mise en œuvre des gestes de réanimation.",
-    "3 Lorsque l’aspiration de sécrétions est réalisée, elle ne doit pas retarder ni interrompre les manœuvres de RCP ou la délivrance d’un choc électrique.",
-    "4 Une canule oropharyngée est mise en place en cas de ventilation artificielle inefficace par difficulté de maintien des voies aériennes de la victime libres.",
-    "1 Localiser le pouls carotidien ou fémoral pendant les compressions thoraciques, maintenir la position et contrôler la présence ou l’absence de pouls lors des insufflations."
+    "(1) Toute action entreprise par les secouristes ne doit pas retarder, empêcher ou interrompre la RCP : port de gants, etc.",
+    "(2) L’apport d'oxygène à la victime sous ventilation artificielle doit être réalisé dès que possible, sans retarder la mise en œuvre des gestes de réanimation.",
+    "(3) Lorsque l’aspiration de sécrétions est réalisée, elle ne doit pas retarder ni interrompre les manœuvres de RCP ou la délivrance d’un choc électrique.",
+    "(4) Une canule oropharyngée est mise en place en cas de ventilation artificielle inefficace par difficulté de maintien des voies aériennes de la victime libres.",
+    "(1) Localiser le pouls carotidien ou fémoral pendant les compressions thoraciques, maintenir la position et contrôler la présence ou l’absence de pouls lors des insufflations."
   ]
 }

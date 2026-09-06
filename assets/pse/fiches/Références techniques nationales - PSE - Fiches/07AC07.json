@@ -18,15 +18,15 @@
           "elements": [
             {
               "niveau": 1,
-              "texte": "l’entorse 1 (une entorse peut s’accompagner d’un arrachement osseux) ;"
+              "texte": "l’entorse (1) (une entorse peut s’accompagner d’un arrachement osseux) ;"
             },
             {
               "niveau": 1,
-              "texte": "la luxation 2 (la luxation peut s’accompagner d’une fracture ou d’une atteinte des nerfs et des vaisseaux) ;"
+              "texte": "la luxation (2) (la luxation peut s’accompagner d’une fracture ou d’une atteinte des nerfs et des vaisseaux) ;"
             },
             {
               "niveau": 1,
-              "texte": "la fracture (rupture totale ou partielle de l’os) dite simple 3 ou compliquée 4 ."
+              "texte": "la fracture (rupture totale ou partielle de l’os) dite simple (3) ou compliquée (4) ."
             }
           ]
         }
@@ -70,11 +70,11 @@
           "elements": [
             {
               "niveau": 1,
-              "texte": "une atteinte des vaisseaux 5 ;"
+              "texte": "une atteinte des vaisseaux (5) ;"
             },
             {
               "niveau": 1,
-              "texte": "une lésion des nerfs 6 ;"
+              "texte": "une lésion des nerfs (6) ;"
             },
             {
               "niveau": 1,
@@ -154,8 +154,11 @@
     }
   ],
   "notes": [
-    "ouverte) et/ou si elle est déplacée.",
-    "5 Gonflement du membre (hématome), extrémité du membre froide et pâle.",
-    "6 La victime perçoit des fourmillements à l’extrémité du membre atteint. Il existe parfois une disparition de la sensibilité ou de la motricité des doigts ou des orteils."
+    "(1) Lésion traumatique avec élongation, déchirure ou arrachement d’un ou plusieurs ligaments à la suite d’un mouvement exagéré ou forcé de l’articulation (faux mouvement), créant un écartement transitoire des deux extrémités osseuses.",
+    "(2) Une lésion traumatique d’une articulation avec perte complète et permanente des rapports articulaires normaux (l’articulation est déboîtée). Les deux extrémités des os ne sont plus au contact l’une de l’autre. Ce déplacement s’accompagne le plus souvent d’une lésion, voire d’une déchirure des ligaments qui entouraient et maintenaient l’articulation.",
+    "(3) Lorsqu’il n’existe pas de lésions associées visibles.",
+    "(4) Lorsqu’il existe des lésions des structures adjacentes (nerfs, ligaments, muscles, vaisseaux), lorsqu’elle est accompagnée d’une plaie (fracture ouverte) et/ou si elle est déplacée.",
+    "(5) Gonflement du membre (hématome), extrémité du membre froide et pâle.",
+    "(6) La victime perçoit des fourmillements à l’extrémité du membre atteint. Il existe parfois une disparition de la sensibilité ou de la motricité des doigts ou des orteils."
   ]
 }

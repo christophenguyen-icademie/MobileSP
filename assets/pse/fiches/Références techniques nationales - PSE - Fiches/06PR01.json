@@ -28,11 +28,11 @@
           "elements": [
             {
               "niveau": 1,
-              "texte": "soustraire la victime aux facteurs 1 qui pourraient avoir déclenché la crise ;"
+              "texte": "soustraire la victime aux facteurs (1) qui pourraient avoir déclenché la crise ;"
             },
             {
               "niveau": 1,
-              "texte": "installer la victime en position d'attente, confortablement 2 et sans délai :"
+              "texte": "installer la victime en position d'attente, confortablement (2) et sans délai :"
             },
             {
               "niveau": 2,
@@ -90,7 +90,7 @@
         },
         {
           "type": "paragraphe",
-          "texte": "Devant des signes de maladie infectieuse 3 , appliquer les mesures barrières 4 , de distance physique et d'isolement ;"
+          "texte": "Devant des signes de maladie infectieuse (3) , appliquer les mesures barrières (4) , de distance physique et d'isolement ;"
         }
       ]
     },
@@ -118,9 +118,9 @@
     }
   ],
   "notes": [
-    "1 Exemple : foule, bruit, etc.",
-    "2 Par exemple sur un brancard, un lit, une chaise, ou un canapé, ou à défaut sur le sol.",
-    "3 Et plus particulièrement en période épidémique.",
-    "4 Exemple : demander à la victime de porter un masque, toutefois, lui proposer de le retirer si cela gêne sa respiration."
+    "(1) Exemple : foule, bruit, etc.",
+    "(2) Par exemple sur un brancard, un lit, une chaise, ou un canapé, ou à défaut sur le sol.",
+    "(3) Et plus particulièrement en période épidémique.",
+    "(4) Exemple : demander à la victime de porter un masque, toutefois, lui proposer de le retirer si cela gêne sa respiration."
   ]
 }
