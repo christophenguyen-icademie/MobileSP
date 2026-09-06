@@ -1,10 +1,10 @@
 import { Image } from 'expo-image';
 import { useRouter } from 'expo-router';
 import React from 'react';
-import { SafeAreaView, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+import { SafeAreaView, ScrollView, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 
-const logo = require('@/assets/images/sdis10.png');
+const logo = require('@/assets/images/ecusson_troyes.jpg');
 
 export default function Index() {
   const router = useRouter();
@@ -26,51 +26,60 @@ export default function Index() {
 
   return (
     <SafeAreaProvider>
-      <SafeAreaView style={styles.container}>
-        {/* Logo Section */}
-        <View style={styles.logoContainer}>
-          <Image source={logo} style={styles.logo} />
-        </View>
+      <SafeAreaView style={styles.safeArea}>
+        <ScrollView
+          contentContainerStyle={styles.container}
+          showsVerticalScrollIndicator={false}
+        >
+          {/* Logo Section */}
+          <View style={styles.logoContainer}>
+            <Image source={logo} style={styles.logo} />
+          </View>
 
-        {/* Button Section */}
-        <TouchableOpacity style={styles.button} onPress={handleItineraireButton}>
-           <Image
-            source={require("../../assets/images/itineraire.png")}
-            style={styles.icon}
-          />
-          <Text style={styles.buttonText}>Itinéraires</Text>
-        </TouchableOpacity>
-        <TouchableOpacity style={styles.button} onPress={handleSecourisme}>
-          <Image
+          {/* Button Section */}
+          <TouchableOpacity style={styles.button} onPress={handleItineraireButton}>
+            <Image
+              source={require("../../assets/images/itineraire.png")}
+              style={styles.icon}
+            />
+            <Text style={styles.buttonText}>Itinéraires</Text>
+          </TouchableOpacity>
+          <TouchableOpacity style={styles.button} onPress={handleSecourisme}>
+            <Image
               source={require("../../assets/images/secourisme.png")}
               style={styles.icon}
-          />
-          <Text style={styles.buttonText}>Recommandations PSE</Text>
-        </TouchableOpacity>
-        <TouchableOpacity style={styles.button} onPress={handleCalculO2Button}>
-          <Image
-            source={require("../../assets/images/o2.png")}
-            style={styles.icon}
-          />
-        <Text style={styles.buttonText}>Calcul 02</Text>
-        </TouchableOpacity>
-        <TouchableOpacity style={styles.button} onPress={handleCalculHydrauliqueButton}>
-          <Image
-            source={require("../../assets/images/hydraulique.png")}
-            style={styles.icon}
-          />
-          <Text style={styles.buttonText}>Calcul Hydraulique</Text>
-        </TouchableOpacity>
+            />
+            <Text style={styles.buttonText}>Recommandations PSE</Text>
+          </TouchableOpacity>
+          <TouchableOpacity style={styles.button} onPress={handleCalculO2Button}>
+            <Image
+              source={require("../../assets/images/o2.png")}
+              style={styles.icon}
+            />
+            <Text style={styles.buttonText}>Calcul 02</Text>
+          </TouchableOpacity>
+          <TouchableOpacity style={styles.button} onPress={handleCalculHydrauliqueButton}>
+            <Image
+              source={require("../../assets/images/hydraulique.png")}
+              style={styles.icon}
+            />
+            <Text style={styles.buttonText}>Calcul Hydraulique</Text>
+          </TouchableOpacity>
+        </ScrollView>
       </SafeAreaView>
     </SafeAreaProvider>
   );
 }
 
 const styles = StyleSheet.create({
-  container: {
+  safeArea: {
     flex: 1,
     backgroundColor: '#ffffff', // Couleur de fond
+  },
+  container: {
+    flexGrow: 1,
     alignItems: 'center', // Centre les éléments horizontalement
+    paddingBottom: 30,
   },
   logoContainer: {
     marginTop: 10, // Distance par rapport au haut de l'écran
