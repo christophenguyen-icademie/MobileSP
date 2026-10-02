@@ -1,0 +1,23 @@
+// Fichier généré par scripts/generate-documentation-assets.mjs.
+export const DOCUMENTATION_VIDEOS: Record<string, number> = {
+  "01 - Introduction et objectifs de la mise à jour 2026.webm": require("../assets/documentation/justifications/01 - Introduction et objectifs de la mise à jour 2026.webm"),
+  "02 - Les 3 piliers de la démarche ： Source, Friction et Arme du formateur.webm": require("../assets/documentation/justifications/02 - Les 3 piliers de la démarche ： Source, Friction et Arme du formateur.webm"),
+  "03 - Partie 1 ： Affections circulatoires.webm": require("../assets/documentation/justifications/03 - Partie 1 ： Affections circulatoires.webm"),
+  "04 - RCP Nourrisson ： Pourquoi la méthode des deux pouces ？.webm": require("../assets/documentation/justifications/04 - RCP Nourrisson ： Pourquoi la méthode des deux pouces ？.webm"),
+  "05 - Séquence initiale ： Faut-il faire 5 insufflations ？.webm": require("../assets/documentation/justifications/05 - Séquence initiale ： Faut-il faire 5 insufflations ？.webm"),
+  "06 - Le rôle du ＂Coach RCP＂ ： Améliorer la performance.webm": require("../assets/documentation/justifications/06 - Le rôle du ＂Coach RCP＂ ： Améliorer la performance.webm"),
+  "07 - Défibrillation ： Positionnement des électrodes chez l'adulte.webm": require("../assets/documentation/justifications/07 - Défibrillation ： Positionnement des électrodes chez l'adulte.webm"),
+  "08 - Défibrillation chez l'enfant et situations particulières.webm": require("../assets/documentation/justifications/08 - Défibrillation chez l'enfant et situations particulières.webm"),
+  "09 - Partie 2 ： Affections respiratoires.webm": require("../assets/documentation/justifications/09 - Partie 2 ： Affections respiratoires.webm"),
+  "10 - Obstruction des voies aériennes ： Nouvel arbre décisionnel.webm": require("../assets/documentation/justifications/10 - Obstruction des voies aériennes ： Nouvel arbre décisionnel.webm"),
+  "11 - Le balancement thoraco-abdominal ： Signe de détresse grave.webm": require("../assets/documentation/justifications/11 - Le balancement thoraco-abdominal ： Signe de détresse grave.webm"),
+  "12 - Partie 3 ： Traumatologie.webm": require("../assets/documentation/justifications/12 - Partie 3 ： Traumatologie.webm"),
+  "13 - Stabilisation manuelle du rachis cervical ： Nouvelles consignes.webm": require("../assets/documentation/justifications/13 - Stabilisation manuelle du rachis cervical ： Nouvelles consignes.webm"),
+  "14 - Section de membre et avulsion ： Procédure de conservation.webm": require("../assets/documentation/justifications/14 - Section de membre et avulsion ： Procédure de conservation.webm"),
+  "15 - Partie 4 ： Affections environnementales et spécifiques.webm": require("../assets/documentation/justifications/15 - Partie 4 ： Affections environnementales et spécifiques.webm"),
+  "16 - Coup de chaleur d'exercice ： Refroidir d'abord, transporter ensuite.webm": require("../assets/documentation/justifications/16 - Coup de chaleur d'exercice ： Refroidir d'abord, transporter ensuite.webm"),
+  "17 - Massage utérin post-partum ： Prévention de l'hémorragie.webm": require("../assets/documentation/justifications/17 - Massage utérin post-partum ： Prévention de l'hémorragie.webm"),
+  "18 - La réorganisation du chapitre ＂Malaise＂ en PSC.webm": require("../assets/documentation/justifications/18 - La réorganisation du chapitre ＂Malaise＂ en PSC.webm"),
+  "19 - Conclusion ： Agir vite, faire simple, faire efficace.webm": require("../assets/documentation/justifications/19 - Conclusion ： Agir vite, faire simple, faire efficace.webm"),
+  "FC2026 - Justifications des modifications [O0sbCFGdnIo].webm": require("../assets/documentation/justifications/FC2026 - Justifications des modifications [O0sbCFGdnIo].webm"),
+};
