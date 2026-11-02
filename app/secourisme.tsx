@@ -9,18 +9,34 @@ import type { FichePse, NiveauPse } from "@/types/pse";
 
 type Filtre = "Tous" | NiveauPse;
 type TypeFiche = "Tous" | "AC" | "PR" | "FT";
-type Chapitre = { nom: string; numero: string; fiches: FichePse[] };
+type FicheRecherche = FichePse & { extrait?: string };
+type Chapitre = { nom: string; numero: string; fiches: FicheRecherche[] };
 
 const fiches = fichesJson as FichePse[];
 const filtres: Filtre[] = ["Tous", "PSE 1", "PSE 2"];
 const types: TypeFiche[] = ["Tous", "AC", "PR", "FT"];
 const normaliser = (texte: string) => texte.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
 const contenusRecherchables = Object.fromEntries(
-  Object.entries(PSE_DATA).map(([reference, fiche]) => [
-    reference,
-    normaliser(JSON.stringify({ chapitres: fiche.chapitres, notes: fiche.notes })),
-  ]),
+  Object.entries(PSE_DATA).map(([reference, fiche]) => {
+    const texte = [
+      ...fiche.chapitres.flatMap((chapitre) => [
+        chapitre.titre,
+        ...chapitre.contenu.flatMap((bloc) => bloc.type === "paragraphe"
+          ? [bloc.texte]
+          : bloc.elements.map((element) => element.texte)),
+      ]),
+      ...fiche.notes,
+    ].join(" ").replace(/\s+/g, " ").trim();
+    return [reference, { texte, normalise: normaliser(texte) }];
+  }),
 );
+
+function extraireOccurrence(texte: string, index: number, longueurTerme: number) {
+  const debut = texte.lastIndexOf(" ", Math.max(0, index - 50)) + 1;
+  const espaceFinal = texte.indexOf(" ", index + longueurTerme + 100);
+  const fin = espaceFinal < 0 ? texte.length : espaceFinal;
+  return `${debut > 0 ? "…" : ""}${texte.slice(debut, fin)}${fin < texte.length ? "…" : ""}`;
+}
 
 function TexteSurligne({ texte, recherche, style }: { texte: string; recherche: string; style: StyleProp<TextStyle> }) {
   const terme = recherche.trim();
@@ -38,7 +54,7 @@ export default function Secourisme() {
   const [recherche, setRecherche] = useState("");
   const [filtre, setFiltre] = useState<Filtre>("Tous");
   const [typeFiche, setTypeFiche] = useState<TypeFiche>("Tous");
-  const [rechercheContenu, setRechercheContenu] = useState(false);
+  const [rechercheContenu, setRechercheContenu] = useState(true);
   const [ouverts, setOuverts] = useState<Set<string>>(new Set());
   const [favoris, setFavoris] = useState<Set<string>>(new Set());
   const [recents, setRecents] = useState<string[]>([]);
@@ -75,15 +91,22 @@ export default function Secourisme() {
 
   const chapitres = useMemo<Chapitre[]>(() => {
     const terme = normaliser(recherche.trim());
-    const groupes = new Map<string, FichePse[]>();
+    const groupes = new Map<string, FicheRecherche[]>();
     fiches.forEach((fiche) => {
       const niveauOk = filtre === "Tous" || fiche.niveaux.includes(filtre);
       const typeOk = typeFiche === "Tous" || fiche.nom.slice(2, 4) === typeFiche;
       const metadonnees = normaliser(`${fiche.nom} ${fiche.titre} ${fiche.chapitre}`);
-      const texteOk = !terme || metadonnees.includes(terme) || (rechercheContenu && contenusRecherchables[fiche.nom]?.includes(terme));
+      const contenu = rechercheContenu && terme ? contenusRecherchables[fiche.nom] : undefined;
+      const indexOccurrence = contenu?.normalise.indexOf(terme) ?? -1;
+      const texteOk = !terme || metadonnees.includes(terme) || indexOccurrence >= 0;
       if (!niveauOk || !typeOk || !texteOk) return;
       const groupe = groupes.get(fiche.chapitre) ?? [];
-      groupe.push(fiche);
+      groupe.push({
+        ...fiche,
+        extrait: contenu && indexOccurrence >= 0
+          ? extraireOccurrence(contenu.texte, indexOccurrence, terme.length)
+          : undefined,
+      });
       groupes.set(fiche.chapitre, groupe);
     });
     return [...groupes].map(([nom, fichesDuChapitre]) => ({
@@ -186,6 +209,7 @@ export default function Secourisme() {
                         {fiche.niveaux.length === 0 && <Text style={styles.optionnelle}>Complémentaire</Text>}
                       </View>
                       <TexteSurligne texte={fiche.titre} recherche={recherche} style={[styles.titreFiche, mobileWeb && styles.titreFicheMobile]} />
+                      {fiche.extrait && <TexteSurligne texte={fiche.extrait} recherche={recherche} style={[styles.extraitFiche, mobileWeb && styles.extraitFicheMobile]} />}
                     </View>
                     <Pressable accessibilityLabel={favoris.has(fiche.nom) ? "Retirer des favoris" : "Ajouter aux favoris"} onPress={() => basculerFavori(fiche.nom)} hitSlop={8} style={styles.favori}>
                       <Ionicons name={favoris.has(fiche.nom) ? "star" : "star-outline"} size={21} color="#a16900" />
@@ -271,6 +295,8 @@ const styles = StyleSheet.create({
   favori: { padding: 7 },
   titreFiche: { color: "#302d3d", fontSize: 15, lineHeight: 20, marginTop: 4 },
   titreFicheMobile: { fontSize: 18, lineHeight: 25, marginTop: 6 },
+  extraitFiche: { color: "#716e80", fontSize: 13, fontStyle: "italic", lineHeight: 19, marginTop: 5 },
+  extraitFicheMobile: { fontSize: 16, lineHeight: 23 },
   vide: { color: "#716e80", paddingTop: 50, textAlign: "center" },
   animation: { alignItems: "center", alignSelf: "flex-start", backgroundColor: "#1f176a", borderRadius: 9, flexDirection: "row", flexShrink: 1, gap: 7, marginBottom: 12, marginHorizontal: 30, paddingHorizontal: 13, paddingVertical: 9 },
   animationTexte: { color: "#fff", fontSize: 13, fontWeight: "700" },
