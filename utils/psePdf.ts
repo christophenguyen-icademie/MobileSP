@@ -8,6 +8,10 @@ import { SECOURISME_ASSETS } from "@/constants/secourisme";
 export async function ouvrirPdfPse(reference: string) {
   const modulePdf = SECOURISME_ASSETS[reference];
   if (modulePdf == null) throw new Error(`PDF ${reference} non indexé`);
+  return ouvrirPdfAsset(modulePdf, reference);
+}
+
+export async function ouvrirPdfAsset(modulePdf: number | string, reference: string) {
   const asset = Asset.fromModule(modulePdf);
   if (Platform.OS === "web") {
     await Linking.openURL(asset.uri);
