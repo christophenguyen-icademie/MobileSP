@@ -1,0 +1,125 @@
+{
+  "nom": "02FT11",
+  "titre": "Manœuvres physiques",
+  "niveaux": [
+    "PSC"
+  ],
+  "chapitre_principal": "Secourir une personne",
+  "chapitres": [
+    {
+      "titre": "Indication",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Les manœuvres physiques sont réalisées dès que la victime reconnait des signes annonciateurs d’une perte de connaissance imminente."
+        }
+      ]
+    },
+    {
+      "titre": "Justification",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "En agissant sur la circulation, les manœuvres physiques ont pour but d’éviter la survenue d’une perte de connaissance et les lésions traumatiques secondaires à une chute."
+        }
+      ]
+    },
+    {
+      "titre": "Réalisation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Les manœuvres physiques doivent être réalisées par la victime elle-même. Si la victime ne connaît pas ces manœuvres, le secouriste lui expliquera comment les réaliser si possible."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Les manœuvres ne remplacent pas la mise en position de confort de la victime notamment la position allongée. Cependant, si le secouriste (ou la victime elle-même) est dans l'impossibilité immédiate d'allonger la victime (malaise dans un bus, un avion, le train), les manœuvres physiques peuvent précéder la mise en position allongée."
+        }
+      ]
+    },
+    {
+      "titre": "L'accroupissement (peut être un préalable à la mise en position allongée)",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "se placer en position accroupie ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "baisser la tête comme pour la mettre entre les deux genoux."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Croisement des membres inférieurs",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La victime peut être en position allongée ou debout en prenant appui contre un mur :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "croiser les membres inférieurs ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "contracter les muscles en essayant de tendre les jambes ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "serrer les fesses ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "contracter la ceinture abdominale."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Crochetage des doigts et tension des bras",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "agripper les deux mains par les doigts en crochet ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "écarter les coudes de la poitrine au maximum ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "contracter les deux membres supérieurs en tirant comme pour essayer de séparer les deux mains."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "N. B. Le croisement des membres inférieurs a une efficacité supérieure aux deux autres techniques."
+        }
+      ]
+    },
+    {
+      "titre": "Points clés",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Les manœuvres physiques sont réalisées par la victime dès l’apparition des premiers signes de malaise et poursuivies après la mise en position allongée."
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

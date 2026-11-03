@@ -1,0 +1,146 @@
+[
+  {
+    "nom": "01AC01",
+    "titre": "Le citoyen de Sécurité Civile",
+    "niveaux": [
+      "GQS"
+    ],
+    "chapitre": "Informations générales",
+    "fichier": "01AC01.pdf"
+  },
+  {
+    "nom": "01AC02",
+    "titre": "Protection",
+    "niveaux": [
+      "GQS"
+    ],
+    "chapitre": "Informations générales",
+    "fichier": "01AC02.pdf"
+  },
+  {
+    "nom": "01AC03",
+    "titre": "Alerte",
+    "niveaux": [
+      "GQS"
+    ],
+    "chapitre": "Informations générales",
+    "fichier": "01AC03.pdf"
+  },
+  {
+    "nom": "02PR01",
+    "titre": "Hémorragies",
+    "niveaux": [
+      "GQS"
+    ],
+    "chapitre": "Secourir une personne",
+    "fichier": "02PR01.pdf"
+  },
+  {
+    "nom": "02FT01",
+    "titre": "Compression",
+    "niveaux": [
+      "GQS"
+    ],
+    "chapitre": "Secourir une personne",
+    "fichier": "02FT01.pdf"
+  },
+  {
+    "nom": "02FT02",
+    "titre": "Garrot",
+    "niveaux": [
+      "GQS"
+    ],
+    "chapitre": "Secourir une personne",
+    "fichier": "02FT02.pdf"
+  },
+  {
+    "nom": "02PR02",
+    "titre": "Arrêt cardiaque",
+    "niveaux": [
+      "GQS"
+    ],
+    "chapitre": "Secourir une personne",
+    "fichier": "02PR02.pdf"
+  },
+  {
+    "nom": "02FT03",
+    "titre": "Libération des voies aériennes",
+    "niveaux": [
+      "GQS"
+    ],
+    "chapitre": "Secourir une personne",
+    "fichier": "02FT03.pdf"
+  },
+  {
+    "nom": "02FT04",
+    "titre": "Compressions thoraciques",
+    "niveaux": [
+      "GQS"
+    ],
+    "chapitre": "Secourir une personne",
+    "fichier": "02FT04.pdf"
+  },
+  {
+    "nom": "02FT05",
+    "titre": "Défibrillation",
+    "niveaux": [
+      "GQS"
+    ],
+    "chapitre": "Secourir une personne",
+    "fichier": "02FT05.pdf"
+  },
+  {
+    "nom": "02AC01",
+    "titre": "Défibrillateur automatisé externe - DAE",
+    "niveaux": [
+      "GQS"
+    ],
+    "chapitre": "Secourir une personne",
+    "fichier": "02AC01.pdf"
+  },
+  {
+    "nom": "02PR03",
+    "titre": "Perte de connaissance",
+    "niveaux": [
+      "GQS"
+    ],
+    "chapitre": "Secourir une personne",
+    "fichier": "02PR03.pdf"
+  },
+  {
+    "nom": "02FT06",
+    "titre": "Position latérale de sécurité - PLS",
+    "niveaux": [
+      "GQS"
+    ],
+    "chapitre": "Secourir une personne",
+    "fichier": "02FT06.pdf"
+  },
+  {
+    "nom": "02PR04",
+    "titre": "Plaies",
+    "niveaux": [
+      "GQS"
+    ],
+    "chapitre": "Secourir une personne",
+    "fichier": "02PR04.pdf"
+  },
+  {
+    "nom": "03AC01",
+    "titre": "Organisation générale",
+    "niveaux": [
+      "GQS"
+    ],
+    "chapitre": "Formation",
+    "fichier": "03AC01.pdf"
+  },
+  {
+    "nom": "03AC02",
+    "titre": "Proposition pédagogique",
+    "niveaux": [
+      "GQS"
+    ],
+    "chapitre": "Formation",
+    "fichier": "03AC02.pdf"
+  }
+]

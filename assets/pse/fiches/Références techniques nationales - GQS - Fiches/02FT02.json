@@ -1,0 +1,217 @@
+{
+  "nom": "02FT02",
+  "titre": "Garrot",
+  "niveaux": [
+    "GQS"
+  ],
+  "chapitre_principal": "Secourir une personne",
+  "chapitres": [
+    {
+      "titre": "Indication",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Cette technique est indiquée en cas d’hémorragie d’un membre lorsque la compression directe est inefficace ou impossible . Il ne peut être posé qu’aux membres supérieurs ou inférieurs."
+        }
+      ]
+    },
+    {
+      "titre": "Justification",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le but de cette technique est d’arrêter une hémorragie externe en interrompant totalement la circulation du sang du membre, en aval de l’endroit où il est posé."
+        }
+      ]
+    },
+    {
+      "titre": "Matériel",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Garrot improvisé :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "lien de toile, solide, non élastique, improvisé, de 3 à 5 cm de large et d'au moins 1,50m de longueur."
+            },
+            {
+              "niveau": 1,
+              "texte": "barre, pièce longue de 10 à 20 cm environ en bois solide, PVC dur ou métal rigide pour permettre le serrage."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Garrot de fabrication industrielle : Il existe dans le commerce des garrots spécialement conçus qui peuvent faire éventuellement partie d'une trousse de secours. Ces garrots équipés d'une barre de serrage ou d'un dispositif à cran, d'un lien large et d'un système de sécurité, ont montré une excellente efficacité. Il ne faut pas utiliser les garrots élastiques prévus pour les prises de sang."
+        }
+      ]
+    },
+    {
+      "titre": "Réalisation",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "se munir du matériel nécessaire (10) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "positionner le garrot :"
+            },
+            {
+              "niveau": 2,
+              "texte": "à quelques centimètres de la plaie (idéalement 5 à 7 cm),"
+            },
+            {
+              "niveau": 2,
+              "texte": "entre la plaie et la racine du membre,"
+            },
+            {
+              "niveau": 2,
+              "texte": "jamais sur une articulation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Garrot de fabrication industrielle",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "suivre les instructions du fabricant."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Garrot improvisé",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "faire deux tours autour du membre avec le lien large à l’endroit où le garrot doit être placé ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "faire un nœud ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "placer au-dessus du nœud la barre et faire deux nœuds par-dessus pour la maintenir ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "tourner la barre de façon à serrer le garrot jusqu'à l'arrêt du saignement ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "maintenir le serrage par :"
+            },
+            {
+              "niveau": 2,
+              "texte": "le secouriste même si la douleur provoquée est intense ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "quelque moyen que ce soit (autre lien, etc.) si le secouriste doit se libérer."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "(10) S’il est disponible, il est préférable d’utiliser un garrot de fabrication industrielle, spécialement conçu à cet effet."
+        }
+      ]
+    },
+    {
+      "titre": "Garrot improvisé (en l’absence de barre)",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "faire le garrot uniquement avec le lien large ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "faire une boucle avec le lien en le pliant en deux ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "glisser cette boucle sous le membre ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "glisser une extrémité du lien dans la boucle afin que le garrot entoure le membre ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "serrer le garrot le plus fortement possible en tirant sur chaque extrémité du lien ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "réaliser un double nœud de maintien."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Dans tous les cas",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "vérifier régulièrement l’efficacité du garrot si la victime est totalement recouverte afin de lui éviter une hypothermie préjudiciable en cas de saignement ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "noter (11) l’heure de pose du garrot afin de pouvoir la communiquer aux personnes assurant le relais dans la prise en charge de la victime."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Points clés",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le garrot doit :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "être situé en amont de la plaie qui saigne (entre le cœur et la plaie) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "être serré pour arrêter le saignement."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "(11) Lisiblement, sur le garrot, sur une fiche, etc."
+  ]
+}

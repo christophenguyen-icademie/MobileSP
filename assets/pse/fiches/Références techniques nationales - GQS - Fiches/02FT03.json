@@ -1,0 +1,105 @@
+{
+  "nom": "02FT03",
+  "titre": "Libération des voies aériennes",
+  "niveaux": [
+    "GQS"
+  ],
+  "chapitre_principal": "Secourir une personne",
+  "chapitres": [
+    {
+      "titre": "Indication",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Cette technique doit être réalisée systématiquement avant de pouvoir rechercher la respiration chez une victime qui ne répond ou ne réagit à aucune sollicitation verbale ou physique."
+        }
+      ]
+    },
+    {
+      "titre": "Justification",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La bascule de la tête en arrière (chez l’adulte ou l’enfant) ou la mise en position neutre (chez le nourrisson) et l’élévation du menton entraînent la langue qui améliore le passage de l’air."
+        }
+      ]
+    },
+    {
+      "titre": "Réalisation",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "placer la paume d’une main sur le front de la victime ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "placer 2 ou 3 doigts de l’autre main, juste sous la pointe du menton en prenant appui sur l’os. Éventuellement s’aider du pouce pour saisir le menton."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Chez l’adulte ou l’enfant",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "basculer doucement la tête de la victime en arrière en appuyant sur le front tout en élevant le menton pour libérer les voies aériennes."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Chez le nourrisson",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "amener doucement la tête du nourrisson en position neutre dans l'alignement du torse ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "élever le menton tout en évitant une bascule excessive susceptible de provoquer une extension du rachis cervical et une gêne de la ventilation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Points clés",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La position du secouriste doit être stable."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "La liberté des voies aériennes est assurée lorsque :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "le menton est élevé ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "la tête est maintenue dans cette position."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

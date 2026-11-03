@@ -1,0 +1,138 @@
+{
+  "nom": "02AC01",
+  "titre": "Défibrillateur automatisé externe - DAE",
+  "niveaux": [
+    "GQS"
+  ],
+  "chapitre_principal": "Secourir une personne",
+  "chapitres": [
+    {
+      "titre": "Introduction",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le défibrillateur automatisé externe (DAE) est un appareil qui permet :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "d’analyser l’activité électrique du cœur de la victime ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "de reconnaître une anomalie du fonctionnement électrique du cœur à l’origine de l’arrêt cardiaque ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "de délivrer ou d’inviter le secouriste à délivrer un choc électrique (information vocale et visuelle), afin d’arrêter l’activité électrique anarchique du cœur."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Composition",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le DAE est composé :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "d’un haut-parleur qui donne des messages sonores et guide le secouriste dans son action ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "d’un métronome qui rythme les compressions thoraciques du secouriste (en option) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "d’un accumulateur d’énergie qui permet de réaliser des chocs électriques ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "éventuellement, d’un bouton qui permet de délivrer le choc électrique lorsqu’il est indiqué par l’appareil."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Le DAE est toujours accompagné d’une paire d’électrodes de défibrillation prégélifiées autocollantes avec câble intégré. Ces électrodes, à usage unique, sont contenues dans un emballage hermétique. Une seconde paire doit être disponible en cas de défaillance de la première."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Une fois collées sur la peau du thorax de la victime, les électrodes permettent :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "de capter et transmettre l’activité électrique cardiaque au défibrillateur ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "de délivrer le choc électrique lorsqu’il est indiqué. Plusieurs accessoires peuvent être joints au défibrillateur dont :"
+            },
+            {
+              "niveau": 2,
+              "texte": "une paire de ciseaux, pour couper les vêtements et dénuder la poitrine de la victime ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "des compresses ou du papier absorbant, pour sécher la peau de la poitrine de la victime si elle est mouillée ou humide ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "d’un rasoir jetable pour raser les poils de la victime, s’ils sont particulièrement abondants, à l’endroit où l’on colle les électrodes."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Localisation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Actuellement, les DAE sont mis à disposition du public dans les établissements recevant du public. On les trouve également dans :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "les halls d’aéroports et les avions des compagnies aériennes ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "les grands magasins, les centres commerciaux ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "les halls de gares, les trains ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "certains lieux de travail et immeubles d’habitation."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Dans ces cas, les appareils sont parfois placés dans des armoires murales repérées par un logo facilement identifiable. Des applications (27) permettant de localiser un défibrillateur existant. Il est conseillé d’avoir en permanence accès sur son téléphone à une de ces applications."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "(27) Staying Alive, etc."
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

@@ -1,0 +1,254 @@
+{
+  "nom": "02PR04",
+  "titre": "Perte de connaissance",
+  "niveaux": [
+    "PSC"
+  ],
+  "chapitre_principal": "Secourir une personne",
+  "chapitres": [
+    {
+      "titre": "Définition - Signes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Une personne a perdu connaissance lorsqu'elle ne répond et ne réagit à aucune sollicitation verbale ou physique, mais respire."
+        }
+      ]
+    },
+    {
+      "titre": "Causes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Les causes de cette perte de connaissance peuvent être d'origine traumatique, médicale ou toxique."
+        }
+      ]
+    },
+    {
+      "titre": "Risques",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le risque de la perte de connaissance est d'évoluer vers l'arrêt respiratoire et l'arrêt cardiaque. En effet, la respiration n'est possible que si les voies aériennes permettent le passage de l'air sans encombre."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Une personne qui a perdu connaissance, laissée sur le dos, est toujours exposée à des difficultés respiratoires, du fait de l'encombrement ou de l'obstruction des voies aériennes par :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "des liquides (1) présents dans la gorge (salive, sang, liquide gastrique) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "la chute de la langue (2) en arrière."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Principes d’action",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le secouriste doit assurer la liberté des voies aériennes de la victime afin de permettre l'écoulement des liquides vers l'extérieur en attendant l'arrivée des secours."
+        }
+      ]
+    },
+    {
+      "titre": "Conduite à tenir",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Rechercher une perte de connaissance, pour cela :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "poser des questions simples (exemples : « Comment ça va ? », « Vous m’entendez ? ») ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "secouer doucement les épaules ou lui prendre la main et demander d’exécuter un ordre simple (exemple : « Serrez-moi la main »)."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Si la victime répond ou réagit , il convient d’adopter la conduite à tenir adaptée au malaise."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Si la victime ne répond pas et ne réagit pas, il convient de :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "demander de l’aide, si vous êtes seul ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "l’allonger sur le dos, quelle que soit sa position initiale ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "libérer les voies aériennes ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "rechercher la respiration sur 10 secondes au plus. Pour cela :"
+            },
+            {
+              "niveau": 2,
+              "texte": "maintenir la libération des voies aériennes ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "se pencher sur la victime, oreille et joue du secouriste au-dessus de la bouche et du nez de la victime pour : § regarder si le ventre et la poitrine se soulèvent ; § écouter d’éventuels sons provoqués par la respiration ; § sentir un éventuel flux d’air à l’expiration."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Si la victime ne répond pas et ne réagit pas et respire , appliquer la conduite à tenir suivante :"
+        }
+      ]
+    },
+    {
+      "titre": "À la suite d’un évènement non traumatique",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "la placer en position stable sur le côté : en position latérale de sécurité (PLS (1) ) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "faire alerter ou alerter les secours ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "surveiller en permanence la respiration de la victime, jusqu’à l’arrivée des secours. Pour cela :"
+            },
+            {
+              "niveau": 2,
+              "texte": "regarder si le ventre et la poitrine se soulèvent ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "écouter d’éventuels sons provoqués par la respiration ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "sentir, avec le plat de la main, les mouvements du ventre et de la poitrine."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "À la suite d’un traumatisme ou d’un événement d’origine inconnue",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "laisser la victime sur le dos ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "faire alerter ou alerter les secours, respecter leurs consignes (2) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "surveiller en permanence la respiration de la victime jusqu’à l’arrivée des secours comme effectué lors de la recherche de la respiration (3) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "si la victime vomit ou régurgite, la mettre sur le côté en maintenant si possible l’axe tête-cou-tronc, en demandant de l’aide le cas échéant."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Dans tous les cas",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "protéger contre la chaleur, le froid ou les intempéries ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "si la respiration de la victime s’arrête ou devient anormale, il convient d’adopter la conduite à tenir face à un arrêt cardiaque et de prévenir les secours de l’évolution."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Cas particuliers",
+      "contenu": []
+    },
+    {
+      "titre": "En période d’épidémie 4",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "se protéger si possible avec un masque ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "questionner la victime et voir si elle réagit, sans la toucher ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "rechercher la respiration de la victime en regardant si son ventre et sa poitrine se soulèvent. Ne pas procéder à la bascule de la tête de la victime en arrière, ne pas tenter de lui ouvrir la bouche, ne pas se pencher au-dessus de la face de la victime et ne pas mettre son oreille et sa joue au-dessus de la bouche et du nez de la victime ; Si la victime ne répond pas, ne réagit pas et respire :"
+            },
+            {
+              "niveau": 1,
+              "texte": "laisser la victime dans la position où elle se trouve ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "faire alerter ou alerter les secours, respecter leurs consignes ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "surveiller en permanence la respiration de la victime en regardant son ventre et sa poitrine."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Dès que possible, se laver soigneusement les mains à l'eau et au savon ou se désinfecter les mains avec un gel à base d'alcool puis contacter les autorités sanitaires pour se renseigner sur la conduite à tenir."
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "(1) Du fait d’une diminution des réflexes, en particulier de déglutition.",
+    "(2) Du fait d’une forte diminution du tonus musculaire. Cette obstruction peut empêcher toute respiration naturelle ou artificielle.",
+    "(1) Le retournement sur le côté gauche de la femme enceinte, ou d’une victime obèse, permet d’éviter l’apparition d’une détresse par compression de certains vaisseaux sanguins de l’abdomen",
+    "(2) Il est possible que les services de secours demandent de mettre la victime en position latérale de sécurité.",
+    "(3) Le maintien de la libération des voies aériennes permet de stabiliser le rachis cervical (limiter ses mouvements).",
+    "(4) Telle que la COVID19"
+  ]
+}

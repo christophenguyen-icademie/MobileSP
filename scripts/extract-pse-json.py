@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
-"""Extrait la structure des fiches PSE PDF dans un JSON par fiche."""
+"""Extrait la structure des fiches PDF PSE, PSC ou GQS dans un JSON par fiche."""
 
 from __future__ import annotations
 
+import argparse
 import html
 import json
 import re
@@ -15,8 +16,7 @@ from pathlib import Path
 
 RACINE = Path(__file__).resolve().parents[1]
 DOSSIER = RACINE / "assets/pse/fiches/Références techniques nationales - PSE - Fiches"
-INDEX = DOSSIER / "fiches.json"
-MARQUEURS = {"•": 1, "": 1, "o": 2, "–": 1, "-": 1}
+MARQUEURS = {"•": 1, "": 1, "●": 1, "▪": 2, "o": 2, "–": 1, "-": 1}
 ESPACES = re.compile(r"\s+")
 
 
@@ -102,9 +102,15 @@ def convertir_pdf(pdf: Path) -> tuple[list[Ligne], list[str]]:
             if marqueur:
                 morceaux = morceaux[1:]
             texte = nettoyer(" ".join(morceaux))
+            taille_max = max(item.taille for item in groupe)
+            # Dans le GQS, le numéro d'une note est souvent placé quelques
+            # points au-dessus de son texte et forme donc un groupe distinct.
+            if texte.isdigit() and taille_max <= 13 and min(item.gauche for item in groupe) < 115:
+                notes_brutes.append(texte)
+                dans_notes_de_page = True
+                continue
             if not texte or re.fullmatch(r"\d+", texte):
                 continue
-            taille_max = max(item.taille for item in groupe)
             debut_note = bool(re.match(r"^\d+\s*\D", texte)) and min(
                 item.gauche for item in groupe
             ) < 115
@@ -134,7 +140,7 @@ def convertir_pdf(pdf: Path) -> tuple[list[Ligne], list[str]]:
     notes: list[str] = []
     for ligne in notes_brutes:
         ligne = re.sub(r"^(\d+)\s*", r"(\1) ", ligne)
-        if re.match(r"^\(\d+\)\s*\D", ligne) or not notes:
+        if re.match(r"^\(\d+\)(?:\s|$)", ligne) or not notes:
             notes.append(ligne)
         else:
             notes[-1] = nettoyer(f"{notes[-1]} {ligne}")
@@ -148,6 +154,9 @@ def assembler_titres(lignes: list[Ligne], reference: str) -> list[Ligne]:
     while index < len(lignes):
         ligne = lignes[index]
         if reference in ligne.texte and ligne.texte.startswith("["):
+            index += 1
+            continue
+        if ligne.haut < 100 and re.search(r"\d{2}-\d{4}\]\s*(?:PSC|GQS)\s*$", ligne.texte):
             index += 1
             continue
         if ligne.taille_max >= 30 and not titre_principal_ignore:
@@ -235,13 +244,19 @@ def structurer(lignes: list[Ligne]) -> list[dict]:
         derniere_ligne = ligne
 
     vider_paragraphe()
-    return [chapitre for chapitre in chapitres if chapitre["contenu"]]
+    # Un titre parent sans texte propre reste utile (par exemple « Séquence 1 »
+    # immédiatement suivi de « Action à réaliser » dans le référentiel GQS).
+    return [chapitre for chapitre in chapitres if chapitre["contenu"] or chapitre["titre"] != "Introduction"]
 
 
 def main() -> None:
-    fiches = json.loads(INDEX.read_text(encoding="utf-8"))
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--dossier", type=Path, default=DOSSIER)
+    args = parser.parse_args()
+    dossier = args.dossier
+    fiches = json.loads((dossier / "fiches.json").read_text(encoding="utf-8"))
     for numero, fiche in enumerate(fiches, start=1):
-        pdf = DOSSIER / fiche["fichier"]
+        pdf = dossier / fiche["fichier"]
         lignes_brutes, notes = convertir_pdf(pdf)
         lignes = assembler_titres(lignes_brutes, fiche["nom"])
         resultat = {
@@ -252,7 +267,7 @@ def main() -> None:
             "chapitres": structurer(lignes),
             "notes": notes,
         }
-        destination = DOSSIER / f"{fiche['nom']}.json"
+        destination = dossier / f"{fiche['nom']}.json"
         destination.write_text(json.dumps(resultat, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
         print(f"[{numero:03}/{len(fiches)}] {destination.name}")
 

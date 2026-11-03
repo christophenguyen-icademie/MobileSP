@@ -3,16 +3,14 @@ import { Stack, useLocalSearchParams, useRouter } from "expo-router";
 import { useEffect, useMemo, useRef, useState } from "react";
 import { ActivityIndicator, Alert, Platform, Pressable, SafeAreaView, ScrollView, StyleSheet, Text, useWindowDimensions, View, type StyleProp, type TextStyle } from "react-native";
 
-import fichesJson from "@/assets/pse/fiches/Références techniques nationales - PSE - Fiches/fiches.json";
-import { PSE_DATA } from "@/constants/pseData";
-import type { BlocPse, FichePse as FichePseIndex } from "@/types/pse";
+import { FICHES_SECOURISME, identifiantFiche, SECOURISME_DATA } from "@/constants/secourisme";
+import type { BlocPse, ReferentielSecourisme } from "@/types/pse";
 import { ouvrirPdfPse } from "@/utils/psePdf";
 
-const fiches = fichesJson as FichePseIndex[];
-
-function TexteRiche({ texte, recherche, notes, onNote, onFiche, style }: {
+function TexteRiche({ texte, recherche, notes, onNote, onFiche, style, referentiel }: {
   texte: string; recherche: string; notes: string[]; onNote: (note: string) => void;
   onFiche: (reference: string) => void; style: StyleProp<TextStyle>;
+  referentiel: ReferentielSecourisme;
 }) {
   const terme = recherche.trim();
   const motifRecherche = terme ? terme.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") : "(?!)";
@@ -24,27 +22,29 @@ function TexteRiche({ texte, recherche, notes, onNote, onFiche, style }: {
       const contenu = notes.find((item) => item.startsWith(`(${note[1]})`));
       return <Text key={index} style={styles.appelNote} onPress={() => contenu && onNote(contenu)}>{morceau}</Text>;
     }
-    if (reference && PSE_DATA[reference]) return <Text key={index} style={styles.lienFiche} onPress={() => onFiche(reference)}>{morceau}</Text>;
+    const id = reference ? identifiantFiche(referentiel, reference) : undefined;
+    if (id && SECOURISME_DATA[id]) return <Text key={index} style={styles.lienFiche} onPress={() => onFiche(id)}>{morceau}</Text>;
     if (terme && morceau.toLocaleLowerCase().includes(terme.toLocaleLowerCase())) return <Text key={index} style={styles.surlignage}>{morceau}</Text>;
     return morceau;
   })}</Text>;
 }
 
-function Bloc({ bloc, mobileWeb, echelle, recherche, notes, onNote, onFiche }: {
+function Bloc({ bloc, mobileWeb, echelle, recherche, notes, onNote, onFiche, referentiel }: {
   bloc: BlocPse; mobileWeb: boolean; echelle: number; recherche: string; notes: string[];
   onNote: (note: string) => void; onFiche: (reference: string) => void;
+  referentiel: ReferentielSecourisme;
 }) {
   const paragrapheStyle = [styles.paragraphe, mobileWeb && styles.paragrapheMobile, { fontSize: (mobileWeb ? 19 : 16) * echelle, lineHeight: (mobileWeb ? 29 : 24) * echelle }];
   const puceStyle = [styles.textePuce, mobileWeb && styles.textePuceMobile, { fontSize: (mobileWeb ? 19 : 16) * echelle, lineHeight: (mobileWeb ? 29 : 23) * echelle }];
   if (bloc.type === "paragraphe") {
-    return <TexteRiche texte={bloc.texte} recherche={recherche} notes={notes} onNote={onNote} onFiche={onFiche} style={paragrapheStyle} />;
+    return <TexteRiche texte={bloc.texte} recherche={recherche} notes={notes} onNote={onNote} onFiche={onFiche} style={paragrapheStyle} referentiel={referentiel} />;
   }
   return (
     <View style={styles.liste}>
       {bloc.elements.map((element, index) => (
         <View key={`${index}-${element.texte}`} style={[styles.puce, element.niveau === 2 && styles.sousPuce]}>
           <Text style={[styles.marqueur, mobileWeb && styles.marqueurMobile]}>{element.niveau === 2 ? "◦" : "•"}</Text>
-          <TexteRiche texte={element.texte} recherche={recherche} notes={notes} onNote={onNote} onFiche={onFiche} style={puceStyle} />
+          <TexteRiche texte={element.texte} recherche={recherche} notes={notes} onNote={onNote} onFiche={onFiche} style={puceStyle} referentiel={referentiel} />
         </View>
       ))}
     </View>
@@ -58,7 +58,9 @@ export default function FichePse() {
   const router = useRouter();
   const reference = Array.isArray(params.reference) ? params.reference[0] : params.reference;
   const recherche = (Array.isArray(params.recherche) ? params.recherche[0] : params.recherche) ?? "";
-  const fiche = reference ? PSE_DATA[reference] : undefined;
+  const fiche = reference ? SECOURISME_DATA[reference] : undefined;
+  const referentiel = FICHES_SECOURISME.find((item) => item.id === reference)?.referentiel ?? "PSE";
+  const fiches = useMemo(() => FICHES_SECOURISME.filter((item) => item.referentiel === referentiel), [referentiel]);
   const [chargementPdf, setChargementPdf] = useState(false);
   const [sommaireOuvert, setSommaireOuvert] = useState(mobileWeb);
   const [noteActive, setNoteActive] = useState<string>();
@@ -66,7 +68,7 @@ export default function FichePse() {
   const [favori, setFavori] = useState(false);
   const scroll = useRef<ScrollView>(null);
   const positions = useRef<Record<number, number>>({});
-  const indexFiche = useMemo(() => fiches.findIndex((item) => item.nom === reference), [reference]);
+  const indexFiche = useMemo(() => fiches.findIndex((item) => item.id === reference), [fiches, reference]);
 
   useEffect(() => {
     if (!reference || Platform.OS !== "web") return;
@@ -81,7 +83,7 @@ export default function FichePse() {
   if (!fiche) {
     return (
       <SafeAreaView style={styles.erreur}>
-        <Stack.Screen options={{ title: "Fiche PSE" }} />
+        <Stack.Screen options={{ title: "Fiche de secourisme" }} />
         <Ionicons name="alert-circle-outline" size={44} color="#8d2631" />
         <Text style={styles.erreurTitre}>Fiche introuvable</Text>
         <Pressable onPress={() => router.back()}><Text style={styles.retour}>Retour à l’annuaire</Text></Pressable>
@@ -92,7 +94,7 @@ export default function FichePse() {
   const ouvrirPdf = async () => {
     setChargementPdf(true);
     try {
-      await ouvrirPdfPse(fiche.nom);
+      await ouvrirPdfPse(identifiantFiche(referentiel, fiche.nom));
     } catch {
       Alert.alert("Ouverture impossible", "Aucun lecteur PDF compatible n’a pu ouvrir la fiche originale.");
     } finally {
@@ -119,7 +121,7 @@ export default function FichePse() {
 
   return (
     <SafeAreaView style={styles.container}>
-      <Stack.Screen options={{ title: fiche.nom }} />
+      <Stack.Screen options={{ title: `${referentiel} · ${fiche.nom}` }} />
       <ScrollView ref={scroll} style={styles.defilement} contentContainerStyle={styles.contenu}>
         <View style={styles.page}>
           <View style={styles.entete}>
@@ -129,7 +131,7 @@ export default function FichePse() {
           <View style={styles.badges}>
             {fiche.niveaux.map((niveau) => <View key={niveau} style={styles.badge}><Text style={styles.badgeTexte}>{niveau}</Text></View>)}
             {fiche.niveaux.length === 0 && <View style={styles.badgeOptionnel}><Text style={styles.badgeOptionnelTexte}>Complémentaire</Text></View>}
-            <View style={styles.badgeVersion}><Text style={styles.badgeVersionTexte}>Version locale · PSE</Text></View>
+            <View style={styles.badgeVersion}><Text style={styles.badgeVersionTexte}>Version locale · {referentiel}</Text></View>
           </View>
           <View style={styles.outils}>
             <Pressable style={styles.outil} onPress={basculerFavori}><Ionicons name={favori ? "star" : "star-outline"} size={20} color="#fff" /><Text style={styles.outilTexte}>{favori ? "Favori" : "Ajouter"}</Text></Pressable>
@@ -152,7 +154,7 @@ export default function FichePse() {
           {fiche.chapitres.map((chapitre, index) => (
             <View key={`${index}-${chapitre.titre}`} onLayout={(event) => { positions.current[index] = event.nativeEvent.layout.y; }} style={[styles.section, mobileWeb && styles.sectionMobile]}>
               <Text style={[styles.sectionTitre, mobileWeb && styles.sectionTitreMobile, { fontSize: (mobileWeb ? 24 : 20) * echelle, lineHeight: (mobileWeb ? 30 : 26) * echelle }]}>{chapitre.titre}</Text>
-              {chapitre.contenu.map((bloc, blocIndex) => <Bloc key={blocIndex} bloc={bloc} mobileWeb={mobileWeb} echelle={echelle} recherche={recherche} notes={fiche.notes} onNote={setNoteActive} onFiche={ouvrirFiche} />)}
+              {chapitre.contenu.map((bloc, blocIndex) => <Bloc key={blocIndex} bloc={bloc} mobileWeb={mobileWeb} echelle={echelle} recherche={recherche} notes={fiche.notes} onNote={setNoteActive} onFiche={ouvrirFiche} referentiel={referentiel} />)}
             </View>
           ))}
 
@@ -163,7 +165,7 @@ export default function FichePse() {
             </View>
           )}
 
-          {fiche.nom === "01AC01" && (
+          {reference === "01AC01" && (
             <Pressable
               style={styles.animation}
               onPress={() => router.push({ pathname: "/animation-pse", params: { reference: fiche.nom } })}
@@ -180,8 +182,8 @@ export default function FichePse() {
           </Pressable>
 
           <View style={styles.navigationFiches}>
-            {indexFiche > 0 ? <Pressable style={styles.navigationBouton} onPress={() => ouvrirFiche(fiches[indexFiche - 1].nom)}><Ionicons name="arrow-back" size={19} color="#1f176a" /><Text style={styles.navigationTexte}>{fiches[indexFiche - 1].nom}</Text></Pressable> : <View />}
-            {indexFiche >= 0 && indexFiche < fiches.length - 1 && <Pressable style={styles.navigationBouton} onPress={() => ouvrirFiche(fiches[indexFiche + 1].nom)}><Text style={styles.navigationTexte}>{fiches[indexFiche + 1].nom}</Text><Ionicons name="arrow-forward" size={19} color="#1f176a" /></Pressable>}
+            {indexFiche > 0 ? <Pressable style={styles.navigationBouton} onPress={() => ouvrirFiche(fiches[indexFiche - 1].id)}><Ionicons name="arrow-back" size={19} color="#1f176a" /><Text style={styles.navigationTexte}>{fiches[indexFiche - 1].nom}</Text></Pressable> : <View />}
+            {indexFiche >= 0 && indexFiche < fiches.length - 1 && <Pressable style={styles.navigationBouton} onPress={() => ouvrirFiche(fiches[indexFiche + 1].id)}><Text style={styles.navigationTexte}>{fiches[indexFiche + 1].nom}</Text><Ionicons name="arrow-forward" size={19} color="#1f176a" /></Pressable>}
           </View>
         </View>
       </ScrollView>

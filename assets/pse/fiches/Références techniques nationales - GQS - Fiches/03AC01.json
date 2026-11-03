@@ -1,0 +1,222 @@
+{
+  "nom": "03AC01",
+  "titre": "Organisation générale",
+  "niveaux": [
+    "GQS"
+  ],
+  "chapitre_principal": "Formation",
+  "chapitres": [
+    {
+      "titre": "Introduction",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La sensibilisation aux Gestes Qui Sauvent (GQS) est encadrée par l’arrêté du 15 juin 2024 relatif à la filière citoyenne de sécurité civile dans le domaine de la formation aux premiers secours."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Elle a pour objectif de sensibiliser le public présent aux gestes de premiers secours. Les gestes appris lors de ces formations ont pour but de préserver l’intégrité physique d’une victime en attendant l’arrivée des secours organisés. Cette sensibilisation permet de diffuser au plus grand nombre la connaissance de ces gestes et faire de ces citoyens un premier maillon de la chaîne des secours."
+        }
+      ]
+    },
+    {
+      "titre": "Cette formation s’adresse à tout public à partir de 10 ans.",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Les participants qui présentent une situation de handicap peuvent suivre cette sensibilisation et se voir attribuer l’attestation « Gestes qui sauvent ». Le formateur adaptera la durée de la formation, le nombre de participants dans son groupe et les exercices pratiques aux capacités du (des) participant(s)."
+        }
+      ]
+    },
+    {
+      "titre": "La durée de cette sensibilisation est de 2 heures minimum.",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Les volumes horaires, détaillés dans les séquences composant cette sensibilisation, sont mentionnés à titre indicatif."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "La sensibilisation aux GQS est assurée par les organismes habilités suivant les dispositions de l’annexe 1 de l’arrêté du 15 juin 2026 modifié relatif à la filière citoyenne de sécurité civile dans le domaine de la formation aux premiers secours."
+        }
+      ]
+    },
+    {
+      "titre": "Le ratio d’encadrement est de 1 formateur pour 15 stagiaires maximum.",
+      "contenu": []
+    },
+    {
+      "titre": "Objectif général",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La sensibilisation aux gestes qui sauvent (GQS) a pour objectif d'initier le plus grand nombre de citoyens aux compétences nécessaires pour devenir le premier maillon de la chaîne de secours et ainsi préserver l'intégrité physique d'une victime en attendant les secours organisés."
+        }
+      ]
+    },
+    {
+      "titre": "Objectifs de formation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La sensibilisation aux gestes qui sauvent permet aux apprenants d'être initiés aux compétences suivantes :"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "1. Assurer la sécurité de soi-même, de la victime ou de toute autre personne ; 2. Transmettre, au service de secours d'urgence ou au service d'aide médicale urgente, les informations nécessaires à son intervention ; 3. Agir immédiatement face à une personne :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "victime d'une hémorragie ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "inconsciente qui respire ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "en arrêt cardiaque, avec ou sans défibrillateur ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "nécessitant une position d'attente particulière."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Programme",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La sensibilisation se déroule de la façon suivante :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Accueil et présentation ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "Protection :"
+            },
+            {
+              "niveau": 1,
+              "texte": "Alerte ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "La victime qui parle et se plaint :"
+            },
+            {
+              "niveau": 2,
+              "texte": "Réaliser la conduite à tenir face à un saignement abondant ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "Mettre la victime en position d’attente (plaies graves)."
+            },
+            {
+              "niveau": 1,
+              "texte": "La victime qui a perdu connaissance et respire ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "La victime qui a perdu connaissance et ne respire pas ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "Conclusion."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Techniques pédagogiques",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Dans le cadre de cette sensibilisation, le formateur sera amené à enseigner des savoirs théoriques et des savoirs pratiques. Ainsi, deux activités sont proposées dans les propositions pédagogiques :"
+        }
+      ]
+    },
+    {
+      "titre": "L’exposé : le formateur amène des connaissances.",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le but est de permettre aux participants d’acquérir un ou plusieurs nouveau(x) savoir(s) et de faciliter leur compréhension."
+        }
+      ]
+    },
+    {
+      "titre": "Le miroir : le formateur réalise la procédure et/ou la technique simultanément avec les apprenants.",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le but est de permettre aux participants d’acquérir un ou plusieurs nouveau(x) savoir(s) faire et de faciliter leur compréhension."
+        }
+      ]
+    },
+    {
+      "titre": "Validation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le suivi des participants pendant cette sensibilisation est réalisé par le formateur. La présence et la participation active (réalisation de tous les gestes demandés) de chacun constituent les seuls critères de validation."
+        }
+      ]
+    },
+    {
+      "titre": "Délivrance de l’attestation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La participation à la sensibilisation aux gestes qui sauvent donne lieu à la délivrance d’une attestation, par le formateur conformément au modèle établi par le ministre chargé de la sécurité civile. Celle-ci est délivrée à l’issue de la sensibilisation par le formateur sous la responsabilité de l’organisme formateur (modèle en annexe 3)."
+        }
+      ]
+    },
+    {
+      "titre": "Organisation de l’espace",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La formation doit se dérouler dans un lieu présentant au minimum les caractéristiques suivantes :"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "La pièce doit être chauffée et tempérée, ou si la sensibilisation se déroule à l’extérieur, l’espace doit être au moins abrité des intempéries."
+        }
+      ]
+    },
+    {
+      "titre": "Liste des matériels obligatoires pour les formations initiales et continues",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Tout autre matériel utile à la formation peut être ajouté à la présente liste (exemple : tapis de sol, mémos, etc). Quantité / nombre Désignation d’apprenants 2 à 10 Références techniques nationales GQS 1"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Référentiel interne de formation et de certification de l’organisme habilité et dispensateur 1 Matériels nécessaires pour les pansements compressifs improvisés EQS Matériels nécessaires pour les garrots improvisés EQS 1 téléphone fixe ou mobile neutralisé EQS Mannequin de réanimation cardio pulmonaire adulte (avec poumons) 1 pour 2 stagiaires + 1 pour le formateur Maquette de DAE et ses consommables 1 pour 2 stagiaires DAE de formation*, avec électrodes adultes et enfant (ou dispositif d’adaptation) et ses 1 accessoires. Maquette de coupe de tête 1 Tout autre matériel pédagogique ou technique imposé par l’organisme habilité. EQS Feuille de présence 1 Fiches d’évaluation EQS Fiche de certification EQS Produits d’entretien et d’hygiène EQS"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "EQS : en quantité suffisante pour l’ensemble des apprenants, pour la durée de la formation, en fonction des techniques pédagogiques imposées par l’organisme habilité."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "* Ces matériels doivent être opérants et disposer de leurs moyens d’alimentation (câble, batteries, chargeur, etc.). Lorsque des matériels sont soumis à des règles d’entretien et d’hygiène, celles-ci sont réalisées selon les préconisations du constructeur et/ou de l’organisme de formation."
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

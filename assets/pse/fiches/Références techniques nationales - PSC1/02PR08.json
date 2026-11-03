@@ -1,0 +1,103 @@
+{
+  "nom": "02PR08",
+  "titre": "Traumatismes",
+  "niveaux": [
+    "PSC"
+  ],
+  "chapitre_principal": "Secourir une personne",
+  "chapitres": [
+    {
+      "titre": "Définition - Signes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Les atteintes traumatiques sont des lésions des os (fractures), des articulations (entorses ou luxations), des organes ou de la peau. Pour une meilleure compréhension, ce dernier type d’atteinte fait l’objet d’un traitement spécifique (cf. Brûlures et plaies)."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Elles peuvent provoquer immédiatement une douleur vive, une difficulté ou une impossibilité de bouger, éventuellement accompagnées d’un gonflement ou d’une déformation de la zone atteinte."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Lorsque le choc se situe au niveau de la tête, du thorax ou de l’abdomen, une atteinte des organes sous- jacents est toujours possible et peut se révéler secondairement par d’autres signes (perte de connaissance, maux de tête persistants, vomissements, agitation, somnolence, douleur abdominale, etc.)."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Lorsque le traumatisme se situe au niveau de la colonne vertébrale (douleur du dos ou de la nuque), une atteinte de la moelle épinière est possible."
+        }
+      ]
+    },
+    {
+      "titre": "Causes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Les traumatismes peuvent être le résultat d’un choc, d’un coup, d’une chute ou d’un faux mouvement et peuvent atteindre toutes les parties du corps."
+        }
+      ]
+    },
+    {
+      "titre": "Risques",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Les risques, lors d’une atteinte traumatique, sont d’entraîner des complications neurologiques (paralysie, trouble de la conscience ou perte de connaissance), respiratoires (gêne ou détresse) ou circulatoires (détresse)."
+        }
+      ]
+    },
+    {
+      "titre": "Principes d’action",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le secouriste ne doit pas mobiliser la victime."
+        }
+      ]
+    },
+    {
+      "titre": "Conduite à tenir",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Si la victime a perdu connaissance , adopter la conduite à tenir face à une perte de connaissance dont l’origine est traumatique."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Sinon :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "conseiller fermement de ne pas mobiliser la partie atteinte (1) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "si la victime présente une fracture de membre déplacée , ne pas tenter de le réaligner ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "protéger la victime de la chaleur, du froid ou des intempéries ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "faire alerter ou alerter les secours et appliquer les consignes ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "surveiller en permanence la victime et lui parler régulièrement ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "en cas d’aggravation, alerter de nouveau les secours et pratiquer les gestes qui s’imposent."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "(1) Exemple, si la douleur siège au cou, demander de ne pas bouger la tête."
+  ]
+}

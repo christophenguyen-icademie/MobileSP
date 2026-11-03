@@ -1,0 +1,197 @@
+{
+  "nom": "02FT05",
+  "titre": "Désobstruction par des compressions thoraciques",
+  "niveaux": [
+    "PSC"
+  ],
+  "chapitre_principal": "Secourir une personne",
+  "chapitres": [
+    {
+      "titre": "Indication",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Cette technique est indiquée en cas d’obstruction totale des voies aériennes par un corps étranger :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "lorsqu’il est impossible d’encercler l’abdomen de la victime :"
+            },
+            {
+              "niveau": 2,
+              "texte": "personne obèse ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "femme enceinte ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "personne alitée ou allongée, difficilement mobilisable."
+            },
+            {
+              "niveau": 1,
+              "texte": "chez une victime qui peut tenir sur l’avant-bras du secouriste."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Justification",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le but de cette technique est de comprimer l’air contenu dans les poumons de la victime et d’expulser le corps étranger par un effet de « piston »."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Suivant l’importance et la position du corps étranger, plusieurs pressions successives peuvent être nécessaires pour l’expulser."
+        }
+      ]
+    },
+    {
+      "titre": "Réalisation",
+      "contenu": []
+    },
+    {
+      "titre": "Personne dont il est impossible d’encercler l’abdomen",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "se positionner derrière la victime ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "placer ses avant-bras sous les bras de la victime et encercler la poitrine de la victime ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "placer le poing fermé (dos de la main vers le ciel) au centre de la poitrine, sur la moitié inférieure du sternum, sans appuyer sur la pointe inférieure du sternum ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "placer l'autre main sur la première sans appuyer les avant-bras sur les côtes ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "tirer franchement en exerçant une pression vers l'arrière ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "effectuer de 1 à 5 compressions successives, en relâchant complètement entre chacune."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Personne alitée ou allongée, difficilement mobilisable",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "effectuer des compressions thoraciques, comme pour une victime en arrêt cardiaque."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Chez la victime qui peut tenir sur l’avant-bras du secouriste 1",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "placer l'avant-bras contre le dos du nourrisson, la main soutenant sa tête ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "tourner le nourrisson pour que sa face soit côté ciel ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "poser le nourrisson de telle sorte que :"
+            },
+            {
+              "niveau": 2,
+              "texte": "son dos et sa tête reposent directement sur les deux cuisses du secouriste ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "sa tête soit plus basse que le reste du corps."
+            },
+            {
+              "niveau": 1,
+              "texte": "comme pour les compressions thoraciques pour un arrêt cardiaque :"
+            },
+            {
+              "niveau": 2,
+              "texte": "entourer le thorax du nourrisson avec les mains ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "placer deux pouces, l’un sur l’autre, au centre de la poitrine, sur la moitié inférieure du sternum ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "effectuer de 1 à 5 compressions successives, en relâchant complètement entre chacune. La profondeur de compression est au-delà d’un tiers de la hauteur du thorax."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Points clés",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Les compressions thoraciques doivent être réalisées :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "au centre de la poitrine, sur la moitié inférieure du sternum ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "sans appuyer sur les côtes ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "vers l'arrière."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Chez la victime qui peut tenir sur l’avant-bras du secouriste, elles doivent être également :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "profondes."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "(1) Si la victime est un nourrisson ou petit enfant"
+  ]
+}

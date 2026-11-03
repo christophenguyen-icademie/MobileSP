@@ -1,0 +1,294 @@
+{
+  "nom": "02PR07",
+  "titre": "Brûlures",
+  "niveaux": [
+    "PSC"
+  ],
+  "chapitre_principal": "Secourir une personne",
+  "chapitres": [
+    {
+      "titre": "Définition - Signes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La brûlure est une lésion de la peau, des voies aériennes ou digestives. Elle est qualifiée de :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "brûlure simple , lorsqu’il s’agit de rougeurs de la peau chez l’adulte ou d’une cloque dont la surface est inférieure à celle de la moitié de la paume de la main de la victime ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "brûlure grave , dès lors que l’on est en présence :"
+            },
+            {
+              "niveau": 2,
+              "texte": "d’une ou plusieurs cloques dont la surface totale est supérieure à celle de la moitié de la paume de la main de la victime ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "d’une destruction plus profonde (aspect blanchâtre ou noirâtre parfois indolore) associée souvent à des cloques et à une rougeur plus ou moins étendue ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "d’un aspect circulaire (qui fait le tour du cou ou d’un membre) ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "d’une brûlure dont la localisation est sur le visage ou le cou, les mains, les articulations ou au voisinage des orifices naturels ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "d’une rougeur étendue (un coup de soleil généralisé par exemple) de la peau chez l’enfant ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "d’une brûlure d’origine chimique, électrique ou radiologique."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Causes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La brûlure peut être provoquée par la chaleur, des substances chimiques, l’électricité, le frottement ou des radiations."
+        }
+      ]
+    },
+    {
+      "titre": "Risques",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Suivant l’étendue, la profondeur et la localisation, la brûlure peut entraîner :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "un danger immédiat comme une défaillance circulatoire (en cas de brûlure étendue) ou respiratoire (lors d’une brûlure au visage, au cou ou consécutive à l'inhalation de fumée) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "une douleur sévère ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "des conséquences retardées comme l’infection, les séquelles fonctionnelles ou esthétiques."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "La brûlure est évolutive, sans action immédiate, elle peut continuer de s’étendre en profondeur et en surface."
+        }
+      ]
+    },
+    {
+      "titre": "Principes d’action",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le secouriste doit identifier la gravité et la nature de la brûlure afin d’adopter la conduite à tenir adaptée."
+        }
+      ]
+    },
+    {
+      "titre": "En présence d’une brûlure thermique",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "refroidir (1) immédiatement la surface brûlée tout en retirant les vêtements (2) , et les bijoux (3) ."
+            },
+            {
+              "niveau": 1,
+              "texte": "adapter la conduite à tenir selon la gravité de la brûlure :"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Si la brûlure est grave",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "dès le début de l’arrosage , faire alerter ou alerter les secours et appliquer les consignes ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "poursuivre le refroidissement, selon les consignes données ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "après refroidissement , installer la victime en position d'attente, confortablement (1) et sans délai :"
+            },
+            {
+              "niveau": 2,
+              "texte": "allongée confortablement ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "assise en cas de gêne respiratoire."
+            },
+            {
+              "niveau": 1,
+              "texte": "laisser si possible la partie brûlée visible ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "protéger la victime de la chaleur, du froid ou des intempéries ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "surveiller en permanence la victime et lui parler régulièrement ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "en cas d’aggravation, alerter de nouveau les secours et pratiquer les gestes qui s’imposent. Aucun produit ne doit être appliqué sur une brûlure grave sans avis médical."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Si la brûlure est simple",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "poursuivre le refroidissement jusqu'à disparition de la douleur ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "ne jamais percer les cloques ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "protéger la brûlure par un pansement stérile ou un film plastique non adhésif (2) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "conseiller à la victime de consulter un médecin :"
+            },
+            {
+              "niveau": 2,
+              "texte": "si elle n’est pas à jour de sa vaccination antitétanique ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "s'il s'agit d'un enfant ou d'un nourrisson ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "si des signes d’une infection (3) apparaissent dans les jours qui suivent."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "En présence d’une brûlure électrique",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "appliquer la conduite à tenir face à une brûlure thermique grave , en adaptant comme suit :"
+            },
+            {
+              "niveau": 2,
+              "texte": "ne jamais toucher la victime avant la suppression du risque électrique ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "arroser les zones visiblement brûlées à l’eau courante tempérée ;"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "En présence d’une brûlure par produit chimique ou interne par inhalation 4",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "se protéger pour éviter tout contact avec l’origine de la brûlure ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "demander à la victime de se rincer immédiatement et abondamment à l’eau courante tempérée :"
+            },
+            {
+              "niveau": 2,
+              "texte": "en cas de projection sur les vêtements ou la peau : rincer (5) l’ensemble du corps de la victime et ôter sous l’eau ses vêtements imbibés de produit ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "en cas de projection dans l’œil : rincer (5) l’œil atteint et faire retirer les lentilles de contact pendant le rinçage ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "en cas d’ingestion : ne jamais faire vomir ou boire, et conserver les informations (6) du produit ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "en cas d’inhalation (7) : en présence de difficultés respiratoires, placer la victime en position assise ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "faire alerter ou alerter les secours et appliquer les consignes ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "protéger la victime de la chaleur, du froid ou des intempéries ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "surveiller en permanence la victime et lui parler régulièrement ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "en cas d’aggravation, alerter de nouveau les secours et pratiquer les gestes qui s’imposent."
+            },
+            {
+              "niveau": 1,
+              "texte": "se laver les mains après avoir réalisé les gestes de secours."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "(1) Avec de l'eau courante tempérée et à faible pression. Pendant au moins 10 minutes, idéalement 20 minutes. Débuter l’arrosage après 30 minutes n’a pas d’intérêt.",
+    "(2) Sur ou près de la peau brûlée, s'ils n'adhèrent pas à la peau.",
+    "(3) Sur ou près de la peau brûlée.",
+    "(1) Par exemple sur un lit, une chaise, ou un canapé, ou à défaut sur le sol.",
+    "(2) Type film alimentaire. Il maintient l'humidité et épouse facilement la zone brûlée.",
+    "(3) Apparition de fièvre, de suintements, d'une zone chaude, rouge, gonflée ou douloureuse, notamment dans les 24 heures.",
+    "(4) Fumée, vapeurs chaudes ou caustiques, etc.",
+    "(5) Veiller à ce que la substance diluée par l’eau de rinçage ne nuise pas au secouriste ou aux tissus sains de la personne (en entrant en contact avec la peau non affectée ou l'œil non blessé, par accumulation de produit dilué dans les chaussures, etc).",
+    "(6) Conditionnement, emballage, fiche de donnée sécurité, etc.",
+    "(7) Ce type de brûlure doit être suspecté chez une personne qui a respiré des fumées d’incendie ou inhalé des produits chimiques."
+  ]
+}

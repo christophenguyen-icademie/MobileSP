@@ -1,0 +1,97 @@
+{
+  "nom": "02FT04",
+  "titre": "Désobstruction par des compressions abdominales",
+  "niveaux": [
+    "PSC"
+  ],
+  "chapitre_principal": "Secourir une personne",
+  "chapitres": [
+    {
+      "titre": "Indication",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Cette technique est indiquée en cas d’obstruction totale des voies aériennes par un corps étranger chez un adulte ou un enfant après une série de 5 claques dans le dos inefficaces, et si le secouriste peut se tenir debout ou à genou derrière elle."
+        }
+      ]
+    },
+    {
+      "titre": "Justification",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le but de cette technique est de comprimer l’air contenu dans les poumons de la victime afin d’expulser le corps étranger par un effet de « piston ». Suivant l’importance et la position du corps étranger, plusieurs pressions successives peuvent être nécessaires pour l’expulser."
+        }
+      ]
+    },
+    {
+      "titre": "Réalisation",
+      "contenu": []
+    },
+    {
+      "titre": "Chez l’adulte ou l’enfant",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "pencher la victime vers l'avant ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "se placer debout ou à genoux (enfant) derrière la victime, contre son dos ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "passer ses bras, sous ceux de la victime, de part et d'autre de la partie supérieure de son abdomen ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "placer le poing fermé (dos de la main vers le ciel) juste au-dessus du nombril ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "placer la seconde main sur la première ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "tirer franchement en exerçant une pression vers l'arrière et vers le haut, , sans appuyer les avants bras sur les côtes ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "effectuer de 1 à 5 compressions, en relâchant entre chacune."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Points clés",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La compression doit être faite :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "au creux de l'estomac ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "sans appuyer sur les côtes ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "vers l’arrière et vers le haut"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

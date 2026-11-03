@@ -9,7 +9,6 @@ import ItineraireConstants from "@/components/Itineraires/ItinerairesConstants";
 export default function CarteScreen({ destination, summary, route, finalAddress, webviewRef, setMyLocation }) {
   const [currentLocation, setCurrentLocation] = useState(null);
   const [currentAddress, setCurrentAddress] = useState(null);
-  const locationSubscription = useRef(null);
   const [maille, setMaille] = useState(null);
 
   const lastGeo = useRef(null);
@@ -131,21 +130,28 @@ export default function CarteScreen({ destination, summary, route, finalAddress,
   }, [currentLocation]);
 
   useEffect(() => {
+    let disposed = false;
+    let locationSubscription: Location.LocationSubscription | null = null;
+
     const startLocationTracking = async () => {
       try {
         const { status } = await Location.requestForegroundPermissionsAsync();
+        if (disposed) return;
+
         if (status !== 'granted') {
           console.log('Permission de localisation refusée');
           return;
         }
 
-        locationSubscription.current = await Location.watchPositionAsync(
+        const subscription = await Location.watchPositionAsync(
             {
               accuracy: Location.Accuracy.High,
               timeInterval: 1000,
               distanceInterval: 0,
             },
             (location) => {
+              if (disposed) return;
+
               const { latitude, longitude } = location.coords;
               setCurrentLocation({ latitude, longitude });
               if (webviewRef.current) {
@@ -157,6 +163,13 @@ export default function CarteScreen({ destination, summary, route, finalAddress,
               }
             }
         );
+
+        // La création du suivi peut se terminer après la fermeture de la carte.
+        if (disposed) {
+          subscription.remove();
+        } else {
+          locationSubscription = subscription;
+        }
       } catch (error) {
         console.error('Erreur lors de la géolocalisation:', error);
       }
@@ -165,11 +178,11 @@ export default function CarteScreen({ destination, summary, route, finalAddress,
     startLocationTracking();
 
     return () => {
-      if (locationSubscription.current) {
-        locationSubscription.current.remove();
-      }
+      disposed = true;
+      locationSubscription?.remove();
+      locationSubscription = null;
     };
-  }, []);
+  }, [webviewRef]);
 
   useEffect(() => {
     if (destination && webviewRef.current) {

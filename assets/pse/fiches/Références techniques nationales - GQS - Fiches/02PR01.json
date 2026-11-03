@@ -1,0 +1,271 @@
+{
+  "nom": "02PR01",
+  "titre": "Hémorragies",
+  "niveaux": [
+    "GQS"
+  ],
+  "chapitre_principal": "Secourir une personne",
+  "chapitres": [
+    {
+      "titre": "Définition - Signes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Une hémorragie est une perte de sang qui provient d'une plaie ou d'un orifice naturel et qui ne s'arrête pas spontanément. Elle imbibe de sang un mouchoir de tissu ou de papier en quelques secondes."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Un saignement dû à une écorchure, une éraflure ou une abrasion cutanée, qui s'arrête spontanément n'est pas une hémorragie."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Le plus souvent, il est facile de constater une hémorragie. Toutefois, celle-ci peut temporairement être masquée par la position de la victime ou un vêtement particulièrement absorbant (manteau, blouson, etc.)."
+        }
+      ]
+    },
+    {
+      "titre": "Causes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L'hémorragie est généralement secondaire à un traumatisme comme un coup, une chute, une plaie par un objet tranchant (couteau), un projectile (une balle) ou une maladie comme la rupture de varice chez la personne âgée."
+        }
+      ]
+    },
+    {
+      "titre": "Risques",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Les risques d'une perte abondante ou prolongée de sang sont :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "pour la victime : d'entraîner une détresse circulatoire ou un arrêt cardiaque par une diminution importante de la quantité de sang dans l'organisme ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "pour le secouriste : d'être infecté par une maladie transmissible s'il présente des effractions cutanées (plaies, piqûres) ou en cas de projection sur les muqueuses (bouche, yeux)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Principes d’action",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le secouriste doit arrêter ou limiter la perte de sang de la victime et retarder l'installation d'une détresse qui peut entraîner la mort."
+        }
+      ]
+    },
+    {
+      "titre": "Conduite à tenir",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "constater l’hémorragie, si nécessaire en écartant les vêtements ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "arrêter immédiatement l’hémorragie :"
+            },
+            {
+              "niveau": 2,
+              "texte": "en demandant à la victime de comprimer immédiatement l’endroit qui saigne ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "ou à défaut, le faire (2) à sa place ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "maintenir la compression (par la victime ou le secouriste) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "allonger confortablement la victime, par exemple sur un lit, un canapé ou à défaut sur le sol (3) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "faire alerter ou alerter les secours et appliquer leurs consignes ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "mettre en place :"
+            },
+            {
+              "niveau": 2,
+              "texte": "un pansement compressif si l’hémorragie est contrôlée manuellement et pour se libérer ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "un garrot si la compression d’une hémorragie d’un membre est inefficace (4) ou impossible (5) ."
+            },
+            {
+              "niveau": 1,
+              "texte": "rassurer la victime, en lui parlant régulièrement et en lui expliquant ce qui se passe ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "réchauffer la victime, car l’hypothermie aggrave l’état de la victime ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "protéger la victime contre le froid, les intempéries ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "surveiller attentivement :"
+            },
+            {
+              "niveau": 2,
+              "texte": "l’efficacité des gestes réalisés ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "l’apparition de signes d’aggravation, notamment : sueurs abondantes, sensation de froid, pâleur intense, perte de connaissance ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "en cas d’aggravation, alerter de nouveau les secours et pratiquer les gestes qui s’imposent."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Conduites à tenir particulières",
+      "contenu": []
+    },
+    {
+      "titre": "La victime saigne du nez",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "l’asseoir, tête penchée en avant (ne jamais l’allonger) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "lui demander de se moucher vigoureusement ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "lui demander de comprimer les deux narines avec les doigts, durant 10 minutes sans relâcher ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "demander un avis médical si :"
+            },
+            {
+              "niveau": 2,
+              "texte": "le saignement ne s’arrête pas ou se reproduit ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "le saignement survient après une chute ou un coup ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "la victime prend des médicaments, en particulier ceux qui augmentent les saignements."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "La victime perd du sang par un orifice 6 naturel",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Si la victime vomit ou crache du sang (7) , installer la victime dans la position :"
+            },
+            {
+              "niveau": 2,
+              "texte": "où elle se sent le mieux si elle est consciente ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "allongée, sur le côté, en position stable si elle a perdu connaissance."
+            },
+            {
+              "niveau": 1,
+              "texte": "Dans les autres cas, allonger la victime ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "protéger la victime de la chaleur, du froid ou des intempéries ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "faire alerter ou alerter les secours et appliquer les consignes ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "surveiller en permanence la victime et lui parler régulièrement ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "En cas d’aggravation , alerter de nouveau les secours et pratiquer les gestes qui s’imposent."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "En cas de contact du secouriste avec le sang de la victime",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Ne rien porter à la bouche (mains, objets, nourritures, etc.), au nez ou aux yeux ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "retirer les vêtements souillés de sang le plus tôt possible après la fin de l’action de secours ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "se laver les mains ou toute zone souillée par le sang de la victime, appliquer éventuellement un gel hydroalcoolique ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "demander un avis médical, sans délai si le secouriste :"
+            },
+            {
+              "niveau": 2,
+              "texte": "présente une plaie, même minime, ayant été souillée ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "a subi une projection sur le visage."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "(2) Sans retarder l’action de secours, le secouriste peut se protéger avec des gants ou à défaut en glissant sa main dans un sac plastique, il veillera également à ne porter aucun élément souillé par le sang à la bouche, au nez, ou aux yeux.",
+    "(3) La position allongée retarde ou empêche l’installation d’une détresse liée à la perte importante de sang.",
+    "(4) Le saignement persiste malgré tout.",
+    "(5) Nombreuses victimes, catastrophes, situations de violence collective ou de guerre, nombreuses lésions, plaie inaccessible, corps étranger.",
+    "(6) Sauf le nez, et de façon inhabituelle",
+    "(7) Il s’agit d’un signe pouvant traduire une maladie grave nécessitant une prise en charge médicale."
+  ]
+}

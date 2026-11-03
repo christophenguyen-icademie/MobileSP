@@ -1,0 +1,650 @@
+{
+  "nom": "03AC02",
+  "titre": "Proposition pédagogique",
+  "niveaux": [
+    "GQS"
+  ],
+  "chapitre_principal": "Formation",
+  "chapitres": [
+    {
+      "titre": "Séquence 1 – Accueil et présentation – 6 min",
+      "contenu": []
+    },
+    {
+      "titre": "Action à réaliser",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Prendre connaissance de l’objectif de la sensibilisation, se situer par rapport aux autres personnes de la formation (participants et formateur) et identifier l’organisme formateur."
+        }
+      ]
+    },
+    {
+      "titre": "Exposé – 6 min",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Préparer la salle et tout le matériel nécessaire avant l’arrivée des participants."
+            },
+            {
+              "niveau": 1,
+              "texte": "Accueillir les participants puis lancer la séance de sensibilisation."
+            },
+            {
+              "niveau": 1,
+              "texte": "Les inviter à s’installer en demi-cercle puis se placer parmi eux de manière à être visible de tous."
+            },
+            {
+              "niveau": 1,
+              "texte": "Se présenter en faisant référence le cas échéant à l’organisme formateur. Remercier les participants pour leur démarche volontaire et leur implication."
+            },
+            {
+              "niveau": 1,
+              "texte": "Présenter la sensibilisation en annonçant :"
+            },
+            {
+              "niveau": 2,
+              "texte": "L’objectif général Être capable d’exécuter correctement les gestes de premiers secours destinés à protéger la victime et les témoins, alerter les secours d’urgence adaptés, empêcher l’aggravation de la victime et préserver son intégrité physique en attendant l’arrivée des secours."
+            },
+            {
+              "niveau": 2,
+              "texte": "La durée 2 heures"
+            },
+            {
+              "niveau": 1,
+              "texte": "Justifier l’intérêt des gestes de premiers secours avec la notion de chaîne de survie."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Séquence 2 – Protection – 12 min",
+      "contenu": []
+    },
+    {
+      "titre": "Action à réaliser",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Protéger une victime ou une personne en écartant ou supprimant, de quelque manière que ce soit et de façon permanente, tout danger qui la menace. La protection est un préalable à toute action de secours. Toutefois, elle ne peut être réalisée par un sauveteur que s’il peut assurer sa propre sécurité pendant cette action."
+        }
+      ]
+    },
+    {
+      "titre": "Exposé – 6 min",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Présenter le thème de l’exposé."
+            },
+            {
+              "niveau": 1,
+              "texte": "Présenter des situations dans lesquelles la protection est indispensable."
+            },
+            {
+              "niveau": 1,
+              "texte": "Évoquer une situation où le danger peut être supprimé :"
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "« Vous êtes témoin d’un accident électrique domestique, la victime est en contact avec le courant. »"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Questionner les participants et compléter en fonction des réponses :"
+            },
+            {
+              "niveau": 2,
+              "texte": "Quel est le risque ? Toute personne touchant la victime peut être électrisée."
+            },
+            {
+              "niveau": 2,
+              "texte": "Qui est menacé ? La victime, mais aussi le sauveteur et les témoins éventuels."
+            },
+            {
+              "niveau": 2,
+              "texte": "Qui protéger en premier ? Le sauveteur doit se protéger afin de pouvoir porter secours."
+            },
+            {
+              "niveau": 2,
+              "texte": "Comment faire cesser le danger ? En coupant le courant au disjoncteur."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Exposé – 6 min",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Aborder l’une ou l’autre des situations suivantes où le danger ne peut être supprimé mais contrôlé."
+            },
+            {
+              "niveau": 1,
+              "texte": "Évoquer une situation où le danger ne peut être supprimé mais contrôlé « Vous êtes témoin de l’encombrement de la voie publique (accident de la route, arbre, échafaudage, glissement de terrain, troupeaux ….). »"
+            },
+            {
+              "niveau": 1,
+              "texte": "Questionner les participants et compléter en fonction des réponses :"
+            },
+            {
+              "niveau": 2,
+              "texte": "Quels sont les risques ? Collision, choc, instabilité du site."
+            },
+            {
+              "niveau": 2,
+              "texte": "Peut-on le supprimer ? Non ! C’est un danger que l’on ne peut supprimer mais dont on doit tenter de limiter les risques."
+            },
+            {
+              "niveau": 2,
+              "texte": "Que feriez-vous dans cette situation ? Baliser de part et d’autre la zone pour éviter tout sur-accident avec l’aide de témoins éventuels. Interdire toute approche si un danger persiste."
+            },
+            {
+              "niveau": 1,
+              "texte": "Evoquer une situation où le danger ne peut être supprimé mais contrôlé ou non."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "« Vous êtes témoin d’une fuite de gaz. » « Situations exceptionnelles »"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Questionner les participants et compléter en fonction des réponses :"
+            },
+            {
+              "niveau": 2,
+              "texte": "Quel est le risque ? Explosion."
+            },
+            {
+              "niveau": 2,
+              "texte": "Peut-on le supprimer ? Non ! C’est un danger que l’on ne peut supprimer mais dont on doit tenter de limiter les risques."
+            },
+            {
+              "niveau": 2,
+              "texte": "Que feriez-vous devant cette situation ? Ne pas provoquer d’étincelles pouvant déclencher l’explosion (interrupteur, sonnerie, lampe de poche, etc.) Assurer une surveillance permanente de la zone de danger ; empêcher toute personne de pénétrer dans cette zone jusqu'à l’arrivée des secours spécialisés."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Séquence 3 – Alerte – 6 min",
+      "contenu": []
+    },
+    {
+      "titre": "Action à réaliser",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Transmettre au service de secours d’urgence les informations nécessaires à son intervention."
+        }
+      ]
+    },
+    {
+      "titre": "Exposé – 6 min",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Demander aux participants s’ils ont déjà alerté les secours et comment ils ont procédé."
+            },
+            {
+              "niveau": 1,
+              "texte": "A partir de ce vécu, faire préciser : Quand ? Par quels moyens ? Qui appeler ? Que dire ?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Séquence 4 – Hémorragies externes – 24 min",
+      "contenu": []
+    },
+    {
+      "titre": "Action à réaliser",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Arrêter ou limiter la perte de sang de la victime et retarder l’installation d’une détresse qui peut entraîner la mort dans l’attente des secours."
+        }
+      ]
+    },
+    {
+      "titre": "Exposé – 4 min",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Présenter la situation : Une victime se présente avec une hémorragie à l’avant-bras."
+            },
+            {
+              "niveau": 1,
+              "texte": "Montrer la photo ou une courte vidéo d’une personne qui présente un saignement abondant comprimable ."
+            },
+            {
+              "niveau": 1,
+              "texte": "Rappeler que tout saignement abondant nécessite une action immédiate de secours, rapide et efficace afin de limiter la perte de sang de la victime et éviter l’installation d’une détresse qui peut entraîner le décès d’une victime."
+            },
+            {
+              "niveau": 1,
+              "texte": "Insister sur le fait que, dans cette situation d’urgence, la réalisation des gestes de secours prime sur l’alerte. Cette dernière est alors réalisée après avoir pratiqué les gestes de premiers secours, si le sauveteur est seul avec la victime ou après avoir débuté les gestes de secours si c’est une tierce personne qui alerte."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Miroir – 2x5 min – compression manuelle et pansement compressif",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Définir pour chaque binôme les rôles de chacun : un joue le rôle de sauveteur, l’autre de victime."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Demander aux victimes simulées de présenter leur avant-bras comme si celui-ci présentait une plaie avec une perte de sang importante."
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Les sauveteurs font face au formateur afin d’observer ses gestes et écouter ses consignes que chacun devra reproduire simultanément."
+            },
+            {
+              "niveau": 1,
+              "texte": "Indiquer le résultat de l’action de secours : arrêter le saignement et éviter l’installation d’une détresse."
+            },
+            {
+              "niveau": 1,
+              "texte": "Montrer, expliquer et justifier les gestes de secours à réaliser."
+            },
+            {
+              "niveau": 1,
+              "texte": "Préciser que la compression directe, avec la main, de la plaie qui saigne est la technique la plus simple et la plus efficace pour arrêter un saignement."
+            },
+            {
+              "niveau": 1,
+              "texte": "Indiquer qu’il est préférable d’interposer un tampon de tissu entre la plaie et la main pour faciliter l’arrêt du saignement et bien répartir la compression dans la plaie."
+            },
+            {
+              "niveau": 1,
+              "texte": "Rappeler qu’il est aussi nécessaire de prendre des précautions et de se protéger si possible la main avec un gant ou un film plastique pour limiter la transmission de maladies infectieuses par le sang."
+            },
+            {
+              "niveau": 1,
+              "texte": "Renouveler les démonstrations pour le deuxième groupe de participants."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Miroir – 2x5 min – garrot improvisé",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Suivant la même démarche que pour les deux techniques précédentes, montrer, expliquer et justifier le geste de secours réalisé, puis faire réaliser simultanément par les apprenants."
+            },
+            {
+              "niveau": 1,
+              "texte": "Technique du garrot improvisé."
+            },
+            {
+              "niveau": 1,
+              "texte": "Renouveler la démonstration pour le deuxième groupe de participants."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Séquence 5 – Plaies – 14 min",
+      "contenu": []
+    },
+    {
+      "titre": "Action à réaliser",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Mettre la victime en position d’attente pour la maintenir en vie en attendant les secours."
+        }
+      ]
+    },
+    {
+      "titre": "Exposé – 4 min",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Présenter les situations dans lesquelles les positions d’attentes sont nécessaires. A partir de ce vécu, faire préciser : Quand ? Comment ? Pourquoi ?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Miroir – 2x5 min – positions d’attente",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Définir pour chaque binôme les rôles de chacun : un joue le rôle de sauveteur, l’autre de victime."
+            },
+            {
+              "niveau": 1,
+              "texte": "Les sauveteurs font face au formateur afin d’observer ses gestes et écouter ses consignes que chacun devra reproduire simultanément."
+            },
+            {
+              "niveau": 1,
+              "texte": "Montrer, expliquer et justifier les gestes de secours à réaliser."
+            },
+            {
+              "niveau": 1,
+              "texte": "Renouveler la démonstration pour le deuxième groupe de participants."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Séquence 6 – Perte de connaissance – 16 min",
+      "contenu": []
+    },
+    {
+      "titre": "Action à réaliser",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Réaliser immédiatement la conduite à tenir face à une victime qui présente une perte de connaissance (et qui respire normalement) dans l’attente des secours."
+        }
+      ]
+    },
+    {
+      "titre": "Exposé – 4 min",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Présenter la situation : « La victime ne répond pas aux questions, ne réagit pas et respire."
+            },
+            {
+              "niveau": 1,
+              "texte": "Le risque pour cette victime est qu’elle s’étouffe du fait de la chute de la langue en arrière et des sécrétions qui risquent de passer dans ses voies respiratoires. »"
+            },
+            {
+              "niveau": 1,
+              "texte": "Utiliser la maquette de coupe de tête ou tout autre support visuel pour expliquer l’effet sur les voies aériennes de la mise en PLS."
+            },
+            {
+              "niveau": 1,
+              "texte": "Rappeler que toute victime qui ne répond pas, ne réagit pas et qui respire nécessite une action de secours immédiate, rapide et efficace afin d’éviter le risque d’étouffement et éviter l’installation d’une détresse qui peut entraîner le décès de la victime."
+            },
+            {
+              "niveau": 1,
+              "texte": "Expliquer la différence de procédure entre le traumatisé et le non traumatisé ou origine inconnue."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Miroir – 2x6 min – Perte de connaissance",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Définir pour chaque binôme les rôles de chacun : un joue le rôle de sauveteur, l’autre de victime."
+            },
+            {
+              "niveau": 1,
+              "texte": "On demandera aux victimes simulées de ne pas parler afin de ne pas perturber le sauveteur"
+            },
+            {
+              "niveau": 1,
+              "texte": "Les sauveteurs font face au formateur afin d’observer ses gestes et écouter ses consignes que chacun devra reproduire simultanément"
+            },
+            {
+              "niveau": 1,
+              "texte": "Indiquer le résultat de l’action de secours : permettre à la victime de continuer à respirer normalement."
+            },
+            {
+              "niveau": 1,
+              "texte": "Montrer, expliquer et justifier les gestes de secours à réaliser. Insister sur :"
+            },
+            {
+              "niveau": 2,
+              "texte": "Le contrôle de la présence de la respiration, indispensable avant la mise sur le côté (réaliser et maintenir la libération des voies aériennes)"
+            },
+            {
+              "niveau": 2,
+              "texte": "Les objectifs et les points clefs de la mise en PLS plus que la technique proprement dite."
+            },
+            {
+              "niveau": 1,
+              "texte": "Renouveler la démonstration pour le deuxième groupe de participants."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Séquence 7 – Arrêt cardiaque – 36 min",
+      "contenu": []
+    },
+    {
+      "titre": "Action à réaliser",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Mettre en œuvre des compressions thoraciques, associées ou non à l’utilisation d’un défibrillateur automatisé externe (DAE), chez une victime qui présente un arrêt cardiaque, dans l’attente des secours."
+        }
+      ]
+    },
+    {
+      "titre": "Exposé – 4 min",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Présenter la situation : « La victime ne bouge pas, ne répond pas, ne respire plus. Un DAE est à proximité."
+            },
+            {
+              "niveau": 1,
+              "texte": "Le risque pour cette victime est qu’elle meurt rapidement car l’oxygène n’arrive plus au niveau de ses organes (cœur et cerveau en particulier).»"
+            },
+            {
+              "niveau": 1,
+              "texte": "Indiquer le résultat de l’action de secours : suppléer la circulation en vue d’irriguer au mieux le corps."
+            },
+            {
+              "niveau": 1,
+              "texte": "Présenter le principe de l’action de secours : « la chaîne de survie »."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Miroir – 2x7 min – Réanimation Cardio Pulmonaire",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Définir pour chaque binôme les rôles de chacun : l’un d’entre eux joue le rôle de sauveteur, l’autre sera observateur."
+            },
+            {
+              "niveau": 1,
+              "texte": "Les sauveteurs font face au formateur afin d’observer ses gestes et écouter ses consignes que chacun devra reproduire simultanément"
+            },
+            {
+              "niveau": 1,
+              "texte": "Montrer, expliquer et justifier les gestes de secours à réaliser (compressions seules)."
+            },
+            {
+              "niveau": 1,
+              "texte": "Insister sur :"
+            },
+            {
+              "niveau": 2,
+              "texte": "la constatation de l’absence d’une respiration normale,"
+            },
+            {
+              "niveau": 2,
+              "texte": "les points-clés et la justification des compressions thoraciques"
+            },
+            {
+              "niveau": 2,
+              "texte": "l’enchaînement des compressions à une fréquence de 100 à 120 par minute."
+            },
+            {
+              "niveau": 1,
+              "texte": "Faire réaliser une minute de compressions thoraciques par les participants."
+            },
+            {
+              "niveau": 1,
+              "texte": "Indiquer aux participants que dans une situation réelle, si le sauveteur sait réaliser le bouche-à- bouche, il peut le pratiquer en réalisant 2 insufflations toutes les 30 compressions thoraciques. Cette technique n’est pas enseignée lors des initiations."
+            },
+            {
+              "niveau": 1,
+              "texte": "Renouveler la démonstration pour le deuxième groupe de participants."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Exposé – 4 min",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Compléter la situation : « Aujourd’hui des défibrillateurs sont de plus en plus disponibles dans les lieux publics, placés dans des boîtiers vitrés muraux repérés par un logo facilement identifiable. Cet appareil a la capacité de délivrer un choc électrique au travers du cœur qui pourra peut-être être ainsi relancé. »"
+            },
+            {
+              "niveau": 1,
+              "texte": "Avant d’entamer la démonstration de la mise en place du défibrillateur, le formateur s’attachera à décrire brièvement l’appareil :"
+            },
+            {
+              "niveau": 1,
+              "texte": "Rappeler que le DAE délivre des messages sonores et guide le sauveteur dans son action."
+            },
+            {
+              "niveau": 1,
+              "texte": "Le principe est simple : écouter et appliquer ses consignes."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Miroir – 2x7min – DAE",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Continuer la démonstration avec la suite de la conduite à tenir (DAE) :"
+            },
+            {
+              "niveau": 1,
+              "texte": "Mettre en œuvre un DAE"
+            },
+            {
+              "niveau": 1,
+              "texte": "Réaliser une défibrillation audible (à minima pour le formateur)"
+            },
+            {
+              "niveau": 1,
+              "texte": "Tous les participants doivent réaliser l’enchaînement : compressions thoraciques et mise en œuvre du DAE."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Séquence 8 – Clôture – 6min",
+      "contenu": []
+    },
+    {
+      "titre": "Actions à réaliser",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Clôturer la formation"
+        }
+      ]
+    },
+    {
+      "titre": "Exposé – 6 min",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "Remercier les participants de leur attention et de leur participation."
+            },
+            {
+              "niveau": 1,
+              "texte": "Inviter les participants à suivre une formation complète, tel que l’unité d’enseignement prévention et secours civiques de niveau 1 (PSC1)."
+            },
+            {
+              "niveau": 1,
+              "texte": "Remettre l’attestation de formation à l’issue de la sensibilisation."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

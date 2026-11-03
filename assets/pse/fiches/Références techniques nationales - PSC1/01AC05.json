@@ -1,0 +1,73 @@
+{
+  "nom": "01AC05",
+  "titre": "Informations générales",
+  "niveaux": [
+    "PSC"
+  ],
+  "chapitre_principal": "Informations générales",
+  "chapitres": [
+    {
+      "titre": "Abréviations",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "AVC Accident vasculaire cérébral"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "CAT Conduite à tenir"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "DAE Défibrillateur automatisé externe"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "DEA Défibrillateur entièrement automatisé"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "DGSCGC Direction Générale de la Sécurité Civile et de la Gestion des Crises"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "DSA Défibrillateur semi-automatique"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "LVA Libération des voies aériennes"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "OVA Obstruction des voies aériennes"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "PLS Position latérale de sécurité"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "RCP Réanimation cardio-pulmonaire"
+        }
+      ]
+    },
+    {
+      "titre": "Morphologie",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Adulte Ressemblant à un adulte morphologiquement"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Enfant Ressemblant à un enfant, pouvant tenir sur la cuisse du secouriste"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Nourrisson Ressemblant à un nourrisson, peut tenir sur l’avant-bras du secouriste"
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

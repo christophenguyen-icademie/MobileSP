@@ -1,0 +1,165 @@
+{
+  "nom": "02FT08",
+  "titre": "Insufflations",
+  "niveaux": [
+    "PSC"
+  ],
+  "chapitre_principal": "Secourir une personne",
+  "chapitres": [
+    {
+      "titre": "Indication",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Cette technique est indiquée en présence d’une victime en arrêt cardiaque."
+        }
+      ]
+    },
+    {
+      "titre": "Justification",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Cette technique permet d’apporter de l’air aux poumons d’une victime en arrêt cardiaque."
+        }
+      ]
+    },
+    {
+      "titre": "Réalisation",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "libérer les voies aériennes de la victime et maintenir cette position durant les insufflations ;"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Chez l’adulte et l’enfant",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "pincer (1) le nez de la victime entre le pouce et l'index de la main tenant le front ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "ouvrir légèrement la bouche de la victime en utilisant l'autre main et maintenir le menton élevé ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "inspirer, sans excès ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "appliquer la bouche largement ouverte autour de la bouche de la victime en appuyant fermement (2) ;"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Chez le nourrisson",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "englober avec la bouche à la fois la bouche et le nez de la victime ;"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Dans tous les cas",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "insuffler progressivement jusqu'à ce que la poitrine de la victime commence à se soulever (3) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "se redresser légèrement tout en maintenant la bascule de la tête en arrière afin de :"
+            },
+            {
+              "niveau": 2,
+              "texte": "reprendre son souffle ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "vérifier l'affaissement de la poitrine de la victime."
+            },
+            {
+              "niveau": 1,
+              "texte": "insuffler une seconde (4) fois dans les mêmes conditions."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Si le ventre ou la poitrine de la victime ne se soulève pas lors des insufflations :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "s'assurer que la tête de la victime est en bonne position et que son menton est élevé ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "s'assurer qu'il y a une bonne étanchéité et pas de fuite d'air lors de l'insufflation ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "rechercher la présence d'un corps étranger dans la bouche. Le retirer avec les doigts, si nécessaire."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Points clés",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Les deux insufflations doivent :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "être lentes et progressives ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "cesser dès le début du soulèvement de la poitrine ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "être réalisées en 5 secondes maximum."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "(1) Le pincement du nez empêchera toute fuite d’air par le nez lors des insufflations.",
+    "(2) La pression ferme autour de la bouche de la victime empêchera toute fuite d’air durant les insufflations.",
+    "(3) durant 1 seconde environ.",
+    "(4) La durée de réalisation de ces deux insufflations successives ne doit pas excéder 5 secondes La réalisation rapide des manœuvres d’insufflation permet de ne pas retarder la reprise des compressions thoraciques."
+  ]
+}

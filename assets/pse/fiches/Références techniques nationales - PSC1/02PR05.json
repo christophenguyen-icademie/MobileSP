@@ -1,0 +1,292 @@
+{
+  "nom": "02PR05",
+  "titre": "Malaises",
+  "niveaux": [
+    "PSC"
+  ],
+  "chapitre_principal": "Secourir une personne",
+  "chapitres": [
+    {
+      "titre": "Définition",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le malaise est une sensation pénible traduisant un trouble du fonctionnement de l’organisme, sans pouvoir en identifier obligatoirement l’origine. Cette sensation, parfois répétitive, peut être fugace ou durable, de survenue brutale ou progressive."
+        }
+      ]
+    },
+    {
+      "titre": "Signes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La victime, consciente, ne se sent pas bien et présente des signes inhabituels. Les signes qui doivent alerter le secouriste sont :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "douleur dans la poitrine ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "faiblesse ou paralysie d'un bras ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "déformation de la face ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "perte de la vision d'un œil ou des deux ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "difficulté de langage (incohérence de la parole) ou de compréhension ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "mal de tête sévère, inhabituel ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "perte d'équilibre, instabilité de la marche ou chute inexpliquée ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "une fièvre (>37,8°C), une sensation de fièvre et des frissons ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "des sueurs abondantes ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "des courbatures, une sensation de fatigue intense ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "d'une douleur abdominale intense et de troubles digestifs (diarrhée) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "d'une difficulté à respirer ou à parler ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "d'une sensation de froid, associé à des sueurs abondantes ou une pâleur intense."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Causes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le malaise peut avoir diverses origines : maladies, intoxications, allergies, etc."
+        }
+      ]
+    },
+    {
+      "titre": "Risques",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Certains signes doivent être rapidement reconnus, car la prise en charge de la victime est urgente en service spécialisé pour éviter des séquelles définitives ou une évolution fatale."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Certains signes, apparemment sans gravité, peuvent être révélateurs d’une situation pouvant à tout moment entraîner une détresse vitale, exemples :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "un accident cardiaque ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "un accident vasculaire cérébral (AVC) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "une maladie infectieuse qui peut être contagieuse ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "un malaise lié : au diabète, l’asthme, etc."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Principes d’action",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le secouriste, après avoir mis la victime au repos, doit recueillir en écoutant et en observant, les informations à transmettre pour obtenir un avis médical."
+        }
+      ]
+    },
+    {
+      "titre": "Conduite à tenir en toute circonstance",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "installer la victime en position d'attente, confortablement (1) et sans délai :"
+            },
+            {
+              "niveau": 2,
+              "texte": "allongée ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "assise en cas de difficultés à respirer ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "sinon, dans la position où elle se sent le mieux."
+            },
+            {
+              "niveau": 1,
+              "texte": "observer (2) les signes, d'apparition soudaine, isolés ou associés, même de très courte durée."
+            },
+            {
+              "niveau": 1,
+              "texte": "se renseigner auprès de la victime ou de son entourage sur :"
+            },
+            {
+              "niveau": 2,
+              "texte": "son âge ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "la durée du malaise ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "des antécédents de malaises identiques et son état de santé actuel (3) ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "les traitements médicamenteux qu'elle prend ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "aider la victime à sa demande ou à la demande des secours, à prendre :"
+            },
+            {
+              "niveau": 2,
+              "texte": "son traitement prescrit ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "du sucre en morceaux."
+            },
+            {
+              "niveau": 1,
+              "texte": "en présence de signes qui doivent alerter le secouriste, ou de doute, demander un avis médical (4) :"
+            },
+            {
+              "niveau": 2,
+              "texte": "transmettre fidèlement les informations recueillies ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "appliquer les consignes."
+            },
+            {
+              "niveau": 1,
+              "texte": "protéger la victime de la chaleur, du froid ou des intempéries ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "surveiller en permanence la victime et lui parler régulièrement ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "en cas d’aggravation , alerter de nouveau les secours et pratiquer les gestes qui s’imposent."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Devant des signes de maladie infectieuse (5) , appliquer les mesures barrières (6) , de distance physique et d'isolement."
+        }
+      ]
+    },
+    {
+      "titre": "Cas particuliers",
+      "contenu": []
+    },
+    {
+      "titre": "Prévention des malaises vagaux",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "appliquer la conduite à tenir face à toute victime d’un malaise ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "inviter la victime à réaliser des manœuvres physiques si elle déclare faire régulièrement des malaises « vagaux » et présente des signes tels que : étourdissement, nausées, sueurs, sensation de chaleur, points noirs devant les yeux ou sentiment de perte de conscience imminente."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Malaise provoqué par la chaleur",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Des malaises peuvent survenir lorsqu’une personne est exposée à une ambiance chaude (exemples : été, période de canicule, travail en ambiance chaude, etc.) ou à la suite d’un effort prolongé. Dans ce cas, il faut :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "appliquer la conduite à tenir face à toute victime d’un malaise ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "installer la victime dans un endroit frais et bien aéré ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "si possible mesurer la température de la victime pour la transmettre au secours ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "rafraîchir (7) la victime ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "lui faire boire de l’eau fraîche par petites quantités si elle est consciente et capable d’avaler."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "(1) Par exemple sur un lit, une chaise, ou un canapé, ou à défaut sur le sol.",
+    "(2) Le médecin ne pouvant pas avoir un visuel sur la victime, l’observation des signes par le secouriste doit être qualitative, ainsi que leur transmission.",
+    "(3) Maladies, hospitalisations ou traumatisme récents.",
+    "(4) Souvent le médecin régulateur demande à parler directement à la victime.",
+    "(5) Et plus particulièrement en période épidémique.",
+    "(6) Exemple : demander à la victime de porter un masque, toutefois, lui proposer de le retirer si cela gêne sa respiration.",
+    "(7) La déshabiller ou desserrer ses vêtements, l’asperger d’eau froide (utiliser un brumisateur ou l’envelopper de linges imbibés d’eau froide), la placer sous le courant d’air d’un ventilateur, lui placer des sacs de glaces recouverts d’un linge sous les aisselles, à l’aine ou au cou."
+  ]
+}

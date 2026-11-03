@@ -18,7 +18,7 @@ export default function Index() {
     router.push('/calcul_hydraulique');
   };
   const handleSecourisme = () => {
-    router.push('/secourisme');
+    router.push('/recommandations-secourisme');
   };
   const handleQuiz = () => {
     router.push('/quiz');
@@ -42,14 +42,14 @@ export default function Index() {
               source={require("../../assets/images/itineraire.png")}
               style={styles.icon}
             />
-            <Text style={styles.buttonText}>Itinéraires</Text>
+            <Text style={styles.buttonText}>Itinéraires (trajet, carroyage, points d’eau, pk autoroutes)</Text>
           </TouchableOpacity>
           <TouchableOpacity style={styles.button} onPress={handleSecourisme}>
             <Image
               source={require("../../assets/images/secourisme.png")}
               style={styles.icon}
             />
-            <Text style={styles.buttonText}>Recommandations PSE</Text>
+            <Text style={styles.buttonText}>Recommandations secourisme (pse, psc, gqs)</Text>
           </TouchableOpacity>
           <TouchableOpacity style={styles.button} onPress={handleCalculO2Button}>
             <Image

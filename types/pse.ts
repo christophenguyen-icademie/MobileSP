@@ -1,4 +1,5 @@
-export type NiveauPse = "PSE 1" | "PSE 2";
+export type NiveauPse = "GQS" | "PSC" | "PSE 1" | "PSE 2";
+export type ReferentielSecourisme = "PSE" | "PSC" | "GQS";
 
 export type BlocPse =
   | { type: "paragraphe"; texte: string }
@@ -10,6 +11,11 @@ export type FichePse = {
   niveaux: NiveauPse[];
   chapitre: string;
   fichier: string;
+};
+
+export type FicheSecourisme = FichePse & {
+  id: string;
+  referentiel: ReferentielSecourisme;
 };
 
 export type FichePseDetail = {

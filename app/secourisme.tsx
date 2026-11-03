@@ -3,21 +3,18 @@ import { Stack, useRouter } from "expo-router";
 import { useEffect, useMemo, useState } from "react";
 import { Platform, Pressable, SafeAreaView, ScrollView, StyleSheet, Switch, Text, TextInput, useWindowDimensions, View, type StyleProp, type TextStyle } from "react-native";
 
-import fichesJson from "@/assets/pse/fiches/Références techniques nationales - PSE - Fiches/fiches.json";
-import { PSE_DATA } from "@/constants/pseData";
-import type { FichePse, NiveauPse } from "@/types/pse";
+import { FICHES_SECOURISME as fiches, SECOURISME_DATA } from "@/constants/secourisme";
+import type { FicheSecourisme, NiveauPse } from "@/types/pse";
 
-type Filtre = "Tous" | NiveauPse;
 type TypeFiche = "Tous" | "AC" | "PR" | "FT";
-type FicheRecherche = FichePse & { extrait?: string };
+type FicheRecherche = FicheSecourisme & { extrait?: string };
 type Chapitre = { nom: string; numero: string; fiches: FicheRecherche[] };
 
-const fiches = fichesJson as FichePse[];
-const filtres: Filtre[] = ["Tous", "PSE 1", "PSE 2"];
+const filtres: NiveauPse[] = ["GQS", "PSC", "PSE 1", "PSE 2"];
 const types: TypeFiche[] = ["Tous", "AC", "PR", "FT"];
 const normaliser = (texte: string) => texte.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
 const contenusRecherchables = Object.fromEntries(
-  Object.entries(PSE_DATA).map(([reference, fiche]) => {
+  Object.entries(SECOURISME_DATA).map(([reference, fiche]) => {
     const texte = [
       ...fiche.chapitres.flatMap((chapitre) => [
         chapitre.titre,
@@ -52,7 +49,7 @@ export default function Secourisme() {
   const desktopWeb = Platform.OS === "web" && width >= 1000;
   const router = useRouter();
   const [recherche, setRecherche] = useState("");
-  const [filtre, setFiltre] = useState<Filtre>("Tous");
+  const [niveaux, setNiveaux] = useState<Set<NiveauPse>>(() => new Set(filtres));
   const [typeFiche, setTypeFiche] = useState<TypeFiche>("Tous");
   const [rechercheContenu, setRechercheContenu] = useState(true);
   const [ouverts, setOuverts] = useState<Set<string>>(new Set());
@@ -89,14 +86,25 @@ export default function Secourisme() {
     memoriser(suivants);
   };
 
+  const basculerNiveau = (niveau: NiveauPse) => {
+    setNiveaux((actuels) => {
+      const suivants = new Set(actuels);
+      if (suivants.has(niveau)) suivants.delete(niveau); else suivants.add(niveau);
+      return suivants;
+    });
+  };
+
   const chapitres = useMemo<Chapitre[]>(() => {
     const terme = normaliser(recherche.trim());
     const groupes = new Map<string, FicheRecherche[]>();
     fiches.forEach((fiche) => {
-      const niveauOk = filtre === "Tous" || fiche.niveaux.includes(filtre);
+      // Les fiches complémentaires PSE sont incluses quand les deux niveaux le sont.
+      const niveauOk = fiche.niveaux.length > 0
+        ? fiche.niveaux.some((niveau) => niveaux.has(niveau))
+        : niveaux.has("PSE 1") && niveaux.has("PSE 2");
       const typeOk = typeFiche === "Tous" || fiche.nom.slice(2, 4) === typeFiche;
-      const metadonnees = normaliser(`${fiche.nom} ${fiche.titre} ${fiche.chapitre}`);
-      const contenu = rechercheContenu && terme ? contenusRecherchables[fiche.nom] : undefined;
+      const metadonnees = normaliser(`${fiche.nom} ${fiche.titre} ${fiche.chapitre} ${fiche.referentiel} ${fiche.niveaux.join(" ")}`);
+      const contenu = rechercheContenu && terme ? contenusRecherchables[fiche.id] : undefined;
       const indexOccurrence = contenu?.normalise.indexOf(terme) ?? -1;
       const texteOk = !terme || metadonnees.includes(terme) || indexOccurrence >= 0;
       if (!niveauOk || !typeOk || !texteOk) return;
@@ -114,7 +122,7 @@ export default function Secourisme() {
       numero: fichesDuChapitre[0].nom.slice(0, 2),
       fiches: fichesDuChapitre,
     }));
-  }, [filtre, recherche, rechercheContenu, typeFiche]);
+  }, [niveaux, recherche, rechercheContenu, typeFiche]);
 
   const basculerChapitre = (chapitre: string) => {
     setOuverts((actuels) => {
@@ -128,8 +136,8 @@ export default function Secourisme() {
   const rechercheActive = recherche.trim().length > 0;
   const enteteAnnuaire = <>
     <View style={styles.entete}>
-      <Text style={[styles.titre, mobileWeb && styles.titreMobile]}>Annuaire des fiches PSE</Text>
-      <Text style={[styles.sousTitre, mobileWeb && styles.sousTitreMobile]}>198 fiches classées par chapitre</Text>
+      <Text style={[styles.titre, mobileWeb && styles.titreMobile]}>Annuaire des fiches de secourisme</Text>
+      <Text style={[styles.sousTitre, mobileWeb && styles.sousTitreMobile]}>{fiches.length} fiches classées par chapitre</Text>
       <View style={styles.recherche}>
         <Ionicons name="search" size={20} color="#615f76" />
         <TextInput value={recherche} onChangeText={setRecherche} placeholder="Rechercher une fiche, un code…" placeholderTextColor="#858398" style={styles.champ} returnKeyType="search" />
@@ -137,8 +145,9 @@ export default function Secourisme() {
       </View>
       <View style={styles.filtres}>
         {filtres.map((valeur) => (
-          <Pressable key={valeur} onPress={() => setFiltre(valeur)} style={[styles.filtre, filtre === valeur && styles.filtreActif]}>
-            <Text style={[styles.texteFiltre, filtre === valeur && styles.texteFiltreActif]}>{valeur}</Text>
+          <Pressable key={valeur} accessibilityRole="checkbox" accessibilityLabel={valeur} accessibilityState={{ checked: niveaux.has(valeur) }} onPress={() => basculerNiveau(valeur)} style={[styles.filtre, niveaux.has(valeur) && styles.filtreActif]}>
+            <Ionicons name={niveaux.has(valeur) ? "checkbox" : "square-outline"} size={19} color={niveaux.has(valeur) ? "#fff" : "#504d64"} />
+            <Text style={[styles.texteFiltre, niveaux.has(valeur) && styles.texteFiltreActif]}>{valeur}</Text>
           </Pressable>
         ))}
       </View>
@@ -167,14 +176,14 @@ export default function Secourisme() {
       <Ionicons name="bookmark-outline" size={17} color="#1f176a" />
       <Text style={styles.raccourcisTitre}>Accès rapide :</Text>
       {[...favoris, ...recents].filter((item, index, tableau) => tableau.indexOf(item) === index).slice(0, 8).map((reference) => (
-        <Pressable key={reference} onPress={() => ouvrirFiche(reference)}><Text style={styles.raccourci}>{reference}</Text></Pressable>
+        <Pressable key={reference} onPress={() => ouvrirFiche(reference)}><Text style={styles.raccourci}>{reference.replace(":", " · ")}</Text></Pressable>
       ))}
     </View>}
   </>;
 
   return (
     <SafeAreaView style={styles.container}>
-      <Stack.Screen options={{ title: "Recommandations PSE" }} />
+      <Stack.Screen options={{ title: "Références Techniques Nationales" }} />
 
       <View style={styles.corps}>
       <View style={styles.colonneGauche}>
@@ -199,8 +208,8 @@ export default function Secourisme() {
                 <Ionicons name={estOuvert ? "chevron-up" : "chevron-down"} size={22} color="#1f176a" />
               </Pressable>
               {estOuvert && chapitre.fiches.map((fiche) => (
-                <View key={fiche.nom} style={styles.ficheBloc}>
-                  <Pressable onPress={() => ouvrirFiche(fiche.nom)} style={({ pressed }) => [styles.ligneFiche, selection === fiche.nom && styles.ficheSelectionnee, pressed && styles.fichePressee]}>
+                <View key={fiche.id} style={styles.ficheBloc}>
+                  <Pressable onPress={() => ouvrirFiche(fiche.id)} style={({ pressed }) => [styles.ligneFiche, selection === fiche.id && styles.ficheSelectionnee, pressed && styles.fichePressee]}>
                     <View style={styles.branche} />
                     <View style={styles.contenuFiche}>
                       <View style={styles.metaFiche}>
@@ -211,12 +220,12 @@ export default function Secourisme() {
                       <TexteSurligne texte={fiche.titre} recherche={recherche} style={[styles.titreFiche, mobileWeb && styles.titreFicheMobile]} />
                       {fiche.extrait && <TexteSurligne texte={fiche.extrait} recherche={recherche} style={[styles.extraitFiche, mobileWeb && styles.extraitFicheMobile]} />}
                     </View>
-                    <Pressable accessibilityLabel={favoris.has(fiche.nom) ? "Retirer des favoris" : "Ajouter aux favoris"} onPress={() => basculerFavori(fiche.nom)} hitSlop={8} style={styles.favori}>
-                      <Ionicons name={favoris.has(fiche.nom) ? "star" : "star-outline"} size={21} color="#a16900" />
+                    <Pressable accessibilityLabel={favoris.has(fiche.id) ? "Retirer des favoris" : "Ajouter aux favoris"} onPress={() => basculerFavori(fiche.id)} hitSlop={8} style={styles.favori}>
+                      <Ionicons name={favoris.has(fiche.id) ? "star" : "star-outline"} size={21} color="#a16900" />
                     </Pressable>
                     <Ionicons name="chevron-forward" size={22} color="#1f176a" />
                   </Pressable>
-                  {fiche.nom === "01AC01" && <Pressable
+                  {fiche.id === "01AC01" && <Pressable
                       style={styles.animation}
                       onPress={() => router.push({ pathname: "/animation-pse", params: { reference: fiche.nom } })}
                     >
@@ -231,10 +240,10 @@ export default function Secourisme() {
       </ScrollView>
       </View>
       {desktopWeb && <ScrollView style={styles.apercu} contentContainerStyle={styles.apercuContenu}>
-        {selection && PSE_DATA[selection] ? <>
-          <Text style={styles.apercuReference}>{PSE_DATA[selection].nom}</Text>
-          <Text style={styles.apercuTitre}>{PSE_DATA[selection].titre}</Text>
-          {PSE_DATA[selection].chapitres.map((chapitre) => <View key={chapitre.titre} style={styles.apercuSection}>
+        {selection && SECOURISME_DATA[selection] ? <>
+          <Text style={styles.apercuReference}>{selection.replace(":", " · ")}</Text>
+          <Text style={styles.apercuTitre}>{SECOURISME_DATA[selection].titre}</Text>
+          {SECOURISME_DATA[selection].chapitres.map((chapitre, numero) => <View key={`${numero}-${chapitre.titre}`} style={styles.apercuSection}>
             <Text style={styles.apercuSectionTitre}>{chapitre.titre}</Text>
             {chapitre.contenu.map((bloc, index) => bloc.type === "paragraphe"
               ? <Text key={index} style={styles.apercuTexte}>{bloc.texte}</Text>
@@ -258,7 +267,7 @@ const styles = StyleSheet.create({
   recherche: { alignItems: "center", backgroundColor: "#f1f0f5", borderRadius: 12, flexDirection: "row", paddingHorizontal: 12 },
   champ: { color: "#242132", flex: 1, fontSize: 16, paddingHorizontal: 9, paddingVertical: 11 },
   filtres: { flexDirection: "row", flexWrap: "wrap", gap: 8, marginTop: 12 },
-  filtre: { borderColor: "#d4d1e2", borderRadius: 20, borderWidth: 1, flexGrow: 1, maxWidth: 150, minWidth: 72, paddingHorizontal: 12, paddingVertical: 7 },
+  filtre: { alignItems: "center", borderColor: "#d4d1e2", borderRadius: 20, borderWidth: 1, flexDirection: "row", flexGrow: 1, gap: 6, maxWidth: 150, minWidth: 72, paddingHorizontal: 12, paddingVertical: 7 },
   filtreType: { borderColor: "#d4d1e2", borderRadius: 20, borderWidth: 1, paddingHorizontal: 15, paddingVertical: 7 },
   filtreActif: { backgroundColor: "#1f176a", borderColor: "#1f176a" },
   texteFiltre: { color: "#504d64", fontSize: 14, fontWeight: "600" },

@@ -1,0 +1,231 @@
+{
+  "nom": "02FT05",
+  "titre": "Défibrillation",
+  "niveaux": [
+    "GQS"
+  ],
+  "chapitre_principal": "Secourir une personne",
+  "chapitres": [
+    {
+      "titre": "Indication",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Cette technique est indiquée en présence d’une victime en arrêt cardiaque."
+        }
+      ]
+    },
+    {
+      "titre": "Justification",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Cette technique peut permettre de retrouver une activité cardiaque normale. Elle est sûre et sans risque même si elle est utilisée par des personnes qui sont peu ou pas formées."
+        }
+      ]
+    },
+    {
+      "titre": "Réalisation",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le DAE doit être utilisé en suivant toutes les indications de l’appareil (schéma, messages vocaux)."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Si plus d'un secouriste est présent, la RCP doit être poursuivie durant l’installation du DAE. Les compressions thoraciques doivent être interrompues seulement lorsque le DAE indique de ne plus toucher à la victime."
+        }
+      ]
+    },
+    {
+      "titre": "Chez l’adulte",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "mettre en fonction le défibrillateur ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "suivre les indications de l'appareil (22) ."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Ces indications précisent, dans un premier temps, de mettre en place les électrodes. Pour cela :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "enlever ou couper les vêtements recouvrant la poitrine de la victime, si nécessaire ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "sécher le thorax de la victime s'il est humide ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "déballer et appliquer les électrodes, sur la poitrine nue de la victime, dans la position indiquée sur le schéma figurant sur l'emballage ou sur les électrodes (23) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "connecter les électrodes au défibrillateur, si nécessaire."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Lorsque le DAE l'indique, arrêter les compressions thoraciques, ne plus toucher la victime et s'assurer que les personnes aux alentours fassent de même (24) ."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Si le défibrillateur annonce que le choc est nécessaire :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "demander aux personnes aux alentours de s'écarter ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "laisser le DAE déclencher le choc électrique (défibrillateur entièrement automatique) ou appuyer sur le bouton \"choc\" lorsque l'appareil le demande (défibrillateur semi- automatique) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "reprendre immédiatement les compressions thoraciques après la délivrance du choc."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Si le défibrillateur annonce que le choc n'est pas nécessaire :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "reprendre immédiatement les compressions thoraciques"
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Dans tous les cas, il y a une période de RCP (généralement 2 minutes) avant que le DAE ne demande une nouvelle pause pour l'analyse du rythme."
+        }
+      ]
+    },
+    {
+      "titre": "Chez l’enfant et le nourrisson",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La défibrillation doit être réalisée avec des appareils adaptés (électrodes enfants, réducteur d’énergie, etc.). La position des électrodes collées sur la poitrine de la victime doit être conforme aux schémas du fabricant."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "En leur absence, les électrodes adultes sont alors positionnées au milieu du thorax pour l’une et au milieu du dos pour l’autre."
+        }
+      ]
+    },
+    {
+      "titre": "Risques et contraintes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Si la victime présente une forte poitrine, il faut positionner l’électrode gauche latéralement, sous le sein gauche et éviter autant que possible de la poser directement sur le sein."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Si la poitrine de la victime est particulièrement velue, il convient d’éliminer rapidement l'excès de poils de la zone de pose des électrodes."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Si la victime présente un timbre autocollant médicamenteux sur la zone de pose des électrodes, le secouriste retire le timbre et essuie la zone avant de coller l’électrode."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Si la victime présente un stimulateur cardiaque (le plus souvent le secouriste constate une cicatrice et perçoit un boîtier sous la peau, sous la clavicule droite ou est informé par la famille) à l’endroit de pose de l’électrode, le secouriste colle l’électrode à une largeur de main de l’appareil (environ 8 cm de la bosse perçue)."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Si la victime est allongée sur un sol mouillé (bord de piscine, pluie, etc.) ou si son thorax est mouillé, le secouriste, si possible, déplace la victime pour l’allonger sur une surface sèche et, si possible, sèche son thorax avant de débuter la défibrillation (25) ."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Si la victime est allongée sur une surface en métal : si c’est possible et en se faisant aider si besoin, le secouriste déplace la victime ou glisse un tissu sous elle (couverture, etc.) avant de débuter la défibrillation (26) ."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Si le DAE détecte un mouvement au cours de l’analyse :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "le secouriste s’assure qu’il n’est pas en contact avec la victime ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "le cas échéant, il vérifie la respiration."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Si le DAE demande toujours de connecter les électrodes alors que cette opération a déjà été effectuée, le secouriste, vérifie que :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "les électrodes sont bien collées et le câble de connexion correctement connecté au DAE ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "si le problème n’est pas résolu et qu’une seconde paire d’électrodes est disponible, remplacer les électrodes."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Points clés",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La mise en œuvre du défibrillateur doit :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "être la plus précoce possible ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "interrompre le moins possible la pratique des compressions thoraciques."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "(22) Ces indications peuvent être vocales ou visuelles. Leur suivi strict permet de réaliser les différentes opérations plus rapidement et en sécurité.",
+    "(23) La position des électrodes doit être conforme au schéma visible sur celles-ci. Généralement : l’une est placée juste au-dessous de la clavicule droite de la victime, contre le bord droit du sternum, l’autre est placée sur le côté gauche de la victime, 5 à 10 cm au-dessous de l’aisselle.",
+    "(24) Tout mouvement de la victime durant la phase d’analyse du rythme cardiaque est susceptible de la fausser",
+    "(25) L’efficacité d’un choc électrique sur une victime allongée sur un sol mouillé est diminuée. Il n’existe pas de risque réel pour le secouriste.",
+    "(26) L’efficacité d’un choc électrique sur une victime allongée sur une surface métallique est diminuée. Il n’existe pas de risque réel pour le secouriste."
+  ]
+}

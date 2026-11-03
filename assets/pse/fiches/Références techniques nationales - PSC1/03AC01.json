@@ -1,0 +1,62 @@
+{
+  "nom": "03AC01",
+  "titre": "Obligations pour les formations",
+  "niveaux": [
+    "PSC"
+  ],
+  "chapitre_principal": "Formation",
+  "chapitres": [
+    {
+      "titre": "Conditions minimales d’accueil",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "A l’exception des mises en situation ou simulations qui peuvent se dérouler dans des conditions les plus proches de la réalité, la formation doit :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "être dispensée dans un lieu suffisamment spacieux pour permettre aux apprenants d’évoluer sans contrainte (min. 2 m² par personne) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "disposer de chaises en quantité suffisante ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "protéger des contraintes climatiques (abrité de la pluie et du vent, chauffé ou climatisé, etc.) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "disposer de toilettes et d’un point d’eau à proximité."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Pour les formations à destination des personnes en situation de handicap, le lieu de formation doit être conforme aux règles en vigueur relatives à l’accessibilité et à l’accueil des personnes en situation de handicap."
+        }
+      ]
+    },
+    {
+      "titre": "Liste des matériels obligatoires pour les formations initiales et continues",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Tout autre matériel utile à la formation peut être ajouté à la présente liste. Quantité / nombre Désignation d’apprenants 2 à 10 Références techniques nationales PSC 1 Référentiel interne de formation et de certification de l’organisme habilité et dispensateur 1 Matériels nécessaires pour les pansements compressifs improvisés EQS Matériels nécessaires pour les garrots improvisés EQS Matériels de simulation (factices ou neutralisés), maquillages, fausses plaies, etc. EQS 1 téléphone fixe ou mobile neutralisé Mannequin de réanimation cardio pulmonaire adulte (avec poumons) 1 Mannequin de réanimation cardio pulmonaire enfant (avec poumons) 1 Mannequin de réanimation cardio pulmonaire nourrisson (avec poumons) 1 Maquette de coupe de tête 1 DAE de formation*, avec électrodes adultes et enfant (ou dispositif d’adaptation) et ses 1 accessoires. Tout autre matériel pédagogique ou technique imposé par l’organisme habilité. EQS Feuille de présence 1 Fiches d’évaluation EQS Fiche de certification EQS Produits d’entretien et d’hygiène EQS"
+        },
+        {
+          "type": "paragraphe",
+          "texte": "EQS : en quantité suffisante pour l’ensemble des apprenants, pour la durée de la formation, en fonction des techniques pédagogiques imposées par l’organisme habilité."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "* Ces matériels doivent être opérants et disposer de leurs moyens d’alimentation (câble, batteries, chargeur, etc.)"
+        }
+      ]
+    }
+  ],
+  "notes": []
+}

@@ -1,0 +1,236 @@
+[
+  {
+    "nom": "01AC01",
+    "titre": "Le citoyen de Sécurité Civile",
+    "niveaux": [
+      "PSC"
+    ],
+    "chapitre": "Informations générales",
+    "fichier": "01AC01.pdf"
+  },
+  {
+    "nom": "01AC02",
+    "titre": "Alerte et protection des populations",
+    "niveaux": [
+      "PSC"
+    ],
+    "chapitre": "Informations générales",
+    "fichier": "01AC02.pdf"
+  },
+  {
+    "nom": "01AC03",
+    "titre": "Protection",
+    "niveaux": [
+      "PSC"
+    ],
+    "chapitre": "Informations générales",
+    "fichier": "01AC03.pdf"
+  },
+  {
+    "nom": "01AC04",
+    "titre": "Alerte",
+    "niveaux": [
+      "PSC"
+    ],
+    "chapitre": "Informations générales",
+    "fichier": "01AC04.pdf"
+  },
+  {
+    "nom": "01AC05",
+    "titre": "Informations générales",
+    "niveaux": [
+      "PSC"
+    ],
+    "chapitre": "Informations générales",
+    "fichier": "01AC05.pdf"
+  },
+  {
+    "nom": "02PR01",
+    "titre": "Hémorragies",
+    "niveaux": [
+      "PSC"
+    ],
+    "chapitre": "Secourir une personne",
+    "fichier": "02PR01.pdf"
+  },
+  {
+    "nom": "02FT01",
+    "titre": "Compression",
+    "niveaux": [
+      "PSC"
+    ],
+    "chapitre": "Secourir une personne",
+    "fichier": "02FT01.pdf"
+  },
+  {
+    "nom": "02FT02",
+    "titre": "Garrot",
+    "niveaux": [
+      "PSC"
+    ],
+    "chapitre": "Secourir une personne",
+    "fichier": "02FT02.pdf"
+  },
+  {
+    "nom": "02PR02",
+    "titre": "Obstruction des voies aériennes",
+    "niveaux": [
+      "PSC"
+    ],
+    "chapitre": "Secourir une personne",
+    "fichier": "02PR02.pdf"
+  },
+  {
+    "nom": "02FT03",
+    "titre": "Désobstruction par des claques dans le dos",
+    "niveaux": [
+      "PSC"
+    ],
+    "chapitre": "Secourir une personne",
+    "fichier": "02FT03.pdf"
+  },
+  {
+    "nom": "02FT04",
+    "titre": "Désobstruction par des compressions abdominales",
+    "niveaux": [
+      "PSC"
+    ],
+    "chapitre": "Secourir une personne",
+    "fichier": "02FT04.pdf"
+  },
+  {
+    "nom": "02FT05",
+    "titre": "Désobstruction par des compressions thoraciques",
+    "niveaux": [
+      "PSC"
+    ],
+    "chapitre": "Secourir une personne",
+    "fichier": "02FT05.pdf"
+  },
+  {
+    "nom": "02PR03",
+    "titre": "Arrêt cardiaque",
+    "niveaux": [
+      "PSC"
+    ],
+    "chapitre": "Secourir une personne",
+    "fichier": "02PR03.pdf"
+  },
+  {
+    "nom": "02FT06",
+    "titre": "Libération des voies aériennes",
+    "niveaux": [
+      "PSC"
+    ],
+    "chapitre": "Secourir une personne",
+    "fichier": "02FT06.pdf"
+  },
+  {
+    "nom": "02FT07",
+    "titre": "Compressions thoraciques",
+    "niveaux": [
+      "PSC"
+    ],
+    "chapitre": "Secourir une personne",
+    "fichier": "02FT07.pdf"
+  },
+  {
+    "nom": "02FT08",
+    "titre": "Insufflations",
+    "niveaux": [
+      "PSC"
+    ],
+    "chapitre": "Secourir une personne",
+    "fichier": "02FT08.pdf"
+  },
+  {
+    "nom": "02FT09",
+    "titre": "Défibrillation",
+    "niveaux": [
+      "PSC"
+    ],
+    "chapitre": "Secourir une personne",
+    "fichier": "02FT09.pdf"
+  },
+  {
+    "nom": "02AC01",
+    "titre": "Défibrillateur automatisé externe - DAE",
+    "niveaux": [
+      "PSC"
+    ],
+    "chapitre": "Secourir une personne",
+    "fichier": "02AC01.pdf"
+  },
+  {
+    "nom": "02PR04",
+    "titre": "Perte de connaissance",
+    "niveaux": [
+      "PSC"
+    ],
+    "chapitre": "Secourir une personne",
+    "fichier": "02PR04.pdf"
+  },
+  {
+    "nom": "02FT10",
+    "titre": "Position latérale de sécurité - PLS",
+    "niveaux": [
+      "PSC"
+    ],
+    "chapitre": "Secourir une personne",
+    "fichier": "02FT10.pdf"
+  },
+  {
+    "nom": "02PR05",
+    "titre": "Malaises",
+    "niveaux": [
+      "PSC"
+    ],
+    "chapitre": "Secourir une personne",
+    "fichier": "02PR05.pdf"
+  },
+  {
+    "nom": "02FT11",
+    "titre": "Manœuvres physiques",
+    "niveaux": [
+      "PSC"
+    ],
+    "chapitre": "Secourir une personne",
+    "fichier": "02FT11.pdf"
+  },
+  {
+    "nom": "02PR06",
+    "titre": "Plaies",
+    "niveaux": [
+      "PSC"
+    ],
+    "chapitre": "Secourir une personne",
+    "fichier": "02PR06.pdf"
+  },
+  {
+    "nom": "02PR07",
+    "titre": "Brûlures",
+    "niveaux": [
+      "PSC"
+    ],
+    "chapitre": "Secourir une personne",
+    "fichier": "02PR07.pdf"
+  },
+  {
+    "nom": "02PR08",
+    "titre": "Traumatismes",
+    "niveaux": [
+      "PSC"
+    ],
+    "chapitre": "Secourir une personne",
+    "fichier": "02PR08.pdf"
+  },
+  {
+    "nom": "03AC01",
+    "titre": "Obligations pour les formations",
+    "niveaux": [
+      "PSC"
+    ],
+    "chapitre": "Formation",
+    "fichier": "03AC01.pdf"
+  }
+]

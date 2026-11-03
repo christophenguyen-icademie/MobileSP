@@ -1,0 +1,221 @@
+{
+  "nom": "02PR02",
+  "titre": "Obstruction des voies aériennes",
+  "niveaux": [
+    "PSC"
+  ],
+  "chapitre_principal": "Secourir une personne",
+  "chapitres": [
+    {
+      "titre": "Définition",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’obstruction des voies aériennes (OVA) est la gêne ou l'empêchement brutal des mouvements de l’air entre l’extérieur et les poumons, par un corps étranger."
+        }
+      ]
+    },
+    {
+      "titre": "Causes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Les corps étrangers qui sont le plus souvent à l’origine d’une obstruction des voies aériennes sont les aliments (noix, cacahuètes, carottes) ou des objets (aimants de magnets, jouets). L’OVA peut survenir à tout âge, mais elle est plus fréquente chez l’enfant et chez la personne âgée."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "L’obstruction se produit le plus souvent lorsque la personne est en train de manger, de boire ou de porter un objet à la bouche."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Des facteurs de risques exposent au risque de survenue d’une OVA par corps étranger comme la prise de médicaments, d’alcool, les maladies neurologiques qui diminuent ou altèrent la déglutition ou la toux, la démence, mais aussi une mauvaise dentition."
+        }
+      ]
+    },
+    {
+      "titre": "Risques",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Si après inhalation d’un corps étranger, le passage de l’air dans les voies aériennes est menacé ou interrompu, l’arrivée de l’oxygène jusqu’aux poumons peut être réduite ou stoppée, pouvant compromettre rapidement la vie de la victime. Sans une intervention rapide, elle entraîne : une hypoxie, une perte de connaissance, puis un arrêt cardiaque en quelques minutes."
+        }
+      ]
+    },
+    {
+      "titre": "Signes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Si la victime peut parler, crier (notamment enfant ou nourrisson), tousser et respirer, parfois avec un bruit surajouté, l’obstruction n’est pas totale. Elle peut durer plusieurs minutes après l’accident, car la respiration n’est pas complètement interrompue."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Si la victime ne peut plus parler, crier, tousser ou émettre un son, garde la bouche ouverte, s'agite, devient rapidement bleue, alors l’obstruction est totale."
+        }
+      ]
+    },
+    {
+      "titre": "Principes d’action",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "L’action du secouriste doit permettre :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "de désobstruer les voies aériennes en cas d’obstruction totale ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "d’empêcher toute aggravation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Conduite à tenir",
+      "contenu": []
+    },
+    {
+      "titre": "Dans tous les cas",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "demander à la victime si elle s’étouffe, ainsi que de tousser."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Si la victime peut parler, crier, tousser 1",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "continuer d’encourager la victime à tousser (2) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "surveiller l’efficacité de la toux ou l’apparition de signes de fatigue."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Si la victime ne peut plus parler, crier, tousser 3",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "laisser la victime dans la position où elle se trouve, généralement debout ou assise ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "donner de 1 à 5 « claques dans le dos » ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "réaliser de 1 à 5 « compressions » en cas d’inefficacité ou d’impossibilité de pratiquer des « claques»"
+            },
+            {
+              "niveau": 2,
+              "texte": "au niveau abdominal, s’il s’agit d’un adulte ou d’un enfant ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "au niveau thoracique, s’il s’agit : § d’un nourrisson ; § d’un personne obèse ou d’une femme enceinte, s’il est impossible d’encercler l’abdomen ; § d’une personne alitée ou allongée, difficilement mobilisable."
+            },
+            {
+              "niveau": 1,
+              "texte": "répéter le cycle « claques dans le dos » et « compressions » ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "interrompre les manœuvres dès :"
+            },
+            {
+              "niveau": 2,
+              "texte": "l’apparition d’une toux efficace, de cris ou de pleurs ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "la reprise de la respiration ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "le rejet du corps étranger."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Si la victime respire (toux efficace) ou après le succès des manœuvres",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "installer la victime en position d'attente, confortablement (4) et sans délai ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "desserrer les vêtements ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "faire alerter ou alerter les secours (5) et appliquer leurs consignes ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "protéger contre la chaleur, le froid ou les intempéries ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "surveiller en permanence la victime et lui parler régulièrement."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Si la victime perd connaissance",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "l’accompagner au sol ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "réaliser une réanimation cardio-pulmonaire."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "(1) Confère les signes de l’obstruction.",
+    "(2) Une victime qui est éveillée, réactive et capable de tousser doit être encouragée à le faire, car la toux génère une pression élevée et soutenue dans les voies respiratoires et peut expulser le corps étranger.",
+    "(3) Confère les signes de l’obstruction.",
+    "(4) Par exemple sur un lit, une chaise, ou un canapé, ou à défaut sur le sol.",
+    "(5) Même si la désobstruction est efficace de petits corps peuvent passer dans les voies aériennes et dans les poumons et provoquer des complications secondaires. Les manœuvres de compressions, même réalisées correctement, peuvent provoquer des lésions internes."
+  ]
+}

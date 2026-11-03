@@ -1,0 +1,263 @@
+{
+  "nom": "02PR06",
+  "titre": "Plaies",
+  "niveaux": [
+    "PSC"
+  ],
+  "chapitre_principal": "Secourir une personne",
+  "chapitres": [
+    {
+      "titre": "Définition - Signes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La plaie est une lésion de la peau, revêtement protecteur du corps, avec une atteinte possible des tissus situés dessous. Elle est qualifiée de :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "plaie simple, lorsqu’il s’agit d’une petite coupure superficielle, d’une éraflure saignant peu ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "plaie grave du fait :"
+            },
+            {
+              "niveau": 2,
+              "texte": "d’une hémorragie associée ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "d’un mécanisme pénétrant : objet tranchant ou perforant, morsures, projectiles, injection de liquide sous pression ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "de sa localisation : thoracique, abdominale, oculaire ou proche d’un orifice naturel ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "de son aspect : déchiqueté, écrasé ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "de la multiplicité des plaies."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Causes",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La plaie est généralement secondaire à un traumatisme, elle est provoquée par une coupure, une éraflure, une morsure ou une piqûre."
+        }
+      ]
+    },
+    {
+      "titre": "Risques",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Une plaie, suivant son importance et sa localisation, peut être à l’origine d’une aggravation immédiate de l’état de la victime par hémorragie ou par défaillance de la respiration."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Elle peut être aussi à l’origine d’une infection secondaire dont le tétanos."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Le tétanos est une maladie très grave, parfois mortelle. Seule la vaccination antitétanique protège de cette maladie."
+        }
+      ]
+    },
+    {
+      "titre": "Principes d’action",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Le secouriste doit évaluer la gravité de la plaie afin d’adopter une conduite à tenir adaptée."
+        }
+      ]
+    },
+    {
+      "titre": "Conduite à tenir",
+      "contenu": []
+    },
+    {
+      "titre": "Face à une plaie grave",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "ne jamais retirer le corps étranger pénétrant (couteau, morceau de verre, etc.) (1) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "en cas d'hémorragie, appliquer la conduite à tenir adaptée ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "installer la victime en position d'attente, confortablement (2) et sans délai :"
+            },
+            {
+              "niveau": 2,
+              "texte": "assise (3) en laissant la plaie à l’air libre en présence d'une plaie au thorax ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "allongée (4) , jambes fléchies (5) en présence d'une plaie de l'abdomen ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "allongée, yeux fermés (1) en demandant de ne pas bouger la tête en présence d'une plaie à l'œil et si possible en maintenant sa tête à deux mains ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "allongée (2) dans tous les autres cas."
+            },
+            {
+              "niveau": 1,
+              "texte": "protéger la victime de la chaleur, du froid ou des intempéries ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "faire alerter ou alerter les secours et appliquer les consignes ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "surveiller en permanence la victime et lui parler régulièrement ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "en cas d’aggravation, alerter de nouveau les secours et pratiquer les gestes qui s’imposent."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Face à une plaie simple",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "se laver les mains avec de l’eau et du savon ou utiliser une solution hydroalcoolique ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "nettoyer la plaie :"
+            },
+            {
+              "niveau": 2,
+              "texte": "avec de l’eau courante (propre) ou en bouteille, à défaut avec du sérum physiologique ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "utiliser du savon si la plaie est souillée ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "s’aider si besoin d’une compresse pour enlever les souillures."
+            },
+            {
+              "niveau": 1,
+              "texte": "sécher la zone autour de la plaie et la protéger par un pansement ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "conseiller à la victime de consulter un médecin :"
+            },
+            {
+              "niveau": 2,
+              "texte": "si elle n’est pas à jour de sa vaccination antitétanique ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "si des signes d’une infection (3) apparaissent dans les jours qui suivent."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Conduite à tenir particulière",
+      "contenu": []
+    },
+    {
+      "titre": "Face à une amputation ou un arrachement d’une partie du corps 4 :",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "arrêter l’hémorragie immédiatement ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "mettre en place un pansement compressif sur la plaie, même en l’absence de saignement ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "conditionner (5) la partie du corps amputée ou arrachée, au frais, sans la congeler (6) ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "récupérer la partie du corps amputée ou arrachée ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "l’envelopper dans un tissu propre humidifié avec de l’eau ; § placer la partie enveloppée dans un contenant (7) propre et étanche ; § placer ce contenant fermé dans un autre, contenant de la glace ou de l’eau glacée ;"
+            },
+            {
+              "niveau": 2,
+              "texte": "indiquer sur le contenant le nom de la personne et l’heure."
+            },
+            {
+              "niveau": 1,
+              "texte": "protéger la victime de la chaleur, du froid ou des intempéries ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "faire alerter ou alerter les secours et appliquer les consignes ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "surveiller en permanence la victime et lui parler régulièrement ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "en cas d’aggravation, alerter de nouveau les secours et pratiquer les gestes qui s’imposent."
+            },
+            {
+              "niveau": 1,
+              "texte": "remettre la partie du corps conditionnée aux secours."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "(1) Cela risque d’aggraver la plaie.",
+    "(2) Par exemple sur un lit, une chaise, ou un canapé, ou à défaut sur le sol.",
+    "(3) La position assise facilite la respiration lorsque l’on est en présence d’une plaie au thorax.",
+    "(4) La position allongée permet de prévenir les détresses et d’éviter les complications.",
+    "(5) La flexion des jambes d’une victime préalablement allongée permet, par le relâchement des muscles de l’abdomen, de diminuer la douleur.",
+    "(1) La fermeture des yeux et l’immobilité de la tête permettent de limiter les risques d’aggravation de la lésion de l’œil.",
+    "(2) La position allongée permet de prévenir les détresses et d’éviter les complications.",
+    "(3) Apparition de fièvre, de suintements, d'une zone chaude, rouge, gonflée ou douloureuse, notamment dans les 24 heures.",
+    "(4) Partie externe du corps (doigt, main, bras, etc.) ou tissus mous (joue, nez, oreille, organes génitaux, etc.). Le froid permet de préserver une partie amputée ou arrachée dans l’attente de sa réimplantation éventuelle.",
+    "(5) Il existe des dispositifs commerciaux qui permettent de réaliser cette conservation et qui sont basés sur le même principe que la procédure décrite ci-dessus.",
+    "(6) Le contact direct entre la partie du corps amputée ou arrachée et la source de froid serait responsable de gelures qui peuvent compromettre la réussite de sa réimplantation.",
+    "(7) Le secouriste réalisera l’action avec ce dont il dispose au moment de l’intervention : sac plastique, récipient en plastique, etc."
+  ]
+}

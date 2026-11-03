@@ -1,0 +1,139 @@
+{
+  "nom": "02FT01",
+  "titre": "Compression",
+  "niveaux": [
+    "GQS"
+  ],
+  "chapitre_principal": "Secourir une personne",
+  "chapitres": [
+    {
+      "titre": "Indication",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La compression est indiquée sur toute plaie qui saigne abondamment."
+        }
+      ]
+    },
+    {
+      "titre": "Justification",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La compression des vaisseaux sanguins, au niveau d’une plaie, arrête le saignement."
+        }
+      ]
+    },
+    {
+      "titre": "Réalisation",
+      "contenu": []
+    },
+    {
+      "titre": "Compression manuelle",
+      "contenu": [
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "appuyer (8) fortement sur l’endroit qui saigne (9) ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "interposer le plus tôt possible entre la main et la plaie une épaisseur de tissu (mouchoirs, torchons, vêtements, etc), si possible propre, pour augmenter la compression ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "maintenir la compression de la plaie jusqu’au relais par un pansement compressif."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Pansement compressif",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "Un pansement compressif est indiqué si :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "la victime ne peut pas appuyer elle-même,"
+            },
+            {
+              "niveau": 1,
+              "texte": "l’hémorragie est déjà contrôlée par la compression manuelle,"
+            },
+            {
+              "niveau": 1,
+              "texte": "le secouriste doit se libérer (exemple : pour alerter, pour réaliser un geste vital, etc.),"
+            },
+            {
+              "niveau": 1,
+              "texte": "et que l’endroit qui saigne n’est pas situé au cou, à la tête, au thorax ou à l’abdomen."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Ainsi que face à une amputation ou un arrachement d’une partie du corps."
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Pour le réaliser :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "recouvrir complètement la plaie par une épaisseur de tissu (mouchoirs, torchons, vêtements, etc.), si possible propre ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "fixer ce tissu à l’aide d’un lien large (ou une bande élastique) assez long ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "serrer suffisamment et maintenir ainsi l’arrêt du saignement."
+            }
+          ]
+        },
+        {
+          "type": "paragraphe",
+          "texte": "Si le saignement se poursuit après la mise en place d’un pansement compressif, reprendre la compression manuelle par-dessus le pansement compressif."
+        }
+      ]
+    },
+    {
+      "titre": "Points clés",
+      "contenu": [
+        {
+          "type": "paragraphe",
+          "texte": "La compression doit être :"
+        },
+        {
+          "type": "liste",
+          "elements": [
+            {
+              "niveau": 1,
+              "texte": "suffisante pour arrêter le saignement ;"
+            },
+            {
+              "niveau": 1,
+              "texte": "permanente."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "(8) Si le secouriste ne peut lui-même maintenir la compression, par exemple s’il existe de nombreuses victimes, il peut demander à la victime ou à un témoin (en s’assurant de sa protection), s’il en est capable, d’appuyer.",
+    "(9) Avec ce qui est efficace au regard de la situation et qu'on peut maintenir aisément : avec la ou les mains, si possible protégées par des gants à usage unique ou un sac plastique, voir si nécessaire le genou."
+  ]
+}
