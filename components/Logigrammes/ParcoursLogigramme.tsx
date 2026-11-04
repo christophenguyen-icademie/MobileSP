@@ -7,24 +7,33 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 
 import PdfViewer from '@/components/PdfViewer';
 import {
-  ETAPES, naviguer, nouveauParcours, PHASES, PROCESSUS, type ProcessusId,
+  PROCESSUS, type ProcessusId,
 } from '@/constants/logigrammes/pourTouteIntervention';
+import { LOGIGRAMMES } from '@/constants/logigrammes/parcoursPse';
+import { COMPLEMENTS } from '@/constants/logigrammes/complements';
+import { creerParcours, naviguerLogigrammes } from '@/utils/navigationLogigrammes';
 import { ouvrirPdfAsset } from '@/utils/psePdf';
 
-export default function PourTouteIntervention({ onQuitter }: { onQuitter: () => void }) {
-  const [parcours, dispatch] = useReducer(naviguer, undefined, nouveauParcours);
+export default function ParcoursLogigramme({ processusInitial, onQuitter }: { processusInitial: ProcessusId; onQuitter: () => void }) {
+  const [parcours, dispatch] = useReducer(naviguerLogigrammes, processusInitial, creerParcours);
   const [source, setSource] = useState<ProcessusId | null>(null);
   const [ouverture, setOuverture] = useState(false);
   const [erreur, setErreur] = useState<string | null>(null);
   const [historiqueVisible, setHistoriqueVisible] = useState(false);
+  const [complementOuvert, setComplementOuvert] = useState<string | null>(null);
   const defilement = useRef<ScrollView>(null);
   const passage = parcours[parcours.length - 1];
-  const etape = ETAPES[passage.etape];
+  const definition = LOGIGRAMMES[passage.processus];
+  const etape = definition.etapes[passage.etape];
+  const phases = [...new Set(Object.values(definition.etapes).map(item => item.phase))];
+  const appelant = passage.retours.at(-1);
+  const origineCirconstancielle = [...passage.retours].reverse().find(retour => retour.processus === '13' && retour.etape !== 'situation');
+  const contexte = origineCirconstancielle ? LOGIGRAMMES['13'].etapes[origineCirconstancielle.etape] : undefined;
 
   useEffect(() => {
     defilement.current?.scrollTo({ y: 0, animated: false });
     setErreur(null);
-  }, [parcours.length, passage.etape]);
+  }, [parcours.length, passage.etape, passage.processus]);
 
   async function consulter(reference: ProcessusId) {
     setErreur(null);
@@ -50,15 +59,26 @@ export default function PourTouteIntervention({ onQuitter }: { onQuitter: () => 
             <Ionicons name="arrow-back" size={18} color="#1f176a" />
             <Text style={styles.texteLien}>Tous les logigrammes</Text>
           </Pressable>
-          <Text accessibilityRole="header" style={styles.titre}>Pour toute intervention</Text>
-          <Text style={styles.sousTitre}>PSE1 · PSE2 · LOGI / 00 / 07-2026</Text>
+          {appelant && (
+            <Pressable accessibilityRole="button" onPress={() => dispatch({ type: 'fermer' })} style={styles.lien}>
+              <Ionicons name="return-up-back-outline" size={18} color="#1f176a" />
+              <Text style={styles.texteLien}>Revenir à {appelant.processus} · {PROCESSUS[appelant.processus].titre}</Text>
+            </Pressable>
+          )}
+          <Text accessibilityRole="header" style={styles.titre}>{PROCESSUS[passage.processus].titre}</Text>
+          <Text style={styles.sousTitre}>PSE1 · PSE2 · LOGI / {passage.processus} / 07-2026</Text>
           <View style={styles.phases}>
-            {PHASES.map((phase) => (
+            {phases.map((phase) => (
               <View key={phase} style={[styles.phase, phase === etape.phase && styles.phaseActive]}>
                 <Text style={[styles.textePhase, phase === etape.phase && styles.textePhaseActive]}>{phase}</Text>
               </View>
             ))}
           </View>
+
+          {contexte && <View style={styles.contexte}>
+            <Text style={styles.texteLien}>Contexte : {contexte.titre}</Text>
+            {contexte.points?.map(point => <Text key={point} style={styles.description}>• {point}</Text>)}
+          </View>}
 
           <View style={styles.formulaire}>
             <Text style={styles.indicateur}>Étape {parcours.length} · {etape.phase}</Text>
@@ -69,28 +89,29 @@ export default function PourTouteIntervention({ onQuitter }: { onQuitter: () => 
             {etape.points?.map((point) => (
               <Text key={point} style={styles.description}>• {point}</Text>
             ))}
-            {etape.processus && (
+            {etape.liens?.map((lien, index) => (
               <Pressable
+                key={`${passage.processus}-${passage.etape}-lien-${index}`}
                 accessibilityRole="button"
-                disabled={ouverture}
-                onPress={() => consulter(etape.processus!)}
+                accessibilityLabel={lien.libelle}
+                onPress={() => dispatch({ type: 'ouvrir', action: lien.action })}
                 style={({ pressed }) => [styles.sourceAction, pressed && styles.presse]}
               >
-                <Ionicons name="document-text-outline" size={24} color="#1f176a" />
+                <Ionicons name="git-branch-outline" size={24} color="#1f176a" />
                 <View style={styles.flexible}>
-                  <Text style={styles.texteLien}>Consulter le logigramme {etape.processus}</Text>
-                  <Text style={styles.description}>{PROCESSUS[etape.processus].titre} · PDF</Text>
+                  <Text style={styles.texteLien}>{lien.libelle}</Text>
+                  <Text style={styles.description}>{PROCESSUS[lien.action.processus].titre} · Parcours interactif</Text>
                 </View>
                 <Ionicons name="open-outline" size={20} color="#1f176a" />
               </Pressable>
-            )}
+            ))}
 
             <View accessibilityRole="radiogroup" accessibilityLabel={etape.titre} style={styles.choix}>
               {etape.choix.map((choix, index) => {
                 const selectionne = passage.reponse === index;
                 return (
                   <Pressable
-                    key={`${passage.etape}-${index}`}
+                    key={`${passage.processus}-${passage.etape}-${index}`}
                     accessibilityRole="radio"
                     accessibilityLabel={choix.libelle}
                     aria-checked={selectionne}
@@ -109,12 +130,12 @@ export default function PourTouteIntervention({ onQuitter }: { onQuitter: () => 
                 accessibilityRole="button"
                 accessibilityState={{ disabled: parcours.length === 1 }}
                 disabled={parcours.length === 1}
-                onPress={() => dispatch({ type: 'retour' })}
+                onPress={() => dispatch({ type: 'precedent' })}
                 style={[styles.secondaire, parcours.length === 1 && styles.desactive]}
               >
                 <Text style={styles.texteLien}>Précédent</Text>
               </Pressable>
-              <Pressable
+              {etape.choix.length > 0 && <Pressable
                 accessibilityRole="button"
                 accessibilityState={{ disabled: passage.reponse === null }}
                 disabled={passage.reponse === null}
@@ -123,18 +144,29 @@ export default function PourTouteIntervention({ onQuitter }: { onQuitter: () => 
               >
                 <Text style={styles.textePrincipal}>Continuer</Text>
                 <Ionicons name="arrow-forward" size={20} color="#fff" />
-              </Pressable>
+              </Pressable>}
             </View>
           </View>
+
+          {COMPLEMENTS[passage.processus]?.map(complement => {
+            const cle = `${passage.processus}-${complement.titre}`;
+            return <View key={cle} style={styles.complement}>
+              <Pressable accessibilityRole="button" aria-expanded={complementOuvert === cle} onPress={() => setComplementOuvert(complementOuvert === cle ? null : cle)} style={styles.lien}>
+                <Ionicons name={complementOuvert === cle ? 'chevron-up' : 'chevron-down'} size={18} color="#1f176a" />
+                <Text style={styles.texteLien}>{complement.titre}</Text>
+              </Pressable>
+              {complementOuvert === cle && complement.points.map(point => <Text key={point} style={styles.description}>• {point}</Text>)}
+            </View>;
+          })}
 
           {ouverture && <ActivityIndicator accessibilityLabel="Ouverture du PDF" color="#1f176a" />}
           {erreur && <Text accessibilityRole="alert" style={styles.erreur}>{erreur}</Text>}
           <View style={styles.outils}>
-            <Pressable accessibilityRole="button" disabled={ouverture} onPress={() => consulter('00')} style={styles.lien}>
+            <Pressable accessibilityRole="button" disabled={ouverture} onPress={() => consulter(passage.processus)} style={styles.lien}>
               <Ionicons name="document-text-outline" size={18} color="#1f176a" />
               <Text style={styles.texteLien}>Diagramme original (PDF)</Text>
             </Pressable>
-            <Pressable accessibilityRole="button" onPress={() => dispatch({ type: 'recommencer' })} style={styles.lien}>
+            <Pressable accessibilityRole="button" onPress={() => dispatch({ type: 'recommencer', processus: processusInitial })} style={styles.lien}>
               <Ionicons name="refresh" size={18} color="#1f176a" />
               <Text style={styles.texteLien}>Recommencer</Text>
             </Pressable>
@@ -152,16 +184,16 @@ export default function PourTouteIntervention({ onQuitter }: { onQuitter: () => 
               </Pressable>
               {historiqueVisible && parcours.slice(0, -1).map((entree, index) => (
                 <View key={index} style={styles.historique}>
-                  <Text style={styles.texteLien}>{index + 1}. {ETAPES[entree.etape].titre}</Text>
+                  <Text style={styles.texteLien}>{index + 1}. [{entree.processus}] {LOGIGRAMMES[entree.processus].etapes[entree.etape].titre}</Text>
                   <Text style={styles.description}>
-                    {entree.reponse !== null && ETAPES[entree.etape].choix[entree.reponse].libelle}
+                    {entree.reponse !== null && LOGIGRAMMES[entree.processus].etapes[entree.etape].choix[entree.reponse].libelle}
                   </Text>
                 </View>
               ))}
             </View>
           )}
           <Text style={styles.note}>
-            Source : Logigrammes PSE, juillet 2026, page 3. Les actions numérotées renvoient aux logigrammes associés.
+            Source : Logigrammes PSE, juillet 2026, page {Number(passage.processus) + 3}. Les renvois ouvrent les parcours associés.
             {'\n'}Les textes des références techniques nationales priment sur les logigrammes.
           </Text>
         </View>
@@ -212,6 +244,8 @@ const styles = StyleSheet.create({
   texteLien: { color: '#1f176a', fontSize: 15, fontWeight: '600', flexShrink: 1 },
   sourceAction: { borderRadius: 12, padding: 14, backgroundColor: '#eaf3fa', flexDirection: 'row', gap: 12, alignItems: 'center' },
   flexible: { flex: 1 },
+  complement: { backgroundColor: '#fff', borderRadius: 12, padding: 14, gap: 8 },
+  contexte: { backgroundColor: '#eaf3fa', borderRadius: 12, padding: 16, gap: 8 },
   outils: { flexDirection: 'row', flexWrap: 'wrap', gap: 16, justifyContent: 'space-between' },
   historique: { borderLeftWidth: 2, borderLeftColor: '#dcd9e8', paddingLeft: 16, paddingVertical: 10, gap: 4 },
   note: { color: '#625e70', fontSize: 13, lineHeight: 20, marginBottom: 8 },

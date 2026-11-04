@@ -1,6 +1,6 @@
 /**
  * Transcription de LOGI / 00 / 07-2026, « Pour toute intervention »,
- * Logigrammes PSE.pdf, page 3. Les processus 01 à 14 restent consultables en PDF.
+ * Logigrammes PSE.pdf, page 3. Les renvois interactifs sont définis dans parcoursPse.ts.
  * Les seules précisions de sortie de réanimation viennent du processus 05 (page 8).
  */
 export const PHASES = [

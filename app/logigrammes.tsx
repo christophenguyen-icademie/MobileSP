@@ -4,33 +4,36 @@ import { useState } from 'react';
 import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
-import PourTouteIntervention from '@/components/Logigrammes/PourTouteIntervention';
+import ParcoursLogigramme from '@/components/Logigrammes/ParcoursLogigramme';
+import { PROCESSUS, type ProcessusId } from '@/constants/logigrammes/pourTouteIntervention';
 
 export default function Logigrammes() {
-  const [parcoursOuvert, setParcoursOuvert] = useState(false);
+  const [parcoursOuvert, setParcoursOuvert] = useState<ProcessusId | null>(null);
 
   return (
     <SafeAreaView edges={['left', 'right', 'bottom']} style={styles.ecran}>
       <Stack.Screen options={{ title: 'Logigrammes' }} />
       {parcoursOuvert ? (
-        <PourTouteIntervention onQuitter={() => setParcoursOuvert(false)} />
+        <ParcoursLogigramme key={parcoursOuvert} processusInitial={parcoursOuvert} onQuitter={() => setParcoursOuvert(null)} />
       ) : (
         <ScrollView contentContainerStyle={styles.defilement}>
           <View style={styles.contenu}>
             <Text accessibilityRole="header" style={styles.titre}>Logigrammes</Text>
             <Text style={styles.description}>Choisissez un parcours pour suivre ses étapes.</Text>
-            <Pressable
+            {(Object.keys(PROCESSUS) as ProcessusId[]).sort().map(reference => <Pressable
+              key={reference}
               accessibilityRole="button"
-              onPress={() => setParcoursOuvert(true)}
+              accessibilityLabel={`${reference} · ${PROCESSUS[reference].titre}`}
+              onPress={() => setParcoursOuvert(reference)}
               style={({ pressed }) => [styles.carte, pressed && styles.presse]}
             >
               <Ionicons name="git-branch-outline" size={32} color="#1f176a" />
               <View style={styles.libelle}>
-                <Text style={styles.nom}>Pour toute intervention</Text>
-                <Text style={styles.description}>PSE1 · PSE2 · Les quatre regards, la prise en charge et la surveillance</Text>
+                <Text style={styles.nom}>{reference} · {PROCESSUS[reference].titre}</Text>
+                <Text style={styles.description}>PSE1 · PSE2 · {reference === '00' ? 'Les quatre regards, la prise en charge et la surveillance' : 'Parcours interactif'}</Text>
               </View>
               <Ionicons name="chevron-forward" size={22} color="#1f176a" />
-            </Pressable>
+            </Pressable>)}
           </View>
         </ScrollView>
       )}
