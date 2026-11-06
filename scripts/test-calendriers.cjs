@@ -118,6 +118,8 @@ test('La sauvegarde native survit à un nouveau chargement et à un échec d’�
   fichiers.set(`${fichier}.tmp`, fichiers.get(fichier));
   fichiers.delete(fichier);
   assert.deepEqual(await ouvrir().chargerPassages(), [passage]);
+  await assert.rejects(ouvrir().enregistrerPassages([]), /Disque plein/);
+  assert.deepEqual(await ouvrir().chargerPassages(), [passage]);
 });
 
 test('La version web recharge les saisies et signale un quota dépassé', async () => {

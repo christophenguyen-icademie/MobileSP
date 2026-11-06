@@ -16,7 +16,9 @@ export async function chargerPassages(): Promise<PassageCalendrier[]> {
   // Reprise d'une écriture interrompue entre le remplacement et le déplacement.
   const temporaire = `${fichier}.tmp`;
   if ((await FileSystem.getInfoAsync(temporaire)).exists) {
-    return decoderPassages(await FileSystem.readAsStringAsync(temporaire));
+    const passages = decoderPassages(await FileSystem.readAsStringAsync(temporaire));
+    await FileSystem.moveAsync({ from: temporaire, to: fichier });
+    return passages;
   }
   return [];
 }
