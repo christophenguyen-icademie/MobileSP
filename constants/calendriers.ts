@@ -1,4 +1,9 @@
-import type { TourneeCalendrier } from '@/types/calendriers';
+import type { CarnetRecus, TourneeCalendrier } from '@/types/calendriers';
+
+export const CARNETS_DEMONSTRATION: CarnetRecus[] = ['2026-001', '2026-002', '2026-003'].map(numero => ({
+  numero,
+  recus: Array.from({ length: 25 }, (_, index) => String(index + 1).padStart(5, '0')),
+}));
 
 // Données isolées du futur service métier : aucune identité ou adresse réelle.
 export const TOURNEES_DEMONSTRATION: TourneeCalendrier[] = [
@@ -42,5 +47,7 @@ export const LIBELLES_PASSAGES = {
 export const LIBELLES_PAIEMENTS = {
   ESPECES: 'Espèces',
   CHEQUE: 'Chèque',
+  CB: 'CB',
+  DON: 'DON',
   AUTRE: 'Autre',
 } as const;

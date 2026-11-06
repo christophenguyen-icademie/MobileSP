@@ -1,30 +1,32 @@
 import * as FileSystem from 'expo-file-system/legacy';
 
-import type { PassageCalendrier } from '@/types/calendriers';
-import { decoderPassages, encoderPassages } from './calendriers';
+import type { DonneesCalendriers } from '@/types/calendriers';
+import { decoderCalendriers, encoderCalendriers, verifierConservationRecus } from './calendriers';
 
 function fichierPassages() {
   if (!FileSystem.documentDirectory) throw new Error('Le stockage local est indisponible.');
   return `${FileSystem.documentDirectory}calendriersp-demo-passages-v1.json`;
 }
 
-export async function chargerPassages(): Promise<PassageCalendrier[]> {
+export async function chargerCalendriers(): Promise<DonneesCalendriers> {
   const fichier = fichierPassages();
   if ((await FileSystem.getInfoAsync(fichier)).exists) {
-    return decoderPassages(await FileSystem.readAsStringAsync(fichier));
+    return decoderCalendriers(await FileSystem.readAsStringAsync(fichier));
   }
   // Reprise d'une écriture interrompue entre le remplacement et le déplacement.
   const temporaire = `${fichier}.tmp`;
   if ((await FileSystem.getInfoAsync(temporaire)).exists) {
-    const passages = decoderPassages(await FileSystem.readAsStringAsync(temporaire));
+    const donnees = decoderCalendriers(await FileSystem.readAsStringAsync(temporaire));
     await FileSystem.moveAsync({ from: temporaire, to: fichier });
-    return passages;
+    return donnees;
   }
-  return [];
+  return { passages: [], adresses: [], recusUtilises: [] };
 }
 
-export async function enregistrerPassages(passages: PassageCalendrier[]): Promise<void> {
+export async function enregistrerCalendriers(donnees: DonneesCalendriers): Promise<void> {
   const fichier = fichierPassages();
-  await FileSystem.writeAsStringAsync(`${fichier}.tmp`, encoderPassages(passages));
+  const contenu = encoderCalendriers(donnees);
+  verifierConservationRecus(await chargerCalendriers(), donnees);
+  await FileSystem.writeAsStringAsync(`${fichier}.tmp`, contenu);
   await FileSystem.moveAsync({ from: `${fichier}.tmp`, to: fichier });
 }

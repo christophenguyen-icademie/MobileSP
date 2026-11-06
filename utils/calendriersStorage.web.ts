@@ -1,14 +1,17 @@
-import type { PassageCalendrier } from '@/types/calendriers';
-import { decoderPassages, encoderPassages } from './calendriers';
+import type { DonneesCalendriers } from '@/types/calendriers';
+import { decoderCalendriers, encoderCalendriers, verifierConservationRecus } from './calendriers';
 
 const CLE_STOCKAGE = 'mobilesp.calendriers.demo.v1';
 
-export async function chargerPassages(): Promise<PassageCalendrier[]> {
+export async function chargerCalendriers(): Promise<DonneesCalendriers> {
   if (typeof window === 'undefined') throw new Error('Le stockage du navigateur est indisponible.');
   const contenu = window.localStorage.getItem(CLE_STOCKAGE);
-  return contenu === null ? [] : decoderPassages(contenu);
+  return contenu === null ? { passages: [], adresses: [], recusUtilises: [] } : decoderCalendriers(contenu);
 }
 
-export async function enregistrerPassages(passages: PassageCalendrier[]): Promise<void> {
-  window.localStorage.setItem(CLE_STOCKAGE, encoderPassages(passages));
+export async function enregistrerCalendriers(donnees: DonneesCalendriers): Promise<void> {
+  const contenu = encoderCalendriers(donnees);
+  const precedent = window.localStorage.getItem(CLE_STOCKAGE);
+  if (precedent !== null) verifierConservationRecus(decoderCalendriers(precedent), donnees);
+  window.localStorage.setItem(CLE_STOCKAGE, contenu);
 }
