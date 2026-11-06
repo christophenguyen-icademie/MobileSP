@@ -2,6 +2,22 @@
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
+## Calendriers
+
+L’onglet **Calendriers** (`app/(tabs)/calendrier.tsx`) intègre le parcours mobile de CalendrierSP : sélection d’une tournée, liste des adresses, enregistrement et modification des passages (vente, refus, absence, à revoir), quantités, montant, moyen de paiement et commentaire.
+
+Le module fonctionne actuellement en **démonstration locale**, avec deux tournées d’exemple. Les compteurs et montants sont calculés à partir des passages saisis. Sur Android/iOS, les passages sont conservés dans le répertoire de documents de l’application via `expo-file-system` ; sur le web, dans le stockage local du navigateur. Les données sont rechargées après fermeture. Les données de démonstration sont stockées séparément des futures données serveur.
+
+Le backend CalendrierSP ne fournit pas encore les routes métier `/api/mobile/tournees`, `/api/mobile/tournees/{id}/adresses` et `/api/mobile/sync` ni leur authentification. Aucun envoi ni synchronisation ne sont simulés. Le `.env` de `calendriersp/` configure les conteneurs Docker ; il n’est pas chargé par MobileSP. Le futur raccordement de l’API nécessitera une URL Expo publique accessible depuis le terminal, une authentification et le contrat de synchronisation décrit dans `../calendriersp/docs/OFFLINE_SYNC.md`.
+
+Le module réutilise les dépendances Expo 54 de MobileSP et la navigation existante, sans importer une seconde application Expo ni installer les dépendances Expo 53 du starter.
+
+Vérification du stockage et des règles de saisie :
+
+```bash
+node --test scripts/test-calendriers.cjs
+```
+
 ## Get started
 
 1. Install dependencies

@@ -1,21 +1,5 @@
-import { StyleSheet, View } from 'react-native';
+import CalendriersScreen from '@/components/Calendriers/CalendriersScreen';
 
 export default function CalendrierScreen() {
-  return (
-    <View style={styles.container}>
-      
-    </View>
-  );
+  return <CalendriersScreen />;
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-  text: {
-    color: '#000',
-  },
-});
