@@ -4,27 +4,48 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
 
 ## Calendriers
 
-L’onglet **Calendriers** (`app/(tabs)/calendrier.tsx`) intègre le parcours mobile de CalendrierSP : sélection d’une tournée, liste des adresses, enregistrement et modification des passages (vente, refus, absence, à revoir), quantités, montant, moyen de paiement et commentaire.
+L’onglet **Calendriers** (`app/(tabs)/calendrier.tsx`) utilise maintenant l’API Symfony de CalendrierSP. Il propose la connexion par identifiant court d’amicale (4 à 20 lettres non accentuées ou chiffres), e-mail et mot de passe, les campagnes et les tournées autorisées pour le compte. Un sapeur ne voit que ses tournées affectées.
 
-Le module fonctionne actuellement en **démonstration locale**, avec deux tournées d’exemple. Les compteurs et montants sont calculés à partir des passages saisis. Sur Android/iOS, les passages sont conservés dans le répertoire de documents de l’application via `expo-file-system` ; sur le web, dans le stockage local du navigateur. Les données sont rechargées après fermeture. Les données de démonstration sont stockées séparément des futures données serveur.
+Les adresses, résultats, carnets et reçus proviennent du serveur. Les résultats disponibles sont **Vente, Don, Refus, Absent, À revoir et Non visitée**. Une vente propose Espèces, Chèque, CB ou Autre. Un **Don** est un résultat distinct, avec carnet/reçu et commentaire, sans quantité, montant ni paiement. Les reçus sont sélectionnés par identifiant serveur et leur numéro est unique par amicale, toutes tournées confondues. Un reçu consommé ou annulé ne se réutilise pas ; une correction peut conserver son reçu courant. Les totaux par carnet sont ceux du serveur.
 
-Les moyens de paiement proposés sont Espèces, Chèque, CB, DON et Autre. Dans une tournée, **Ajouter une adresse** permet de saisir une voie, une ville et, facultativement, un code postal, un bâtiment, un étage et un appartement. Depuis la saisie d’un passage, **Modifier l’adresse** permet de compléter une adresse existante. Deux appartements d’une même adresse peuvent être enregistrés séparément. Les adresses ajoutées ou modifiées sont sauvegardées avec les passages ; les anciennes sauvegardes sont reprises automatiquement.
+La saisie complète l’adresse avec **bâtiment, étage, appartement et porte** (80 caractères maximum chacun). **Ajouter un appartement** copie la voie, le code postal et la ville, vide les quatre précisions et ouvre un passage indépendant. **Nouvelle adresse** permet une vente ou visite hors référentiel, avec voie, code postal et ville requis. Dans les deux cas, l’adresse et le passage sont créés atomiquement : un logement déjà présent ou un reçu consommé bloque toute l’opération. La date de passage JJ/MM/AAAA est conservée côté serveur, distincte de la dernière modification ; les dates impossibles et futures sont refusées.
 
-Chaque passage possède une **date de passage** obligatoire au format JJ/MM/AAAA, préremplie à la date locale du jour. Elle peut être antérieure pour saisir une visite après coup ; les dates impossibles ou futures sont refusées. Cette date reste distincte de `updatedAt`, qui conserve la date et l’heure réelles de la dernière sauvegarde. Lors de la reprise des anciens passages, leur date est déduite de leur ancien horodatage de sauvegarde et peut ensuite être corrigée.
+Les filtres par rue, résultat et carnet se combinent avec la recherche du numéro exact de reçu. Les suffixes de numéro (`12 T`, `14bis`, `18B`) ne créent pas de rues distinctes. Le tri est disponible par adresse, montant ou résultat, dans les deux sens. Pour l’adresse, seule la partie numérique du numéro est comparée : `2` précède `171`, et `3`, `3t` ou `3 ter` ont la même valeur de tri ; les adresses de même numéro conservent leur ordre d’origine. Les ventes et dons sont verts, les refus rouges, les absences et visites à revoir orange. Une tournée validée reste consultable, avec ses écritures désactivées. Un responsable peut ajouter un carnet (25 reçus par défaut).
 
-Une **vente** exige un carnet et un reçu, y compris pour CB ou DON. Trois carnets d’exemple, `2026-001`, `2026-002` et `2026-003`, contiennent chacun 25 reçus, de `00001` à `00025`. Les listes ne proposent que les reçus encore sélectionnables. Le numéro de carnet est unique ; le numéro de reçu est unique au sein de son carnet. Un même numéro à cinq chiffres peut donc exister dans deux carnets différents. Le registre local empêche de réutiliser un reçu dans une autre adresse ou tournée, même après correction ou annulation de la vente. Une vente peut conserver son reçu lorsqu’elle est modifiée. Si celui-ci est remplacé, l’ancien reste consommé.
+### Connexion au backend
 
-Le résumé de chaque tournée et le résumé global présentent le nombre de reçus et le montant des ventes par carnet. Les anciennes ventes sans reçu sont conservées et affichées séparément comme étant à compléter ; leur prochaine sauvegarde en vente exige un reçu. Le stockage passe au format 3 avec reprise des formats 1 et 2, en conservant le même fichier et la même clé de stockage. Le registre des reçus reste propre à cet appareil : l’unicité entre plusieurs appareils nécessitera un contrôle transactionnel côté API lors du futur raccordement.
+Configurer l’adresse de l’API dans `.env.local` (ou dans le champ de connexion) :
 
-Le backend CalendrierSP ne fournit pas encore les routes métier `/api/mobile/tournees`, `/api/mobile/tournees/{id}/adresses` et `/api/mobile/sync` ni leur authentification. Aucun envoi ni synchronisation ne sont simulés. Le `.env` de `calendriersp/` configure les conteneurs Docker ; il n’est pas chargé par MobileSP. Le futur raccordement de l’API nécessitera une URL Expo publique accessible depuis le terminal, une authentification et le contrat de synchronisation décrit dans `../calendriersp/docs/OFFLINE_SYNC.md`.
+```dotenv
+EXPO_PUBLIC_CALENDRIERS_API_URL=http://192.168.1.20:8082/api
+```
 
-Le module réutilise les dépendances Expo 54 de MobileSP et la navigation existante, sans importer une seconde application Expo ni installer les dépendances Expo 53 du starter.
+Cette variable est publique et ne doit contenir aucun secret. Sans variable, le module propose le poste Expo sur le port 8082. Adapter ce port à `WEB_PORT` du projet CalendrierSP. Sur un téléphone, `localhost` désigne le téléphone : utiliser l’IP locale du poste Docker. Sur l’émulateur Android, utiliser `10.0.2.2` si nécessaire. Sur le web, utiliser le même nom d’hôte pour Expo et l’API (`localhost` des deux côtés ou la même IP) pour les cookies SameSite. Après une modification de variable Expo, redémarrer Metro.
 
-Vérification du stockage et des règles de saisie :
+Pour autoriser un téléphone sur le réseau local, depuis `../calendriersp`, démarrer le frontal avec `WEB_BIND_ADDRESS=0.0.0.0 docker compose up -d frontend-web`. PostgreSQL et l’API directe restent liés à leur adresse configurée. Le téléphone et le poste doivent partager le réseau et le pare-feu doit autoriser le port web choisi. En production, utiliser HTTPS.
+
+Le client natif utilise le cookie de session du système et le jeton CSRF de `/api/session`. Les cookies restent gérés par le système. La mémorisation des identifiants est facultative, selon les modalités ci-dessous. La session est reprise au lancement si le système dispose encore du cookie. Pour Expo web, le backend autorise uniquement les origines listées dans `MOBILE_WEB_ORIGINS` (par défaut `http://localhost:8081,http://127.0.0.1:8081`). Pour un autre port ou une IP locale, ajouter l’origine exacte à cette variable du backend puis recréer son conteneur. Un déploiement web sur un autre domaine doit utiliser un proxy de même origine ou une configuration de cookies adaptée ; CORS seul ne contourne pas SameSite.
+
+Une connexion est nécessaire pour lire et écrire. L’interface confirme un enregistrement uniquement après réponse positive de l’API. Une erreur conserve le formulaire ; un conflit recharge les reçus disponibles. Si une réponse d’écriture est perdue, actualiser la tournée avant de renouveler la saisie. Aucune écriture n’est rejouée automatiquement. La synchronisation offline avec journal idempotent n’est pas encore implémentée.
+
+Les anciens fichiers et clés de démonstration restent conservés séparément et ne sont ni importés ni envoyés au serveur. Les anciens utilitaires de démonstration sont gardés pour la lecture et les tests de ces sauvegardes ; le parcours actif n’importe plus les tournées ou carnets d’exemple.
+
+### Mémoriser la connexion et suivre les calendriers
+
+L’option **Mémoriser mes informations de connexion**, désactivée par défaut, conserve l’identifiant d’amicale, l’identifiant utilisateur (e-mail) et le mot de passe uniquement après une connexion réussie. L’adresse de l’API est conservée avec eux pour reprendre le bon serveur. Le prochain lancement préremplit ces champs, sans lancer une nouvelle connexion automatique. Une déconnexion conserve ce choix. Désactiver l’option ou utiliser **Oublier mes informations de connexion** efface la sauvegarde ; le bouton reste accessible quand le compte est connecté.
+
+Sur Android/iOS, ces valeurs utilisent Expo SecureStore (Keychain/Keystore), sans fichier JSON de mot de passe. Une nouvelle compilation du client de développement est nécessaire pour intégrer cette dépendance native ; elle est disponible dans Expo Go. Sur le web, elles sont conservées dans le stockage local du navigateur, sans chiffrement : l’écran le précise avant activation. Cette option est destinée à un appareil personnel. Une erreur de stockage est affichée et ne bloque pas une connexion réussie.
+
+Chaque tournée affiche **Calendriers vendus ou donnés : distribués / stock total**, avec le détail des ventes et des dons et une barre de progression. Ces valeurs viennent du serveur et se rechargent après une saisie ou une correction. Un passage **Don** compte pour un calendrier donné, conformément au calcul de l’API. Un stock nul affiche **Stock à renseigner**.
+
+### Vérifications
 
 ```bash
-node --test scripts/test-calendriers.cjs
+node --test scripts/test-calendriers.cjs scripts/test-calendriers-api.cjs scripts/test-calendriers-connexion.cjs
+npx tsc --noEmit
 ```
+
+Les tests du client API et de la saisie couvrent cookies/CSRF, routes de création atomique, dons, CB, dates, logement, reçus utilisés et filtres. Les tests HTTP et le parcours Chrome interprojets sont exécutés avec la base éphémère de `../calendriersp/compose.test.yml` ; aucune donnée réelle n’est nécessaire.
 
 ## Get started
 

@@ -1,53 +1,16 @@
-import { Picker } from '@react-native-picker/picker';
-import { Platform, StyleSheet, Text, View } from 'react-native';
+import { Text } from 'react-native';
+import type { Carnet, FormulairePassage } from '@/types/calendriersApi';
+import { recusSelectionnables } from '@/utils/calendriersServeur';
+import { Selecteur, s } from './CalendriersUi';
 
-import { CARNETS_DEMONSTRATION } from '@/constants/calendriers';
-import type { DonneesCalendriers, SaisiePassage } from '@/types/calendriers';
-import { recusDisponibles } from '@/utils/calendriers';
-
-export default function RecuForm({ donnees, tourneeId, adresseId, saisie, onChange, disabled }: {
-  donnees: DonneesCalendriers;
-  tourneeId: string;
-  adresseId: string;
-  saisie: SaisiePassage;
-  onChange: (saisie: SaisiePassage) => void;
-  disabled: boolean;
-}) {
-  const disponibles = recusDisponibles(donnees, saisie.numeroCarnet, tourneeId, adresseId);
-  const ancienneVente = donnees.passages.some(p => p.tourneeId === tourneeId && p.adresseId === adresseId
-    && p.statut === 'VENTE' && !p.numeroCarnet);
+export default function RecuForm({ carnets, saisie, onChange, disabled }: { carnets: Carnet[]; saisie: FormulairePassage; onChange: (patch: Partial<FormulairePassage>) => void; disabled: boolean }) {
+  const disponibles = recusSelectionnables(carnets.find(c => c.id === saisie.carnetId), saisie);
   return <>
-    {ancienneVente && <Text style={s.aide}>Cette ancienne vente n’a pas de reçu. Complétez le carnet et le reçu avant de l’enregistrer.</Text>}
-    <Text style={s.libelle}>Carnet de reçus (obligatoire)</Text>
-    <View style={s.selecteur}>
-      <Picker accessibilityLabel="Carnet de reçus" selectedValue={saisie.numeroCarnet} enabled={!disabled}
-        style={s.picker} onValueChange={numeroCarnet => onChange({ ...saisie, numeroCarnet, numeroRecu: '' })}>
-        <Picker.Item label="Choisir un carnet…" value="" />
-        {CARNETS_DEMONSTRATION.map(carnet => {
-          const restants = recusDisponibles(donnees, carnet.numero, tourneeId, adresseId).length;
-          return <Picker.Item key={carnet.numero} label={`${carnet.numero} · ${restants}/25 sélectionnables`} value={carnet.numero} />;
-        })}
-      </Picker>
-    </View>
-    <Text style={s.libelle}>Numéro du reçu (5 chiffres, obligatoire)</Text>
-    <View style={s.selecteur}>
-      <Picker accessibilityLabel="Numéro du reçu" selectedValue={saisie.numeroRecu}
-        enabled={!disabled && disponibles.length > 0} style={s.picker}
-        onValueChange={numeroRecu => onChange({ ...saisie, numeroRecu })}>
-        <Picker.Item label={!saisie.numeroCarnet ? 'Choisir d’abord un carnet…' : disponibles.length ? 'Choisir un reçu…' : 'Carnet épuisé'} value="" />
-        {disponibles.map(numero => <Picker.Item key={numero} label={numero} value={numero} />)}
-      </Picker>
-    </View>
-    <Text style={s.aide}>Un reçu utilisé reste indisponible après correction ou annulation de la vente.</Text>
+    {!carnets.length && <Text style={s.erreur}>Aucun carnet pour cette tournée. Un responsable doit en ajouter un avant une vente ou un don.</Text>}
+    <Selecteur label="Carnet de reçus" value={saisie.carnetId} disabled={disabled} onChange={carnetId => onChange({ carnetId, recuId: '' })}
+      options={ [['', 'Choisir un carnet…'], ...carnets.map(c => [c.id, `${c.numero} · ${recusSelectionnables(c, saisie).length} sélectionnables`] as [string, string])] } />
+    <Selecteur label="Numéro du reçu" value={saisie.recuId} disabled={disabled || !disponibles.length} onChange={recuId => onChange({ recuId })}
+      options={ [['', saisie.carnetId && !disponibles.length ? 'Carnet épuisé' : 'Choisir un reçu…'], ...disponibles.map(r => [r.id, `N° ${r.numero}`] as [string, string])] } />
+    <Text style={s.secondaire}>Un reçu utilisé ou annulé ne peut plus être attribué à un autre passage. Le reçu courant reste sélectionnable lors d’une correction.</Text>
   </>;
 }
-
-const s = StyleSheet.create({
-  libelle: { fontSize: 13, fontWeight: '700', color: '#33445b', marginTop: 12, marginBottom: 4 },
-  selecteur: { borderWidth: 1, borderColor: '#cdd4e0', borderRadius: 9, overflow: 'hidden' },
-  picker: {
-    color: '#202b45', backgroundColor: '#fff', width: '100%',
-    ...Platform.select({ web: { minHeight: 50, fontSize: 16, paddingHorizontal: 12, borderWidth: 0 } }),
-  },
-  aide: { fontSize: 12, lineHeight: 18, color: '#66748a' },
-});

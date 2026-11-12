@@ -1,396 +1,288 @@
-import { Ionicons } from '@expo/vector-icons';
 import { useIsFocused } from '@react-navigation/native';
 import { useFocusEffect } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
 import { useCallback, useEffect, useRef, useState } from 'react';
-import {
-  ActivityIndicator, BackHandler, KeyboardAvoidingView, Platform, Pressable,
-  ScrollView, StyleSheet, Text, TextInput, View,
-} from 'react-native';
+import { BackHandler, KeyboardAvoidingView, Platform, ScrollView, Switch, Text, TextInput, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
+import type { Carnet, FormulairePassage, Profil, Tournee } from '@/types/calendriersApi';
+import { CalendriersApi, ErreurCalendriers } from '@/utils/calendriersApi';
+import { serveurCalendriers } from '@/utils/calendriersConfig';
+import { chargerConnexion, enregistrerConnexion, oublierConnexion } from '@/utils/calendriersConnexion';
+import type { ConnexionMemorisee } from '@/utils/calendriersConnexionCommun';
+import { couleurResultat, dateAffichee, euros, FILTRES_INITIAUX, filtrerAdresses, formulaire, logement, PAIEMENTS, payloadPassage, RESULTATS, rues } from '@/utils/calendriersServeur';
 import AdresseForm from './AdresseForm';
+import BilanCalendriers from './BilanCalendriers';
 import RecuForm from './RecuForm';
-import { LIBELLES_PAIEMENTS, LIBELLES_PASSAGES, TOURNEES_DEMONSTRATION } from '@/constants/calendriers';
-import type { AdresseCalendrier, DonneesCalendriers, PassageCalendrier, SaisieAdresse, SaisiePassage } from '@/types/calendriers';
-import {
-  afficherDatePassage, afficherEuros, appliquerAdressesLocales, bilanCarnets, bilanPassages, complementAdresse, creerAdresse,
-  dateLocale, enregistrerPassageLocal, passagesTournee, remplacerAdresseLocale,
-  ConflitRecusError,
-} from '@/utils/calendriers';
-import { chargerCalendriers, enregistrerCalendriers } from '@/utils/calendriersStorage';
+import { Attente, Bouton, Carte, Champ, Selecteur, s } from './CalendriersUi';
 
-const nouvelleSaisie = (): SaisiePassage => ({
-  statut: 'VENTE', quantite: '1', montant: '', moyenPaiement: 'ESPECES', commentaire: '',
-  datePassage: afficherDatePassage(dateLocale()), numeroCarnet: '', numeroRecu: '',
-});
-
-const nouvelleAdresse = (): SaisieAdresse => ({
-  ligne1: '', ville: '', codePostal: '', appartement: '', etage: '', batiment: '',
-});
+const STATUTS = { PREPAREE: 'Préparée', EN_COURS: 'En cours', TERMINEE: 'Terminée', VALIDEE: 'Validée' };
 
 export default function CalendriersScreen() {
-  const [tourneeId, setTourneeId] = useState<string | null>(null);
-  const [adresseId, setAdresseId] = useState<string | null>(null);
-  const [donnees, setDonnees] = useState<DonneesCalendriers>({ passages: [], adresses: [], recusUtilises: [] });
-  const [saisie, setSaisie] = useState(nouvelleSaisie);
-  const [modeAdresse, setModeAdresse] = useState<'creation' | 'modification' | null>(null);
-  const [saisieAdresse, setSaisieAdresse] = useState(nouvelleAdresse);
+  const [serveur, setServeur] = useState(serveurCalendriers);
+  const [amicale, setAmicale] = useState('');
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
+  const [memoriser, setMemoriser] = useState(false);
+  const [connexionEnregistree, setConnexionEnregistree] = useState(false);
+  const [avisMemoire, setAvisMemoire] = useState('');
+  const connexionMemorisee = useRef<ConnexionMemorisee | null>(null);
+  const [profil, setProfil] = useState<Profil | null>(null);
+  const [tournees, setTournees] = useState<Tournee[]>([]);
+  const [tournee, setTournee] = useState<Tournee | null>(null);
+  const [annee, setAnnee] = useState('');
+  const [saisie, setSaisie] = useState<FormulairePassage | null>(null);
+  const [filtres, setFiltres] = useState({ ...FILTRES_INITIAUX });
+  const [carnet, setCarnet] = useState<{ numero: string; premierRecu: string; nombreRecus: string } | null>(null);
+  const [erreur, setErreur] = useState('');
+  const [confirmation, setConfirmation] = useState('');
   const [chargement, setChargement] = useState(true);
-  const [erreurChargement, setErreurChargement] = useState(false);
-  const [tentative, setTentative] = useState(0);
-  const [sauvegarde, setSauvegarde] = useState(false);
-  const [erreur, setErreur] = useState<string | null>(null);
-  const [confirmation, setConfirmation] = useState<string | null>(null);
-  const sauvegardeEnCours = useRef(false);
-  const defilement = useRef<ScrollView>(null);
-  const estActif = useIsFocused();
-  const { passages } = donnees;
-  const tournees = appliquerAdressesLocales(TOURNEES_DEMONSTRATION, donnees.adresses);
-  const tournee = tournees.find(item => item.id === tourneeId);
-  const adresse = tournee?.adresses.find(item => item.id === adresseId);
-  const passagesAffiches = tournee ? passagesTournee(passages, tournee) : passages;
+  const api = useRef<CalendriersApi | null>(null);
+  const occupe = useRef(false);
+  const scroll = useRef<ScrollView>(null);
+  const actif = useIsFocused();
 
+  const vider = useCallback(() => {
+    setProfil(null); setTournees([]); setTournee(null); setSaisie(null); setCarnet(null); setConfirmation('');
+    const connexion = connexionMemorisee.current;
+    setAmicale(connexion?.amicale ?? ''); setEmail(connexion?.email ?? ''); setPassword(connexion?.password ?? '');
+    if (connexion) setServeur(connexion.serveur);
+  }, []);
+  const afficherErreur = useCallback((cause: unknown) => {
+    if (cause instanceof ErreurCalendriers && cause.sessionExpiree) vider();
+    setErreur(cause instanceof Error ? cause.message : 'La demande a échoué.');
+  }, [vider]);
+  async function executer(action: () => Promise<void>) {
+    if (occupe.current) return;
+    occupe.current = true; setChargement(true); setErreur('');
+    try { await action(); } catch (cause) { afficherErreur(cause); }
+    finally { occupe.current = false; setChargement(false); }
+  }
+  async function liste(client: CalendriersApi, user: Profil) {
+    setProfil(user); setAnnee(String(user.amicale.campagne));
+    setTournees(await client.tournees());
+  }
+  // Le cookie de session est fourni par le serveur, y compris après un rechargement.
   useEffect(() => {
-    let actif = true;
-    setChargement(true);
-    setErreurChargement(false);
-    chargerCalendriers().then(stockage => {
-      if (actif) setDonnees(stockage);
-    }).catch(() => {
-      if (actif) setErreurChargement(true);
-    }).finally(() => {
-      if (actif) setChargement(false);
-    });
-    return () => { actif = false; };
-  }, [tentative]);
+    let mounted = true;
+    occupe.current = true;
+    void (async () => {
+      try {
+        let connexion: ConnexionMemorisee | null = null;
+        try { connexion = await chargerConnexion(); }
+        catch (cause) { if (mounted) setAvisMemoire(cause instanceof Error ? cause.message : 'Les informations mémorisées sont indisponibles.'); }
+        if (!mounted) return;
+        connexionMemorisee.current = connexion;
+        if (connexion) {
+          setServeur(connexion.serveur); setAmicale(connexion.amicale); setEmail(connexion.email); setPassword(connexion.password);
+          setMemoriser(true); setConnexionEnregistree(true);
+        }
+        const client = new CalendriersApi(connexion?.serveur ?? serveurCalendriers()); api.current = client;
+        const user = await client.session();
+        if (mounted && user) { const tours = await client.tournees(); if (mounted) { setProfil(user); setAnnee(String(user.amicale.campagne)); setTournees(tours); } }
+      } catch (cause) { if (mounted) afficherErreur(cause); }
+      finally { if (mounted) { occupe.current = false; setChargement(false); } }
+    })();
+    return () => { mounted = false; };
+  }, [afficherErreur]);
 
-  useEffect(() => {
-    defilement.current?.scrollTo({ y: 0, animated: false });
-  }, [tourneeId, adresseId, modeAdresse]);
+  useEffect(() => { if (erreur) scroll.current?.scrollTo({ y: 0, animated: true }); }, [erreur]);
 
+  const carnetOuvert = carnet !== null;
+  useEffect(() => { scroll.current?.scrollTo({ y: 0, animated: false }); }, [tournee?.id, saisie?.mode, saisie?.source?.id, carnetOuvert]);
   const retour = useCallback(() => {
-    if (sauvegardeEnCours.current) return true;
-    if (modeAdresse) setModeAdresse(null);
-    else if (adresseId) setAdresseId(null);
-    else if (tourneeId) setTourneeId(null);
+    if (occupe.current) return true;
+    if (saisie) setSaisie(null);
+    else if (carnet) setCarnet(null);
+    else if (tournee) { setTournee(null); setFiltres({ ...FILTRES_INITIAUX }); }
     else return false;
-    setErreur(null);
-    setConfirmation(null);
-    return true;
-  }, [adresseId, tourneeId, modeAdresse]);
-
+    setErreur(''); setConfirmation(''); return true;
+  }, [saisie, carnet, tournee]);
   useFocusEffect(useCallback(() => {
     if (Platform.OS !== 'android') return;
-    const abonnement = BackHandler.addEventListener('hardwareBackPress', retour);
-    return () => abonnement.remove();
+    const subscription = BackHandler.addEventListener('hardwareBackPress', retour);
+    return () => subscription.remove();
   }, [retour]));
 
-  function ouvrirAdresse(item: AdresseCalendrier) {
-    if (!tournee) return;
-    const precedent = passagesAffiches.find(passage => passage.adresseId === item.id);
-    setSaisie(precedent ? {
-      statut: precedent.statut,
-      datePassage: afficherDatePassage(precedent.datePassage),
-      numeroCarnet: precedent.numeroCarnet ?? '',
-      numeroRecu: precedent.numeroRecu ?? '',
-      quantite: String(precedent.nbCalendriers || 1),
-      montant: precedent.statut === 'VENTE' ? precedent.montant.replace('.', ',') : '',
-      moyenPaiement: precedent.moyenPaiement ?? 'ESPECES',
-      commentaire: precedent.commentaire,
-    } : nouvelleSaisie());
-    setAdresseId(item.id);
-    setErreur(null);
-    setConfirmation(null);
-  }
-
-  function ouvrirFormulaireAdresse(modifier: boolean) {
-    const existante = modifier ? adresse : undefined;
-    setSaisieAdresse(existante ? {
-      ligne1: existante.ligne1, ville: existante.ville,
-      codePostal: existante.codePostal ?? '', appartement: existante.appartement ?? '',
-      etage: existante.etage ?? '', batiment: existante.batiment ?? '',
-    } : { ...nouvelleAdresse(), ville: tournee?.adresses[0]?.ville ?? '', codePostal: tournee?.adresses[0]?.codePostal ?? '' });
-    setModeAdresse(modifier ? 'modification' : 'creation');
-    setErreur(null);
-    setConfirmation(null);
-  }
-
-  function enregistrer() {
-    if (!tournee || !adresse || chargement || erreurChargement || sauvegardeEnCours.current) return;
-    setErreur(null);
-    try {
-      const suivantes = enregistrerPassageLocal(donnees, tournee, adresse, saisie);
-      void sauvegarder(suivantes, () => {
-        setAdresseId(null);
-        setConfirmation('Passage enregistré sur cet appareil.');
-      });
-    } catch (cause) {
-      setErreur(cause instanceof Error ? cause.message : 'Vérifiez les informations saisies.');
-      return;
+  function connecter() { void executer(async () => {
+    if (!/^[a-zA-Z0-9]{4,20}$/.test(amicale.trim())) throw new Error('L’identifiant d’amicale doit contenir 4 à 20 lettres non accentuées ou chiffres.');
+    const client = new CalendriersApi(serveur); api.current = client;
+    const user = await client.login(amicale, email, password);
+    if (!user) throw new Error('La connexion n’a pas pu être établie.');
+    setAvisMemoire('');
+    if (memoriser) {
+      const connexion = { serveur: client.base, amicale: user.amicale.identifiant, email: email.trim(), password };
+      try {
+        await enregistrerConnexion(connexion);
+        connexionMemorisee.current = connexion; setConnexionEnregistree(true);
+      } catch (cause) { setAvisMemoire(cause instanceof Error ? cause.message : 'Connexion réussie, mais les informations n’ont pas été mémorisées.'); }
     }
+    setPassword(''); await liste(client, user);
+  }); }
+  function effacerConnexion(effacerSaisie = true) { void executer(async () => {
+    await oublierConnexion();
+    connexionMemorisee.current = null; setConnexionEnregistree(false); setMemoriser(false); setAvisMemoire('');
+    if (effacerSaisie) { setAmicale(''); setEmail(''); setPassword(''); }
+    setConfirmation('Informations de connexion effacées de cet appareil.');
+  }); }
+  function changerMemorisation(value: boolean) {
+    if (value) setMemoriser(true);
+    else effacerConnexion(false);
   }
-
-  function enregistrerAdresse() {
-    if (!tournee || !modeAdresse || chargement || erreurChargement || sauvegardeEnCours.current) return;
-    setErreur(null);
-    try {
-      const nouvelle = creerAdresse(tournee, saisieAdresse, modeAdresse === 'modification' ? adresse?.id : undefined);
-      void sauvegarder({ ...donnees, adresses: remplacerAdresseLocale(donnees.adresses, nouvelle) }, () => {
-        if (modeAdresse === 'creation') setSaisie(nouvelleSaisie());
-        setAdresseId(nouvelle.id);
-        setModeAdresse(null);
-        setConfirmation('Adresse enregistrée sur cet appareil.');
-      });
-    } catch (cause) {
-      setErreur(cause instanceof Error ? cause.message : 'Vérifiez les informations de l’adresse.');
+  async function chargerTournee(id: string) {
+    const detail = await api.current!.tournee(id);
+    setTournee(detail); setTournees(values => values.map(t => t.id === id ? detail : t));
+  }
+  function actualiser() { void executer(async () => {
+    const user = await api.current!.session();
+    if (!user) { vider(); throw new Error('Votre session a expiré. Reconnectez-vous.'); }
+    setProfil(user);
+    if (tournee) await chargerTournee(tournee.id); else setTournees(await api.current!.tournees());
+  }); }
+  function enregistrer() { if (!tournee || !saisie) return; void executer(async () => {
+    if (tournee.statut === 'VALIDEE') throw new Error('Cette tournée est validée et ne peut plus être modifiée.');
+    const payload = payloadPassage(saisie, tournee.carnets);
+    try { await api.current!.enregistrer(tournee.id, saisie.mode, saisie.source?.id, payload); }
+    catch (cause) {
+      // Garder le formulaire, mais relire les reçus après un conflit concurrent.
+      if (cause instanceof ErreurCalendriers && cause.status === 409) {
+        try { await chargerTournee(tournee.id); } catch { /* La saisie et l'erreur initiale restent visibles. */ }
+      }
+      throw cause;
     }
-  }
+    if (saisie.mode !== 'existing') setFiltres({ ...FILTRES_INITIAUX });
+    setSaisie(null); setConfirmation('Passage enregistré sur le serveur.');
+    try { await chargerTournee(tournee.id); }
+    catch (cause) { if (cause instanceof ErreurCalendriers && cause.sessionExpiree) throw cause; throw new Error('Passage enregistré. La liste n’a pas pu être actualisée ; appuyez sur Actualiser.'); }
+  }); }
+  function ajouterCarnet() { if (!tournee || !carnet) return; void executer(async () => {
+    const premier = Number(carnet.premierRecu), nombre = Number(carnet.nombreRecus);
+    if (!carnet.numero.trim() || carnet.numero.trim().length > 40 || !/^\d+$/.test(carnet.premierRecu) || !/^\d+$/.test(carnet.nombreRecus)
+      || premier < 1 || nombre < 1 || nombre > 1000 || premier + nombre - 1 > 999999999) throw new Error('Renseignez le carnet, un premier reçu positif et de 1 à 1 000 reçus.');
+    await api.current!.creerCarnet(tournee.id, { numero: carnet.numero.trim(), premierRecu: premier, nombreRecus: nombre });
+    setCarnet(null); setConfirmation('Carnet créé sur le serveur.');
+    try { await chargerTournee(tournee.id); } catch { throw new Error('Carnet créé. Actualisez pour recharger la liste.'); }
+  }); }
 
-  async function sauvegarder(suivantes: DonneesCalendriers, apres: () => void) {
-    if (sauvegardeEnCours.current) return;
-    sauvegardeEnCours.current = true;
-    setSauvegarde(true);
-    try {
-      await enregistrerCalendriers(suivantes);
-      setDonnees(suivantes);
-      apres();
-    } catch (cause) {
-      setErreur(cause instanceof ConflitRecusError ? cause.message
-        : 'Enregistrement impossible. Votre saisie est conservée à l’écran ; vérifiez l’espace disponible puis réessayez.');
-    } finally {
-      sauvegardeEnCours.current = false;
-      setSauvegarde(false);
-    }
-  }
-
-  return (
-    <SafeAreaView edges={['top', 'left', 'right']} style={s.safe}>
-      {estActif && <StatusBar style="dark" />}
-      <View style={s.header}>
-        <View>
-          <Text style={s.kicker}>MOBILESP · TOURNÉES DE CALENDRIERS</Text>
-          <Text accessibilityRole="header" style={s.titre}>Calendriers</Text>
-        </View>
-        <View style={s.badge}><Text style={s.badgeTexte}>Démo locale</Text></View>
-      </View>
-      <KeyboardAvoidingView style={s.flexible} behavior={Platform.OS === 'ios' ? 'padding' : undefined}>
-        <ScrollView ref={defilement} contentContainerStyle={s.contenu} keyboardShouldPersistTaps="handled">
-          <View style={s.largeur}>
-            <View style={s.information}>
-              <Ionicons name="information-circle-outline" size={22} color="#79551d" />
-              <Text style={s.informationTexte}>Les tournées proposées sont des exemples. Les passages et adresses ajoutées restent sur cet appareil, sans synchronisation avec un serveur.</Text>
-            </View>
-
-            {chargement ? <View style={s.attente}>
-              <ActivityIndicator size="large" color="#1f176a" />
-              <Text style={s.secondaire}>Chargement des passages enregistrés…</Text>
-            </View> : erreurChargement ? <View style={s.carte}>
-              <Text accessibilityRole="alert" style={s.erreur}>Impossible de lire les données enregistrées. Aucune donnée n’a été remplacée.</Text>
-              <Pressable accessibilityRole="button" onPress={() => setTentative(valeur => valeur + 1)} style={s.boutonPrincipal}>
-                <Text style={s.textePrincipal}>Réessayer</Text>
-              </Pressable>
-            </View> : <>
-              {tournee && <Pressable accessibilityRole="button" onPress={retour} disabled={sauvegarde} style={s.retour}>
-                <Ionicons name="arrow-back" size={20} color="#1f176a" />
-                <Text style={s.texteLien}>{modeAdresse === 'modification' ? 'Saisie du passage' : adresse || modeAdresse ? 'Adresses de la tournée' : 'Mes tournées'}</Text>
-              </Pressable>}
-              {confirmation && <Text accessibilityLiveRegion="polite" style={s.confirmation}>{confirmation}</Text>}
-
-              {!tournee ? <>
-                <Text accessibilityRole="header" style={s.sousTitre}>Mes tournées</Text>
-                <Text style={s.description}>Choisissez une tournée pour consulter ses adresses.</Text>
-                {tournees.map(item => {
-                  const visites = passagesTournee(passages, item).length;
-                  const progression = item.adresses.length ? visites / item.adresses.length : 0;
-                  return <Pressable
-                    key={item.id}
-                    accessibilityRole="button"
-                    accessibilityLabel={`${item.nom}, ${visites} adresses sur ${item.adresses.length} traitées`}
-                    onPress={() => { setTourneeId(item.id); setConfirmation(null); }}
-                    style={({ pressed }) => [s.carte, pressed && s.presse]}
-                  >
-                    <View style={s.ligne}>
-                      <Text style={[s.nomTournee, s.flexible]}>{item.nom}</Text>
-                      <Ionicons name="chevron-forward" size={23} color="#1f176a" />
-                    </View>
-                    <Text style={s.secondaire}>{item.secteur} · {item.date}</Text>
-                    <View style={s.ligne}>
-                      <Text style={s.secondaire}>{visites}/{item.adresses.length} adresses traitées</Text>
-                      <Text style={s.statut}>{item.statut === 'EN_COURS' ? 'EN COURS' : 'PRÉPARÉE'}</Text>
-                    </View>
-                    <View style={s.progression}><View style={[s.avancement, { width: `${progression * 100}%` }]} /></View>
-                  </Pressable>;
-                })}
-                <Resume passages={passages} />
-              </> : modeAdresse ? <AdresseForm
-                creation={modeAdresse === 'creation'} saisie={saisieAdresse} onChange={setSaisieAdresse}
-                onSave={enregistrerAdresse} sauvegarde={sauvegarde} erreur={erreur}
-              /> : adresse ? <>
-                <Text accessibilityRole="header" style={s.sousTitre}>{adresse.ligne1}</Text>
-                <Text style={s.description}>{[adresse.codePostal, adresse.ville].filter(Boolean).join(' ')} · {tournee.nom}</Text>
-                {!!complementAdresse(adresse) && <Text style={s.detailsAdresse}>{complementAdresse(adresse)}</Text>}
-                <Pressable accessibilityRole="button" disabled={sauvegarde} onPress={() => ouvrirFormulaireAdresse(true)} style={s.boutonSecondaire}>
-                  <Ionicons name="create-outline" size={19} color="#1f176a" />
-                  <Text style={s.texteLien}>Modifier l’adresse</Text>
-                </Pressable>
-                <View style={s.carte}>
-                  <Text style={s.libelle}>Date du passage (JJ/MM/AAAA)</Text>
-                  <TextInput accessibilityLabel="Date du passage" value={saisie.datePassage} editable={!sauvegarde}
-                    onChangeText={datePassage => setSaisie(valeur => ({ ...valeur, datePassage }))}
-                    maxLength={10} placeholder="JJ/MM/AAAA" placeholderTextColor="#7a8699" style={s.champ} />
-                  <Text style={s.secondaire}>Vous pouvez saisir une date antérieure pour un passage enregistré après coup.</Text>
-                  <Text style={s.libelle}>Résultat du passage</Text>
-                  <Choix label="Résultat du passage" options={LIBELLES_PASSAGES} selection={saisie.statut} disabled={sauvegarde}
-                    onSelect={statut => setSaisie(valeur => ({ ...valeur, statut }))} />
-                  {saisie.statut === 'VENTE' && <>
-                    <RecuForm donnees={donnees} tourneeId={tournee.id} adresseId={adresse.id}
-                      saisie={saisie} onChange={setSaisie} disabled={sauvegarde} />
-                    <Text style={s.libelle}>Nombre de calendriers</Text>
-                    <TextInput accessibilityLabel="Nombre de calendriers" value={saisie.quantite} editable={!sauvegarde}
-                      onChangeText={quantite => setSaisie(valeur => ({ ...valeur, quantite }))}
-                      keyboardType="number-pad" style={s.champ} />
-                    <Text style={s.libelle}>Montant total encaissé (€)</Text>
-                    <TextInput accessibilityLabel="Montant total encaissé en euros" value={saisie.montant} editable={!sauvegarde}
-                      onChangeText={montant => setSaisie(valeur => ({ ...valeur, montant }))}
-                      keyboardType="decimal-pad" placeholder="Ex. 10,00" placeholderTextColor="#7a8699" style={s.champ} />
-                    <Text style={s.libelle}>Moyen de paiement</Text>
-                    <Choix label="Moyen de paiement" options={LIBELLES_PAIEMENTS} selection={saisie.moyenPaiement} disabled={sauvegarde}
-                      onSelect={moyenPaiement => setSaisie(valeur => ({ ...valeur, moyenPaiement }))} />
-                  </>}
-                  <Text style={s.libelle}>Commentaire (facultatif)</Text>
-                  <TextInput accessibilityLabel="Commentaire du passage" value={saisie.commentaire} editable={!sauvegarde}
-                    onChangeText={commentaire => setSaisie(valeur => ({ ...valeur, commentaire }))}
-                    placeholder="Ex. repasser en soirée…" placeholderTextColor="#7a8699" multiline style={[s.champ, s.commentaire]} />
-                  {erreur && <Text accessibilityRole="alert" style={s.erreur}>{erreur}</Text>}
-                  <Pressable accessibilityRole="button" accessibilityState={{ disabled: sauvegarde, busy: sauvegarde }}
-                    disabled={sauvegarde} onPress={enregistrer} style={[s.boutonPrincipal, sauvegarde && s.desactive]}>
-                    {sauvegarde && <ActivityIndicator color="#fff" />}
-                    <Text style={s.textePrincipal}>{sauvegarde ? 'Enregistrement…' : 'Enregistrer le passage'}</Text>
-                  </Pressable>
-                </View>
-              </> : <>
-                <Text accessibilityRole="header" style={s.sousTitre}>{tournee.nom}</Text>
-                <Text style={s.description}>{tournee.secteur} · {tournee.date}</Text>
-                <Resume passages={passagesAffiches} />
-                <Pressable accessibilityRole="button" onPress={() => ouvrirFormulaireAdresse(false)} style={s.boutonSecondaire}>
-                  <Ionicons name="add-circle-outline" size={21} color="#1f176a" />
-                  <Text style={s.texteLien}>Ajouter une adresse</Text>
-                </Pressable>
-                <Text accessibilityRole="header" style={s.libelle}>Adresses · {passagesAffiches.length}/{tournee.adresses.length} traitées</Text>
-                {tournee.adresses.map((item, index) => {
-                  const passage = passagesAffiches.find(p => p.adresseId === item.id);
-                  return <Pressable key={item.id} accessibilityRole="button" onPress={() => ouvrirAdresse(item)}
-                    style={({ pressed }) => [s.adresse, pressed && s.presse]}>
-                    <View style={[s.numero, passage && s.numeroTraite]}>
-                      {passage ? <Ionicons name="checkmark" size={21} color="#276346" /> : <Text style={s.texteLien}>{index + 1}</Text>}
-                    </View>
-                    <View style={s.flexible}>
-                      <Text style={s.nomAdresse}>{item.ligne1}</Text>
-                      {!!complementAdresse(item) && <Text style={s.secondaire}>{complementAdresse(item)}</Text>}
-                      <Text style={s.secondaire}>{passage ? LIBELLES_PASSAGES[passage.statut] : 'À visiter'}
-                        {passage?.statut === 'VENTE' ? ` · ${passage.nbCalendriers} calendrier(s) · ${afficherEuros(bilanPassages([passage]).montantCentimes)}` : ''}
-                      </Text>
-                      {passage && <Text style={s.secondaire}>Passage du {afficherDatePassage(passage.datePassage)}</Text>}
-                      {passage?.statut === 'VENTE' && <Text style={s.secondaire}>{passage.numeroCarnet
-                        ? `Carnet ${passage.numeroCarnet} · Reçu ${passage.numeroRecu}`
-                        : 'Ancienne vente : reçu à compléter'}</Text>}
-                    </View>
-                    <Ionicons name="chevron-forward" size={21} color="#7a8699" />
-                  </Pressable>;
-                })}
-              </>}
-              <View style={s.stockage}>
-                <Ionicons name="save-outline" size={17} color="#66748a" />
-                <Text style={s.secondaire}>Les passages et adresses enregistrés sont conservés après fermeture de l’application.</Text>
-              </View>
-            </>}
+  const verrouille = tournee?.statut === 'VALIDEE';
+  const adresses = tournee?.listeAdresses ?? [];
+  const visibles = filtrerAdresses(adresses, filtres);
+  const update = (patch: Partial<FormulairePassage>) => setSaisie(value => value && ({ ...value, ...patch }));
+  const totaux = tournees.filter(t => !annee || t.dateDebut.slice(0, 4) === annee);
+  return <SafeAreaView edges={['top', 'left', 'right']} style={s.safe}>
+    {actif && <StatusBar style="dark" />}
+    <View style={s.header}><Text accessibilityRole="header" style={s.titre}>Calendriers</Text>
+      <Text style={s.secondaire}>{profil ? `${profil.amicale.nom} · ${profil.email}` : 'Connexion à votre amicale'}</Text></View>
+    <KeyboardAvoidingView style={s.flex} behavior={Platform.OS === 'ios' ? 'padding' : undefined}>
+      <ScrollView ref={scroll} contentContainerStyle={s.contenu} keyboardShouldPersistTaps="handled"><View style={s.largeur}>
+        {chargement && <Attente />}
+        {!!erreur && <Text accessibilityRole="alert" style={s.erreur}>{erreur}</Text>}
+        {!!avisMemoire && <Text accessibilityRole="alert" style={s.erreur}>{avisMemoire}</Text>}
+        {!!confirmation && <Text accessibilityLiveRegion="polite" style={s.confirmation}>{confirmation}</Text>}
+        {!profil ? <Carte>
+          <Text style={s.sousTitre}>Se connecter</Text>
+          <Champ label="Adresse de l’API" value={serveur} onChange={value => { setServeur(value); setPassword(''); }} disabled={chargement} clavier="url" aide="Ex. https://calendriers.monamicale.fr/api" />
+          <Champ label="Identifiant de l’amicale" value={amicale} onChange={setAmicale} disabled={chargement} longueur={20} aide="4 à 20 lettres non accentuées ou chiffres" />
+          <Champ label="E-mail" value={email} onChange={setEmail} disabled={chargement} clavier="email-address" />
+          <Champ label="Mot de passe" value={password} onChange={setPassword} disabled={chargement} secret />
+          <View style={s.ligne}>
+            <Text style={[s.libelle, { flex: 1 }]}>Mémoriser mes informations de connexion</Text>
+            <Switch accessibilityLabel="Mémoriser mes informations de connexion" value={memoriser} onValueChange={changerMemorisation} disabled={chargement} trackColor={{ true: '#1f176a' }} />
           </View>
-        </ScrollView>
-      </KeyboardAvoidingView>
-    </SafeAreaView>
-  );
+          <Text style={s.secondaire}>{Platform.OS === 'web'
+            ? 'L’amicale, l’e-mail et le mot de passe seront conservés dans ce navigateur, sans chiffrement. À activer sur un appareil personnel.'
+            : 'L’amicale, l’e-mail et le mot de passe seront conservés dans le stockage sécurisé de cet appareil.'}</Text>
+          <Bouton disabled={chargement} onPress={connecter}>Se connecter</Bouton>
+          {connexionEnregistree && <Bouton secondaire disabled={chargement} onPress={() => effacerConnexion()}>Oublier mes informations de connexion</Bouton>}
+        </Carte> : <>
+          <View style={s.ligne}><Bouton secondaire disabled={chargement} onPress={actualiser}>Actualiser</Bouton>
+            <Bouton secondaire disabled={chargement} onPress={() => { void executer(async () => { await api.current!.logout(); vider(); }); }}>Déconnexion</Bouton></View>
+          {connexionEnregistree && <Bouton secondaire disabled={chargement} onPress={() => effacerConnexion()}>Oublier mes informations de connexion</Bouton>}
+          {tournee && <Bouton secondaire disabled={chargement} onPress={retour}>{saisie || carnet ? 'Retour aux adresses' : 'Mes tournées'}</Bouton>}
+          {!tournee ? <>
+            <Text accessibilityRole="header" style={s.sousTitre}>Mes tournées</Text>
+            <Selecteur label="Campagne" value={annee} disabled={chargement} onChange={setAnnee}
+              options={ [['', 'Toutes les campagnes'], ...[...new Set([String(profil.amicale.campagne), ...tournees.map(t => t.dateDebut.slice(0, 4))])].sort().reverse().map(y => [y, y] as [string, string])] } />
+            <Carte><Text style={s.nom}>{totaux.reduce((n, t) => n + t.traitees, 0)} passages · {totaux.reduce((n, t) => n + t.calendriersVendus, 0)} calendriers</Text>
+              <Text style={s.nom}>{euros((totaux.reduce((n, t) => n + Math.round(Number(t.montant) * 100), 0) / 100).toFixed(2))} encaissés</Text></Carte>
+            {!totaux.length && <Text style={s.secondaire}>Aucune tournée pour cette campagne. Un sapeur voit uniquement ses tournées affectées.</Text>}
+            {totaux.map(t => <Carte key={t.id}>
+              <Text style={s.nom}>{t.nom}</Text><Text style={s.secondaire}>{t.secteur} · {dateAffichee(t.dateDebut)} · {STATUTS[t.statut]}</Text>
+              <Text style={s.secondaire}>{t.traitees}/{t.adresses} adresses traitées · {euros(t.montant)}</Text>
+              <BilanCalendriers tournee={t} />
+              <Bouton secondaire disabled={chargement} onPress={() => { setConfirmation(''); setFiltres({ ...FILTRES_INITIAUX }); void executer(() => chargerTournee(t.id)); }}>{`Ouvrir ${t.nom}`}</Bouton>
+            </Carte>)}
+            <BilanCarnets carnets={totaux.flatMap(t => t.carnets)} />
+          </> : <>
+            <Text accessibilityRole="header" style={s.sousTitre}>{tournee.nom}</Text>
+            <Text style={s.secondaire}>{tournee.secteur} · {STATUTS[tournee.statut]} · {tournee.traitees}/{tournee.adresses} traitées · {euros(tournee.montant)}</Text>
+            <Carte><BilanCalendriers tournee={tournee} /></Carte>
+            {verrouille && <Text style={s.confirmation}>Tournée validée : consultation uniquement.</Text>}
+            {saisie ? <Carte>
+              <Text accessibilityRole="header" style={s.sousTitre}>{saisie.mode === 'new' ? 'Nouvelle adresse' : saisie.mode === 'duplicate' ? 'Ajouter un appartement' : 'Saisie du passage'}</Text>
+              <AdresseForm saisie={saisie} onChange={update} disabled={chargement || verrouille} />
+              <Champ label="Date du passage" value={saisie.datePassage} onChange={datePassage => update({ datePassage })} disabled={chargement || verrouille} longueur={10} aide="JJ/MM/AAAA, aujourd’hui ou une date antérieure" />
+              <Selecteur label="Résultat du passage" value={saisie.statut} disabled={chargement || verrouille} options={Object.entries(RESULTATS)} onChange={statut => update({ statut: statut as FormulairePassage['statut'] })} />
+              {['VENTE', 'DON'].includes(saisie.statut) && <RecuForm carnets={tournee.carnets} saisie={saisie} onChange={update} disabled={chargement || verrouille} />}
+              {saisie.statut === 'VENTE' && <>
+                <Champ label="Nombre de calendriers" value={saisie.quantite} onChange={quantite => update({ quantite })} disabled={chargement || verrouille} clavier="number-pad" />
+                <Champ label="Montant total encaissé (€)" value={saisie.montant} onChange={montant => update({ montant })} disabled={chargement || verrouille} clavier="decimal-pad" />
+                <Selecteur label="Moyen de paiement" value={saisie.moyenPaiement} disabled={chargement || verrouille} options={Object.entries(PAIEMENTS)} onChange={moyenPaiement => update({ moyenPaiement: moyenPaiement as FormulairePassage['moyenPaiement'] })} />
+              </>}
+              <Text style={s.libelle}>Commentaire</Text><TextInput accessibilityLabel="Commentaire" multiline maxLength={2000} editable={!chargement && !verrouille}
+                value={saisie.commentaire} onChangeText={commentaire => update({ commentaire })} style={[s.champ, { minHeight: 90, textAlignVertical: 'top' }]} />
+              <Bouton disabled={chargement || verrouille} onPress={enregistrer}>Enregistrer le passage</Bouton>
+            </Carte> : carnet ? <Carte>
+              <Text style={s.sousTitre}>Ajouter un carnet</Text>
+              <Champ label="Numéro du carnet" value={carnet.numero} onChange={numero => setCarnet({ ...carnet, numero })} longueur={40} disabled={chargement} />
+              <Champ label="Premier reçu" value={carnet.premierRecu} onChange={premierRecu => setCarnet({ ...carnet, premierRecu })} clavier="number-pad" disabled={chargement} />
+              <Champ label="Nombre de reçus" value={carnet.nombreRecus} onChange={nombreRecus => setCarnet({ ...carnet, nombreRecus })} clavier="number-pad" disabled={chargement} />
+              <Bouton disabled={chargement || verrouille} onPress={ajouterCarnet}>Créer le carnet</Bouton>
+            </Carte> : <>
+              <BilanCarnets carnets={tournee.carnets} />
+              {!verrouille && <>
+                <Bouton disabled={chargement} onPress={() => { setErreur(''); setConfirmation(''); setSaisie(formulaire('new', null)); }}>Nouvelle adresse</Bouton>
+                {profil.canManage && <Bouton secondaire disabled={chargement} onPress={() => { setErreur(''); setCarnet({ numero: '', premierRecu: '', nombreRecus: '25' }); }}>Ajouter un carnet</Bouton>}
+              </>}
+              <Carte>
+                <Selecteur label="Rue" value={filtres.rue} disabled={chargement} options={ [['', 'Toutes les rues'], ...rues(adresses)] } onChange={rue => setFiltres({ ...filtres, rue })} />
+                <Selecteur label="Filtrer par résultat" value={filtres.statut} disabled={chargement} options={ [['', 'Tous les résultats'], ...Object.entries(RESULTATS)] } onChange={statut => setFiltres({ ...filtres, statut })} />
+                <Selecteur label="Filtrer par carnet" value={filtres.carnet} disabled={chargement} options={ [['', 'Tous les carnets'], ['sans-carnet', 'Sans carnet'], ...tournee.carnets.map(c => [c.id, c.numero] as [string, string])] } onChange={carnet => setFiltres({ ...filtres, carnet })} />
+                <Champ label="Rechercher un reçu" value={filtres.recu} onChange={recu => setFiltres({ ...filtres, recu })} disabled={chargement} clavier="number-pad" aide="Numéro exact du reçu" />
+                <Selecteur label="Trier par" value={filtres.tri} disabled={chargement} options={ [['adresse', 'Adresse'], ['montant', 'Montant'], ['resultat', 'Résultat']] } onChange={tri => setFiltres({ ...filtres, tri: tri as typeof filtres.tri })} />
+                <Selecteur label="Ordre" value={filtres.decroissant ? 'desc' : 'asc'} disabled={chargement} options={ [['asc', 'Croissant'], ['desc', 'Décroissant']] } onChange={value => setFiltres({ ...filtres, decroissant: value === 'desc' })} />
+                <Bouton secondaire onPress={() => setFiltres({ ...FILTRES_INITIAUX })}>Réinitialiser les filtres</Bouton>
+              </Carte>
+              <Text accessibilityLiveRegion="polite" style={s.libelle}>{visibles.length} / {adresses.length} adresses affichées</Text>
+              {!adresses.length && <Text style={s.secondaire}>Aucune adresse dans ce secteur. Vous pouvez ajouter une nouvelle adresse.</Text>}
+              {!!adresses.length && !visibles.length && <Text style={s.secondaire}>Aucune adresse ne correspond aux filtres.</Text>}
+              {visibles.map(a => <Carte key={a.id}>
+                <Text style={s.nom}>{a.ligne1}</Text><Text style={s.secondaire}>{a.codePostal} {a.ville}</Text>
+                {!!logement(a) && <Text style={s.secondaire}>{logement(a)}</Text>}
+                <Text style={{ color: couleurResultat(a.passage?.statut ?? 'NON_VISITEE'), fontWeight: '700' }}>{RESULTATS[a.passage?.statut ?? 'NON_VISITEE']}{a.passage?.statut === 'VENTE' ? ` · ${a.passage.nbCalendriers} calendrier(s) · ${euros(a.passage.montant)}` : ''}</Text>
+                {a.passage && <Text style={s.secondaire}>Passage du {dateAffichee(a.passage.datePassage)}</Text>}
+                {a.passage?.recu && <Text style={s.secondaire}>Carnet {a.passage.recu.carnetNumero} · Reçu n° {a.passage.recu.numero}</Text>}
+                {a.passage && ['VENTE', 'DON'].includes(a.passage.statut) && !a.passage.recu && <Text style={s.erreur}>Reçu à renseigner lors d’une correction.</Text>}
+                {!!a.passage?.commentaire && <Text style={s.secondaire}>{a.passage.commentaire}</Text>}
+                {!verrouille && <>
+                  <Bouton secondaire disabled={chargement} onPress={() => { setErreur(''); setConfirmation(''); setSaisie(formulaire('existing', a)); }}>{`${a.passage ? 'Modifier' : 'Saisir'} · ${a.ligne1}`}</Bouton>
+                  <Bouton secondaire disabled={chargement} onPress={() => { setErreur(''); setConfirmation(''); setSaisie(formulaire('duplicate', a)); }}>{`Ajouter un appartement · ${a.ligne1}`}</Bouton>
+                </>}
+              </Carte>)}
+            </>}
+          </>}
+          <Text style={s.secondaire}>Une connexion est nécessaire pour enregistrer. Les modifications sont confirmées après leur sauvegarde sur le serveur.</Text>
+        </>}
+      </View></ScrollView>
+    </KeyboardAvoidingView>
+  </SafeAreaView>;
 }
 
-function Resume({ passages }: { passages: PassageCalendrier[] }) {
-  const bilan = bilanPassages(passages);
-  const carnets = bilanCarnets(passages);
-  return <>
-    <View style={s.resume}>
-      <View style={s.statistique}><Text style={s.chiffre}>{passages.length}</Text><Text style={s.secondaire}>Passages</Text></View>
-      <View style={s.statistique}><Text style={s.chiffre}>{bilan.nbCalendriers}</Text><Text style={s.secondaire}>Calendriers</Text></View>
-      <View style={s.statistique}><Text style={s.chiffre}>{afficherEuros(bilan.montantCentimes)}</Text><Text style={s.secondaire}>Encaissé</Text></View>
-    </View>
-    <View style={s.carte}>
-      <Text accessibilityRole="header" style={s.nomAdresse}>Reçus par carnet</Text>
-      {carnets.length === 0 && <Text style={s.secondaire}>Aucun reçu enregistré.</Text>}
-      {carnets.map(carnet => <View key={carnet.numeroCarnet ?? 'sans-recu'} style={s.ligne}>
-        <View style={s.flexible}>
-          <Text style={s.nomAdresse}>{carnet.numeroCarnet ? `Carnet ${carnet.numeroCarnet}` : 'Anciennes ventes sans reçu'}</Text>
-          <Text style={s.secondaire}>{carnet.numeroCarnet ? `${carnet.nbRecus} reçu(s)` : `${carnet.nbVentes} vente(s) à compléter`}</Text>
-        </View>
-        <Text style={s.texteLien}>{afficherEuros(carnet.montantCentimes)}</Text>
-      </View>)}
-    </View>
-  </>;
+function BilanCarnets({ carnets }: { carnets: Carnet[] }) {
+  return <Carte><Text accessibilityRole="header" style={s.nom}>Reçus par carnet</Text>
+    {!carnets.length && <Text style={s.secondaire}>Aucun carnet dans cette sélection.</Text>}
+    {carnets.map(c => <View key={c.id} style={s.groupe}><Text style={s.nom}>{c.numero} · {euros(c.montant)}</Text>
+      <Text style={s.secondaire}>{c.recusUtilises}/{c.nombreRecus} reçus utilisés · {c.recusDisponibles} disponibles · {c.ventes} ventes · {c.dons} dons · {c.recusAnnules} annulés</Text>
+    </View>)}
+  </Carte>;
 }
-
-function Choix<T extends string>({ label, options, selection, onSelect, disabled }: {
-  label: string; options: Record<T, string>; selection: T; onSelect: (valeur: T) => void; disabled: boolean;
-}) {
-  return <View accessibilityRole="radiogroup" accessibilityLabel={label} style={s.choix}>
-    {(Object.entries(options) as [T, string][]).map(([valeur, libelle]) => <Pressable
-      key={valeur} accessibilityRole="radio" accessibilityState={{ checked: selection === valeur, disabled }}
-      disabled={disabled} onPress={() => onSelect(valeur)} style={[s.option, selection === valeur && s.optionActive]}
-    ><Text style={[s.texteOption, selection === valeur && s.textePrincipal]}>{libelle}</Text></Pressable>)}
-  </View>;
-}
-
-const s = StyleSheet.create({
-  safe: { flex: 1, backgroundColor: '#f4f6f9' },
-  flexible: { flex: 1 },
-  header: { paddingHorizontal: 20, paddingVertical: 18, backgroundColor: '#fff', borderBottomWidth: 1, borderColor: '#e5e9f0', flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', gap: 8, flexWrap: 'wrap' },
-  kicker: { fontSize: 10, letterSpacing: 0.8, fontWeight: '700', color: '#66748a' },
-  titre: { fontSize: 26, fontWeight: '800', color: '#1f176a', marginTop: 4 },
-  badge: { borderRadius: 16, paddingHorizontal: 11, paddingVertical: 7, backgroundColor: '#fff0d6' },
-  badgeTexte: { fontSize: 11, fontWeight: '700', color: '#79551d' },
-  contenu: { padding: 18, paddingBottom: 32 },
-  largeur: { width: '100%', maxWidth: 760, alignSelf: 'center' },
-  information: { flexDirection: 'row', gap: 10, backgroundColor: '#fff5e3', padding: 14, borderRadius: 12, marginBottom: 22 },
-  informationTexte: { flex: 1, color: '#79551d', fontSize: 12, lineHeight: 18 },
-  attente: { padding: 35, alignItems: 'center', gap: 14 },
-  sousTitre: { fontSize: 23, fontWeight: '800', color: '#202b45', marginBottom: 6 },
-  description: { fontSize: 13, lineHeight: 19, color: '#66748a', marginBottom: 20 },
-  secondaire: { fontSize: 12, lineHeight: 18, color: '#66748a', flexShrink: 1 },
-  carte: { backgroundColor: '#fff', borderRadius: 14, padding: 18, borderWidth: 1, borderColor: '#e5e9f0', marginBottom: 14, gap: 10 },
-  ligne: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', gap: 10, flexWrap: 'wrap' },
-  nomTournee: { fontSize: 17, fontWeight: '700', color: '#202b45' },
-  statut: { fontSize: 10, fontWeight: '800', color: '#1f176a' },
-  progression: { height: 6, backgroundColor: '#edf0f5', borderRadius: 5, overflow: 'hidden' },
-  avancement: { height: 6, borderRadius: 5, backgroundColor: '#1f176a' },
-  resume: { flexDirection: 'row', flexWrap: 'wrap', gap: 10, backgroundColor: '#eaeaf6', borderRadius: 12, padding: 16, marginVertical: 10 },
-  statistique: { flexGrow: 1, minWidth: 80, gap: 4 },
-  chiffre: { fontSize: 21, fontWeight: '800', color: '#1f176a' },
-  retour: { flexDirection: 'row', alignItems: 'center', gap: 8, paddingVertical: 10, marginBottom: 12, alignSelf: 'flex-start' },
-  texteLien: { fontSize: 13, color: '#1f176a', fontWeight: '700' },
-  boutonSecondaire: { flexDirection: 'row', alignItems: 'center', justifyContent: 'center', gap: 8, padding: 14, marginBottom: 14, borderRadius: 10, borderWidth: 1, borderColor: '#cdd4e0', backgroundColor: '#fff' },
-  detailsAdresse: { fontSize: 14, fontWeight: '600', color: '#33445b', marginBottom: 14 },
-  libelle: { fontSize: 13, fontWeight: '700', color: '#33445b', marginTop: 12, marginBottom: 4 },
-  choix: { flexDirection: 'row', flexWrap: 'wrap', gap: 8 },
-  option: { flexGrow: 1, minWidth: 100, paddingVertical: 13, paddingHorizontal: 12, backgroundColor: '#f4f5f9', borderWidth: 1, borderColor: '#dce0ea', borderRadius: 9, alignItems: 'center' },
-  optionActive: { backgroundColor: '#1f176a', borderColor: '#1f176a' },
-  texteOption: { color: '#4b5870', fontWeight: '700', fontSize: 13 },
-  champ: { backgroundColor: '#fff', borderWidth: 1, borderColor: '#cdd4e0', borderRadius: 9, padding: 13, fontSize: 16, color: '#202b45' },
-  commentaire: { minHeight: 90, textAlignVertical: 'top' },
-  boutonPrincipal: { flexDirection: 'row', justifyContent: 'center', alignItems: 'center', gap: 8, backgroundColor: '#1f176a', padding: 16, borderRadius: 10, marginTop: 14 },
-  textePrincipal: { color: '#fff', fontSize: 13, fontWeight: '700' },
-  desactive: { opacity: 0.6 },
-  erreur: { color: '#a12532', fontSize: 13, lineHeight: 19, marginVertical: 10 },
-  confirmation: { backgroundColor: '#e1f1e7', color: '#276346', padding: 12, borderRadius: 8, marginBottom: 8 },
-  adresse: { flexDirection: 'row', alignItems: 'center', gap: 12, backgroundColor: '#fff', padding: 15, borderRadius: 12, borderWidth: 1, borderColor: '#e5e9f0', marginTop: 8 },
-  numero: { width: 36, height: 36, borderRadius: 18, backgroundColor: '#eeeeF8', alignItems: 'center', justifyContent: 'center' },
-  numeroTraite: { backgroundColor: '#e1f1e7' },
-  nomAdresse: { fontSize: 14, fontWeight: '700', color: '#202b45', marginBottom: 4 },
-  presse: { opacity: 0.75 },
-  stockage: { flexDirection: 'row', alignItems: 'center', gap: 8, paddingVertical: 18 },
-});

@@ -1,0 +1,12 @@
+{
+  "extends": "./tsconfig.json",
+  "include": [
+    "app/(tabs)/calendrier.tsx",
+    "components/Calendriers/**/*.tsx",
+    "types/calendriersApi.ts",
+    "utils/calendriersApi.ts",
+    "utils/calendriersConfig.ts",
+    "utils/calendriersServeur.ts",
+    "utils/calendriersConnexion*.ts"
+  ]
+}
