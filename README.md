@@ -4,7 +4,7 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
 
 ## Calendriers
 
-L’onglet **Calendriers** (`app/(tabs)/calendrier.tsx`) utilise maintenant l’API Symfony de CalendrierSP. Il propose la connexion par identifiant court d’amicale (4 à 20 lettres non accentuées ou chiffres), e-mail et mot de passe, les campagnes et les tournées autorisées pour le compte. Un sapeur ne voit que ses tournées affectées.
+L’onglet **Calendriers** (`app/(tabs)/calendrier.tsx`) utilise maintenant l’API Symfony de CalendrierSP. Il propose la connexion par identifiant court d’amicale (4 à 20 lettres non accentuées ou chiffres), e-mail et mot de passe, les campagnes et les tournées autorisées pour le compte. Un sapeur ne voit que ses tournées affectées. 
 
 Les adresses, résultats, carnets et reçus proviennent du serveur. Les résultats disponibles sont **Vente, Don, Refus, Absent, À revoir et Non visitée**. Une vente propose Espèces, Chèque, CB ou Autre. Un **Don** est un résultat distinct, avec carnet/reçu et commentaire, sans quantité, montant ni paiement. Les reçus sont sélectionnés par identifiant serveur et leur numéro est unique par amicale, toutes tournées confondues. Un reçu consommé ou annulé ne se réutilise pas ; une correction peut conserver son reçu courant. Les totaux par carnet sont ceux du serveur.
 
