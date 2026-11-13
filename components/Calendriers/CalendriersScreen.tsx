@@ -10,7 +10,7 @@ import { CalendriersApi, ErreurCalendriers } from '@/utils/calendriersApi';
 import { serveurCalendriers } from '@/utils/calendriersConfig';
 import { chargerConnexion, enregistrerConnexion, oublierConnexion } from '@/utils/calendriersConnexion';
 import type { ConnexionMemorisee } from '@/utils/calendriersConnexionCommun';
-import { couleurResultat, dateAffichee, euros, FILTRES_INITIAUX, filtrerAdresses, formulaire, logement, PAIEMENTS, payloadPassage, RESULTATS, rues } from '@/utils/calendriersServeur';
+import { couleurResultat, dateAffichee, euros, FILTRES_INITIAUX, filtrerAdresses, formulaire, logement, nomSapeur, PAIEMENTS, payloadPassage, RESULTATS, rues } from '@/utils/calendriersServeur';
 import AdresseForm from './AdresseForm';
 import BilanCalendriers from './BilanCalendriers';
 import RecuForm from './RecuForm';
@@ -33,6 +33,7 @@ export default function CalendriersScreen() {
   const [annee, setAnnee] = useState('');
   const [saisie, setSaisie] = useState<FormulairePassage | null>(null);
   const [filtres, setFiltres] = useState({ ...FILTRES_INITIAUX });
+  const [filtresOuverts, setFiltresOuverts] = useState(false);
   const [carnet, setCarnet] = useState<{ numero: string; premierRecu: string; nombreRecus: string } | null>(null);
   const [erreur, setErreur] = useState('');
   const [confirmation, setConfirmation] = useState('');
@@ -43,7 +44,7 @@ export default function CalendriersScreen() {
   const actif = useIsFocused();
 
   const vider = useCallback(() => {
-    setProfil(null); setTournees([]); setTournee(null); setSaisie(null); setCarnet(null); setConfirmation('');
+    setProfil(null); setTournees([]); setTournee(null); setSaisie(null); setCarnet(null); setFiltresOuverts(false); setConfirmation('');
     const connexion = connexionMemorisee.current;
     setAmicale(connexion?.amicale ?? ''); setEmail(connexion?.email ?? ''); setPassword(connexion?.password ?? '');
     if (connexion) setServeur(connexion.serveur);
@@ -131,6 +132,7 @@ export default function CalendriersScreen() {
   }
   async function chargerTournee(id: string) {
     const detail = await api.current!.tournee(id);
+    if (tournee?.id !== id) setFiltresOuverts(false);
     setTournee(detail); setTournees(values => values.map(t => t.id === id ? detail : t));
   }
   function actualiser() { void executer(async () => {
@@ -167,6 +169,7 @@ export default function CalendriersScreen() {
   const verrouille = tournee?.statut === 'VALIDEE';
   const adresses = tournee?.listeAdresses ?? [];
   const visibles = filtrerAdresses(adresses, filtres);
+  const filtresActifs = [filtres.rue, filtres.statut, filtres.carnet, filtres.recu.trim()].filter(Boolean).length;
   const update = (patch: Partial<FormulairePassage>) => setSaisie(value => value && ({ ...value, ...patch }));
   const totaux = tournees.filter(t => !annee || t.dateDebut.slice(0, 4) === annee);
   return <SafeAreaView edges={['top', 'left', 'right']} style={s.safe}>
@@ -208,6 +211,7 @@ export default function CalendriersScreen() {
             {!totaux.length && <Text style={s.secondaire}>Aucune tournée pour cette campagne. Un sapeur voit uniquement ses tournées affectées.</Text>}
             {totaux.map(t => <Carte key={t.id}>
               <Text style={s.nom}>{t.nom}</Text><Text style={s.secondaire}>{t.secteur} · {dateAffichee(t.dateDebut)} · {STATUTS[t.statut]}</Text>
+              <Text style={s.secondaire}>Équipe : {(t.equipe ?? []).map(nomSapeur).join(', ') || 'Aucun sapeur affecté'}</Text>
               <Text style={s.secondaire}>{t.traitees}/{t.adresses} adresses traitées · {euros(t.montant)}</Text>
               <BilanCalendriers tournee={t} />
               <Bouton secondaire disabled={chargement} onPress={() => { setConfirmation(''); setFiltres({ ...FILTRES_INITIAUX }); void executer(() => chargerTournee(t.id)); }}>{`Ouvrir ${t.nom}`}</Bouton>
@@ -216,6 +220,7 @@ export default function CalendriersScreen() {
           </> : <>
             <Text accessibilityRole="header" style={s.sousTitre}>{tournee.nom}</Text>
             <Text style={s.secondaire}>{tournee.secteur} · {STATUTS[tournee.statut]} · {tournee.traitees}/{tournee.adresses} traitées · {euros(tournee.montant)}</Text>
+            <Text style={s.secondaire}>Équipe : {(tournee.equipe ?? []).map(nomSapeur).join(', ') || 'Aucun sapeur affecté'}</Text>
             <Carte><BilanCalendriers tournee={tournee} /></Carte>
             {verrouille && <Text style={s.confirmation}>Tournée validée : consultation uniquement.</Text>}
             {saisie ? <Carte>
@@ -244,7 +249,8 @@ export default function CalendriersScreen() {
                 <Bouton disabled={chargement} onPress={() => { setErreur(''); setConfirmation(''); setSaisie(formulaire('new', null)); }}>Nouvelle adresse</Bouton>
                 {profil.canManage && <Bouton secondaire disabled={chargement} onPress={() => { setErreur(''); setCarnet({ numero: '', premierRecu: '', nombreRecus: '25' }); }}>Ajouter un carnet</Bouton>}
               </>}
-              <Carte>
+              <Bouton secondaire expanded={filtresOuverts} onPress={() => setFiltresOuverts(value => !value)}>{`${filtresOuverts ? 'Masquer les filtres' : 'Afficher les filtres et le tri'}${filtresActifs ? ` (${filtresActifs} actif${filtresActifs > 1 ? 's' : ''})` : ''}`}</Bouton>
+              {filtresOuverts && <Carte>
                 <Selecteur label="Rue" value={filtres.rue} disabled={chargement} options={ [['', 'Toutes les rues'], ...rues(adresses)] } onChange={rue => setFiltres({ ...filtres, rue })} />
                 <Selecteur label="Filtrer par résultat" value={filtres.statut} disabled={chargement} options={ [['', 'Tous les résultats'], ...Object.entries(RESULTATS)] } onChange={statut => setFiltres({ ...filtres, statut })} />
                 <Selecteur label="Filtrer par carnet" value={filtres.carnet} disabled={chargement} options={ [['', 'Tous les carnets'], ['sans-carnet', 'Sans carnet'], ...tournee.carnets.map(c => [c.id, c.numero] as [string, string])] } onChange={carnet => setFiltres({ ...filtres, carnet })} />
@@ -252,7 +258,7 @@ export default function CalendriersScreen() {
                 <Selecteur label="Trier par" value={filtres.tri} disabled={chargement} options={ [['adresse', 'Adresse'], ['montant', 'Montant'], ['resultat', 'Résultat']] } onChange={tri => setFiltres({ ...filtres, tri: tri as typeof filtres.tri })} />
                 <Selecteur label="Ordre" value={filtres.decroissant ? 'desc' : 'asc'} disabled={chargement} options={ [['asc', 'Croissant'], ['desc', 'Décroissant']] } onChange={value => setFiltres({ ...filtres, decroissant: value === 'desc' })} />
                 <Bouton secondaire onPress={() => setFiltres({ ...FILTRES_INITIAUX })}>Réinitialiser les filtres</Bouton>
-              </Carte>
+              </Carte>}
               <Text accessibilityLiveRegion="polite" style={s.libelle}>{visibles.length} / {adresses.length} adresses affichées</Text>
               {!adresses.length && <Text style={s.secondaire}>Aucune adresse dans ce secteur. Vous pouvez ajouter une nouvelle adresse.</Text>}
               {!!adresses.length && !visibles.length && <Text style={s.secondaire}>Aucune adresse ne correspond aux filtres.</Text>}
@@ -264,10 +270,10 @@ export default function CalendriersScreen() {
                 {a.passage?.recu && <Text style={s.secondaire}>Carnet {a.passage.recu.carnetNumero} · Reçu n° {a.passage.recu.numero}</Text>}
                 {a.passage && ['VENTE', 'DON'].includes(a.passage.statut) && !a.passage.recu && <Text style={s.erreur}>Reçu à renseigner lors d’une correction.</Text>}
                 {!!a.passage?.commentaire && <Text style={s.secondaire}>{a.passage.commentaire}</Text>}
-                {!verrouille && <>
-                  <Bouton secondaire disabled={chargement} onPress={() => { setErreur(''); setConfirmation(''); setSaisie(formulaire('existing', a)); }}>{`${a.passage ? 'Modifier' : 'Saisir'} · ${a.ligne1}`}</Bouton>
-                  <Bouton secondaire disabled={chargement} onPress={() => { setErreur(''); setConfirmation(''); setSaisie(formulaire('duplicate', a)); }}>{`Ajouter un appartement · ${a.ligne1}`}</Bouton>
-                </>}
+                {!verrouille && <View style={s.actionsAdresse}>
+                  <Bouton compact secondaire disabled={chargement} accessibilityLabel={`${a.passage ? 'Modifier' : 'Saisir'} le passage · ${a.ligne1} ${logement(a)}`} onPress={() => { setErreur(''); setConfirmation(''); setSaisie(formulaire('existing', a)); }}>{a.passage ? 'Modifier' : 'Saisir'}</Bouton>
+                  <Bouton compact secondaire disabled={chargement} accessibilityLabel={`Ajouter un appartement · ${a.ligne1} ${logement(a)}`} onPress={() => { setErreur(''); setConfirmation(''); setSaisie(formulaire('duplicate', a)); }}>＋ Appartement</Bouton>
+                </View>}
               </Carte>)}
             </>}
           </>}

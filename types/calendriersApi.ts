@@ -1,11 +1,12 @@
 export type StatutPassage = 'NON_VISITEE' | 'VENTE' | 'DON' | 'REFUS' | 'ABSENT' | 'A_REVOIR';
 export type Paiement = 'ESPECES' | 'CHEQUE' | 'CB' | 'AUTRE';
-export type Profil = { id: string; email: string; canManage: boolean; roles: string[]; amicale: { id: string; identifiant: string; nom: string; departement: string; campagne: number } };
+export type Membre = { id: string; email: string; nom: string | null; roles: string[]; active: boolean };
+export type Profil = { id: string; email: string; nom: string | null; canManage: boolean; roles: string[]; amicale: { id: string; identifiant: string; nom: string; departement: string; campagne: number } };
 export type Recu = { id: string; numero: number; utilise: boolean; annule: boolean };
 export type Carnet = { id: string; numero: string; premierRecu: number; dernierRecu: number; nombreRecus: number; recusUtilises: number; recusDisponibles: number; ventes: number; dons: number; recusAnnules: number; montant: string; recus?: Recu[] };
 export type Passage = { id: string; adresseId: string; statut: StatutPassage; nbCalendriers: number; montant: string; moyenPaiement: Paiement | null; commentaire: string | null; datePassage: string; updatedAt: string; recu: { id: string; numero: number; carnetId: string; carnetNumero: string } | null };
 export type Logement = { batiment: string | null; etage: string | null; appartement: string | null; porte: string | null };
 export type Adresse = Logement & { id: string; ligne1: string; codePostal: string; ville: string; complement: string | null; latitude: number | null; longitude: number | null; passage: Passage | null };
-export type Tournee = { id: string; nom: string; secteur: string; dateDebut: string; statut: 'PREPAREE' | 'EN_COURS' | 'TERMINEE' | 'VALIDEE'; adresses: number; traitees: number; progression: number; stockCalendriers: number; calendriersVendus: number; calendriersDonnes: number; calendriersDistribues: number; montant: string; carnets: Carnet[]; listeAdresses?: Adresse[] };
+export type Tournee = { id: string; nom: string; secteur: string; dateDebut: string; statut: 'PREPAREE' | 'EN_COURS' | 'TERMINEE' | 'VALIDEE'; equipe: Membre[]; adresses: number; traitees: number; progression: number; stockCalendriers: number; calendriersVendus: number; calendriersDonnes: number; calendriersDistribues: number; montant: string; carnets: Carnet[]; listeAdresses?: Adresse[] };
 export type FormulairePassage = { mode: 'existing' | 'new' | 'duplicate'; source: Adresse | null; ligne1: string; codePostal: string; ville: string; batiment: string; etage: string; appartement: string; porte: string; statut: StatutPassage; datePassage: string; quantite: string; montant: string; moyenPaiement: Paiement; commentaire: string; carnetId: string; recuId: string };
 export type Filtres = { rue: string; statut: string; carnet: string; recu: string; tri: 'adresse' | 'montant' | 'resultat'; decroissant: boolean };

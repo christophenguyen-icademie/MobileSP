@@ -2,9 +2,11 @@ import { Picker } from '@react-native-picker/picker';
 import type { ReactNode } from 'react';
 import { ActivityIndicator, Pressable, StyleSheet, Text, TextInput, View } from 'react-native';
 
-export function Bouton({ children, onPress, disabled = false, secondaire = false }: { children: string; onPress: () => void; disabled?: boolean; secondaire?: boolean }) {
-  return <Pressable accessibilityRole="button" accessibilityState={{ disabled }} disabled={disabled} onPress={onPress}
-    style={[s.bouton, secondaire && s.secondaireBouton, disabled && s.desactive]}><Text style={secondaire ? s.lien : s.texteBouton}>{children}</Text></Pressable>;
+export function Bouton({ children, onPress, disabled = false, secondaire = false, compact = false, accessibilityLabel, expanded }: {
+  children: string; onPress: () => void; disabled?: boolean; secondaire?: boolean; compact?: boolean; accessibilityLabel?: string; expanded?: boolean;
+}) {
+  return <Pressable accessibilityRole="button" accessibilityLabel={accessibilityLabel ?? children} accessibilityState={{ disabled, expanded }} disabled={disabled} onPress={onPress}
+    style={[s.bouton, secondaire && s.secondaireBouton, compact && s.boutonCompact, disabled && s.desactive]}><Text style={secondaire ? s.lien : s.texteBouton}>{children}</Text></Pressable>;
 }
 export function Champ({ label, value, onChange, disabled = false, longueur, clavier = 'default', secret = false, aide }: {
   label: string; value: string; onChange: (value: string) => void; disabled?: boolean; longueur?: number;
@@ -40,6 +42,8 @@ export const s = StyleSheet.create({
   selecteur: { borderWidth: 1, borderColor: '#cdd4e0', borderRadius: 9, overflow: 'hidden' },
   picker: { color: '#202b45', backgroundColor: '#fff', width: '100%', minHeight: 48 },
   bouton: { padding: 14, borderRadius: 9, backgroundColor: '#1f176a', alignItems: 'center', justifyContent: 'center' },
+  boutonCompact: { minHeight: 44, paddingVertical: 10, paddingHorizontal: 12, flexShrink: 1 },
+  actionsAdresse: { flexDirection: 'row', flexWrap: 'wrap', gap: 8 },
   secondaireBouton: { backgroundColor: '#fff', borderWidth: 1, borderColor: '#cdd4e0' },
   texteBouton: { color: '#fff', fontSize: 14, fontWeight: '700' }, lien: { color: '#1f176a', fontSize: 14, fontWeight: '700' },
   desactive: { opacity: 0.5 }, erreur: { color: '#a12532', backgroundColor: '#fff0f1', padding: 12, borderRadius: 8, lineHeight: 20 },

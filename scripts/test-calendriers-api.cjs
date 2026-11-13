@@ -95,13 +95,28 @@ test('Le client appelle fetch sans lui imposer le contexte de son instance', asy
   assert.equal(await client.session(), null);
 });
 
-test('Le tri par adresse compare uniquement le numéro et ignore les suffixes, dans les deux sens', () => {
+test('Dans une rue, le tri compare le numéro et ignore les suffixes, dans les deux sens', () => {
   const lines = ['171 rue Exemple', '3t rue Exemple', '2 rue Exemple', '3 ter rue Exemple', '10 rue Exemple', '3 rue Exemple', ' 003 bis rue Exemple'];
   const addresses = lines.map((ligne1, i) => ({ ...address, id: String(i), ligne1 }));
   const sort = (decroissant = false) => rules.filtrerAdresses(addresses, { ...rules.FILTRES_INITIAUX, decroissant }).map(a => a.ligne1);
   assert.deepEqual(sort(), [lines[2], lines[1], lines[3], lines[5], lines[6], lines[4], lines[0]]);
   assert.deepEqual(sort(true), [lines[0], lines[4], lines[1], lines[3], lines[5], lines[6], lines[2]]);
   assert.deepEqual(addresses.map(a => a.ligne1), lines, 'Le tri ne modifie pas les données sources');
-  const withoutNumber = { ...address, id: 'without-number', ligne1: 'Place de la Mairie' };
+  const withoutNumber = { ...address, id: 'without-number', ligne1: 'rue Exemple' };
   assert.equal(rules.filtrerAdresses([withoutNumber, ...addresses], rules.FILTRES_INITIAUX).at(-1).id, withoutNumber.id);
+});
+
+test('Le tri groupe les rues avant de comparer leurs numéros et garde les filtres combinés', () => {
+  const lines = ['2 rue Zola', '171 rue Alpha', '3t rue Alpha', '2 rue Alpha', '3 ter RUE Alpha', '10 rue Zola', '3 rue Alpha'];
+  const addresses = lines.map((ligne1, i) => ({ ...address, id: String(i), ligne1 }));
+  const sorted = rules.filtrerAdresses(addresses, rules.FILTRES_INITIAUX);
+  assert.deepEqual(sorted.map(a => a.id), ['3', '2', '4', '6', '1', '0', '5']);
+  assert.deepEqual(rules.filtrerAdresses(addresses, { ...rules.FILTRES_INITIAUX, decroissant: true }).map(a => a.id), ['5', '0', '1', '2', '4', '6', '3']);
+  assert.deepEqual(rules.filtrerAdresses(addresses, { ...rules.FILTRES_INITIAUX, rue: 'rue alpha', carnet: 'c1', recu: '102' }).map(a => a.id), ['3', '2', '4', '6', '1']);
+  assert.deepEqual(addresses.map(a => a.ligne1), lines);
+});
+
+test('Les équipes affichent le nom renseigné et gardent un libellé pour les anciens comptes', () => {
+  assert.equal(rules.nomSapeur({ nom: 'Élodie Martin', email: 'login@example.test' }), 'Élodie Martin');
+  assert.equal(rules.nomSapeur({ nom: null, email: 'ancien@example.test' }), 'ancien@example.test');
 });

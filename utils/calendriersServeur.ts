@@ -3,6 +3,7 @@ import type { Adresse, Carnet, Filtres, FormulairePassage, StatutPassage } from 
 export const RESULTATS: Record<StatutPassage, string> = { VENTE: 'Vente', DON: 'Don', REFUS: 'Refus', ABSENT: 'Absent', A_REVOIR: 'À revoir', NON_VISITEE: 'Non visitée' };
 export const PAIEMENTS = { ESPECES: 'Espèces', CHEQUE: 'Chèque', CB: 'CB', AUTRE: 'Autre' } as const;
 export const LOGEMENT = { batiment: 'Bâtiment', etage: 'Étage', appartement: 'Appartement', porte: 'Porte' } as const;
+export const nomSapeur = (sapeur: { nom?: string | null; email: string }) => sapeur.nom?.trim() || sapeur.email;
 export const FILTRES_INITIAUX: Filtres = { rue: '', statut: '', carnet: '', recu: '', tri: 'adresse', decroissant: false };
 export const euros = (montant: string) => new Intl.NumberFormat('fr-FR', { style: 'currency', currency: 'EUR' }).format(Number(montant));
 export const dateAffichee = (date: string) => date.split('-').reverse().join('/');
@@ -67,7 +68,9 @@ const compare = new Intl.Collator('fr', { numeric: true, sensitivity: 'base' }).
 export const rue = (a: Adresse) => a.ligne1.replace(/^\s*\d+(?:\s*(?:bis|ter|quater|quinquies|[a-z])(?=\s|[-/]|$))?(?:\s*[-/]\s*\d+(?:\s*(?:bis|ter|quater|quinquies|[a-z])(?=\s|$))?)?\s+/iu, '').trim().replace(/\s+/g, ' ');
 export const cleRue = (value: string) => value.normalize('NFC').toLocaleLowerCase('fr');
 export function rues(adresses: Adresse[]) { return [...new Map(adresses.map(a => [cleRue(rue(a)), rue(a)])).entries()].sort((a, b) => compare(a[1], b[1])); }
-function comparerNumerosAdresses(a: Adresse, b: Adresse): number {
+export function comparerAdresses(a: Adresse, b: Adresse): number {
+  const voie = compare(rue(a), rue(b));
+  if (voie) return voie;
   const numeroA = a.ligne1.match(/^\s*(\d+)/u);
   const numeroB = b.ligne1.match(/^\s*(\d+)/u);
   // Les suffixes sont ignorés ; un même numéro conserve l’ordre d’origine.
@@ -81,7 +84,7 @@ export function filtrerAdresses(adresses: Adresse[], f: Filtres) {
     && (!f.carnet || (f.carnet === 'sans-carnet' ? !a.passage?.recu : a.passage?.recu?.carnetId === f.carnet))
     && (!f.recu.trim() || (/^\d+$/.test(f.recu.trim()) && a.passage?.recu?.numero === Number(f.recu.trim()))))
     .sort((a, b) => {
-      const adresse = comparerNumerosAdresses(a, b);
+      const adresse = comparerAdresses(a, b);
       const result = f.tri === 'montant' ? Number(a.passage?.montant ?? 0) - Number(b.passage?.montant ?? 0)
         : f.tri === 'resultat' ? compare(RESULTATS[a.passage?.statut ?? 'NON_VISITEE'], RESULTATS[b.passage?.statut ?? 'NON_VISITEE']) : adresse;
       return (result || adresse) * (f.decroissant ? -1 : 1);
