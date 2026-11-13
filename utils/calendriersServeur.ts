@@ -13,7 +13,7 @@ export const couleurResultat = (statut: StatutPassage) => ['VENTE', 'DON'].inclu
 
 export function formulaire(mode: FormulairePassage['mode'], source: Adresse | null): FormulairePassage {
   const p = mode === 'existing' ? source?.passage : null;
-  return { mode, source, ligne1: source?.ligne1 ?? '', codePostal: source?.codePostal ?? '', ville: source?.ville ?? '',
+  return { mode, source, numero: '', ligne1: source?.ligne1 ?? '', codePostal: source?.codePostal ?? '', ville: source?.ville ?? '',
     batiment: mode === 'existing' ? source?.batiment ?? '' : '', etage: mode === 'existing' ? source?.etage ?? '' : '',
     appartement: mode === 'existing' ? source?.appartement ?? '' : '', porte: mode === 'existing' ? source?.porte ?? '' : '',
     statut: p?.statut ?? 'VENTE', datePassage: dateAffichee(p?.datePassage ?? dateLocale()), quantite: String(p?.nbCalendriers || 1),
@@ -40,8 +40,10 @@ export function payloadPassage(f: FormulairePassage, carnets: Carnet[], aujourdH
     return [key, value || null];
   }));
   if (f.mode === 'duplicate' && !Object.values(housing).some(Boolean)) throw new Error('Précisez le logement du nouvel appartement.');
-  const address = f.mode === 'new' ? { ligne1: f.ligne1.trim(), codePostal: f.codePostal.trim(), ville: f.ville.trim() } : {};
-  if (f.mode === 'new' && (!address.ligne1 || address.ligne1.length > 180 || !address.codePostal || address.codePostal.length > 10 || !address.ville || address.ville.length > 120)) {
+  const newAddress = f.mode === 'new' || f.mode === 'same-street';
+  if (f.mode === 'same-street' && !f.source) throw new Error('Choisissez une adresse de la rue.');
+  const address = newAddress ? { ligne1: f.mode === 'same-street' ? adresseAvecNumero(f.source!, f.numero) : f.ligne1.trim(), codePostal: f.codePostal.trim(), ville: f.ville.trim() } : {};
+  if (newAddress && (!address.ligne1 || address.ligne1.length > 180 || !address.codePostal || address.codePostal.length > 10 || !address.ville || address.ville.length > 120)) {
     throw new Error('Renseignez le numéro et la voie, le code postal et la ville.');
   }
   if (f.commentaire.trim().length > 2000) throw new Error('Le commentaire est limité à 2 000 caractères.');
@@ -66,6 +68,15 @@ export function payloadPassage(f: FormulairePassage, carnets: Carnet[], aujourdH
 
 const compare = new Intl.Collator('fr', { numeric: true, sensitivity: 'base' }).compare;
 export const rue = (a: Adresse) => a.ligne1.replace(/^\s*\d+(?:\s*(?:bis|ter|quater|quinquies|[a-z])(?=\s|[-/]|$))?(?:\s*[-/]\s*\d+(?:\s*(?:bis|ter|quater|quinquies|[a-z])(?=\s|$))?)?\s+/iu, '').trim().replace(/\s+/g, ' ');
+export function adresseAvecNumero(source: Adresse, numero: string): string {
+  const value = numero.trim().replace(/\s+/gu, ' ');
+  if (!/^\d+(?:\s*(?:bis|ter|quater|quinquies|[a-z]))?(?:\s*[-/]\s*\d+(?:\s*(?:bis|ter|quater|quinquies|[a-z]))?)?$/iu.test(value)) {
+    throw new Error('Saisissez un numéro valide, par exemple 12, 12 bis ou 3 ter.');
+  }
+  const ligne1 = `${value} ${rue(source)}`;
+  if (ligne1.length > 180) throw new Error('Le numéro et la rue sont limités à 180 caractères.');
+  return ligne1;
+}
 export const cleRue = (value: string) => value.normalize('NFC').toLocaleLowerCase('fr');
 export function rues(adresses: Adresse[]) { return [...new Map(adresses.map(a => [cleRue(rue(a)), rue(a)])).entries()].sort((a, b) => compare(a[1], b[1])); }
 export function comparerAdresses(a: Adresse, b: Adresse): number {

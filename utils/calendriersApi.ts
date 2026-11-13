@@ -1,4 +1,4 @@
-import type { Adresse, Carnet, Passage, Profil, Tournee } from '@/types/calendriersApi';
+import type { Adresse, Carnet, FormulairePassage, Passage, Profil, Tournee } from '@/types/calendriersApi';
 
 export class ErreurCalendriers extends Error {
   constructor(message: string, public status: number, public code = '') { super(message); }
@@ -58,9 +58,9 @@ export class CalendriersApi {
   async logout() { await this.request('/logout', 'POST', {}); this.csrf = ''; }
   tournees() { return this.request<Tournee[]>('/mobile/tournees'); }
   tournee(id: string) { return this.request<Tournee>(`/mobile/tournees/${encodeURIComponent(id)}/adresses`); }
-  async enregistrer(tourneeId: string, mode: 'existing' | 'new' | 'duplicate', adresseId: string | undefined, payload: unknown) {
+  async enregistrer(tourneeId: string, mode: FormulairePassage['mode'], adresseId: string | undefined, payload: unknown) {
     const base = `/tournees/${encodeURIComponent(tourneeId)}`;
-    const path = mode === 'new' ? `${base}/adresses` : mode === 'duplicate'
+    const path = mode === 'new' || mode === 'same-street' ? `${base}/adresses` : mode === 'duplicate'
       ? `${base}/adresses/${encodeURIComponent(adresseId!)}/dupliquer` : `${base}/passages/${encodeURIComponent(adresseId!)}`;
     return this.request<Adresse | Passage>(path, mode === 'existing' ? 'PUT' : 'POST', payload);
   }

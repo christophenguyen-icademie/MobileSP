@@ -25,6 +25,23 @@ test('Un nouvel appartement copie la voie et vide les quatre précisions, le pas
   assert.deepEqual(rules.recusSelectionnables(books[0], f).map(r => r.id), ['r2']);
   assert.throws(() => rules.payloadPassage({ ...f, statut: 'ABSENT' }, books), /logement/);
 });
+test('Un nouveau numéro garde la rue et la commune et démarre un passage indépendant', () => {
+  const original = JSON.stringify(address);
+  const f = rules.formulaire('same-street', address);
+  for (const key of ['numero', 'batiment', 'etage', 'appartement', 'porte', 'carnetId', 'recuId', 'commentaire', 'montant']) assert.equal(f[key], '');
+  assert.equal(f.codePostal, address.codePostal); assert.equal(f.ville, address.ville);
+  assert.deepEqual(rules.recusSelectionnables(books[0], f).map(r => r.id), ['r2']);
+  for (const numero of ['', ' ', '-2', '1.5', '3 rue Autre']) assert.throws(() => rules.payloadPassage({ ...f, numero, statut: 'ABSENT' }, books), /numéro valide/);
+  const payload = rules.payloadPassage({ ...f, numero: ' 3   ter ', statut: 'ABSENT' }, books);
+  assert.equal(payload.ligne1, '3 ter Rue Traversière');
+  assert.equal(payload.codePostal, address.codePostal); assert.equal(payload.ville, address.ville);
+  for (const key of ['batiment', 'etage', 'appartement', 'porte', 'recuId', 'commentaire']) assert.equal(payload[key], null);
+  for (const ligne1 of ['12bis rue du 8 Mai 1945', '12 ter rue du 8 Mai 1945', 'rue du 8 Mai 1945']) {
+    assert.equal(rules.adresseAvecNumero({ ...address, ligne1 }, '171B'), '171B rue du 8 Mai 1945');
+  }
+  assert.throws(() => rules.adresseAvecNumero({ ...address, ligne1: `1 ${'r'.repeat(178)}` }, '171'), /180 caractères/);
+  assert.equal(JSON.stringify(address), original);
+});
 test('Une correction garde le reçu courant ; un don envoie zéro et aucun paiement', () => {
   const f = rules.formulaire('existing', address);
   assert.deepEqual(rules.recusSelectionnables(books[0], f).map(r => r.id), ['r1', 'r2']);
@@ -66,11 +83,14 @@ test('Le client utilise les cookies, le CSRF et les routes atomiques, sans rejou
   await client.enregistrer('tour', 'existing', 'address', { statut: 'ABSENT' });
   await client.enregistrer('tour', 'duplicate', 'address', { statut: 'ABSENT' });
   await client.enregistrer('tour', 'new', undefined, { statut: 'ABSENT' });
+  await client.enregistrer('tour', 'same-street', 'address', { statut: 'ABSENT', ligne1: '3 ter Rue Traversière' });
   assert(calls.every(c => c.options.credentials === 'include'));
   const writes = calls.filter(c => c.options.method !== 'GET');
   assert(writes.every(c => c.options.headers['X-CSRF-Token'] === 'csrf-test'));
   assert.equal(writes[1].options.method, 'PUT'); assert(writes[1].url.endsWith('/tournees/tour/passages/address'));
   assert(writes[2].url.endsWith('/tournees/tour/adresses/address/dupliquer')); assert(writes[3].url.endsWith('/tournees/tour/adresses'));
+  assert.equal(writes[4].options.method, 'POST'); assert(writes[4].url.endsWith('/tournees/tour/adresses'));
+  assert.equal(JSON.parse(writes[4].options.body).ligne1, '3 ter Rue Traversière');
   let count = 0;
   const offline = new CalendriersApi('http://localhost', async () => { count++; throw new TypeError('offline'); });
   await assert.rejects(offline.enregistrer('t', 'new', undefined, {}), /Actualisez la tournée/); assert.equal(count, 1);

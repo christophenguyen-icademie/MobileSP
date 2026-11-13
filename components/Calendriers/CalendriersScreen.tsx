@@ -224,7 +224,7 @@ export default function CalendriersScreen() {
             <Carte><BilanCalendriers tournee={tournee} /></Carte>
             {verrouille && <Text style={s.confirmation}>Tournée validée : consultation uniquement.</Text>}
             {saisie ? <Carte>
-              <Text accessibilityRole="header" style={s.sousTitre}>{saisie.mode === 'new' ? 'Nouvelle adresse' : saisie.mode === 'duplicate' ? 'Ajouter un appartement' : 'Saisie du passage'}</Text>
+              <Text accessibilityRole="header" style={s.sousTitre}>{saisie.mode === 'same-street' ? 'Nouveau numéro dans la rue' : saisie.mode === 'new' ? 'Nouvelle adresse' : saisie.mode === 'duplicate' ? 'Ajouter un appartement' : 'Saisie du passage'}</Text>
               <AdresseForm saisie={saisie} onChange={update} disabled={chargement || verrouille} />
               <Champ label="Date du passage" value={saisie.datePassage} onChange={datePassage => update({ datePassage })} disabled={chargement || verrouille} longueur={10} aide="JJ/MM/AAAA, aujourd’hui ou une date antérieure" />
               <Selecteur label="Résultat du passage" value={saisie.statut} disabled={chargement || verrouille} options={Object.entries(RESULTATS)} onChange={statut => update({ statut: statut as FormulairePassage['statut'] })} />
@@ -273,6 +273,7 @@ export default function CalendriersScreen() {
                 {!verrouille && <View style={s.actionsAdresse}>
                   <Bouton compact secondaire disabled={chargement} accessibilityLabel={`${a.passage ? 'Modifier' : 'Saisir'} le passage · ${a.ligne1} ${logement(a)}`} onPress={() => { setErreur(''); setConfirmation(''); setSaisie(formulaire('existing', a)); }}>{a.passage ? 'Modifier' : 'Saisir'}</Bouton>
                   <Bouton compact secondaire disabled={chargement} accessibilityLabel={`Ajouter un appartement · ${a.ligne1} ${logement(a)}`} onPress={() => { setErreur(''); setConfirmation(''); setSaisie(formulaire('duplicate', a)); }}>＋ Appartement</Bouton>
+                  <Bouton compact secondaire disabled={chargement} accessibilityLabel={`Ajouter un numéro dans la même rue · ${a.ligne1}`} onPress={() => { setErreur(''); setConfirmation(''); setSaisie(formulaire('same-street', a)); }}>＋ Numéro</Bouton>
                 </View>}
               </Carte>)}
             </>}
